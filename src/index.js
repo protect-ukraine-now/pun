@@ -3,9 +3,9 @@ import { Provider } from '@preact/prerender-data-provider'
 // import Header from './header'
 
 // Code-splitting is automated for routes
-import Home from '../routes/home'
-import Report from '../routes/report'
-import NotFoundPage from '../routes/notfound'
+import Home from './routes/home'
+import Report from './routes/report'
+import NotFoundPage from './routes/notfound'
 
 export default function App(props) {
 	// console.log('App', props)
