@@ -14,7 +14,13 @@
     "test": "jest"
   },
   "eslintConfig": {
-    "extends": "eslint-config-synacor"
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "rules": {
+      "no-unused-vars": "off"
+    }
   },
   "eslintIgnore": [
     "build/*"

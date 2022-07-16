@@ -1,4 +1,5 @@
-const getData = require('./src/data/get')
+import getData from './src/data/get'
+// const getData = require('./src/data/get')
 // const { generateFileList } = require('./src/crawler');
 // const { join } = require('path');
 // const fs = require('fs')
