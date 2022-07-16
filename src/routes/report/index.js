@@ -1,6 +1,6 @@
 import { Link } from 'preact-router'
 import { usePrerenderData } from '@preact/prerender-data-provider'
-import Dashboard from "../../components/Dashboard"
+import Dashboard from "../../components/dashboard"
 
 export default function Report(props) {
 	const [data, isLoading] = usePrerenderData(props)
