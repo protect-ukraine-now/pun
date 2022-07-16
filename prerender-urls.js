@@ -1,5 +1,4 @@
-import getData from './src/data/get'
-// const getData = require('./src/data/get')
+const { prepareReports } = require('./src/data')
 // const { generateFileList } = require('./src/crawler');
 // const { join } = require('path');
 // const fs = require('fs')
@@ -8,15 +7,25 @@ import getData from './src/data/get'
 // const [blogs] = generateFileList(join(__dirname, 'content')).nodes;
 module.exports = async () => {
 	try {
-		const data = await getData()
+		const reports = await prepareReports()
+		console.log('reports', reports)
 
 		const pages = [
 			{
 				url: '/',
 				// seo: { cover: '/assets/profile.jpg'	},
+				// data: reports[reports.length - 1],
 			},
 			{ url: '/contact/' },
-			{ url: '/contact/success' }
+			{ url: '/contact/success' },
+			// ...reports.map(({ date, ...rest }) => ({
+			// 	url: `/report/${date}`,
+			// 	// seo: blog.details,
+			// 	data: {
+			// 		date,
+			// 		...rest
+			// 	},
+			// }))
 		]
 	
 		// adding blogs list posts page

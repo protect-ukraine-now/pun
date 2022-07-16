@@ -1,8 +1,4 @@
-import { h } from "preact"
-
-function ValueAndDelta({ value, delta, sources }) {
-	return `${value} (+${delta})`
-}
+import { h } from 'preact'
 
 const mock = [
 	{ 
@@ -21,15 +17,20 @@ const mock = [
 	},
 ]	
 
+function valueAndDelta({ value, delta, sources }) {
+	return `${value} (+${delta})`
+}
+
 export default function Dashboard({ data = mock }) {
+	console.log('Dashboard', data)
 	return (
 		<table>
-			<tr><th /><th>USA</th><th>Total</th></tr>
+			<tr><th /><th>USA</th><th>Rest</th></tr>
 			{data.map(({ category, values }) => (
 				<tr key={category}>
 					<td>{category}</td>
-					<td><ValueAndDelta {...values[0]} /></td>
-					<td><ValueAndDelta {...values[1]} /></td>
+					<td>{valueAndDelta(values[0])}</td>
+					<td>{valueAndDelta(values[1])}</td>
 				</tr>
 			))}
 		</table>
