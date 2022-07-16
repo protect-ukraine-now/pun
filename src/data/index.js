@@ -1,5 +1,19 @@
 const fs = require('fs')
-const { defaultTo } = require('rambda')
+
+const CATEGORIES = [
+    'Towed Artillery',
+    'Self-Propelled Artillery',
+    'Multiple Launch Rocket System',
+    'Guided MLRS',
+    'Surface-to-Air Missile System',
+    'Vessel',
+    'Helicopter',
+    'Aircraft',
+    'Tank',
+    'Infantry Fighting Vehicle',
+    'Armored Personnel Carrier',
+    'Mine-Resistant Ambush Protected',
+]
 
 const SPREADSHEET_ID = '1zJuvhRLAKPuVrtaA-xTm2KvVwRZjInDuA4M9k7HZT1E'
 const RANGE = "'Weapons'"
@@ -23,21 +37,24 @@ async function loadData() {
 }
 
 function weeklyReport(asOf, data) {
-    const prev = formatDate(asOf - 7*DAY)
+    const from = formatDate(asOf - 7*DAY)
+    const till = formatDate(asOf)
     let byCategory = data.slice(1).reduce((accumulator, r) => {
         let [date, author, reviewer, status, country, category, type, qty, qty2, notes, source] = r
-        let values = accumulator[category] || [{}, {}]
-        accumulator[category] = values
-        let index = country === 'US' ? 0 : 1
-        let x = values[index]
-        x.value = (x.value || 0) + +qty
-        if (date > prev) {
-            x.delta = (x.delta || 0) + +qty
+        if (date <= till && (status === 'Draft' || status === 'Approved')) {
+            let values = accumulator[category] || [{}, {}]
+            accumulator[category] = values
+            let index = country === 'US' ? 0 : 1
+            let x = values[index]
+            x.value = (x.value || 0) + +qty
+            if (date > from) {
+                x.delta = (x.delta || 0) + +qty
+            }
         }
         return accumulator
     }, {})
     
-    return Object.keys(byCategory).map(category => ({ 
+    return CATEGORIES.map(category => ({
         category, 
         values: byCategory[category],
     }))

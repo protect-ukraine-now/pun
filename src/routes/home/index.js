@@ -1,10 +1,9 @@
-import { h } from "preact"
 import { useEffect } from 'preact/hooks'
-import style from "./style"
 import Report from '../report'
 
 export default function Home(props) {
-	console.log('Home', props, Report)
+	// console.log('Home', props)
+
 	/**
 	 * Netlify CMS's accept invite link land on home page.
 	 * This redirection takes it to the right place(/admin).
@@ -16,6 +15,6 @@ export default function Home(props) {
 		}
 	}, [])
 
-	// return <Report {...props} />
-	return 'Home'
+	return <Report {...props} />
+	// return 'Home'
 }

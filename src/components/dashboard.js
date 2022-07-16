@@ -1,5 +1,3 @@
-import { h } from 'preact'
-
 const mock = [
 	{ 
 		category: 'Towed Artillery',
@@ -18,11 +16,11 @@ const mock = [
 ]	
 
 function valueAndDelta({ value, delta, sources }) {
-	return `${value} (+${delta})`
+	return (value | 0) + (delta ? `(+${delta})` : '')
 }
 
 export default function Dashboard({ data = mock }) {
-	console.log('Dashboard', data)
+	// console.log('Dashboard', data)
 	return (
 		<table>
 			<tr><th /><th>USA</th><th>Rest</th></tr>

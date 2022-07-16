@@ -14,18 +14,18 @@ module.exports = async () => {
 			{
 				url: '/',
 				// seo: { cover: '/assets/profile.jpg'	},
-				// data: reports[reports.length - 1],
+				data: reports[reports.length - 1],
 			},
 			{ url: '/contact/' },
 			{ url: '/contact/success' },
-			// ...reports.map(({ date, ...rest }) => ({
-			// 	url: `/report/${date}`,
-			// 	// seo: blog.details,
-			// 	data: {
-			// 		date,
-			// 		...rest
-			// 	},
-			// }))
+			...reports.map(({ date, ...rest }) => ({
+				url: `/report/${date}`,
+				// seo: blog.details,
+				data: {
+					date,
+					...rest
+				},
+			}))
 		]
 	
 		// adding blogs list posts page
