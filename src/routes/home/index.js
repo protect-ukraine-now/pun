@@ -1,8 +1,8 @@
-import { h } from "preact"
-import { useEffect } from 'preact/hooks'
-import style from "./style"
-import Dashboard from "../../components/Dashboard"
-import data from '../../data'
+import { h } from 'preact';
+import { useEffect } from 'preact/hooks';
+import style from './style';
+import Dashboard from '../../components/Dashboard';
+import data from '../../data';
 
 const Home = () => {
 
@@ -14,13 +14,13 @@ const Home = () => {
 	useEffect(() => {
 		if (window !== undefined && window.location.href.includes('#invite_token')) {
 			const { href } = window.location;
-			window.location.href= `${href.substring(0, href.indexOf('#'))}admin${href.substring(href.indexOf('#'))}`;
+			window.location.href = `${href.substring(0, href.indexOf('#'))}admin${href.substring(href.indexOf('#'))}`;
 		}
-	},[]);
+	}, []);
 
 	return (
 		<Dashboard {...{ data }} />
-	)
+	);
 };
 
 export default Home;
