@@ -2,6 +2,7 @@ import { h } from "preact"
 import { useEffect } from 'preact/hooks'
 import style from "./style"
 import Dashboard from "../../components/Dashboard"
+import data from '../../data'
 
 const Home = () => {
 
@@ -18,7 +19,7 @@ const Home = () => {
 	},[]);
 
 	return (
-		<Dashboard />
+		<Dashboard {...{ data }} />
 	)
 };
 
