@@ -1,0 +1,22 @@
+@import "./variables";
+@import "functions";
+
+// Media Queries Min Width
+@mixin min-w($breakpoint) {
+  @media screen and (min-width: parseBreakpoint($breakpoint)) {
+    @content;
+  }
+}
+// Media Queries Max Width
+@mixin max-w($breakpoint) {
+  @media screen and (max-width: parseBreakpoint($breakpoint)) {
+    @content;
+  }
+}
+
+// Layout
+@mixin container() {
+  max-width: var(--max-container-width);
+  width: 100%;
+  margin: 0 auto;
+}
