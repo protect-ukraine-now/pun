@@ -53,9 +53,9 @@ function weeklyReport(asOf, data) {
         }
         return accumulator
     }, {})
-    
+
     return CATEGORIES.map(category => ({
-        category, 
+        category,
         values: byCategory[category],
     }))
 }
@@ -77,4 +77,4 @@ async function prepareReports() {
 
 module.exports = {
     prepareReports
-}    
+}

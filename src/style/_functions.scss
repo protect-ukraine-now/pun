@@ -1,0 +1,19 @@
+@function is-string($variable) {
+  @if type-of($variable) != 'string' {
+    @return false;
+  }
+
+  @return true;
+}
+
+// Function that takes just breakpoint name like: xxl or "xxl"
+// and return's value of this breakpoint in pixels
+@function get-breakpoint-value($bp-value) {
+  @return map-get($breakpoints, $bp-value);
+}
+
+// Taking pixel value or breakpoint name
+// and returning pixel value
+@function parseBreakpoint($value) {
+  @return if(is-string($value), get-breakpoint-value($value), $value);
+}

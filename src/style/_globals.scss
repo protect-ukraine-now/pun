@@ -1,0 +1,15 @@
+@import 'mixins';
+
+// global theme variables
+:root {
+  --max-container-width: 1200px;
+
+  @include max-w(tablet) {
+    --max-container-width: 930px;
+  }
+
+  @include max-w(mobile) {
+    --max-container-width: 355px;
+  }
+
+}

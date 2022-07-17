@@ -217,7 +217,8 @@
 		"L119 105mm",
 		"50",
 		"",
-		"saveualist"
+		"saveualist",
+		"https://gagadget.com/en/133189-a-good-addition-to-the-m777-ukrainian-gunners-will-receive-105-mm-british-howitzers-l119/"
 	],
 	[
 		"2022-04-13",
@@ -229,7 +230,8 @@
 		"ShKH vz. 77 DANA 152mm",
 		"20",
 		"",
-		"saveualist"
+		"saveualist",
+		"Czech Republic Supplies Heavy Weapons to Ukraine (wsj.com)"
 	],
 	[
 		"2022-04-29",
@@ -241,7 +243,8 @@
 		"2S1 Gvozdika 122mm",
 		"20",
 		"",
-		"saveualist"
+		"saveualist",
+		"Польша поставила Украине более 200 танков Т-72 и несколько десятков БМП - Русская редакция - polskieradio.pl"
 	],
 	[
 		"2022-04-22",
@@ -602,7 +605,8 @@
 		"FV103 Spartan",
 		"35",
 		"",
-		"saveualist"
+		"saveualist",
+		"The Ukrainian armed forces showed British FV103 Spartan armored personnel carriers at the front - Ukraine received a total of 35 such armored personnel carriers | gagadget.com"
 	],
 	[
 		"2022-06-24",
@@ -614,7 +618,8 @@
 		"CVR(T)",
 		"40",
 		"",
-		"saveualist"
+		"saveualist",
+		"🇺🇦 Ukraine Weapons Tracker on Twitter: \"#Ukraine: The Ukrainian army received British FV103 Spartan armored personnel carriers - they are already used by Ukrainian troops. British officials previously mentioned that Ukraine will get 35 FV103 APCs and 40 vehicles from the CVR(T) family from the UK. https://t.co/Ntp5OzBiVA\" / Twitter"
 	],
 	[
 		"2022-07-03",
@@ -764,12 +769,13 @@
 		"Alexander Entin",
 		"",
 		"Draft",
-		"Estonia",
+		"Spain",
 		"Mine-Resistant Ambush Protected",
 		"URO VAMTAC",
 		"20",
 		"",
-		"saveualist"
+		"saveualist",
+		"Spain supplies Ukraine with 20 URO VAMTAC 4x4 light armored vehicles | Defense News May 2022 Global Security army industry | Defense Security global news industry army year 2022 | Archive News year (armyrecognition.com)"
 	],
 	[
 		"2022-06-24",
@@ -832,7 +838,8 @@
 		"Pbv 401A",
 		"56",
 		"",
-		"saveualist"
+		"saveualist",
+		"What Heavy Weapons the West Has (and Hasn’t) Sent Ukraine - New Lines Institute"
 	],
 	[
 		"2022-06-24",
@@ -921,7 +928,8 @@
 		"Su-25",
 		"14",
 		"",
-		"saveualist"
+		"saveualist",
+		"It seems that Ukraine received Su-25 aircraft. In a very unusual way • Mezha.Media"
 	],
 	[
 		"2022-06-21",
@@ -935,5 +943,31 @@
 		"",
 		"saveualist",
 		"https://twitter.com/UkrWarReport/status/1539332275426451457"
+	],
+	[
+		"2022-05-17",
+		"Grega",
+		"",
+		"Draft",
+		"Portugal",
+		"Armored Personnel Carrier",
+		"M113",
+		"15",
+		"",
+		"confirmed by parliament, not delivered yet",
+		"https://sol.sapo.pt/artigo/770506/portugal-vai-ja-enviar-blindados-para-a-ucr-nia"
+	],
+	[
+		"2022-05-17",
+		"Grega",
+		"",
+		"Draft",
+		"Portugal",
+		"Towed Artillery",
+		"M114 155mm",
+		"5",
+		"",
+		"confirmed by parliament, not delivered yet",
+		"https://sol.sapo.pt/artigo/770506/portugal-vai-ja-enviar-blindados-para-a-ucr-nia"
 	]
 ]

@@ -37,10 +37,14 @@
     "preact-cli": "^3.0.1",
     "preact-render-spy": "^1.2.1",
     "react-syntax-highlighter": "^12.2.1",
+    "sass": "^1.53.0",
+    "sass-loader": "10",
     "webpack-bundle-analyzer": "^3.4.1"
   },
   "dependencies": {
     "@preact/prerender-data-provider": "^3.0.1",
+    "date-fns": "^2.28.0",
+    "classnames": "^2.3.1",
     "imagemin-mozjpeg": "^8.0.0",
     "imagemin-webpack-plugin": "^2.4.2",
     "markdown-to-jsx": "^6.11.4",
