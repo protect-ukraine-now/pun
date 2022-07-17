@@ -23,11 +23,11 @@ function valueAndDelta({ value, delta, sources }) {
 	return (value | 0) + (delta ? `(+${delta})` : '')
 }
 
-export default function Dashboard({ data = mock }) {
+export default function Dashboard({ data = mock, date }) {
 	// console.log('Dashboard', data)
 	return (
 		<div>
-			<AmmoTable data={data} />
+			<AmmoTable data={data} date={date}/>
 			<table>
 				<tr>
 					<th />

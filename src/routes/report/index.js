@@ -11,8 +11,8 @@ export default function Report(props) {
         <>
 			{prev && <Link href={`/report/${prev}`}>Prev report</Link>}
 			{next && <Link href={`/report/${next}`}>Next report</Link>}
-            <div>Heavy weapons committed to Ukraine as of {date}</div>
-		    <Dashboard data={data.data.data} />
+            {/*<div>Heavy weapons committed to Ukraine as of {date}</div>*/}
+		    <Dashboard data={data.data.data} date={date} />
 			{/* {digest} */}
         </>
 	)

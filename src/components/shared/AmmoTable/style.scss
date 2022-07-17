@@ -4,7 +4,12 @@
   box-shadow: 0 0 5px #F5F9FF;
 }
 
-.heading {}
+.heading {
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 60px;
+  font-size: 40px;
+}
 
 .table {
   display: grid;
@@ -40,7 +45,6 @@
 
 .label {
   text-align: center;
-  font-family: 'Open Sans', Arial, sans-serif;
 }
 
 .count {
