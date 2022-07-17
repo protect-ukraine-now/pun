@@ -1,5 +1,5 @@
-@import "./variables";
-@import "functions";
+@import './variables';
+@import 'functions';
 
 // Media Queries Min Width
 @mixin min-w($breakpoint) {
