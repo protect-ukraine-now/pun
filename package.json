@@ -11,7 +11,8 @@
     "build": "preact build --prerenderUrls ./prerender-urls.js",
     "dev": "preact watch --prerender --prerenderUrls ./prerender-urls.js",
     "lint": "eslint src",
-    "test": "jest"
+    "test": "jest",
+    "prettier": "prettier --write --config ./.prettierrc ./src/**/*.{jsx,js,scss}"
   },
   "eslintConfig": {
     "extends": [
@@ -26,8 +27,12 @@
     "build/*"
   ],
   "devDependencies": {
-    "eslint": "^4.9.0",
+    "eslint": "^8.20.0",
+    "eslint-plugin-babel": "^5.3.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-config-prettier": "^8.5.0",
     "eslint-config-synacor": "^2.0.2",
+    "prettier": "^2.0.2",
     "esm": "^3.2.25",
     "glob": "^7.1.4",
     "jest": "^21.2.1",
