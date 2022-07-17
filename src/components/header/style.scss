@@ -1,27 +1,28 @@
-@import './src/style/mixins';
+@import "./src/style/mixins";
 
 .header {
-  width: 100%;
+	width: 100%;
 }
 
 .container {
-  @include container;
+	@include container;
 
-  padding: 30px;
-  display: flex;
-  justify-content: space-between;
+	padding: 30px;
+	display: flex;
+	justify-content: space-between;
 
-  @include max-w(mobile) {
-    flex-flow: column;
-    align-items: center;
-    padding: 24px 0;
-  }
+	@include max-w(mobile) {
+		flex-flow: column;
+		align-items: center;
+		padding: 24px 0;
+
+	}
 }
 
 .logo {
-  max-width: 291px;
+	max-width: 291px;
 
-  @include max-w(mobile) {
-    margin-bottom: 24px;
-  }
+	@include max-w(mobile) {
+		margin-bottom: 24px;
+	}
 }

@@ -13,37 +13,37 @@ import iconIFV from '../../../assets/icons/ammo/infantry-fighting-vehicle.svg';
 import iconSPAAW from '../../../assets/icons/ammo/self-propelled-anti-aircraft-weapon.svg';
 
 export const AmmoIconMap = {
-  'Towed Artillery': iconTA,
-  'Artillery rounds': iconQuestionMark, // TODO!
-  'Guided MLRS': iconGMLRS,
-  Helicopter: iconHelicopter,
-  'Armored Personnel Carrier': iconAPC,
-  other: iconQuestionMark, // TODO
-  Vessel: iconVessel,
-  'Surface-to-Air Missile System': iconQuestionMark, // TODO!
-  'Self-Propelled Artillery': iconSPA,
-  'Multiple Launch Rocket System': iconMLRS,
-  'Mine-Resistant Ambush Protected': iconMRAP,
-  Tank: iconTank,
-  Aircraft: iconAircraft,
-  'Infantry Fighting Vehicle': iconIFV,
-  'Self-Propelled Anti-Aircraft Weapon': iconSPAAW,
+	'Towed Artillery': iconTA,
+	'Artillery rounds': iconQuestionMark, // TODO!
+	'Guided MLRS': iconGMLRS,
+	Helicopter: iconHelicopter,
+	'Armored Personnel Carrier': iconAPC,
+	other: iconQuestionMark, // TODO
+	Vessel: iconVessel,
+	'Surface-to-Air Missile System': iconQuestionMark, // TODO!
+	'Self-Propelled Artillery': iconSPA,
+	'Multiple Launch Rocket System': iconMLRS,
+	'Mine-Resistant Ambush Protected': iconMRAP,
+	Tank: iconTank,
+	Aircraft: iconAircraft,
+	'Infantry Fighting Vehicle': iconIFV,
+	'Self-Propelled Anti-Aircraft Weapon': iconSPAAW
 };
 
 export const AmmoLabelMap = {
-  'Towed Artillery': 'Гаубицы',
-  'Artillery rounds': '???',
-  'Guided MLRS': 'GMLRS',
-  Helicopter: 'Вертолёты',
-  'Armored Personnel Carrier': 'БТР',
-  other: '???',
-  Vessel: 'Катера',
-  'Surface-to-Air Missile System': '???',
-  'Self-Propelled Artillery': 'САУ',
-  'Multiple Launch Rocket System': 'РСЗО',
-  'Mine-Resistant Ambush Protected': 'MRAP',
-  Tank: 'Танки',
-  Aircraft: 'Самолёты',
-  'Infantry Fighting Vehicle': 'БМП',
-  'Self-Propelled Anti-Aircraft Weapon': 'ПВО',
+	'Towed Artillery': 'Гаубицы',
+	'Artillery rounds': '???',
+	'Guided MLRS': 'GMLRS',
+	Helicopter: 'Вертолёты',
+	'Armored Personnel Carrier': 'БТР',
+	other: '???',
+	Vessel: 'Катера',
+	'Surface-to-Air Missile System': '???',
+	'Self-Propelled Artillery': 'САУ',
+	'Multiple Launch Rocket System': 'РСЗО',
+	'Mine-Resistant Ambush Protected': 'MRAP',
+	Tank: 'Танки',
+	Aircraft: 'Самолёты',
+	'Infantry Fighting Vehicle': 'БМП',
+	'Self-Propelled Anti-Aircraft Weapon': 'ПВО'
 };
