@@ -1,11 +1,15 @@
 @import './src/style/variables';
 
 .container {
+  box-shadow: 0 0 5px #F5F9FF;
+}
+
+.heading {}
+
+.table {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
   gap: 10px;
-  box-shadow: 0 0 5px #F5F9FF;
-
 }
 
 .head {

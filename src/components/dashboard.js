@@ -24,7 +24,6 @@ const mock = [
 
 
 export default function Dashboard({ data = mock }) {
-	console.log(data);
 	return (
 		<div>
 			<AmmoTable data={data} />

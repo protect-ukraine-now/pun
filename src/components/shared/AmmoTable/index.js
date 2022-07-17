@@ -5,15 +5,17 @@ import Container from '../Container';
 
 const AmmoTable = ({ data }) => (
 	<Container className={style.container}>
-		<div className={style.head} />
-		<div className={style.head}>США</div>
-		<div className={style.head}>ВЕСЬ МИР</div>
-		{data.map(({ category, values: [usaValues, totalValues] }) => [
-			<IconCell category={category} />,
-			<DataCell {...usaValues} key={`${category}-USA`} />,
-			<DataCell {...totalValues} key={`${category}-total`} />
-		])}
-
+		<h1 className={style.heading}>тяжелое вооружение по состоянию на 1 июля 2022 года</h1>
+		<div className={style.table}>
+			<div className={style.head} />
+			<div className={style.head}>США</div>
+			<div className={style.head}>ВЕСЬ МИР</div>
+			{data.map(({ category, values: [usaValues, totalValues] }) => [
+				<IconCell category={category} />,
+				<DataCell {...usaValues} key={`${category}-USA`} />,
+				<DataCell {...totalValues} key={`${category}-total`} />
+			])}
+		</div>
 	</Container>
 );
 
