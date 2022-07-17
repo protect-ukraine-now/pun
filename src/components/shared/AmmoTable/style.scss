@@ -1,28 +1,89 @@
 @import './src/style/variables';
-
-.container {
-  box-shadow: 0 0 5px #f5f9ff;
-}
+@import './src/style/mixins';
 
 .heading {
+  @include container-padding;
+  @include make-responsive('font-size',
+          (
+                  tablet: 32px,
+                  desktop: 40px,
+          ),
+          40px
+  );
+  @include make-responsive('margin-bottom',
+          (
+                  mobile: 42px,
+                  tablet: 68px,
+                  desktop: 59px,
+          ),
+          40px
+  );
+
   font-weight: 700;
   text-align: center;
-  margin-bottom: 60px;
-  font-size: 40px;
 }
 
 .table {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
-  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.row {
+  display: contents;
+
+  &:hover {
+
+    .cell {
+      background: $color-sky-blue;
+    }
+  }
+}
+
+.head,
+.cell {
+  &:first-child,
+  &:last-child {
+    @include container-padding;
+  }
 }
 
 .head {
+  @include make-responsive('font-size',
+          (
+                  mobile: 18px,
+                  tablet: 24px,
+                  desktop: 32px,
+          ),
+          40px
+  );
+  @include make-responsive('margin-bottom',
+          (
+                  tablet: 20px,
+                  desktop: 15px,
+          ),
+          15px
+  );
+
+  font-weight: 700;
+  text-align: center;
 }
 
 .cell {
+  @include make-responsive('padding',
+          (
+                  tablet: 20px,
+                  desktop: 15px,
+          ),
+          15px
+  );
+
   position: relative;
-  padding: 15px;
+}
+
+.valueCell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .category {
@@ -32,10 +93,23 @@
 }
 
 .icon {
-  min-width: 80px;
-  min-height: 60px;
-  max-width: 80px;
-  max-height: 60px;
+  @include make-responsive('width',
+          (
+                  tablet: 64px,
+                  desktop: 80px,
+          ),
+          64px
+  );
+
+  @include make-responsive('height',
+          (
+                  tablet: 48px,
+                  desktop: 60px,
+          ),
+          48px
+  );
+
+  flex-shrink: 0;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -47,19 +121,41 @@
 }
 
 .count {
-  font-size: 48px;
+  @include make-responsive('font-size',
+          (
+                  mobile: 24px,
+                  tablet: 32px,
+                  desktop: 48px,
+          ),
+          40px
+  );
+
+  flex: 1;
   text-align: right;
   width: 100%;
+  font-weight: 700;
 }
 
 .delta {
-  position: absolute;
-  bottom: 75%;
-  margin-left: 10px;
-  font-size: 32px;
+  @include make-responsive('font-size',
+          (
+                  mobile: 18px,
+                  tablet: 24px,
+                  desktop: 32px,
+          ),
+          40px
+  );
+
+  flex: 1;
+  position: relative;
+  transform: translateY(50%);
+  bottom: 100%;
+  align-self: flex-end;
+  margin-left: 6px;
   color: $color-accent;
   text-decoration: underline;
   cursor: default;
+  font-weight: 700;
 
   &:hover {
     + .popup {

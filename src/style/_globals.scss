@@ -2,13 +2,22 @@
 
 // global theme variables
 :root {
-  --max-container-width: 1200px;
-
-  @include max-w(tablet) {
-    --max-container-width: 930px;
-  }
-
-  @include max-w(mobile) {
-    --max-container-width: 355px;
-  }
+  // Experiment - responsive container
+  @include make-responsive('--max-container-width',
+          (
+                  mobile: 355px,
+                  tablet: 930px,
+                  desktop: 1200px,
+          ),
+          40px
+  );
+  //--max-container-width: 1200px;
+  //
+  //@include max-w(tablet) {
+  //  --max-container-width: 930px;
+  //}
+  //
+  //@include max-w(mobile) {
+  //  --max-container-width: 355px;
+  //}
 }

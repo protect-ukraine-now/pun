@@ -18,29 +18,11 @@ const mock = [
 ];
 
 
-function valueAndDelta({ value, delta, sources }) {
-	return (value | 0) + (delta ? `(+${delta})` : '')
-}
-
 export default function Dashboard({ date = '2022-07-17', data = mock }) {
 	// console.log('Dashboard', date, data)
 	return (
 		<div>
-			<AmmoTable data={data} date={date}/>
-			<table>
-				<tr>
-					<th />
-					<th>USA</th>
-					<th>Rest</th>
-				</tr>
-				{data.map(({ category, values }) => (
-					<tr key={category}>
-						<td>{category}</td>
-						<td>{valueAndDelta(values[0])}</td>
-						<td>{valueAndDelta(values[1])}</td>
-					</tr>
-				))}
-			</table>
+			<AmmoTable data={data} date={date} />
 		</div>
 	)
 }

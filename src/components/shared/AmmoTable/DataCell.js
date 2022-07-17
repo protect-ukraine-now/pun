@@ -1,6 +1,7 @@
+import cn from 'classnames';
 import style from './style.scss';
 
-const DataCell = ({ value, delta, sources }) => {
+const DataCell = ({ className, value, delta, sources }) => {
   const sourcesPopup = (() => {
     if (!sources || !sources.lenth) {
       return null;
@@ -18,9 +19,9 @@ const DataCell = ({ value, delta, sources }) => {
   })();
 
   return (
-    <div className={style.cell}>
+    <div className={cn(className, style.cell)}>
       <span className={style.count}>{value}</span>
-      {!!delta && <span className={style.delta}>+{delta}</span>}
+      {<span className={style.delta}>{delta ? `+${delta}` : ''}</span>}
       {sourcesPopup}
     </div>
   );

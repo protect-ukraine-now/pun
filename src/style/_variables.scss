@@ -1,9 +1,11 @@
 $breakpoints: (
   mobile-min: 375px,
   mobile: 576px,
+  tablet-min: 768px,
   tablet: 990px,
   desktop: 1440px,
 );
 
 // colors
 $color-accent: #056eff;
+$color-sky-blue: #F5F9FF;

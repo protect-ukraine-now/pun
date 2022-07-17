@@ -1,0 +1,62 @@
+@import 'src/style/variables';
+@import 'src/style/mixins';
+
+.container {
+  @include make-responsive('padding-top',
+          (
+                  mobile: 32px,
+                  tablet: 48px,
+          ),
+          40px
+  );
+
+  @include make-responsive('padding-bottom',
+          (
+                  mobile: 32px,
+                  tablet: 48px,
+                  desktop: 54px,
+          ),
+          60px
+  );
+
+  width: 100%;
+  margin-bottom: 64px;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.21);
+  border-radius: 10px;
+}
+
+.nav {
+  @include container-padding;
+  @include make-responsive('margin-bottom',
+          (
+                  mobile: 20px,
+                  tablet: 30px,
+                  desktop: 40px,
+          ),
+          30px
+  );
+
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navLink {
+  @include make-responsive('--max-container-width',
+          (
+                  mobile: 16px,
+                  tablet: 18px,
+                  desktop: 20px,
+          ),
+          20px
+  );
+
+  text-decoration: none;
+  color: #000;
+  transition: 0.25s ease;
+
+  &:hover {
+    text-decoration: none;
+    color: $color-accent;
+  }
+}

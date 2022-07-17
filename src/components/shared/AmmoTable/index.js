@@ -11,11 +11,14 @@ const AmmoTable = ({ data, date }) => (
       <div className={style.head} />
       <div className={style.head}>США</div>
       <div className={style.head}>ВЕСЬ МИР</div>
-      {data.map(({ category, values: [usaValues, totalValues] }) => [
-        <IconCell category={category} />,
-        <DataCell {...usaValues} key={`${category}-USA`} />,
-        <DataCell {...totalValues} key={`${category}-total`} />,
-      ])}
+
+      {data.map(({ category, values: [usaValues, totalValues] }) => (
+      <div className={style.row}>
+        <IconCell category={category} />
+        <DataCell className={style.valueCell} {...usaValues} key={`${category}-USA`} />
+        <DataCell className={style.valueCell} {...totalValues} key={`${category}-total`} />
+      </div>
+      ))}
     </div>
   </Container>
 );

@@ -14,9 +14,102 @@
   }
 }
 
+// Media Queries Range Width
+@mixin min-max-w($min-bp-value, $max-bp-value) {
+  @media screen and (min-width: parseBreakpoint($min-bp-value)) and (max-width: parseBreakpoint($max-bp-value)) {
+    @content;
+  }
+}
+
 // Layout
 @mixin container() {
   max-width: var(--max-container-width);
   width: 100%;
   margin: 0 auto;
+}
+
+@mixin container-padding {
+  @include make-responsive('padding-left',
+          (
+                  mobile: 11px,
+                  tablet: 30px,
+                  desktop: 55px,
+          ),
+          40px
+  );
+
+  @include make-responsive('padding-right',
+          (
+                  mobile: 11px,
+                  tablet: 30px,
+                  desktop: 55px,
+          ),
+          40px
+  );
+}
+
+// makes fluid property for range between min and max breakpoints
+// helper function, that calculates fluid size
+// $f-min - min range value
+// $f-max - max range value
+// $w-min - min breakpoint
+// $w-max - max breakpoint
+// $units - measure units (e.x. px, em, rem, vw)
+@mixin make-responsive($property, $values, $fallback: false, $units: px) {
+  @if (length($values) > 0 and is-string($property)) {
+    #{$property}: nth(nth($values, 1), 2); // default value
+
+    // minimal breakpoint from the list (xs) and start for us
+    $lower-bpoint: parseBreakpoint(nth(nth($values, 1), 1));
+    // minimal value for this ^ breakpoint
+    $lower-value: nth(nth($values, 1), 2);
+
+    $index: 0; // iteration step number
+
+    @each $bpoint, $value in $values {
+      $index: $index + 1;
+      $upper-bpoint: parseBreakpoint($bpoint);
+
+      @include min-max-w($lower-bpoint, $upper-bpoint) {
+        @if ($fallback) {
+          #{$property}: $fallback;
+        }
+
+        // preventing of error on first step when bpoints are equal and it causes dividing on 0 in calcFluidSize func
+        @if ($lower-bpoint != $upper-bpoint) {
+          #{$property}: calcFluidSize($lower-value, $value, $lower-bpoint, $upper-bpoint, $units);
+        } @else {
+          #{$property}: $value; // so from 0px to lower breakpoint (xs) it will be static for it value
+        }
+
+        //setting our next minimal breakpoint and value for it to use it on next step
+        $lower-bpoint: $upper-bpoint;
+        $lower-value: $value;
+      }
+
+      @if ($index == length($values)) {
+        // if we are on last (largest) breakpoint we want to set static value for it.
+        @include min-w($upper-bpoint + 1) {
+          #{$property}: $value;
+        }
+      }
+    }
+  } @else {
+    position: relative;
+
+    &:before {
+      content: 'Wrong property name or values are empty!';
+      position: absolute;
+      display: block;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 5px;
+      border-radius: 6px;
+      background: #f00;
+      color: #fff;
+      font-size: 10px;
+      z-index: 1000;
+    }
+  }
 }
