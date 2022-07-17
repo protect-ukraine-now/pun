@@ -15,26 +15,41 @@ const CATEGORIES = [
     'Mine-Resistant Ambush Protected',
 ]
 
-const SPREADSHEET_ID = '1zJuvhRLAKPuVrtaA-xTm2KvVwRZjInDuA4M9k7HZT1E'
-const RANGE = "'Weapons'"
+const spreadsheets = {
+    commits: {
+        id: '1zJuvhRLAKPuVrtaA-xTm2KvVwRZjInDuA4M9k7HZT1E',
+        range: "'Weapons'",
+    },
+    text: {
+        id: '1Cm0x0JZAO05wxfN2iHeShnoXwdoTGe5jGuE5AhhJkBs',
+        range: "'Sheet1'"
+    }
+}
+
 const API_KEY = 'AIzaSyCX8cPcl4eAd311z9wCZ8xlQCkfmJ5sIpU'
+
+export async function loadData() {
+    let tasks = Object.entries(spreadsheets).map(async ([what, { id, range }]) => {
+        console.log(what, `fetching...`)
+        const url = `https://sheets.googleapis.com/v4/spreadsheets/${id}/values/${range}?key=${API_KEY}`
+        let data = (await (await fetch(url)).json()).values
+        console.log(what, 'got', data.length)
+        try {
+            let file = `src/data/${what}.json`
+            fs.writeFileSync(file, JSON.stringify(data, null, '\t'))
+            console.log(what, 'saved')
+            data = JSON.parse(fs.readFileSync(file))
+            console.log(what, 'loaded', data.length)
+        } catch (e) {
+            console.error(e)
+        }
+        return [what, data]
+    })
+    return Object.fromEntries(await Promise.all(tasks))
+}
 
 const DAY = 24*60*60e3
 const formatDate = x => new Date(x).toISOString().slice(0, 10)
-
-async function loadData() {
-	const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${RANGE}?key=${API_KEY}`
-	console.log('fetching data...')
-	let data = (await (await fetch(url)).json()).values
-	console.log('got rows', data.length)
-	try {
-		fs.writeFileSync('src/data/data.json', JSON.stringify(data, null, '\t'))
-		console.log('saved')
-	} catch (e) {
-		console.log(e)
-	}
-	return data
-}
 
 function weeklyReport(asOf, data) {
     const from = formatDate(asOf - 7*DAY)
@@ -60,8 +75,7 @@ function weeklyReport(asOf, data) {
     }))
 }
 
-async function prepareReports() {
-    let data = await loadData()
+function prepareReports({ commits }) {
     let first = new Date('2022-07-03').valueOf()
     let reports = []
     for (let date = first; date < Date.now(); date += 7*DAY) {
@@ -69,12 +83,13 @@ async function prepareReports() {
             date: formatDate(date),
             prev: date > first && formatDate(date - 7*DAY),
             next: date + 7*DAY < Date.now() && formatDate(date + 7*DAY),
-            data: weeklyReport(date, data),
+            data: weeklyReport(date, commits),
         })
     }
     return reports
 }
 
 module.exports = {
-    prepareReports
+    loadData,
+    prepareReports,
 }

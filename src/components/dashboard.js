@@ -1,4 +1,3 @@
-import { h } from 'preact';
 import AmmoTable from './shared/AmmoTable';
 
 const mock = [
@@ -23,8 +22,8 @@ function valueAndDelta({ value, delta, sources }) {
 	return (value | 0) + (delta ? `(+${delta})` : '')
 }
 
-export default function Dashboard({ data = mock, date }) {
-	// console.log('Dashboard', data)
+export default function Dashboard({ date = '2022-07-17', data = mock }) {
+	// console.log('Dashboard', date, data)
 	return (
 		<div>
 			<AmmoTable data={data} date={date}/>
@@ -43,5 +42,5 @@ export default function Dashboard({ data = mock, date }) {
 				))}
 			</table>
 		</div>
-	);
+	)
 }

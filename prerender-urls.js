@@ -1,4 +1,4 @@
-const { prepareReports } = require('./src/data')
+const { loadData, prepareReports } = require('./src/data/load.js')
 // const { generateFileList } = require('./src/crawler');
 // const { join } = require('path');
 // const fs = require('fs')
@@ -7,8 +7,9 @@ const { prepareReports } = require('./src/data')
 // const [blogs] = generateFileList(join(__dirname, 'content')).nodes;
 module.exports = async () => {
 	try {
-		const reports = await prepareReports()
-		console.log('reports', reports)
+		const data = await loadData()
+		const reports = await prepareReports(data)
+		// console.log('reports', reports)
 
 		const pages = [
 			{

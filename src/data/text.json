@@ -1,0 +1,170 @@
+[
+	[
+		"Group",
+		"Key",
+		"Description",
+		"EN",
+		"UA"
+	],
+	[
+		"site",
+		"title"
+	],
+	[
+		"seo",
+		"keywords"
+	],
+	[
+		"report",
+		"title",
+		"Заголовок недельного отчета над главной таблицей-дашбордом",
+		"Heavy weapons committed to Ukraine as of {date}"
+	],
+	[
+		"report",
+		"prev",
+		"\"Previous report\" link"
+	],
+	[
+		"report",
+		"next",
+		"\"Next report\" link"
+	],
+	[
+		"report",
+		"usa",
+		"Заголовок колонки с поставками США",
+		"USA",
+		"США "
+	],
+	[
+		"report",
+		"rest",
+		"Заголовок колонки с поставками всех стран, кроме США",
+		"Rest of the world",
+		"інші країни світу "
+	],
+	[
+		"report",
+		"total",
+		"Заголовок колонки с поставками ВСЕХ стран",
+		"Total",
+		"всього "
+	],
+	[
+		"weapon_category",
+		"Towed Artillery",
+		"Буксируемые артиллерийские системы",
+		"Towed Artillery",
+		"буксирована артилерійська система / причіпна артилерійська система "
+	],
+	[
+		"weapon_category",
+		"Self-Propelled Artillery",
+		"Самоходные артиллерийские системы",
+		"Self-Propelled Artillery",
+		"самохідна артилерійська система / самохідна артилерія    (має гармати, гаубиці, міномети, пускові установки реактивної артилерії )"
+	],
+	[
+		"weapon_category",
+		"Multiple Launch Rocket System",
+		"Реактивные системы залпового огня",
+		"Multiple Launch Rocket System",
+		"реактивна система залпового вогню "
+	],
+	[
+		"weapon_category",
+		"Guided MLRS",
+		"Наводящиеся реактивные системы залпового огня",
+		"Guided MLRS",
+		"реактивна артилерійська система / керовані реактивні системи залпового вогню "
+	],
+	[
+		"weapon_category",
+		"Tank",
+		"Танки",
+		"Tank",
+		"Танк"
+	],
+	[
+		"weapon_category",
+		"Armored Personnel Carrier",
+		"Бронетранспортёры",
+		"Armored Personnel Carrier",
+		"бронетранспортер"
+	],
+	[
+		"weapon_category",
+		"Mine-Resistant Ambush Protected",
+		"Бронемашины",
+		"Mine-Resistant Ambush Protected",
+		"Машини з захистом від мін і засідок/ MRAP / броньовані автомобілі"
+	],
+	[
+		"weapon_category",
+		"Infantry Fighting Vehicle",
+		"Боевые машины пехоты",
+		"Infantry Fighting Vehicle",
+		"бойова машина піхоти "
+	],
+	[
+		"weapon_category",
+		"Self-Propelled Anti-Aircraft Weapon",
+		"Самоходные зенитные установки",
+		"Self-Propelled Anti-Aircraft Weapon",
+		"самохідні зенітні устаноки"
+	],
+	[
+		"weapon_category",
+		"Surface-to-Air Missile System",
+		"Ракетный комплекс земля-воздух",
+		"Surface-to-Air Missile System",
+		"Ракетний комплекс земля-повітря"
+	],
+	[
+		"weapon_category",
+		"Helicopter",
+		"Вертолет",
+		"Helicopter",
+		"Вертоліт / Гелiкоптер",
+		"ГЕЛІКОПТЕР?"
+	],
+	[
+		"weapon_category",
+		"Aircraft",
+		"Самолет",
+		"Aircraft",
+		"Літак чи гелiкоптер",
+		"Wikipedia: Aircraft - an airplane, helicopter, or other machine capable of flight."
+	],
+	[
+		"weapon_category",
+		"Vessel",
+		"Судно",
+		"Vessel",
+		"корабель/судно",
+		" "
+	],
+	[
+		"weapon_category",
+		"Artillery rounds",
+		"Артиллерийские снаряды",
+		"Artillery rounds",
+		"Артлейні патрони  ",
+		"артилерійські снаряди"
+	],
+	[
+		"weapon_category",
+		"GMLRS ammunition",
+		"Наводящиеся ракеты для систем залпового огня",
+		"GMLRS ammunition",
+		"GMLRS снаряди / керовані реактивні снаряди д"
+	],
+	[
+		"weapon_category",
+		"other",
+		"Другое",
+		"other",
+		"інші "
+	]
+]
