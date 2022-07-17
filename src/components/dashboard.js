@@ -1,10 +1,6 @@
 import { h } from 'preact';
 import AmmoTable from './shared/AmmoTable';
 
-function ValueAndDelta({ value, delta, sources }) {
-	return `${value} (+${delta})`;
-}
-
 const mock = [
 	{
 		category: 'Towed Artillery',
@@ -23,7 +19,12 @@ const mock = [
 ];
 
 
+function valueAndDelta({ value, delta, sources }) {
+	return (value | 0) + (delta ? `(+${delta})` : '')
+}
+
 export default function Dashboard({ data = mock }) {
+	// console.log('Dashboard', data)
 	return (
 		<div>
 			<AmmoTable data={data} />
@@ -31,13 +32,13 @@ export default function Dashboard({ data = mock }) {
 				<tr>
 					<th />
 					<th>USA</th>
-					<th>Total</th>
+					<th>Rest</th>
 				</tr>
 				{data.map(({ category, values }) => (
 					<tr key={category}>
 						<td>{category}</td>
-						<td><ValueAndDelta {...values[0]} /></td>
-						<td><ValueAndDelta {...values[1]} /></td>
+						<td>{valueAndDelta(values[0])}</td>
+						<td>{valueAndDelta(values[1])}</td>
 					</tr>
 				))}
 			</table>
