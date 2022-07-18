@@ -4366,6 +4366,11 @@ dir-glob@^3.0.1:
   dependencies:
     path-type "^4.0.0"
 
+dlv@^1.1.3:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/dlv/-/dlv-1.1.3.tgz#5c198a8a11453596e751494d49874bc7732f2e79"
+  integrity sha512-+HlytyjlPKnIG8XuRG8WvmBP8xs8P71y+SKKS6ZXWoEgLuePxtDoUEiH7WkdePWrQ5JBpE6aoVqfZfJUQkjXwA==
+
 dns-equal@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/dns-equal/-/dns-equal-1.0.0.tgz#b39e7f1da6eb0a75ba9c17324b34753c47e0654d"
@@ -10159,6 +10164,19 @@ preact-cli@^3.0.1:
     workbox-routing "^6.5.3"
     workbox-strategies "^6.5.3"
     workbox-webpack-plugin "^6.5.3"
+
+preact-i18n@^2.4.0-preactx:
+  version "2.4.0-preactx"
+  resolved "https://registry.yarnpkg.com/preact-i18n/-/preact-i18n-2.4.0-preactx.tgz#fbcb2e3ae22744c7fef5a102db2ef7506057d082"
+  integrity sha512-XJ15wZKdJrpuz2KBs8BkDB9gl85MjIkER5tx8r6RM1+j53hw3/XzUq2DMnkMoLVQiS0VSPI6bXk41CioKwTJIA==
+  dependencies:
+    dlv "^1.1.3"
+    preact-markup "^2.0.0"
+
+preact-markup@^2.0.0:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/preact-markup/-/preact-markup-2.1.1.tgz#0451e7eed1dac732d7194c34a7f16ff45a2cfdd7"
+  integrity sha512-8JL2p36mzK8XkspOyhBxUSPjYwMxDM0L5BWBZWxsZMVW8WsGQrYQDgVuDKkRspt2hwrle+Cxr/053hpc9BJwfw==
 
 preact-render-spy@^1.2.1:
   version "1.3.0"

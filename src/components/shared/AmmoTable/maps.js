@@ -29,21 +29,3 @@ export const AmmoIconMap = {
   'Infantry Fighting Vehicle': iconIFV,
   'Self-Propelled Anti-Aircraft Weapon': iconSPAAW,
 };
-
-export const AmmoLabelMap = {
-  'Towed Artillery': 'Гаубицы',
-  'Artillery rounds': '???',
-  'Guided MLRS': 'GMLRS',
-  Helicopter: 'Вертолёты',
-  'Armored Personnel Carrier': 'БТР',
-  other: '???',
-  Vessel: 'Катера',
-  'Surface-to-Air Missile System': '???',
-  'Self-Propelled Artillery': 'САУ',
-  'Multiple Launch Rocket System': 'РСЗО',
-  'Mine-Resistant Ambush Protected': 'MRAP',
-  Tank: 'Танки',
-  Aircraft: 'Самолёты',
-  'Infantry Fighting Vehicle': 'БМП',
-  'Self-Propelled Anti-Aircraft Weapon': 'ПВО',
-};

@@ -7,14 +7,15 @@ const CATEGORIES = [
     'Self-Propelled Artillery',
     'Multiple Launch Rocket System',
     'Guided MLRS',
+    'Self-Propelled Anti-Aircraft Weapon',
     'Surface-to-Air Missile System',
-    'Vessel',
+    // 'Vessel',
     'Helicopter',
     'Aircraft',
     'Tank',
     'Infantry Fighting Vehicle',
-    'Armored Personnel Carrier',
-    'Mine-Resistant Ambush Protected',
+    // 'Armored Personnel Carrier',
+    // 'Mine-Resistant Ambush Protected',
 ]
 
 const spreadsheets = {
@@ -47,7 +48,18 @@ export async function loadData() {
         }
         return [what, data]
     })
-    return Object.fromEntries(await Promise.all(tasks))
+    let data = Object.fromEntries(await Promise.all(tasks))
+    data.text = prepareText(data)
+    data.reports = prepareReports(data)
+    return data
+}
+
+function prepareText({ text }) {
+    return text.slice(1).reduce((a, [group, key, desc, en, ua]) => {
+        a.en[group] = { ...(a.en[group] || {}), [key]: en }
+        a.ua[group] = { ...(a.ua[group] || {}), [key]: ua }
+        return a
+    }, { en: {}, ua: {} })
 }
 
 function loadMarkdown(folder, name) {
@@ -96,7 +108,7 @@ function prepareReports({ commits }) {
             prev: date > first && formatDate(date - 7*DAY),
             next: date + 7*DAY < Date.now() && formatDate(date + 7*DAY),
             data: weeklyReport(date, commits),
-            text: loadMarkdown('blog', formatDate(date)),
+            blog: loadMarkdown('blog', formatDate(date)),
         })
     }
     return reports
@@ -104,5 +116,4 @@ function prepareReports({ commits }) {
 
 module.exports = {
     loadData,
-    prepareReports,
 }
