@@ -66,7 +66,7 @@ function weeklyReport(asOf, data) {
     const from = formatDate(asOf - 7*DAY)
     const till = formatDate(asOf)
     let byCategory = data.slice(1).reduce((accumulator, r) => {
-        let [date, author, reviewer, status, country, category, type, qty, qty2, notes, source] = r
+        let [date, author, reviewer, status, country, category, type, qty, qty2, notes, link, title] = r
         if (date <= till && (status === 'Draft' || status === 'Approved')) {
             let values = accumulator[category] || [{}, {}]
             accumulator[category] = values
@@ -75,6 +75,7 @@ function weeklyReport(asOf, data) {
             x.value = (x.value || 0) + +qty
             if (date > from) {
                 x.delta = (x.delta || 0) + +qty
+                x.sources = [...(x.sources || []), { link, title }]
             }
         }
         return accumulator
