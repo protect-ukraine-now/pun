@@ -20,9 +20,9 @@
   );
 
   width: 100%;
-  margin-bottom: 64px;
   box-shadow: 0 0 7px rgba(0, 0, 0, 0.21);
   border-radius: 10px;
+  margin-bottom: 47px;
 }
 
 .nav {
@@ -38,7 +38,6 @@
 
   width: 100%;
   display: flex;
-  justify-content: space-between;
 }
 
 .navLink {
@@ -59,4 +58,16 @@
     text-decoration: none;
     color: $color-accent;
   }
+
+  &.prev {
+    margin-right: auto;
+  }
+
+  &.next {
+    margin-left: auto;
+  }
+}
+
+.digest {
+  margin-bottom: 64px;
 }

@@ -48,6 +48,13 @@
   );
 }
 
+@mixin reset-button-style {
+  background: none;
+  border: none;
+  padding: unset;
+  font-family: inherit;
+}
+
 // makes fluid property for range between min and max breakpoints
 // helper function, that calculates fluid size
 // $f-min - min range value
