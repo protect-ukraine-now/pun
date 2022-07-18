@@ -108,7 +108,6 @@ function prepareReports({ commits }) {
             prev: date > first && formatDate(date - 7*DAY),
             next: date + 7*DAY < Date.now() && formatDate(date + 7*DAY),
             data: weeklyReport(date, commits),
-            blog: loadMarkdown('blog', formatDate(date)),
         })
     }
     return reports
@@ -116,4 +115,5 @@ function prepareReports({ commits }) {
 
 module.exports = {
     loadData,
+    loadMarkdown,
 }

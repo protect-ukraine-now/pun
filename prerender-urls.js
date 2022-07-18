@@ -1,4 +1,4 @@
-const { loadData } = require('./src/data/load.js')
+const { loadData, loadMarkdown } = require('./src/data/load.js')
 // const { generateFileList } = require('./src/crawler');
 
 // const [blogs] = generateFileList(join(__dirname, 'content')).nodes;
@@ -16,6 +16,7 @@ module.exports = async () => {
 					...reports[reports.length - 1],
 					text: text.en,
 					language: 'en',
+					blog: loadMarkdown('blog', `${reports[reports.length - 1].date}.en.md`),
 				}
 			},
 			{
@@ -25,6 +26,7 @@ module.exports = async () => {
 					...reports[reports.length - 1],
 					text: text.en,
 					language: 'en',
+					blog: loadMarkdown('blog', `${reports[reports.length - 1].date}.en.md`),
 				}
 			},
 			{
@@ -34,6 +36,7 @@ module.exports = async () => {
 					...reports[reports.length - 1],
 					text: text.ua,
 					language: 'ua',
+					blog: loadMarkdown('blog', `${reports[reports.length - 1].date}.ua.md`),
 				}
 			},
 			...Object.entries(text).map(([language, text]) =>
@@ -44,6 +47,7 @@ module.exports = async () => {
 						...report,
 						text,
 						language,
+						blog: loadMarkdown('blog', `${report.date}.${language}.md`),
 					},
 				}))
 			).flat()
