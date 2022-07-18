@@ -1,16 +1,15 @@
 import { Link } from 'preact-router'
 import { usePrerenderData } from '@preact/prerender-data-provider'
 import Dashboard from "../../components/dashboard"
+import Markdown from 'markdown-to-jsx'
 import Container from '../../components/shared/Container';
 import style from './style.scss';
 
 export default function Report(props) {
 	const [data, isLoading] = usePrerenderData(props)
-	// console.log('Report', props, data, isLoading)
 	if (isLoading) return
-	const { date, prev, next, digest } = data.data
-
-	console.log(data.data);
+	const { date, prev, next, text } = data.data
+	console.log('Report', data.data)
 	return (
         <Container className={style.container}>
 					<div className={style.nav}>
@@ -20,7 +19,7 @@ export default function Report(props) {
 					</div>
             {/*<div>Heavy weapons committed to Ukraine as of {date}</div>*/}
 		    <Dashboard data={data.data.data} date={date} />
-			{/* {digest} */}
+			{text && <Markdown>{text}</Markdown>}
         </Container>
 	)
 }

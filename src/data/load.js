@@ -1,4 +1,6 @@
 const fs = require('fs')
+const { join } = require('path')
+const parseMD = require('parse-md').default
 
 const CATEGORIES = [
     'Towed Artillery',
@@ -48,6 +50,15 @@ export async function loadData() {
     return Object.fromEntries(await Promise.all(tasks))
 }
 
+function loadMarkdown(folder, name) {
+    try {
+        const { content } = parseMD(fs.readFileSync(join('content', folder, name), 'utf-8'))
+        return content
+    } catch (e) {
+        console.error('loadMd', folder, name, e)
+    }
+}
+
 const DAY = 24*60*60e3
 const formatDate = x => new Date(x).toISOString().slice(0, 10)
 
@@ -84,6 +95,7 @@ function prepareReports({ commits }) {
             prev: date > first && formatDate(date - 7*DAY),
             next: date + 7*DAY < Date.now() && formatDate(date + 7*DAY),
             data: weeklyReport(date, commits),
+            text: loadMarkdown('blog', formatDate(date)),
         })
     }
     return reports
