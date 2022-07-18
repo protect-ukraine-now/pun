@@ -7,11 +7,13 @@ const DataCell = ({ className, value, delta, sources }) => {
       return null;
     }
 
+    console.log('sources', sources)
+
     return (
       <div className={style.popup}>
-        {sources.map((source) => (
-          <a className={style.source} href={source} key={source}>
-            {source}
+        {sources.map(({ link, title }) => (
+          <a className={style.source} href={link} key={link}>
+            {title || link}
           </a>
         ))}
       </div>
@@ -20,7 +22,7 @@ const DataCell = ({ className, value, delta, sources }) => {
 
   return (
     <div className={cn(className, style.cell)}>
-      <span className={style.count}>{value}</span>
+      <span className={style.count}>{value || '-'}</span>
       {<span className={style.delta}>{delta ? `+${delta}` : ''}</span>}
       {sourcesPopup}
     </div>

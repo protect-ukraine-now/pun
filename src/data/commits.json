@@ -1,16 +1,17 @@
 [
 	[
-		"Commit date ",
+		"Commit Date ",
 		"Author",
 		"Reviewer",
 		"Status",
 		"Country",
-		"Weapon category",
-		"Weapon type",
-		"Quantity min",
+		"Weapon Category",
+		"Weapon Type",
+		"Quantity Min",
 		"Quantity max",
 		"Notes",
-		"Source link"
+		"Source link",
+		"Source Title"
 	],
 	[
 		"2022-06-24",
@@ -179,6 +180,7 @@
 		"9",
 		"",
 		"saveualist",
+		"https://newlinesinstitute.org/ukraine/what-heavy-weapons-the-west-has-and-hasnt-sent-ukraine/",
 		"What Heavy Weapons the West Has (and Hasn’t) Sent Ukraine - New Lines Institute"
 	],
 	[

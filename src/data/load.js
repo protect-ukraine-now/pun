@@ -55,7 +55,7 @@ function loadMarkdown(folder, name) {
         const { content } = parseMD(fs.readFileSync(join('content', folder, name), 'utf-8'))
         return content
     } catch (e) {
-        console.error('loadMd', folder, name, e)
+        // console.error('loadMd', folder, name, e)
     }
 }
 
