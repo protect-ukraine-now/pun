@@ -167,11 +167,17 @@
 
     margin-left: 6px;
     color: $color-accent;
-    text-decoration: underline;
     cursor: pointer;
     font-weight: 700;
     text-align: left;
 
+    .plus {
+      text-decoration: none;
+    }
+
+    .delta {
+      text-decoration: underline;
+    }
   }
 }
 
@@ -217,7 +223,7 @@
       font-size: 14px;
     }
 
-      &:not(:last-of-type) {
+    &:not(:last-of-type) {
       margin-bottom: 11px;
     }
   }
