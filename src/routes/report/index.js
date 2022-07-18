@@ -1,3 +1,4 @@
+import cn from 'classnames';
 import { Link } from 'preact-router'
 import { usePrerenderData } from '@preact/prerender-data-provider'
 import Dashboard from "../../components/dashboard"
@@ -13,8 +14,8 @@ export default function Report(props) {
 	return (
         <Container className={style.container}>
 					<div className={style.nav}>
-			{prev && <Link className={style.navLink} href={`/report/${prev}`}>Previous report</Link>}
-			{next && <Link className={style.navLink} href={`/report/${next}`}>Next report</Link>}
+			{prev && <Link className={cn(style.navLink, style.prev)} href={`/report/${prev}`}>Previous report</Link>}
+			{next && <Link className={cn(style.navLink, style.next)} href={`/report/${next}`}>Next report</Link>}
 
 					</div>
             {/*<div>Heavy weapons committed to Ukraine as of {date}</div>*/}

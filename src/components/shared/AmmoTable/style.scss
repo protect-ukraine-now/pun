@@ -64,8 +64,19 @@
           15px
   );
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-weight: 700;
   text-align: center;
+
+  > * {
+    flex: 1 0 50%;
+
+    &:first-child {
+      text-align: right;
+    }
+  }
 }
 
 .cell {
@@ -130,6 +141,7 @@
           40px
   );
 
+  position: relative;
   flex: 1;
   text-align: right;
   width: 100%;
@@ -137,51 +149,56 @@
 }
 
 .delta {
-  @include make-responsive('font-size',
-          (
-                  mobile: 18px,
-                  tablet: 24px,
-                  desktop: 32px,
-          ),
-          40px
-  );
-
   flex: 1;
   position: relative;
-  transform: translateY(50%);
-  bottom: 100%;
-  align-self: flex-end;
-  margin-left: 6px;
-  color: $color-accent;
-  text-decoration: underline;
-  cursor: default;
-  font-weight: 700;
+  transform: translateY(-75%);
+  top: 0;
 
-  &:hover {
-    + .popup {
-      opacity: 1;
-    }
+  .value {
+    @include reset-button-style;
+    @include make-responsive('font-size',
+            (
+                    mobile: 18px,
+                    tablet: 24px,
+                    desktop: 32px,
+            ),
+            40px
+    );
+
+    margin-left: 6px;
+    color: $color-accent;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 700;
+    text-align: left;
+
   }
 }
 
 .popup {
   position: absolute;
-  bottom: 100%;
-  transform: translate(-10%, -30%);
-  opacity: 0;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -100%);
+  max-width: 450px;
   box-shadow: 0 0 5px #d9d9d9;
-  transition: opacity 0.35s ease;
   background: #fff;
   display: flex;
   flex-flow: column;
   padding: 16px 29px;
   border-radius: 8px;
+  z-index: 100;
+
+  @include max-w(mobile) {
+    max-width: 70vw;
+    padding: 10px 15px;
+  }
 
   &::after {
     content: '';
     position: absolute;
     top: 100%;
-    left: 50%;
+    right: 50px;
     transform: translateX(-50%);
     width: 0;
     height: 0;
@@ -191,8 +208,17 @@
   }
 
   .source {
-    &:not(:last-of-type) {
-      margin-bottom: 6px;
+    font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    @include max-w(mobile) {
+      font-size: 14px;
+    }
+
+      &:not(:last-of-type) {
+      margin-bottom: 11px;
     }
   }
 }

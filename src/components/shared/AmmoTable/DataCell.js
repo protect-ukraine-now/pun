@@ -1,32 +1,53 @@
 import cn from 'classnames';
 import style from './style.scss';
+import { useCallback, useMemo, useRef, useState } from 'preact/hooks';
+import useClickOutside from '../../../hooks/useClickOutside';
 
 const DataCell = ({ className, value, delta, sources }) => {
-  const sourcesPopup = (() => {
-    if (!sources || !sources.lenth) {
-      return null;
-    }
+	const [isSourcePopupShown, setIsSourcePopupShown] = useState(false);
+	const popupRef = useRef();
 
-    console.log('sources', sources)
+	useClickOutside(popupRef, () => setIsSourcePopupShown(false));
 
-    return (
-      <div className={style.popup}>
-        {sources.map(({ link, title }) => (
-          <a className={style.source} href={link} key={link}>
-            {title || link}
-          </a>
-        ))}
-      </div>
-    );
-  })();
+	const handleDeltaClick = useCallback((e) => {
+		e.stopPropagation();
+		setIsSourcePopupShown(prev => !prev);
+	}, []);
 
-  return (
-    <div className={cn(className, style.cell)}>
-      <span className={style.count}>{value || '-'}</span>
-      {<span className={style.delta}>{delta ? `+${delta}` : ''}</span>}
-      {sourcesPopup}
-    </div>
-  );
+
+	const sourcesPopup = useMemo(() => {
+		if (!sources || !sources.length) {
+			return null;
+		}
+
+		return isSourcePopupShown ? (
+			<div className={style.popup} ref={popupRef}>
+				{sources.map(({ link, title }) => {
+					return (
+						<a className={style.source} href={link} key={link} target="_blank" title={link}>
+							{title || link}
+						</a>
+					);
+				})}
+			</div>
+		) : null;
+	}, [sources, isSourcePopupShown]);
+
+	return (
+		<div className={cn(className, style.cell)}>
+			<span className={style.count}>{value || '-'}</span>
+			<div className={style.delta}>
+				{delta && (
+					<button
+						className={style.value}
+						onClick={handleDeltaClick}>
+						+{delta}
+					</button>
+				)}
+			</div>
+			{sourcesPopup}
+		</div>
+	);
 };
 
 export default DataCell;

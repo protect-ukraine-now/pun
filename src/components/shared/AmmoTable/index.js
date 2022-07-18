@@ -9,8 +9,8 @@ const AmmoTable = ({ data, date }) => (
     <h1 className={style.heading}>ТЯЖЕЛОЕ ВООРУЖЕНИЕ ПО СОСТОЯНИЮ НА {format(new Date(date), 'd MMMM yyyy ГОДА')}</h1>
     <div className={style.table}>
       <div className={style.head} />
-      <div className={style.head}>США</div>
-      <div className={style.head}>ВЕСЬ МИР</div>
+      <div className={style.head}><span>США</span><span /></div>
+      <div className={style.head}><span>ВЕСЬ МИР</span><span /></div>
 
       {data.map(({ category, values: [usaValues, totalValues] }) => (
       <div className={style.row}>
