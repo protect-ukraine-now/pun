@@ -1092,7 +1092,7 @@
 		"",
 		"Draft",
 		"Lithuania",
-		"-",
+		"other",
 		"Military truck",
 		"10",
 		"",
@@ -1122,9 +1122,39 @@
 		"France",
 		"Armored Personnel Carrier",
 		"VAB",
-		"5+",
+		"4",
 		"",
 		"At least 4 spotted on railway platform",
 		"https://edition.cnn.com/europe/live-news/russia-ukraine-war-news-06-28-22/h_7ea43ee9673957a79390ce311f31861b"
+	],
+	[
+		"2022-07-12",
+		"Roman Hrishchenko",
+		"",
+		"Draft",
+		"Germany",
+		"other",
+		"Bergepanzer 2",
+		"3",
+		"",
+		"Armored recovery vehicle",
+		"https://www.bundesregierung.de/breg-de/themen/krieg-in-der-ukraine/lieferungen-ukraine-2054514"
+	],
+	[
+		"2022-07-12",
+		"Roman Hrishchenko",
+		"",
+		"Duplicate",
+		"Germany",
+		"Armored Personnel Carrier",
+		"M113",
+		"50",
+		"",
+		"systems from Denmark, conversion financed by Germany - already mentioned in Danemark supples",
+		"https://www.bundesregierung.de/breg-de/themen/krieg-in-der-ukraine/lieferungen-ukraine-2054514"
+	],
+	[
+		"",
+		"Коллеги, пожалуйста, во избежание задвоений, не вносите новые данные в таблицу без согласования до 21.07. Спасибо!"
 	]
 ]
