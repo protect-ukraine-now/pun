@@ -11,6 +11,7 @@ import iconTank from '../../../assets/icons/ammo/tank.svg';
 import iconAircraft from '../../../assets/icons/ammo/aircraft.svg';
 import iconIFV from '../../../assets/icons/ammo/infantry-fighting-vehicle.svg';
 import iconSPAAW from '../../../assets/icons/ammo/self-propelled-anti-aircraft-weapon.svg';
+import iconSAMS from '../../../assets/icons/ammo/surface-to-air-missile-system.svg';
 
 export const AmmoIconMap = {
   'Towed Artillery': iconTA,
@@ -20,7 +21,7 @@ export const AmmoIconMap = {
   'Armored Personnel Carrier': iconAPC,
   other: iconQuestionMark, // TODO
   Vessel: iconVessel,
-  'Surface-to-Air Missile System': iconQuestionMark, // TODO!
+  'Surface-to-Air Missile System': iconSAMS,
   'Self-Propelled Artillery': iconSPA,
   'Multiple Launch Rocket System': iconMLRS,
   'Mine-Resistant Ambush Protected': iconMRAP,
