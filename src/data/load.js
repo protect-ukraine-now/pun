@@ -9,13 +9,13 @@ const CATEGORIES = [
     'Guided MLRS',
     'Self-Propelled Anti-Aircraft Weapon',
     'Surface-to-Air Missile System',
-    // 'Vessel',
     'Helicopter',
     'Aircraft',
     'Tank',
     'Infantry Fighting Vehicle',
-    // 'Armored Personnel Carrier',
+    'Armored Personnel Carrier',
     // 'Mine-Resistant Ambush Protected',
+    // 'Vessel',
 ]
 
 const spreadsheets = {
@@ -31,7 +31,7 @@ const spreadsheets = {
 
 const API_KEY = 'AIzaSyCX8cPcl4eAd311z9wCZ8xlQCkfmJ5sIpU'
 
-export async function loadData() {
+async function loadData() {
     let tasks = Object.entries(spreadsheets).map(async ([what, { id, range }]) => {
         console.log(what, `fetching...`)
         const url = `https://sheets.googleapis.com/v4/spreadsheets/${id}/values/${range}?key=${API_KEY}`
@@ -41,8 +41,8 @@ export async function loadData() {
             let file = `src/data/${what}.json`
             fs.writeFileSync(file, JSON.stringify(data, null, '\t'))
             console.log(what, 'saved')
-            data = JSON.parse(fs.readFileSync(file))
-            console.log(what, 'loaded', data.length)
+            // data = JSON.parse(fs.readFileSync(file))
+            // console.log(what, 'loaded', data.length)
         } catch (e) {
             console.error(e)
         }
@@ -79,6 +79,9 @@ function weeklyReport(asOf, data) {
     const till = formatDate(asOf)
     let byCategory = data.slice(1).reduce((accumulator, r) => {
         let [date, author, reviewer, status, country, category, type, qty, qty2, notes, link, title] = r
+        if (category === 'Mine-Resistant Ambush Protected') {
+            category = 'Armored Personnel Carrier'
+        }
         if (date <= till && (status === 'Draft' || status === 'Approved')) {
             let values = accumulator[category] || [{}, {}]
             accumulator[category] = values

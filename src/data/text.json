@@ -79,7 +79,7 @@
 		"Multiple Launch Rocket System",
 		"Реактивные системы залпового огня",
 		"Multiple Launch Rocket System",
-		"Реактивна система залпового вогню "
+		"Реактивна система залпового вогню (РСЗВ)"
 	],
 	[
 		"weapon_category",
@@ -122,7 +122,7 @@
 		"weapon_category",
 		"Self-Propelled Anti-Aircraft Weapon",
 		"Самоходные зенитные установки",
-		"Self-Propelled Anti-Aircraft Weapon",
+		"Anti-Aircraft Vehicle",
 		"Самохідна зенітна устанока"
 	],
 	[
