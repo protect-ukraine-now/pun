@@ -36,7 +36,7 @@
     @include make-responsive('font-size', (
             mobile: 14px,
             desktop: 16px
-    ), 20px);
+    ), 16px);
 
     margin: 1em 0;
   }
@@ -56,6 +56,11 @@
   }
 
   ul {
+    @include make-responsive('font-size', (
+            mobile: 14px,
+            desktop: 16px
+    ), 16px);
+
     list-style-type: disc;
     margin-left: 1em;
     padding-left: 1em;
@@ -63,6 +68,11 @@
   }
 
   ol {
+    @include make-responsive('font-size', (
+            mobile: 14px,
+            desktop: 16px
+    ), 16px);
+
     list-style-type: decimal;
     padding-left: 1em;
     margin-left: 1em;
