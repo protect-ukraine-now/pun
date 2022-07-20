@@ -70,4 +70,17 @@
 
 .digest {
   margin-bottom: 64px;
+  max-width: 900px;
+
+  @include max-w(tablet) {
+    max-width: 600px;
+  }
+
+  @include max-w(tablet-min) {
+    max-width: 400px;
+  }
+
+  @include max-w(mobile) {
+    max-width: 300px;
+  }
 }
