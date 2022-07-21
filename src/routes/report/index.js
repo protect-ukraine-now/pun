@@ -15,7 +15,7 @@ export default function Report(props) {
 	return (
 		<IntlProvider definition={text}>
 			<Container className={style.container}>
-				<div className={style.nav}>
+				{/* <div className={style.nav}>
 					{prev &&
 						<Link className={cn(style.navLink, style.prev)} href={`/${language}/report/${prev}`}>
 							<Text id="report.prev">Prev report</Text>
@@ -26,12 +26,12 @@ export default function Report(props) {
 							<Text id="report.next">Next report</Text>
 						</Link>
 					}
-				</div>
+				</div> */}
 				<Dashboard data={data.data.data} date={date}/>
 			</Container>
-			<Container className={style.digest}>
+			{/* <Container className={style.digest}>
 				<Article content={blog} />
-			</Container>
+			</Container> */}
 		</IntlProvider>
 	);
 }

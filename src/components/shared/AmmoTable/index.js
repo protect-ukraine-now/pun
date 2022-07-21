@@ -1,4 +1,5 @@
 import { Text } from 'preact-i18n'
+import cn from 'classnames'
 import style from './style.scss';
 import IconCell from './IconCell';
 import DataCell from './DataCell';
@@ -21,12 +22,16 @@ const AmmoTable = ({ data, date: asOf }) => {
         <div className={style.head}>
           <Text id="report.rest">Other Countries</Text>
         </div>
+        <div className={cn(style.head, style.russia)}>
+          <Text id="report.russia">Russia has</Text>
+        </div>
 
-        {data.map(({ category, values: [usaValues, restValues] }) => (
+        {data.map(({ category, values: [usaValues, restValues, russiaValues] }) => (
           <div className={style.row}>
             <IconCell category={category} />
             <DataCell className={style.valueCell} {...usaValues} key={`${category}-USA`} />
             <DataCell className={style.valueCell} {...restValues} key={`${category}-rest`} />
+            <DataCell className={cn(style.valueCell, style.russia)} {...russiaValues} key={`${category}-russia`} />
           </div>
         ))}
       </div>

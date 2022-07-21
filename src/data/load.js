@@ -23,6 +23,10 @@ const spreadsheets = {
         id: '1zJuvhRLAKPuVrtaA-xTm2KvVwRZjInDuA4M9k7HZT1E',
         range: "'Weapons'",
     },
+    russia: {
+        id: '1zJuvhRLAKPuVrtaA-xTm2KvVwRZjInDuA4M9k7HZT1E',
+        range: "'russia'",
+    },
     text: {
         id: '1Cm0x0JZAO05wxfN2iHeShnoXwdoTGe5jGuE5AhhJkBs',
         range: "'Sheet1'"
@@ -74,24 +78,28 @@ function loadMarkdown(folder, name) {
 const DAY = 24*60*60e3
 const formatDate = x => new Date(x).toISOString().slice(0, 10)
 
-function weeklyReport(asOf, data) {
+function weeklyReport(asOf, { commits, russia }) {
     const from = formatDate(asOf - 7*DAY)
     const till = formatDate(asOf)
-    let byCategory = data.slice(1).reduce((accumulator, r) => {
+    const russiaByCategory = Object.fromEntries(russia)
+    let byCategory = commits.slice(1).reduce((accumulator, r) => {
         let [date, author, reviewer, status, country, category, type, qty, qty2, notes, link, title] = r
         if (category === 'Mine-Resistant Ambush Protected') {
             category = 'Armored Personnel Carrier'
         }
         if (date <= till && (status === 'Draft' || status === 'Approved')) {
-            let values = accumulator[category] || [{}, {}]
+            let values = accumulator[category] || [{}, {}, { value: russiaByCategory[category] || '?' }]
             accumulator[category] = values
-            let index = country === 'US' ? 0 : 1
-            let x = values[index]
-            x.value = (x.value || 0) + +qty
-            if (date > from) {
-                x.delta = (x.delta || 0) + +qty
-                x.sources = [...(x.sources || []), { link, title }]
-            }
+            // let indicies = country === 'US' ? [0, 1] : [1]
+            let indicies = country === 'US' ? [0] : [1]
+            indicies.forEach(index => {
+                let x = values[index]
+                x.value = (x.value || 0) + +qty
+                if (date > from) {
+                    x.delta = (x.delta || 0) + +qty
+                    x.sources = [...(x.sources || []), { link, title }]
+                }
+            })
         }
         return accumulator
     }, {})
@@ -102,7 +110,7 @@ function weeklyReport(asOf, data) {
     }))
 }
 
-function prepareReports({ commits }) {
+function prepareReports(data) {
     let first = new Date('2022-07-03').valueOf()
     let reports = []
     for (let date = first; date < Date.now(); date += 7*DAY) {
@@ -110,7 +118,7 @@ function prepareReports({ commits }) {
             date: formatDate(date),
             prev: date > first && formatDate(date - 7*DAY),
             next: date + 7*DAY < Date.now() && formatDate(date + 7*DAY),
-            data: weeklyReport(date, commits),
+            data: weeklyReport(date, data),
         })
     }
     return reports
