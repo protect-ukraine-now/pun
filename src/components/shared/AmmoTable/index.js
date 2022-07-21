@@ -5,6 +5,12 @@ import IconCell from './IconCell';
 import DataCell from './DataCell';
 import Container from '../Container';
 
+const approximateNumber = n => (
+  parseFloat(n) == n 
+  ? '> ' + (Math.floor(parseFloat(n) / 1e3) * 1e3).toLocaleString() 
+  : n
+)
+
 const AmmoTable = ({ data, date: asOf }) => {
   let date = new Date(asOf).toDateString()
   return (
@@ -26,12 +32,12 @@ const AmmoTable = ({ data, date: asOf }) => {
           <Text id="report.russia">Russia has</Text>
         </div>
 
-        {data.map(({ category, values: [usaValues, restValues, russiaValues] }) => (
+        {data.map(({ category, values: [usa, rest, russia] }) => (
           <div className={style.row}>
             <IconCell category={category} />
-            <DataCell className={style.valueCell} {...usaValues} key={`${category}-USA`} />
-            <DataCell className={style.valueCell} {...restValues} key={`${category}-rest`} />
-            <DataCell className={cn(style.valueCell, style.russia)} {...russiaValues} key={`${category}-russia`} />
+            <DataCell className={style.valueCell} {...usa} key={`${category}-USA`} />
+            <DataCell className={style.valueCell} {...rest} key={`${category}-rest`} />
+            <DataCell className={cn(style.valueCell, style.russia)} {...{ value: approximateNumber(russia.value) }} key={`${category}-russia`} />
           </div>
         ))}
       </div>
