@@ -6,7 +6,7 @@ import DataCell from './DataCell';
 import Container from '../Container';
 
 const approximateNumber = n => (
-  parseFloat(n) == n 
+  parseFloat(n)
   ? '> ' + (Math.floor(parseFloat(n) / 1e3) * 1e3).toLocaleString() 
   : n
 )
