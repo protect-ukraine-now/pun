@@ -1,0 +1,38 @@
+@import './src/style/mixins';
+
+.headerImage {
+    padding: 210px 0 168px;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../../assets/main.webp") no-repeat;
+    background-size: cover;
+    margin-bottom: 16px;
+}
+
+.headerImage>h1 {
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+}
+
+.headerImage>h2 {
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+}
+
+.headerImage>a {
+    background-color: #fef300;
+    border-radius: 7px;
+    color: #000;
+    display: block;
+    font-size: 47px;
+    font-weight: 700;
+    margin: 75px auto 0;
+    padding: 20px 0;
+    text-align: center;
+    text-decoration: none;
+    width: 408px;
+
+    @include max-w(tablet-min) {
+        width: 100%;
+    }
+}
