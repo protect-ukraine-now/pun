@@ -9,17 +9,17 @@ import toast from '../../../utils/toast';
 
 export default () => (
     <Container>
-        <section className="parts_sec">
-            <div className="name">
+        <section className={style.parts_sec}>
+            <div className={style.name}>
                 There are 2 ways to get in touch with your representatives:
             </div>
-            <div className="part part1" id="act">
-                <div className="left_part">
-                    <div className="title">
+            <div className={[style.part, style.part1]} id="act">
+                <div className={style.left_part}>
+                    <div className={style.title}>
                         <span>1</span>
                         <span>Use chat bot to initiate petition to your representative</span>
                     </div>
-                    <div className="content">
+                    <div className={style.content}>
                         <p>How to do that?</p>
                         <ul>
                             <li>
@@ -33,26 +33,26 @@ export default () => (
                         </ul>
                     </div>
                 </div>
-                <div className="right_part">
-                    <div className="video_el">
+                <div className={style.right_part}>
+                    <div className={style.video_el}>
                         <LiteYouTubeEmbed id="j1Uml7lV_HA" webp />
                     </div>
-                    <p className="video_el_note">Quick Help Video</p>
+                    <p className={style.video_el_note}>Quick Help Video</p>
                 </div>
             </div>
-            <div className="border_block">
+            <div className={style.border_block}>
                 <span>or</span>
             </div>
-            <div className="part part2 part_flex_wrap" id="sendletter">
-                <div className="title_part">
-                    <div className="title ">
+            <div className={[style.part, style.part2, style.part_flex_wrap]} id="sendletter">
+                <div className={style.title_part}>
+                    <div className={style.title}>
                         <span>2</span>
                         <span>Send the letter to your representative</span>
                     </div>
                     <p>How to do that?</p>
                 </div>
-                <div className="left_part">
-                    <div className="content">
+                <div className={style.left_part}>
+                    <div className={style.content}>
                         <p>For Senate</p>
                         <ul>
                             <li>1. Go to the <a href="https://www.senate.gov/states/statesmap.htm" target="_blank" rel="noreferrer">Senate site</a></li>
@@ -61,17 +61,17 @@ export default () => (
                             <li>4. Send a <a href="#emailbody">letter</a> to your representative</li>
                             <li>5. Repeat for other representatives as well</li>
                             <li>
-                                <div className="video_el">
+                                <div className={style.video_el}>
                                     <LiteYouTubeEmbed id="ilwO0oezkCU" webp />
                                 </div>
-                                <p className="video_el_note">Quick Help Video</p>
+                                <p className={style.video_el_note}>Quick Help Video</p>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <div className="border_block border_block_vertical"></div>
-                <div className="right_part">
-                    <div className="content">
+                <div className={[style.border_block, style.border_block_vertical]}></div>
+                <div className={style.right_part}>
+                    <div className={style.content}>
                         <p>For House</p>
                         <ul>
                             <li>1. Go to the <a href="https://www.house.gov/representatives/find-your-representative" target="_blank" rel="noreferrer">House site</a></li>
@@ -80,34 +80,34 @@ export default () => (
                             <li>4. Send a <a href="#emailbody">letter</a> to your representative</li>
                             <li>5. Repeat for other representatives as well</li>
                             <li>
-                                <div className="video_el">
+                                <div className={style.video_el}>
                                     <LiteYouTubeEmbed id="N6Sm8OwcO4g" webp />
                                 </div>
-                                <p className="video_el_note">Quick Help Video</p>
+                                <p className={style.video_el_note}>Quick Help Video</p>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
         </section>
-        <section className="social_sec">
+        <section className={style.social_sec}>
             <h3>After you are done please share this site with your friends, family and on social networks</h3>
-            <div className="social_buttons">
-                <div className="sharethis-inline-share-buttons" />
+            <div className={style.social_buttons}>
+                <div className={"style.sharethis-inline-share-buttons"} />
             </div>
-            <div className="save_block">
+            <div className={style.save_block}>
                 <div>Together we can save</div>
                 <div>Ukrainian lives!</div>
-                <div className="flag">
-                    <div className="blue" />
-                    <div className="yellow" />
+                <div className={style.flag}>
+                    <div className={style.blue} />
+                    <div className={style.yellow} />
                 </div>
             </div>
         </section>
-        <section className="letter_sec" id="emailbody">
-            <div className="title">Send the following letter to your representative in U.S. Congress</div>
-            <div className="letter_text">
-                <div className="greet">
+        <section className={style.letter_sec} id="emailbody">
+            <div className={style.title}>Send the following letter to your representative in U.S. Congress</div>
+            <div className={style.letter_text}>
+                <div className={style.greet}>
                     Dear [name of the representative],
                 </div>
                 <br />
@@ -141,14 +141,13 @@ export default () => (
                     Nothing matters more to me at this moment.
                 </div>
                 <br />
-                <div className="bst_wishes">
+                <div className={style.bst_wishes}>
                     Sincerely,<br />
                     [your name]
                 </div>
             </div>
             <div className={style.copy_btn} onClick={() => {
                 copyToClipboard('.letter_text');
-                console.log('Copied to clipboard');
                 toast('Copied to clipboard');
             }}>
                 COPY TO CLIPBOARD
