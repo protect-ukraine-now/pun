@@ -46,7 +46,7 @@ header .soc_net a {
 }
 
 .main h1 {
-    font-size: 65px;
+    font-size: 55px;
     letter-spacing: 2px;
     line-height: 68px;
     color: #ffffff;
@@ -70,7 +70,7 @@ header .soc_net a {
     border-radius: 7px;
     background-color: #fef300;
     display: block;
-    margin: 75px auto 0;
+    margin: 220px auto 0;
     font-size: 47px;
     color: #000000;
     font-weight: bold;
