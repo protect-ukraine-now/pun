@@ -7,45 +7,215 @@
 	],
 	[
 		"Towed Artillery",
-		"18494"
+		"18497",
+		"",
+		"BMP-1",
+		"7500",
+		"Infantry Fighting Vehicle",
+		"",
+		"Fighter aircraft:",
+		"792"
 	],
 	[
 		"Self-Propelled Artillery",
-		"6542"
+		"6542",
+		"",
+		"MT-LB",
+		"6500",
+		"-",
+		"",
+		"Multirole aircraf:",
+		"832"
 	],
 	[
 		"Multiple Launch Rocket System",
-		"4359"
+		"4057",
+		"",
+		"BMP-2",
+		"4500",
+		"Infantry Fighting Vehicle",
+		"",
+		"Attack aircraft:",
+		"880"
 	],
 	[
-		"Guided MLRS"
+		"Guided MLRS",
+		"",
+		"",
+		"BTR-60",
+		"3663",
+		"Armored Personnel Carrier"
 	],
 	[
 		"Tank",
-		"12270"
+		"12270",
+		"",
+		"BRDM-2",
+		"2000",
+		"recon",
+		"",
+		"Mil Mi-8/17",
+		"756",
+		"?"
 	],
 	[
 		"Armored Personnel Carrier",
+		"5731",
 		"",
-		"71",
-		"https://www.militaryfactory.com/modern-armor/russian-army.php"
+		"BTR-80/82A",
+		"1292",
+		"Armored Personnel Carrier",
+		"",
+		"Mil Mi-24/35",
+		"352",
+		"Helicopter"
 	],
 	[
 		"Infantry Fighting Vehicle",
-		"26831"
+		"12600",
+		"",
+		"BMP-3",
+		"600",
+		"Infantry Fighting Vehicle",
+		"",
+		"Kamov Ka-52",
+		"151"
 	],
 	[
-		"Self-Propelled Anti-Aircraft Weapon"
+		"Self-Propelled Anti-Aircraft Weapon",
+		"",
+		"",
+		"Kamaz Typhoon",
+		"320",
+		"Armored Personnel Carrier",
+		"",
+		"Mil Mi-28",
+		"128"
 	],
 	[
-		"Surface-to-Air Missile System"
+		"Surface-to-Air Missile System",
+		"",
+		"",
+		"Ural Typhoon",
+		"187",
+		"Armored Personnel Carrier",
+		"",
+		"Kamov Ka-27",
+		"108"
 	],
 	[
 		"Helicopter",
-		"1724"
+		"1724",
+		"",
+		"BTR-90",
+		"139",
+		"Armored Personnel Carrier",
+		"",
+		"Mi-14",
+		"60"
 	],
 	[
 		"Aircraft",
-		"3828"
+		"2504",
+		"",
+		"BTR-70",
+		"95",
+		"Armored Personnel Carrier",
+		"",
+		"Kazan Ansat",
+		"50"
+	],
+	[
+		"",
+		"",
+		"",
+		"SBA-60K2 Bulat",
+		"30",
+		"Armored Personnel Carrier",
+		"",
+		"Mil Mi-26",
+		"44"
+	],
+	[
+		"",
+		"",
+		"",
+		"Kamaz-43501 Patrul",
+		"5",
+		"Armored Personnel Carrier",
+		"",
+		"Kamov Ka-226",
+		"36"
+	],
+	[
+		"",
+		"",
+		"",
+		"BM-21 Grad",
+		"3200",
+		"Multiple Launch Rocket System",
+		"",
+		"Mil Mi-2",
+		"29"
+	],
+	[
+		"",
+		"",
+		"",
+		"BM-27 Uragan",
+		"376",
+		"Multiple Launch Rocket System",
+		"",
+		"Kamov Ka-31",
+		"3"
+	],
+	[
+		"",
+		"",
+		"",
+		"9K720 Iskander-M",
+		"302",
+		"other",
+		"",
+		"Eurocopter AS350",
+		"3"
+	],
+	[
+		"",
+		"",
+		"",
+		"9A52-4 Tornado",
+		"300",
+		"Multiple Launch Rocket System",
+		"",
+		"Mil Mi-38",
+		"2"
+	],
+	[
+		"",
+		"",
+		"",
+		"BM-30 Smerch",
+		"130",
+		"Multiple Launch Rocket System",
+		"",
+		"Eurocopter AS355",
+		"2"
+	],
+	[
+		"",
+		"",
+		"",
+		"TOS-1",
+		"45",
+		"Multiple Launch Rocket System"
+	],
+	[
+		"",
+		"",
+		"",
+		"9K512 Uragan-1M",
+		"6",
+		"Multiple Launch Rocket System"
 	]
 ]
