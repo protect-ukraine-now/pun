@@ -7,7 +7,6 @@
 		<meta name="mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta property="og:title" content="<%= (htmlWebpackPlugin.options.seo && htmlWebpackPlugin.options.seo.title) || htmlWebpackPlugin.options.title %>" />
-		<link rel="stylesheet" href="https://unpkg.com/reset-css/reset.css" />
 		<% if(htmlWebpackPlugin.options.seo && 'cover' in htmlWebpackPlugin.options.seo) {%>
 			<meta property="og:image" content="<%= htmlWebpackPlugin.options.seo.cover %>" />
 		<% } %>
@@ -22,9 +21,25 @@
 		<% if(htmlWebpackPlugin.options.seo && 'subtitle' in htmlWebpackPlugin.options.seo) {%>
 			<meta property="twitter:description" content="<%= htmlWebpackPlugin.options.seo.subtitle %>" />
 		<% } %>
+
+		<style>
+			.main {
+				background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("assets/main.webp") no-repeat;
+			}
+		</style>
+
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TSJ66R2');</script>
+		<!-- End Google Tag Manager -->
+
 		<% preact.headEnd %>
 	</head>
 	<body>
 		<% preact.bodyEnd %>
 	</body>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TSJ66R2"	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>	
+	<!-- End Google Tag Manager (noscript) -->
 </html>

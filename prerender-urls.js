@@ -16,41 +16,41 @@ module.exports = async () => {
 					...reports[reports.length - 1],
 					text: text.en,
 					language: 'en',
-					blog: loadMarkdown('blog', `${reports[reports.length - 1].date}.en.md`),
+					// blog: loadMarkdown('blog', `${reports[reports.length - 1].date}.en.md`),
 				}
 			},
-			{
-				url: '/en',
-				// seo: { cover: '/assets/profile.jpg'	},
-				data: {
-					...reports[reports.length - 1],
-					text: text.en,
-					language: 'en',
-					blog: loadMarkdown('blog', `${reports[reports.length - 1].date}.en.md`),
-				}
-			},
-			{
-				url: '/ua',
-				// seo: { cover: '/assets/profile.jpg'	},
-				data: {
-					...reports[reports.length - 1],
-					text: text.ua,
-					language: 'ua',
-					blog: loadMarkdown('blog', `${reports[reports.length - 1].date}.ua.md`),
-				}
-			},
-			...Object.entries(text).map(([language, text]) =>
-				reports.map(report => ({
-					url: `/${language}/report/${report.date}`,
-					// seo: blog.details,
-					data: {
-						...report,
-						text,
-						language,
-						blog: loadMarkdown('blog', `${report.date}.${language}.md`),
-					},
-				}))
-			).flat()
+			// {
+			// 	url: '/en',
+			// 	// seo: { cover: '/assets/profile.jpg'	},
+			// 	data: {
+			// 		...reports[reports.length - 1],
+			// 		text: text.en,
+			// 		language: 'en',
+			// 		blog: loadMarkdown('blog', `${reports[reports.length - 1].date}.en.md`),
+			// 	}
+			// },
+			// {
+			// 	url: '/ua',
+			// 	// seo: { cover: '/assets/profile.jpg'	},
+			// 	data: {
+			// 		...reports[reports.length - 1],
+			// 		text: text.ua,
+			// 		language: 'ua',
+			// 		blog: loadMarkdown('blog', `${reports[reports.length - 1].date}.ua.md`),
+			// 	}
+			// },
+			// ...Object.entries(text).map(([language, text]) =>
+			// 	reports.map(report => ({
+			// 		url: `/${language}/report/${report.date}`,
+			// 		// seo: blog.details,
+			// 		data: {
+			// 			...report,
+			// 			text,
+			// 			language,
+			// 			blog: loadMarkdown('blog', `${report.date}.${language}.md`),
+			// 		},
+			// 	}))
+			// ).flat()
 		]
 
 		console.log('pages', pages)

@@ -85,13 +85,16 @@ function weeklyReport(asOf, data) {
         if (date <= till && (status === 'Draft' || status === 'Approved')) {
             let values = accumulator[category] || [{}, {}]
             accumulator[category] = values
-            let index = country === 'US' ? 0 : 1
-            let x = values[index]
-            x.value = (x.value || 0) + +qty
-            if (date > from) {
-                x.delta = (x.delta || 0) + +qty
-                x.sources = [...(x.sources || []), { link, title }]
-            }
+            // let indicies = country === 'US' ? [0, 1] : [1]
+            let indicies = country === 'US' ? [0] : [1]
+            indicies.forEach(index => {
+                let x = values[index]
+                x.value = (x.value || 0) + +qty
+                if (date > from) {
+                    x.delta = (x.delta || 0) + +qty
+                    x.sources = [...(x.sources || []), { link, title }]
+                }
+            })
         }
         return accumulator
     }, {})

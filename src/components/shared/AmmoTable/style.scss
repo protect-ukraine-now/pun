@@ -5,10 +5,10 @@
   @include container-padding;
   @include make-responsive('font-size',
           (
-                  tablet: 32px,
-                  desktop: 40px,
+                  tablet: 22px,
+                  desktop: 30px,
           ),
-          40px
+          30px
   );
   @include make-responsive('margin-bottom',
           (
