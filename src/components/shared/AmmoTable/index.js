@@ -29,7 +29,7 @@ const AmmoTable = ({ data, date: asOf }) => {
           <Text id="report.rest">Other Countries</Text>
         </div>
         <div className={cn(style.head, style.russia)}>
-          <Text id="report.russia">Russia has</Text>
+          <Text id="report.russia">Russia had</Text>
         </div>
 
         {data.map(({ category, values: [usa, rest, russia] }) => (
