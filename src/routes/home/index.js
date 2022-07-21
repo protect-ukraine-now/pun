@@ -7,7 +7,6 @@ import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css'
 import Report from '../report'
 import copyToClipboard from '../../tools/copyToClipboard'
 
-
 let copy = e => {
 	e.preventDefault()
 	copyToClipboard('.letter_text')

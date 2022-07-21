@@ -38,7 +38,7 @@ header .soc_net a {
 
 /*--------MAIN---------*/
 .main {
-    padding: 210px 0 168px;
+    padding: 70px 0 168px;
     /* moved to html to have static uri for http2 push */
     /* background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("assets/main.jpg") no-repeat; */
     background-size: cover;
@@ -80,7 +80,7 @@ header .soc_net a {
 
 /*-------------------PART_SEC----------------*/
 .parts_sec {
-    padding: 40px 0 85px;
+    padding: 0px 0 85px;
 }
 
 .parts_sec .name {

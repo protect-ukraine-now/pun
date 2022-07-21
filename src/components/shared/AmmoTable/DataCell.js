@@ -36,16 +36,16 @@ const DataCell = ({ className, value, delta, sources }) => {
 	return (
 		<div className={cn(className, style.cell)}>
 			<span className={style.count}>{value || '-'}</span>
-			<div className={style.delta}>
-				{/* {!!delta && (
+			{/* <div className={style.delta}>
+				{!!delta && (
 					<button
 						className={style.value}
 						onClick={handleDeltaClick}>
 						<span className={style.plus}>+</span>
 						<span className={style.delta}>{delta}</span>
 					</button>
-				)} */}
-			</div>
+				)}
+			</div> */}
 			{sourcesPopup}
 		</div>
 	);
