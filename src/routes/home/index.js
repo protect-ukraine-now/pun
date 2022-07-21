@@ -58,7 +58,8 @@ export default function Home(props) {
 		</section>
 
 		<div className="container">
-			<section className="theatre_sec">
+			<br /><br />
+			{/* <section className="theatre_sec">
 				<div>
 					We are very encouraged and grateful for the overwhelming support following Volodymyr Zelenskyy address to U.S. Congress on March 16th.
 				</div>
@@ -69,7 +70,7 @@ export default function Home(props) {
 						Ukraine needs fighter planes to protect civilians from the air raids.
 					</b>
 				</div>
-			</section>
+			</section> */}
 
 			<Report {...props} />
 

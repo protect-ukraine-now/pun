@@ -33,9 +33,11 @@ const DataCell = ({ className, value, delta, sources }) => {
 		) : null;
 	}, [sources, isSourcePopupShown]);
 
+	const formatNumber = n => parseFloat(n) == n ? parseFloat(n).toLocaleString() : n
+
 	return (
 		<div className={cn(className, style.cell)}>
-			<span className={style.count}>{value || '-'}</span>
+			<span className={style.count}>{formatNumber(value) || '-'}</span>
 			{/* <div className={style.delta}>
 				{!!delta && (
 					<button
