@@ -11,7 +11,7 @@ module.exports = async () => {
 		const pages = [
 			{
 				url: '/',
-				// seo: { cover: '/assets/profile.jpg'	},
+				seo: { cover: '/assets/og.webp'	},
 				data: {
 					...reports[reports.length - 1],
 					text: text.en,
