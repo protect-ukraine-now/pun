@@ -7,6 +7,9 @@ import Container from '../../components/shared/Container';
 import style from './style.scss';
 import Article from '../../components/Article';
 
+import LargeImageHeader from '../../components/shared/LargeImageHeader';
+import ActionLetter from '../../components/shared/ActionLetter';
+
 export default function Report(props) {
 	const [data, isLoading] = usePrerenderData(props);
 	if (isLoading) return;
@@ -14,6 +17,7 @@ export default function Report(props) {
 	const { language, text, date, prev, next, blog } = data.data;
 	return (
 		<IntlProvider definition={text}>
+			<LargeImageHeader />
 			<Container className={style.container}>
 				<div className={style.nav}>
 					{prev &&
@@ -27,11 +31,12 @@ export default function Report(props) {
 						</Link>
 					}
 				</div>
-				<Dashboard data={data.data.data} date={date}/>
+				<Dashboard data={data.data.data} date={date} />
 			</Container>
-			<Container className={style.digest}>
+			<ActionLetter />
+			{/* <Container className={style.digest}>
 				<Article content={blog} />
-			</Container>
+			</Container> */}
 		</IntlProvider>
 	);
 }

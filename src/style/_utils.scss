@@ -1,0 +1,45 @@
+overlay {
+    pointer-events: none;
+    display: grid;
+    position: fixed;
+    z-index: 32;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    justify-items: center;
+    align-items: center;
+}
+
+overlay.toast {
+    animation: 2s ease-out toast;
+}
+
+@keyframes toast {
+    from {
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+toast {
+    pointer-events: none;
+    display: inline-block;
+    font-size: 2em;
+    color: rgba(255, 255, 255, 0.75);
+    padding: 1em;
+    background: rgba(0, 64, 128, 0.75);
+    border-radius: 2em;
+    border: 0.1em solid rgba(255, 255, 255, 0.75);
+}
