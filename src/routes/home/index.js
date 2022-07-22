@@ -87,7 +87,7 @@ export default function Home(props) {
 				<br /><br />
 				A number of Senators from both sides of the aisle, including Sen. Dan Sullivan, Tammy Duckworth , Roger Wicker, Richard Blumenthal, and Robert Portman have addressed President Biden to expedite military assistance for Ukraine.  I urge you to join their ranks and request the White House and DoD to immediately send more military equipment to Ukraine as appropriated by the Congress.  According to the group of senators, equipment needed for immediate delivery includes medium- and long-range air defense systems, 155 mm howitzers, High Mobility Artillery Rocket Systems (HIMARS), armored personnel carriers, larger and more capable unmanned aircraft systems (UAS), and Mi-17 helicopters.
 				<br /><br />
-				According to Fareed Zakarea, who I tend to agree with, the appeasement of the totalitarian Russian regime will lead to an energy supply collapse during the coming winter and a likely annexation of Taiwan by China.  In my opinion, the military capabilities shipment to Ukraine is not only our moral obligation but a pragmatic necessity to avoid a future world chaos.				
+				According to Fareed Zakaria, who I tend to agree with, the appeasement of the totalitarian Russian regime will lead to an energy supply collapse during the coming winter and a likely annexation of Taiwan by China.  In my opinion, the military capabilities shipment to Ukraine is not only our moral obligation but a pragmatic necessity to avoid a future world chaos.				
 				<br /><br />
 				<div className="bst_wishes">
 					Sincerely,<br />
