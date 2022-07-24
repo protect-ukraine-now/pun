@@ -65,13 +65,17 @@ header .soc_net a {
 }
 
 .main a {
+    text-decoration: none;
+}
+
+.act-now {
     width: 408px;
     padding: 20px 0;
     border-radius: 7px;
     background-color: #fef300;
     display: block;
     margin: 220px auto 0;
-    font-size: 47px;
+    font-size: 27px;
     color: #000000;
     font-weight: bold;
     text-decoration: none;
