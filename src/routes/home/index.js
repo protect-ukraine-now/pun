@@ -87,13 +87,11 @@ export default function Home(props) {
 						Dear [name of the representative],
 					</div>
 					<br />
-					It’s been five months since the beginning of the illegal and unprovoked  Russian attack on Ukraine.  I am very disappointed by the handling of this war by the US government.  The amount of  the “committed” military capabilities for Ukraine by the US is averaging under $1.5 bln. per month, but the actual shipment appears to be even less than that.
+					It’s been five months since the beginning of the illegal and unprovoked Russian attack on Ukraine. From the $20 bln. of military aid authorized by the Congress under the Additional Ukraine Supplemental Appropriations Act, the White House has used less than $4 bln. As a result, Ukraine is losing its territories and people, including civilians, women and children among them.
 					<br /><br />
-					From the $20 bln. of military aid authorized by the Congress under the Additional Ukraine Supplemental Appropriations Act in May 2022, the White House has used less than $4 bln.  As a result, Ukraine is losing its territories and people, including civilians, women and children among them. 
+					Six senators from both sides of the aisle including Richard Blumenthal and  Lindsay O. Graham  on July 15th have addressed the Secretary of Defence  to expedite military assistance for Ukraine. I urge you to join their ranks and request the White House and DoD to immediately send more military equipment to Ukraine as appropriated by the Congress. According to the group of senators, equipment needed for immediate delivery includes C-RAM systems,  fourth-generation fighter aircraft, larger and more capable unmanned aircraft systems (UAS).
 					<br /><br />
-					A number of Senators from both sides of the aisle, including Sen. Dan Sullivan, Tammy Duckworth , Roger Wicker, Richard Blumenthal, and Robert Portman have addressed President Biden to expedite military assistance for Ukraine.  I urge you to join their ranks and request the White House and DoD to immediately send more military equipment to Ukraine as appropriated by the Congress.  According to the group of senators, equipment needed for immediate delivery includes medium- and long-range air defense systems, 155 mm howitzers, High Mobility Artillery Rocket Systems (HIMARS), armored personnel carriers, larger and more capable unmanned aircraft systems (UAS), and Mi-17 helicopters.
-					<br /><br />
-					According to Fareed Zakaria, who I tend to agree with, the appeasement of the totalitarian Russian regime will lead to an energy supply collapse during the coming winter and a likely annexation of Taiwan by China.  In my opinion, the military capabilities shipment to Ukraine is not only our moral obligation but a pragmatic necessity to avoid a future world chaos.				
+					According to Fareed Zakaria, who I tend to agree with, the appeasement of the totalitarian Russian regime will lead to an energy supply collapse during the coming winter and a likely annexation of Taiwan by China. In my opinion, the military capabilities shipment to Ukraine is not only our moral obligation but a pragmatic necessity to avoid a future world chaos.
 					<br /><br />
 					<div className="bst_wishes">
 						Sincerely,<br />
