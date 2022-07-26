@@ -1,7 +1,7 @@
 import { Link } from 'preact-router';
 import { usePrerenderData } from '@preact/prerender-data-provider';
 import { IntlProvider, Text } from 'preact-i18n';
-import Dashboard from '../../components/dashboard';
+import Dashboard from '../../components/Dashboard';
 import cn from 'classnames';
 import Container from '../../components/Container';
 import style from './style.scss';
