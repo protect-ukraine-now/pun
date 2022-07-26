@@ -4,10 +4,10 @@ import { FaTelegramPlane, FaEnvelope } from 'react-icons/fa'
 import LiteYouTubeEmbed from 'react-lite-youtube-embed'
 import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css'
 
-import Report from '../report'
+// import Report from '../report'
 import copyToClipboard from '../../tools/copyToClipboard'
 
-let copy = e => {
+const copy = e => {
 	e.preventDefault()
 	copyToClipboard('.letter_text')
 }
@@ -74,7 +74,11 @@ export default function Home(props) {
 				</div>
 			</section> */}
 
-			<Report {...props} />
+			{/* <Report {...props} /> */}
+
+			<section className="theatre_sec">
+				<p><a href="/report">Current state of weapons supply to Ukraine</a></p>
+			</section>
 
 			<section className="letter_sec" id="emailbody">
 				Russia fires at will misiles and bombs into densly populated Ukrainian cities killing hundreds and terrorizing millions. Russia can do so with impunity as the Ukrainians don't have  air defense systems capable of intercepting such threats.
@@ -158,7 +162,7 @@ export default function Home(props) {
 				</div>
 			</section>
 		</div>
-		
+
 		<footer>
 			<div className="container">
 				{/* <div className="protect_elem">
@@ -166,9 +170,9 @@ export default function Home(props) {
 					<div>NOW</div>
 				</div> */}
 				<div className="text">
-					We are a brother and sister, who were raised in Kharkiv, Ukraine. 
-					We spent the last 30 years in the US, living the American dream, both with successful careers in high tech. 
-					We love and admire the US and the principles on which it is built. 
+					We are a brother and sister, who were raised in Kharkiv, Ukraine.
+					We spent the last 30 years in the US, living the American dream, both with successful careers in high tech.
+					We love and admire the US and the principles on which it is built.
 					But now our focus is to help our beautiful Ukraine survive and win.
 				</div>
 				<div className="owners">
