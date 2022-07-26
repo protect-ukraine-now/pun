@@ -15,7 +15,7 @@ export default function Menu() {
 				return (
 					<ul className={style.container}>
 						{pages(language).map(([ name, href ]) =>
-							<Link {...{ href, key: href }}>
+							<Link {...{ href, key: href }} activeClassName="active">
 								{name}
 							</Link>
 						)}

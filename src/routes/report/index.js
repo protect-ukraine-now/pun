@@ -11,7 +11,7 @@ export default function Report(props) {
 	const [data, isLoading] = usePrerenderData(props);
 	if (isLoading) return;
 	// console.log('Report', props, data)
-	const { language, text, date, prev, next, blog } = data.data;
+	const { language, text, prev, next, blog } = data.data;
 	return (
 		<IntlProvider definition={text}>
 			<Container className={style.container}>
@@ -27,7 +27,7 @@ export default function Report(props) {
 						</Link>
 					}
 				</div>
-				<Dashboard data={data.data.data} date={date} />
+				<Dashboard {...data.data} />
 			</Container>
 			<Container className={style.digest}>
 				<Article content={blog} />
