@@ -7,11 +7,11 @@ import Container from '../Container';
 
 const approximateNumber = n => (
   parseFloat(n)
-  ? '> ' + (Math.floor(parseFloat(n) / 1e3) * 1e3).toLocaleString() 
+  ? '>\xA0' + (Math.floor(parseFloat(n) / 1e3) * 1e3).toLocaleString() 
   : n
 )
 
-const AmmoTable = ({ data, date: asOf }) => {
+const Dashboard = ({ data, date: asOf }) => {
   let date = new Date(asOf).toDateString()
   return (
     <Container className={style.container}>
@@ -45,4 +45,4 @@ const AmmoTable = ({ data, date: asOf }) => {
   )
 }
 
-export default AmmoTable;
+export default Dashboard;

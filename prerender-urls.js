@@ -1,4 +1,3 @@
-const { default: language } = require('react-syntax-highlighter/dist/esm/languages/hljs/1c')
 const { loadData, loadMarkdown } = require('./src/data/load.js')
 // const { generateFileList } = require('./src/crawler');
 
@@ -11,40 +10,31 @@ module.exports = async () => {
 		const lastReport = reports[reports.length - 1]
 
 		const pages = [
-			{
-				url: '/',
-				seo: { cover: 'https://protectukrainenow.org/assets/og.webp' },
-				data: {
-					...lastReport,
-					text: text.en,
-					language: 'en',
-					blog: loadMarkdown('blog', `${lastReport.date}.en.md`),
-				}
-			},
-			...[null, 'en', 'ua'].map(language => (
+			{ url: '/' },
+			...Object.entries(text).map(([language, text]) => [
 				{
-					url: '/' + [language, 'home'].filter(v => v != null).join('/'),
+					url: `/${language}/letter`,
 					seo: { cover: 'https://protectukrainenow.org/assets/og.webp' },
 					data: {
-						...lastReport,
-						text: text.en,
-						language: language || 'en',
-						blog: loadMarkdown('blog', `${lastReport.date}.${language || 'en'}.md`),
+						text,
+						language,
 					}
-				})),
-			...Object.entries(text).concat([[null, text.en]]).map(([language, text]) =>
-				reports.map(report => [report, report.date])
-					.concat([[lastReport, null]]).map(([report, date]) => ({
-						url: '/' + [language, 'report', date].filter(v => v != null).join('/'),
+				},
+				...[lastReport, ...reports].map((report, i) => {
+					let url = `/${language}/report`
+					if (i) url += `/${report.date}`
+					return {
+						url,
 						// seo: blog.details,
 						data: {
 							...report,
 							text,
-							language: language || 'en',
-							blog: loadMarkdown('blog', `${report.date}.${language || 'en'}.md`),
+							language: language,
+							blog: loadMarkdown('blog', `${report.date}.${language}.md`),
 						},
-					}))
-			).flat()
+					}
+				})
+			]).flat()
 		]
 
 		console.log('pages', pages)

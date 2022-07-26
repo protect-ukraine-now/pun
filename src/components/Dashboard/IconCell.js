@@ -1,7 +1,7 @@
 import cn from 'classnames';
 import { Text } from 'preact-i18n'
 import { AmmoIconMap } from './maps';
-import defaultIcon from '../../../assets/icons/question_mark.svg';
+import defaultIcon from '../../assets/icons/question_mark.svg';
 import style from './style.scss';
 
 const IconCell = ({ category }) => {
