@@ -15,11 +15,13 @@ const Hamburger = ({ languages, navigation, className }) => {
 			<button type="button" className={style.trigger} onClick={() => setIsOpen(prev => !prev)}><span/></button>
 			<div className={cn(style.menus)}>
 				<Menu
+					onClick={() => setIsOpen(false)}
 					className={style.nav}
 					linkClassName={style.link}
 					items={navigation}
 				/>
 				<LanguageSelector
+					onClick={() => setIsOpen(false)}
 					className={style.i18n}
 					linkClassName={style.link}
 					items={languages}

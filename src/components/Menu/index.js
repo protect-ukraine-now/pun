@@ -5,7 +5,7 @@ import style from './style.scss';
 import { useUrl } from '../../tools/url'
 import { useLanguage } from '../../tools/language'
 
-export default function Menu({ className, linkClassName, activeClassName, items }) {
+export default function Menu({ className, linkClassName, activeClassName, items, onClick }) {
 	let url = useUrl()
 	let language = useLanguage()
 	// console.log('Menu', { url, language })
@@ -19,7 +19,7 @@ export default function Menu({ className, linkClassName, activeClassName, items 
 							<Match path={href}>
 								{({ matches }) => (matches ?
 									<span className={cn(style.link, linkClassName, style.active, activeClassName)}>{name}</span> :
-									<Link {...{ href, key: href }} className={cn(style.link, linkClassName)}
+									<Link onClick={onClick} {...{ href, key: href }} className={cn(style.link, linkClassName)}
 												activeClassName={cn(style.active, activeClassName)}>
 										{name}
 									</Link>)}

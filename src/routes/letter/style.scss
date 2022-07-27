@@ -3,13 +3,59 @@
 
 .container {
   @include make-responsive('max-width', (
-          mobile: 355px,
+          mobile-min: 355px,
           desktop: 900px
   ), 600px);
 
   font-family: Roboto, Arial, sans-serif;
 
   padding: 32px 0 21px;
+
+  @include max-w(mobile) {
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 100%;
+  }
+}
+
+.banner {
+  @include make-responsive('padding-bottom', (
+          mobile: 56px,
+          tablet-min: 25px
+  ), 38px);
+
+  display: flex;
+  justify-content: center;
+
+  .title {
+    position: relative;
+    font-size: 40px;
+
+    @include max-w(mobile) {
+      br {
+        display: none;
+      }
+    }
+
+    .mobile {
+      display: none;
+
+      @include max-w(mobile) {
+        display: inline;
+      }
+    }
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      height: 10px;
+      background: linear-gradient(to right, #5E9AED 0%, #5E9AED 50%, #FEF300 50%, #FEF300 100%);
+    }
+  }
+
 }
 
 .section {
@@ -23,6 +69,7 @@
   }
 
   h1 {
+    font-family: "Roboto Condensed", Arial, sans-serif;
     font-size: 32px;
     line-height: 1.4;
     margin-bottom: 1rem;
@@ -31,21 +78,20 @@
   }
 }
 
-.title {
-  font-size: 32px;
-  line-height: 2;
-  margin-bottom: 1rem;
-  text-align: center;
-  padding: 1rem 0.85rem;
-  border-color: #000;
-  border-style: solid;
-  border-top-width: 1px;
-  border-bottom-width: 1px;
-}
-
 .letter {
   border-bottom: 1px solid #000;
   padding-bottom: 22px;
+
+  .title {
+    font-size: 32px;
+    margin-bottom: 1rem;
+    text-align: center;
+    padding: 1rem 0.85rem;
+    border-color: #000;
+    border-style: solid;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+  }
 }
 
 .parts {
