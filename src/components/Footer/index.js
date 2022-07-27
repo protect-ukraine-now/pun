@@ -15,7 +15,7 @@ const Footer = () => (
 			</Link>
 			<Menu className={style.nav} linkClassName={style.link} activeClassName={style.active} items={PAGES_MENU}/>
 			<LanguageSelector className={style.i18n} activeClassName={style.active} linkClassName={style.link} items={LANGUAGE_MENU}/>
-			<a href="mailto:pun@mail.com" className={style.email}>pun@mail.com</a>
+			<a href="mailto:ProtectUkraineNOW@gmail.com" className={style.email}>ProtectUkraineNOW@gmail.com</a>
 		</Container>
 	</footer>
 );

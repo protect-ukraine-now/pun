@@ -1,19 +1,20 @@
 import { Link } from 'preact-router';
 import { usePrerenderData } from '@preact/prerender-data-provider';
-import { IntlProvider, Text } from 'preact-i18n';
-import Dashboard from '../../components/Dashboard';
+import { Text } from 'preact-i18n';
 import cn from 'classnames';
-import Container from '../../components/Container';
+
 import style from './style.scss';
+import Container from '../../components/Container';
+import Dashboard from '../../components/Dashboard';
 import Article from '../../components/Article';
 
 export default function Report(props) {
 	const [data, isLoading] = usePrerenderData(props);
 	if (isLoading) return;
 	// console.log('Report', props, data)
-	const { language, text, prev, next, blog } = data.data;
+	const { language, prev, next, blog } = data.data;
 	return (
-		<IntlProvider definition={text}>
+		<>
 			<Container className={style.container}>
 				<div className={style.nav}>
 					{prev &&
@@ -32,6 +33,6 @@ export default function Report(props) {
 			<Container className={style.digest}>
 				<Article content={blog} />
 			</Container>
-		</IntlProvider>
+		</>
 	);
 }

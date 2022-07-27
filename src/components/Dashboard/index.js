@@ -12,7 +12,7 @@ const approximateNumber = n => (
 )
 
 const Dashboard = (props) => {
-	console.log('Dashboard', props)
+	// console.log('Dashboard', props)
 	let { from, till, data } = props
 	from = new Date(from).toDateString()
 	till = new Date(till).toDateString()

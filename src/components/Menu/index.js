@@ -2,8 +2,13 @@ import cn from 'classnames';
 import { Match, Link } from 'preact-router/match';
 
 import style from './style.scss';
+import { useUrl } from '../../tools/url'
+import { useLanguage } from '../../tools/language'
 
 export default function Menu({ className, linkClassName, activeClassName, items }) {
+	let url = useUrl()
+	let language = useLanguage()
+	// console.log('Menu', { url, language })
 	return (
 		<Match>
 			{({ url }) => {

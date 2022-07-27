@@ -4,6 +4,10 @@
 			"title": "Protect Ukraine Now"
 		},
 		"seo": {},
+		"menu": {
+			"report": "Military Aid Report",
+			"letter": "Letter to Representatives"
+		},
 		"report": {
 			"title": "Heavy weapons committed to Ukraine as of {{till}}",
 			"subtitle": "(and changes since {{from}})",
@@ -35,6 +39,10 @@
 	"ua": {
 		"site": {},
 		"seo": {},
+		"menu": {
+			"report": "Звіт про військову допомогу",
+			"letter": "Лист до представників"
+		},
 		"report": {
 			"title": "Важке озброєння, що передано або обіцяно Україні, станом на {{till}}",
 			"subtitle": "(та зміни з {{from}})",

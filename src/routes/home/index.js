@@ -10,7 +10,7 @@ export default function Home(props) {
 	 * This redirection takes it to the right place(/admin).
 	 */
 	useEffect(() => {
-		if (window !== undefined && window.location.href.includes('#invite_token')) {
+		if (typeof window !== 'undefined' && window.location.href.includes('#invite_token')) {
 			const { href } = window.location
 			window.location.href = `${href.substring(0, href.indexOf('#'))}admin${href.substring(href.indexOf('#'))}`
 		}
@@ -26,5 +26,7 @@ export default function Home(props) {
 		}
 		route(map[country] || '/en/letter', true); // replaces the current history entry
 	}, [])
+
+	// return <div style={{ height: '100%' }} />
 }
 

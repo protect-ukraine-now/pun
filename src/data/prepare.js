@@ -44,10 +44,6 @@ async function preparePages() {
 			{
 				url: `/${language}/letter`,
 				seo: { cover: 'https://protectukrainenow.org/assets/og.webp' },
-				data: {
-					text,
-					language,
-				}
 			},
 			...[lastReport, ...reports].map((report, i) => {
 				let url = `/${language}/report`
@@ -55,9 +51,9 @@ async function preparePages() {
 				return {
 					url,
 					// seo: blog.details,
+					seo: { cover: 'https://protectukrainenow.org/assets/og.webp' },
 					data: {
 						...report,
-						text,
 						language: language,
 						blog: loadMarkdown('digest', `${report.till}.${language}.md`),
 					},
@@ -68,6 +64,10 @@ async function preparePages() {
 	// console.log('pages', pages)
 
 	return pages
+}
+
+module.exports = {
+	preparePages,
 }
 
 		// adding blogs list posts page
@@ -94,7 +94,3 @@ async function preparePages() {
 		// 		}
 		// 	};
 		// }));
-
-module.exports = {
-	preparePages,
-}

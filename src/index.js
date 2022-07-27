@@ -1,8 +1,10 @@
-import './index.css'
-import { Provider } from '@preact/prerender-data-provider'
+import { Provider as DataProvider } from '@preact/prerender-data-provider'
 import { Router } from 'preact-router'
 
-import './style';
+import './index.css'
+import './style'
+import { UrlProvider } from './tools/url'
+import { LanguageProvider } from './tools/language'
 import Header from './components/Header'
 import Footer from './components/Footer'
 
@@ -13,18 +15,22 @@ import Report from './routes/report'
 import NotFoundPage from './routes/notfound'
 
 export default function App(props) {
-  return (
-    <div id="preact_root">
-      <Provider value={props}>
-        <Header />
-        <Router>
-          <Home path="/" />
-          <Letter path="/:language/letter" />
-          <Report path="/:language/report/:date?" />
-          <NotFoundPage type="404" default />
-        </Router>
-        <Footer />
-      </Provider>
-    </div>
-  )
+	return (
+		<div id="preact_root" style={{ height: '100%' }}>
+			<DataProvider value={props}>
+				<UrlProvider>
+					<LanguageProvider>
+						<Header />
+						<Router>
+							<Home path="/" />
+							<Letter path="/:language/letter" />
+							<Report path="/:language/report/:date?" />
+							<NotFoundPage type="404" default />
+						</Router>
+						<Footer />
+					</LanguageProvider>
+				</UrlProvider>
+			</DataProvider>
+		</div>
+	)
 }
