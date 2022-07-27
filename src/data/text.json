@@ -1,7 +1,7 @@
 {
 	"en": {
 		"site": {
-			"title": "Protect Ukraine Now"
+			"title": "Protect Ukraine NOW"
 		},
 		"seo": {},
 		"menu": {
@@ -41,8 +41,8 @@
 		"site": {},
 		"seo": {},
 		"menu": {
-			"report": "Звіт про військову допомогу",
-			"letter": "Лист до представників"
+			"report": "Військова допомога",
+			"letter": "Лист до Конгресу"
 		},
 		"report": {
 			"title": "Важке озброєння, що передано або обіцяно Україні, станом на {{till}}",

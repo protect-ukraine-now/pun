@@ -4,9 +4,9 @@ import copyToClipboard from '../../tools/copyToClipboard';
 import Container from '../../components/Container';
 import style from './style.scss';
 
-const copy = e => {
+const copy = what => e => {
 	e.preventDefault();
-	copyToClipboard('.letter_text');
+	copyToClipboard(what);
 };
 
 export default function Letter(props) {
@@ -31,7 +31,7 @@ export default function Letter(props) {
 			</section>
 			<section className={cn(style.section, style.letter)} id="emailbody">
 				<p>
-					Russia fires at will misiles and bombs into densly populated Ukrainian cities killing hundreds and terrorizing
+					Russia fires at will missiles and bombs into densely populated Ukrainian cities killing hundreds and terrorizing
 					millions. Russia can do so with impunity as the Ukrainians don't have air defense systems capable of
 					intercepting such threats.
 				</p>
@@ -69,13 +69,27 @@ export default function Letter(props) {
 			</section>
 			<section className={cn(style.section, style.parts)}>
 				<ol className={style.actionsList}>
-					<li className={style.actionItem}><a href="#" onClick={copy} title="Click here to copy the email text">Copy the
-						letter to Clipboard</a></li>
-					<li className={style.actionItem}>Go to the <a href="https://democracy.io/" target="_blank" rel="noreferrer"
-																												title="Democracy.io">Democracy.io</a> site
+					<li className={style.actionItem}>
+						Go to the{' '}
+						<a href="https://democracy.io/" target="_blank" rel="noreferrer" title="Democracy.io">
+							Democracy.io
+						</a>{' '}
+						site
 					</li>
-					<li className={style.actionItem}>Follow instructions. Paste the letter body from Clipboard in the
-						corresponding input
+					<li className={style.actionItem}>
+						Follow instructions
+					</li>
+					<li className={style.actionItem}>
+						Enter "<span id="subject">Protect Ukraine NOW</span>" into the SUBJECT field when asked{' '}
+						<a href="#" onClick={copy('#subject')} title="Click here to copy the subject">
+							[Click here to Copy into Clipboard]
+						</a>
+					</li>
+					<li className={style.actionItem}>
+						Copy and paste the letter text into the MESSAGE field when asked{' '}
+						<a href="#" onClick={copy('#emailbody')} title="Click here to copy the letter text">
+							[Click here to Copy into Clipboard]
+						</a>
 					</li>
 				</ol>
 			</section>
