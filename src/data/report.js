@@ -28,7 +28,7 @@ function report({ commits, russia }, { from, till }) {
             indicies.forEach(index => {
                 let x = values[index]
                 x.value = (x.value || 0) + +qty
-                if (date > from) {
+                if (date >= from) {
                     x.delta = (x.delta || 0) + +qty
                     x.sources = [...(x.sources || []), { link, title }]
                 }
