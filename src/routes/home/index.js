@@ -10,14 +10,14 @@ export default function Home(props) {
 	 * This redirection takes it to the right place(/admin).
 	 */
 	useEffect(() => {
-		if (typeof window !== 'undefined' && window.location.href.includes('#invite_token')) {
+		if (global.window && window.location.href.includes('#invite_token')) {
 			const { href } = window.location
 			window.location.href = `${href.substring(0, href.indexOf('#'))}admin${href.substring(href.indexOf('#'))}`
 		}
 	}, [])
 
 	useEffect(() => {
-		if (typeof window === 'undefined') return // prerendering
+		if (!global.window) return // prerendering
 		let country = detectCountry()
 		let map = {
 			US: '/en/letter',

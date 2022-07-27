@@ -1,7 +1,7 @@
 import { useState, useEffect, useMemo } from 'preact/hooks';
 
 export default () => {
-	if (typeof window === 'undefined') return {} // prerendering
+	if (!global.window) return {} // prerendering
 	const [width, setWidth] = useState(window.innerWidth);
 	const [height, setHeight] = useState(window.innerHeight);
 
