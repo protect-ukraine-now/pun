@@ -4,6 +4,8 @@ import style from './style.scss';
 import IconCell from './IconCell';
 import DataCell from './DataCell';
 import Container from '../Container';
+import { useLanguage } from '../../tools/language';
+import { formatDate } from '../../tools/dates';
 
 const approximateNumber = n => (
 	parseFloat(n)
@@ -13,9 +15,14 @@ const approximateNumber = n => (
 
 const Dashboard = (props) => {
 	// console.log('Dashboard', props)
+	const language = useLanguage();
+
+	const formatter = formatDate(language);
+
 	let { from, till, data } = props
-	from = new Date(from).toDateString()
-	till = new Date(till).toDateString()
+	from = formatter(from);
+	till = formatter(till);
+
 	return (
 		<Container className={style.container}>
 			<h1 className={style.heading}>
