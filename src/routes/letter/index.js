@@ -26,7 +26,6 @@ export default function Letter(props) {
 					Despite what we have been led to believe, the US military aid is insufficient and needs to be substantially increased. From the 20 billion of military assistance allocated by the Congress to be shipped by the end of September less than 20% had been used. Hence, six US senators from both sides of the aisle had sent a request to the Secretary of Defense and Chairman of the Joint Chiefs of Staff urging them to provide air defense systems. Please read <a href="https://www.sullivan.senate.gov/imo/media/doc/20220715_Letter.pdf">their letter</a>.
 				</p>
 				<h1 className={style.title}>Send the following letter to your representative in U.S. Congress</h1>
-				<div className="letter_text">
 					<p>
 						It’s been five months since the beginning of the illegal and unprovoked Russian attack on Ukraine. From the $20 bln. of military aid authorized by the Congress under the Additional Ukraine Supplemental Appropriations Act, the White House has used less than $4 bln. As a result, Ukraine is losing its territories and people, including civilians, women and children among them.
 					</p>
@@ -39,17 +38,16 @@ export default function Letter(props) {
 					<p>
 						Best wishes.
 					</p>
-				</div>
 			</section>
 			<section className={cn(style.section, style.parts)}>
-				<ul>
-					<li>1. <a href="#" onClick={copy}>Copy the letter to Clipboard</a></li>
-					<li>2. Go to the <a href="https://www.senate.gov/states/statesmap.htm" target="_blank" rel="noreferrer">Democracy.io</a> site</li>
-					<li>3. Follow instructions. Paste the letter body from Clipboard in the corresponding input</li>
-				</ul>
+				<ol>
+					<li><a href="#" onClick={copy}>Copy the letter to Clipboard</a></li>
+					<li>Go to the <a href="https://www.senate.gov/states/statesmap.htm" target="_blank" rel="noreferrer">Democracy.io</a> site</li>
+					<li>Follow instructions. Paste the letter body from Clipboard in the corresponding input</li>
+				</ol>
 			</section>
 			<section className={cn(style.section, style.social)}>
-				<h3>After you are done please share this site with your friends, family and on social networks</h3>
+				<h1>After you are done please share this site with your friends, family and on social networks</h1>
 				<div className={style.socialActions}>
 					<div className="sharethis-inline-share-buttons" />
 				</div>

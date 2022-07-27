@@ -67,13 +67,19 @@
 
 .head,
 .cell {
-  &:first-child,
-  &:last-child {
+  &:first-child {
     @include container-padding;
   }
 }
 
 .head {
+  @include make-responsive('padding',
+          (
+                  tablet: 20px,
+                  desktop: 15px,
+          ),
+          15px
+  );
   @include make-responsive('font-size',
           (
                   mobile: 18px,
