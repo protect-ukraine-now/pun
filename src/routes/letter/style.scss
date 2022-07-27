@@ -50,7 +50,6 @@
 
 .parts {
   padding-top: 35px;
-  //padding: 35px 0 38px;
 
   @include make-responsive('padding-bottom', (
           mobile: 0px,
@@ -79,10 +78,7 @@
 
 .socialActions {
   @include make-responsive('margin-top', (
-          mobile: 1.5rem,
-          desktop: 2rem
-  ), 2rem);
-}
-
-.callToAction {
+          mobile: 20px,
+          desktop: 30px
+  ), 30px);
 }
