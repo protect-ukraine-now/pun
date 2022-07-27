@@ -16,21 +16,11 @@
 
   display: flex;
   justify-content: space-between;
-
-  //@include max-w(tablet-min) {
-  //  flex-flow: column;
-  //  align-items: center;
-  //  padding: 24px 0;
-  //}
 }
 
 .logo {
   margin-left: 10px;
   max-width: 231px;
-
-  //@include max-w(tablet-min) {
-  //  margin-bottom: 24px;
-  //}
 }
 
 .hamburger {

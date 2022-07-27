@@ -23,7 +23,7 @@ const languages = url => language => LANGUAGES.map(({ label, value}) => {
 });
 
 const Header = () => {
-  const { mobile } = useWindowSize();
+  const { tabletMin, mobile } = useWindowSize();
 
   return (
     <header className={style.header}>
@@ -31,8 +31,8 @@ const Header = () => {
         <Link href="/">
           <img className={style.logo} src={LogoImage} alt="" />
         </Link>
-        {mobile
-          ? <Hamburger className={style.hamburger} navigaition={pages} languages={languages} />
+        {tabletMin || mobile
+          ? <Hamburger className={style.hamburger} navigation={pages} languages={languages} />
           : (
             <Fragment>
               <Menu items={pages} />

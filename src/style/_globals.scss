@@ -25,5 +25,6 @@
   // breakpoints
   --mobile-breakpoint: #{map-get($breakpoints, mobile)};
   --tablet-breakpoint: #{map-get($breakpoints, tablet)};
+  --tablet-min-breakpoint: #{map-get($breakpoints, tablet-min)};
   --desktop-breakpoint: #{map-get($breakpoints, desktop)};
 }

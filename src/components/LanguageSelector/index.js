@@ -1,11 +1,16 @@
-import { Match } from 'preact-router/match'
+import { Match } from 'preact-router/match';
 import Menu from '../Menu';
 
-const Index = ({ className, items }) => (
+const Index = ({ items, className, linkClassName, activeClassName }) => (
 	<Match>
-		{({ url }) => {
-			return <Menu className={className} items={items(url)} />
-		}}
+		{({ url }) => (
+			<Menu
+				className={className}
+				activeClassName={activeClassName}
+				linkClassName={linkClassName}
+				items={items(url)}
+			/>
+		)}
 	</Match>
 );
 
