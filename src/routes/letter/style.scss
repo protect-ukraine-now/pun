@@ -8,6 +8,8 @@
   ), 600px);
 
   font-family: Roboto, Arial, sans-serif;
+
+  padding: 32px 0 21px;
 }
 
 .section {
@@ -22,7 +24,7 @@
 
   h1 {
     font-size: 32px;
-    line-height: 2;
+    line-height: 1.4;
     margin-bottom: 1rem;
     text-align: center;
     font-weight: 700;
@@ -47,14 +49,39 @@
 }
 
 .parts {
+  padding-top: 35px;
+  //padding: 35px 0 38px;
+
+  @include make-responsive('padding-bottom', (
+          mobile: 0px,
+          desktop: 38px
+  ), 38px);
+}
+
+.actionsList {
+  list-style-type: decimal;
+  padding-left: 1.5em;
+}
+
+.actionItem {
+  font-size: 16px;
+  line-height: 2;
 }
 
 .social {
+  @include make-responsive('padding-bottom', (
+          mobile: 10px,
+          desktop: 87px
+  ), 87px);
 
+  padding-top: 47px;
 }
 
 .socialActions {
-
+  @include make-responsive('margin-top', (
+          mobile: 1.5rem,
+          desktop: 2rem
+  ), 2rem);
 }
 
 .callToAction {

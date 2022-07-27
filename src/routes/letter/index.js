@@ -40,24 +40,16 @@ export default function Letter(props) {
 					</p>
 			</section>
 			<section className={cn(style.section, style.parts)}>
-				<ol>
-					<li><a href="#" onClick={copy}>Copy the letter to Clipboard</a></li>
-					<li>Go to the <a href="https://www.senate.gov/states/statesmap.htm" target="_blank" rel="noreferrer">Democracy.io</a> site</li>
-					<li>Follow instructions. Paste the letter body from Clipboard in the corresponding input</li>
+				<ol className={style.actionsList}>
+					<li className={style.actionItem}><a href="#" onClick={copy} title="Click here to copy the email text">Copy the letter to Clipboard</a></li>
+					<li className={style.actionItem}>Go to the <a href="https://democracy.io/" target="_blank" rel="noreferrer" title="Democracy.io">Democracy.io</a> site</li>
+					<li className={style.actionItem}>Follow instructions. Paste the letter body from Clipboard in the corresponding input</li>
 				</ol>
 			</section>
 			<section className={cn(style.section, style.social)}>
-				<h1>After you are done please share this site with your friends, family and on social networks</h1>
+				<h1>AFTER YOU ARE DONE PLEASE SHARE THIS SITE WITH YOUR FRIENDS, FAMILY AND ON SOCIAL NETWORKS</h1>
 				<div className={style.socialActions}>
 					<div className="sharethis-inline-share-buttons" />
-				</div>
-				<div className={style.callToAction}>
-					<div>Together we can save</div>
-					<div>Ukrainian lives!</div>
-					<div className="flag">
-						<div className="blue" />
-						<div className="yellow" />
-					</div>
 				</div>
 			</section>
 		</Container>
