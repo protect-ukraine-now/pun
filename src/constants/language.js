@@ -13,3 +13,11 @@ export const LANGUAGES = [
     value: LANGUAGE_CODES.Eng,
   },
 ];
+
+export const LANGUAGE_MENU = url => language => LANGUAGES.map(({ label, value}) => {
+  let a = url.split('/')
+  a[1] = value
+  let href = a.join('/')
+
+  return [label, href];
+});

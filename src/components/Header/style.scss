@@ -19,8 +19,14 @@
 }
 
 .logo {
+  @include make-responsive('max-width', (
+          tablet-min: 190px,
+          desktop: 231px
+  ),
+          231px
+  );
+
   margin-left: 10px;
-  max-width: 231px;
 }
 
 .hamburger {

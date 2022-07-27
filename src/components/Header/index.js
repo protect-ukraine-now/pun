@@ -7,20 +7,8 @@ import LanguageSelector from '../LanguageSelector';
 import Menu from '../Menu'
 import useWindowSize from '../../hooks/useWindowSize';
 import Hamburger from '../Hamburger/Hamburger';
-import { LANGUAGES } from '../../constants/language';
-
-let pages = language => [
-  ['REPORT', `/${language}/report`],
-  ['LETTER', `/${language}/letter`]
-];
-
-const languages = url => language => LANGUAGES.map(({ label, value}) => {
-  let a = url.split('/')
-  a[1] = value
-  let href = a.join('/')
-
-  return [label, href];
-});
+import { LANGUAGE_MENU } from '../../constants/language';
+import { PAGES_MENU } from '../../constants/pages';
 
 const Header = () => {
   const { tabletMin, mobile } = useWindowSize();
@@ -32,11 +20,11 @@ const Header = () => {
           <img className={style.logo} src={LogoImage} alt="" />
         </Link>
         {tabletMin || mobile
-          ? <Hamburger className={style.hamburger} navigation={pages} languages={languages} />
+          ? <Hamburger className={style.hamburger} navigation={PAGES_MENU} languages={LANGUAGE_MENU} />
           : (
             <Fragment>
-              <Menu items={pages} />
-              <LanguageSelector items={languages} />
+              <Menu items={PAGES_MENU} />
+              <LanguageSelector items={LANGUAGE_MENU} />
             </Fragment>
           )
         }
