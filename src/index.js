@@ -1,10 +1,11 @@
 import 'reset-css'
 import { Provider as DataProvider } from '@preact/prerender-data-provider'
+import { Match } from 'preact-router/match'
 import { Router } from 'preact-router'
 
 import './index.css'
 import './style'
-import { UrlProvider } from './tools/url'
+import { setUrl } from './tools/url'
 import { LanguageProvider } from './tools/language'
 import Header from './components/Header'
 import Footer from './components/Footer'
@@ -19,18 +20,23 @@ export default function App(props) {
 	return (
 		<div id="preact_root" style={{ height: '100%' }}>
 			<DataProvider value={props}>
-				<UrlProvider>
-					<LanguageProvider>
-						<Header />
-						<Router>
-							<Home path="/" />
-							<Letter path="/:language/letter" />
-							<Report path="/:language/report/:date?" />
-							<NotFoundPage type="404" default />
-						</Router>
-						<Footer />
-					</LanguageProvider>
-				</UrlProvider>
+				<Match>
+					{({ url }) => {
+						setUrl(url)
+						return (
+							<LanguageProvider>
+								<Header />
+								<Router>
+									<Home path="/" />
+									<Letter path="/:language/letter" />
+									<Report path="/:language/report/:date?" />
+									<NotFoundPage type="404" default />
+								</Router>
+								<Footer />
+							</LanguageProvider>
+						)
+					}}
+				</Match>
 			</DataProvider>
 		</div>
 	)

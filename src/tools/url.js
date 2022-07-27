@@ -1,21 +1,12 @@
 /*
-    preact-router's missing hook
+    preact-router's missing "hook"
 */
-import { Match } from 'preact-router/match'
-
 let currentUrl
 
 export function useUrl() {
     return currentUrl
 }
 
-export function UrlProvider({ children }) {
-    return (
-        <Match>
-            {({ url }) => {
-                currentUrl = url
-                return children
-            }}
-        </Match>
-    )
+export function setUrl(url) {
+    currentUrl = url
 }

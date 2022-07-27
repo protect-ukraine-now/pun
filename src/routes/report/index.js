@@ -10,7 +10,7 @@ import Article from '../../components/Article';
 
 export default function Report(props) {
 	const [data, isLoading] = usePrerenderData(props);
-	if (isLoading) return;
+	if (isLoading) return <div style={{ height: '100%' }} />
 	// console.log('Report', props, data)
 	const { language, prev, next, blog } = data.data;
 	return (

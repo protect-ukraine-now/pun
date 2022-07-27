@@ -10,6 +10,7 @@ export function useLanguage() {
 
 export function LanguageProvider({ children }) {
     let language = useLanguage()
+    // console.log('LanguageProvider', language)
     return (
         <IntlProvider definition={text[language]}>
             {children}
