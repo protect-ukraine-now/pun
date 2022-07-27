@@ -60,6 +60,10 @@
 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  @include max-w(mobile) {
+    grid-template-columns: 1fr 2fr 3fr 3fr;
+  }
 }
 
 .row {
@@ -117,7 +121,7 @@
   justify-content: flex-end;
   align-items: center;
   font-weight: 700;
-  text-align: center;
+  text-align: right;
 
   > * {
     flex: 1 0 50%;
