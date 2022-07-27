@@ -1,0 +1,85 @@
+@import './src/style/variables';
+@import './src/style/mixins';
+
+.footer {
+  background: #000;
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+
+  @include max-w(mobile) {
+    min-height: 90px;
+  }
+}
+
+.container {
+  @include container;
+
+  display: flex;
+  justify-content: space-between;
+
+
+  @include max-w(tablet) {
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 33px 10px 28px;
+  }
+}
+
+.logo {
+  @include make-responsive('max-width', (
+          tablet: 190px,
+          desktop: 231px
+  ),
+          231px
+  );
+
+  margin-left: 10px;
+}
+
+.nav {
+  @include max-w(tablet) {
+    flex-flow: column;
+    align-items: center;
+    margin-top: 50px;
+
+    .link {
+      &:not(:first-child) {
+        margin-top: 10px;
+        margin-left: 0;
+
+        &:before {
+          content: none;
+        }
+      }
+    }
+  }
+}
+
+.link {
+  color: $grey-text;
+
+  &.active {
+    color: $grey-text;
+  }
+
+  &:not(:first-child) {
+    &:before {
+      background: $grey-text;
+    }
+  }
+}
+
+.email {
+  @include url-hover;
+
+  align-self: center;
+  color: $grey-text;
+  font-weight: 700;
+
+  @include max-w(tablet) {
+    margin-top: 50px;
+  }
+}

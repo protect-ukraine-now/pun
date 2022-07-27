@@ -1,0 +1,22 @@
+@import 'src/style/variables';
+
+.container {
+  list-style: none;
+  display: flex;
+}
+
+.option {
+  color: $color-accent;
+  text-decoration: underline;
+  cursor: pointer;
+
+  &:not(:last-of-type) {
+    margin-right: 10px;
+  }
+
+  &.active {
+    color: $color-accent;
+    cursor: default;
+    text-decoration: none;
+  }
+}

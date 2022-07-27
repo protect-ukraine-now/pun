@@ -1,21 +1,22 @@
 import { Link } from 'preact-router';
 import { usePrerenderData } from '@preact/prerender-data-provider';
-import { IntlProvider, Text } from 'preact-i18n';
-import Dashboard from '../../components/dashboard';
+import { Text } from 'preact-i18n';
 import cn from 'classnames';
-import Container from '../../components/shared/Container';
+
 import style from './style.scss';
+import Container from '../../components/Container';
+import Dashboard from '../../components/Dashboard';
 import Article from '../../components/Article';
 
 export default function Report(props) {
 	const [data, isLoading] = usePrerenderData(props);
-	if (isLoading) return;
+	if (isLoading) return <div style={{ height: '100%' }} />
 	// console.log('Report', props, data)
-	const { language, text, date, prev, next, blog } = data.data;
+	const { language, prev, next, blog } = data.data;
 	return (
-		<IntlProvider definition={text}>
+		<>
 			<Container className={style.container}>
-				{/* <div className={style.nav}>
+				<div className={style.nav}>
 					{prev &&
 						<Link className={cn(style.navLink, style.prev)} href={`/${language}/report/${prev}`}>
 							<Text id="report.prev">Prev report</Text>
@@ -26,12 +27,12 @@ export default function Report(props) {
 							<Text id="report.next">Next report</Text>
 						</Link>
 					}
-				</div> */}
-				<Dashboard data={data.data.data} date={date}/>
+				</div>
+				<Dashboard {...data.data} />
 			</Container>
-			{/* <Container className={style.digest}>
+			<Container className={style.digest}>
 				<Article content={blog} />
-			</Container> */}
-		</IntlProvider>
+			</Container>
+		</>
 	);
 }

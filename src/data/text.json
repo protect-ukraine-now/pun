@@ -1,181 +1,76 @@
-[
-	[
-		"Group",
-		"Key",
-		"Description",
-		"EN",
-		"UA"
-	],
-	[
-		"site",
-		"title",
-		"",
-		"Protect Ukraine Now"
-	],
-	[
-		"seo",
-		"keywords"
-	],
-	[
-		"report",
-		"title",
-		"Заголовок недельного отчета над главной таблицей-дашбордом",
-		"Heavy weapons committed to Ukraine as of {{date}}",
-		"Важке озброєння, що передано або обіцяно Україні, станом на {{date}}"
-	],
-	[
-		"report",
-		"prev",
-		"\"Previous report\" link",
-		"Previous Report",
-		"Попередній звіт"
-	],
-	[
-		"report",
-		"next",
-		"\"Next report\" link",
-		"Next Report",
-		"Наступний звіт"
-	],
-	[
-		"report",
-		"usa",
-		"Заголовок колонки с поставками США",
-		"USA",
-		"США "
-	],
-	[
-		"report",
-		"rest",
-		"Заголовок колонки с поставками всех стран, кроме США",
-		"Other Countries",
-		"Інші країни"
-	],
-	[
-		"report",
-		"total",
-		"Заголовок колонки с поставками ВСЕХ стран",
-		"Total",
-		"Всього "
-	],
-	[
-		"weapon_category",
-		"Towed Artillery",
-		"Буксируемые артиллерийские системы",
-		"Towed Artillery",
-		"Буксирована артилерійська система",
-		"/ причіпна артилерійська система"
-	],
-	[
-		"weapon_category",
-		"Self-Propelled Artillery",
-		"Самоходные артиллерийские системы",
-		"Self-Propelled Artillery",
-		"Самохідна артилерійська система",
-		"/ самохідна артилерія (має гармати, гаубиці, міномети, пускові установки реактивної артилерії )"
-	],
-	[
-		"weapon_category",
-		"Multiple Launch Rocket System",
-		"Реактивные системы залпового огня",
-		"Multiple Launch Rocket System",
-		"Реактивна система залпового вогню (РСЗВ)"
-	],
-	[
-		"weapon_category",
-		"Guided MLRS",
-		"Наводящиеся реактивные системы залпового огня",
-		"Guided MLRS",
-		"Високоточна РСЗВ",
-		"/ керовані реактивні системи залпового вогню"
-	],
-	[
-		"weapon_category",
-		"Tank",
-		"Танки",
-		"Tank",
-		"Танк"
-	],
-	[
-		"weapon_category",
-		"Armored Personnel Carrier",
-		"Бронетранспортёры",
-		"Armored Personnel Carrier",
-		"Бронетранспортер"
-	],
-	[
-		"weapon_category",
-		"Mine-Resistant Ambush Protected",
-		"Бронемашины",
-		"Mine-Resistant Ambush Protected",
-		"Машина із захистом від мін і засідок",
-		"/ MRAP / броньовані автомобілі"
-	],
-	[
-		"weapon_category",
-		"Infantry Fighting Vehicle",
-		"Боевые машины пехоты",
-		"Infantry Fighting Vehicle",
-		"Бойова машина піхоти "
-	],
-	[
-		"weapon_category",
-		"Self-Propelled Anti-Aircraft Weapon",
-		"Самоходные зенитные установки",
-		"Anti-Aircraft Vehicle",
-		"Самохідна зенітна устанока"
-	],
-	[
-		"weapon_category",
-		"Surface-to-Air Missile System",
-		"Ракетный комплекс земля-воздух",
-		"Surface-to-Air Missile System",
-		"Ракетний комплекс земля-повітря"
-	],
-	[
-		"weapon_category",
-		"Helicopter",
-		"Вертолет",
-		"Helicopter",
-		"Гелiкоптер",
-		"Вертоліт /"
-	],
-	[
-		"weapon_category",
-		"Aircraft",
-		"Самолет",
-		"War Plane",
-		"Літак",
-		"Wikipedia: Aircraft - an airplane, helicopter, or other machine capable of flight."
-	],
-	[
-		"weapon_category",
-		"Vessel",
-		"Судно",
-		"Vessel",
-		"Судно",
-		" "
-	],
-	[
-		"weapon_category",
-		"Artillery rounds",
-		"Артиллерийские снаряды",
-		"Artillery rounds",
-		"Артилерійські снаряди",
-		"артилерійські снаряди"
-	],
-	[
-		"weapon_category",
-		"GMLRS ammunition",
-		"Наводящиеся ракеты для систем залпового огня",
-		"GMLRS ammunition",
-		"GMLRS снаряди / керовані реактивні снаряди до РСЗВ"
-	],
-	[
-		"weapon_category",
-		"other",
-		"Другое",
-		"other",
-		"інші "
-	]
-]
+{
+	"en": {
+		"site": {
+			"title": "Protect Ukraine NOW"
+		},
+		"seo": {},
+		"menu": {
+			"report": "Military Aid",
+			"letter": "Letter to Congress"
+		},
+		"report": {
+			"title": "Heavy weapons committed to Ukraine as of {{till}}",
+			"subtitle": "(and changes since {{from}})",
+			"prev": "Previous Report",
+			"next": "Next Report",
+			"usa": "USA",
+			"rest": "Other Countries",
+			"russia": "Russia had",
+			"total": "Total"
+		},
+		"weapon_category": {
+			"Towed Artillery": "Towed Artillery",
+			"Self-Propelled Artillery": "Self-Propelled Artillery",
+			"Multiple Launch Rocket System": "Multiple Launch Rocket System",
+			"Guided MLRS": "Guided MLRS",
+			"Tank": "Tank",
+			"Armored Personnel Carrier": "Armored Personnel Carrier",
+			"Mine-Resistant Ambush Protected": "Mine-Resistant Ambush Protected",
+			"Infantry Fighting Vehicle": "Infantry Fighting Vehicle",
+			"Self-Propelled Anti-Aircraft Weapon": "Anti-Aircraft Vehicle",
+			"Surface-to-Air Missile System": "Surface-to-Air Missile System",
+			"Helicopter": "Helicopter",
+			"Aircraft": "War Plane",
+			"Vessel": "Vessel",
+			"Artillery rounds": "Artillery rounds",
+			"GMLRS ammunition": "GMLRS ammunition",
+			"other": "other"
+		}
+	},
+	"ua": {
+		"site": {},
+		"seo": {},
+		"menu": {
+			"report": "Військова допомога",
+			"letter": "Лист до Конгресу"
+		},
+		"report": {
+			"title": "Важке озброєння, що передано або обіцяно Україні, станом на {{till}}",
+			"subtitle": "(та зміни з {{from}})",
+			"prev": "Попередній звіт",
+			"next": "Наступний звіт",
+			"usa": "США ",
+			"rest": "Інші країни",
+			"russia": "росія",
+			"total": "Всього "
+		},
+		"weapon_category": {
+			"Towed Artillery": "Буксирована артилерійська система",
+			"Self-Propelled Artillery": "Самохідна артилерійська система",
+			"Multiple Launch Rocket System": "Реактивна система залпового вогню (РСЗВ)",
+			"Guided MLRS": "Високоточна РСЗВ",
+			"Tank": "Танк",
+			"Armored Personnel Carrier": "Бронетранспортер",
+			"Mine-Resistant Ambush Protected": "Машина із захистом від мін і засідок",
+			"Infantry Fighting Vehicle": "Бойова машина піхоти ",
+			"Self-Propelled Anti-Aircraft Weapon": "Самохідна зенітна устанока",
+			"Surface-to-Air Missile System": "Ракетний комплекс земля-повітря",
+			"Helicopter": "Гелiкоптер",
+			"Aircraft": "Літак",
+			"Vessel": "Судно",
+			"Artillery rounds": "Артилерійські снаряди",
+			"GMLRS ammunition": "GMLRS снаряди / керовані реактивні снаряди до РСЗВ",
+			"other": "інші "
+		}
+	}
+}

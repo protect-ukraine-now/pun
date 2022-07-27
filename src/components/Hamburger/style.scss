@@ -1,0 +1,111 @@
+@import 'src/style/mixins';
+
+.container {
+  transition: all 0.25s ease;
+
+  &.isOpen {
+    .trigger {
+      height: 32px;
+      z-index: 11;
+
+      span {
+        transform: scaleX(0);
+      }
+
+      &:before, &:after {
+        top: 50%;
+      }
+
+      &:before {
+        transform: translateY(-50%) rotate(45deg);
+      }
+
+      &:after {
+        bottom: 0;
+        transform: translateY(-50%) rotate(-45deg);
+      }
+    }
+
+    .menus {
+      transform: scaleX(1);
+    }
+  }
+}
+
+.trigger {
+  @include reset-button-style;
+
+  width: 32px;
+  height: 14px;
+  position: relative;
+
+  &:before, &:after, span {
+    content: '';
+    position: absolute;
+    height: 2px;
+    background: #000;
+    right: 0;
+    transition: transform 0.25s ease, top 0.15s ease;
+  }
+
+  &:before, &:after {
+    width: 100%;
+    transform-origin: center center;
+  }
+
+  &:before {
+    top: 0;
+  }
+
+  &:after {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  span {
+    bottom: 0;
+    width: 55%;
+    transform-origin: right center;
+  }
+}
+
+.menus {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background: #fff;
+  padding: 148px 30px 65px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: stretch;
+  transform-origin: left center;
+  transition: transform 0.4s ease;
+  transform: scaleX(0);
+  perspective: 400px;
+}
+
+.nav {
+  flex-flow: column;
+  align-self: flex-start;
+
+  .link {
+    font-size: 40px;
+
+    &:not(:first-child) {
+      margin-left: 0;
+      margin-top: 48px;
+
+      &:before {
+        content: none;
+      }
+    }
+  }
+}
+
+.i18n {
+  align-self: flex-start;
+}

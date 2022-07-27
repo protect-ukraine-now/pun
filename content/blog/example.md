@@ -5,12 +5,44 @@ subtitle: If you have ever built an application which needs to take a screenshot
 cover: /assets/cody-black-nm89mzvar5i-unsplash.jpg
 tags: 'travel, philosophy, hobby'
 ---
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem #accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+#H1 What Heavy Weapons the West Has (and Hasn’t) Sent Ukraine
+##H2 What Heavy Weapons the West Has (and Hasn’t) Sent Ukraine
+###H3 What Heavy Weapons the West Has (and Hasn’t) Sent Ukraine
+####H4 What Heavy Weapons the West Has (and Hasn’t) Sent Ukraine
 
-## Heading 1
+**_Unordered list:_**
 
-![](/assets/brett-jordan-1329359-unsplash.jpg)
+* top item
+* middle item
+* middle item with _emphasized_ text
+* bottom item with **strong text**
 
-## Heading 2
+**_Ordered list:_**
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+1. item 1
+2. item 2
+3. item 3
+4. item 4
+
+**_Link_**<br>
+[Ukraine Weapons Tracker](https://twitter.com/UAWeapons/status/1514325652396249097)
+
+**_Image as img:_**<br>
+<img src="https://static.ukrinform.com/photos/2022_05/thumb_files/630_360_1652124252-244.jpg" alt="" />
+
+**_Image as markdown:_**<br>
+![alt text for screen readers](https://cdn1.epicgames.com/ue/product/Featured/MedievalWeaponsUltimatePack_featured-894x488-6290c6bd7e2332ef3a7361965a3b9eb5.png "Text to show on mouseover")
+
+**_Quote line:_**
+
+> a single line of quote text
+
+**_Quote text:_**
+
+> The overriding design goal for Markdown's
+> formatting syntax is to make it as readable
+> as possible. The idea is that a
+> Markdown-formatted document should be
+> publishable as-is, as plain text, without
+> looking like it's been marked up with tags
+> or formatting instructions.

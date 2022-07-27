@@ -8,7 +8,7 @@
     "start": "per-env",
     "start:production": "npm run -s serve",
     "start:development": "npm run -s dev",
-    "build": "preact build --no-inline-css --prerenderUrls ./prerender-urls.js",
+    "build": "preact build --prerenderUrls ./prerender-urls.js",
     "dev": "preact watch --prerender --prerenderUrls ./prerender-urls.js",
     "lint": "eslint src",
     "test": "jest"
@@ -58,7 +58,8 @@
     "preact-router": "^3.0.1",
     "rambda": "^7.1.4",
     "react-icons": "^4.4.0",
-    "react-lite-youtube-embed": "^2.2.2"
+    "react-lite-youtube-embed": "^2.2.2",
+    "reset-css": "^5.0.1"
   },
   "jest": {
     "preset": "jest-preset-preact"

@@ -1,0 +1,41 @@
+@import 'src/style/variables';
+@import 'src/style/mixins';
+
+.container {
+  display: flex;
+  align-self: center;
+}
+
+.link {
+  @include url-hover;
+
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  font-size: 18px;
+  font-weight: 700;
+
+  &:not(:first-child) {
+    margin-left: 20px;
+
+    &:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translate(-10px, -50%);
+      height: 100%;
+      width: 1px;
+      background: $dark-text;
+    }
+  }
+
+  &.active {
+    color: $color-accent;
+    cursor: default;
+
+    &:after {
+      content: none;
+    }
+  }
+}

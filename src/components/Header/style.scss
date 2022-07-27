@@ -1,0 +1,35 @@
+@import './src/style/mixins';
+
+.header {
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+
+  @include max-w(mobile) {
+    min-height: 90px;
+  }
+}
+
+.container {
+  @include container;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  @include make-responsive('max-width', (
+          tablet-min: 190px,
+          desktop: 231px
+  ),
+          231px
+  );
+
+  margin-left: 10px;
+}
+
+.hamburger {
+  align-self: center;
+  margin-right: 6px;
+}
