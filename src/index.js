@@ -1,4 +1,4 @@
-// import 'reset-css'
+import 'reset-css'
 import { Provider as DataProvider } from '@preact/prerender-data-provider'
 import { Router } from 'preact-router'
 
