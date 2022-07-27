@@ -27,6 +27,6 @@ export default function Home(props) {
 		route(map[country] || '/en/letter', true); // replaces the current history entry
 	}, [])
 
-	// return <div style={{ height: '100%' }} />
+	return <div style={{ height: '100%' }} />
 }
 
