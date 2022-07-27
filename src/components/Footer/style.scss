@@ -20,7 +20,7 @@
   justify-content: space-between;
 
 
-  @include max-w(tablet-min) {
+  @include max-w(tablet) {
     flex-flow: column;
     justify-content: flex-start;
     align-items: center;
@@ -30,7 +30,7 @@
 
 .logo {
   @include make-responsive('max-width', (
-          tablet-min: 190px,
+          tablet: 190px,
           desktop: 231px
   ),
           231px
@@ -40,10 +40,10 @@
 }
 
 .nav {
-  @include max-w(tablet-min) {
+  @include max-w(tablet) {
     flex-flow: column;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 50px;
 
     .link {
       &:not(:first-child) {
@@ -54,18 +54,6 @@
           content: none;
         }
       }
-    }
-  }
-}
-
-.i18n {
-  @include max-w(tablet-min) {
-    margin-top: 24px;
-  }
-
-  .link {
-    @include max-w(tablet-min) {
-      font-size: 16px;
     }
   }
 }
@@ -89,8 +77,9 @@
 
   align-self: center;
   color: $grey-text;
+  font-weight: 700;
 
-  @include max-w(tablet-min) {
-    margin-top: 24px;
+  @include max-w(tablet) {
+    margin-top: 50px;
   }
 }

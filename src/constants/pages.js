@@ -1,4 +1,6 @@
+import { translate } from '../tools/language';
+
 export const PAGES_MENU = language => [
-	['REPORT', `/${language}/report`],
-	['LETTER', `/${language}/letter`]
+	[translate('menu.report'), `/${language}/report`],
+	[translate('menu.letter'), `/${language}/letter`]
 ];

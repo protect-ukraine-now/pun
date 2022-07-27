@@ -5,8 +5,8 @@
 		},
 		"seo": {},
 		"menu": {
-			"report": "Military Aid Report",
-			"letter": "Letter to Representatives"
+			"report": "Military Aid",
+			"letter": "Letter to Congress"
 		},
 		"report": {
 			"title": "Heavy weapons committed to Ukraine as of {{till}}",
@@ -15,6 +15,7 @@
 			"next": "Next Report",
 			"usa": "USA",
 			"rest": "Other Countries",
+			"russia": "Russia had",
 			"total": "Total"
 		},
 		"weapon_category": {
@@ -50,6 +51,7 @@
 			"next": "Наступний звіт",
 			"usa": "США ",
 			"rest": "Інші країни",
+			"russia": "росія",
 			"total": "Всього "
 		},
 		"weapon_category": {

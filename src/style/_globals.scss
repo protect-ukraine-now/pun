@@ -6,12 +6,14 @@
   // Experiment - responsive container
   @include make-responsive('--max-container-width',
           (
-                  mobile: 355px,
+                  mobile-min: 355px,
+                  tablet-min: 700px,
                   tablet: 930px,
                   desktop: 1200px,
           ),
           40px
   );
+
   //--max-container-width: 1200px;
   //
   //@include max-w(tablet) {

@@ -50,6 +50,14 @@
           15px
   );
 
+  @include make-responsive('padding-left',
+          (
+                  mobile: 5px,
+                  desktop: 55px,
+          ),
+          15px
+  );
+
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
@@ -67,19 +75,27 @@
 
 .head,
 .cell {
-  &:first-child {
-    @include container-padding;
-  }
-}
-
-.head {
   @include make-responsive('padding',
           (
+                  mobile-min: 0px,
                   tablet: 20px,
                   desktop: 15px,
           ),
           15px
   );
+
+  &:first-child {
+    @include min-w(get-breakpoint-value(mobile) + 1) {
+      @include container-padding;
+    }
+
+    @include max-w(mobile) {
+      padding: 24px 0;
+    }
+  }
+}
+
+.head {
   @include make-responsive('font-size',
           (
                   mobile: 18px,
@@ -96,11 +112,12 @@
           15px
   );
 
+  text-transform: uppercase;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   font-weight: 700;
-  text-align: right;
+  text-align: center;
 
   > * {
     flex: 1 0 50%;
@@ -112,14 +129,6 @@
 }
 
 .cell {
-  @include make-responsive('padding',
-          (
-                  tablet: 20px,
-                  desktop: 15px,
-          ),
-          15px
-  );
-
   position: relative;
 }
 

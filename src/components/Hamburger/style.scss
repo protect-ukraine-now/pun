@@ -27,7 +27,6 @@
     }
 
     .menus {
-      z-index: 10;
       transform: scaleX(1);
     }
   }
@@ -71,12 +70,12 @@
 }
 
 .menus {
-  width: 100vw;
-  height: 100vh;
   position: fixed;
+  top: 0;
   bottom: 0;
   left: 0;
-  z-index: 0;
+  right: 0;
+  z-index: 10;
   background: #fff;
   padding: 148px 30px 65px;
   display: flex;
@@ -103,16 +102,10 @@
       &:before {
         content: none;
       }
-
     }
-
   }
 }
 
 .i18n {
   align-self: flex-start;
-}
-
-.link {
-
 }

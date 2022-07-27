@@ -11,7 +11,7 @@ import { LANGUAGE_MENU } from '../../constants/language';
 import { PAGES_MENU } from '../../constants/pages';
 
 const Header = () => {
-  const { tabletMin, mobile } = useWindowSize();
+  const { tablet, tabletMin, mobile } = useWindowSize();
 
   return (
     <header className={style.header}>
@@ -19,7 +19,7 @@ const Header = () => {
         <Link href="/">
           <img className={style.logo} src={LogoImage} alt="" />
         </Link>
-        {tabletMin || mobile
+        {tablet || tabletMin || mobile
           ? <Hamburger className={style.hamburger} navigation={PAGES_MENU} languages={LANGUAGE_MENU} />
           : (
             <Fragment>

@@ -24,7 +24,7 @@ const Dashboard = (props) => {
 	till = formatter(till);
 
 	return (
-		<Container className={style.container}>
+		<Container>
 			<h1 className={style.heading}>
 				<Text id="report.title" fields={{ till }}>
 					Heavy weapons committed to Ukraine as of {till}
