@@ -14,6 +14,6 @@ const getDateLocale = locale => {
 export const formatDate = language => date => {
 	const locale = getDateLocale(language);
 
-	return format(new Date(date), 'd MMMM yyyy', { locale }).toUpperCase()
+	return format(new Date(date), 'd MMMM yyyy', { locale }) // .toUpperCase()
 }
 

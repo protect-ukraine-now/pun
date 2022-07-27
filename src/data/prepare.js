@@ -10,7 +10,7 @@ const prepareReport = require('./report')
 function listReports() {
 	return [
 		{ from: '2022-07-04', till: '2022-07-17' },
-		{ from: '2022-07-18', till: '2022-07-31' },
+		// { from: '2022-07-18', till: '2022-07-31' },
 	]
 }
 
