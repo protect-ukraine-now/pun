@@ -1,27 +1,26 @@
-import { Match, Link } from 'preact-router/match'
+import cn from 'classnames';
+import { Match, Link } from 'preact-router/match';
 
-import style from './style.scss'
+import style from './style.scss';
 
-let pages = language => [
-	['Report', `/${language}/report`],
-	['Letter', `/${language}/letter`],
-]
-
-export default function Menu() {
+export default function Menu({ items }) {
 	return (
 		<Match>
 			{({ url }) => {
-				let language = url.split('/')[1]
+				let language = url.split('/')[1];
 				return (
-					<ul className={style.container}>
-						{pages(language).map(([ name, href ]) =>
-							<Link {...{ href, key: href }} activeClassName="active">
-								{name}
-							</Link>
+					<div className={style.container}>
+						{items(language).map(([name, href]) =>
+							<Match path={href}>
+								{({ matches }) => (matches ? <span className={cn(style.link, style.active)}>{name}</span> :
+									<Link {...{ href, key: href }} className={style.link} activeClassName={style.active}>
+										{name}
+									</Link>)}
+							</Match>
 						)}
-					</ul>
-				)
+					</div>
+				);
 			}}
 		</Match>
-	)
+	);
 }

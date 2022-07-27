@@ -10,32 +10,6 @@
     margin: 0 auto;
 }
 
-/*------HEADER---------*/
-header {
-    height: 60px;
-    background: #000000;
-    position: relative;
-}
-
-header .protect_elem {
-    bottom: -21px;
-    top: auto;
-}
-
-header .soc_net {
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
-
-header .soc_net a {
-    margin-left: 10px;
-    height: 26px;
-    width: 26px;
-    color: #ffffff;
-}
-
 /*--------MAIN---------*/
 .main {
     padding: 70px 0 168px;

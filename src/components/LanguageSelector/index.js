@@ -1,26 +1,11 @@
-import { Match, Link } from 'preact-router/match'
-import cn from 'classnames';
-import { LANGUAGES } from '../../constants/language';
+import { Match } from 'preact-router/match'
+import Menu from '../Menu';
 
-import style from './style.scss';
-
-const Index = ({ className }) => (
+const Index = ({ className, items }) => (
 	<Match>
-		{({ url }) => (
-			<ul className={cn(className, style.container)}>
-				{LANGUAGES.map(({ label, value }) => {
-					let a = url.split('/')
-					a[1] = value
-					let href = a.join('/')
-					return (
-						<Link {...{ href, key: href }} activeClassName="active">
-							{label}
-						</Link>
-					)
-				}
-				)}
-			</ul>
-		)}
+		{({ url }) => {
+			return <Menu className={className} items={items(url)} />
+		}}
 	</Match>
 );
 

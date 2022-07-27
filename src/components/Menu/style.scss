@@ -1,22 +1,40 @@
 @import 'src/style/variables';
+@import 'src/style/mixins';
 
 .container {
-  list-style: none;
   display: flex;
+  align-self: center;
 }
 
-.option {
-  color: $color-accent;
-  text-decoration: underline;
-  cursor: pointer;
+.link {
+  @include url-hover;
 
-  &:not(:last-of-type) {
-    margin-right: 10px;
+  position: relative;
+  display: flex;
+  font-size: 18px;
+  font-weight: 700;
+
+  &:not(:first-child) {
+    margin-left: 20px;
+
+    &:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translate(-10px, -50%);
+      height: 100%;
+      width: 1px;
+      background: $dark-text;
+    }
   }
 
   &.active {
     color: #000;
     cursor: default;
-    text-decoration: none;
+
+    &:after {
+      content: none;
+    }
   }
 }

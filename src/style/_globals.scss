@@ -1,3 +1,4 @@
+@import 'variables';
 @import 'mixins';
 
 // global theme variables
@@ -20,4 +21,9 @@
   //@include max-w(mobile) {
   //  --max-container-width: 355px;
   //}
+
+  // breakpoints
+  --mobile-breakpoint: #{map-get($breakpoints, mobile)};
+  --tablet-breakpoint: #{map-get($breakpoints, tablet)};
+  --desktop-breakpoint: #{map-get($breakpoints, desktop)};
 }

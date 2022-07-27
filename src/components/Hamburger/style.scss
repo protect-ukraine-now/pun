@@ -1,0 +1,75 @@
+@import 'src/style/mixins';
+
+.container {
+  transition: all 0.25s ease;
+
+  &.isOpen {
+    span {
+      transform: scaleX(0);
+    }
+
+    .trigger {
+      height: 32px;
+
+      &:before, &:after {
+        top: 50%;
+      }
+
+      &:before {
+        transform: translateY(-50%) rotate(45deg);
+      }
+
+      &:after {
+        bottom: 0;
+        transform: translateY(-50%) rotate(-45deg);
+      }
+    }
+  }
+}
+
+.trigger {
+  @include reset-button-style;
+
+  width: 32px;
+  height: 14px;
+  position: relative;
+
+  &:before, &:after, span {
+    content: '';
+    position: absolute;
+    height: 1px;
+    background: #000;
+    right: 0;
+    transition: transform 0.25s ease, top 0.15s ease;
+  }
+
+  &:before, &:after {
+    width: 100%;
+    transform-origin: center center;
+  }
+
+  &:before {
+    top: 0;
+  }
+
+  &:after {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  span {
+    bottom: 0;
+    width: 50%;
+    transform-origin: right center;
+  }
+}
+
+.menus {
+  width: 100vw;
+  height: calc(100vh - 80px);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  z-index: 10;
+}

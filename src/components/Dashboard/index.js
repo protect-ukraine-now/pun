@@ -7,7 +7,7 @@ import Container from '../Container';
 
 const approximateNumber = n => (
 	parseFloat(n)
-	? '>\xA0' + (Math.floor(parseFloat(n) / 1e3) * 1e3).toLocaleString() 
+	? '>\xA0' + (Math.floor(parseFloat(n) / 1e3) * 1e3).toLocaleString()
 	: n
 )
 
@@ -22,19 +22,19 @@ const Dashboard = (props) => {
 				<Text id="report.title" fields={{ till }}>
 					Heavy weapons committed to Ukraine as of {till}
 				</Text>
-			</h1>
-			<h2>
+			<span className={style.subHeading}>
 				<Text id="report.subtitle" fields={{ from }}>
 					(and changes since {from})
 				</Text>
-			</h2>        
+			</span>
+			</h1>
 			<div className={style.table}>
 				<div className={style.head} />
 				<div className={style.head}>
 					<Text id="report.usa">USA</Text>
 				</div>
 				<div className={style.head}>
-					<Text id="report.rest">Other Countries</Text>
+					<Text id="report.rest">Others</Text>
 				</div>
 				<div className={cn(style.head, style.russia)}>
 					<Text id="report.russia">Russia had</Text>

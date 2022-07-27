@@ -2,26 +2,38 @@
 
 .header {
   width: 100%;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+
+  @include max-w(mobile) {
+    min-height: 90px;
+  }
 }
 
 .container {
   @include container;
 
-  padding: 30px;
   display: flex;
   justify-content: space-between;
 
-  @include max-w(tablet-min) {
-    flex-flow: column;
-    align-items: center;
-    padding: 24px 0;
-  }
+  //@include max-w(tablet-min) {
+  //  flex-flow: column;
+  //  align-items: center;
+  //  padding: 24px 0;
+  //}
 }
 
 .logo {
-  max-width: 291px;
+  margin-left: 10px;
+  max-width: 231px;
 
-  @include max-w(tablet-min) {
-    margin-bottom: 24px;
-  }
+  //@include max-w(tablet-min) {
+  //  margin-bottom: 24px;
+  //}
+}
+
+.hamburger {
+  align-self: center;
+  margin-right: 6px;
 }
