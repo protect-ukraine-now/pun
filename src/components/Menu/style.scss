@@ -31,7 +31,9 @@
   }
 
   &.active {
-    color: $color-accent;
+    // color: $color-accent;
+    color: black;
+    text-decoration: underline;
     cursor: default;
 
     &:after {
