@@ -133,3 +133,24 @@
           desktop: 30px
   ), 30px);
 }
+
+.toClipboardAction {
+  icon {
+    $size: 1em;
+    display: inline-block;
+    vertical-align: middle;
+    width: $size;
+    height: $size;
+    margin-inline-start: .5em;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 0%;
+    background-image: url('../../assets/icons/copy.svg'), url('../../assets/icons/mark.svg');
+    transition: background-size 2s ease-in;
+  }
+
+  &:active icon {
+    background-size: 0%, 100%;
+    transition: background-size 0s ease-out;
+  }
+}

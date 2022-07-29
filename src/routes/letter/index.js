@@ -25,7 +25,7 @@ export default function Letter(props) {
 			<section className={cn(style.section, style.banner)}>
 				<h1 className={style.title}>
 					TOGETHER WE CAN SAVE
-					<br/><span className={style.mobile}>&nbsp;</span>
+					<br /><span className={style.mobile}>&nbsp;</span>
 					UKRAINIAN LIVES!
 				</h1>
 			</section>
@@ -42,7 +42,7 @@ export default function Letter(props) {
 					September less than 20% had been used. Hence, six US senators from both sides of the aisle had sent a request
 					to the Secretary of Defense and Chairman of the Joint Chiefs of Staff urging them to provide air defense
 					systems. Please read <a href="https://www.sullivan.senate.gov/imo/media/doc/20220715_Letter.pdf">their
-					letter</a>.
+						letter</a>.
 				</p>
 				<h1 className={style.title}>REQUEST YOUR REPRESENTATIVES IN U.S. CONGRESS TO GIVE MORE WEAPONS TO UKRAINE</h1>
 				<ol className={style.actionsList}>
@@ -57,14 +57,16 @@ export default function Letter(props) {
 					</li>
 					<li className={style.actionItem}>
 						Enter "<span id="subject">Protect Ukraine NOW</span>" into the SUBJECT field when asked{' '}
-						<a href="#" onClick={copy('#subject')} title="Click here to copy the subject">
+						<a className={style.toClipboardAction} href="#" onClick={copy('#subject')} title="Click here to copy the subject">
 							[Click here to Copy into Clipboard]
+							<icon />
 						</a>
 					</li>
 					<li className={style.actionItem}>
 						Copy and paste the following letter text into the MESSAGE field when asked{' '}
-						<a href="#" onClick={copy('#emailbody')} title="Click here to copy the letter text">
+						<a className={style.toClipboardAction} href="#" onClick={copy('#emailbody')} title="Click here to copy the letter text">
 							[Click here to Copy into Clipboard]
+							<icon />
 						</a>
 					</li>
 				</ol>
@@ -102,7 +104,7 @@ export default function Letter(props) {
 			<section className={cn(style.section, style.social)}>
 				<h1>AFTER YOU ARE DONE PLEASE SHARE THIS SITE WITH YOUR FRIENDS, FAMILY AND ON SOCIAL NETWORKS</h1>
 				<div className={style.socialActions}>
-					<div className="sharethis-inline-share-buttons"/>
+					<div className="sharethis-inline-share-buttons" />
 				</div>
 			</section>
 		</Container>
