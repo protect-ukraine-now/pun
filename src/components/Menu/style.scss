@@ -7,35 +7,24 @@
 }
 
 .link {
-  @include url-hover;
+  @include url-hover($color-accent-secondary, 2px);
 
   text-transform: uppercase;
   position: relative;
   display: flex;
   font-size: 18px;
   font-weight: 700;
-
-  &:not(:first-child) {
-    margin-left: 20px;
-
-    &:before {
-      content: '';
-      position: absolute;
-      left: 0;
-      top: 50%;
-      transform: translate(-10px, -50%);
-      height: 100%;
-      width: 1px;
-      background: $dark-text;
-    }
-  }
+  padding: 5px 15px;
+  color: $dark-text;
+  text-decoration: none;
 
   &.active {
-    color: $color-accent;
     cursor: default;
 
+    // after is set in the mixin `url-hover`
     &:after {
-      content: none;
+      transform: scaleX(1);
+      background: $color-accent-secondary;
     }
   }
 }
