@@ -78,15 +78,14 @@
   }
 }
 
-.letter {
-  border-bottom: 1px solid #000;
+.explanation {
   padding-bottom: 22px;
 
   .title {
     font-size: 32px;
-    margin-bottom: 1rem;
+    margin-bottom: 0;
     text-align: center;
-    padding: 1rem 0.85rem;
+    padding: 2rem 0.85rem;
     border-color: #000;
     border-style: solid;
     border-top-width: 1px;
@@ -94,18 +93,24 @@
   }
 }
 
-.parts {
-  padding-top: 35px;
-
-  @include make-responsive('padding-bottom', (
-          mobile: 0px,
-          desktop: 38px
-  ), 38px);
+.letter {
+  border-bottom: 1px solid #000;
 }
 
 .actionsList {
   list-style-type: decimal;
   padding-left: 1.5em;
+  border-bottom: 1px solid #000;
+
+  @include make-responsive('padding-top', (
+          mobile: 10px,
+          desktop: 22px
+  ), 22px);
+
+  @include make-responsive('padding-bottom', (
+          mobile: 10px,
+          desktop: 22px
+  ), 22px);
 }
 
 .actionItem {
