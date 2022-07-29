@@ -29,6 +29,31 @@ export default function Letter(props) {
 					UKRAINIAN LIVES!
 				</h1>
 			</section>
+			<section className={cn(style.section, style.parts)}>
+				<ol className={style.actionsList}>
+					<li className={style.actionItem}>
+						Go to the {' '}
+						<a href="https://democracy.io/" target="_blank" rel="noreferrer" title="Democracy.io">
+							Democracy.io
+						</a> site
+					</li>
+					<li className={style.actionItem}>
+						Follow instructions
+					</li>
+					<li className={style.actionItem}>
+						Enter "<span id="subject">Protect Ukraine NOW</span>" into the SUBJECT field when asked{' '}
+						<a href="#" onClick={copy('#subject')} title="Click here to copy the subject">
+							[Click here to Copy into Clipboard]
+						</a>
+					</li>
+					<li className={style.actionItem}>
+						Copy and paste the letter text into the MESSAGE field when asked{' '}
+						<a href="#" onClick={copy('#emailbody')} title="Click here to copy the letter text">
+							[Click here to Copy into Clipboard]
+						</a>
+					</li>
+				</ol>
+			</section>
 			<section className={cn(style.section, style.letter)}>
 				<p>
 					Russia fires at will missiles and bombs into densely populated Ukrainian cities killing hundreds and terrorizing
@@ -67,31 +92,6 @@ export default function Letter(props) {
 						Best wishes.
 					</p>
 				</div>
-			</section>
-			<section className={cn(style.section, style.parts)}>
-				<ol className={style.actionsList}>
-					<li className={style.actionItem}>
-						Go to the {' '}
-						<a href="https://democracy.io/" target="_blank" rel="noreferrer" title="Democracy.io">
-							Democracy.io
-						</a> site
-					</li>
-					<li className={style.actionItem}>
-						Follow instructions
-					</li>
-					<li className={style.actionItem}>
-						Enter "<span id="subject">Protect Ukraine NOW</span>" into the SUBJECT field when asked{' '}
-						<a href="#" onClick={copy('#subject')} title="Click here to copy the subject">
-							[Click here to Copy into Clipboard]
-						</a>
-					</li>
-					<li className={style.actionItem}>
-						Copy and paste the letter text into the MESSAGE field when asked{' '}
-						<a href="#" onClick={copy('#emailbody')} title="Click here to copy the letter text">
-							[Click here to Copy into Clipboard]
-						</a>
-					</li>
-				</ol>
 			</section>
 			<section className={cn(style.section, style.social)}>
 				<h1>AFTER YOU ARE DONE PLEASE SHARE THIS SITE WITH YOUR FRIENDS, FAMILY AND ON SOCIAL NETWORKS</h1>
