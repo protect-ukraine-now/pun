@@ -44,7 +44,7 @@ export default function Letter(props) {
 					systems. Please read <a href="https://www.sullivan.senate.gov/imo/media/doc/20220715_Letter.pdf">their
 					letter</a>.
 				</p>
-				<h1 className={style.title}>SEND THE FOLLOWING LETTER TO YOUR REPRESENTATIVE IN U.S. CONGRESS</h1>
+				<h1 className={style.title}>REQUEST YOUR REPRESENTATIVES IN U.S. CONGRESS TO GIVE MORE WEAPONS TO UKRAINE</h1>
 				<ol className={style.actionsList}>
 					<li className={style.actionItem}>
 						Go to the {' '}
@@ -62,12 +62,13 @@ export default function Letter(props) {
 						</a>
 					</li>
 					<li className={style.actionItem}>
-						Copy and paste the letter text into the MESSAGE field when asked{' '}
+						Copy and paste the following letter text into the MESSAGE field when asked{' '}
 						<a href="#" onClick={copy('#emailbody')} title="Click here to copy the letter text">
 							[Click here to Copy into Clipboard]
 						</a>
 					</li>
 				</ol>
+				<h1 className={style.title}>THE LETTER TO YOUR REPRESENTATIVES</h1>
 			</section>
 			<section className={cn(style.section, style.letter)}>
 				<div id="emailbody">
@@ -93,9 +94,8 @@ export default function Letter(props) {
 						lead to an energy supply collapse during the coming winter and a likely annexation of Taiwan by China. In my
 						opinion, the military capabilities shipment to Ukraine is not only our moral obligation but a pragmatic
 						necessity to avoid a future world chaos.
-					</p>
-					<p>
-						Best wishes.
+						<br />
+						<br />
 					</p>
 				</div>
 			</section>
