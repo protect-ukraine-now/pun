@@ -57,16 +57,16 @@ export default function Letter(props) {
 					</li>
 					<li className={style.actionItem}>
 						Enter "<span id="subject">Protect Ukraine NOW</span>" into the SUBJECT field when asked{' '}
+						<br />
 						<a className={style.toClipboardAction} href="#" onClick={copy('#subject')} title="Click here to copy the subject">
-							[Click here to Copy into Clipboard]
-							<icon />
+							[Click to Copy into Clipboard]<icon />
 						</a>
 					</li>
 					<li className={style.actionItem}>
 						Copy and paste the following letter text into the MESSAGE field when asked{' '}
+						<br />
 						<a className={style.toClipboardAction} href="#" onClick={copy('#emailbody')} title="Click here to copy the letter text">
-							[Click here to Copy into Clipboard]
-							<icon />
+							[Click to Copy into Clipboard]<icon />
 						</a>
 					</li>
 				</ol>
