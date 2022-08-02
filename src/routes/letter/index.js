@@ -13,12 +13,12 @@ export default function Letter(props) {
 	// console.log('Letter', props)
 	return (<>
 		<Helmet
+			link={[
+				{ href: 'https://actionnetwork.org/css/style-embed-v3.css', rel: 'stylesheet', type: 'text/css' },
+			]}
 			script={[
-				{
-					defer: true,
-					src: 'https://platform-api.sharethis.com/js/sharethis.js#property=623222622d10e5001932a789&product=inline-share-buttons',
-					type: 'text/javascript'
-				}
+				{ defer: true, src: 'https://actionnetwork.org/widgets/v5/letter/protect-ukraine-now?format=js&source=widget', type: 'text/javascript' },
+				// { defer: true, src: 'https://platform-api.sharethis.com/js/sharethis.js#property=623222622d10e5001932a789&product=inline-share-buttons', type: 'text/javascript' },
 			]}
 		/>
 		<Container className={style.container}>
@@ -45,7 +45,10 @@ export default function Letter(props) {
 						letter</a>.
 				</p>
 				<h1 className={style.title}>REQUEST YOUR REPRESENTATIVES IN U.S. CONGRESS TO GIVE MORE WEAPONS TO UKRAINE</h1>
-				<ol className={style.actionsList}>
+
+				<div id='can-letter-area-protect-ukraine-now' style='width: 100%'></div>
+
+				{/* <ol className={style.actionsList}>
 					<li className={style.actionItem}>
 						Go to the {' '}
 						<a href="https://democracy.io/" target="_blank" rel="noreferrer" title="Democracy.io">
@@ -70,9 +73,9 @@ export default function Letter(props) {
 						</a>
 					</li>
 				</ol>
-				<h1 className={style.title}>THE LETTER TO YOUR REPRESENTATIVES</h1>
+				<h1 className={style.title}>THE LETTER TO YOUR REPRESENTATIVES</h1> */}
 			</section>
-			<section className={cn(style.section, style.letter)}>
+			{/* <section className={cn(style.section, style.letter)}>
 				<div id="emailbody">
 					<p>
 						It’s been five months since the beginning of the illegal and unprovoked Russian attack on Ukraine. From the
@@ -106,7 +109,7 @@ export default function Letter(props) {
 				<div className={style.socialActions}>
 					<div className="sharethis-inline-share-buttons" />
 				</div>
-			</section>
+			</section> */}
 		</Container>
 	</>);
 }
