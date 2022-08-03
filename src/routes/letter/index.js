@@ -44,7 +44,7 @@ export default function Letter(props) {
 					systems. Please read <a href="https://www.sullivan.senate.gov/imo/media/doc/20220715_Letter.pdf">their
 						letter</a>.
 				</p>
-				<h1 className={style.title}>REQUEST YOUR REPRESENTATIVES IN U.S. CONGRESS TO GIVE MORE WEAPONS TO UKRAINE</h1>
+				{/* <h1 className={style.title}>REQUEST YOUR REPRESENTATIVES IN U.S. CONGRESS TO GIVE MORE WEAPONS TO UKRAINE</h1> */}
 
 				<div id='can-letter-area-protect-ukraine-now' style='width: 100%'></div>
 
