@@ -10,7 +10,7 @@
 		},
 		"report": {
 			"title": "Heavy weapons committed to Ukraine as of {{till}}",
-			"subtitle": "(and changes since {{from}})",
+			"subtitle": "(and changes in the previous two weeks)",
 			"prev": "Previous Report",
 			"next": "Next Report",
 			"usa": "USA",
@@ -46,7 +46,7 @@
 		},
 		"report": {
 			"title": "Важке озброєння, що передано або обіцяно Україні, станом на {{till}}",
-			"subtitle": "(та зміни з {{from}})",
+			"subtitle": "(та зміни за два попередні тижні)",
 			"prev": "Попередній звіт",
 			"next": "Наступний звіт",
 			"usa": "США ",

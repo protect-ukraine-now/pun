@@ -31,7 +31,7 @@ const Dashboard = (props) => {
 				</Text>
 			<span className={style.subHeading}>
 				<Text id="report.subtitle" fields={{ from }}>
-					(and changes since {from})
+					(and changes in the previous two weeks)
 				</Text>
 			</span>
 			</h1>
