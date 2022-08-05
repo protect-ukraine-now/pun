@@ -23,23 +23,17 @@ const CATEGORIES = [
     'Self-Propelled Artillery',
     'Multiple Launch Rocket System',
     'Guided MLRS',
-    'Self-Propelled Anti-Aircraft Weapon',
     'Surface-to-Air Missile System',
+    'Warplane',
     'Helicopter',
-    'Aircraft',
     'Tank',
     'Infantry Fighting Vehicle',
-    'Armored Personnel Carrier',
-    // 'Mine-Resistant Ambush Protected',
-    // 'Vessel',
+    'Other Armored Vehicle',
 ]
 
 function prepareReport({ commits, russia, news }, { from, till }) {
     let byCategory = commits.slice(1).reduce((accumulator, r) => {
         let [date, author, reviewer, status, country, category, type, qty, qty2, notes, link, title] = r
-        if (category === 'Mine-Resistant Ambush Protected') {
-            category = 'Armored Personnel Carrier'
-        }
         if (date <= till && (status === 'Draft' || status === 'Approved')) {
             let values = accumulator[category] || [{}, {}, { value: russia[category] || '?' }]
             accumulator[category] = values

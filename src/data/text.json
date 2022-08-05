@@ -24,10 +24,8 @@
 			"Multiple Launch Rocket System": "Multiple Launch Rocket System",
 			"Guided MLRS": "Guided MLRS",
 			"Tank": "Tank",
-			"Armored Personnel Carrier": "Armored Personnel Carrier",
-			"Mine-Resistant Ambush Protected": "Mine-Resistant Ambush Protected",
 			"Infantry Fighting Vehicle": "Infantry Fighting Vehicle",
-			"Self-Propelled Anti-Aircraft Weapon": "Anti-Aircraft Vehicle",
+			"Other Armored Vehicle": "Other Armored Vehicle",
 			"Surface-to-Air Missile System": "Surface-to-Air Missile System",
 			"Helicopter": "Helicopter",
 			"Aircraft": "War Plane",
@@ -60,17 +58,15 @@
 			"Multiple Launch Rocket System": "Реактивна система залпового вогню (РСЗВ)",
 			"Guided MLRS": "Високоточна РСЗВ",
 			"Tank": "Танк",
-			"Armored Personnel Carrier": "Бронетранспортер",
-			"Mine-Resistant Ambush Protected": "Машина із захистом від мін і засідок",
 			"Infantry Fighting Vehicle": "Бойова машина піхоти ",
-			"Self-Propelled Anti-Aircraft Weapon": "Самохідна зенітна устанока",
+			"Other Armored Vehicle": "Інша броньована техніка",
 			"Surface-to-Air Missile System": "Ракетний комплекс земля-повітря",
 			"Helicopter": "Гелiкоптер",
 			"Aircraft": "Літак",
 			"Vessel": "Судно",
 			"Artillery rounds": "Артилерійські снаряди",
 			"GMLRS ammunition": "GMLRS снаряди / керовані реактивні снаряди до РСЗВ",
-			"other": "інші "
+			"other": "інше"
 		}
 	}
 }

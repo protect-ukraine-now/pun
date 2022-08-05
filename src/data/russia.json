@@ -5,11 +5,10 @@
 	"Multiple Launch Rocket System": "4057",
 	"Guided MLRS": "0",
 	"Tank": "12270",
-	"Armored Personnel Carrier": "5731",
-	"Infantry Fighting Vehicle": "12600",
-	"Self-Propelled Anti-Aircraft Weapon": "",
+	"Other Armored Vehicle": "7731",
+	"Infantry Fighting Vehicle": "19100",
 	"Surface-to-Air Missile System": "",
 	"Helicopter": "1724",
-	"Aircraft": "2504",
+	"Warplane": "2504",
 	"": ""
 }
