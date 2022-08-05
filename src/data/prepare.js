@@ -1,27 +1,10 @@
 const fs = require('fs')
 const { join } = require('path')
 const parseMD = require('parse-md').default
+
 const loadData = require('./load')
-const prepareReport = require('./report')
-
-// TODO: crawl the folder
-// const { generateFileList } = require('./src/crawler');
-// const [blogs] = generateFileList(join(__dirname, 'content')).nodes;
-function listReports() {
-	return [
-		{ from: '2022-07-04', till: '2022-07-17' },
-		{ from: '2022-07-18', till: '2022-07-31' },
-	]
-}
-
-function prepareReports(data, list) {
-	return list.map((report, i) => ({
-		...report,
-		prev: (list[i - 1] || {}).till,
-		next: (list[i + 1] || {}).till,
-		data: prepareReport(data, report),
-	}))
-}
+const prepareReports = require('./report')
+const prepareNews = require('./news')
 
 function loadMarkdown(folder, name) {
 	try {
@@ -35,12 +18,12 @@ function loadMarkdown(folder, name) {
 async function preparePages() {
 	let data = await loadData()
 	let { text } = data
-	let reports = prepareReports(data, listReports())
+	let reports = prepareReports(data)
 	let lastReport = reports[reports.length - 1]
 
 	let pages = [
 		{ url: '/' },
-		...Object.entries(text).map(([language, text]) => [
+		...Object.entries(text).map(([language]) => [
 			{
 				url: `/${language}/letter`,
 				seo: { cover: 'https://protectukrainenow.org/assets/og.webp' },
@@ -55,6 +38,7 @@ async function preparePages() {
 					data: {
 						...report,
 						language: language,
+						news: prepareNews(data, { ...report, language }),
 						blog: loadMarkdown('digest', `${report.till}.${language}.md`),
 					},
 				}
@@ -66,31 +50,4 @@ async function preparePages() {
 	return pages
 }
 
-module.exports = {
-	preparePages,
-}
-
-		// adding blogs list posts page
-		// pages.push({
-		// 	url: '/blogs/',
-		// 	data: blogs
-		// });
-
-		// adding all blog pages
-		// pages.push(...blogs.edges.map(blog => {
-		// 	let data;
-		// 	if (blog.format === 'md') {
-		// 		const { content } = parseMD(fs.readFileSync(join('content', 'blog', blog.id), 'utf-8'));
-		// 		data = content;
-		// 	} else {
-		// 		data = fs.readFileSync(join('content', 'blog', blog.id), 'utf-8').replace(/---(.*(\r)?\n)*---/, '');
-		// 	}
-		// 	return {
-		// 		url: `/blog/${blog.id}`,
-		// 		seo: blog.details,
-		// 		data: {
-		// 			details: blog.details,
-		// 			content: data
-		// 		}
-		// 	};
-		// }));
+module.exports = preparePages

@@ -1,3 +1,23 @@
+// TODO: crawl the folder
+// const { generateFileList } = require('./src/crawler');
+// const [blogs] = generateFileList(join(__dirname, 'content')).nodes;
+function listReports() {
+    return [
+        { from: '2022-07-04', till: '2022-07-17' },
+        { from: '2022-07-18', till: '2022-07-31' },
+    ]
+}
+
+function prepareReports(data) {
+    let list = listReports()
+    return listReports().map((report, i) => ({
+        ...report,
+        prev: (list[i - 1] || {}).till,
+        next: (list[i + 1] || {}).till,
+        data: prepareReport(data, report),
+    }))
+}
+
 const CATEGORIES = [
     'Towed Artillery',
     'Self-Propelled Artillery',
@@ -14,7 +34,7 @@ const CATEGORIES = [
     // 'Vessel',
 ]
 
-function report({ commits, russia }, { from, till }) {
+function prepareReport({ commits, russia, news }, { from, till }) {
     let byCategory = commits.slice(1).reduce((accumulator, r) => {
         let [date, author, reviewer, status, country, category, type, qty, qty2, notes, link, title] = r
         if (category === 'Mine-Resistant Ambush Protected') {
@@ -43,4 +63,4 @@ function report({ commits, russia }, { from, till }) {
     }))
 }
 
-module.exports = report
+module.exports = prepareReports

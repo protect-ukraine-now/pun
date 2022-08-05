@@ -1,14 +1,12 @@
 import cn from 'classnames';
-import Markdown from 'markdown-to-jsx';
 import style from './style.scss';
-import { Fragment } from 'preact';
 
-const Index = ({ className, content }) => {
-	return content ? (
+const Index = ({ className, children }) => {
+	return (
 		<article className={cn(className, style.container)}>
-			<Markdown options={{ wrapper: Fragment }}>{content}</Markdown>
+			{children}
 		</article>
-	) : null;
+	)
 };
 
 export default Index;

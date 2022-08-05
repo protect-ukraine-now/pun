@@ -16,7 +16,11 @@ const spreadsheets = {
         id: '1Cm0x0JZAO05wxfN2iHeShnoXwdoTGe5jGuE5AhhJkBs',
         range: "'Sheet1'",
         transform: indexText,
-    }
+    },
+    news: {
+        id: '1GjHht1WjPGagUo-jycLRbeCHZYgLYQWuKZrFvXiqWv4',
+        range: "'News Log'",
+    },
 }
 
 function indexText(text) {

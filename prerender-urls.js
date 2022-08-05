@@ -1,4 +1,4 @@
-const { preparePages } = require('./src/data/prepare.js')
+const preparePages = require('./src/data/prepare')
 
 module.exports = async () => {
 	try {
