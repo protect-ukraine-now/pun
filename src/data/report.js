@@ -1,4 +1,4 @@
-// TODO: crawl the folder
+// TODO: crawl the folder?
 // const { generateFileList } = require('./src/crawler');
 // const [blogs] = generateFileList(join(__dirname, 'content')).nodes;
 function listReports() {

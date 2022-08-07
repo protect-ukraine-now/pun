@@ -26,9 +26,9 @@
 			"Tank": "Tank",
 			"Infantry Fighting Vehicle": "Infantry Fighting Vehicle",
 			"Other Armored Vehicle": "Other Armored Vehicle",
-			"Surface-to-Air Missile System": "Surface-to-Air Missile System",
+			"Surface-to-Air Missile System": "Air Defense System",
 			"Helicopter": "Helicopter",
-			"Aircraft": "War Plane",
+			"Warplane": "War Plane",
 			"Vessel": "Vessel",
 			"Artillery rounds": "Artillery rounds",
 			"GMLRS ammunition": "GMLRS ammunition",
@@ -53,19 +53,19 @@
 			"total": "Всього "
 		},
 		"weapon_category": {
-			"Towed Artillery": "Буксирована артилерійська система",
-			"Self-Propelled Artillery": "Самохідна артилерійська система",
-			"Multiple Launch Rocket System": "Реактивна система залпового вогню (РСЗВ)",
+			"Towed Artillery": "Буксирувана артилерія",
+			"Self-Propelled Artillery": "Самохідна артилерія",
+			"Multiple Launch Rocket System": "Реактивна система залпового вогню",
 			"Guided MLRS": "Високоточна РСЗВ",
 			"Tank": "Танк",
 			"Infantry Fighting Vehicle": "Бойова машина піхоти ",
 			"Other Armored Vehicle": "Інша броньована техніка",
-			"Surface-to-Air Missile System": "Ракетний комплекс земля-повітря",
+			"Surface-to-Air Missile System": "Зенітний ракетний комплекс",
 			"Helicopter": "Гелiкоптер",
-			"Aircraft": "Літак",
+			"Warplane": "Літак",
 			"Vessel": "Судно",
 			"Artillery rounds": "Артилерійські снаряди",
-			"GMLRS ammunition": "GMLRS снаряди / керовані реактивні снаряди до РСЗВ",
+			"GMLRS ammunition": "Керовані реактивні снаряди",
 			"other": "інше"
 		}
 	}
