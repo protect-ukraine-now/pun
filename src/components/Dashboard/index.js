@@ -9,7 +9,7 @@ import { formatDate } from '../../tools/dates';
 
 const approximateNumber = n => (
 	parseFloat(n)
-	? '>\xA0' + (Math.floor(parseFloat(n) / 1e3) * 1e3).toLocaleString()
+	? '>' + (Math.floor(parseFloat(n) / 1e3) * 1e3).toLocaleString()
 	: n
 )
 
