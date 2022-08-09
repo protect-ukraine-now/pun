@@ -23,7 +23,7 @@ const CATEGORIES = [
     'Self-Propelled Artillery',
     'Multiple Launch Rocket System',
     'Guided MLRS',
-    'Surface-to-Air Missile System',
+    'Air Defense System',
     'Warplane',
     'Helicopter',
     'Tank',

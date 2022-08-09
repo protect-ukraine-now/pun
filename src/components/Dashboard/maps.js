@@ -14,7 +14,7 @@ export const AmmoIconMap = {
   'Self-Propelled Artillery': iconSPA,
   'Multiple Launch Rocket System': iconMLRS,
   'Guided MLRS': iconGMLRS,
-  'Surface-to-Air Missile System': iconSAMS,
+  'Air Defense System': iconSAMS,
   'Warplane': iconAircraft,
   'Helicopter': iconHelicopter,
   'Tank': iconTank,
