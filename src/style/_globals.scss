@@ -9,20 +9,10 @@
                   mobile-min: 355px,
                   tablet-min: 700px,
                   tablet: 930px,
-                  desktop: 1200px,
+                  desktop: 1284px,
           ),
           40px
   );
-
-  //--max-container-width: 1200px;
-  //
-  //@include max-w(tablet) {
-  //  --max-container-width: 930px;
-  //}
-  //
-  //@include max-w(mobile) {
-  //  --max-container-width: 355px;
-  //}
 
   // breakpoints
   --mobile-breakpoint: #{map-get($breakpoints, mobile)};
