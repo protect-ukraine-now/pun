@@ -32,18 +32,20 @@ const Dashboard = (props) => {
 	const right = data.slice(-data.length / 2);
 
 	const headLayout = useMemo(() => {
-		return <Fragment>
-			<div className={style.head}/>
-			<div className={style.head}>
-				<Text id="report.usa">USA</Text>
+		return (
+			<div className={cn(style.row, style.headRow)}>
+				<div className={style.head}/>
+				<div className={style.head}>
+					<Text id="report.usa">USA</Text>
+				</div>
+				<div className={style.head}>
+					<Text id="report.rest">Others</Text>
+				</div>
+				<div className={cn(style.head, style.russia)}>
+					<Text id="report.russia">Russia had</Text>
+				</div>
 			</div>
-			<div className={style.head}>
-				<Text id="report.rest">Others</Text>
-			</div>
-			<div className={cn(style.head, style.russia)}>
-				<Text id="report.russia">Russia had</Text>
-			</div>
-		</Fragment>;
+		);
 	}, []);
 
 	const rowsRenderer = useCallback(({ category, values: [usa, rest, russia] }) => (

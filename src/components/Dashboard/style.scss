@@ -101,12 +101,20 @@
   @include max-w(mobile) {
     grid-template-columns: 1fr 2fr 3fr 3fr;
   }
+
+  &:not(:first-child) {
+    .headRow {
+      @include max-w(tablet-min) {
+        display: none;
+      }
+    }
+  }
 }
 
 .row {
   display: contents;
 
-  &:hover {
+  &:not(.headRow):hover {
 
     .cell {
       background: $color-sky-blue;
@@ -156,11 +164,11 @@
 .head {
   @include make-responsive('font-size',
           (
-                  mobile: 18px,
-                  tablet: 24px,
-                  desktop: 32px,
+                  mobile: 16px,
+                  tablet: 17px,
+                  desktop: 18px,
           ),
-          40px
+          18px
   );
   @include make-responsive('margin-bottom',
           (
