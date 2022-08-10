@@ -457,13 +457,13 @@
 		"2022-06-01",
 		"Alexander Entin",
 		"",
-		"Approved",
+		"Skip",
 		"Poland",
 		"Self-Propelled Artillery",
 		"AHS Krab 155mm",
 		"60",
 		"",
-		"saveualist",
+		"saveualist, decided to show aid only (no purchases)",
 		"https://gospodarka.dziennik.pl/news/artykuly/8432488,polska-kraby-ukraina.html?s=09",
 		"Polska sprzedaje Kraby Ukrainie"
 	],
@@ -616,6 +616,19 @@
 		"saveualist, not confirmed by Kiel",
 		"https://www.himalayaustralia.com.au/2022/06/23/germany-reveals-full-list-of-military-aid-to-ukraine/",
 		"GERMANY REVEALS FULL LIST OF MILITARY AID TO UKRAINE"
+	],
+	[
+		"2022-06-23",
+		"Alexander Entin",
+		"",
+		"Skip",
+		"Germany",
+		"Air Defense System",
+		"IRIS-T",
+		"10",
+		"",
+		"purchase",
+		"https://www.pravda.com.ua/eng/news/2022/06/23/7354251/"
 	],
 	[
 		"2022-06-24",
@@ -820,6 +833,19 @@
 		"",
 		"saveualist",
 		"It seems that Ukraine received Su-25 aircraft. In a very unusual way • Mezha.Media"
+	],
+	[
+		"2022-06-24",
+		"Alexander Entin",
+		"",
+		"Draft",
+		"Germany",
+		"Air Defense System",
+		"IRIS-T",
+		"1",
+		"",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
 	],
 	[
 		"2022-06-28",
@@ -1098,19 +1124,6 @@
 		"Видео со страницы ВМС ЗСУ В Youtube"
 	],
 	[
-		"2022-06-24",
-		"Alexander Entin",
-		"",
-		"Draft",
-		"Germany",
-		"Air Defense System",
-		"IRIS-T",
-		"1",
-		"",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
-	],
-	[
 		"2022-07-12",
 		"Grega",
 		"",
@@ -1290,6 +1303,19 @@
 		"Norway has donated 14 armored patrol vehicles to Ukraine"
 	],
 	[
+		"2022-08-02",
+		"Grega",
+		"",
+		"Approved",
+		"Germany",
+		"Other Armored Vehicle",
+		"protected vehicles",
+		"10",
+		"",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
+	],
+	[
 		"2022-08-04",
 		"Grega",
 		"",
@@ -1303,19 +1329,6 @@
 		"https://mil.in.ua/en/news/ukraine-received-four-su-25-jet-aircraft-from-north-macedonia/",
 		"Ukraine received four Su-25 jet aircraft from North Macedonia",
 		"https://eurasiantimes.com/macedonia-hands-over-four-su-25-fighter-jets-to-ukraine/"
-	],
-	[
-		"2022-08-02",
-		"Grega",
-		"",
-		"Approved",
-		"Germany",
-		"Other Armored Vehicle",
-		"protected vehicles",
-		"10",
-		"",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
 	],
 	[
 		"2022-08-10",

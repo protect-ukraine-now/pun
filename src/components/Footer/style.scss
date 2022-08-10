@@ -59,7 +59,9 @@
 }
 
 .link {
-  color: $grey-text;
+  &[href] {
+    color: $grey-text;
+  }
 
   &.active {
     color: $grey-text;
@@ -75,9 +77,11 @@
 .email {
   @include url-hover;
 
-  align-self: center;
-  color: $grey-text;
-  font-weight: 700;
+  &[href] {
+    align-self: center;
+    color: $grey-text;
+    font-weight: 700;
+  }
 
   @include max-w(tablet) {
     margin-top: 50px;
