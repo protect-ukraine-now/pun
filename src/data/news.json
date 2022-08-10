@@ -1280,10 +1280,10 @@
 	[
 		"137",
 		"2022-08-07",
-		"Russian military posted images of remains from AGM-88 High-Speed Anti-Radiation Missile. There is no official information pointing to the AGM-88 having been supplied to Ukraine.",
-		"Російські військові опублікували зображення залишків швидкодіючої протирадіаційної ракети AGM-88. Офіційної інформації про постачання AGM-88 в Україну немає.",
+		"Under Secretary of Defense Colin Kahl: \"In recent packages for Ukraine we've included a number of anti-radiation missiles that can be fired off Ukrainian aircraft. \"",
+		"Заступник міністра оборони Колін Кал: «В останні пакети для України ми включили низку протирадіаційних ракет, які можуть бути випущені з українських літаків».",
 		"The Drive",
-		"https://www.thedrive.com/the-war-zone/does-ukraine-now-have-agm-88-high-speed-anti-radiation-missiles",
+		"https://www.thedrive.com/the-war-zone/u-s-confirms-air-launched-anti-radiation-missiles-sent-to-ukraine",
 		"Approved"
 	],
 	[
@@ -1321,5 +1321,77 @@
 		"Grega",
 		"https://www.eurointegration.com.ua/eng/news/2022/08/2/7144289/",
 		"Translated"
+	],
+	[
+		"142",
+		"2022-08-08",
+		"The U.S. Will Send Another $1 Billion in Aid to Ukraine. \n\nThe United States will send more ammunition to Ukraine, including rockets for the HIMARS launchers, the Pentagon said Monday.\n\nThe new shipment of up to $1 billion worth of weapons and supplies will come from the Pentagon’s own stockpiles, Colin Kahl, the undersecretary of defense for policy, told reporters during a briefing at the Pentagon.\n\nMost of the ammunition, including 75,000 shells for 155-millimeter howitzers and additional air-defense missiles, are resupplying weapons that have already been shipped to Kyiv.\nOne weapon not known to have been sent previously is the 120-millimeter mortar. The weapons will come with 20,000 rounds and be included in this new series of shipments.\n",
+		"США надішлють Україні ще 1 мільярд доларів допомоги.\n\nПентагон заявив у понеділок, що Сполучені Штати надішлють Україні більше боєприпасів, включаючи ракети для пускових установок HIMARS.\n\nКолін Кал, заступник міністра оборони з питань політики, заявив журналістам під час брифінгу в Пентагоні, що нова партія зброї та припасів на суму до 1 мільярда доларів надійде з власних запасів Пентагону.\n\nБільшість боєприпасів, у тому числі 75 тисяч снарядів для 155-міліметрових гаубиць і додаткових ракет ППО, є поповненням озброєння, яке вже відправлено до Києва.\nОдна зброя, про яку не відомо, була надіслана раніше, це 120-міліметровий міномет. Зброя буде поставлятися з 20 000 патронів і буде включена в цю нову серію поставок.",
+		"Dmitri",
+		"https://www.nytimes.com/2022/08/08/world/europe/us-ukraine-aid-russia.html",
+		"Logged"
+	],
+	[
+		"143",
+		"2022-08-09",
+		"Finland to help train Ukrainian volunteers in UK\r\n\r\nThe Finnish Defence Forces (FDF) will send about 20 service members to Britain to assist in training volunteer members of the Ukrainian Armed Forces.\r\n\r\nSenior Defence Ministry official Juha Martelius told Yle on Tuesday that so far Sweden, Canada and the Netherlands have announced that they will participate in the training.\r\n\r\nThe intensive training course will be carried out in Britain this autumn.\r",
+		"Фінляндія допоможе у підготовці українських волонтерів у Великобританії\n\nСили оборони Фінляндії (FDF) відправить близько 20 військовослужбовців до Британії для допомоги у підготовці добровольців Збройних сил України.\n\nВисокопоставлений чиновник міністерства оборони Юха Мартеліус повідомив Yle у вівторок, що поки що Швеція, Канада та Нідерланди оголосили про участь у навчаннях.\n\nІнтенсивний навчальний курс буде проведено в Британії цієї осені.",
+		"Dmitri",
+		"https://yle.fi/news/3-12569098",
+		"Logged"
+	],
+	[
+		"144",
+		"2022-08-09",
+		"The Biden administration will provide $89 million to help Kyiv clear land mines that now litter huge swaths of Ukraine after Russia’s February invasion, according to a senior State Department official.",
+		"За словами високопоставленого чиновника Державного департаменту, адміністрація Байдена виділить 89 мільйонів доларів, щоб допомогти Києву розмінувати величезні території України після лютневого вторгнення Росії.",
+		"Jane",
+		"https://news.yahoo.com/u-announces-89-million-help-185916017.html",
+		"Logged"
+	],
+	[
+		"145",
+		"2022-08-09",
+		"As the war in Ukraine continues with no end in sight, concerns are mounting in Washington—in both Democratic and Republican circles—that the Biden administration is holding back from supplying Ukraine with certain weapons that could give the invaded country a clear edge against Russia.",
+		"Оскільки війна в Україні триває й кінця їй не видно, у Вашингтоні — як у демократичних, так і в республіканських колах — зростає занепокоєння тим, що адміністрація Байдена утримується від постачання Україні певної зброї, яка може дати країні, яка вторглася, явну перевагу проти Росії.",
+		"Jane",
+		"https://www.msn.com/en-us/news/world/lawmakers-want-better-weapons-for-ukraine-biden-isn-t-so-sure/ar-AA10sLsN",
+		"Logged"
+	],
+	[
+		"146",
+		"2022-08-09",
+		"On Monday, the Biden administration declared in separate announcements that it would provide $5.5 billion more in combined foreign aid and military weaponry to the wartorn nation of Ukraine as it continues to fight Russia’s invasion. The United States Agency for International Development (USAID) announced on Monday that it would send another $4.5 billion worth of taxpayers’ money to the Eastern European country in order to help the Ukrainian government function and provide social services for its people. Shortly after that announcement, the Pentagon stated that it would also provide an additional $1 billion worth of “security assistance” to Ukraine.",
+		"У понеділок адміністрація Байдена оголосила в окремих оголошеннях, що надасть ще 5,5 мільярдів доларів у вигляді комбінованої іноземної допомоги та військового озброєння постраждалій війною нації України, яка продовжує боротися з вторгненням Росії.. Агентство США з міжнародного розвитку (USAID) оголосило в понеділок, що спрямує до цієї східноєвропейської країни ще 4,5 мільярда доларів грошей платників податків, щоб допомогти українському уряду функціонувати та надавати соціальні послуги її громадянам. Невдовзі після цієї заяви Пентагон заявив, що також надасть Україні додаткову «допомогу в сфері безпеки» на 1 мільярд доларів.",
+		"Jane",
+		"https://www.dailywire.com/news/biden-admin-sending-5-5-billion-more-in-aid-to-ukraine",
+		"Logged"
+	],
+	[
+		"147",
+		"2022-08-09",
+		"BIGGEST ARMS PACKAGE YET: The 18th package of arms for Ukraine — the largest single shipment to date — brings the total dollar value of U.S. military assistance to Ukraine to close to $10 billion. The latest $1 billion package includes an undisclosed number of “GMLRS,” precision-guided missiles with a 40-mile range that are fired from HIMARS mobile launchers, along with 75,000 rounds of 155 mm artillery ammunition; 20 120 mm mortar systems with 20,000 rounds of ammunition; 1,000 more Javelin anti-armor missiles; and significantly, anti-radar missiles that can be fired from Ukrainian fighter jets and are capable on homing in on Russian anti-aircraft radars, blinding air defense systems. The Pentagon is promising a “steady stream” of the GPS-guided GMLRS missiles but no more HIMARS launchers. Ukraine has 16 U.S. systems and three compatible mobile launchers from the U.K. Germany has promised three more but has yet to deliver.",
+		"НАЙБІЛЬШИЙ ПАКЕТ ЗБРОЇ ЩЕ: 18-й пакет зброї для України — найбільша окрема поставка на сьогоднішній день — доводить загальну вартість військової допомоги США Україні до 10 мільярдів доларів. Останній пакет на суму 1 мільярд доларів включає нерозголошену кількість «GMLRS», високоточних ракет з радіусом дії 40 миль, які запускаються з мобільних пускових установок HIMARS, а також 75 000 снарядів 155-мм артилерії; 20 120-мм мінометів з 20 тис. боєприпасів; ще 1000 протитанкових ракет Javelin; і що важливо, протирадіолокаційні ракети, які можуть бути випущені з українських винищувачів і здатні наводитися на російські зенітні радари, засліплюючи системи протиповітряної оборони. Пентагон обіцяє «постійний потік» ракет GMLRS з GPS-наведенням, але не більше пускових установок HIMARS. Україна має 16 американських систем і три сумісні мобільні пускові установки з Великої Британії. Німеччина пообіцяла ще три, але ще не поставила.",
+		"Jane",
+		"https://www.washingtonexaminer.com/policy/defense-national-security/us-promises-steady-stream-of-himars-ammo-as-ukraine-prepares-for-southern-offensive",
+		"Logged"
+	],
+	[
+		"148",
+		"2022-08-09",
+		"Moscow’s suspension of U.S. inspections of its nuclear weapons facilities, part of a mutual inspection agreement under the 2010 New Start Treaty, represents a blow to arms control efforts, analysts say.",
+		"Аналітики кажуть, що призупинення Москвою американських інспекцій своїх об’єктів ядерної зброї, що є частиною угоди про взаємні інспекції згідно з Договором про новий пуск 2010 року, завдає удару по зусиллям з контролю над озброєннями.",
+		"Jane",
+		"https://www.cnbc.com/2022/08/09/russia-ukraine-live-updates.html",
+		"Logged"
+	],
+	[
+		"149",
+		"2022-08-10",
+		"The Armed Forces of Ukraine have received 50 new Kirpi armored vehicles from Turkey. Another batch of 150 units is expected to be delivered soon.",
+		"Збройні сили України отримали від Туреччини 50 нових броньованих автомобілів Kirpi. Незабаром очікується поставка ще однієї партії зі 150 одиниць.",
+		"Grega",
+		"https://www.ukrinform.net/rubric-ato/3546708-armed-forces-receive-first-batch-of-50-kirpi-armored-vehicles-from-turkey.html",
+		"Logged"
 	]
 ]

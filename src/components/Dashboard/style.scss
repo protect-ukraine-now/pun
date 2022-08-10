@@ -19,15 +19,15 @@
           40px
   );
 
-  display: flex;
-  flex-flow: column;
-  align-items: center;
+  // display: flex;
+  // flex-flow: column;
+  // align-items: center;
   font-weight: 700;
-  text-align: center;
+  // text-align: center;
 }
 
 .subHeading {
-  @include container-padding;
+  // @include container-padding;
   @include make-responsive('font-size',
           (
                   tablet: 18px,
@@ -38,7 +38,25 @@
 
   margin-top: 10px;
   font-weight: 700;
-  text-align: center;
+  // text-align: center;
+}
+
+.subtitle {
+  display: inline-block;
+}
+
+.nav {
+  float: right;
+}
+
+.navLink {
+  @include url-hover;
+  @include make-responsive('--max-container-width',
+    (mobile: 16px,
+      tablet: 18px,
+      desktop: 20px,
+    ),
+    20px);
 }
 
 .table {

@@ -9,8 +9,9 @@
 			"letter": "Letter to Congress"
 		},
 		"report": {
-			"title": "Heavy weapons committed to Ukraine as of {{till}}",
-			"subtitle": "(and changes in the previous two weeks)",
+			"title": "Weapons committed to Ukraine",
+			"subtitle": "as of {{till}}",
+			"timespan": "2 weeks",
 			"prev": "Previous Report",
 			"next": "Next Report",
 			"usa": "USA",
@@ -43,8 +44,9 @@
 			"letter": "Лист до Конгресу"
 		},
 		"report": {
-			"title": "Важке озброєння, що передано або обіцяно Україні, станом на {{till}}",
-			"subtitle": "(та зміни за два попередні тижні)",
+			"title": "Зброя, що передана або обіцяна Україні",
+			"subtitle": "станом на {{till}}",
+			"timespan": "2 тижні",
 			"prev": "Попередній звіт",
 			"next": "Наступний звіт",
 			"usa": "США ",

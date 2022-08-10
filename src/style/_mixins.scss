@@ -123,11 +123,22 @@
 
 @mixin url-hover($color: $color-accent, $height: 1px) {
   position: relative;
-  color: $dark-text;
-  cursor: pointer;
   text-decoration: none;
   transition: color 0.25s ease;
+  cursor: not-allowed;
+  color: $grey-text;
 
+  &[href] {
+    color: $dark-text;
+    cursor: pointer;
+    &:hover {
+      //color: $dark-text;
+
+      &:after {
+        transform: scaleX(1);
+      }
+    }
+  }
   &:after {
     transition: transform 0.25s ease;
     content: '';
@@ -138,13 +149,5 @@
     height: $height;
     left: 0;
     transform: scaleX(0);
-  }
-
-  &:hover {
-    //color: $dark-text;
-
-    &:after {
-      transform: scaleX(1);
-    }
   }
 }

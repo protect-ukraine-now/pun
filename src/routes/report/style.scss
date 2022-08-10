@@ -40,26 +40,6 @@
   display: flex;
 }
 
-.navLink {
-  @include url-hover;
-  @include make-responsive('--max-container-width',
-          (
-                  mobile: 16px,
-                  tablet: 18px,
-                  desktop: 20px,
-          ),
-          20px
-  );
-
-  &.prev {
-    margin-right: auto;
-  }
-
-  &.next {
-    margin-left: auto;
-  }
-}
-
 .digest {
   margin-bottom: 64px;
   max-width: 900px;

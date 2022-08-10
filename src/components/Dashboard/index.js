@@ -1,5 +1,8 @@
+import { Link } from 'preact-router';
 import { Text } from 'preact-i18n'
 import cn from 'classnames'
+import { IoMdSkipBackward, IoMdSkipForward } from 'react-icons/io'
+
 import style from './style.scss';
 import IconCell from './IconCell';
 import DataCell from './DataCell';
@@ -19,21 +22,38 @@ const Dashboard = (props) => {
 
 	const formatter = formatDate(language);
 
-	let { from, till, data } = props
+	let { from, till, prev, next, data } = props
 	from = formatter(from);
 	till = formatter(till);
 
 	return (
 		<Container>
 			<h1 className={style.heading}>
-				<Text id="report.title" fields={{ till }}>
-					Heavy weapons committed to Ukraine as of {till}
+				<Text id="report.title" fields={{ from, till }}>
+					Weapons committed to Ukraine
 				</Text>
-			<span className={style.subHeading}>
-				<Text id="report.subtitle" fields={{ from }}>
-					(and changes in the previous two weeks)
-				</Text>
-			</span>
+				<div className={style.subHeading}>
+					<div className={style.subtitle}>
+						<Text id="report.subtitle" fields={{ from, till }}>
+							as of {till}
+						</Text>
+					</div>
+					<div className={style.nav}>
+						<Link
+							className={style.navLink}
+							{...prev && { href: `/${language}/report/${prev}` }}
+						>
+							{'← '}
+						</Link>
+						<Text id="report.timespan">2 weeks</Text>
+						<Link
+							className={style.navLink}
+							{...next && { href: `/${language}/report/${next}` }}
+						>
+							{' →'}
+						</Link>
+					</div>
+				</div>
 			</h1>
 			<div className={style.table}>
 				<div className={style.head} />
