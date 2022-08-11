@@ -1,14 +1,18 @@
 @import './src/style/mixins';
 
 .header {
+  @include make-responsive('min-height', (
+          mobile: 80px,
+          desktop-min: 90px,
+          desktop: 100px
+  ),
+          100px
+  );
+
   width: 100%;
-  min-height: 100px;
   display: flex;
   align-items: center;
-
-  @include max-w(mobile) {
-    min-height: 90px;
-  }
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.16);
 }
 
 .container {

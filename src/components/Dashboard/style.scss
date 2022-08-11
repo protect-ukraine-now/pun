@@ -12,18 +12,15 @@
   );
   @include make-responsive('margin-bottom',
           (
-                  mobile: 42px,
-                  tablet: 68px,
-                  desktop: 59px,
+                  mobile: 30px,
+                  tablet: 25px,
+                  desktop: 40px,
           ),
           40px
   );
 
-  // display: flex;
-  // flex-flow: column;
-  // align-items: center;
   font-weight: 700;
-  // text-align: center;
+  text-transform: uppercase;
 }
 
 .subHeading {
@@ -43,6 +40,7 @@
 
 .subtitle {
   display: inline-block;
+  color: $grey-text;
 }
 
 .nav {
@@ -52,11 +50,19 @@
 .navLink {
   @include url-hover;
   @include make-responsive('--max-container-width',
-    (mobile: 16px,
-      tablet: 18px,
-      desktop: 20px,
-    ),
-    20px);
+          (mobile: 16px,
+                  tablet: 18px,
+                  desktop: 20px,
+          ),
+          20px);
+}
+
+.splitter {
+  display: flex;
+
+  @include max-w(tablet-min) {
+    flex-flow: column;
+  }
 }
 
 .table {
@@ -82,12 +88,20 @@
   @include max-w(mobile) {
     grid-template-columns: 1fr 2fr 3fr 3fr;
   }
+
+  &:not(:first-child) {
+    .headRow {
+      @include max-w(tablet-min) {
+        display: none;
+      }
+    }
+  }
 }
 
 .row {
   display: contents;
 
-  &:hover {
+  &:not(.headRow):hover {
 
     .cell {
       background: $color-sky-blue;
@@ -97,34 +111,62 @@
 
 .head,
 .cell {
-  @include make-responsive('padding',
+  @include make-responsive('padding-top',
           (
-                  mobile-min: 0px,
-                  tablet: 20px,
+                  mobile-min: 5px,
+                  tablet: 10px,
                   desktop: 15px,
           ),
-          15px
+          10px
   );
 
-  &:first-child {
-    @include min-w(get-breakpoint-value(mobile) + 1) {
-      @include container-padding;
-    }
+  @include make-responsive('padding-bottom',
+          (
+                  mobile-min: 5px,
+                  tablet: 10px,
+                  desktop: 15px,
+          ),
+          10px
+  );
 
-    @include max-w(mobile) {
-      padding: 24px 0;
-    }
+  @include make-responsive('padding-right',
+          (
+                  mobile-min: 2px,
+                  tablet: 5px,
+                  desktop: 10px,
+          ),
+          10px
+  );
+
+  @include make-responsive('padding-left',
+          (
+                  mobile-min: 2px,
+                  tablet: 5px,
+                  desktop: 10px,
+          ),
+          10px
+  );
+
+  &:last-child {
+    @include make-responsive('padding-left',
+            (
+                    mobile-min: 30px,
+                    tablet: 40px,
+                    desktop: 50px,
+            ),
+            30px
+    );
   }
 }
 
 .head {
   @include make-responsive('font-size',
           (
-                  mobile: 18px,
-                  tablet: 24px,
-                  desktop: 32px,
+                  mobile: 16px,
+                  tablet: 17px,
+                  desktop: 18px,
           ),
-          40px
+          18px
   );
   @include make-responsive('margin-bottom',
           (
@@ -169,16 +211,16 @@
 .icon {
   @include make-responsive('width',
           (
-                  tablet: 64px,
-                  desktop: 80px,
+                  desktop-min: 50px,
+                  desktop: 65px,
           ),
           64px
   );
 
   @include make-responsive('height',
           (
-                  tablet: 48px,
-                  desktop: 60px,
+                  desktop-min: 37px,
+                  desktop: 50px,
           ),
           48px
   );
@@ -197,11 +239,11 @@
 .count {
   @include make-responsive('font-size',
           (
-                  mobile: 22px,
-                  tablet: 28px,
-                  desktop: 36px,
+                  mobile: 18px,
+                  tablet: 22px,
+                  desktop: 28px,
           ),
-          32px
+          28px
   );
 
   position: relative;
@@ -213,16 +255,15 @@
 
 .deltaValue {
   position: absolute;
-  transform: translate(5px, -50%);
+  transform: translate(0, -50%);
   top: 0;
   left: 100%;
   z-index: 1;
   @include reset-button-style;
   @include make-responsive('font-size',
           (
-                  mobile: 18px,
-                  tablet: 24px,
-                  desktop: 32px,
+                  mobile: 16px,
+                  tablet: 18px,
           ),
           40px
   );
