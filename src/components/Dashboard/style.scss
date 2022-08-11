@@ -220,7 +220,8 @@
 .icon {
   @include make-responsive('width',
           (
-                  tablet: 64px,
+                  tablet: 50px,
+                  desktop-min: 50px,
                   desktop: 80px,
           ),
           64px
@@ -228,7 +229,8 @@
 
   @include make-responsive('height',
           (
-                  tablet: 48px,
+                  tablet: 37px,
+                  desktop-min: 37px,
                   desktop: 60px,
           ),
           48px
