@@ -12,19 +12,15 @@
   );
   @include make-responsive('margin-bottom',
           (
-                  mobile: 42px,
-                  tablet: 68px,
-                  desktop: 59px,
+                  mobile: 30px,
+                  tablet: 25px,
+                  desktop: 40px,
           ),
           40px
   );
 
-  // display: flex;
-  // flex-flow: column;
-  // align-items: center;
   font-weight: 700;
   text-transform: uppercase;
-  // text-align: center;
 }
 
 .subHeading {
@@ -65,8 +61,8 @@
   @include make-responsive('gap',
           (
                   mobile: 0px,
-                  tablet: 80px,
-                  desktop: 180px,
+                  tablet: 60px,
+                  desktop: 100px,
           ),
           15px
   );
@@ -127,8 +123,17 @@
   @include make-responsive('padding-top',
           (
                   mobile-min: 5px,
-                  tablet: 20px,
-                  desktop: 25px,
+                  tablet: 10px,
+                  desktop: 15px,
+          ),
+          10px
+  );
+
+  @include make-responsive('padding-bottom',
+          (
+                  mobile-min: 5px,
+                  tablet: 10px,
+                  desktop: 15px,
           ),
           10px
   );
@@ -138,15 +143,6 @@
                   mobile-min: 2px,
                   tablet: 5px,
                   desktop: 10px,
-          ),
-          10px
-  );
-
-  @include make-responsive('padding-bottom',
-          (
-                  mobile-min: 5px,
-                  tablet: 20px,
-                  desktop: 25px,
           ),
           10px
   );
@@ -242,10 +238,10 @@
   @include make-responsive('font-size',
           (
                   mobile: 18px,
-                  tablet: 26px,
-                  desktop: 32px,
+                  tablet: 22px,
+                  desktop: 28px,
           ),
-          32px
+          28px
   );
 
   position: relative;

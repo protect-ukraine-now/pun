@@ -4,8 +4,8 @@
 .container {
   @include make-responsive('padding-top',
           (
-                  mobile: 32px,
-                  tablet: 48px,
+                  mobile: 22px,
+                  tablet: 28px,
           ),
           40px
   );
