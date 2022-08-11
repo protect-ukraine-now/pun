@@ -58,15 +58,6 @@
 }
 
 .splitter {
-  @include make-responsive('gap',
-          (
-                  mobile: 0px,
-                  tablet: 60px,
-                  desktop: 100px,
-          ),
-          15px
-  );
-
   display: flex;
 
   @include max-w(tablet-min) {
@@ -220,18 +211,16 @@
 .icon {
   @include make-responsive('width',
           (
-                  tablet: 50px,
                   desktop-min: 50px,
-                  desktop: 80px,
+                  desktop: 65px,
           ),
           64px
   );
 
   @include make-responsive('height',
           (
-                  tablet: 37px,
                   desktop-min: 37px,
-                  desktop: 60px,
+                  desktop: 50px,
           ),
           48px
   );
