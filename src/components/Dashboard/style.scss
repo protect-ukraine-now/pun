@@ -155,6 +155,17 @@
           ),
           10px
   );
+
+  &:last-child {
+    @include make-responsive('padding-left',
+            (
+                    mobile-min: 30px,
+                    tablet: 40px,
+                    desktop: 50px,
+            ),
+            30px
+    );
+  }
 }
 
 .head {
@@ -253,7 +264,7 @@
 
 .deltaValue {
   position: absolute;
-  transform: translate(5px, -50%);
+  transform: translate(0, -50%);
   top: 0;
   left: 100%;
   z-index: 1;
