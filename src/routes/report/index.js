@@ -8,9 +8,10 @@ import Article from '../../components/Article';
 import News from '../../components/News'
 
 export default function Report(props) {
+	console.log('Report props', props)
 	const [data, isLoading] = usePrerenderData(props);
 	if (isLoading) return <div style={{ height: '200%' }} />
-	// console.log('Report', props, data)
+	console.log('Report data', data)
 	const { blog } = data.data;
 	return (
 		<>
@@ -20,7 +21,7 @@ export default function Report(props) {
 			<Container className={style.digest}>
 				<Article>
 					<News {...data.data} />
-					<Markdown>{blog}</Markdown>
+					{blog && <Markdown>{blog}</Markdown>}
 				</Article>
 			</Container>
 		</>

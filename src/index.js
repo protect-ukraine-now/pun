@@ -17,6 +17,7 @@ import Report from './routes/report'
 import NotFoundPage from './routes/notfound'
 
 export default function App(props) {
+	console.log('App', props)
 	return (
 		<div id="preact_root" style={{ height: '100%' }}>
 			<DataProvider value={props}>
