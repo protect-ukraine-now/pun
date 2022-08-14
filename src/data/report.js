@@ -5,6 +5,7 @@ function listReports() {
     return [
         { from: '2022-07-04', till: '2022-07-17' },
         { from: '2022-07-18', till: '2022-07-31' },
+        { from: '2022-08-01', till: '2022-08-14' },
     ]
 }
 
