@@ -24,25 +24,20 @@ export default function Letter(props) {
 		<Container className={style.container}>
 			<section className={cn(style.section, style.banner)}>
 				<h1 className={style.title}>
-					TOGETHER WE CAN SAVE
+					US must arm Ukraine now
 					<br /><span className={style.mobile}>&nbsp;</span>
-					UKRAINIAN LIVES!
+					before it’s too late
 				</h1>
 			</section>
 			<section className={cn(style.section, style.explanation)}>
 				<p>
-					Russia fires at will missiles and bombs into densely populated Ukrainian cities killing hundreds and
-					terrorizing
-					millions. Russia can do so with impunity as the Ukrainians don't have air defense systems capable of
-					intercepting such threats.
+					"Although the Biden administration has successfully rallied U.S. allies and provided substantial military assistance to Ukraine’s valiant armed forces, it has failed to produce a satisfactory strategic narrative. By providing aid sufficient to produce a stalemate, but not enough to roll back Russian territorial gains, the Biden administration may be unintentionally seizing defeat from the jaws of victory.
 				</p>
 				<p>
-					Despite what we have been led to believe, the US military aid is insufficient and needs to be substantially
-					increased. From the 20 billion of military assistance allocated by the Congress to be shipped by the end of
-					September less than 20% had been used. Hence, six US senators from both sides of the aisle had sent a request
-					to the Secretary of Defense and Chairman of the Joint Chiefs of Staff urging them to provide air defense
-					systems. Please read <a href="https://www.sullivan.senate.gov/imo/media/doc/20220715_Letter.pdf">their
-						letter</a>.
+					With the necessary weapons and economic aid, Ukraine can defeat Russia. If it succeeds, our soldiers are less likely to have to risk their lives protecting U.S. treaty allies whom Russia also threatens."
+				</p>
+				<p>
+					This is a public opinion of US 20 top national security experts (<a href="https://thehill.com/opinion/national-security/3605064-us-must-arm-ukraine-now-before-its-too-late/">source</a>).
 				</p>
 				{/* <h1 className={style.title}>REQUEST YOUR REPRESENTATIVES IN U.S. CONGRESS TO GIVE MORE WEAPONS TO UKRAINE</h1> */}
 
