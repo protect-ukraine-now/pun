@@ -15,11 +15,12 @@
 			"usa": "USA",
 			"rest": "Other Countries",
 			"russia": "Russia had",
-			"total": "Total"
+			"total": "Total",
+			"description": "Includes both purchases and donations, both already delivered and only promised"
 		},
 		"aid_chart": {
 			"title": "US Military Aid ($$ millis)",
-			"weekly": "Weekly",
+			"week": "Weekly",
 			"cumulative": "Cumulative"
 		},
 		"weapon_category": {
@@ -55,11 +56,12 @@
 			"usa": "США ",
 			"rest": "Інші країни",
 			"russia": "Росія мала",
-			"total": "Всього "
+			"total": "Всього ",
+			"description": "Включає як покупки, так і безкоштовну допомогу, як вже доставлені, так і лише обіцяні"
 		},
 		"aid_chart": {
 			"title": "Військова допомога США (мільйони $$)",
-			"weekly": "В тиждень",
+			"week": "В тиждень",
 			"cumulative": "Сукупна"
 		},
 		"weapon_category": {

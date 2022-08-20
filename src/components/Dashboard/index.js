@@ -1,7 +1,7 @@
+import { useCallback, useMemo } from 'preact/hooks';
 import { Link } from 'preact-router';
 import { Text } from 'preact-i18n';
 import cn from 'classnames';
-import { IoMdSkipBackward, IoMdSkipForward } from 'react-icons/io';
 
 import style from './style.scss';
 import IconCell from './IconCell';
@@ -9,14 +9,6 @@ import DataCell from './DataCell';
 import Container from '../Container';
 import { useLanguage } from '../../tools/language';
 import { formatDate } from '../../tools/date';
-import { Fragment } from 'preact';
-import { useCallback, useMemo } from 'preact/hooks';
-
-const approximateNumber = n => (
-	parseFloat(n)
-		? '>' + (Math.floor(parseFloat(n) / 1e3) * 1e3).toLocaleString()
-		: n
-);
 
 const Dashboard = (props) => {
 	// console.log('Dashboard', props)
@@ -41,9 +33,6 @@ const Dashboard = (props) => {
 				<div className={style.head}>
 					<Text id="report.rest">Others</Text>
 				</div>
-				<div className={cn(style.head, style.russia)}>
-					<Text id="report.russia">Russia had</Text>
-				</div>
 			</div>
 		);
 	}, []);
@@ -53,8 +42,6 @@ const Dashboard = (props) => {
 			<IconCell category={category}/>
 			<DataCell className={style.valueCell} {...usa} key={`${category}-USA`}/>
 			<DataCell className={style.valueCell} {...rest} key={`${category}-rest`}/>
-			<DataCell className={cn(style.valueCell, style.russia)} {...{ value: approximateNumber(russia.value) }}
-								key={`${category}-russia`}/>
 		</div>
 	), []);
 

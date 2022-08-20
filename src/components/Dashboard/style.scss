@@ -83,10 +83,10 @@
   );
 
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 
   @include max-w(mobile) {
-    grid-template-columns: 1fr 2fr 3fr 3fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
   &:not(:first-child) {
