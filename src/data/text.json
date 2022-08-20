@@ -1,10 +1,8 @@
 {
 	"en": {
-		"site": {
-			"title": "Protect Ukraine NOW"
-		},
 		"seo": {},
 		"menu": {
+			"news": "News",
 			"report": "Military Aid",
 			"letter": "Letter to Congress"
 		},
@@ -37,9 +35,9 @@
 		}
 	},
 	"ua": {
-		"site": {},
 		"seo": {},
 		"menu": {
+			"news": "Новини",
 			"report": "Військова допомога",
 			"letter": "Лист до Конгресу"
 		},

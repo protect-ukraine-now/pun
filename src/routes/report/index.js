@@ -1,28 +1,25 @@
 import { usePrerenderData } from '@preact/prerender-data-provider';
-import Markdown from 'markdown-to-jsx';
 
 import style from './style.scss';
+import prepareReport from '../../data/report'
 import Container from '../../components/Container';
 import Dashboard from '../../components/Dashboard';
-import Article from '../../components/Article';
-import News from '../../components/News'
+import AidChart from '../../components/AidChart'
 
 export default function Report(props) {
-	console.log('Report props', props)
+	// console.log('Report props', props)
 	const [data, isLoading] = usePrerenderData(props);
 	if (isLoading) return <div style={{ height: '200%' }} />
 	console.log('Report data', data)
-	const { blog } = data.data;
+	let report = data.data
+	report.data = prepareReport(report)
 	return (
 		<>
 			<Container className={style.container}>
-				<Dashboard {...data.data} />
+				<Dashboard {...report} />
 			</Container>
 			<Container className={style.digest}>
-				<Article>
-					<News {...data.data} />
-					{blog && <Markdown>{blog}</Markdown>}
-				</Article>
+				<AidChart {...props} />
 			</Container>
 		</>
 	);

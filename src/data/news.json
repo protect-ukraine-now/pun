@@ -1,1636 +1,284 @@
 [
 	[
-		"Num",
-		"Date",
-		"Desc (ENG)",
-		"Translation (УКР)",
-		"Author",
-		"Source link",
-		"Status",
-		"Scope of translation",
-		"Translator",
-		"Link to output"
-	],
-	[
-		"102",
-		"2022-06-30",
-		"What weapons are being given to Ukraine by the UK?\r\n\r\nВ статье приводится подробный обзор военной помощи Украине от Великобритании!\r",
-		"",
-		"BBC News",
-		"https://www.bbc.com/news/world-europe-61482305",
-		"Declined"
-	],
-	[
-		"",
 		"2022-07-18",
 		"U.S. Senator Dan Sullivan (R-Alaska), and four other senators sent a letter to Defense Secretary Lloyd Austin and Chairman of the Joint Chiefs of Staff General Mark Milley, asking them to immediately expedite shipments of military equipment to Ukraine as appropriated by Congress under the Additional Ukraine Supplemental Appropriations Act. Passed on May 19, Equipment recommended for immediate delivery includes medium- and long-range air defense systems, 155 mm howitzers, High Mobility Artillery Rocket Systems (HIMARS), armored personnel carriers, larger and more capable unmanned aircraft systems (UAS), and Mi-17 helicopters. The senators also urged the defense leaders to consider recommending the inclusion of fourth-generation fighter aircraft, along with funding for the necessary flight training in future military aid packages",
 		"Сенатор США Ден Салліван (республіканець від Аляски) та чотири інших сенатори надіслали листа Міністру оборони Ллойду Остіну та голові Об’єднаного комітету начальників штабів генералу Марку Міллі з проханням негайно прискорити поставки військового обладнання в Україну, як це передбачено Конгресом, а саме Законом про додаткові асигнування Україні. 19 травня було затверджено перелік обладнання, що рекомендоване для негайної поставки, і включає системи протиповітряної оборони середньої та великої дальності, 155-мм гаубиці, реактивні системи залпового вогню (HIMARS), бронетранспортери, більші та потужніші безпілотні авіаційні системи та гелікоптери Мі-17. Сенатори також закликали лідерів оборони розглянути рекомендацію, щодо включення винищувачів четвертого покоління разом із фінансуванням необхідної льотної підготовки до наступних пакетів військової допомоги",
-		"Alexander Entin",
-		"https://www.sullivan.senate.gov/newsroom/press-releases/sullivan-fellow-senators-ask-defense-department-to-expedite-critical-military-aid-to-ukraine",
-		"Translated"
+		"https://www.sullivan.senate.gov/newsroom/press-releases/sullivan-fellow-senators-ask-defense-department-to-expedite-critical-military-aid-to-ukraine"
 	],
 	[
-		"28",
-		"2022-07-18",
-		"Shoigu “instructed the commander to prioritize the defeat of long-range rocket and artillery weapons of the enemy with high-precision weapons” during a meeting with the military’s Vostok group, the Russian Defense Ministry said in a statement Monday.  - Системы HIMARS досталяют много неприятностей и Мин. Обороны России это подтверждает",
-		"",
-		"Bloomberg",
-		"https://www.bloomberg.com/news/articles/2022-07-18/russia-orders-forces-to-strike-ukraine-s-long-range-weapons",
-		"Declined"
-	],
-	[
-		"82",
-		"2022-07-18",
-		"5 провалов в политике Байдена, к-рые ободрили Путина напасть на Украину",
-		"",
-		"Foxnews",
-		"https://www.foxnews.com/opinion/biden-failures-ukraine-embolden-russia",
-		"Declined"
-	],
-	[
-		"33",
-		"2022-07-19",
-		"Russia is laying the groundwork for the annexation of more Ukrainian territory and is installing illegitimate proxy leaders in areas of the country under its control, the White House said on July 19.",
-		"",
-		"RadioFreeEurope/RadioLiberty",
-		"https://www.rferl.org/a/ukraine-russia-us-kirby-annex-donbas/31950917.html",
-		"Declined"
-	],
-	[
-		"39",
-		"2022-07-19",
-		"Remarks to the Aerospace Industries Association Roundtable(held at Farnboro, UK) by Jessica Lewis, Assistant Secretary Bureau of Political-Military Affairs, US State Department ",
-		"",
-		"US State Department release",
-		"https://www.state.gov/remarks-to-the-aerospace-industries-association-roundtable/",
-		"Declined"
-	],
-	[
-		"30",
 		"2022-07-20",
 		"Western countries could provide the Ukrainian air force with jets and pilot training, the U.S. Air Force’s chief of staff said, but military officials say no firm decisions have been made yet",
 		"Західні країни могли б надати українським ВПС реактивні літаки та навчати пілотів, заявив начальник штабу ВПС США, але військові чиновники кажуть, що твердих рішень ще немає",
-		"Joe Walsh",
-		"https://www.forbes.com/sites/joewalsh/2022/07/20/us-air-force-general-says-west-may-send-jets-to-ukraine-after-all/?sh=763d27e170c2",
-		"Translated"
+		"https://www.forbes.com/sites/joewalsh/2022/07/20/us-air-force-general-says-west-may-send-jets-to-ukraine-after-all/?sh=763d27e170c2"
 	],
 	[
-		"10",
-		"2022-07-21",
-		"В ответ на продолжающуюся агрессивную войну России против Украины Совет принял сегодня новые меры, направленные на ужесточение существующих экономических санкций против России, совершенствование их реализации и повышение их эффективности.",
-		"",
-		"Council of the European Union",
-		"https://www.consilium.europa.eu/en/press/press-releases/2022/07/21/russia-s-aggression-against-ukraine-eu-adopts-maintenance-and-alignment-package/",
-		"Declined"
-	],
-	[
-		"49",
 		"2022-07-21",
 		"Ben Wallace (UK secretary of defence)  reveals latest British military support for Ukraine, including plans to send 50,000 artillery shells and hundreds more anti-tank weapons in the coming weeks.",
 		"Бен Уоллес (міністр оборони Великої Британії) оприлюднив останню британську військову підтримку Україні, включаючи плани відправити 50 000 артилерійських снарядів і сотні протитанкових гармат протягом найближчих тижнів.",
-		"GOV.UK",
-		"https://www.gov.uk/government/news/uk-to-send-scores-of-artillery-guns-and-hundreds-of-drones-to-ukraine",
-		"Translated"
+		"https://www.gov.uk/government/news/uk-to-send-scores-of-artillery-guns-and-hundreds-of-drones-to-ukraine"
 	],
 	[
-		"13",
-		"2022-07-22",
-		"Решение Европейского союза в отношении смягчения части санкций против России означает, что банки теперь могут обрабатывать платежи российских государственных предприятий, занимающимся торговлей продуктами питания и удобрениями.",
-		"",
-		"The Print",
-		"https://theprint.in/world/eu-eases-some-sanctions-on-russian-assets-to-tackle-global-food-crisis-open-ukraine-port-blockade/1050291/",
-		"Declined"
-	],
-	[
-		"26",
-		"2022-07-22",
-		"More than 100 New York Army National Guardsmen from the 27th Infantry Brigade Combat Team deployed July 15 to train Ukrainian soldiers, whose own country is still combating the Russian invasion that began in February.\n\nThe 140 New York Guard soldiers will first complete additional training at Fort Bliss, Texas, before replacing 160 Florida Guard soldiers in Germany. The Florida Guard forces deployed in November 2021 and currently are representing the U.S. within the Joint Multinational Training Group-Ukraine.",
-		"",
-		"Rachel Nostrant",
-		"https://www.militarytimes.com/news/your-army/2022/07/22/new-york-guardsmen-to-take-over-training-ukrainian-soldiers/",
-		"Declined"
-	],
-	[
-		"36",
-		"2022-07-22",
-		"В коммитет по иностранным делам (конгресс) представлен законодательный акт S.Res.713 - A resolution recognizing Russian actions in Ukraine as a genocide",
-		"",
-		"Congress",
-		"https://www.congress.gov/bill/117th-congress/senate-resolution/713?s=1&r=4",
-		"Declined",
-		"",
-		"Olga Dmytrenko (oshaleyko@yahoo.com)",
-		"https://www.dropbox.com/s/eadi8iuxir7bafm/PrU-1.rtf?dl=0"
-	],
-	[
-		"16",
-		"2022-07-23",
-		"Российский танк убил двух граждан США, одного гражданина Канады и одного гражданина Швеции",
-		"",
-		"Politico",
-		"https://www.politico.com/news/2022/07/23/americans-killed-russian-tank-attack-00047567",
-		"Declined"
-	],
-	[
-		"20",
-		"2022-07-23",
-		"В США рассматривают возможность передачи истребителей Украине.  В то время как администрация Байдена проводила предварительные исследования возможности потенциальной поставки самолетов Украине, этот шаг нельзя было бы сделать немедленно, заявил журналистам на брифинге представитель Белого дома Джон Кирби. «Это не то, что могло бы быть сделано в ближайшее время», — сказал Кирби.",
-		"",
-		"Reuters",
-		"https://www.reuters.com/business/aerospace-defense/biden-oks-up-175mln-ukraine-defense-aid-white-house-says-2022-07-22/",
-		"Duplicate"
-	],
-	[
-		"17",
-		"2022-07-24",
-		"Армия США подтвердила, что десятки основных боевых танков M1 Abrams и оборудование начали прибывать в порт Антверпен-Брюгге, Бельгия, на фоне продолжающейся войны России на Украине. Тем самым США подтверждают свою поддержку ЕС как союзнику по альянсу НАТО.",
-		"",
-		"Defence Blog",
-		"https://defence-blog.com/us-abrams-tanks-begin-to-arrive-in-europe-amid-russia-ukraine-war/",
-		"Declined"
-	],
-	[
-		"85",
 		"2022-07-24",
 		"U.S. Ambassador To Ukraine Says Washington Will Support Kyiv 'For As Long As It Takes'",
 		"Посол США в Україні заявив, що Вашингтон підтримуватиме Київ \"стільки, скільки буде потрібно\"",
-		"RadioFreeEurope/RadioLiberty",
-		"https://www.rferl.org/a/ukraine-us-ambassador-brink-support-kyiv/31957319.html",
-		"Translated"
+		"https://www.rferl.org/a/ukraine-us-ambassador-brink-support-kyiv/31957319.html"
 	],
 	[
-		"86",
-		"2022-07-24",
-		"List of foreign aid to Ukraine during the Russo-Ukrainian War",
-		"",
-		"wikipedia",
-		"https://en.wikipedia.org/wiki/List_of_foreign_aid_to_Ukraine_during_the_Russo-Ukrainian_War",
-		"Declined"
-	],
-	[
-		"14",
 		"2022-07-25",
 		"Польские боевые танки PT-91 Twardy прибыли в Украину, подтвердил глава Офиса Президента Украины.",
 		"Польські бойові танки PT-91 Twardy прибули до України, підтвердив голова Офісу Президента України.",
-		"Telewizja Polska",
-		"https://tvpworld.com/61471733/polish-main-battle-tanks-arrive-in-ukraine",
-		"Translated"
+		"https://tvpworld.com/61471733/polish-main-battle-tanks-arrive-in-ukraine"
 	],
 	[
-		"18",
-		"2022-07-25",
-		"Poland will buy tanks, howitzers, and fighter planes from South Korea. The deal includes 48 FA-50 light combat fighter jets, 180 K2 “Black Panther” tanks and an undefined number of K9 howitzers.",
-		"Польща закупить у Південної Кореї танки, гаубиці та винищувачі. Угода включає 48 легких бойових винищувачів FA-50, 180 танків K2 «Чорна Пантера» і невизначену кількість гаубиць K9.",
-		"The Defence Post",
-		"https://www.thedefensepost.com/2022/07/25/poland-buy-south-korean-tanks/",
-		"Approved"
-	],
-	[
-		"19",
-		"2022-07-25",
-		"Военные ведомства США и Министерство Обороны Украины находятся в переговорах о самолетах, которые бы наилучшим образом помогли в отражении российской агрессии. Американская сторона заявляла о предоставлении А-10 как одного из лучших вариантов: эти самолеты постепенно списываются и они хорошо себя проявили при уничтожении наземных целей. Представитель Украины Юрий Сак заявил, что \"Стране не нужны А-10, ей нужны более современные истребители F-16 Fighting Falcon. А-10 «не закроют наше небо, не остановят бомбардировщики и ракеты. Они станут мишенью для российских истребителей и ПВО, потому что у нас нет средств ни для их эффективного прикрытия, ни для прорыва ПВО противника».\"",
-		"",
-		"Military.com",
-		"https://www.military.com/daily-news/2022/07/26/ukraine-official-says-country-doesnt-want-old-american-10s.html",
-		"Duplicate",
-		"",
-		"Dimitri_B",
-		"https://docs.google.com/spreadsheets/d/1YuNhXBwpycT5-XVHCLQm8HUVWZVRNsbCMBHO7ZgOMmA/edit#gid=486708727&range=B3"
-	],
-	[
-		"23",
 		"2022-07-25",
 		"The Defense Department has announced another package of security assistance for Ukraine, which will include additional High Mobility Artillery Rocket Systems, ammunition and a substantial number of Phoenix Ghost unmanned aerial systems",
 		"Міністерство оборони США оголосило про черговий пакет допомоги Україні у сфері безпеки, який включатиме додаткові ракетно-артилерійські системи високої мобільності, боєприпаси та значну кількість безпілотних літальних комплексів Phoenix Ghost.",
-		"C. Todd Lopez",
-		"https://www.defense.gov/News/News-Stories/Article/Article/3103655/more-himars-phoenix-ghost-drones-bound-for-ukraine/",
-		"Translated"
+		"https://www.defense.gov/News/News-Stories/Article/Article/3103655/more-himars-phoenix-ghost-drones-bound-for-ukraine/"
 	],
 	[
-		"52",
-		"2022-07-25",
-		"Россия продолжает давление на Германию и на Евросоюз с помощью ограничений поставок газа. Russian energy giant Gazprom on Monday said it would halve the natural gas flowing through its main pipeline to Germany, keeping European countries in a state of uncertainty as they scramble to build up energy supplies for winter.",
-		"",
-		"Washington Post",
-		"https://www.washingtonpost.com/world/2022/07/25/russia-gas-germany-nord-stream-gazprom/?itid=lk_inline_manual_19",
-		"Declined"
-	],
-	[
-		"1",
 		"2022-07-26",
 		"The longer the Biden administration continues delaying and stinting its support for Ukraine without enabling Kyiv to halt and reverse Russia’s invasion, the more precarious both Ukraine’s and Taiwan’s positions become. ",
 		"Чим довше адміністрація Байдена продовжує зволікати та обмежувати свою підтримку України, не дозволяючи Києву зупинити та повернути вторгнення Росії, тим нестабільнішими стають позиції як України, так і Тайваню.",
-		"The Hill JOSEPH BOSCO, OPINION CONTRIBUTOR",
-		"https://thehill.com/opinion/international/3573439-ukraines-lessons-for-taiwan-grow-more-ominous/",
-		"Translated",
-		"Please translate first three paragraphs.  last prase decisively defeat and eject the invaders."
+		"https://thehill.com/opinion/international/3573439-ukraines-lessons-for-taiwan-grow-more-ominous/"
 	],
 	[
-		"2",
-		"2022-07-26",
-		"Внимание к войне России в Украине возрастает в Конгрессе. Американское стремление помочь Киеву встречает усталость дома и за рубежом так как для избирателей есть большие проблемы как инфляция. Президент Байден отправляет команду на брифинг Сенаторов днём в среду, подчёркивая проблему с голосовамием за следующий пакет срочной помощи. В статье есть список официальных лиц, к-рые будут выступать перед сенаторами",
-		"",
-		"Wahington Post Analysis by Olivier Knox with research by Caroline Anders",
-		"https://www.washingtonpost.com/politics/2022/07/26/russias-war-ukraine-escalates-ground-congress/",
-		"Declined"
-	],
-	[
-		"3",
-		"2022-07-26",
-		"Russian authorities, Secretary of State Blinken said, “are deliberately separating Ukrainian children from their parents and abducting others from orphanages before putting them up for adoption inside Russia.”Ukraine’s President Volodymyr Zelenskyy said that the number taken could be as high as 2 million people. “All these deported people are deprived of communication, their documents are taken from them, they are intimidated, and they are dispersed to remote areas of Russia.”",
-		"",
-		"Minnesota News Ellen J. Kennedy",
-		"https://www.minnpost.com/community-voices/2022/07/when-citizens-disappear-at-the-hand-of-the-state/",
-		"Declined"
-	],
-	[
-		"4",
-		"2022-07-26",
-		"Реакция на обстрел Одессы после договора о \"выпуске\" зерна. Джон Кирби: \"К сожалению, ничего удивительного, они и в Сирии так делали\", UN Deputy Spokesperson: \"все равно все подтвердили, что сделка состоится\", Эрдоган призвал все стороны действовать ответственно и т.п.",
-		"",
-		"CNN",
-		"July 25, 2022 Russia-Ukraine news (cnn.com)",
-		"Declined",
-		"First paragraph only"
-	],
-	[
-		"5",
-		"2022-07-26",
-		"EU bank (aka Europe Investment Bank) одобрил дополнительные $1.6 млрд финансовой помощи Украине (1.07 млрд должны поступить \"немедленно\"). Это уже второй пакет финансовой помощи.",
-		"",
-		"CNN",
-		"July 25, 2022 Russia-Ukraine news (cnn.com)",
-		"Declined",
-		"The entire paragraph till the commission said."
-	],
-	[
-		"6",
-		"2022-07-26",
-		"Выступление сенатора Портмана (Portman) в Конгрессе. Нарушение Россией соглашения через 24 часа после подписания. HIMARS - 12 в поле, еще 4 едут, нужно 40-50. Украина может получить боевые самолеты 4го поколения. Снижение зависимости от российского газа (одновременно - рост цен). Вхождение Швеции и Финляндии в НАТО. Депортация людей из Украины в Россию.\nСенатор призвал признать действия России геноцидом.",
-		"",
-		"Senator Rob Portman",
-		"(18) Portman Urges NATO Expansion to Counter Russia, Talks More Weaponry to Ukraine & Genocide Resolution - YouTube",
-		"Approved",
-		"Suptitiles: From a step in a right direction 8:10 to 8:50 effective.  8:37  - 8:58;  10-29 - 11:33 TILL LET'S GET STARTER"
-	],
-	[
-		"7",
-		"2022-07-26",
-		"Зеленский обвиняет Россию в \"Газовом терроризме\" - специальном снижении объемов поставок для роста цены - странно. Интересно: украинская сторона заявила, что Газпром неожиданно резко повысил давление в газопроводе, и что такие скачки могут привести к авариям.",
-		"",
-		"The Guardian",
-		"Russia-Ukraine war: Zelenskiy accuses Russia of using rising gas prices to terrorise Europe – live (theguardian.com)",
-		"Declined"
-	],
-	[
-		"8",
-		"2022-07-26",
-		"Разногласия в республиканской партии между Рейган республиканцами и республиканцами сторонниками Трампа по поводу войны в Украине. Если республиканцы прийдут к власти после ноябрьских выборов, то возможны измеменения в отношении Украины",
-		"",
-		"The Hill",
-		"https://thehill.com/policy/international/3573904-gop-civil-war-on-ukraine-builds-between-maga-reagan-republicans/",
-		"Declined"
-	],
-	[
-		"9",
-		"2022-07-26",
-		"Сталелитейные заводы в Мариуполе были важными объектами для производства неона. Экспорт неона был важной частью для производства оружия, к-рое США отправляет в Украину. Неон важный компонент для производства полупроводников, к-рые используются в машинах, компьютерах, Джавелинах. Украина експортировала около 50% от мировых поставок до нападения России. Экспорт был в Тайвань, Южную Корею и Китай.",
-		"",
-		"Defense News",
-		"https://www.defensenews.com/congress/2022/07/26/after-years-of-inattention-congress-scrambles-to-save-defense-supply-chain/",
-		"Declined",
-		"a short paragraph re. the neon shortage"
-	],
-	[
-		"11",
-		"2022-07-26",
-		"Великобритания заявила во вторник, что в ответ на вторжение Москвы ввела санкции в отношении навязанных Кремлем чиновников в Луганской и Донецкой областях на востоке Украины, а также в отношении 29 региональных губернаторов по всей России.",
-		"",
-		"Reuters",
-		"https://www.reuters.com/world/uk/britain-adds-42-new-designations-russia-sanctions-2022-07-26/",
-		"Declined"
-	],
-	[
-		"12",
-		"2022-07-26",
-		"Санкции оказались эффективными в нанесении вреда российской экономике. Таков вывод новой 118-страничной статьи Джеффри Зонненфельда из Йельского университета и 18 соавторов.\n\nПочему это важно: большой вопрос о санкциях против России заключается в том, действуют ли они, если убрать из расчетов российскую нефть и газ. В то время как официальная российская статистика предполагает, что экономика использует свои доходы от нефти и газа, чтобы противостоять последствиям санкций, в статье Зонненфельда говорится, что официальная российская статистика является ложью. Дана ссылка на статью, в которой все эти вопросы обсуждены максимально подробно.",
-		"",
-		"AXIOS",
-		"https://www.axios.com/2022/07/26/russia-sanctions-economic-impact",
-		"Declined",
-		"",
-		"Dimitri_B",
-		"https://docs.google.com/spreadsheets/d/1YuNhXBwpycT5-XVHCLQm8HUVWZVRNsbCMBHO7ZgmA/edit#gid=486708727&range=B2"
-	],
-	[
-		"15",
-		"2022-07-26",
-		"Первые зенитные самоходные установки начали прибывать в Украину из Германии",
-		"",
-		"Forbes",
-		"https://www.forbes.com/sites/davidaxe/2022/07/26/ukraines-gepard-anti-aircraft-tanks-have-arrived/?sh=5f3bed2038af",
-		"Duplicate"
-	],
-	[
-		"21",
 		"2022-07-26",
 		"Slovakia is edging closer to a decision on the delivery of its fleet of MiG-29 fighter jets to Ukraine, but no deal has been finalised yet",
 		"Словаччина наближається до рішення про поставку Україні свого парку винищувачів МіГ-29, але угода ще не завершена.",
-		"Kafkadesk Prague office\n(ULTRA-LOCAL NEWS FROM CENTRAL EUROPE) \nSlovak Defence Minister Jaroslav Nad",
-		"https://kafkadesk.org/2022/07/26/no-deal-yet-on-slovakias-delivery-of-mig-29s-to-ukraine/?utm_source=rss&utm_medium=rss&utm_campaign=no-deal-yet-on-slovakias-delivery-of-mig-29s-to-ukraine",
-		"Translated"
+		"https://kafkadesk.org/2022/07/26/no-deal-yet-on-slovakias-delivery-of-mig-29s-to-ukraine/?utm_source=rss&utm_medium=rss&utm_campaign=no-deal-yet-on-slovakias-delivery-of-mig-29s-to-ukraine"
 	],
 	[
-		"22",
 		"2022-07-26",
 		"Some Republicans say President Joe Biden is doing too much to help Ukraine, sending massive amounts of money and weapons with no plan for how the war ends while ignoring trouble back home. Others in the Trump wing of the party, however, argued this week that Biden is acting too slowly. He is giving the Ukrainian troops just enough to prolong the conflict and prevent defeat, they say, when he should be sending even more weapons to score a decisive victory over Russia.",
 		"Деякі республіканці кажуть, що президент Джо Байден робить занадто багато, щоб допомогти Україні, надсилаючи величезні суми грошей і зброї, не плануючи, як закінчиться війна, ігноруючи проблеми вдома. Однак інші представники крила Трампа цього тижня стверджували, що Байден діє надто повільно. Він дає українським військам рівно стільки, щоб продовжити конфлікт і запобігти поразці, мовляв, тоді як він мав би надсилати ще більше зброї, щоб здобути вирішальну перемогу над Росією.",
-		"",
-		"https://www.defenseone.com/policy/2022/07/biden-arming-ukraine-play-tie-some-america-first-gopers-say/374977/",
-		"Translated",
-		"",
-		"",
-		"«Ми маємо забезпечити те, що потрібно, щоб виграти цю війну, і чим швидше, тим краще», — сказав сенатор Джоні Ернст від штату Айова в понеділок на саміті America First Agenda Summit у Вашингтоні, який також включав виступ колишнього президента у вівторок. Дональда Трампа, який зосередився на громадській безпеці та поліції. «Мій результат, який я хочу бачити… це те, що ми повністю знищимо російські війська, і ми змусимо їх відповзти назад у Росію настільки закривавленими та в синяках, що вони не зможуть повернутися», – сказав Ернст.\n\nРеспубліканці на конференції розкритикували президента Джо Байдена за «повільну передачу» зброї Україні та неповне задоволення запиту України на обладнання,\n\nАдміністрація Байдена надіслала понад 7 мільярдів доларів військової та гуманітарної допомоги Україні після вторгнення Росії в лютому. Однак адміністрація не надала частину найсучаснішої зброї, яку просили українські чиновники. У п’ятницю офіційні особи Пентагону заявили, що вони надішлють Україні ще чотири високомобільні артилерійські ракетні системи, довівши загальну кількість обіцяних 16. Але українські офіційні особи заявили, що їм потрібно щонайменше 100 ракетних установок великої дальності, щоб дати відсіч Росії. Українські війська також попросили західні літаки, які Білий дім поки що відмовився надіслати, хоча офіційні особи визнали, що це розглядається."
+		"https://www.defenseone.com/policy/2022/07/biden-arming-ukraine-play-tie-some-america-first-gopers-say/374977/"
 	],
 	[
-		"24",
-		"2022-07-26",
-		"Priority access to the Port of Alexandroupolis in northeastern Greece has allowed the U.S. military to continue to support Ukraine as that nation fights to maintain its sovereignty following the unprovoked February 24 invasion by Russia, the U.S. defense secretary told his Greek counterpart.",
-		"",
-		"C. Todd Lopez",
-		"https://www.defense.gov/News/News-Stories/Article/Article/3097081/strategic-port-access-aids-support-to-ukraine-austin-tells-greek-defense-minist/",
-		"Declined"
-	],
-	[
-		"25",
-		"2022-07-26",
-		"Air Force officials said last week that a variety of American planes could be given to Ukrainian pilots in their fight against Russia, including the A-10 Warthog. But in a message to Military.com on Tuesday, Yuriy Sak -- an adviser to Ukraine's minister of defense -- made it clear: The country doesn't need A-10s, it needs the more modern F-16 Fighting Falcon fighter jet.\n\nThe A-10s \"will not close our sky, they will not stop bombers and missiles,\" Sak said in a message. \"They will be a target for Russian jet fighters and anti-aircraft defense, because we don't have the means neither to effectively cover them, nor to break through the enemy anti-aircraft defence.\"",
-		"",
-		"Thomas Novelly",
-		"https://www.military.com/daily-news/2022/07/26/ukraine-official-says-country-doesnt-want-old-american-10s.html",
-		"Declined"
-	],
-	[
-		"27",
-		"2022-07-26",
-		"Ukraine has received additional heavy weapons from Germany for defense against the Russian war of aggression. “The promised Mars II multiple rocket launchers and another three self-propelled howitzers 2000 have been delivered. We keep our word,” said Defense Minister Christine Lambrecht",
-		"Україна отримала від Німеччини додаткові важкі озброєння для захисту від російсько-загарбницької війни. «Обіцяні реактивні системи залпового вогню Mars II і ще три самохідні гаубиці 2000 доставлені. Ми тримаємо своє слово», – заявила міністр оборони Крістін Ламбрехт",
-		"die Welt",
-		"https://www.welt.de/politik/ausland/article240131839/Ukraine-Krieg-Deutschland-hat-laut-Verteidigungsministerin-Mars-II-Mehrfachraketenwerfer-geliefert.html",
-		"Approved"
-	],
-	[
-		"31",
-		"2022-07-26",
-		"Letter from representetive V. Spartz to President Biden",
-		"",
-		"V. Spartz (oficial website)",
-		"https://spartz.house.gov/media/press-releases/spartz-president-biden-has-duty-lead-stakes-ukraine-are-too-high",
-		"Declined"
-	],
-	[
-		"34",
-		"2022-07-26",
-		"Defense Secretary Lloyd Austin has approved the treatment of wounded Ukrainian soldiers at a US military hospital in Germany, according to a memo obtained by CNN and confirmed by two US defense officials.",
-		"Міністр оборони Ллойд Остін схвалив лікування поранених українських військових у військовому госпіталі США в Німеччині, згідно з меморандумом, отриманим CNN і підтвердженим двома чиновниками оборони США.",
-		"CNN",
-		"https://www.cnn.com/2022/07/26/politics/us-ukraine-soldiers-treatment/index.html",
-		"Approved"
-	],
-	[
-		"35",
-		"2022-07-26",
-		"Lloyd Ostin on Twitter: This afternoon, I spoke via phone with my good friend and Ukrainian 🇺🇦 counterpart  @oleksiireznikov\nI reassured him we are working to get equipment to Ukraine as quickly as possible to counter Russian aggression.",
-		"Ллойд Остін у Twitter: Сьогодні вдень я розмовляв по телефону зі своїм хорошим другом і українським 🇺🇦 колегою @oleksiireznikov\nЯ запевнив його, що ми працюємо над тим, щоб якомога швидше доставити в Україну обладнання для протидії російській агресії.",
-		"Secretary of Defense Lloyd J. Austin III @SecDef and defens departemt release",
-		"https://twitter.com/SecDef/status/1552002848531128320; https://www.defense.gov/News/Releases/Release/Article/3105882/readout-of-secretary-of-defense-lloyd-j-austin-iiis-call-with-ukrainian-ministe/",
-		"Approved"
-	],
-	[
-		"37",
-		"2022-07-26",
-		"Совместное заявление сенатора Блументола(Дем. партия) и конгрессмена Грэма((Республиканец) - признать Россию страной поддерживающей терроризм",
-		"",
-		"Senator Blumental oficial website",
-		"https://www.blumenthal.senate.gov/newsroom/press/release/blumenthal-and-graham-op-ed-in-the-hill-us-must-designate-russia-as-a-state-sponsor-of-terrorism",
-		"Declined"
-	],
-	[
-		"40",
 		"2022-07-26",
 		"On Monday, Ukraine received its first Gepard anti-aircraft tanks from Germany. “Today, the first three Gepards officially arrived,” Defence Minister Olexiy Resnikov announced on Ukrainian television. In addition, he said, tens of thousands of rounds of ammunition had also been handed over. A total of 15 Gepards were expected to arrive, Resnikov added.",
 		"У понеділок Україна отримала від Німеччини перші зенітні танки Gepard. «Сьогодні офіційно прибули перші три Гепарди», – повідомив міністр оборони Олексій Ресніков в ефірі українського телебачення. Крім того, за його словами, також було передано десятки тисяч патронів. Всього очікується прибуття 15 Гепардів, додав Резніков.",
-		"Johannes Stern, World Socialist Web Site",
-		"https://www.wsws.org/en/articles/2022/07/26/pust-j26.html",
-		"Translated"
+		"https://www.wsws.org/en/articles/2022/07/26/pust-j26.html"
 	],
 	[
-		"42",
-		"2022-07-26",
-		"22min33sec: Комментарии по переговорам Россия-Турция; 23 min 56 sec: Комментарии по поводу заявлений Лаврова - изменение режима в Украине",
-		"",
-		"Department Press Briefing (Mr. Price - spoke person)",
-		"https://www.state.gov/?post_type=state_briefing&%3Bp=92333",
-		"Declined"
-	],
-	[
-		"78",
-		"2022-07-26",
-		"UK объявляет о новом пакете санкций, включающем санкции против российских чиновников и навязанных Кремлем \"официальных лиц\" в Луганске и Донецке.\n\nThe Foreign Secretary Liz Truss announces a new sanctions package including sanctions on Kremlin imposed 'officials' in Luhansk and Donetsk.\n",
-		"",
-		"GOV.UK",
-		"https://www.gov.uk/government/news/uk-sanctions-russian-officials-propping-up-putins-proxy-administrations-in-ukraine",
-		"Declined"
-	],
-	[
-		"29",
 		"2022-07-27",
 		"Slovakia might donate its MiG-29 fighter jets to Ukraine, defence minister says",
 		"Словаччина може передати Україні свої винищувачі МіГ-29, заявив міністр оборони",
-		"Euronews",
-		"https://www.euronews.com/2022/07/25/ukraine-war-what-you-need-to-know-about-the-conflict-this-monday",
-		"Translated"
+		"https://www.euronews.com/2022/07/25/ukraine-war-what-you-need-to-know-about-the-conflict-this-monday"
 	],
 	[
-		"32",
 		"2022-07-27",
 		"Republican lawmakers are worried that Indiana Representative Victoria Spartz might be taking it one step too far when it comes to her criticism of the situation in her native Ukraine. Her criticism is aimed at what she sees as a lack of effort in using American aid to fight invading Russian forces.",
 		"Законодавці-республіканці стурбовані тим, що конгресмен від Індіани Вікторія Спартц може зайти занадто далеко, коли справа доходить до її критики ситуації в її рідній Україні. Її критика спрямована на те, що вона вважає браком зусиль у використанні американської допомоги для боротьби з російськими військами.",
-		"News/Talk (Network Indiana)",
-		"https://www.953mnc.com/2022/07/27/indiana-rep-victoria-spartz-criticizes-situation-in-ukraine/",
-		"Translated",
-		"",
-		"Olga Dmytrenko (oshaleyko@yahoo.com)",
-		"https://www.dropbox.com/scl/fi/d4atlorjlqd6s7vszf5ed/PrU_2.odt?dl=0&rlkey=uymmdb6eabsmu3j9fpj3h584j"
+		"https://www.953mnc.com/2022/07/27/indiana-rep-victoria-spartz-criticizes-situation-in-ukraine/"
 	],
 	[
-		"38",
 		"2022-07-27",
 		"Germany has approved sales of 100 self-propelled artillery systems PzH 2000",
 		"Німеччина схвалила продаж 100 самохідних артилерійських систем PzH 2000",
-		"der Spiegel",
-		"https://www.spiegel.de/politik/deutschland/ukraine-darf-100-panzerhaubitzen-kaufen-a-6e1c331d-0da2-4218-9653-2ee96560da9d",
-		"Translated"
+		"https://www.spiegel.de/politik/deutschland/ukraine-darf-100-panzerhaubitzen-kaufen-a-6e1c331d-0da2-4218-9653-2ee96560da9d"
 	],
 	[
-		"41",
 		"2022-07-27",
 		"A little-known group at U.S. European Command in Germany fills Ukraine’s battlefield requests with donations from more than 40 countries.",
 		"Маловідома група Європейського командування США в Німеччині заповнює запити України на полі бою пожертвами з понад 40 країн.",
-		"The New York Times",
-		"https://www.nytimes.com/2022/07/27/us/politics/ukraine-weapons-center.html",
-		"Translated"
+		"https://www.nytimes.com/2022/07/27/us/politics/ukraine-weapons-center.html"
 	],
 	[
-		"43",
-		"2022-07-27",
-		"PULASKI POLICY PAPER: Foreign military aid to Ukraine: between promises and deliveries. (Robert Czulda) ",
-		"",
-		"Fundacja im. Kazimierza Pułaskiego",
-		"https://pulaski.pl/pulaski-policy-paper-foreign-military-aid-to-ukraine-between-promises-and-deliveries-robert-czulda/",
-		"Declined"
-	],
-	[
-		"44",
-		"2022-07-27",
-		"Украина использовала американские высокоточные ракеты для закрытия моста, стратегически важного для снабжения российских войск в херсонской области",
-		"",
-		"Susie Blunn",
-		"US rocket system enables Ukraine to pummel key supply bridge (yahoo.com)",
-		"Declined"
-	],
-	[
-		"45",
-		"2022-07-27",
-		"Газпром урезал поставки газа в Европу (Nord Stream 1 pipeline at 20% capacity)",
-		"",
-		"CNN",
-		"July 27, 2022 Russia-Ukraine news (cnn.com)",
-		"Declined"
-	],
-	[
-		"46",
-		"2022-07-27",
-		"Стратегия США по отношению к агрессии Китая в Индо-Тихоокеанском регионе:\n- Создание асимметричного преимущества для партнеов США (за счет новых технологий и информации - например, спутниковых данных -  а не к-ва людей)\n- Повышение боеспособности проактивного присутствия в регионе (вероятно, расширение контингента)\n- Поддержка наиболее мощных партнеров США в регионе (Австралия, Япония, Филиппины, Южная Корея, Таиланд)\nАгрессия Китая в Индо-Тихоокеанском регионе представляет собой попытку Пекина разрушить основные элементы международной системы правил и получить контроль над водными путями, соединяющими Китай с соседями",
-		"",
-		"defense.gov",
-		"https://www.dailymail.co.uk/news/article-11057013/Russian-troops-Kherson-highly-vulnerable-attack-Ukraine-destroys-bridges.html",
-		"Declined"
-	],
-	[
-		"47",
-		"2022-07-27",
-		"U.S., allies discuss possible training for Ukrainian air force",
-		"США та союзники обговорюють можливе навчання українських ВПС",
-		"Alexander Entin",
-		"https://www.reuters.com/world/europe/us-allies-discuss-possible-training-ukrainian-air-force-2022-07-20/",
-		"Duplicate"
-	],
-	[
-		"51",
-		"2022-07-27",
-		"Any Asian aggressor who violates the sovereignty of other countries in the region risks punitive counter actions, just like what Russia is confronting now for its invasion of Ukraine, the U.S. secretary of the Navy said in a veiled warning to China’s increasingly assertive behavior.\r\n\r\nCarlos Del Toro told The Associated Press in an interview Tuesday night in Manila that the U.S. military focus in the Asia-Pacific region, particularly in the disputed South China Sea, would never slacken and in fact has intensified despite the war in Ukraine.",
-		"",
-		"Associated Press",
-		"https://apnews.com/article/russia-ukraine-biden-asia-beijing-b82096723ffff29b7bc4d06ef4230c66",
-		"Declined"
-	],
-	[
-		"54",
 		"2022-07-27",
 		"11 tanks were seized from residents of the Poltava region",
 		"У жителів Полтавського регіону вилучено 11 танків",
-		"Ukranian News",
-		"https://ukranews.com/en/news/872001-law-enforcers-seize-11-tanks-from-residents-in-poltava-region",
-		"Translated"
+		"https://ukranews.com/en/news/872001-law-enforcers-seize-11-tanks-from-residents-in-poltava-region"
 	],
 	[
-		"55",
-		"2022-07-27",
-		"Действие санкций на РФ неравномерно. IMF изменил свой прогноз падения российской экономики с 8% до 6% в этом году из-за высоких цен на нефть и другие экспортные товары, и из-за \"устойчивого\" уровня потребления внутри страны, несмотря на санкции.",
-		"",
-		"Bloomberg",
-		"https://www.bloomberg.com/news/articles/2022-07-27/russian-economic-pain-spreads-unevenly-as-sanctions-shock-fades",
-		"Declined"
-	],
-	[
-		"57",
-		"2022-07-27",
-		"United States House lawmakers who attended a classified briefing Wednesday on Ukraine said Biden administration officials informed them that more than 75,000 Russians have been killed or wounded during the war on Ukraine. During the briefing, there was bipartisan support for sending Ukraine long-range missiles, known as ATACMS, that can strike more than 280 kilometers.",
-		"Законодавці Палати представників Сполучених Штатів, які були присутні на засекреченому брифінгу в середу щодо України, заявили, що офіційні особи адміністрації Байдена повідомили їм, що понад 75 000 росіян були вбиті або поранені під час війни з Україною. Під час брифінгу була двопартійна підтримка відправки Україні ракет великої дальності, відомих як ATACMS, які можуть вразити понад 280 кілометрів.",
-		"From CNN's Melanie Zanona and Natasha Bertrand",
-		"https://edition.cnn.com/europe/live-news/russia-ukraine-war-news-07-27-22/h_7f930501642d710cef0291784bc25dca",
-		"Duplicate"
-	],
-	[
-		"58",
-		"2022-07-27",
-		"As the war in Ukraine enters its sixth month and shows no signs of abating, a Republican rift is growing over U.S. military support for Ukraine's fight against Russian invaders.\n\nWhich side of the GOP wins out could determine the extent of U.S. aid going forward if Republicans win control of Congress in November's midterm elections, as political forecasters are predicting will happen.",
-		"",
-		"Rebecca Kheel(military.com)",
-		"https://www.military.com/daily-news/2022/07/27/future-of-us-support-ukraine-stake-gop-grapples-rift-over-aid.html",
-		"Declined"
-	],
-	[
-		"63",
-		"2022-07-27",
-		"Secretary of State Blinken News Conference on Russia's Invasion of Ukraine: During a State Department briefing amid the sixth month of Russia’s invasion of Ukraine, Secretary of State Antony Blinken said he would speak with Russian Foreign Minister Sergey Lavrov in the coming days about trying to release American citizens Brittney Griner and Paul Whelan, whom Blinken said were being wrongfully detained. Secretary Blinken said the U.S. put a “substantial proposal on the table weeks ago to facilitate their release” from Russia. Regarding the invasion, he said a tentative deal was made the previous week between Ukraine, Russia, Turkey, and the United Nations for Russia to end its blockade of grain and other exports coming out of Ukraine’s ports. The secretary also said that Russia’s reasons for the invasion keep changing, but a real reason is that President Putin does not respect Ukraine’s sovereignty. Finally, Secretary Blinken reiterated that the invasion has made NATO stronger and that sanctions against Russia are working",
-		"",
-		"C-SPAN",
-		"https://www.c-span.org/video/?522036-1/secretary-blinken-speak-russian-foreign-minister-time-february",
-		"Declined"
-	],
-	[
-		"84",
-		"2022-07-27",
-		"In my remarks, I shared that I expect to speak with Foreign Minister Lavrov for the first time since the war began. I will raise the wrongful detention of Americans and the need to implement the tentative deal on grain exports Ukraine, Russia, Turkey, and @UN  reached last week.",
-		"",
-		"Twit Blinken",
-		"https://twitter.com/SecBlinken/status/1552459176701440001",
-		"Declined"
-	],
-	[
-		"100",
 		"2022-07-27",
 		"Azerbaijan had secretly supplied Ukraine with dozens of precision-guided bombs, documents leaked by the Iraqi Sabereen News Telegram channel on July 27 revealed.",
 		"Азербайджан таємно постачав Україні десятки високоточних бомб, свідчать документи, оприлюднені 27 липня іракським телеграм-каналом Sabereen News.",
-		"southfront.org",
-		"https://southfront.org/azerbaijan-supplied-ukraine-with-dozens-of-precision-guided-bombs-in-secret/",
-		"Translated"
+		"https://southfront.org/azerbaijan-supplied-ukraine-with-dozens-of-precision-guided-bombs-in-secret/"
 	],
 	[
-		"48",
-		"2022-07-28",
-		"Интервью с украинскими солдатами на восточном фронте. Украинские солдату утверждают что интенсивность артиллерийских обстрелов со стороны российских захватчиков снизилась в 2 или даже более раз. Украинские солдату уверены что причина тому - использование Украиной новоприбывшего вооружения. Особо подчёркивается роль американских \"Химары\", польских гаубиц \"Краб\" и французских гаубиц Caesars. Но, одновременно они подчёркивают что что для эффективного контрнаступления Украине нужно гораздо больше западного оружия. Так же в статье поднимается вопрос о нехватке инструкторов для обучения новобранцев. На данный момент западные правительства отказываются направлять в Украину официальных лиц или подрядчиков для оказания помощи в вербовке и обучении военных. Горстка частных организаций работает здесь независимо.",
-		"",
-		"BBC News",
-		"https://www.bbc.com/news/world-europe-62317366",
-		"Declined"
-	],
-	[
-		"50",
 		"2022-07-28",
 		"Chancellor Scholz is under constant pressure from the opposition because of the failure to fulfill his promise to supply heavy weapons to Ukraine. Poland directly accused Germany of disrupting supplies.",
 		"Канцлер Шольц перебуває під постійним тиском з боку опозиції через невиконання обіцянки постачати Україні важке озброєння. Польща прямо звинуватила Німеччину в зриві поставок.",
-		"Politico",
-		"https://www.politico.eu/article/germany-olalf-scholz-pressure-tank-deliveries-ukraine/",
-		"Translated"
+		"https://www.politico.eu/article/germany-olalf-scholz-pressure-tank-deliveries-ukraine/"
 	],
 	[
-		"53",
 		"2022-07-28",
 		" In the coming days, the Government of Slovenia will discuss a new package of security assistance to Ukraine.",
 		"Найближчими днями уряд Словенії обговорить новий пакет безпекової допомоги Україні.",
-		"УкрИнформ",
-		"https://www.ukrinform.net/rubric-polytics/3538011-government-of-slovenia-to-discuss-new-security-assistance-package-to-ukraine.html",
-		"Translated"
+		"https://www.ukrinform.net/rubric-polytics/3538011-government-of-slovenia-to-discuss-new-security-assistance-package-to-ukraine.html"
 	],
 	[
-		"56",
-		"2022-07-28",
-		"Филиппины отказываются от покупки 16 российских вертолетов на сумму $227 mln. , опасаясь попасть под санкции США.",
-		"",
-		"The Diplomat",
-		"https://thediplomat.com/2022/07/fearing-us-sanctions-philippines-scraps-russian-helicopter-deal/",
-		"Declined"
-	],
-	[
-		"59",
-		"2022-07-28",
-		"Маттео Салвини был обвинён в сговоре с В.Путиным в крешении Итальянского правительства - популярной ЕС партии у власти. Анти-иммиграционная Lega Nord leader, к-рая надеется прийти к власти на сентябрьских выборах, подозревается в том, что отправляла своего представителя встретиться с представителями Кремля в мае, недели до того, как Марио Драги правительство распалось",
-		"",
-		"Daily mail",
-		"https://www.dailymail.co.uk/news/article-11058421/Matteo-Salvini-forced-deny-collapsing-Italian-government-Putins-orders.html",
-		"Declined"
-	],
-	[
-		"60",
-		"2022-07-28",
-		"Half of Russia's army has been wiped out in Ukraine, US intelligence believes. Some 75,000 soldiers have either been killed or wounded in a little over five months of fighting, American lawmakers were told in a security briefing last night. It means around half of the pre-invasion force built up along Ukraine's borders is now out of action, which the West estimated to be between 150,000 and 190,000 troops. Thousands of tanks, armoured vehicles, helicopters, jets and ships have also been blown up, shot down or sunk, costing Russia more than $10billion.",
-		"",
-		"Daily mail",
-		"https://www.dailymail.co.uk/news/article-11057013/Russian-troops-Kherson-highly-vulnerable-attack-Ukraine-destroys-bridges.html",
-		"Declined"
-	],
-	[
-		"61",
-		"2022-07-28",
-		"Около 2500 украинцев подписали петицию - благодарность Борису Джонсону за поддержку Украины",
-		"",
-		"Daily mail",
-		"https://www.dailymail.co.uk/news/article-11054481/Thousands-Ukrainians-sign-petition-make-BORIS-JOHNSON-PM.html",
-		"Declined"
-	],
-	[
-		"62",
-		"2022-07-28",
-		"Российские войска подбили свой вертолёт в Херсоне после того, как он атаковал их по ошибке. The Ka-52 'Alligator' helicopter, which costs an estimated £12million, was gunned down in Kherson, Ukraine's General Staff revealed.",
-		"",
-		"Daily mail",
-		"https://www.dailymail.co.uk/news/article-11053189/Putins-troops-shoot-helicopter-Kherson-mistakenly-attacked-them.html",
-		"Declined"
-	],
-	[
-		"64",
-		"2022-07-28",
-		"America is taking baby steps on the road to war in Ukraine. Unnoticed by a public with other things on its mind, any single step might be the giant leap that lands us in a conflict our citizens don’t want. Toddling into war is something of an American tradition, from the War of 1812 to the fights against Mexico, Spain, the Philippines, Korea, Vietnam, Afghanistan, and Iraq. University of Maryland Critical Issue polls conducted in March, May, and June each showed less than a third support “loss of lives of U.S. troops” against Russia. President Biden has assured the country “no boots on the ground.” Yet America has chosen to fund one side, backing Ukraine to the tune of $54 billion and counting, each installment a baby step just short of the about $60 billion that the Kremlin spends in an entire year.",
-		"",
-		"NY The Sun",
-		"https://www.nysun.com/article/america-taking-baby-steps-to-boots-on-the-ground-in-ukraine",
-		"Declined"
-	],
-	[
-		"65",
 		"2022-07-28",
 		"Both Democrats and Republicans raised the issue of transferring ATACMS long-range ballistic missiles to Ukraine again.",
 		"І демократи, і республіканці піднімали питання передачі Україні балістичних ракет великої дальності ATACMS",
-		"Defense Express",
-		"https://en.defence-ua.com/events/the_us_congress_declares_the_need_to_transfer_atacms_to_ukraine_democrats_and_republicans_support_the_decision-3699.html",
-		"Translated"
+		"https://en.defence-ua.com/events/the_us_congress_declares_the_need_to_transfer_atacms_to_ukraine_democrats_and_republicans_support_the_decision-3699.html"
 	],
 	[
-		"66",
-		"2022-07-28",
-		"H.R.8532 - To provide assistance for suspected victims and witnesses of war crimes in Ukraine, and for other purposes: proposal in US Congress introduced on 07/27/2022",
-		"",
-		"Congress website",
-		"https://www.congress.gov/bill/117th-congress/house-bill/8532/all-actions?s=1&r=3&overview=closed",
-		"Declined"
-	],
-	[
-		"67",
-		"2022-07-28",
-		"REP. VICTORIA SPARTZ CONCERNED FOR UKRAINE BLAMING BIDEN ADMINISTRATION FOR PRESSURING ZELENSKY: “HONESTLY, I’M SO FRUSTRATED WITH THIS ADMINISTRATION”",
-		"",
-		"WIBC",
-		"https://www.wibc.com/blogs/tony-katz/rep-victoria-spartz-concerned-for-ukraine-blaming-biden-administration-for-pressuring-zelensky-honestly-im-so-frustrated-with-this-administration/",
-		"Declined"
-	],
-	[
-		"68",
-		"2022-07-28",
-		"Congresswoman Victoria Spartz (R-Ind.) is accusing the Biden administration of warbling in their pro-Ukrainian stance. She has also accused the Ukrainian government of corruption and not taking the war seriously. Her comments of late have drawn her negative attention from other Republicans, quoted anonymously in a Politico article, saying her comments could undermine the war effort and Western alliances.",
-		"",
-		"WIBC",
-		"https://www.wibc.com/news/local-indiana/spartz-explains-comments-on-ukraine-says-biden-administration-is-acting-suspiciously/",
-		"Duplicate"
-	],
-	[
-		"69",
-		"2022-07-28",
-		"“Both parties in the US Congress support sending Ukraine long-range ATACMS missiles, which can hit at a distance of more than 280 kilometers,” reports Elissa Slotkin, a representative of the Democratic Party and a member of the House of Representatives Committee on Armed Forces Affairs. The meeting took place on Jily 27.",
-		"",
-		"Kyiv POst; Defense Exprress",
-		"https://www.kyivpost.com/russias-war/us-ready-to-provide-ukraine-with-atacms-long-range-missiles.html; https://en.defence-ua.com/events/the_us_congress_declares_the_need_to_transfer_atacms_to_ukraine_democrats_and_republicans_support_the_decision-3699.html",
-		"Duplicate"
-	],
-	[
-		"70",
 		"2022-07-28",
 		"Bulgaria Supplies Shells For Ukraine’s 100mm MT-12 Rapira Anti-Tank Guns",
 		"Болгарія постачає Україні снаряди для 100-мм протитанкових гармат МТ-12 «Рапіра»",
-		"Defense Express",
-		"https://en.defence-ua.com/weapon_and_tech/bulgaria_supplies_shells_for_ukraines_100mm_mt_12_rapira_anti_tank_guns-3698.html",
-		"Translated"
+		"https://en.defence-ua.com/weapon_and_tech/bulgaria_supplies_shells_for_ukraines_100mm_mt_12_rapira_anti_tank_guns-3698.html"
 	],
 	[
-		"71",
-		"2022-07-28",
-		"Заявление Медведева об опасности приближения НАТО к границам России",
-		"",
-		"TASS",
-		"https://tass.com/politics/1486161",
-		"Declined"
-	],
-	[
-		"72",
-		"2022-07-28",
-		"Даже частичная победа России в Украине опасна для Западных интересов. Украине нужна помощь для победы, а после - для восстановления инфроструктуры. Многие западные лидеры считают, что то, что происходит в Украине это чьи-то проблемы. Они не нейтральные - они ввели санкции против России, поставляют оружие в Украину, но не относятся к конфликту, как жизненным интересам своих стран.",
-		"",
-		"Center for European Reform",
-		"https://www.cer.eu/insights/first-help-ukraine-win-war-then-help-it-win-peace",
-		"Declined"
-	],
-	[
-		"73",
-		"2022-07-28",
-		"Линк на русском и украинском языках: С началом агрессии против Украины Россия начала строить сеть тюрем и фильтрационных лагерей, в которые массово отправляют украинцев. Польские спецслужбы сообщают, что выявили пять таких лагерей на временно оккупированной территории Украины",
-		"",
-		"Лiга Новини",
-		"https://news.liga.net/politics/news/razvedka-polshi-nashla-pyat-filtratsionnyh-lagerey-v-okkupirovannyh-gorodah-ukrainy-adresa; https://news.liga.net/ua/politics/news/razvedka-polshi-nashla-pyat-filtratsionnyh-lagerey-v-okkupirovannyh-gorodah-ukrainy-adresa",
-		"Declined"
-	],
-	[
-		"74",
-		"2022-07-28",
-		"По оценкам Стайт департмент США между 900 000 и 1.6 мил. украинцев, включая 260 000 детей прошли через Российский фильтрационный процесс. Много детей, к-рые были отобраны у родителей и родственников были адаптированы российскими семьями. Много людей, подозреваемых в работе с Украинской армией находятся в лагерях в Восточной Украине.",
-		"",
-		"Axios",
-		"https://www.axios.com/2022/07/28/russia-filtration-ukraine-civilians-deportation",
-		"Declined"
-	],
-	[
-		"75",
-		"2022-07-28",
-		"Российские войска вынуждают жителей захваченных територий уходить с захваченной територии. \"Forced population transfers are the key to the Kremlin's plan,\" Ambassador Michael Carpenter, who represents the United States at the Organization for Security and Co-operation in Europe, said Thursday. \"To stand any chance of controlling this territory, Moscow has apparently calculated it must either bomb the territory until nothing is left but dust or engage in forced deportation of local residents via the so-called filtration process.\"",
-		"",
-		"The Denver Gazette",
-		"https://denvergazette.com/news/nation-world/russia-using-mass-deportations-to-depopulate-ukraine/article_b84b2e9d-d51b-561b-90fd-26619866082a.html",
-		"Declined"
-	],
-	[
-		"76",
-		"2022-07-28",
-		"“Both parties in the US Congress support sending Ukraine long-range ATACMS missiles, which can hit at a distance of more than 280 kilometers,” reports Elissa Slotkin, a representative of the Democratic Party and a member of the House of Representatives Committee.",
-		"«Обидві партії в Конгресі США підтримують відправку в Україну ракет великої дальності ATACMS, які можуть вражати на відстані понад 280 кілометрів», — повідомляє представник Демократичної партії, член комітету Палати представників Елісса Слоткін.",
-		"Kyiv Post",
-		"https://www.kyivpost.com/russias-war/us-ready-to-provide-ukraine-with-atacms-long-range-missiles.html",
-		"Duplicate"
-	],
-	[
-		"77",
-		"2022-07-28",
-		"The Russian forces have launched 49 missile attacks and 44 air strikes on the territory of Ukraine since the beginning of July.",
-		"",
-		"Ukrinform",
-		"https://www.ukrinform.net/rubric-ato/3538832-russia-launched-49-missile-and-44-air-strikes-on-ukraine-in-july.html",
-		"Declined"
-	],
-	[
-		"79",
-		"2022-07-28",
-		"U.S. Senators Lindsey Graham (R-South Carolina) and Richard Blumenthal (D-Connecticut) today applauded the passage of a resolution they introduced affirming that the United States Senate views the actions of the government of the Russian Federation, at the direction of President Vladimir Putin, as sponsoring acts of terrorism.\nGRAHAM: “To the Biden Administration: You have the complete unanimous support of the United States Senate to label Russia a state sponsor of terrorism. Do it.”",
-		"Сенатори США Ліндсі Грем (республіки Південна Кароліна) і Річард Блюменталь (штат Коннектикут) сьогодні аплодували ухваленню представленої ними резолюції, яка підтверджує, що Сенат Сполучених Штатів оцінює дії уряду Російської Федерації за вказівкою президента Володимира Путіна, як спонсора терористичних актів.\nГРЕМ: «Адміністрації Байдена: Ви маєте повну одностайну підтримку Сенату Сполучених Штатів, щоб назвати Росію державою-спонсором тероризму. Зроби це.\"",
-		"Lindsey Graham",
-		"https://www.lgraham.senate.gov/public/index.cfm/press-releases?ID=9CD80923-FC0A-4A7B-ADCF-497C6E26F8BB",
-		"Declined",
-		"",
-		"",
-		"",
-		"Video is available at https://www.c-span.org/video/?522072-1/senators-graham-blumenthal-news-conference-russian-state-sponsor-terrorism-resolution&live"
-	],
-	[
-		"80",
 		"2022-07-29",
 		"The Defense Ministry of Macedonia confirmed on July 28 that a column of Macedonian tanks was heading towards Ukraine.",
 		"У Міноборони Македонії 28 липня підтвердили, що колона македонських танків прямує в бік України.",
-		"Yahoo",
-		"https://news.yahoo.com/north-macedonia-sending-t-72-150700481.html?fr=sycsrp_catchall",
-		"Translated"
+		"https://news.yahoo.com/north-macedonia-sending-t-72-150700481.html?fr=sycsrp_catchall"
 	],
 	[
-		"81",
 		"2022-07-29",
 		"Germany's Federal Minister of Defense Christine Lambrecht announced the decision to deliver a package of 16 BIBER armored bridge-laying vehicles to Ukraine, with the first shipment of six vehicles to begin in the fall. The other ten will follow in 2023.",
 		"Федеральний міністр оборони Німеччини Крістін Ламбрехт повідомила про рішення доставити в Україну пакет з 16 броньованих мостоукладальних машин BIBER, перша поставка з шести машин почнеться восени. Інші десять з’являться у 2023 році.",
-		"Newsweek",
-		"https://www.newsweek.com/biber-tanks-ukraine-western-weapons-1729233",
-		"Translated"
+		"https://www.newsweek.com/biber-tanks-ukraine-western-weapons-1729233"
 	],
 	[
-		"83",
-		"2022-07-29",
-		"Diplomacy Watch: Blinken to meet with Lavrov in first since Russia invaded Ukraine. After months of silence, Russia and the U.S. are ready to start talking — but Washington says negotiations to end the war are not on the table.",
-		"",
-		"Responsible Statecraft",
-		"https://responsiblestatecraft.org/2022/07/29/diplomacy-watch-blinken-to-meet-with-lavrov-in-first-since-russia-invaded-ukraine/",
-		"Declined"
-	],
-	[
-		"87",
-		"2022-07-29",
-		"North Macedonia plans to donate an unspecified number of Soviet-era tanks to Ukraine as it seeks to modernise its own military to meet NATO standards, its defence ministry said on Friday.\nIn a statement, the ministry said Ukraine will receive tanks belonging to the western Balkan country's tank battalion which is in the process of being upgraded.",
-		"Північна Македонія планує передати Україні невизначену кількість танків радянської епохи, оскільки вона прагне модернізувати свою власну армію відповідно до стандартів НАТО, повідомило її міністерство оборони в п’ятницю.\nУ заяві міністерства йдеться, що Україна отримає танки, що належать танковому батальйону західнобалканської країни, який перебуває в процесі модернізації.",
-		"Reuters",
-		"https://www.reuters.com/world/europe/nmacedonia-donates-tanks-ukraine-it-modernises-own-military-2022-07-29/",
-		"Duplicate"
-	],
-	[
-		"88",
 		"2022-07-29",
 		"Norway has donated 14 armored patrol vehicles to Ukraine",
 		"Норвегія передала Україні 14 патрульних броньованих машин",
-		"Norway Today",
-		"https://norwaytoday.info/news/norway-has-donated-14-armored-patrol-vehicles-to-ukraine/",
-		"Translated"
+		"https://norwaytoday.info/news/norway-has-donated-14-armored-patrol-vehicles-to-ukraine/"
 	],
 	[
-		"89",
-		"2022-07-30",
-		"Russian gas giant Gazprom announced Saturday that it had suspended gas deliveries to Latvia due to what it said were “violations of the conditions” of purchase.",
-		"",
-		"France 24",
-		"https://www.france24.com/en/europe/20220730-live-ukraine-s-zelensky-calls-prison-strike-deliberate-russian-war-crime",
-		"Declined"
-	],
-	[
-		"90",
-		"2022-07-30",
-		"A Lebanese prosecutor ordered the seizure Saturday, July 30, of a Syrian-flagged ship that docked at a northern port with a cargo of Ukrainian grain Kyiv's embassy in Beirut said was \"illegal\".",
-		"",
-		"Le Monde",
-		"www.lemonde.fr/en/international/article/2022/07/30/lebanon-seizes-ship-carrying-stolen-ukrainian-grain_5991969_4.html",
-		"Declined"
-	],
-	[
-		"91",
-		"2022-07-30",
-		"Председатель компартии Китая Си Дзиньпинь призвал США не играть с огнем. US Assistant Secretary of Defense for Indo-Pacific Security Affairs Ely Ratner предупредил, что нарастающая агрессия Китая в море может привести к значительному инциденту.",
-		"",
-		"news.com.au",
-		"China aggression in South China Sea could lead to ‘major incident or accident’ | news.com.au — Australia’s leading news site",
-		"Declined"
-	],
-	[
-		"92",
-		"2022-07-30",
-		"The Russian soldier accused of castrating a Ukrainian prisoner of war in one of the most horrific war crimes of the entire Russian invasion has been pictured. He is believed to be a 39-year-old fighter with the pro-Vladimir Putin Luhansk armed group Bryanka-SSSR, another unit with a notorious reputation for violence and brutality. Members of the group have been pictured proudly giving Nazi salutes. ",
-		"",
-		"Dailymail",
-		"https://www.dailymail.co.uk/news/article-11064149/Pictured-Russian-soldier-accused-castrating-prisoner-Ukraine-vows-hunt-killers.html",
-		"Declined"
-	],
-	[
-		"93",
-		"2022-07-30",
-		"Vladimir Putin and his friends are making preparations to flee Russia should his army be defeated in Ukraine, according to a Telegram channel that claims to come from inside the Kremlin. With his Donbas offensive stalling, Ukraine preparing to re-capture Kherson and his economy crumbling, the Russian dictator is 'aware of the possibility of a sharp change of mood in the country.'",
-		"",
-		"Dailymail",
-		"https://www.dailymail.co.uk/news/article-11061625/Russia-prepared-EVACUATION-plans-Putin-case-army-defeated-Ukraine.html",
-		"Declined"
-	],
-	[
-		"94",
-		"2022-07-30",
-		"Moscow has opened a probe into the attack and the U.N. said it also was prepared to send investigators. U.N. deputy spokesman Farhan Haq said “we stand ready to send a group of experts able to conduct an investigation, requiring the consent of the parties, and we fully support the initiatives” of the Red Cross.",
-		"",
-		"ktar news",
-		"https://ktar.com/story/5177553/red-cross-requests-access-to-ukraine-prison-after-pows-die/",
-		"Declined"
-	],
-	[
-		"95",
-		"2022-07-30",
-		"The Russian Foreign Ministry in a statement said that Lavrov and Blinken discussed the situation in Ukraine. Lavrov talked about Russia's actions in Ukraine and stressed that Moscow will fulfil its goals. Russian FM Sergey Lavrov told Blinken that supplying military equipment to Ukraine will prolong the conflict and increase the number of victims. Lavrov stressed that the Russian troops follow international law and work for restoring peaceful life in territories controlled by them.",
-		"",
-		"R.republicworld",
-		"https://www.republicworld.com/world-news/russia-ukraine-crisis/blinken-speaks-to-russias-lavrov-discusses-ukraine-situation-prisoner-swap-and-more-articleshow.html",
-		"Declined"
-	],
-	[
-		"96",
-		"2022-07-30",
-		"Russian Foreign Minister Sergei Lavrov on Friday told U.S. Secretary of State Antony Blinken that Washington was not living up to promises regarding the exemption from sanctions for the supply of food from Russia, Moscow said.",
-		"",
-		"Euronews",
-		"https://www.euronews.com/2022/07/30/us-ukraine-crisis-russia-blinken",
-		"Declined"
-	],
-	[
-		"97",
 		"2022-07-30",
 		"Western arms supplies to Ukraine only dragging out conflict, Lavrov tells Blinken",
 		"Поставки західної зброї в Україну лише затягують конфлікт, каже Лавров Блінкену",
-		"panorama",
-		"https://www.panorama.am/en/news/2022/07/30/Lavrov-Blinken/2713263",
-		"Translated"
+		"https://www.panorama.am/en/news/2022/07/30/Lavrov-Blinken/2713263"
 	],
 	[
-		"98",
 		"2022-07-30",
 		"John Kirby, the National Security Council Coordinator for Strategic Communications, announced new military package. “I fully expect that and I think you're going to see another one [military aid package] relatively soon,” Kirby said. The White House representative said he would not specify any dates now, however, according to him, another statement on the security assistance support for Ukraine would be announced 'very soon.'",
 		"Про новий військовий пакет повідомив координатор Ради національної безпеки зі стратегічних комунікацій Джон Кірбі. «Я цілком цього очікую, і я думаю, що відносно скоро ви побачите ще один [пакет військової допомоги]», — сказав Кірбі. Представник Білого дому зазначив, що зараз не буде вказувати дати, однак, за його словами, \"дуже скоро\" буде оголошено ще одну заяву щодо підтримки безпекової допомоги Україні.",
-		"menafn",
-		"https://menafn.com/1104616773/US-To-Announce-Another-Military-Aid-Package-For-Ukraine-Very-Soon-White-House",
-		"Translated"
+		"https://menafn.com/1104616773/US-To-Announce-Another-Military-Aid-Package-For-Ukraine-Very-Soon-White-House"
 	],
 	[
-		"99",
 		"2022-07-30",
 		"US already procuring NASAMS air defense systems for Ukraine, says Pentagon, but delivery date unknown. The U.S. Department of Defense said the allocation of the military aid to Ukraine, the 14th package worth $820 million, would include NASAMS air defense systems.",
 		"За словами Пентагону, США вже закуповують системи ППО NASAMS для України, але дата доставки невідома. Міністерство оборони США повідомило, що виділення Україні військової допомоги, 14-й пакет на суму 820 мільйонів доларів, включатиме системи ППО NASAMS.",
-		"yahoo news",
-		"https://news.yahoo.com/us-already-procuring-nasams-air-144400982.html",
-		"Translated"
+		"https://news.yahoo.com/us-already-procuring-nasams-air-144400982.html"
 	],
 	[
-		"108",
-		"2022-07-31",
-		"Traumatised mothers of Russian soldiers say their sons who refuse to fight for Kremlin are being held in torture pits",
-		"",
-		"Daily Mail",
-		"https://www.dailymail.co.uk/news/article-11065199/Traumatised-mothers-Russian-soldiers-say-sons-refuse-fight-held-torture-pits.html",
-		"Declined"
-	],
-	[
-		"101",
 		"2022-08-01",
 		"Britain will hand over several warships from its fleet to Ukraine in near future - Ambassador Prystayko",
 		"Британія найближчим часом передасть Україні кілька військових кораблів зі свого флоту, - посол Пристайко",
-		"Censor.NET",
-		"https://censor.net/en/news/3357726/britain_will_hand_over_several_warships_from_its_fleet_to_ukraine_in_near_future_ambassador_prystayko",
-		"Translated"
+		"https://censor.net/en/news/3357726/britain_will_hand_over_several_warships_from_its_fleet_to_ukraine_in_near_future_ambassador_prystayko"
 	],
 	[
-		"103",
-		"2022-08-01",
-		"A Russian foreign ministry source expressed puzzlement on Monday about a proposal from U.S. President Joe Biden to negotiate a new nuclear arms control framework to replace the New START Treaty when it expires in 2026. Biden said in a statement on Monday that his administration was ready to \"expeditiously\" negotiate a new framework but that Russia should demonstrate that it is ready to resume work on nuclear arms control with the United States.",
-		"",
-		"The Economic Times",
-		"https://economictimes.indiatimes.com/news/defence/russia-puzzled-by-joe-biden-proposal-to-replace-nuclear-arms-treaty/articleshow/93278655.cms",
-		"Declined"
-	],
-	[
-		"104",
-		"2022-08-01",
-		"Secretary Blinken speaks to reporters at U.N. in New York City | CBS News; 4 min 25 sec: Nuiclear power Russia in Ukraine",
-		"",
-		"Youtube",
-		"https://www.youtube.com/watch?v=rwH3IcNIHFw",
-		"Declined"
-	],
-	[
-		"105",
-		"2022-08-01",
-		"Ukraine: Guterres welcomes departure of first grain ship, to help ease food crisis",
-		"",
-		"UN News",
-		"https://news.un.org/en/story/2022/08/1123702",
-		"Declined"
-	],
-	[
-		"106",
-		"2022-08-01",
-		"White House commends first grain ship departure from key Ukrainian port since late February; US secretary of state calls on Russia to live up to its arm control commitments;",
-		"",
-		"CNN",
-		"https://edition.cnn.com/europe/live-news/russia-ukraine-war-news-08-01-22/index.html",
-		"Declined"
-	],
-	[
-		"107",
 		"2022-08-01",
 		"MLRS MARS II missiles arrived from Germany to Ukraine's front ",
 		"З Німеччини на український фронт прибули ракети РСЗВ MARS II",
-		"Newsweek",
-		"https://www.newsweek.com/mars-ii-missiles-join-ukraines-western-arsenal-1729740",
-		"Translated"
+		"https://www.newsweek.com/mars-ii-missiles-join-ukraines-western-arsenal-1729740"
 	],
 	[
-		"109",
 		"2022-08-01",
 		"US officials announced another $550 million in military aid will be sent to Ukraine, including 75,000 rounds of 155mm artillery ammunition and additional ammunition for High Mobility Artillery Rocket Systems (HIMARS). ",
 		"Офіційні особи США оголосили, що Україні буде надіслано ще 550 мільйонів доларів військової допомоги, включаючи 75 000 артилерійських боєприпасів калібру 155 мм і додаткові боєприпаси для високомобільних артилерійських ракетних систем (HIMARS).",
-		"Foxnews",
-		"US sending $550 million in military aid to Ukraine, including HIMARS ammunition | Fox News",
-		"Translated"
+		"US sending $550 million in military aid to Ukraine, including HIMARS ammunition | Fox News"
 	],
 	[
-		"109",
-		"2022-08-01",
-		"Еврокомиссия перевела первую половину (500 млн евро) финансовой помощи . Второй транш завтра, 2 августа.",
-		"",
-		"ec.europa.eu",
-		"EC: First tranche of the new €1 billion MFA to Ukraine (europa.eu)",
-		"Declined"
-	],
-	[
-		"111",
-		"2022-08-01",
-		"WASHINGTON ― The Biden administration will send $550 million in new lethal aid for Ukraine, including ammunition for the High Mobility Artillery Rocket System and 155mm artillery, as U.S. lawmakers and Ukrainian officials push for more.",
-		"",
-		"Yahoo news",
-		"https://news.yahoo.com/biden-send-ukraine-ammo-himars-203912673.html",
-		"Declined"
-	],
-	[
-		"110",
-		"2022-08-02",
-		"В ходе совместного телефонного разговора советник по национальной безопасности Джейк Салливан, государственный секретарь Антони Дж. Блинкен и председатель Объединенного комитета начальников штабов генерал Марк А. Милли с одной стороны и глава администрации президента Украины Андрей Ермак, министр иностранных дел Украины Дмитрий Кулеба и главнокомандующий Вооруженными силами Украины генерал Валерий Залужный с другой стороны обсудили неизменную поддержку Соединенными Штатами Украины перед лицом российской агрессии.",
-		"",
-		"THE WHITE HOUSE",
-		"https://www.whitehouse.gov/briefing-room/statements-releases/2022/08/01/readout-of-national-security-advisor-sullivan-secretary-of-state-blinken-and-chairman-of-the-joint-chiefs-of-staff-gen-milleys-call-with-ukrainian-counterparts/",
-		"Declined"
-	],
-	[
-		"112",
-		"2022-08-02",
-		"Secretary of State Antony Blinken said the Biden administration was \"deeply concerned\" that the Zaporizhzhia plant was now a Russian military base used to fire on nearby Ukrainian forces.",
-		"",
-		"Yahoo news",
-		"https://news.yahoo.com/u-accuses-russia-using-ukraines-121313045.html",
-		"Declined"
-	],
-	[
-		"113",
-		"2022-08-02",
-		"The Biden administration will send $550 million in new lethal aid for Ukraine, including ammunition for the High Mobility Artillery Rocket System and 155mm artillery",
-		"Адміністрація Байдена надасть Україні 550 мільйонів доларів нової летальної допомоги, включаючи боєприпаси для ракетно-артилерійської системи високої мобільності та 155-мм артилерії.",
-		"Global Defencse Corp",
-		"https://www.globaldefensecorp.com/2022/08/02/biden-admin-sends-more-ammo-for-himars-rocket-artillery-to-ukraine/",
-		"Approved"
-	],
-	[
-		"114",
-		"2022-08-02",
-		"Russia on Tuesday said that the United States, the world's top military power, was directly involved in the conflict in Ukraine because U.S. spies were approving and coordinating Ukrainian missile strikes on Russian forces. Russia's defence ministry, headed by a close ally of President Vladimir Putin, said Vadym Skibitsky, Ukraine's deputy head of military intelligence, had admitted to the Telegraph newspaper that Washington coordinates HIMARS missile strikes.",
-		"",
-		"Yahoo",
-		"https://finance.yahoo.com/news/1-russia-says-united-states-121925555.html",
-		"Declined"
-	],
-	[
-		"115",
-		"2022-08-02",
-		"Which Biden administration official is leaking to the New York Times’ Tom Friedman that the White House doesn’t trust Volodymyr Zelensky? Your mileage may vary, but I see two possible motives here. Possibility one is that the Biden administration just wants the Ukraine-Russia war to end, and Zelensky isn’t playing ball, so the administration is getting ready to leave Zelensky hanging out to dry. Possibility two is that the administration foresees the Ukraine-Russia war going badly, and is preparing to use Zelensky as a scapegoat. They’re laying the groundwork to argue, “we did everything we could to help the Ukrainians defend themselves, but in the end, they were too incompetent, too corrupt, and too beset by infighting.”",
-		"",
-		"National Review",
-		"https://www.nationalreview.com/corner/why-is-the-white-house-quietly-griping-about-zelensky-now/",
-		"Declined"
-	],
-	[
-		"119",
-		"2022-08-02",
-		"The Treasury and State departments on Tuesday imposed a slew of new sanctions on Russian elites and businesses, seeking to hold “enablers” of Russia’s invasion of Ukraine accountable for their alleged roles in the violence, officials said.",
-		"У вівторок Міністерство фінансів і Державний департамент запровадили низку нових санкцій проти російських еліт і компаній, намагаючись притягнути до відповідальності «організаторів» вторгнення Росії в Україну за їх нібито участь у насильстві, заявили чиновники.",
-		"Politico",
-		"https://www.politico.com/news/2022/08/02/list-of-sanctioned-russian-oligarchs-businesses-00049301",
-		"Declined"
-	],
-	[
-		"116",
-		"2022-08-03",
-		"In a bid to support the Ukrainian war effort, Miami has been collecting firearms from US citizens. The first shipment to Irpin has just been made.",
-		"",
-		"Investment Monitor",
-		"https://www.investmentmonitor.ai/special-focus/ukraine-crisis/miami-guns-ukraine-irpin-conflict-support",
-		"Declined"
-	],
-	[
-		"117",
-		"2022-08-03",
-		"The former Labour leader Jeremy Corbyn has criticised the west for arming Ukraine, arguing that its military support will prolong the war.",
-		"Колишній лідер лейбористів Джеремі Корбін критикував Захід за озброєння України, стверджуючи, що його військова підтримка продовжить війну.",
-		"Independent",
-		"https://www.independent.co.uk/news/world/europe/jeremy-corbyn-ukraine-russia-invasion-b2137091.html",
-		"Approved"
-	],
-	[
-		"118",
-		"2022-08-03",
-		"The US has begun procuring National Advanced Surface-to-Air Missile Systems (NASAMS) for Ukraine, a Pentagon official revealed at a press conference Friday.\nWashington announced the procurement as part of an $820 million military aid package on July 1 through the Ukraine Security Assistance Initiative.",
-		"",
-		"TheDefensePost",
-		"https://www.thedefensepost.com/2022/08/03/us-nasams-procurement-ukraine/",
-		"Duplicate"
-	],
-	[
-		"120",
 		"2022-08-04",
 		"Russia is working to fake evidence to claim Western rockets destroyed a jail housing Ukrainian prisoners of war, Washington warned yesterday. US intelligence officials say Russia wants it to appear that Ukrainian forces were responsible for the July 29 attack on Olenivka prison that left 53 dead.",
 		"Росія працює над підробкою доказів, щоб стверджувати, що західні ракети знищили в'язницю, де містилися українські військовополонені, попередив учора Вашингтон. Співробітники американської розвідки кажуть, що Росія хоче показати, що українські сили відповідальні за напад на Оленівську в'язницю 29 липня, у результаті якого загинули 53 людини.",
-		"Daily Mail",
-		"https://www.dailymail.co.uk/news/article-11082887/Russia-plant-evidence-blaming-West-Ukrainian-prison-camp-rocket-blast-officials-fear.html",
-		"Translated"
+		"https://www.dailymail.co.uk/news/article-11082887/Russia-plant-evidence-blaming-West-Ukrainian-prison-camp-rocket-blast-officials-fear.html"
 	],
 	[
-		"121",
 		"2022-08-04",
 		"Defence Ministry of North Makedonia neither confirms nor denies media reports that the country has donated its four Sukhoi Su-25 ground attack jets to Ukraine.",
 		"Міністерство оборони Північної Македонії не підтверджує і не спростовує повідомлення ЗМІ про те, що країна передала Україні свої чотири штурмовики Су-25.",
-		"balkaninsight",
-		"https://balkaninsight.com/2022/08/04/north-macedonia-maintains-silence-over-jet-donation-to-ukraine/",
-		"Translated"
+		"https://balkaninsight.com/2022/08/04/north-macedonia-maintains-silence-over-jet-donation-to-ukraine/"
 	],
 	[
-		"122",
 		"2022-08-04",
 		"Canada is resuming Operation Unifier - up to 225 Canadian troops have been sent to the UK to train the Ukrainian military.",
 		"Канада відновлює операцію «Unifier» – до Великої Британії направлено до 225 канадських військових для навчання українських військових.",
-		"Government of Canada",
-		"https://www.canada.ca/en/department-national-defence/news/2022/08/defence-minister-anita-anand-announces-deployment-of-canadian-armed-forces-to-train-ukrainian-soldiers-in-the-united-kingdom.html",
-		"Translated"
+		"https://www.canada.ca/en/department-national-defence/news/2022/08/defence-minister-anita-anand-announces-deployment-of-canadian-armed-forces-to-train-ukrainian-soldiers-in-the-united-kingdom.html"
 	],
 	[
-		"123",
-		"2022-08-04",
-		"Canada Defence Minister Anita Anand confirmed deployment of 225 military men as instructors to the UK to train Ukrainian soldiers",
-		"",
-		"CTV News Toronto",
-		"https://toronto.ctvnews.ca/video?clipId=2496175",
-		"Duplicate"
-	],
-	[
-		"124",
 		"2022-08-05",
 		"The Biden administration's next security assistance package for Ukraine is expected to be $1 billion, one of the largest so far, and include munitions for long-range weapons and armored medical transport vehicles, three sources briefed on the matter told Reuters on Friday.",
 		"Очікується, що наступний пакет допомоги адміністрації Байдена в галузі безпеки для України становитиме 1 мільярд доларів, один із найбільших на сьогодні, і включатиме боєприпаси для зброї далекого радіусу дії та броньованих медичних транспортних засобів, повідомили Reuters у п’ятницю три джерела, поінформовані про це питання.",
-		"Reuters",
-		"https://www.reuters.com/world/europe/exclusive-us-readies-new-1-billion-ukraine-weapons-package-2022-08-05/",
-		"Translated"
+		"https://www.reuters.com/world/europe/exclusive-us-readies-new-1-billion-ukraine-weapons-package-2022-08-05/"
 	],
 	[
-		"125",
-		"2022-08-05",
-		"Three more ships loaded with Ukrainian grain left the country's Black Sea ports Friday, the latest shipments in a deal brokered by Turkey and the United Nations to ease a growing food crisis.",
-		"Ще три судна, завантажені українським зерном, покинули чорноморські порти країни в п’ятницю, останні вантажі в рамках угоди, укладеної за посередництва Туреччини та ООН, щоб полегшити зростаючу продовольчу кризу.",
-		"USA today",
-		"https://www.usatoday.com/story/news/politics/2022/08/05/ukraine-russia-invasion-live-updates/10244424002/",
-		"Declined"
-	],
-	[
-		"126",
-		"2022-08-05",
-		"ANKARA (Reuters) - A top aide to Turkey's president said on Friday the international community cannot end the war in Ukraine by ignoring Moscow, as Tayyip Erdogan headed to Russia to meet his counterpart Vladimir Putin. The meeting, less than three weeks since they held talks in Tehran, comes after Turkey helped broker a deal to resume Ukraine's Black Sea grain exports which were blocked by Russia's invasion.",
-		"",
-		"US news",
-		"https://www.usnews.com/news/world/articles/2022-08-05/war-in-ukraine-cant-be-ended-by-ignoring-russia-erdogan-aide",
-		"Declined"
-	],
-	[
-		"127",
-		"2022-08-05",
-		"Interview Kirby to Voice of America - questions 2 and 3",
-		"",
-		"Bignewsreport",
-		"https://www.bignewsnetwork.com/news/272644055/voa-interview-national-security-council-spokesman-adm-john-kirby",
-		"Declined"
-	],
-	[
-		"128",
-		"2022-08-05",
-		"Desperate Putin is considering turning to Kim Jong Un for help in Ukraine and offering energy and grain in return for 100,000 soldiers', Russian reports claim",
-		"Відчайдушний Путін розглядає можливість звернутися до Кім Чен Ина за допомогою в Україні та пропонувати енергоносії та зерно в обмін на 100 000 солдатів, стверджують російські звіти",
-		"Daily Mail",
-		"https://www.dailymail.co.uk/galleries/article-11085097/Putin-considering-turning-Kim-Jong-help-Ukraine.html",
-		"Declined"
-	],
-	[
-		"129",
-		"2022-08-05",
-		"Bull in a china shop': Ukrainian-born GOP lawmaker rankles colleagues with her aggressive criticism of Kyiv",
-		"",
-		"CNN",
-		"https://www.cnn.com/2022/08/05/politics/victoria-spartz-ukraine-republican-reaction/index.html",
-		"Declined"
-	],
-	[
-		"130",
-		"2022-08-05",
-		"As Congress gets close to approving another $1 Billion of weaponry for Ukraine, bring the total from just the U.S. to near $10 Billion of weapons. The UK has given Ukraine more than $4 Billion in advanced weaponry, and at least another $4 Billion from the rest of Europe. And this is only the amount that has already been sent. It doesn't include the amount that is pledged.",
-		"",
-		"caucus99percent",
-		"https://caucus99percent.com/content/ukraines-corruption-and-us-weapons",
-		"Declined"
-	],
-	[
-		"131",
-		"2022-08-05",
-		"Saint Javelin, a social enterprise raising funds for Ukraine's war effort, hosted an art auction to help purchase drones for the Ukrainian army. The auction was held from 28 July to 3 August, in partnership with the Ukrainian World Congress’ Unite With Ukraine campaign and the Ukrainian government’s United24 “Army of Drones” scheme.",
-		"",
-		"Euronews",
-		"https://www.euronews.com/culture/2022/08/05/art-for-drones-how-the-auction-of-a-painting-raised-thousands-for-ukraines-war-effort",
-		"Declined"
-	],
-	[
-		"132",
-		"2022-08-05",
-		"Senator Portman was back in Washington this week where he spoke on the Senate floor for the 20th consecutive session week regarding the situation in Ukraine. Senator Portman discussed the progress made over the last five months since Russia has waged its war against innocent Ukrainians. ",
-		"",
-		"Sen. Portman website",
-		"https://www.portman.senate.gov/newsroom/robs-rundown/robs-rundown-week-august-1-august-5-2022",
-		"Declined"
-	],
-	[
-		"133",
-		"2022-08-05",
-		"Exclusive: U.S. readies new $1 billion Ukraine weapons package Ожидается, что следующий пакет помощи администрации Байдена для Украины в сфере безопасности составит $1 млрд, один из самых больших на сегодняшний день, и будет включать боеприпасы для оружия дальнего действия и бронированные медицинские транспортные средства, сообщили Reuters в пятницу три источника, осведомленные в этом вопросе.",
-		"",
-		"Reuters",
-		"https://www.reuters.com/world/europe/exclusive-us-readies-new-1-billion-ukraine-weapons-package-2022-08-05/",
-		"Duplicate"
-	],
-	[
-		"134",
 		"2022-08-06",
 		"The Swedish Defense Ministry announced Sunday that beginning August 12, it will send up to 120 instructors to the UK to conduct basic military training for Ukrainian citizens",
 		"Міністерство оборони Швеції оголосило в неділю, що з 12 серпня відправить до Великобританії до 120 інструкторів для проведення базової військової підготовки громадян України.",
-		"The Government of Sweden",
-		"https://government.se/press-releases/2022/08/sweden-to-train-ukrainian-soldiers-in-uk/",
-		"Translated"
+		"https://government.se/press-releases/2022/08/sweden-to-train-ukrainian-soldiers-in-uk/"
 	],
 	[
-		"135",
-		"2022-08-07",
-		"\"We anticipate that Russian officials will try to frame the Ukrainian Armed Forces in anticipation of journalists and potential investigators visiting the site of the attack,\" the National Security Council's Strategic Communications Coordinator John Kirby said on Thursday. \"\"\"In fact, we've already seen some spurious press reports to this effect, where they have planted evidence. And we have reason to believe that Russia would go so far as to make it appear that Ukrainian HIMARS—that have been in so much in the news lately—were to blame. And to do that before journalists arrived on site,\" he added.",
-		"",
-		"Newsweek",
-		"https://www.newsweek.com/ukraine-says-air-force-defending-sky-russia-struggles-gain-control-1731576?amp=1",
-		"Declined"
-	],
-	[
-		"136",
-		"2022-08-07",
-		"BLITZER:  Before I will let you go, quickly on Ukraine right now. \n \nUkraine is warning that Russia is stepping up its assault in the southern part of Ukraine right now. And it's urging Ukrainians, the Ukrainian government, urging Ukrainians to evacuate from the east right now. \n \nDoes Russia seem to have the upper hand in this war? \n \nKIRBY:  I don't think I'd go that far. \n \nThe fighting in the east and the south is very active. There's no doubt about that, but on both sides, and particularly on the Russian side. You're seeing smaller units achieving smaller gains here and there. And the Ukrainians are pushing right back. It's a very active battlefront. \n \nBut I don't think anybody's willing to go so far as to say that the Russians have the upper hand. Now, look, they have got more numbers, clearly. They have shorter supply lines now because they're closer to the border there with Russia. And they are trying to use more missile launches to gain leverage. \n \nBut the Ukrainians are getting arms and ammunition from the West, from the United States every single day. Those systems like the HIMARS are having a really good capability on the battlefield. They're making -- helping make -- helping the Ukrainians make gains. And so, we're going to continue that focus.)",
-		"",
-		"Real Clear Politics ",
-		"https://www.realclearpolitics.com/video/2022/08/06/whs_kirby_on_ukraine_i_dont_think_anybodys_willing_to_go_so_far_as_to_say_that_the_russians_have_the_upper_hand.amp.html",
-		"Declined"
-	],
-	[
-		"137",
 		"2022-08-07",
 		"Under Secretary of Defense Colin Kahl: \"In recent packages for Ukraine we've included a number of anti-radiation missiles that can be fired off Ukrainian aircraft. \"",
 		"Заступник міністра оборони Колін Кал: «В останні пакети для України ми включили низку протирадіаційних ракет, які можуть бути випущені з українських літаків».",
-		"The Drive",
-		"https://www.thedrive.com/the-war-zone/u-s-confirms-air-launched-anti-radiation-missiles-sent-to-ukraine",
-		"Translated"
+		"https://www.thedrive.com/the-war-zone/u-s-confirms-air-launched-anti-radiation-missiles-sent-to-ukraine"
 	],
 	[
-		"138",
-		"2022-08-07",
-		"Russian commander in charge of Europe's largest nuclear plant 'has wired it with explosives and told the Ukrainians he will blow it up if they try to take it back', Kyiv's state atomic energy firm says",
-		"",
-		"Daily Mail",
-		"https://www.dailymail.co.uk/news/article-11091763/Shelling-Europes-largest-nuclear-plant-suicidal-head-says.html",
-		"Declined"
-	],
-	[
-		"139",
-		"2022-08-07",
-		"Ukrainian women and CHILDREN are being trafficked into the UAE as sex slaves, warn defence experts",
-		"",
-		"Daily Mail",
-		"https://www.dailymail.co.uk/news/article-11088451/Ukrainian-women-children-trafficked-UAE-sex-slaves-warn-defence-experts.html",
-		"Declined"
-	],
-	[
-		"140",
-		"2022-08-07",
-		"Russian forces are using deadly butterfly mines in Donbas that maim children who mistake them for toys, Britain’s MoD warns",
-		"",
-		"Daily Mail",
-		"https://www.dailymail.co.uk/news/article-11091505/Russia-using-butterfly-mines-Donbas-maim-children-mistake-toys-MoD-warns.html",
-		"Declined"
-	],
-	[
-		"141",
 		"2022-08-02",
 		"Minister of Defense of Spain, Margarita Robles, announced that the government cannot send its Leopard 2A4 tanks to Ukraine",
 		"Міністр оборони Іспанії Маргарита Роблес заявила, що уряд не може відправити в Україну свої танки Leopard 2A4.",
-		"Grega",
-		"https://www.eurointegration.com.ua/eng/news/2022/08/2/7144289/",
-		"Translated"
+		"https://www.eurointegration.com.ua/eng/news/2022/08/2/7144289/"
 	],
 	[
-		"142",
-		"2022-08-08",
-		"The United States will send more ammunition to Ukraine, including rockets for the HIMARS launchers, the Pentagon said.\nThe new shipment of up to $1 billion worth of weapons and supplies will come from the Pentagon’s own stockpiles",
-		"Сполучені Штати надішлють Україні більше боєприпасів, включаючи ракети для пускових установок HIMARS.\nНова партія зброї та припасів на суму до 1 мільярда доларів надійде з власних запасів Пентагону",
-		"Dmitri",
-		"https://www.nytimes.com/2022/08/08/world/europe/us-ukraine-aid-russia.html",
-		"Duplicate"
-	],
-	[
-		"143",
 		"2022-08-09",
 		"The Finnish Defence Forces will send about 20 service members to Britain to assist in training volunteer members of the Ukrainian Armed Forces",
 		"Сили оборони Фінляндії (FDF) відправить близько 20 військовослужбовців до Британії для допомоги у підготовці добровольців Збройних сил України",
-		"Dmitri",
-		"https://yle.fi/news/3-12569098",
-		"Translated"
+		"https://yle.fi/news/3-12569098"
 	],
 	[
-		"144",
 		"2022-08-09",
 		"The Biden administration will provide $89 million to help Kyiv clear land mines that now litter huge swaths of Ukraine",
 		"Адміністрація Байдена виділить 89 мільйонів доларів, щоб допомогти Києву розмінувати величезні території України",
-		"Jane",
-		"https://news.yahoo.com/u-announces-89-million-help-185916017.html",
-		"Translated"
+		"https://news.yahoo.com/u-announces-89-million-help-185916017.html"
 	],
 	[
-		"145",
 		"2022-08-09",
 		"As the war in Ukraine continues with no end in sight, concerns are mounting in Washington—in both Democratic and Republican circles—that the Biden administration is holding back from supplying Ukraine with certain weapons that could give the invaded country a clear edge against Russia.",
 		"Оскільки війна в Україні триває й кінця їй не видно, у Вашингтоні — як у демократичних, так і в республіканських колах — зростає занепокоєння тим, що адміністрація Байдена утримується від постачання Україні певної зброї, яка може дати країні явну перевагу проти Росії",
-		"Jane",
-		"https://www.msn.com/en-us/news/world/lawmakers-want-better-weapons-for-ukraine-biden-isn-t-so-sure/ar-AA10sLsN",
-		"Translated"
+		"https://www.msn.com/en-us/news/world/lawmakers-want-better-weapons-for-ukraine-biden-isn-t-so-sure/ar-AA10sLsN"
 	],
 	[
-		"146",
 		"2022-08-09",
 		"Biden administration declared in separate announcements that it would provide $5.5 billion more in combined foreign aid and military weaponry to the wartorn nation of Ukraine as it continues to fight Russia’s invasion. The United States Agency for International Development (USAID) announced on Monday that it would send another $4.5 billion worth of taxpayers’ money to the Eastern European country in order to help the Ukrainian government function and provide social services for its people.",
 		"Адміністрація Байдена оголосила в окремих оголошеннях, що надасть ще 5,5 мільярдів доларів у вигляді комбінованої іноземної допомоги та військового озброєння постраждалій війною нації України, яка продовжує боротися з вторгненням Росії.. Агентство США з міжнародного розвитку (USAID) оголосило в понеділок, що спрямує до цієї східноєвропейської країни ще 4,5 мільярда доларів грошей платників податків, щоб допомогти українському уряду функціонувати та надавати соціальні послуги її громадянам.",
-		"Jane",
-		"https://www.dailywire.com/news/biden-admin-sending-5-5-billion-more-in-aid-to-ukraine",
-		"Translated"
+		"https://www.dailywire.com/news/biden-admin-sending-5-5-billion-more-in-aid-to-ukraine"
 	],
 	[
-		"147",
 		"2022-08-09",
 		"The latest $1 billion package of U.S. military assistance to Ukraine includes an undisclosed number of “GMLRS,” precision-guided missiles with a 40-mile range that are fired from HIMARS mobile launchers, along with 75,000 rounds of 155 mm artillery ammunition; 20 120 mm mortar systems with 20,000 rounds of ammunition; 1,000 more Javelin anti-armor missiles; and significantly, anti-radar missiles that can be fired from Ukrainian fighter jets and are capable on homing in on Russian anti-aircraft radars, blinding air defense systems. The Pentagon is promising a “steady stream” of the GPS-guided GMLRS missiles but no more HIMARS launchers",
 		"Останній пакет військової допомоги США Україні на суму 1 мільярд доларів включає нерозголошену кількість «GMLRS», високоточних ракет з радіусом дії 40 миль, які запускаються з мобільних пускових установок HIMARS, а також 75 000 снарядів 155-мм артилерії; 20 120-мм мінометів з 20 тис. боєприпасів; ще 1000 протитанкових ракет Javelin; і що важливо, протирадіолокаційні ракети, які можуть бути випущені з українських винищувачів і здатні наводитися на російські зенітні радари, засліплюючи системи протиповітряної оборони. Пентагон обіцяє «постійний потік» ракет GMLRS з GPS-наведенням, але не більше пускових установок HIMARS",
-		"Jane",
-		"https://www.washingtonexaminer.com/policy/defense-national-security/us-promises-steady-stream-of-himars-ammo-as-ukraine-prepares-for-southern-offensive",
-		"Translated"
+		"https://www.washingtonexaminer.com/policy/defense-national-security/us-promises-steady-stream-of-himars-ammo-as-ukraine-prepares-for-southern-offensive"
 	],
 	[
-		"148",
-		"2022-08-09",
-		"Moscow’s suspension of U.S. inspections of its nuclear weapons facilities, part of a mutual inspection agreement under the 2010 New Start Treaty, represents a blow to arms control efforts, analysts say.",
-		"Аналітики кажуть, що призупинення Москвою американських інспекцій своїх об’єктів ядерної зброї, що є частиною угоди про взаємні інспекції згідно з Договором про новий пуск 2010 року, завдає удару по зусиллям з контролю над озброєннями.",
-		"Jane",
-		"https://www.cnbc.com/2022/08/09/russia-ukraine-live-updates.html",
-		"Declined"
-	],
-	[
-		"149",
 		"2022-08-10",
 		"The Armed Forces of Ukraine have received 50 new Kirpi armored vehicles from Turkey. Another batch of 150 units is expected to be delivered soon.",
 		"Збройні сили України отримали від Туреччини 50 нових броньованих автомобілів Kirpi. Незабаром очікується поставка ще однієї партії зі 150 одиниць.",
-		"Grega",
-		"https://www.ukrinform.net/rubric-ato/3546708-armed-forces-receive-first-batch-of-50-kirpi-armored-vehicles-from-turkey.html",
-		"Translated"
+		"https://www.ukrinform.net/rubric-ato/3546708-armed-forces-receive-first-batch-of-50-kirpi-armored-vehicles-from-turkey.html"
 	],
 	[
-		"150",
-		"2022-08-09",
-		"U.S. Sending Ukraine HIMARS Missiles 'Equivalent of an Airstrike': Pentagon\n\nAmong the other weapons that will be provided to Ukraine as part of this latest assistance package (outside of the HIMARS ammunitions) are \n75,000 rounds of 155 mm artillery ammunition; \ntwenty 120 mm mortar systems and 20,000 rounds of 120 mm mortar ammunition; \nmunitions for the National Advanced Surface-to-Air Missile Systems (NASAMS); and \n1,000 Javelin and hundreds of AT4 anti-armor systems, \naccording to the Pentagon.\n\nWhat's not included in the assistance package is a weapon that Ukrainian leaders have long been requesting from the U.S. but have so far been denied: fighter jets.",
-		"Пентагон: США надсилають Україні ракети HIMARS, «еквівалентні авіаудару»\n\nСеред іншого озброєння, яке буде надано Україні в рамках цього останнього пакету допомоги (крім боєприпасів HIMARS), є\n75 тис. снарядів калібру 155 мм;\nдвадцять 120-мм мінометних систем і 20 000 снарядів до 120-мм мінометів;\nбоєприпаси для національних передових зенітно-ракетних систем (NASAMS); і\n1000 Javelin і сотні протиброньових систем AT4,\nза даними Пентагону.\n\nУ пакет допомоги не входить зброя, яку українські лідери давно вимагали від США, але досі їм відмовляли: винищувачі.",
-		"Dmitri",
-		"https://www.newsweek.com/us-ukraine-himars-missiles-equivalent-airstrike-pentagon-1732096",
-		"Duplicate"
-	],
-	[
-		"151",
-		"2022-08-10",
-		"US Secretary of State Antony Blinken met with Chinese Foreign Minister Wang Yi on Saturday, July 9, on the sidelines of the G20 Foreign Ministers summit in Bali. Blinken said that he called on Wang Yi to “stand up” against Russia’s military offensive in Ukraine and condemn the aggression. Speaking to reporters after his meeting with Wang Yi, Blinken said that China claims to be “neutral” and added that he does not think China is neutral as it supported Russia in the United Nations and “amplified Russian propaganda.”",
-		"Держсекретар США Ентоні Блінкен зустрівся з міністром закордонних справ Китаю Ван І в суботу, 9 липня, на полях саміту міністрів закордонних справ G20 на Балі. Блінкен заявив, що закликав Ван І «повстати» військовому наступу Росії в Україні та засудити агресію. У розмові з журналістами після зустрічі з Ван І Блінкен сказав, що Китай стверджує, що є «нейтральним», і додав, що він не вважає Китай нейтральним, оскільки він підтримав Росію в ООН і «посилив російську пропаганду».",
-		"Jane",
-		"https://thehongkongpost.com/2022/08/10/us-state-secy-antony-blinken-calls-on-china-to-stand-up-against-russias-war-in-ukraine/",
-		"Declined"
-	],
-	[
-		"152",
-		"2022-08-10",
-		"Responding to a question about whether the United States considers Crimea a legitimate target for Ukraine with weapons provided by the United States, Karin Jean-Pierre said: \"We support Ukraine's efforts, as you know, to protect its sovereignty and territorial integrity.\"",
-		"Відповідаючи на запитання про те, чи вважають Сполучені Штати Крим законною мішенню для України зі зброєю, наданою Сполученими Штатами, Карін Жан-П’єр сказала: «Ми підтримуємо зусилля України, як ви знаєте, захистити свій суверенітет і територіальну цілісність».",
-		"Jane",
-		"https://global.espreso.tv/crimea-strikes-a-defense-of-ukraines-sovereignty-white-house",
-		"Declined"
-	],
-	[
-		"153",
-		"2022-08-10",
-		"The U.S. is \"still considering\" a proposal to label Russia a state sponsor of terrorism, John Kirby, the National Security Council's coordinator for strategic communications at the White House, told USA TODAY on Tuesday. \"No decision has been made. The State Department is taking a look at that.\"",
-		"США все ще розглядають\" пропозицію назвати Росію державою-спонсором тероризму, заявив у вівторок USA TODAY Джон Кірбі, координатор Ради національної безпеки зі стратегічних комунікацій Білого дому. \"Жодного рішення не прийнято\". . Державний департамент придивляється до цього.",
-		"Grisha",
-		"https://www.usatoday.com/story/news/politics/2022/08/09/ukraine-russia-invasion-live-updates/10273783002/",
-		"Declined"
-	],
-	[
-		"153",
 		"2022-08-10",
 		"Germany has supplied four more Gepard anti-aircraft armoured fighting vehicles to the Ukrainian Armed Forces.\nUkraine as a whole has received 12 Gepard anti-aircraft armoured fighting vehicles from Germany. Some 49,000 shells for Gepard, and three armoured recovery vehicles have been supplied over the past few days",
 		"Німеччина поставила Збройним Силам України ще чотири бойові зенітні броньовані машини Gepard.\nУкраїна в цілому отримала від Німеччини 12 бойових зенітних броньованих машин Gepard. За останні кілька днів було поставлено близько 49 000 снарядів для Gepard і три броньовані евакуаційні машини.",
-		"Dmitri",
-		"https://caliber.az/en/post/100026/",
-		"Translated"
+		"https://caliber.az/en/post/100026/"
 	],
 	[
-		"154",
 		"2022-08-10",
 		"Ben Wallace, the British Defence Secretary, confirmed on Wednesday that London would give Ukraine three additional multiple-launch rocket systems in addition to the three already in Kyiv, as well as a \"significant\" number of rockets for them.",
 		"Міністр оборони Великої Британії Бен Воллес підтвердив у середу, що Лондон передасть Україні три додаткові реактивні системи залпового вогню на додаток до трьох, які вже є в Києві, а також «значну» кількість ракет для них.",
-		"Dmitri",
-		"https://www.pravda.com.ua/eng/news/2022/08/10/7362746/",
-		"Translated"
+		"https://www.pravda.com.ua/eng/news/2022/08/10/7362746/"
 	],
 	[
-		"155",
-		"2022-08-10",
-		"How Many HIMARS Does the U.S. Have?\n\nBy the end of 2009, about 250 HIMARS units had been produced for the Army and Marine Corps with eight battalions going to the Army and two battalions to the Marine Corps, according to Global Security.org.\n\nPlans called for about 900 of the launchers to be built, according to Military Today, which added that some sources reported 540 of the systems have been built.\n\nUkraine has 16 HIMARs, although the country's defense minister Oleksii Reznikov said in July that his country would need \"at least 100\" HIMARS to reverse Russian gains in the Donbas region.",
-		"Скільки HIMARS у США?\n\nДо кінця 2009 року було виготовлено близько 250 одиниць HIMARS для армії та Корпусу морської піхоти, з восьми батальйонів для армії та двох батальйонів для Корпусу морської піхоти, згідно з Global Security.org.\n\nЗа даними Military Today, згідно з даними Military Today, за деякими джерелами було сказано, що було побудовано близько 900 пускових установок, планується створити близько 540 пускових установок.\n\nУкраїна має 16 HIMAR, хоча міністр оборони країни Олексій Резніков заявив у липні, що його країні знадобляться «щонайменше 100» HIMARS, щоб повернути російським досягненням на Донбасі.",
-		"Dmitri",
-		"https://www.newsweek.com/russia-ukraine-himars-pentagon-1732505",
-		"Declined"
-	],
-	[
-		"156",
 		"2022-08-11",
 		"Britain and Denmark will provide more financial and military aid to Ukraine. The announcement came after defence ministers meeting in Copenhagen.",
 		"Британія та Данія нададуть Україні більше фінансової та військової допомоги. Про це заявили після зустрічі міністрів оборони в Копенгагені.",
-		"Grega",
-		"https://www.reuters.com/world/europe/denmark-will-contribute-additional-110-mln-euros-ukraine-pm-2022-08-11/",
-		"Translated"
+		"https://www.reuters.com/world/europe/denmark-will-contribute-additional-110-mln-euros-ukraine-pm-2022-08-11/"
 	],
 	[
-		"157",
-		"2022-08-11",
-		"Austin Reiterates Commitment to Ukraine\n\n“We are committed to helping Ukraine, and providing them the equipment to defend their sovereign territory,” Austin told reporters in Riga alongside Latvian Defense Minister Artis Pabriks. The US military chief also reiterated NATO’s commitment to maintain a “persistent, rotational” presence in the Baltic region to protect the alliance’s eastern flank. Russia has committed a “significant portion” of its best military equipment to the invasion of Ukraine, and retains air and sea capabilities despite heavy losses, Austin said.",
-		"Остін підтверджує відданість Україні\n\n«Ми прагнемо допомогти Україні та надати їй обладнання для захисту їхньої суверенної території», — сказав Остін журналістам у Ризі разом із міністром оборони Латвії Артісом Пабріксом. Головнокомандувач американських військ також підтвердив зобов’язання НАТО підтримувати «постійну ротаційну» присутність у Балтійському регіоні для захисту східного флангу альянсу. Росія направила «значну частину» свого найкращого військового обладнання для вторгнення в Україну та зберігає повітряний і морський потенціал, незважаючи на великі втрати, сказав Остін",
-		"Grisha ",
-		"https://www.bloomberg.com/news/articles/2022-08-10/ukraine-latest-zelenskiy-vows-to-free-russian-occupied-crimea",
-		"Logged"
-	],
-	[
-		"158",
-		"2022-08-12",
-		"New M270 MLRS, which were handed over by Britain, arrived in Ukraine - Reznikov",
-		"Нові РСЗВ М270, які передала Британія, прибули в Україну – Резніков",
-		"Dmitri",
-		"https://censor.net/en/news/3360203/new_m270_mlrs_which_were_handed_over_by_britain_arrived_in_ukraine_reznikov",
-		"Duplicate"
-	],
-	[
-		"159",
 		"2022-08-12",
 		"Sweden admits the possibility that it could produce weapons for the needs of Ukraine. This was announced by Swedish Minister of Defense Pēters Hultqvist at the conference of Western countries in Copenhagen",
 		"Швеція допускає можливість виробництва зброї для потреб України. Про це заявив міністр оборони Швеції Петерс Хультквіст на конференції західних країн у Копенгагені.",
-		"Dmitri",
-		"https://baltics.news/2022/08/12/sweden-allows-the-possibility-of-producing-weapons-for-ukraine/",
-		"Translated"
+		"https://baltics.news/2022/08/12/sweden-allows-the-possibility-of-producing-weapons-for-ukraine/"
 	],
 	[
-		"160",
 		"2022-08-12",
 		"Estonia must continue to help Ukraine and a new comprehensive military support package is being discussed, said Estonian Minister of Defense Hanno Pevkur after a meeting of 24 countries in Copenhagen",
 		"Естонія повинна продовжувати допомагати Україні, і зараз обговорюється новий комплексний пакет військової підтримки, заявив міністр оборони Естонії Ханно Певкур після зустрічі 24 країн у Копенгагені.",
-		"Grega",
-		"https://news.err.ee/1608683122/pevkur-estonia-discussing-new-military-support-package-for-ukraine",
-		"Translated"
-	],
-	[
-		"161",
-		"2022-08-14",
-		"Titled \"Fact Sheet on U.S. Security Assistance to Ukraine,\" the paper was released on August 8. It reveals that the U.S. has sent $9.1 billion worth of military assistance since Russia invaded Ukraine on February 24, including helicopters, drones and heavy artillery.",
-		"Доповідь під назвою «Довідка про безпекову допомогу США Україні» була оприлюднена 8 серпня. Вона показує, що США надіслали військову допомогу на суму 9,1 мільярда доларів після того, як Росія вторглася в Україну 24 лютого, включаючи гелікоптери, безпілотники та важку артилерію.",
-		"Grisha ",
-		"https://www.newsweek.com/himars-helmets-exactly-what-america-has-sent-ukraine-weapons-aid-1732576?amp=1",
-		"Logged"
-	],
-	[
-		"162",
-		"2022-08-11",
-		"UK to give more multiple launch rocket systems and guided missiles to Ukraine\r\n\r\nhe UK will send further multiple-launch rocket systems (MLRS) to Ukraine as part of an enduring commitment to help the country defend itself against Russia’s illegal invasion, Defence Secretary Ben Wallace has announced.\r\n\r\nBritain will also give a significant number of precision guided M31A1 missiles which can strike targets up to 80km away, enabling Ukraine to continue to defend itself against Russian heavy artillery.\r",
-		"Великобританія надасть Україні більше реактивних систем залпового вогню та керованих ракет\n\nМіністр оборони Бен Уоллес оголосив, що Велика Британія надішле Україні додаткові реактивні системи залпового вогню (РСЗВ) у рамках довготривалого зобов’язання допомогти країні захиститися від незаконного вторгнення Росії.\n\nБританія також надасть значну кількість високоточних ракет M31A1, які можуть вражати цілі на відстані до 80 км, що дозволить Україні продовжувати захищатися від російської важкої артилерії.",
-		"Dmitri",
-		"https://www.gov.uk/government/news/uk-to-give-more-multiple-launch-rocket-systems-and-guided-missiles-to-ukraine",
-		"Logged"
-	],
-	[
-		"163",
-		"2022-08-15",
-		"Латвия подарила Военно-воздушным силам (ВВС) Украины четыре вертолета, которые в скором времени будут полностью включены в воздушный флот украинской армии, сообщили агентству LETA в Министерстве обороны Латвии.",
-		"Латвія подарувала Військово-повітряним силам (ВПС) України чотири вертольоти, які незабаром будуть повністю включені до повітряного флоту української армії, повідомили агентству LETA у Міністерстві оборони Латвії.",
-		"Dmitri",
-		"https://rus.delfi.lv/news/daily/latvia/v-latvii-nachali-sbor-sredstv-na-bespilotnik-bayraktar-dlya-ukrainy.d?id=54643226",
-		"Logged"
-	],
-	[
-		"164",
-		"2022-08-16",
-		"В Латвии начали сбор средств на беспилотник Bayraktar для Украины",
-		"У Латвії розпочали збір коштів на безпілотник Bayraktar для України",
-		"Dmitri",
-		"https://rus.delfi.lv/news/daily/latvia/v-latvii-nachali-sbor-sredstv-na-bespilotnik-bayraktar-dlya-ukrainy.d?id=54643226",
-		"Logged"
-	],
-	[
-		"165",
-		"2022-08-15",
-		"Twenty-six Western nations have partnered to raise over 1.5 billion euros ($1.55 billion) of additional, long-term military support for Ukraine against the Russian invasion.\n\nThe amount pledged “will be used to supply existing weapons, missiles and ammunition, increase weapon production for Ukraine, train Ukrainian soldiers, and de-mine war-torn areas in Ukraine,” Reuters reported.\n\nThe announcement was made during the Copenhagen Conference for Northern European Defence Allies of Ukraine on August 11. It was hosted by the United Kingdom, Denmark, and Ukraine.",
-		"«Двадцять шість західних країн співпрацюють, щоб зібрати понад 1,5 мільярда євро (1,55 мільярда доларів) додаткової довгострокової військової підтримки для України проти російського вторгнення.\n\nОбіцяна сума «буде використана для постачання існуючої зброї, ракет і боєприпасів, збільшення виробництва зброї для України, навчання українських солдатів і розмінування охоплених війною районів в Україні», повідомляє Reuters.\n\nПро це було оголошено під час Копенгагенської конференції союзників України з оборони Північної Європи 11 серпня. Її приймали Велика Британія, Данія та Україна».",
-		"Dmitri",
-		"https://www.thedefensepost.com/2022/08/15/26-nations-military-aid-ukraine/",
-		"Logged"
-	],
-	[
-		"166",
-		"2022-08-15",
-		"Ukraine has received the first four of a total of eight Slovak-made Zuzana 2 howitzers. Delivery of the artillery system by the state-run company Konštrukta Defence was confirmed by the Defense Ministry on Saturday.",
-		"Україна отримала перші чотири із загальної восьми гаубиць словацького виробництва Zuzana 2. Поставку артилерійської системи державною компанією Konštrukta Defense підтвердило в суботу Міноборони.",
-		"Dmitri",
-		"https://spectator.sme.sk/c/22984476/first-zuzana-howitzers-delivered-to-ukraine.html",
-		"Logged"
-	],
-	[
-		"167",
-		"2022-08-16",
-		"The initiative, announced by Prime Minister Boris Johnson in June, began with more than a thousand British soldiers from the 11th Security Force Assistance Brigade, which specializes in training foreign militaries. About 2,000 recruits have completed the program and returned to Ukraine, British officials said. Other nations — including Canada, Denmark, Finland, the Netherlands, New Zealand and Sweden — have pledged to join the effort, which is in effect a retooled version of Operation Unifier, an international training initiative that began in 2015. In that program, troops from the United States, Britain, Canada, Denmark, Poland and Sweden, among other nations, trained about 35,000 Ukrainians.",
-		"Ініціатива, оголошена прем'єр-міністром Борисом Джонсоном у червні, почалася з більш ніж тисячі британських солдатів з 11-ї бригади допомоги силам безпеки, яка спеціалізується на навчанні іноземних військових. Близько 2000 новобранців завершили програму та повернулися в Україну, повідомили британські чиновники. Інші країни, включаючи Канаду, Данію, Фінляндію, Нідерланди, Нову Зеландію та Швецію, пообіцяли приєднатися до цих зусиль, які фактично є оновленою версією операції «Unifier», міжнародної навчальної ініціативи, яка почалася в 2015 році. У цій програмі війська зі Сполучених Штатів, Британії, Канади, Данії, Польщі та Швеції, серед інших країн, підготували близько 35 000 українців.",
-		"Jane",
-		"https://www.nytimes.com/2022/08/16/world/europe/ukraine-military-britain.html",
-		"Logged"
-	],
-	[
-		"168",
-		"2022-08-16",
-		"Finnish 120 KRH 92 mortars used by Ukrainian army — OSINT researchers\n\nTroops of the Ukrainian Navy using a Finnish 120 Krh 85 92 120mm heavy mortar manufactured by Vammas — this is the first time these mortars are seen in Ukraine and like in other cases their delivery wasn’t announced by Finland,” Ukraine Weapons Tracker reports.",
-		"OSINT-дослідники ідентифікували фінські міномети 120 KRH 92 в українських військових\n\n“Війська ВМС України використовують фінський важкий міномет 120 Krh 92 85 120 мм виробництва Vammas – це вперше, коли ці міномети бачать в Україні, і, як і в інших випадках, Фінляндія не анонсувала їх поставку“, – йдеться в повідомленні Ukraine Weapons Tracker.",
-		"Dmitri",
-		"https://mil.in.ua/en/news/finnish-120-krh-92-mortars-used-by-ukrainian-army-osint-researchers/",
-		"Logged"
-	],
-	[
-		"169",
-		"2022-08-15",
-		"Ambassador Mariana Betsa met with Minister of Defense of Estonia Hanno Pevkur. \nMinister Hanno Pevkur confirmed that Estonia will continue to support Ukraine, including through additional military aid.",
-		"Посол Мар’яна Беца провела зустріч з Міністром оборони Естонії Ханно Певкуром.\nМіністр Ханно Певкур підтвердив, що Естонія й надалі підтримуватиме Україну, у тому числі шляхом додаткової військової допомоги. ",
-		"Grega",
-		"https://estonia.mfa.gov.ua/en/news/posol-maryana-beca-provela-zustrich-z-ministrom-oboroni-estoniyi-hanno-pevkurom",
-		"Logged"
-	],
-	[
-		"170",
-		"2022-08-17",
-		"Nineteen retired US generals and former officials have called on the Biden administration to step up the pace of arms supplies to Ukraine or run the risk of “unintentionally seizing defeat from the jaws of victory”. They said that the US was providing enough weaponry to ensure a stalemate but not sufficient to help Ukraine recapture territory seized by Russia. The former officers, diplomats and other officials argue the administration is inhibited by fear of triggering a Russian escalation, possibly involving nuclear weapons – but they argue that failure to defeat Vladimir Putin in Ukraine increases the danger of a confrontation with Moscow later “on less favourable grounds”.",
-		"Дев'ятнадцять американських генералів у відставці та колишніх чиновників закликали адміністрацію Байдена збільшити темпи поставок зброї в Україну, інакше ризикують «ненавмисно отримати поразку з пащі перемоги». Вони сказали, що США надають достатньо зброї, щоб забезпечити тупикову ситуацію, але недостатньо, щоб допомогти Україні повернути територію, захоплену Росією. Колишні офіцери, дипломати та інші офіційні особи стверджують, що адміністрацію гальмує страх спровокувати ескалацію російської ескалації, можливо, із застосуванням ядерної зброї, але вони стверджують, що нездатність перемогти Володимира Путіна в Україні збільшує небезпеку конфронтації з Москвою пізніше «на менш сприятливих умовах». підстави”.",
-		"Jane",
-		"https://www.theguardian.com/us-news/2022/aug/17/us-ukraine-arms-supply-retired-generals-officials",
-		"Logged"
-	],
-	[
-		"171",
-		"2022-08-18",
-		"Jaroslav Nad', Slovakia's defence minister has stated that the Government of Slovakia will not stop providing military support to Ukraine despite all Russia’s efforts to influence public opinion in his country on this matter",
-		"Міністр оборони Словаччини Ярослав Надь заявив, що уряд Словаччини не припинить надавати військову підтримку Україні, незважаючи на всі зусилля Росії вплинути на громадську думку в його країні з цього приводу.",
-		"Grisha ",
-		"https://www.ukrinform.net/amp/rubric-ato/3553050-slovakia-to-send-weapons-to-ukraine-despite-russias-efforts-to-prevent-supplies-defence-minister.html",
-		"Logged"
-	],
-	[
-		"172",
-		"2022-08-18",
-		"“We support Ukraine with the weapons we supply so that Ukraine can protect its territorial integrity and sovereignty” said Germany’s Chancellor Olaf Scholz. He was answering a question on whether the Armed Forces of Ukraine can use weapons provided by Germany and Sweden to return Crimea.",
-		"Ми підтримуємо Україну зброєю, яку постачаємо, щоб Україна могла захистити свою територіальну цілісність і суверенітет», – заявив канцлер Німеччини Олаф Шольц. Про це він відповідав на запитання, чи можуть Збройні сили України використати для повернення Криму зброю, надану Німеччиною та Швецією.",
-		"Grisha ",
-		"https://www.kyivpost.com/russias-war/ukraine-has-the-right-to-use-weapons-to-retake-crimea-leaders-of-germany-sweden.html",
-		"Logged"
-	],
-	[
-		"173",
-		"2022-08-18",
-		"Biden administration readies about $800 mln in additional security aid for Ukraine -sources\n\nWASHINGTON, Aug 18 (Reuters) - President Joe Biden's administration is readying about $800 million of additional military aid to Ukraine and could announce it as soon as Friday, three sources familiar with the matter said on Thursday.",
-		"Адміністрація Байдена готує близько 800 мільйонів доларів на додаткову безпекову допомогу Україні – джерела\n\nВАШИНГТОН, 18 серпня (Reuters) – Адміністрація президента Джо Байдена готує близько 800 мільйонів доларів додаткової військової допомоги Україні та може оголосити про це вже в п’ятницю, повідомили в четвер три джерела, знайомі з цим питанням.",
-		"Dmitri",
-		"https://www.reuters.com/world/biden-administration-readies-about-800-mln-additional-security-aid-ukraine-2022-08-18/",
-		"Logged"
-	],
-	[
-		"174",
-		"2022-08-25",
-		"A European Powerhouse: Polish Military Aid To Ukraine\r\n\r\nFew countries have offered Ukraine even half the extent of military support that Poland has provided. Polish military aid to Ukraine has so far encompassed well over 300 armoured fighting vehicles (AFVs), including over 230 tanks and some 110 pieces of self-propelled guns and multiple rocket launchers, amongst a host of other weapon types.\r",
-		"Європейська сила: польська військова допомога Україні\r\n\r\nНебагато країн запропонували Україні хоча б половину військової підтримки, яку надала Польща. Польська військова допомога Україні на сьогоднішній день включає понад 300 бойових броньованих машин (ББМ), у тому числі понад 230 танків та близько 110 самохідних гармат та реактивних систем залпового вогню, а також безліч інших видів зброї.\r",
-		"Dmitri",
-		"https://www.oryxspioenkop.com/2022/08/a-european-powerhouse-polish-military.html",
-		"Logged"
-	],
-	[
-		"",
-		"",
-		"\n"
+		"https://news.err.ee/1608683122/pevkur-estonia-discussing-new-military-support-package-for-ukraine"
 	]
 ]

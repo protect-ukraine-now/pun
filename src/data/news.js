@@ -1,18 +1,11 @@
-function news({ news }, { from, till, language }) {
-    news = news.map(([id, date, en, ua, author, source, status]) => ({
+function news({ news }, { language }) {
+    news = news.map(([date, en, ua, source]) => ({
         date,
         text: { en, ua }[language],
         source,
-        status,
     }))
     // console.log(news)
-    news = news.filter(({ date, text, status }) =>
-        date >= from && date <= till
-        && text !== ''
-        && (status === 'Translated' || status === 'Published')
-    )
-    // console.log(news)
-    return news.sort((a, b) => new Date(a.date) - new Date(b.date))
+    return news.sort((a, b) => new Date(b.date) - new Date(a.date))
 }
 
 module.exports = news
