@@ -59,6 +59,7 @@
     "rambda": "^7.1.4",
     "react-icons": "^4.4.0",
     "react-lite-youtube-embed": "^2.2.2",
+    "recharts": "^2.1.13",
     "reset-css": "^5.0.1"
   },
   "jest": {

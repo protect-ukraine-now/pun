@@ -8,7 +8,7 @@ import IconCell from './IconCell';
 import DataCell from './DataCell';
 import Container from '../Container';
 import { useLanguage } from '../../tools/language';
-import { formatDate } from '../../tools/dates';
+import { formatDate } from '../../tools/date';
 import { Fragment } from 'preact';
 import { useCallback, useMemo } from 'preact/hooks';
 

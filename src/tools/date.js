@@ -2,18 +2,17 @@ import ukrLocale from 'date-fns/locale/uk';
 import engLocale from 'date-fns/locale/en-US';
 import format from 'date-fns/format';
 
-const LocaleDateMap = {
+const localeMap = {
 	en: engLocale,
 	ua: ukrLocale
 }
 
 const getDateLocale = locale => {
-	return LocaleDateMap[locale] ? LocaleDateMap[locale] : LocaleDateMap.en;
+	return localeMap[locale] || localeMap.en;
 }
 
-export const formatDate = language => date => {
+export const formatDate = language => (date, fmt = 'd MMMM yyyy') => {
 	const locale = getDateLocale(language);
-
-	return format(new Date(date), 'd MMMM yyyy', { locale }) // .toUpperCase()
+	return format(new Date(date), fmt, { locale }) // .toUpperCase()
 }
 

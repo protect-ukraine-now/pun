@@ -3,7 +3,7 @@ import { Fragment } from 'preact'
 import { groupBy } from 'rambda'
 // import Markdown from 'markdown-to-jsx'
 
-import { formatDate } from '../../tools/dates'
+import { formatDate } from '../../tools/date'
 
 import style from './style.scss'
 import Container from '../../components/Container'

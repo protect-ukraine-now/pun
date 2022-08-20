@@ -17,6 +17,11 @@
 			"russia": "Russia had",
 			"total": "Total"
 		},
+		"aid_chart": {
+			"title": "US Military Aid ($$ millis)",
+			"weekly": "Weekly",
+			"cumulative": "Cumulative"
+		},
 		"weapon_category": {
 			"Towed Artillery": "Towed Artillery",
 			"Self-Propelled Artillery": "Self-Propelled Artillery",
@@ -51,6 +56,11 @@
 			"rest": "Інші країни",
 			"russia": "Росія мала",
 			"total": "Всього "
+		},
+		"aid_chart": {
+			"title": "Військова допомога США (мільйони $$)",
+			"weekly": "В тиждень",
+			"cumulative": "Сукупна"
 		},
 		"weapon_category": {
 			"Towed Artillery": "Буксирувана артилерія",

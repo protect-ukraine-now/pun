@@ -26,6 +26,10 @@ const spreadsheets = {
         range: "'Weapons'",
         transform: transformCommits,
     },
+    money: {
+        id: '1zJuvhRLAKPuVrtaA-xTm2KvVwRZjInDuA4M9k7HZT1E',
+        range: "'Money'",
+    },
     russia: {
         id: '1zJuvhRLAKPuVrtaA-xTm2KvVwRZjInDuA4M9k7HZT1E',
         range: "'russia'",
