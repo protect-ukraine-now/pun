@@ -5,6 +5,7 @@
 		},
 		"seo": {},
 		"menu": {
+			"news": "News",
 			"report": "Military Aid",
 			"letter": "Letter to Congress"
 		},
@@ -40,6 +41,7 @@
 		"site": {},
 		"seo": {},
 		"menu": {
+			"news": "Новини",
 			"report": "Військова допомога",
 			"letter": "Лист до Конгресу"
 		},
