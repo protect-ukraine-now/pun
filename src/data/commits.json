@@ -235,10 +235,10 @@
 		"Approved",
 		"Poland",
 		"Tank",
-		"T-72",
+		"T-72 and T-72M1",
 		"230",
 		"",
-		"saveualist",
+		"also there are shipments of T-91 Twardy tank, its quantities are not specified",
 		"https://www.polskieradio.pl/395/7785/Artykul/2948382",
 		"Poland has sent over 200 tanks to Ukraine: IAR",
 		"Польша поставила Украине более 200 танков Т-72 и несколько десятков БМП - Русская редакция - polskieradio.pl"
@@ -446,11 +446,11 @@
 		"Slovakia",
 		"Self-Propelled Artillery",
 		"Zuzana 2 155mm",
-		"8",
+		"16",
 		"",
 		"saveualist, not confirmed by Kiel",
 		"https://twitter.com/JaroNad/status/1531289896048111616",
-		"GERMANY REVEALS FULL LIST OF MILITARY AID TO UKRAINE",
+		"",
 		"https://www.himalayaustralia.com.au/2022/06/23/germany-reveals-full-list-of-military-aid-to-ukraine/"
 	],
 	[
@@ -461,11 +461,12 @@
 		"Poland",
 		"Self-Propelled Artillery",
 		"AHS Krab 155mm",
-		"60",
+		"54",
 		"",
-		"saveualist, purchase",
+		"the quantity changed from 60 when more precise information on contract appeared in media",
 		"https://gospodarka.dziennik.pl/news/artykuly/8432488,polska-kraby-ukraina.html?s=09",
-		"Polska sprzedaje Kraby Ukrainie"
+		"Polska sprzedaje Kraby Ukrainie",
+		"https://defence24.com/industry/poland-sells-its-krab-howitzers-to-ukraine-a-record-breaking-contract"
 	],
 	[
 		"2022-06-05",
@@ -579,7 +580,7 @@
 		"2022-06-17",
 		"Alexander Entin",
 		"",
-		"Draft",
+		"Approved",
 		"UK",
 		"Self-Propelled Artillery",
 		"M109 155mm",
@@ -919,14 +920,14 @@
 		"2022-06-30",
 		"Alexander Entin",
 		"",
-		"Draft",
+		"Approved",
 		"UK",
 		"Towed Artillery",
 		"L119 105mm",
-		"50",
+		"36",
 		"",
 		"saveualist",
-		"https://gagadget.com/en/133189-a-good-addition-to-the-m777-ukrainian-gunners-will-receive-105-mm-british-howitzers-l119/",
+		"https://www.gov.uk/government/news/uk-to-send-scores-of-artillery-guns-and-hundreds-of-drones-to-ukraine",
 		"A good addition to the M777: Ukrainian gunners will receive 105-mm British howitzers L119"
 	],
 	[
@@ -1020,7 +1021,7 @@
 		"Slovakia",
 		"Tank",
 		"T-72-M",
-		"",
+		"2",
 		"",
 		"Slovakia PM's announcement on state Czech TV (41st minute), date and quantities are not specified",
 		"https://ct24.ceskatelevize.cz/domaci/3512984-zive-hosty-otazek-vaclava-moravce-jsou-predsedove-vlad-ceska-a-slovenska"
@@ -1268,8 +1269,8 @@
 		"Draft",
 		"North Macedonia",
 		"Tank",
-		"",
-		"",
+		"T-72",
+		"8",
 		"",
 		"not disclosed quantity and time",
 		"https://www.reuters.com/world/europe/nmacedonia-donates-tanks-ukraine-it-modernises-own-military-2022-07-29/",
@@ -1342,7 +1343,8 @@
 		"200",
 		"",
 		"50 are in Ukraine, 150 will be delivered",
-		"https://www.ukrinform.net/rubric-ato/3546708-armed-forces-receive-first-batch-of-50-kirpi-armored-vehicles-from-turkey.html"
+		"https://www.ukrinform.net/rubric-ato/3546708-armed-forces-receive-first-batch-of-50-kirpi-armored-vehicles-from-turkey.html",
+		"Armed Forces receive first batch of 50 Kirpi armored vehicles from Turkey"
 	],
 	[
 		"2022-08-10",
@@ -1358,5 +1360,33 @@
 		"https://www.gov.uk/government/news/uk-to-give-more-multiple-launch-rocket-systems-and-guided-missiles-to-ukraine",
 		"UK to give more multiple launch rocket systems and guided missiles to Ukraine",
 		"https://kyivindependent.com/news-feed/bbc-uk-to-provide-ukraine-with-three-additional-mlrs"
+	],
+	[
+		"2022-08-08",
+		"Alexander Entin",
+		"",
+		"Draft",
+		"US",
+		"Other Armored Vehicle",
+		"armored medical treatment vehicles",
+		"50",
+		"",
+		"",
+		"https://www.defense.gov/News/Releases/Release/Article/3120059/1-billion-in-additional-security-assistance-for-ukraine/",
+		"The United States will send more ammunition to Ukraine, including rockets for the HIMARS launchers"
+	],
+	[
+		"2022-08-13",
+		"Grega",
+		"",
+		"Draft",
+		"Croatia",
+		"Towed Artillery",
+		"M-46 130 mm",
+		"15",
+		"",
+		"exact numbers are not known, no official confirmation",
+		"https://www.shephardmedia.com/news/landwarfareintl/croatia-donates-m-46-field-guns-to-ukraine/",
+		"Croatia donates M-46 field guns to Ukraine"
 	]
 ]
