@@ -10,8 +10,8 @@ export let Report = till => {
     if (!till) return
     let t = new Date(till).valueOf()
     let from = isoDate(t - timespan + DAY)
-    let prev = till > first && isoDate(t - timespan)
-    let next = till < latest && isoDate(t + DAY)
+    let prev = till > first  && isoDate(t - timespan)
+    let next = till < latest && isoDate(t + timespan)
     return { from, till, prev, next }
 }
 

@@ -13,6 +13,7 @@ import Container from '../Container';
 const Dashboard = ({ language }) => {
 	// console.log('Dashboard', props)
 	const [report, setReport] = useState(latestReport)
+	console.log('Dashboard', report)
 	let data = useMemo(() => prepareReport(report), [report])
 	let { from, till, prev, next } = report
 	const formatter = formatDate(language)
