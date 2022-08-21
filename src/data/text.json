@@ -23,6 +23,9 @@
 			"week": "Weekly",
 			"cumulative": "Cumulative"
 		},
+		"news": {
+			"source": "source"
+		},
 		"weapon_category": {
 			"Towed Artillery": "Towed Artillery",
 			"Self-Propelled Artillery": "Self-Propelled Artillery",
@@ -61,8 +64,11 @@
 		},
 		"aid_chart": {
 			"title": "Військова допомога США (мільйони $$)",
-			"week": "В тиждень",
+			"week": "За тиждень",
 			"cumulative": "Сукупно"
+		},
+		"news": {
+			"source": "джерело"
 		},
 		"weapon_category": {
 			"Towed Artillery": "Буксирувана артилерія",

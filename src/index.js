@@ -11,11 +11,11 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 
 // Code-splitting is automated for routes
-import Home from './routes/home'
-import News from './routes/news'
-import Letter from './routes/letter'
-import Report from './routes/report'
-import NotFoundPage from './routes/notfound'
+import Home from './_routes/home'
+import News from './_routes/news'
+import Letter from './_routes/letter'
+import Report from './_routes/report'
+import NotFoundPage from './_routes/notfound'
 
 export default function App(props) {
 	// console.log('App', props)

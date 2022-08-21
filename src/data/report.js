@@ -1,5 +1,21 @@
 import commits from './commits.json'
 import russia from './russia.json'
+import { isoDate, DAY } from '../tools/date'
+
+let first = '2022-07-17'
+let latest = '2022-08-14'
+
+let timespan = 14 * DAY
+export let Report = till => {
+    if (!till) return
+    let t = new Date(till).valueOf()
+    let from = isoDate(t - timespan + DAY)
+    let prev = till > first && isoDate(t - timespan)
+    let next = till < latest && isoDate(t + DAY)
+    return { from, till, prev, next }
+}
+
+export let latestReport = Report(latest)
 
 const CATEGORIES = [
     'Towed Artillery',
@@ -14,7 +30,7 @@ const CATEGORIES = [
     'Other Armored Vehicle',
 ]
 
-export default function report({ from, till }) {
+export function prepareReport({ from, till }) {
     let byCategory = commits.slice(1).reduce((byCategory, r) => {
         let [date, country, category, type, qty, link, title] = r
         if (date <= till) {

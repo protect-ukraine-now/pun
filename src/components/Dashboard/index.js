@@ -1,56 +1,53 @@
-import { useCallback, useMemo } from 'preact/hooks';
+import { useState, useMemo } from 'preact/hooks';
 import { Link } from 'preact-router';
 import { Text } from 'preact-i18n';
 import cn from 'classnames';
 
 import style from './style.scss';
+import { latestReport, prepareReport, Report } from '../../data/report'
+import { formatDate } from '../../tools/date';
 import IconCell from './IconCell';
 import DataCell from './DataCell';
 import Container from '../Container';
-import { useLanguage } from '../../tools/language';
-import { formatDate } from '../../tools/date';
 
-const Dashboard = (props) => {
+const Dashboard = ({ language }) => {
 	// console.log('Dashboard', props)
-	const language = useLanguage();
-
-	const formatter = formatDate(language);
-
-	let { from, till, prev, next, data } = props;
+	const [report, setReport] = useState(latestReport)
+	let data = useMemo(() => prepareReport(report), [report])
+	let { from, till, prev, next } = report
+	const formatter = formatDate(language)
 	from = formatter(from);
 	till = formatter(till);
 
 	const left = data.slice(0, data.length / 2);
 	const right = data.slice(-data.length / 2);
 
-	const headLayout = useMemo(() => {
-		return (
-			<div className={cn(style.row, style.headRow)}>
-				<div className={style.head}/>
-				<div className={style.head}>
-					<Text id="report.usa">USA</Text>
-				</div>
-				<div className={style.head}>
-					<Text id="report.rest">Others</Text>
-				</div>
+	const headLayout = (
+		<div className={cn(style.row, style.headRow)}>
+			<div className={style.head}/>
+			<div className={style.head}>
+				<Text id="report.usa">USA</Text>
 			</div>
-		);
-	}, []);
+			<div className={style.head}>
+				<Text id="report.rest">Others</Text>
+			</div>
+		</div>
+	)
 
-	const rowsRenderer = useCallback(({ category, values: [usa, rest, russia] }) => (
+	const rowsRenderer = ({ category, values: [usa, rest] }) => (
 		<div className={style.row}>
 			<IconCell category={category}/>
 			<DataCell className={style.valueCell} {...usa} key={`${category}-USA`}/>
 			<DataCell className={style.valueCell} {...rest} key={`${category}-rest`}/>
 		</div>
-	), []);
+	)
 
-	const renderTableLayout = useCallback((tableData) => (
+	const renderTableLayout = tableData => (
 		<div className={style.table}>
 			{headLayout}
-			{tableData && tableData.length ? tableData.map(rowsRenderer) : null}
+			{tableData.map(rowsRenderer)}
 		</div>
-	), [headLayout, rowsRenderer]);
+	)
 
 	return (
 		<Container>
@@ -67,14 +64,20 @@ const Dashboard = (props) => {
 					<div className={style.nav}>
 						<Link
 							className={style.navLink}
-							{...prev && { href: `/${language}/report/${prev}` }}
+							{...prev && {
+								href: `#`,
+								onClick: () => setReport(Report(prev)),
+							}}
 						>
 							{'← '}
 						</Link>
 						<Text id="report.timespan">2 weeks</Text>
 						<Link
 							className={style.navLink}
-							{...next && { href: `/${language}/report/${next}` }}
+							{...next && {
+								href: `#`,
+								onClick: () => setReport(Report(next)),
+							}}
 						>
 							{' →'}
 						</Link>
