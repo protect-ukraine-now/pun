@@ -16,7 +16,7 @@
 			"rest": "Other Countries",
 			"russia": "Russia had",
 			"total": "Total",
-			"description": "Includes both purchases and donations, both already delivered and only promised"
+			"description": "Includes both donations and purchases, both already delivered and only promised"
 		},
 		"aid_chart": {
 			"title": "US Military Aid ($$ millis)",
@@ -57,12 +57,12 @@
 			"rest": "Інші країни",
 			"russia": "Росія мала",
 			"total": "Всього ",
-			"description": "Включає як покупки, так і безкоштовну допомогу, як вже доставлені, так і лише обіцяні"
+			"description": "Включає як безкоштовну допомогу, так і покупки, як вже доставлене так і лише обіцяне"
 		},
 		"aid_chart": {
 			"title": "Військова допомога США (мільйони $$)",
 			"week": "В тиждень",
-			"cumulative": "Сукупна"
+			"cumulative": "Сукупно"
 		},
 		"weapon_category": {
 			"Towed Artillery": "Буксирувана артилерія",

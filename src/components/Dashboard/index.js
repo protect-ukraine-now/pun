@@ -85,6 +85,7 @@ const Dashboard = (props) => {
 			<div className={style.splitter}>
 				{[left, right].map(renderTableLayout)}
 			</div>
+			<p><Text id="report.description" /></p>
 		</Container>
 	);
 };

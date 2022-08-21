@@ -213,7 +213,7 @@
 		"M113",
 		"20",
 		"https://defence-blog.com/ukraine-to-get-more-m113-armored-personnel-carriers-from-lithuania/",
-		null
+		""
 	],
 	[
 		"2022-05-25",
@@ -250,15 +250,6 @@
 		"18",
 		"https://polskieradio24.pl/5/1222/Artykul/2968446,Polskie-armatohaubice-KRAB-trafily-do-ukrainskiej-armii?utm_source=polskieradio.pl&utm_medium=mozaika&utm_campaign=mozaika",
 		"Poland will hand over the 155-mm Krab AHS self-propelled howitzers to Ukraine"
-	],
-	[
-		"2022-05-30",
-		"Slovakia",
-		"Self-Propelled Artillery",
-		"Zuzana 2 155mm",
-		"16",
-		"https://twitter.com/JaroNad/status/1531289896048111616",
-		""
 	],
 	[
 		"2022-06-01",
@@ -844,5 +835,14 @@
 		"6",
 		"https://www.mod.gov.lv/lv/zinas/latvija-piegada-ukrainai-sesas-pasgajejhaubices-m109a5oe",
 		"Latvija piegādā Ukrainai sešas pašgājējhaubices “M109A5Oe”"
+	],
+	[
+		"2022-08-15",
+		"Slovakia",
+		"Self-Propelled Artillery",
+		"Zuzana 2 155mm",
+		"8",
+		"https://spectator.sme.sk/c/22984476/first-zuzana-howitzers-delivered-to-ukraine.html",
+		"First Zuzana howitzers delivered to Ukraine"
 	]
 ]

@@ -1,6 +1,5 @@
 import { Text as Translate } from 'preact-i18n'
 import { translate } from '../../tools/language'
-// import { VictoryChart, VictoryLabel, VictoryBar, VictoryLine, VictoryAxis } from 'victory'
 // import { ComposedChart, XAxis, YAxis, Tooltip, Line, Bar, Legend } from 'recharts'
 import { ComposedChart } from 'recharts/es6/chart/ComposedChart'
 import { Bar } from 'recharts/es6/cartesian/Bar'
@@ -64,14 +63,55 @@ export default function AidChart({ language }) {
                     <Line dataKey={cumulative} stroke="#ff7300" />
                 </ComposedChart>
             </ResponsiveContainer>
-            {/* <VictoryChart>
-                <VictoryBar data={weekly} />
-                <VictoryLine data={cumulativeulative} />
-                <VictoryAxis
-                    tickFormat={date => formatDate(language)(date, format)}
-                />
-                <VictoryAxis dependentAxis />
-            </VictoryChart> */}
         </>
     )
 }
+
+// import { Text as Translate } from 'preact-i18n'
+// import { translate } from '../../tools/language'
+// import { VictoryChart, VictoryLabel, VictoryBar, VictoryLine, VictoryAxis, VictoryTooltip, VictoryTheme } from 'victory'
+
+// import './index.css'
+// import money from '../../data/money.json'
+// import { formatDate } from '../../tools/date'
+
+// export default function AidChart({ language }) {
+//     let week = translate('aid_chart.week') || 'week'
+//     let cumulative = translate('aid_chart.cumulative') || 'cumulative'
+//     let format = language === 'en' ? 'MMMM d' : 'd MMMM'
+
+//     let data = money.reduce((a, [date, amt], i) => {
+//         amt = parseInt(amt) || 0
+//         return [
+//             ...a,
+//             {
+//                 date: formatDate(language)(date, format),
+//                 [week]: amt,
+//                 [cumulative]: (i ? a[i - 1][cumulative] : 0) + amt
+//             }
+//         ]
+//     }, [])
+
+//     console.log('AidChart', data)
+
+//     return (
+//         <>
+//             <h1><Translate id="aid_chart.title">US Military Aid ($$ millis)</Translate></h1>
+//             <VictoryChart
+//                 width={800} height={350}
+//                 theme={VictoryTheme.material}
+//             >
+//                 <VictoryBar
+//                     data={data} x="date" y={week}
+//                     labels={({ datum }) => datum[week]}
+//                     labelComponent={<VictoryTooltip />}
+//                 />
+//                 <VictoryLine data={data} x="date" y={cumulative} />
+//                 <VictoryAxis
+//                     tickFormat={x => x.split(' ').map(x => x.slice(0, 3)).join('\n')}
+//                 />
+//                 <VictoryAxis dependentAxis />
+//             </VictoryChart>
+//         </>
+//     )
+// }
