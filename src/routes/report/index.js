@@ -10,7 +10,7 @@ export default function Report(props) {
 	// console.log('Report props', props)
 	const [data, isLoading] = usePrerenderData(props);
 	if (isLoading) return <div style={{ height: '200%' }} />
-	console.log('Report data', data)
+	// console.log('Report data', data)
 	let report = data.data
 	report.data = prepareReport(report)
 	return (
