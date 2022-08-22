@@ -83,10 +83,10 @@
   );
 
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 2fr 1fr 1fr;
 
   @include max-w(mobile) {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
   }
 
   &:not(:first-child) {
@@ -101,12 +101,12 @@
 .row {
   display: contents;
 
-  &:not(.headRow):hover {
+  // &:not(.headRow):hover {
 
-    .cell {
-      background: $color-sky-blue;
-    }
-  }
+  //   .cell {
+  //     background: $color-sky-blue;
+  //   }
+  // }
 }
 
 .head,
@@ -204,7 +204,7 @@
 
 .category {
   display: flex;
-  flex-flow: column;
+  // flex-flow: column;
   align-items: center;
 }
 

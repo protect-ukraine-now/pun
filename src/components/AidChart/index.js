@@ -42,7 +42,7 @@ export default function AidChart({ language }) {
             // title: "Week",
             slantedText: false,
             maxAlternation: 1,
-            maxTextLines: 2,
+            // maxTextLines: 2,
             // textPosition: 'in',
         },
         vAxis: {
@@ -59,7 +59,9 @@ export default function AidChart({ language }) {
 
     return (
         <Container>
-            <h1 className={style.heading}><Text id="aid_chart.title">US Military Aid ($$ millis)</Text></h1>
+            <h1 className={style.heading}>
+                <Text id="aid_chart.title">US Military Aid</Text>
+            </h1>
             <Chart
                 chartType="ComboChart"
                 width="100%"

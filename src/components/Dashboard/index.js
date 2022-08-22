@@ -6,6 +6,7 @@ import cn from 'classnames';
 import style from './style.scss';
 import { latestReport, prepareReport, Report } from '../../data/report'
 import { formatDate } from '../../tools/date';
+import { translate } from '../../tools/language'
 import IconCell from './IconCell';
 import DataCell from './DataCell';
 import Container from '../Container';
@@ -25,7 +26,8 @@ const Dashboard = ({ language }) => {
 
 	const headLayout = (
 		<div className={cn(style.row, style.headRow)}>
-			<div className={style.head}/>
+			<div className={style.head} />
+			<div className={style.head} />
 			<div className={style.head}>
 				<Text id="report.usa">USA</Text>
 			</div>
@@ -38,6 +40,9 @@ const Dashboard = ({ language }) => {
 	const rowsRenderer = ({ category, values: [usa, rest] }) => (
 		<div className={style.row}>
 			<IconCell category={category}/>
+			<div className={style.category}>
+				<Text id={`weapon_category.${category}`}>{category}</Text>
+			</div>
 			<DataCell className={style.valueCell} {...usa} key={`${category}-USA`}/>
 			<DataCell className={style.valueCell} {...rest} key={`${category}-rest`}/>
 		</div>
