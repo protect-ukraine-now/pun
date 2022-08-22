@@ -19,7 +19,8 @@
 			"description": "Includes both donations and purchases, both already delivered and only promised"
 		},
 		"aid_chart": {
-			"title": "US Military Aid ($$ millis)",
+			"title": "US Military Aid",
+			"measure": "$ millions",
 			"week": "Weekly",
 			"cumulative": "Cumulative"
 		},
@@ -63,7 +64,8 @@
 			"description": "Включає як безкоштовну допомогу, так і покупки, як вже доставлене так і лише обіцяне"
 		},
 		"aid_chart": {
-			"title": "Військова допомога США (мільйони $$)",
+			"title": "Військова допомога США",
+			"measure": "мільйони $",
 			"week": "За тиждень",
 			"cumulative": "Сукупно"
 		},

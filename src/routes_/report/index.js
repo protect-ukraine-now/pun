@@ -10,7 +10,7 @@ export default function Report(props) {
 			<Container className={style.container}>
 				<Dashboard {...props} />
 			</Container>
-			<Container className={style.digest}>
+			<Container className={style.chart}>
 				<AidChart {...props} />
 			</Container>
 		</>

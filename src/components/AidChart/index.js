@@ -3,47 +3,63 @@ import { translate } from '../../tools/language'
 // import { ComposedChart, XAxis, YAxis, Tooltip, Line, Bar, Legend } from 'recharts'
 import { Chart } from "react-google-charts"
 
+import style from './style.scss'
 import money from '../../data/money.json'
 import { formatDate } from '../../tools/date'
+import Container from '../Container'
 
 export default function AidChart({ language }) {
     let week = translate('aid_chart.week') || 'week'
     let cumulative = translate('aid_chart.cumulative') || 'cumulative'
-    let format = language === 'en' ? 'MMMM d' : 'd MMMM'
 
-    const options = {
-        title: translate('aid_chart.title'),
-        // vAxis: { title: "$ millions" },
-        hAxis: {
-            // title: "Week",
-            slantedText: false,
-            maxAlternation: 1,
-            maxTextLines: 2,
-        },
-        legend: { position: 'bottom' },
-        seriesType: "bars",
-        series: { 1: { type: "line" } },
-    }
-
-    const data = [
+    let data = [
         ['date', week, cumulative],
         ...money.reduce((a, [date, amt], i) => {
+            date = formatDate(language)(date, 'd MMMM')
             amt = parseInt(amt) || 0
+            let cum = (i ? a[i - 1][2]?.v : 0) + amt
             return [
                 ...a,
                 [
-                    formatDate(language)(date, format).split(' ').map(x => x.slice(0, 3)).join('\n'),
-                    amt,
-                    (i ? a[i - 1][2] : 0) + amt,
+                    date.split(' ')/*.map(x => x.slice(0, 3))*/.join('\n'),
+                    { v: amt, f: `$${amt.toLocaleString()}M` },
+                    { v: cum, f: `$${cum.toLocaleString()}M` },
                 ]
             ]
         }, [])    ]
 
     // console.log('AidChart', data)
 
+    let options = {
+        seriesType: "bars",
+        series: { 1: { type: "line" }, },
+        // trendlines: { 0: {}, 1: {}, },
+        // title: translate('aid_chart.title'),
+        titlePosition: 'in',
+        legend: { position: 'bottom' },
+        axisTitlesPosition: 'in',
+        hAxis: {
+            // title: "Week",
+            slantedText: false,
+            maxAlternation: 1,
+            maxTextLines: 2,
+            // textPosition: 'in',
+        },
+        vAxis: {
+            title: translate('aid_chart.measure'),
+            // textPosition: 'in',
+            // format: '$#M'
+        },
+        chartArea: {
+            left: 90, top: 50, bottom: 100, right: 50,
+            // 'width': '100%', 'height': '100%',
+        },
+        focusTarget: 'category',
+    }
+
     return (
-        <>
-            <h1><Text id="aid_chart.title">US Military Aid ($$ millis)</Text></h1>
+        <Container>
+            <h1 className={style.heading}><Text id="aid_chart.title">US Military Aid ($$ millis)</Text></h1>
             <Chart
                 chartType="ComboChart"
                 width="100%"
@@ -51,7 +67,7 @@ export default function AidChart({ language }) {
                 data={data}
                 options={options}
             />
-        </>
+        </Container>
     )
 }
 
