@@ -11,6 +11,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 
 // Code-splitting is automated for routes
+import About from './routes_/about'
 import Home from './routes_/home'
 import News from './routes_/news'
 import Letter from './routes_/letter'
@@ -33,6 +34,7 @@ export default function App(props) {
 									<News path="/:language/news" />
 									<Report path="/:language/report/:date?" />
 									<Letter path="/:language/letter" />
+									<About path="/:language/about" />
 									<NotFoundPage type="404" default />
 								</Router>
 								<Footer />

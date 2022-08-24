@@ -1,0 +1,45 @@
+@import './src/style/variables';
+@import './src/style/mixins';
+
+.container {}
+
+.title {
+  .heading {
+    @include container-padding;
+    @include make-responsive('font-size',
+            (
+                    tablet: 22px,
+                    desktop: 30px,
+            ),
+            30px
+    );
+    @include make-responsive('margin-bottom',
+            (
+                    mobile: 30px,
+                    tablet: 25px,
+                    desktop: 40px,
+            ),
+            40px
+    );
+
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}
+
+.aboutUs {
+  .progectInfo {}
+
+  .heading {}
+
+  .description {}
+
+  .logo {}
+}
+
+.contactCTA {}
+
+.socials {}
+
+.donateCTA {}
+

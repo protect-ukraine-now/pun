@@ -2,7 +2,7 @@ import { Fragment, h } from 'preact';
 import { Link } from 'preact-router/match';
 import style from './style.scss';
 import Container from '../Container';
-import LogoImage from '../../assets/icons/logo-horizontal.svg';
+import LogoImage from '../../assets/icons/logo-horizontal-light.svg';
 import LanguageSelector from '../LanguageSelector';
 import Menu from '../Menu'
 import useWindowSize from '../../hooks/useWindowSize';
@@ -16,15 +16,15 @@ const Header = () => {
   return (
     <header className={style.header}>
       <Container className={style.container}>
-        <Link href="/">
-          <img className={style.logo} src={LogoImage} alt="" />
+        <Link className={style.logo}  href="/">
+          <img src={LogoImage} alt="" />
         </Link>
         {tablet || tabletMin || mobile
           ? <Hamburger className={style.hamburger} navigation={PAGES_MENU} languages={LANGUAGE_MENU} />
           : (
             <Fragment>
-              <Menu items={PAGES_MENU} />
-              <LanguageSelector items={LANGUAGE_MENU} />
+              <Menu theme="light" items={PAGES_MENU} />
+              <LanguageSelector theme="light" items={LANGUAGE_MENU} />
             </Fragment>
           )
         }

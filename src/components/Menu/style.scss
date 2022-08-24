@@ -3,11 +3,22 @@
 
 .container {
   display: flex;
-  align-self: center;
+  //align-self: center;
+
+  &.light {
+    .link {
+      color: $light-text;
+      opacity: 0.7;
+
+      &.active, &:hover {
+        opacity: 1;
+      }
+    }
+  }
 }
 
 .link {
-  @include url-hover($color-accent-secondary, 2px);
+  @include url-hover($color-accent-secondary, 4px);
 
   text-transform: uppercase;
   position: relative;
@@ -17,6 +28,7 @@
   padding: 5px 15px;
   color: $dark-text;
   text-decoration: none;
+  align-items: center;
 
   &.active {
     cursor: default;
