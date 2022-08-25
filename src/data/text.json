@@ -17,7 +17,9 @@
 			"rest": "Other Countries",
 			"russia": "Russia had",
 			"total": "Total",
-			"description": "Includes both donations and purchases, both already delivered and only promised"
+			"description": "Includes both donations and purchases, both already delivered and only promised",
+			"banner_title": "Do You think Ukraine needs more weapon?",
+			"banner_btn": "Help us, sign petition"
 		},
 		"aid_chart": {
 			"title": "US Military Aid",
@@ -74,7 +76,9 @@
 			"rest": "Інші країни",
 			"russia": "Росія мала",
 			"total": "Всього ",
-			"description": "Включає як безкоштовну допомогу, так і покупки, як вже доставлене так і лише обіцяне"
+			"description": "Включає як безкоштовну допомогу, так і покупки, як вже доставлене так і лише обіцяне",
+			"banner_title": "Do You think Ukraine needs more weapon?",
+			"banner_btn": "Help us, sign petition"
 		},
 		"aid_chart": {
 			"title": "Військова допомога США",
