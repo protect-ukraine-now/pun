@@ -6,6 +6,7 @@
           (
                   mobile: 22px,
                   tablet: 28px,
+                  desktop: 55px,
           ),
           40px
   );
@@ -38,6 +39,28 @@
   width: 100%;
   display: flex;
 }
+
+.banner {
+  margin: 65px 0;
+}
+
+.bannerBtn {
+  @include make-responsive('font-size',
+          (
+                  mobile: 18px,
+                  tablet: 24px,
+          ),
+          24px
+  );
+
+  font-weight: 700;
+  background: $color-accent;
+  color: $light-text;
+  text-transform: uppercase;
+  padding: 0 18px;
+  line-height: 2;
+}
+
 
 .chart {
   margin-bottom: 64px;

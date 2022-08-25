@@ -1,0 +1,31 @@
+@import './src/style/variables';
+@import './src/style/mixins';
+
+.container {
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 36px 40px 27px;
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  @include make-responsive('font-size',
+          (
+                  mobile: 24px,
+                  tablet: 40px,
+          ),
+          40px
+  );
+
+  font-weight: 700;
+  color: $light-text;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}

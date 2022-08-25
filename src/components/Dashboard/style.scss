@@ -101,6 +101,13 @@
 .row {
   display: contents;
 
+  &:not(:first-child) {
+    & > * {
+    border-top: 1px solid $grey-text;
+
+    }
+  }
+
   // &:not(.headRow):hover {
 
   //   .cell {
@@ -178,7 +185,7 @@
 
   text-transform: uppercase;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   font-weight: 700;
   text-align: right;
@@ -192,13 +199,22 @@
   }
 }
 
+.countryFlag {
+  max-width: 20px;
+  max-height: 20px;
+  width: 100%;
+
+  &:not(&:first-child) {
+    margin-left: -8px;
+  }
+}
+
 .cell {
   position: relative;
 }
 
 .valueCell {
   display: flex;
-  justify-content: flex-end;
   align-items: center;
 }
 
@@ -247,39 +263,33 @@
   );
 
   position: relative;
-  flex: 1;
-  text-align: right;
-  width: 100%;
+  flex: 0;
+  text-align: center;
   font-weight: 700;
 }
 
 .deltaValue {
+  @include reset-button-style;
+  @include make-responsive('font-size',
+          (
+                  mobile: 14px,
+                  tablet: 16px,
+          ),
+          40px
+  );
+
   position: absolute;
   transform: translate(0, -50%);
   top: 0;
   left: 100%;
   z-index: 1;
-  @include reset-button-style;
-  @include make-responsive('font-size',
-          (
-                  mobile: 16px,
-                  tablet: 18px,
-          ),
-          40px
-  );
-
   display: flex;
-  color: $color-accent;
+  color: $light-text;
+  background: $color-accent;
+  padding: 2px 5px 1px;
+  border-radius: 17px;
   cursor: pointer;
   text-align: left;
-
-  .plus {
-    text-decoration: none;
-  }
-
-  .value {
-    text-decoration: underline;
-  }
 }
 
 .popup {
