@@ -11,13 +11,15 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 
 // Code-splitting is automated for routes
-import Home from './routes/home'
-import Letter from './routes/letter'
-import Report from './routes/report'
-import NotFoundPage from './routes/notfound'
+import About from './routes_/about'
+import Home from './routes_/home'
+import News from './routes_/news'
+import Letter from './routes_/letter'
+import Report from './routes_/report'
+import NotFoundPage from './routes_/notfound'
 
 export default function App(props) {
-	console.log('App', props)
+	// console.log('App', props)
 	return (
 		<div id="preact_root" style={{ height: '100%' }}>
 			<DataProvider value={props}>
@@ -29,8 +31,10 @@ export default function App(props) {
 								<Header />
 								<Router>
 									<Home path="/" />
-									<Letter path="/:language/letter" />
+									<News path="/:language/news" />
 									<Report path="/:language/report/:date?" />
+									<Letter path="/:language/letter" />
+									<About path="/:language/about" />
 									<NotFoundPage type="404" default />
 								</Router>
 								<Footer />

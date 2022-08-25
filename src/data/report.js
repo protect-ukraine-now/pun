@@ -1,23 +1,21 @@
-// TODO: crawl the folder?
-// const { generateFileList } = require('./src/crawler');
-// const [blogs] = generateFileList(join(__dirname, 'content')).nodes;
-function listReports() {
-    return [
-        { from: '2022-07-04', till: '2022-07-17' },
-        { from: '2022-07-18', till: '2022-07-31' },
-        { from: '2022-08-01', till: '2022-08-14' },
-    ]
+import commits from './commits.json'
+import russia from './russia.json'
+import { isoDate, DAY } from '../tools/date'
+
+let first = '2022-07-17'
+let latest = '2022-08-14'
+
+let timespan = 14 * DAY
+export let Report = till => {
+    if (!till) return
+    let t = new Date(till).valueOf()
+    let from = isoDate(t - timespan + DAY)
+    let prev = till > first  && isoDate(t - timespan)
+    let next = till < latest && isoDate(t + timespan)
+    return { from, till, prev, next }
 }
 
-function prepareReports(data) {
-    let list = listReports()
-    return listReports().map((report, i) => ({
-        ...report,
-        prev: (list[i - 1] || {}).till,
-        next: (list[i + 1] || {}).till,
-        data: prepareReport(data, report),
-    }))
-}
+export let latestReport = Report(latest)
 
 const CATEGORIES = [
     'Towed Artillery',
@@ -32,12 +30,12 @@ const CATEGORIES = [
     'Other Armored Vehicle',
 ]
 
-function prepareReport({ commits, russia, news }, { from, till }) {
-    let byCategory = commits.slice(1).reduce((accumulator, r) => {
-        let [date, author, reviewer, status, country, category, type, qty, qty2, notes, link, title] = r
-        if (date <= till && (status === 'Draft' || status === 'Approved')) {
-            let values = accumulator[category] || [{}, {}, { value: russia[category] || '?' }]
-            accumulator[category] = values
+export function prepareReport({ from, till }) {
+    let byCategory = commits.slice(1).reduce((byCategory, r) => {
+        let [date, country, category, type, qty, link, title] = r
+        if (date <= till) {
+            let values = byCategory[category] || [{}, {}, { value: russia[category] || '?' }]
+            byCategory[category] = values
             // let indicies = country === 'US' ? [0, 1] : [1]
             let indicies = country === 'US' ? [0] : [1]
             indicies.forEach(index => {
@@ -49,7 +47,7 @@ function prepareReport({ commits, russia, news }, { from, till }) {
                 }
             })
         }
-        return accumulator
+        return byCategory
     }, {})
 
     return CATEGORIES.map(category => ({
@@ -57,5 +55,3 @@ function prepareReport({ commits, russia, news }, { from, till }) {
         values: byCategory[category],
     }))
 }
-
-module.exports = prepareReports

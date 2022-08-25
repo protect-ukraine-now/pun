@@ -1,13 +1,11 @@
 {
 	"en": {
-		"site": {
-			"title": "Protect Ukraine NOW"
-		},
 		"seo": {},
 		"menu": {
 			"news": "News",
 			"report": "Military Aid",
-			"letter": "Letter to Congress"
+			"letter": "Letter to Congress",
+			"about": "About Us"
 		},
 		"report": {
 			"title": "Weapons committed to Ukraine",
@@ -18,7 +16,19 @@
 			"usa": "USA",
 			"rest": "Other Countries",
 			"russia": "Russia had",
-			"total": "Total"
+			"total": "Total",
+			"description": "Includes both donations and purchases, both already delivered and only promised",
+			"banner_title": "Protect Ukraine now before it's too late!",
+			"banner_btn": "Click here"
+		},
+		"aid_chart": {
+			"title": "US Military Aid",
+			"measure": "$ millions",
+			"week": "Weekly",
+			"cumulative": "Cumulative"
+		},
+		"news": {
+			"source": "source"
 		},
 		"weapon_category": {
 			"Towed Artillery": "Towed Artillery",
@@ -35,15 +45,26 @@
 			"Artillery rounds": "Artillery rounds",
 			"GMLRS ammunition": "GMLRS ammunition",
 			"other": "other"
+		},
+		"about": {
+			"title": "About Us",
+			"project_name": "“Protect Ukraine Now” Project",
+			"project_description": "U.S. Senators Dan Sullivan (R-Alaska), and four other senators sent a letter to Defense Secretary Lloyd Austin and Chairman of the Joint Chiefs of Staff General Mark Milley U.S. Senators Dan Sullivan (R-Alaska), and four other senators sent a letter to Defense Secretary Lloyd Austin and Chairman of the Joint Chiefs of Staff General Mark Milley",
+			"contact_btn_title": "contact us",
+			"contact_us_cta_text": "U.S. Senators Dan Sullivan (R-Alaska), and four other senators sent a letter to Defense Secretary Lloyd Austin and Chairman of the Joint Chiefs of Staff General Mark Milley, asking them to immediately expedite shipments of military equipment to Ukraine as appropriated by Congress under the Additional Ukraine Supplemental Appropriations Act. Passed on May 19, Equipment recommended for immediate delivery includes medium- and long-range air defense systems, 155 mm howitzers.",
+			"social_network_title": "Social network",
+			"donate_cta_title": "Help us help ukraine",
+			"donate_description": "This project is completely volunteer, so we will need finances to offer it, so support us so we can continue to help Ukraine!",
+			"donate_btn_title": "donate now"
 		}
 	},
 	"ua": {
-		"site": {},
 		"seo": {},
 		"menu": {
 			"news": "Новини",
 			"report": "Військова допомога",
-			"letter": "Лист до Конгресу"
+			"letter": "Лист до Конгресу",
+			"about": "Про нас"
 		},
 		"report": {
 			"title": "Зброя, що передана або обіцяна Україні",
@@ -54,7 +75,19 @@
 			"usa": "США ",
 			"rest": "Інші країни",
 			"russia": "Росія мала",
-			"total": "Всього "
+			"total": "Всього ",
+			"description": "Включає як безкоштовну допомогу, так і покупки, як вже доставлене так і лише обіцяне",
+			"banner_title": "Protect Ukraine now before it's too late!",
+			"banner_btn": "Click heregn petition"
+		},
+		"aid_chart": {
+			"title": "Військова допомога США",
+			"measure": "мільйони $",
+			"week": "За тиждень",
+			"cumulative": "Сукупно"
+		},
+		"news": {
+			"source": "джерело"
 		},
 		"weapon_category": {
 			"Towed Artillery": "Буксирувана артилерія",
@@ -71,6 +104,17 @@
 			"Artillery rounds": "Артилерійські снаряди",
 			"GMLRS ammunition": "Керовані реактивні снаряди",
 			"other": "інше"
+		},
+		"about": {
+			"title": "Про нас",
+			"project_name": "Проект “Protect Ukraine Now”",
+			"project_description": "U.S. Senators Dan Sullivan (R-Alaska), and four other senators sent a letter to Defense Secretary Lloyd Austin and Chairman of the Joint Chiefs of Staff General Mark Milley U.S. Senators Dan Sullivan (R-Alaska), and four other senators sent a letter to Defense Secretary Lloyd Austin and Chairman of the Joint Chiefs of Staff General Mark Milley",
+			"contact_btn_title": "Написати нам",
+			"contact_us_cta_text": "U.S. Senators Dan Sullivan (R-Alaska), and four other senators sent a letter to Defense Secretary Lloyd Austin and Chairman of the Joint Chiefs of Staff General Mark Milley, asking them to immediately expedite shipments of military equipment to Ukraine as appropriated by Congress under the Additional Ukraine Supplemental Appropriations Act. Passed on May 19, Equipment recommended for immediate delivery includes medium- and long-range air defense systems, 155 mm howitzers.",
+			"social_network_title": "Соціальні мережи",
+			"donate_cta_title": "Допоможіть нам допомогти Україні",
+			"donate_description": "This project is completely volunteer, so we will need finances to offer it, so support us so we can continue to help Ukraine!",
+			"donate_btn_title": "Допомогти проекту"
 		}
 	}
 }

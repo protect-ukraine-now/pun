@@ -57,6 +57,7 @@
     "preact-render-to-string": "^5.1.10",
     "preact-router": "^3.0.1",
     "rambda": "^7.1.4",
+    "react-google-charts": "^4.0.0",
     "react-icons": "^4.4.0",
     "react-lite-youtube-embed": "^2.2.2",
     "reset-css": "^5.0.1"

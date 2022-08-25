@@ -2,16 +2,16 @@
 
 .header {
   @include make-responsive('min-height', (
-          mobile: 80px,
-          desktop-min: 90px,
-          desktop: 100px
+          mobile: 60px,
+          desktop-min: 75px,
+          desktop: 80px
   ),
-          100px
+          80px
   );
 
+  background: url("../../assets/images/header-bg.png") center / cover no-repeat;
   width: 100%;
   display: flex;
-  align-items: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.16);
 }
 
@@ -31,6 +31,11 @@
   );
 
   margin-left: 10px;
+  align-self: center;
+
+  img {
+    max-width: 100%;
+  }
 }
 
 .hamburger {

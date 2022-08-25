@@ -121,15 +121,15 @@
   }
 }
 
-@mixin url-hover($color: $color-accent, $height: 1px) {
+@mixin url-hover($color: $color-accent, $height: 1px, $font-color: $dark-text) {
   position: relative;
   text-decoration: none;
-  transition: color 0.25s ease;
+  transition: all 0.25s ease;
   cursor: not-allowed;
   color: $grey-text;
 
   &[href] {
-    color: $dark-text;
+    color: $font-color;
     cursor: pointer;
     &:hover {
       //color: $dark-text;
@@ -144,7 +144,7 @@
     content: '';
     background: $color;
     position: absolute;
-    top: 100%;
+    bottom: 0;
     width: 100%;
     height: $height;
     left: 0;
