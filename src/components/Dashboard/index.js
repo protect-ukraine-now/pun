@@ -32,7 +32,7 @@ const Dashboard = ({ language }) => {
 	const headLayout = (
 		<div className={cn(style.row, style.headRow)}>
 			<div className={style.head}/>
-			<div className={style.head}/>
+			{/*<div className={style.head}/>*/}
 			<div className={style.head}>
 				<img className={style.countryFlag} src={iconUSA} alt=""/>
 				{/*<Text id="report.usa">USA</Text>*/}
@@ -49,9 +49,9 @@ const Dashboard = ({ language }) => {
 	const rowsRenderer = ({ category, values: [usa, rest] }) => (
 		<div className={style.row}>
 			<IconCell category={category}/>
-			<div className={style.category}>
-				<Text id={`weapon_category.${category}`}>{category}</Text>
-			</div>
+			{/*<div className={style.category}>*/}
+			{/*	<Text id={`weapon_category.${category}`}>{category}</Text>*/}
+			{/*</div>*/}
 			<DataCell className={style.valueCell} {...usa} key={`${category}-USA`}/>
 			<DataCell className={style.valueCell} {...rest} key={`${category}-rest`}/>
 		</div>
@@ -86,7 +86,9 @@ const Dashboard = ({ language }) => {
 						>
 							{'← '}
 						</Link>
-						<Text id="report.timespan">2 weeks</Text>
+						<span className={style.period}>
+							<Text id="report.timespan">2 weeks</Text>
+						</span>
 						<Link
 							className={style.navLink}
 							{...next && {
@@ -102,7 +104,7 @@ const Dashboard = ({ language }) => {
 			<div className={style.splitter}>
 				{[left, right].map(renderTableLayout)}
 			</div>
-			<p><Text id="report.description"/></p>
+			<p className={style.description}><Text id="report.description"/></p>
 		</Container>
 
 
