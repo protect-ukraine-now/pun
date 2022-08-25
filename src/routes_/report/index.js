@@ -19,7 +19,7 @@ export default function Report(props) {
 			<Container className={style.container}>
 				<Dashboard {...props} />
 			</Container>
-			{country !== 'US' && (
+			{country === 'US' && (
 				<Banner
 					className={style.banner}
 					title={<Text id="report.banner_title">Protect Ukraine now before it's too late!</Text>}
