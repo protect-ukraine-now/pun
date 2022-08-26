@@ -51,10 +51,11 @@ export default function AidChart({ language }) {
             // format: '$#M'
         },
         chartArea: {
-            left: 90, top: 50, bottom: 100, right: 50,
+            left: 100, top: 50, bottom: 100, right: 40,
             // 'width': '100%', 'height': '100%',
         },
         focusTarget: 'category',
+        backgroundColor: { fill: 'transparent' },
     }
 
     return (
