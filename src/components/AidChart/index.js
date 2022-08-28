@@ -9,30 +9,29 @@ import { formatDate } from '../../tools/date'
 import Container from '../Container'
 
 export default function AidChart({ language }) {
-    let week = translate('aid_chart.week') || 'week'
-    let cumulative = translate('aid_chart.cumulative') || 'cumulative'
+    let pda = translate('aid_chart.pda') || 'PDA'
+    let usai = translate('aid_chart.usai') || 'USAI'
 
     let data = [
-        ['date', week, cumulative],
-        ...money.reduce((a, [date, amt], i) => {
+        ['date', pda, usai],
+        ...money.map(([date, pda, usai]) => {
             date = formatDate(language)(date, 'd MMMM')
-            amt = parseInt(amt) || 0
-            let cum = (i ? a[i - 1][2]?.v : 0) + amt
+            pda = parseInt(pda) || 0
+            usai = parseInt(usai) || 0
             return [
-                ...a,
-                [
-                    date.split(' ')/*.map(x => x.slice(0, 3))*/.join('\n'),
-                    { v: amt, f: `$${amt.toLocaleString()}M` },
-                    { v: cum, f: `$${cum.toLocaleString()}M` },
-                ]
+                date.split(' ')/*.map(x => x.slice(0, 3))*/.join('\n'),
+                { v: pda, f: pda ? `\xA0$${pda.toLocaleString()}M` : '\xA00' },
+                { v: usai, f: usai ? `$${usai.toLocaleString()}M` : '0' },
             ]
-        }, [])    ]
+        })
+    ]
 
     // console.log('AidChart', data)
 
     let options = {
         seriesType: "bars",
-        series: { 1: { type: "line" }, },
+        isStacked: true,
+        // series: { 1: { type: "line" }, },
         // trendlines: { 0: {}, 1: {}, },
         // title: translate('aid_chart.title'),
         titlePosition: 'in',
@@ -51,7 +50,7 @@ export default function AidChart({ language }) {
             // format: '$#M'
         },
         chartArea: {
-            left: 100, top: 50, bottom: 100, right: 40,
+            left: 100, top: 40, bottom: 100, right: 40,
             // 'width': '100%', 'height': '100%',
         },
         focusTarget: 'category',

@@ -252,6 +252,15 @@
 		"Poland will hand over the 155-mm Krab AHS self-propelled howitzers to Ukraine"
 	],
 	[
+		"2022-05-30",
+		"Slovakia",
+		"Self-Propelled Artillery",
+		"Zuzana 2 155mm",
+		"8",
+		"https://twitter.com/JaroNad/status/1531289896048111616",
+		"https://www.reuters.com/world/europe/slovakia-deliver-eight-zuzana-2-howitzers-ukraine-says-ministry-2022-06-02/"
+	],
+	[
 		"2022-06-01",
 		"Poland",
 		"Self-Propelled Artillery",
@@ -465,7 +474,7 @@
 		"IRIS-T",
 		"1",
 		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		null
+		"Germany provides support for Ukraine"
 	],
 	[
 		"2022-06-28",
@@ -618,7 +627,7 @@
 		"protected vehicles",
 		"30",
 		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		null
+		"Germany provides support for Ukraine"
 	],
 	[
 		"2022-07-12",
@@ -627,7 +636,7 @@
 		"Strela",
 		"2500",
 		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		null
+		"Germany provides support for Ukraine"
 	],
 	[
 		"2022-07-12",
@@ -636,7 +645,7 @@
 		"155 mm",
 		"10500",
 		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		null
+		"Germany provides support for Ukraine"
 	],
 	[
 		"2022-07-12",
@@ -645,16 +654,16 @@
 		"transport vehicles, trucks",
 		"280",
 		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		null
+		"Germany provides support for Ukraine"
 	],
 	[
 		"2022-07-12",
 		"Germany",
 		"Other Armored Vehicle",
 		"Bergepanzer 2",
-		"3",
+		"15",
 		"https://www.bundesregierung.de/breg-de/themen/krieg-in-der-ukraine/lieferungen-ukraine-2054514",
-		null
+		"Germany provides support for Ukraine"
 	],
 	[
 		"2022-07-22",
@@ -678,7 +687,7 @@
 		"2022-07-28",
 		"Lithuania",
 		"Other Armored Vehicle",
-		"",
+		"M113",
 		"10",
 		"https://www.baltictimes.com/lithuania_won_t_get_tired_supporting_ukraine___nauseda_in_kyiv/",
 		"Lithuania won't get tired supporting Ukraine – Nauseda in Kyiv"
@@ -717,7 +726,7 @@
 		"protected vehicles",
 		"10",
 		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		null
+		"Germany provides support for Ukraine"
 	],
 	[
 		"2022-08-04",
@@ -792,7 +801,7 @@
 		"$775 Million in Additional Security Assistance for Ukraine"
 	],
 	[
-		"2022-08-19",
+		"2022-08-20",
 		"US",
 		"other",
 		"HUMVEE",
@@ -819,7 +828,7 @@
 		"Latvia transferred Mi-17 and Mi-2 helicopters to Ukraine"
 	],
 	[
-		"2022-08-18",
+		"2022-08-16",
 		"Latvia",
 		"Self-Propelled Artillery",
 		"M109A5Oe",
@@ -828,12 +837,21 @@
 		"Latvija piegādā Ukrainai sešas pašgājējhaubices “M109A5Oe”"
 	],
 	[
-		"2022-08-15",
+		"2022-08-24",
 		"Slovakia",
-		"Self-Propelled Artillery",
-		"Zuzana 2 155mm",
-		"8",
-		"https://spectator.sme.sk/c/22984476/first-zuzana-howitzers-delivered-to-ukraine.html",
-		"First Zuzana howitzers delivered to Ukraine"
+		"Infantry Fighting Vehicle",
+		"BVP-1",
+		"30",
+		"https://www.reuters.com/world/europe/slovakia-donate-30-infantry-fighting-vehicles-ukraine-minister-2022-08-23/",
+		"Slovakia to donate 30 infantry fighting vehicles to Ukraine -minister"
+	],
+	[
+		"2022-08-24",
+		"US",
+		"Air Defense System",
+		"NASAMS",
+		"6",
+		"https://www.defense.gov/News/Releases/Release/Article/3138105/nearly-3-billion-in-additional-security-assistance-for-ukraine/",
+		"Nearly $3 Billion in Additional Security Assistance for Ukraine"
 	]
 ]

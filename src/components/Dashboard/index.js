@@ -6,7 +6,6 @@ import cn from 'classnames';
 import style from './style.scss';
 import { latestReport, prepareReport, Report } from '../../data/report';
 import { formatDate } from '../../tools/date';
-import { translate } from '../../tools/language';
 import IconCell from './IconCell';
 import DataCell from './DataCell';
 import Container from '../Container';
@@ -14,12 +13,10 @@ import iconUSA from '../../assets/icons/icon-flag-USA.svg';
 import iconAU from '../../assets/icons/icon-flag-AU.svg';
 import iconEU from '../../assets/icons/icon-flag-EU.svg';
 import iconUK from '../../assets/icons/icon-flag-UK.svg';
-import { Fragment } from 'preact';
 
 const Dashboard = ({ language }) => {
-	// console.log('Dashboard', props)
 	const [report, setReport] = useState(latestReport);
-	console.log('Dashboard', report);
+	// console.log('Dashboard', report);
 	let data = useMemo(() => prepareReport(report), [report]);
 	let { from, till, prev, next } = report;
 	const formatter = formatDate(language);

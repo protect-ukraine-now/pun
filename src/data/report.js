@@ -3,7 +3,7 @@ import russia from './russia.json'
 import { isoDate, DAY } from '../tools/date'
 
 let first = '2022-07-17'
-let latest = '2022-08-14'
+let latest = '2022-08-28'
 
 let timespan = 14 * DAY
 export let Report = till => {

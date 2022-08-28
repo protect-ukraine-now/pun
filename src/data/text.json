@@ -22,10 +22,12 @@
 			"banner_btn": "Click here"
 		},
 		"aid_chart": {
-			"title": "US Military Aid",
+			"title": "US military aid by week",
 			"measure": "$ millions",
 			"week": "Weekly",
-			"cumulative": "Cumulative"
+			"cumulative": "Cumulative",
+			"pda": "PDA (short term)",
+			"usai": "USAI (long term)"
 		},
 		"news": {
 			"source": "source"
@@ -77,14 +79,16 @@
 			"russia": "Росія мала",
 			"total": "Всього ",
 			"description": "Включає як безкоштовну допомогу, так і покупки, як вже доставлене так і лише обіцяне",
-			"banner_title": "Protect Ukraine now before it's too late!",
-			"banner_btn": "Click heregn petition"
+			"banner_title": "Захистить Україну зараз, поки не пізно!",
+			"banner_btn": "Натисніть тут"
 		},
 		"aid_chart": {
-			"title": "Військова допомога США",
+			"title": "Військова допомога США по тижнях",
 			"measure": "мільйони $",
 			"week": "За тиждень",
-			"cumulative": "Сукупно"
+			"cumulative": "Сукупно",
+			"pda": "PDA (короткострокова)",
+			"usai": "USAI (довгострокова)"
 		},
 		"news": {
 			"source": "джерело"
