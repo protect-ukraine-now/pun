@@ -9,9 +9,23 @@ import useWindowSize from '../../hooks/useWindowSize';
 import Hamburger from '../Hamburger/Hamburger';
 import { LANGUAGE_MENU } from '../../constants/language';
 import { PAGES_MENU } from '../../constants/pages';
+import { useMemo } from 'preact/hooks';
 
 const Header = () => {
   const { tablet, tabletMin, mobile } = useWindowSize();
+
+  const menuLayout =  useMemo(() => {
+    if (tablet || tabletMin || mobile) {
+      return <Hamburger className={style.hamburger} navigation={PAGES_MENU} languages={LANGUAGE_MENU} />;
+    }
+
+    return (
+      <Fragment>
+        <Menu theme="light" items={PAGES_MENU} />
+        <LanguageSelector theme="light" items={LANGUAGE_MENU} />
+      </Fragment>
+    )
+  }, [tablet, tabletMin, mobile]);
 
   return (
     <header className={style.header}>
@@ -19,15 +33,7 @@ const Header = () => {
         <Link className={style.logo}  href="/">
           <img src={LogoImage} alt="" />
         </Link>
-        {tablet || tabletMin || mobile
-          ? <Hamburger className={style.hamburger} navigation={PAGES_MENU} languages={LANGUAGE_MENU} />
-          : (
-            <Fragment>
-              <Menu theme="light" items={PAGES_MENU} />
-              <LanguageSelector theme="light" items={LANGUAGE_MENU} />
-            </Fragment>
-          )
-        }
+        {menuLayout}
       </Container>
     </header>
   )
