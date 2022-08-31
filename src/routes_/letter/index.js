@@ -39,7 +39,6 @@ export default function Letter() {
 				}
 
 				<div id='can-letter-area-protect-ukraine-now' style='width: 100%'></div>
-
 			</section>
 		</Container>
 	</>);
