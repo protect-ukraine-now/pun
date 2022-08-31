@@ -2,6 +2,7 @@
 
 .container {
   transition: all 0.25s ease;
+  align-self: center;
 
   &.isOpen {
     .trigger {
