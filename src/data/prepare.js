@@ -17,9 +17,19 @@ async function preparePages() {
 	let data = await loadData()
 	let { text } = data
 
-	let seo = {
+	let seoLetter = {
 		title: 'US must arm Ukraine now, before it’s too late',
-		cover: 'https://protectukrainenow.org/assets/og.webp',
+		cover: 'https://protectukrainenow.org/assets/letter.webp',
+		subtitle: `
+«With the necessary weapons and economic aid, Ukraine can defeat Russia. If it succeeds, our soldiers are less likely to have to risk their lives protecting U.S. treaty allies whom Russia also threatens»
+
+This is a public opinion of US 20 top national security experts.
+		`,
+	}
+
+	let seoWeapons = {
+		title: 'US must arm Ukraine now, before it’s too late',
+		cover: 'https://protectukrainenow.org/assets/weapons.jpg',
 		subtitle: `
 «With the necessary weapons and economic aid, Ukraine can defeat Russia. If it succeeds, our soldiers are less likely to have to risk their lives protecting U.S. treaty allies whom Russia also threatens»
 
@@ -32,15 +42,15 @@ This is a public opinion of US 20 top national security experts.
 		...Object.entries(text).map(([language]) => [
 			{
 				url: `/${language}/letter`,
-				seo,
+				seo: seoLetter,
 			},
 			{
 				url: `/${language}/news`,
-				seo,
+				seo: seoWeapons,
 			},
 			{
 				url: `/${language}/report`,
-				seo,
+				seo: seoWeapons,
 			},
 		])
 	].flat()

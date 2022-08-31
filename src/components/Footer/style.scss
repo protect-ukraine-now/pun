@@ -87,3 +87,15 @@
     margin-top: 50px;
   }
 }
+
+.social {
+  @include make-responsive('padding-bottom', (mobile: 10px,
+      desktop: 87px), 87px);
+
+  padding-top: 47px;
+}
+
+.socialActions {
+  @include make-responsive('margin-bottom', (mobile: 20px,
+      desktop: 30px), 30px);
+}
