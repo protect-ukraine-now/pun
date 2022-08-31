@@ -13,6 +13,7 @@ export default function Letter() {
 			]}
 			script={[
 				{ defer: true, src: 'https://actionnetwork.org/widgets/v5/letter/protect-ukraine-now?format=js&source=widget', type: 'text/javascript' },
+				{ defer: true, src: 'https://platform-api.sharethis.com/js/sharethis.js#property=623222622d10e5001932a789&product=inline-share-buttons', type: 'text/javascript' },
 			]}
 		/>
 		<Container className={style.container}>
@@ -40,6 +41,9 @@ export default function Letter() {
 
 				<div id='can-letter-area-protect-ukraine-now' style='width: 100%'></div>
 
+				<div className={style.socialActions}>
+					<div className="sharethis-inline-share-buttons" />
+				</div>
 			</section>
 		</Container>
 	</>);
