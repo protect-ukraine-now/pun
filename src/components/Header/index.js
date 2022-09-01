@@ -15,6 +15,7 @@ const Header = () => {
   const { tablet, tabletMin, mobile } = useWindowSize();
 
   const menuLayout =  useMemo(() => {
+    console.log('menuLayout', { tablet, tabletMin, mobile })
     if (tablet || tabletMin || mobile) {
       return <Hamburger className={style.hamburger} navigation={PAGES_MENU} languages={LANGUAGE_MENU} />;
     }
