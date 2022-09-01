@@ -38,7 +38,16 @@
   }
 }
 
+.menu {
+  @include max-w(desktop) {
+    display: none !important;
+  }
+}
+
 .hamburger {
+  @include min-w(desktop) {
+    display: none !important;
+  }
   align-self: center;
   margin-right: 6px;
 }

@@ -15,15 +15,16 @@ const Header = () => {
   const { tablet, tabletMin, mobile } = useWindowSize();
 
   const menuLayout =  useMemo(() => {
-    console.log('menuLayout', { tablet, tabletMin, mobile })
-    if (tablet || tabletMin || mobile) {
-      return <Hamburger className={style.hamburger} navigation={PAGES_MENU} languages={LANGUAGE_MENU} />;
-    }
+    // console.log('menuLayout', { tablet, tabletMin, mobile })
+    // if (tablet || tabletMin || mobile) {
+    //   return <Hamburger className={style.hamburger} navigation={PAGES_MENU} languages={LANGUAGE_MENU} />;
+    // }
 
     return (
       <Fragment>
-        <Menu theme="light" items={PAGES_MENU} />
-        <LanguageSelector theme="light" items={LANGUAGE_MENU} />
+        <Menu className={style.menu} theme="light" items={PAGES_MENU} />
+        <LanguageSelector className={style.menu} theme="light" items={LANGUAGE_MENU} />
+        <Hamburger className={style.hamburger} navigation={PAGES_MENU} languages={LANGUAGE_MENU} />
       </Fragment>
     )
   }, [tablet, tabletMin, mobile]);
