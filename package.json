@@ -9,6 +9,7 @@
     "start:production": "npm run -s serve",
     "start:development": "npm run -s dev",
     "build": "preact build --prerenderUrls ./prerender-urls.js",
+    "build:analyze": "preact build --analyze --prerenderUrls ./prerender-urls.js",
     "dev": "preact watch --prerender --prerenderUrls ./prerender-urls.js",
     "lint": "eslint src",
     "test": "jest"
@@ -40,7 +41,7 @@
     "react-syntax-highlighter": "^12.2.1",
     "sass": "^1.53.0",
     "sass-loader": "10",
-    "webpack-bundle-analyzer": "^3.4.1"
+    "webpack-bundle-analyzer": "^4.6.1"
   },
   "dependencies": {
     "@preact/prerender-data-provider": "^3.0.1",

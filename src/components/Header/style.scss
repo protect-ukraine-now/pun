@@ -39,13 +39,13 @@
 }
 
 .menu {
-  @include max-w(desktop) {
+  @include max-w(desktop-min) {
     display: none !important;
   }
 }
 
 .hamburger {
-  @include min-w(desktop) {
+  @include min-w(desktop-min) {
     display: none !important;
   }
   align-self: center;
