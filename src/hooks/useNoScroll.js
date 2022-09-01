@@ -3,7 +3,7 @@ import useWindowSize from './useWindowSize';
 
 export default (trigger, callback) => {
   const { width, height } = useWindowSize();
-  const bodyRef = useRef(document.body);
+  const bodyRef = useRef(global.document?.body);
 
   const style = useMemo(
     () => (bodyRef.current && width && height ? getComputedStyle(bodyRef.current) : null),
@@ -11,7 +11,7 @@ export default (trigger, callback) => {
   );
 
   useEffect(() => {
-    if (style) {
+    if (global.document && style) {
       if (trigger) {
         document.body.style.overflow = 'hidden';
         if (typeof callback === 'function') {

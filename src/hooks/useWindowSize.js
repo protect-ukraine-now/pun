@@ -11,18 +11,16 @@ export default () => {
 	};
 
 	const breakpoints = useMemo(() => {
-		if (window) {
-			return {
-				mobile: getComputedStyle(document.documentElement)
-					.getPropertyValue('--mobile-breakpoint').trim(),
-				tabletMin: getComputedStyle(document.documentElement)
-					.getPropertyValue('--tablet-min-breakpoint').trim(),
-				tablet: getComputedStyle(document.documentElement)
-					.getPropertyValue('--tablet-breakpoint').trim(),
-				desktop: getComputedStyle(document.documentElement)
-					.getPropertyValue('--desktop-breakpoint').trim()
-			};
-		}
+		return {
+			mobile: getComputedStyle(document.documentElement)
+				.getPropertyValue('--mobile-breakpoint').trim(),
+			tabletMin: getComputedStyle(document.documentElement)
+				.getPropertyValue('--tablet-min-breakpoint').trim(),
+			tablet: getComputedStyle(document.documentElement)
+				.getPropertyValue('--tablet-breakpoint').trim(),
+			desktop: getComputedStyle(document.documentElement)
+				.getPropertyValue('--desktop-breakpoint').trim()
+		};
 	}, []);
 
 	useEffect(() => {

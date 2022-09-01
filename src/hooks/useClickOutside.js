@@ -11,9 +11,9 @@ export default (ref, callback) => {
   );
 
   useEffect(() => {
-    document.addEventListener('mousedown', handleClickOutside);
+    global.document?.addEventListener('mousedown', handleClickOutside);
     return () => {
-      document.removeEventListener('mousedown', handleClickOutside);
+      global.document?.removeEventListener('mousedown', handleClickOutside);
     };
   }, [handleClickOutside]);
 };
