@@ -2,6 +2,11 @@ import { useState, useMemo } from 'preact/hooks';
 import { Link } from 'preact-router';
 import { Text } from 'preact-i18n';
 import cn from 'classnames';
+import US from 'country-flag-icons/react/1x1/US'
+import PL from 'country-flag-icons/react/1x1/PL'
+import CA from 'country-flag-icons/react/1x1/CA'
+import GB from 'country-flag-icons/react/1x1/GB'
+import { IoEllipsisHorizontalCircle } from 'react-icons/io5'
 
 import style from './style.scss';
 import { latestReport, prepareReport, Report } from '../../data/report';
@@ -9,10 +14,6 @@ import { formatDate } from '../../tools/date';
 import IconCell from './IconCell';
 import DataCell from './DataCell';
 import Container from '../Container';
-import iconUSA from '../../assets/icons/icon-flag-USA.svg';
-import iconAU from '../../assets/icons/icon-flag-AU.svg';
-import iconEU from '../../assets/icons/icon-flag-EU.svg';
-import iconUK from '../../assets/icons/icon-flag-UK.svg';
 
 const Dashboard = ({ language }) => {
 	const [report, setReport] = useState(latestReport);
@@ -30,14 +31,15 @@ const Dashboard = ({ language }) => {
 		<div className={cn(style.row, style.headRow)}>
 			<div className={style.head}/>
 			{/*<div className={style.head}/>*/}
-			<div className={style.head}>
-				<img className={style.countryFlag} src={iconUSA} alt=""/>
+			<div className={style.head} title="US">
+				<US className={style.countryFlag} />
 				{/*<Text id="report.usa">USA</Text>*/}
 			</div>
-			<div className={style.head}>
-				<img className={style.countryFlag} src={iconUK} alt=""/>
-				<img className={style.countryFlag} src={iconAU} alt=""/>
-				<img className={style.countryFlag} src={iconEU} alt=""/>
+			<div className={style.head} title="Other Countries">
+				<CA className={style.countryFlag} />
+				<GB className={style.countryFlag} />
+				<PL className={style.countryFlag} />
+				<IoEllipsisHorizontalCircle className={style.ellipsis} />
 				{/*<Text id="report.rest">Others</Text>*/}
 			</div>
 		</div>
