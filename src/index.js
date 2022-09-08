@@ -30,12 +30,12 @@ export default function App(props) {
 							<LanguageProvider>
 								<Header />
 								<Router>
-									<Home path="/:language?" />
+									{/* <Home path="/:language?" /> */}
 									<News path="/:language/news" />
 									<Report path="/:language/report" />
 									<Letter path="/:language/letter" />
 									<About path="/:language/about" />
-									<NotFoundPage type="404" default />
+									<Home default />
 								</Router>
 								<Footer />
 							</LanguageProvider>
