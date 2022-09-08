@@ -14,6 +14,7 @@ import { formatDate } from '../../tools/date';
 import IconCell from './IconCell';
 import DataCell from './DataCell';
 import Container from '../Container';
+import { translate } from '../../tools/language'
 
 const Dashboard = ({ language }) => {
 	const [report, setReport] = useState(latestReport);
@@ -31,11 +32,11 @@ const Dashboard = ({ language }) => {
 		<div className={cn(style.row, style.headRow)}>
 			<div className={style.head}/>
 			{/*<div className={style.head}/>*/}
-			<div className={style.head} title="US">
+			<div className={style.head} title={translate('report.usa')}>
 				<US className={style.countryFlag} />
 				{/*<Text id="report.usa">USA</Text>*/}
 			</div>
-			<div className={style.head} title="Other Countries">
+			<div className={style.head} title={translate('report.rest')}>
 				<CA className={style.countryFlag} />
 				<GB className={style.countryFlag} />
 				<PL className={style.countryFlag} />
