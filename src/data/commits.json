@@ -18,6 +18,15 @@
 		"Officially: Estonia has sent 122-mm howitzers to Ukraine"
 	],
 	[
+		"2022-04-05",
+		"Czech Republic",
+		"Infantry Fighting Vehicle",
+		"BVP-1",
+		"5",
+		"🇺🇦 Ukraine Weapons Tracker on Twitter: \"#Ukraine: In some significant news, it appears that the Czech Republic is supplying \"dozens\" of T-72M1 tanks & BVP-1 IFV to the UA forces. Whilst the T-72M1 is rather old (slightly altered T-72A1), & so are the BVP-1 (BMP-1 with very minor changes), they would still be of use. https://t.co/tUMEP3fBuE\" / Twitter",
+		"not confirmed by this or other sources. Kiel Institute refers to the same link but gives number of BVP-1 = 5. Reuters said about such deliveries but didn't specify numbers. "
+	],
+	[
 		"2022-04-08",
 		"Slovakia",
 		"Air Defense System",
@@ -803,7 +812,7 @@
 	[
 		"2022-08-20",
 		"US",
-		"other",
+		"Other Armored Vehicle",
 		"HUMVEE",
 		"50",
 		"https://www.newsweek.com/howitzers-drones-highlight-ukraines-newest-us-boost-fight-russia-1735350",
@@ -853,5 +862,41 @@
 		"6",
 		"https://www.defense.gov/News/Releases/Release/Article/3138105/nearly-3-billion-in-additional-security-assistance-for-ukraine/",
 		"Nearly $3 Billion in Additional Security Assistance for Ukraine"
+	],
+	[
+		"2022-09-06",
+		"Germany",
+		"other",
+		"COBRA counter-battery radar system",
+		"1",
+		"https://www.bundesregierung.de/breg-de/themen/krieg-in-der-ukraine/lieferungen-ukraine-2054514",
+		"Militärische Unterstützungsleistungen für die Ukraine"
+	],
+	[
+		"2022-09-08",
+		"US",
+		"Towed Artillery",
+		"105mm",
+		"4",
+		"https://www.defense.gov/News/Releases/Release/Article/3152071/675-million-in-additional-security-assistance-for-ukraine/",
+		"$675 Million in Additional Security Assistance for Ukraine"
+	],
+	[
+		"2022-09-08",
+		"US",
+		"Other Armored Vehicle",
+		"HUMVEE",
+		"100",
+		"https://www.defense.gov/News/Releases/Release/Article/3152071/675-million-in-additional-security-assistance-for-ukraine/",
+		"$675 Million in Additional Security Assistance for Ukraine"
+	],
+	[
+		"2022-09-08",
+		"US",
+		"Other Armored Vehicle",
+		"armored medical treatment vehicles",
+		"50",
+		"https://www.defense.gov/News/Releases/Release/Article/3152071/675-million-in-additional-security-assistance-for-ukraine/",
+		"$675 Million in Additional Security Assistance for Ukraine"
 	]
 ]

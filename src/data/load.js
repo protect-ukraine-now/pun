@@ -30,11 +30,11 @@ const spreadsheets = {
         id: '1zJuvhRLAKPuVrtaA-xTm2KvVwRZjInDuA4M9k7HZT1E',
         range: "'Money'",
     },
-    russia: {
-        id: '1zJuvhRLAKPuVrtaA-xTm2KvVwRZjInDuA4M9k7HZT1E',
-        range: "'russia'",
-        transform: Object.fromEntries,
-    },
+    // russia: {
+    //     id: '1zJuvhRLAKPuVrtaA-xTm2KvVwRZjInDuA4M9k7HZT1E',
+    //     range: "'russia'",
+    //     transform: Object.fromEntries,
+    // },
     news: {
         id: '1GjHht1WjPGagUo-jycLRbeCHZYgLYQWuKZrFvXiqWv4',
         range: "'News Log'",

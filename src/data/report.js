@@ -1,9 +1,8 @@
 import commits from './commits.json'
-import russia from './russia.json'
 import { isoDate, DAY } from '../tools/date'
 
 let first = '2022-07-17'
-let latest = '2022-08-28'
+let latest = '2022-09-11'
 
 let timespan = 14 * DAY
 export let Report = till => {
@@ -34,18 +33,16 @@ export function prepareReport({ from, till }) {
     let byCategory = commits.slice(1).reduce((byCategory, r) => {
         let [date, country, category, type, qty, link, title] = r
         if (date <= till) {
-            let values = byCategory[category] || [{}, {}, { value: russia[category] || '?' }]
+            let values = byCategory[category] || [{}, {}]
             byCategory[category] = values
             // let indicies = country === 'US' ? [0, 1] : [1]
-            let indicies = country === 'US' ? [0] : [1]
-            indicies.forEach(index => {
-                let x = values[index]
-                x.value = (x.value || 0) + +qty
-                if (date >= from) {
-                    x.delta = (x.delta || 0) + +qty
-                    x.sources = [...(x.sources || []), { link, title }]
-                }
-            })
+            let index = country === 'US' ? 0 : 1
+            let x = values[index]
+            x.value = (x.value || 0) + +qty
+            if (date >= from) {
+                x.delta = (x.delta || 0) + +qty
+                x.sources = {...(x.sources || {}), [link]: title }
+            }
         }
         return byCategory
     }, {})

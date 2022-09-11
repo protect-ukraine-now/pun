@@ -16,13 +16,13 @@ const DataCell = ({ className, value, delta, sources }) => {
 
 
 	const sourcesPopup = useMemo(() => {
-		if (!sources || !sources.length) {
-			return null;
-		}
+		// if (!sources || !sources.length) {
+		// 	return null;
+		// }
 
 		return isSourcePopupShown ? (
 			<div className={style.popup} ref={popupRef}>
-				{sources.map(({ link, title }) => {
+				{Object.entries(sources).map(([link, title]) => {
 					return (
 						<a className={style.source} href={link} key={link} target="_blank" title={link}>
 							{title || link}
