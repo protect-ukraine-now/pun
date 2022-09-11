@@ -27,7 +27,8 @@
 			"week": "Weekly",
 			"cumulative": "Cumulative",
 			"pda": "PDA (short term)",
-			"usai": "USAI (long term)"
+			"usai": "USAI (long term)",
+			"fmf": "FMF (long term)"
 		},
 		"news": {
 			"source": "source"
@@ -88,7 +89,8 @@
 			"week": "За тиждень",
 			"cumulative": "Сукупно",
 			"pda": "PDA (короткострокова)",
-			"usai": "USAI (довгострокова)"
+			"usai": "USAI (довгострокова)",
+			"fmf": "FMF (довгострокова)"
 		},
 		"news": {
 			"source": "джерело"

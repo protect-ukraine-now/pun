@@ -11,17 +11,20 @@ import Container from '../Container'
 export default function AidChart({ language }) {
     let pda = translate('aid_chart.pda') || 'PDA'
     let usai = translate('aid_chart.usai') || 'USAI'
+    let fmf = translate('aid_chart.fmf') || 'FMF'
 
     let data = [
-        ['date', pda, usai],
-        ...money.map(([date, pda, usai]) => {
+        ['date', pda, usai, fmf],
+        ...money.map(([date, pda, usai, fmf]) => {
             date = formatDate(language)(date, 'd MMMM')
             pda = parseInt(pda) || 0
             usai = parseInt(usai) || 0
+            fmf = parseInt(fmf) || 0
             return [
                 date.split(' ')/*.map(x => x.slice(0, 3))*/.join('\n'),
                 { v: pda, f: pda ? `\xA0$${pda.toLocaleString()}M` : '\xA00' },
                 { v: usai, f: usai ? `$${usai.toLocaleString()}M` : '0' },
+                { v: fmf, f: fmf ? `$${fmf.toLocaleString()}M` : '0' },
             ]
         })
     ]
