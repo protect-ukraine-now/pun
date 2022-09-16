@@ -1,3 +1,4 @@
+import cn from 'classnames';
 import style from './style.scss';
 import Container from '../../components/Container';
 import Dashboard from '../../components/Dashboard';
@@ -19,18 +20,16 @@ export default function Report(props) {
 			<Container className={style.container}>
 				<Dashboard {...props} />
 			</Container>
-			{country === 'US' && (
-				<Banner
-					className={style.banner}
-					title={<Text id="report.banner_title">Protect Ukraine now before it's too late!</Text>}
-					image="../../assets/images/banner-bg-1.webp"
-					action={
-						<Link className={style.bannerBtn} href={`/${language}/letter`}>
-							<Text id="report.banner_btn">Click here</Text>
-						</Link>
-					}
-				/>
-			)}
+			<Banner
+				className={cn(style.banner, {[style.visible]: country === 'US'})}
+				title={<Text id="report.banner_title">Protect Ukraine now before it's too late!</Text>}
+				image="../../assets/images/banner-bg-1.webp"
+				action={
+					<Link className={style.bannerBtn} href={`/${language}/letter`}>
+						<Text id="report.banner_btn">Click here</Text>
+					</Link>
+				}
+			/>
 			<Container className={style.chart}>
 				<AidChart {...props} />
 			</Container>
