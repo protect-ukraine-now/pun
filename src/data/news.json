@@ -403,14 +403,14 @@
 	],
 	[
 		"2022-08-27",
-		"The UK is giving underwater drones to Ukraine and training Ukrainian personnel in Britain to use them to clear their coastline of mines. Six autonomous minehunting vehicles will be sent to the country to help detect Russian mines in the waters off its coast. Three of these will be provided from UK stocks, with a further three to be purchased from industry.",
-		"Велика Британія надає Україні підводні безпілотники та навчає український персонал у Британії використовувати їх для очищення берегової лінії від мін. Для виявлення російських мін у водах біля її узбережжя в країну відправлять шість автономних мінно-пошукових машин. Три з них будуть надані зі складів Великобританії, а ще три будуть придбані у промисловості.",
+		"The UK is giving underwater drones to Ukraine and training Ukrainian personnel in Britain to use them to clear their coastline of mines",
+		"Велика Британія надає Україні підводні безпілотники та навчає український персонал у Британії використовувати їх для очищення берегової лінії від мін",
 		"https://www.gov.uk/government/news/uk-donating-undersea-minehunter-drones-to-help-ukraine-clear-coastline"
 	],
 	[
 		"2022-08-29",
-		"Olaf Scholz used his Prague speech, entitled \"Europe is our future\", to promise that Germany would send Ukraine state-of-the-art weapons, such as air defence and radar systems and reconnaissance drones, in the coming weeks and months.",
-		"Олаф Шольц використав свою празьку промову під назвою «Європа — наше майбутнє», щоб пообіцяти, що Німеччина надасть Україні найсучасніші озброєння, такі як протиповітряна оборона та радіолокаційні системи та розвідувальні безпілотники, протягом найближчих тижнів і місяців.",
+		"Olaf Scholz promised that Germany would send Ukraine state-of-the-art weapons, such as air defence and radar systems and reconnaissance drones, in the coming weeks and months.",
+		"Олаф Шольц пообіцяв, що Німеччина надасть Україні найсучасніші озброєння, такі як протиповітряна оборона та радіолокаційні системи та розвідувальні безпілотники, протягом найближчих тижнів і місяців.",
 		"https://www.reuters.com/world/europe/germanys-scholz-we-will-keep-up-support-ukraine-long-it-takes-2022-08-29/"
 	],
 	[
@@ -439,8 +439,8 @@
 	],
 	[
 		"2022-09-01",
-		"Sweden will consider providing Ukraine with self-propelled artillery systems (ACS) Archer, as well as short-range anti-aircraft missile systems (SAM) RBS 70 to repel Russian aggression. This said Minister of Foreign Affairs of the Kingdom Ann Linde .",
-		"Швеція розгляне можливість надання Україні самохідних артилерійських систем (САУ) Archer, а також зенітно-ракетних комплексів (ЗРК) малої дальності (ЗРК) RBS 70 для відсічі російської агресії. Про це заявила міністр закордонних справ Королівства Анн Лінде.",
+		"Sweden will consider providing Ukraine with self-propelled artillery systems Archer, as well as short-range anti-aircraft missile systems RBS 70 to repel Russian aggression. This said Minister of Foreign Affairs of the Kingdom Ann Linde .",
+		"Швеція розгляне можливість надання Україні самохідних артилерійських систем Archer, а також зенітно-ракетних комплексів малої дальності RBS 70 для відсічі російської агресії. Про це заявила міністр закордонних справ Королівства Анн Лінде.",
 		"https://thetimeshub.in/sweden-will-consider-providing-ukraine-with-acs-archer/35454/"
 	],
 	[
@@ -475,21 +475,15 @@
 	],
 	[
 		"2022-09-07",
-		"According to the Minister of Digital Transformation Mykhailo Fedorov 64 million UAH were gathered by the Ukranian citizens which were transferred to purchase the ‘army of drones’. \"40 Warmate drones were bought with these funds. We have already transferred half of them to the front. Another 20 drones will go to the front line this month.\"",
-		"За словами міністра цифрової трансформації Михайла Федорова, громадяни України зібрали 64 млн грн, які були перераховані на закупівлю «армії дронів». \"На ці кошти купили 40 безпілотників Warmate. Половину з них ми вже передали на фронт. Ще 20 безпілотників поїдуть на передову цього місяця\".",
+		"According to the Minister of Digital Transformation Mykhailo Fedorov, the citizens of Ukraine collected UAH 64 million for the purchase of the \"army of drones\". With these funds, 40 Warmate drones were purchased",
+		"За словами міністра цифрової трансформації Михайла Федорова, громадяни України зібрали 64 млн грн на закупівлю \"армії дронів\". За ці кошти було придбано 40 безпілотників Warmate",
 		"https://en.interfax.com.ua/news/general/857113.html"
 	],
 	[
 		"2022-09-09",
-		"Secretary of State Antony Blinken pledged lasting U.S. support for Ukraine during a visit to Kyiv on Thursday. His visit signals ongoing U.S. backing for the war, as the Biden administration pledged an additional $675 million in U.S. military supplies for Ukraine.The administration will also provide $1 billion in military financing for Ukraine, Blinken said, along with a similar amount for neighboring nations and countries elsewhere in Europe to strengthen their defenses.",
-		"Держсекретар Ентоні Блінкен під час візиту до Києва в четвер пообіцяв постійну підтримку України з боку США. Його візит свідчить про постійну підтримку США у війні, оскільки адміністрація Байдена пообіцяла додаткові 675 мільйонів доларів США на військові поставки для України. Адміністрація також надасть 1 мільярд доларів військового фінансування для України, сказав Блінкен, а також аналогічну суму для сусідніх країн і країни в інших частинах Європи для зміцнення своєї оборони.",
+		"Secretary of State Antony Blinken pledged lasting U.S. support for Ukraine during a visit to Kyiv. His visit signals ongoing U.S. backing for the war, as the Biden administration pledged an additional $675 million in U.S. military supplies for Ukraine.The administration will also provide $1 billion in military financing for Ukraine, Blinken said, along with a similar amount for neighboring nations and countries elsewhere in Europe to strengthen their defenses.",
+		"Держсекретар Ентоні Блінкен під час візиту до Києва пообіцяв постійну підтримку України з боку США. Його візит свідчить про постійну підтримку США у війні, оскільки адміністрація Байдена пообіцяла додаткові 675 мільйонів доларів США на військові поставки для України. Адміністрація також надасть 1 мільярд доларів військового фінансування для України, сказав Блінкен, а також аналогічну суму для сусідніх країн і країни в інших частинах Європи для зміцнення своєї оборони.",
 		"https://www.washingtonpost.com/national-security/2022/09/08/blinken-visit-kyiv-security-aid/"
-	],
-	[
-		"2022-09-09",
-		"The United States has imposed sanctions on an Iranian company it accused of coordinating military flights to transport Iranian drones to Russia and three other companies it said were involved in the production of Iranian drones.",
-		"Сполучені Штати наклали санкції на іранську компанію, яку вони звинуватили в координації військових польотів для транспортування іранських безпілотників до Росії, а також на три інші компанії, які, за їхніми словами, брали участь у виробництві іранських безпілотників.",
-		"https://www.aljazeera.com/economy/2022/9/9/us-sanctions-firms-over-alleged-use-of-iranian-drones-in-russia"
 	],
 	[
 		"2022-09-09",
@@ -502,5 +496,53 @@
 		"Ukraine purchased from France 155-mm towed TRF1 howitzers, which are no longer in service with the French army.",
 		"Україна закупила у Франції 155-мм буксирувані гаубиці TRF1, які вже не стоять на озброєнні французької армії.",
 		"https://uk.topnews.media/ukraine/weapons-for-ukraine-ukraine-bought-155-mm-trf1-howitzers-from-france-mass-media-09-09-22-0125-war-in-ukraine/"
+	],
+	[
+		"2022-09-12",
+		"Lithuanian Defense Minister Arvydas Anusauskas says Lithuania will purchase 37 kamikaze drones to provide to Ukraine, using the money raised by the Legion of Boom campaign.",
+		"Міністр оборони Литви Арвідас Анусаускас заявив, що Литва закупить 37 безпілотних літальних апаратів-камікадзе для надання Україні на кошти, зібрані в рамках кампанії Legion of Boom.",
+		"https://www.ukrinform.net/rubric-ato/3558850-lithuania-to-buy-37-kamikaze-drones-for-ukraine.html"
+	],
+	[
+		"2022-09-14",
+		"Democratic and Republican U.S. senators introduced legislation on Wednesday that would designate Russia as a state sponsor of terrorism",
+		"У середу сенатори США від Демократичної та Республіканської партій представили закон, згідно з яким Росія буде визнана державою-спонсором тероризму.",
+		"https://www.reuters.com/world/europe/us-senators-introduce-bill-designate-russia-state-sponsor-terrorism-2022-09-14/"
+	],
+	[
+		"2022-09-12",
+		"Deputy Prime Minister Richard Marles has pledged Australia will continue to back Ukraine as it resists Russian aggression.",
+		"Віце-прем'єр-міністр Річард Марлз пообіцяв, що Австралія продовжить підтримувати Україну, яка протистоїть російській агресії.",
+		"https://www.sheppnews.com.au/national/deputy-pm-praises-inspirational-ukraine/"
+	],
+	[
+		"2022-09-14",
+		"The Biden administration is likely to announce a fresh military aid package for Ukraine in \"coming days,\" the White House said on Tuesday.",
+		"Адміністрація Байдена, ймовірно, оголосить про новий пакет військової допомоги для України \"найближчими днями\", заявив Білий дім у вівторок.",
+		"https://www.reuters.com/world/europe/us-may-announce-new-military-aid-package-ukraine-within-days-white-house-2022-09-13/"
+	],
+	[
+		"2022-09-13",
+		"Ukrainian Foreign Minister Dmytro Kuleba condemned \"abstract fears and excuses\" behind Germany's reluctance as he pushed for further arms supplies.",
+		"Міністр закордонних справ України Дмитро Кулеба засудив \"абстрактні страхи та виправдання\", які стоять за небажанням Німеччини, коли він наполягає на подальших поставках зброї.",
+		"https://www.dw.com/en/russia-ukraine-updates-kyiv-decries-germanys-disappointing-signals-on-weapons/a-63101592"
+	],
+	[
+		"2022-09-15",
+		"German economy minister Robert Habeck vows to deliver more weapons to Ukraine",
+		"Міністр економіки Німеччини Роберт Хабек обіцяє постачати більше зброї в Україну",
+		"https://tvpworld.com/62772534/german-economy-minister-vows-to-deliver-more-weapons-to-ukraine"
+	],
+	[
+		"2022-09-14",
+		"On 14 September, the European Investment Bank (EIB), the EU bank, disbursed the first tranches of the €1.59 billion package of the Ukraine Solidarity Urgent Response, supported by an EU guarantee.",
+		"14 вересня Європейський інвестиційний банк (ЄІБ), банк ЄС, виплатив перші транші пакету термінової допомоги Україні солідарності вартістю 1,59 мільярда євро, підкріпленого гарантією ЄС.",
+		"https://euneighbourseast.eu/news/latest-news/ukraine-european-investment-bank-disburses-first-e500-million-from-e1-59-billion-support-package/"
+	],
+	[
+		"2022-09-15",
+		"EU extends sanctions against 1,200 people 'responsible' for war in Ukraine.",
+		"ЄС продовжив санкції проти 1200 осіб, «винних» у війні в Україні.",
+		"https://www.aa.com.tr/en/world/eu-extends-sanctions-against-1-200-people-responsible-for-war-in-ukraine/2685357"
 	]
 ]

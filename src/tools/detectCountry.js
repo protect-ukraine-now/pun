@@ -37,12 +37,14 @@ let map = {
 }
 
  export default () => {
-	if (!global.Intl) return
 	// override country with the query parameter for testing
-	let query = location.search.slice(1)
-	let params = Object.fromEntries(query.split('&').map(x => x.split('=')))
-	if (params.country) return params.country
+	if (global.location?.search) {
+		let query = location.search.slice(1)
+		let params = Object.fromEntries(query.split('&').map(x => x.split('=')))
+		if (params.country) return params.country
+	}
 
+	if (!global.Intl) return
 	let tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''
 	let a = tz.split('/')
 	let city = a[a.length - 1]
