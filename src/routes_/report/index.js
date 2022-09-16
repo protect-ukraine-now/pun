@@ -21,7 +21,7 @@ export default function Report(props) {
 				<Dashboard {...props} />
 			</Container>
 			<Banner
-				className={cn(style.banner, {[style.visible]: country === 'US'})}
+				className={cn(style.banner, {[style.hidden]: country !== 'US'})}
 				title={<Text id="report.banner_title">Protect Ukraine now before it's too late!</Text>}
 				image="../../assets/images/banner-bg-1.webp"
 				action={

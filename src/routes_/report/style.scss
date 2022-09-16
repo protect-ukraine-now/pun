@@ -42,10 +42,9 @@
 
 .banner {
   margin: 65px 0;
-  display: none;
 
-  &.visible {
-    display: block;
+  &.hidden {
+    display: none;
   }
 }
 
