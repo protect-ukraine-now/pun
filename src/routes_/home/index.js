@@ -22,9 +22,8 @@ export default function Home() {
 		let map = {
 			US: '/en/letter',
 			UA: '/ua/report',
-			other: '/en/report',
 		}
-		route(map[country] || '/en/letter', true); // replaces the current history entry
+		route(map[country] || '/en/report', true); // replaces the current history entry
 	}, [])
 
 	return (

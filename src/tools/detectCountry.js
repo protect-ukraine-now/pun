@@ -35,9 +35,14 @@ let map = {
 	"Midway": "US",
 	"St_Thomas": "US",
 }
-  
+
  export default () => {
 	if (!global.Intl) return
+	// override country with the query parameter for testing
+	let query = location.search.slice(1)
+	let params = Object.fromEntries(query.split('&').map(x => x.split('=')))
+	if (params.country) return params.country
+
 	let tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''
 	let a = tz.split('/')
 	let city = a[a.length - 1]
