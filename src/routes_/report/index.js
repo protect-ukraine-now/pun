@@ -7,7 +7,7 @@ import Banner from '../../components/Banner';
 import { Link } from 'preact-router';
 import { Text } from 'preact-i18n';
 import { useLanguage } from '../../tools/language';
-// import reportBannerImage from '../../assets/images/banner-bg-1.webp';
+import reportBannerImage from '../../assets/images/banner-bg-1.webp';
 import detectCountry from '../../tools/detectCountry';
 
 export default function Report(props) {
@@ -26,7 +26,7 @@ export default function Report(props) {
 					<Banner
 						className={style.banner}
 						title={<Text id="report.banner_title">Protect Ukraine now before it's too late!</Text>}
-						image="../../assets/images/banner-bg-1.webp"
+						image={reportBannerImage}
 						action={
 							<Link className={style.bannerBtn} href={`/${language}/letter`}>
 								<Text id="report.banner_btn">Click here</Text>
