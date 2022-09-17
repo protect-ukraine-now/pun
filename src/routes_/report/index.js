@@ -14,6 +14,8 @@ export default function Report(props) {
 	// console.log('Report props', props)
 	const language = useLanguage();
 	const country = detectCountry();
+	const bannerClasses = cn(style.banner, { [style.hidden]: country !== 'US' })
+	console.log('Report', { country, bannerClasses })
 
 	return (
 		<>
@@ -21,7 +23,7 @@ export default function Report(props) {
 				<Dashboard {...props} />
 			</Container>
 			<Banner
-				className={cn(style.banner, {[style.hidden]: country !== 'US'})}
+				className={bannerClasses}
 				title={<Text id="report.banner_title">Protect Ukraine now before it's too late!</Text>}
 				image="../../assets/images/banner-bg-1.webp"
 				action={
