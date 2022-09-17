@@ -5,7 +5,7 @@ import { Router } from 'preact-router'
 
 import './index.css'
 import './style'
-import './tools/scrllToTopOnNavigation'
+import './tools/scrollToTopOnNavigation'
 import { setUrl } from './tools/url'
 import { LanguageProvider } from './tools/language'
 import Header from './components/Header'
