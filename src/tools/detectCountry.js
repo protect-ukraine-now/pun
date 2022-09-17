@@ -41,12 +41,17 @@ let map = {
 	if (global.location?.search) {
 		let query = location.search.slice(1)
 		let params = Object.fromEntries(query.split('&').map(x => x.split('=')))
-		if (params.country) return params.country
+		if (params.country) {
+			return params.country
+			console.log('country overrided', params.country)
+		}
 	}
 
 	if (!global.Intl) return
 	let tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''
 	let a = tz.split('/')
 	let city = a[a.length - 1]
-	return map[city] || 'other'
+	let country = map[city] || 'other'
+	console.log('country detected', country)
+	return country
 }
