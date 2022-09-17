@@ -42,8 +42,8 @@ let map = {
 		let query = location.search.slice(1)
 		let params = Object.fromEntries(query.split('&').map(x => x.split('=')))
 		if (params.country) {
-			return params.country
 			console.log('country overrided', params.country)
+			return params.country
 		}
 	}
 
