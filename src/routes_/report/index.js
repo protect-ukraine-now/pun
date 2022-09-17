@@ -20,7 +20,7 @@ export default function Report(props) {
 			<Container className={style.container}>
 				<Dashboard {...props} />
 			</Container>
-			{/* don't remove below div - preact hydration bug workarond */}
+			{/* below excess div is required - it's a workarond for https://github.com/preactjs/preact/issues/3733 */}
 			<div>
 				{country === 'US' &&
 					<Banner
