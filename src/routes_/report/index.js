@@ -20,21 +20,18 @@ export default function Report(props) {
 			<Container className={style.container}>
 				<Dashboard {...props} />
 			</Container>
-			{/* below excess div is required - it's a workarond for https://github.com/preactjs/preact/issues/3733 */}
-			<div>
-				{country === 'US' &&
-					<Banner
-						className={style.banner}
-						title={<Text id="report.banner_title">Protect Ukraine now before it's too late!</Text>}
-						image={reportBannerImage}
-						action={
-							<Link className={style.bannerBtn} href={`/${language}/letter`}>
-								<Text id="report.banner_btn">Click here</Text>
-							</Link>
-						}
-					/>
-				}
-			</div>
+			{country === 'US' &&
+				<Banner
+					className={style.banner}
+					title={<Text id="report.banner_title">Protect Ukraine now before it's too late!</Text>}
+					image={reportBannerImage}
+					action={
+						<Link className={style.bannerBtn} href={`/${language}/letter`}>
+							<Text id="report.banner_btn">Click here</Text>
+						</Link>
+					}
+				/>
+			}
 			<Container className={style.chart}>
 				<AidChart {...props} />
 			</Container>

@@ -37,8 +37,10 @@ let map = {
 }
 
  export default () => {
+	if (!global.window) return // pre-rendering
+
 	// override country with the query parameter for testing
-	if (global.location?.search) {
+	if (global.location.search) {
 		let query = location.search.slice(1)
 		let params = Object.fromEntries(query.split('&').map(x => x.split('=')))
 		if (params.country) {
