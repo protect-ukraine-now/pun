@@ -31,7 +31,7 @@ const CATEGORIES = [
 
 export function prepareReport({ from, till }) {
     let byCategory = commits.slice(1).reduce((byCategory, r) => {
-        let [date, country, category, type, qty, link, title] = r
+        let [date, country, category, type, qty, fund, link, title] = r
         if (date <= till) {
             let values = byCategory[category] || [{}, {}]
             byCategory[category] = values
