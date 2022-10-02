@@ -1,3 +1,4 @@
+import balance from './balance.json'
 import commits from './commits.json'
 import { isoDate, DAY } from '../tools/date'
 
@@ -29,7 +30,14 @@ const CATEGORIES = [
     'Other Armored Vehicle',
 ]
 
-export function prepareReport({ from, till }) {
+export function balanceReport() {
+    return balance.map(([category, ru, ua]) => ({
+        category,
+        values: [{ value: ru }, { value: ua }],
+    }))
+}
+
+export function commitsReport({ from, till } = latestReport) {
     let byCategory = commits.slice(1).reduce((byCategory, r) => {
         let [date, country, category, type, qty, fund, link, title] = r
         if (date <= till) {

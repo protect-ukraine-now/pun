@@ -1,7 +1,7 @@
-import cn from 'classnames';
 import style from './style.scss';
 import Container from '../../components/Container';
-import Dashboard from '../../components/Dashboard';
+import WeaponsBalance from '../../components/WeaponsBalance';
+import WeaponsCommits from '../../components/WeaponsCommits';
 import AidChart from '../../components/AidChart';
 import Banner from '../../components/Banner';
 import { Link } from 'preact-router';
@@ -18,7 +18,8 @@ export default function Report(props) {
 	return (
 		<>
 			<Container className={style.container}>
-				<Dashboard {...props} />
+				<WeaponsBalance {...props} />
+				<WeaponsCommits {...props} />
 			</Container>
 			{country === 'US' &&
 				<Banner
