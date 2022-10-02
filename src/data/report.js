@@ -30,6 +30,22 @@ const CATEGORIES = [
     'Other Armored Vehicle',
 ]
 
+let commitsByCategory = ({ report = latestReport, filter }) => commits.reduce((byCategory, r) => {
+    let [date, country, category, type, qty, fund, link, title] = r
+    if (date <= report.till && (!filter || filter(r))) {
+        let values = byCategory[category] || [{}, {}]
+        byCategory[category] = values
+        let index = country === 'US' ? 0 : 1
+        let x = values[index]
+        x.value = (x.value || 0) + +qty
+        if (date >= report.from) {
+            x.delta = (x.delta || 0) + +qty
+            x.sources = { ...(x.sources || {}), [link]: title }
+        }
+    }
+    return byCategory
+}, {})
+
 export function balanceReport() {
     return balance.map(([category, ru, ua]) => ({
         category,
@@ -37,26 +53,18 @@ export function balanceReport() {
     }))
 }
 
-export function commitsReport({ from, till } = latestReport) {
-    let byCategory = commits.slice(1).reduce((byCategory, r) => {
-        let [date, country, category, type, qty, fund, link, title] = r
-        if (date <= till) {
-            let values = byCategory[category] || [{}, {}]
-            byCategory[category] = values
-            // let indicies = country === 'US' ? [0, 1] : [1]
-            let index = country === 'US' ? 0 : 1
-            let x = values[index]
-            x.value = (x.value || 0) + +qty
-            if (date >= from) {
-                x.delta = (x.delta || 0) + +qty
-                x.sources = {...(x.sources || {}), [link]: title }
-            }
-        }
-        return byCategory
-    }, {})
-
+export function incomeReport(report) {
+    let byCategory = commitsByCategory({ report })
     return CATEGORIES.map(category => ({
         category,
         values: byCategory[category],
+    }))
+}
+
+export function inventoryReport() {
+    let byCategory = commitsByCategory({ filter: x => !x[5] }) // fund == PDA
+    return balance.map(([category, ru, ua, us]) => ({
+        category,
+        values: [{ value: us }, byCategory[category][0]],
     }))
 }

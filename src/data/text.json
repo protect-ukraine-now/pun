@@ -25,6 +25,10 @@
 			"banner_title": "Protect Ukraine now before it's too late!",
 			"banner_btn": "Click here"
 		},
+		"inventory": {
+			"title": "USA: Weapons possessed and Presidential Drawdown (PDA)",
+			"subtitle": "as of {{till}}"
+		},
 		"aid_chart": {
 			"title": "US military aid by week",
 			"measure": "$ millions",
@@ -90,6 +94,10 @@
 			"description": "Включає як безкоштовну допомогу, так і покупки, як вже доставлене так і лише обіцяне, як зараз та у наступні роки",
 			"banner_title": "Захистить Україну зараз, поки не пізно!",
 			"banner_btn": "Натисніть тут"
+		},
+		"inventory": {
+			"title": "США: Наявна зброя та її поставки (PDA)",
+			"subtitle": "на {{till}}"
 		},
 		"aid_chart": {
 			"title": "Військова допомога США по тижнях",

@@ -1,7 +1,8 @@
 import style from './style.scss';
 import Container from '../../components/Container';
 import WeaponsBalance from '../../components/WeaponsBalance';
-import WeaponsCommits from '../../components/WeaponsCommits';
+import WeaponsIncome from '../../components/WeaponsIncome';
+import WeaponsInventory from '../../components/WeaponsInventory';
 import AidChart from '../../components/AidChart';
 import Banner from '../../components/Banner';
 import { Link } from 'preact-router';
@@ -19,7 +20,8 @@ export default function Report(props) {
 		<>
 			<Container className={style.container}>
 				<WeaponsBalance {...props} />
-				<WeaponsCommits {...props} />
+				<WeaponsIncome {...props} />
+				<WeaponsInventory {...props} />
 			</Container>
 			{country === 'US' &&
 				<Banner

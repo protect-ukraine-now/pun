@@ -8,14 +8,14 @@ import GB from 'country-flag-icons/react/1x1/GB'
 import { IoEllipsisHorizontalCircle } from 'react-icons/io5'
 
 import style from './style.scss';
-import { latestReport, commitsReport, Report } from '../../data/report'
+import { latestReport, incomeReport, Report } from '../../data/report'
 import { formatDate } from '../../tools/date'
 import { translate } from '../../tools/language'
 import WeaponsTable from '../WeaponsTable'
 
 export default function WeaponsCommits({ language }) {
     const [report, setReport] = useState(latestReport)
-    let data = useMemo(() => commitsReport(report), [report])
+    let data = useMemo(() => incomeReport(report), [report])
     let { from, till, prev, next } = report
     const formatter = formatDate(language)
     from = formatter(from)
