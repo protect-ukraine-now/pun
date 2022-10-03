@@ -13,7 +13,7 @@ import { formatDate } from '../../tools/date'
 import { translate } from '../../tools/language'
 import WeaponsTable from '../WeaponsTable'
 
-export default function WeaponsCommits({ language }) {
+export default function WeaponsCommits({ language, className }) {
     const [report, setReport] = useState(latestReport)
     let data = useMemo(() => incomeReport(report), [report])
     let { from, till, prev, next } = report
@@ -70,5 +70,5 @@ export default function WeaponsCommits({ language }) {
 
     let description = <Text id="report.description" />
 
-    return <WeaponsTable {...{ title, subtitle, head, data, description }} />
+    return <WeaponsTable {...{ title, subtitle, head, data, description, className }} />
 }

@@ -5,7 +5,7 @@ import IconCell from './IconCell';
 import DataCell from './DataCell';
 import Container from '../Container';
 
-const WeaponsTable = ({ title, subtitle, head, data, decription }) => {
+const WeaponsTable = ({ className, title, subtitle, head, data, description }) => {
 	const left = data.slice(0, data.length / 2);
 	const right = data.slice(-data.length / 2);
 
@@ -33,7 +33,7 @@ const WeaponsTable = ({ title, subtitle, head, data, decription }) => {
 	);
 
 	return (
-		<Container>
+		<Container className={className}>
 			<h1 className={style.heading}>
 				{title}
 				<div className={style.subHeading}>{subtitle}</div>
@@ -41,7 +41,7 @@ const WeaponsTable = ({ title, subtitle, head, data, decription }) => {
 			<div className={style.splitter}>
 				{[left, right].map(renderTableLayout)}
 			</div>
-			<p className={style.description}>{decription}</p>
+			<p className={style.description}>{description}</p>
 		</Container>
 	);
 };

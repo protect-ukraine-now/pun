@@ -19,9 +19,9 @@ export default function Report(props) {
 	return (
 		<>
 			<Container className={style.container}>
-				<WeaponsBalance {...props} />
-				<WeaponsIncome {...props} />
-				<WeaponsInventory {...props} />
+				<WeaponsBalance {...props} className={style.table} />
+				<WeaponsIncome {...props} className={style.table} />
+				<WeaponsInventory {...props} className={style.table} />
 			</Container>
 			{country === 'US' &&
 				<Banner

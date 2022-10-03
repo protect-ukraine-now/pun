@@ -10,14 +10,14 @@
           ),
           30px
   );
-  @include make-responsive('margin-bottom',
-          (
-                  mobile: 30px,
-                  tablet: 25px,
-                  desktop: 40px,
-          ),
-          40px
-  );
+  //@include make-responsive('margin-bottom',
+  //        (
+  //                mobile: 10px,
+  //                tablet: 15px,
+  //                desktop: 20px,
+  //        ),
+  //        20px
+  //);
 
   font-weight: 700;
   text-transform: uppercase;

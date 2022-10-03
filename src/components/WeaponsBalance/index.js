@@ -10,7 +10,7 @@ import WeaponsTable from '../WeaponsTable'
 
 let data = balanceReport()
 
-export default function WeaponsCommitments({ language }) {
+export default function WeaponsCommitments({ language, className }) {
     const formatter = formatDate(language)
     let till = formatter('2022-02-24')
 
@@ -21,9 +21,11 @@ export default function WeaponsCommitments({ language }) {
     )
 
     let subtitle = (
+      <div className={style.subtitle}>
         <Text id="balance.subtitle" fields={{ till }}>
             as of {till}
         </Text>
+      </div>
     )
 
     let head = [
@@ -33,5 +35,5 @@ export default function WeaponsCommitments({ language }) {
 
     let description = <Text id="balance.description" />
 
-    return <WeaponsTable {...{ title, subtitle, head, data, description }} />
+    return <WeaponsTable {...{ title, subtitle, head, data, description, className }} />
 }
