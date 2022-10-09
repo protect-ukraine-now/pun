@@ -41,7 +41,7 @@ const WeaponsTable = ({ className, title, subtitle, head, data, description }) =
 			<div className={style.splitter}>
 				{[left, right].map(renderTableLayout)}
 			</div>
-			<p className={style.description}>{description}</p>
+			{description && <p className={style.description}>{description}</p>}
 		</Container>
 	);
 };

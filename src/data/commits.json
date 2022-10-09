@@ -34,7 +34,7 @@
 		"Slovakia",
 		"Air Defense System",
 		"S-300PMU",
-		"1",
+		"12",
 		"",
 		"What Heavy Weapons the West Has (and Hasn’t) Sent Ukraine - New Lines Institute",
 		null
@@ -1128,5 +1128,65 @@
 		"",
 		"https://www.lemonde.fr/international/article/2022/10/01/la-france-prepare-la-livraison-de-nouveaux-canons-caesar-a-l-ukraine_6143991_3210.html",
 		"La France prépare la livraison de nouveaux canons Caesar à l’Ukraine"
+	],
+	[
+		"2022-10-04",
+		"US",
+		"Guided MLRS",
+		"M142 HIMARS",
+		"4",
+		"",
+		"https://www.defense.gov/News/Releases/Release/Article/3179323/625-million-in-additional-security-assistance-for-ukraine/",
+		"$625 Million in Additional Security Assistance for Ukraine"
+	],
+	[
+		"2022-10-03",
+		"Slovakia",
+		"Self-Propelled Artillery",
+		"Zuzana 2 SPH",
+		"16",
+		null,
+		null,
+		null
+	],
+	[
+		"2022-10-04",
+		"US",
+		"Towed Artillery",
+		"155mm howitzer",
+		"16",
+		"",
+		"https://www.defense.gov/News/Releases/Release/Article/3179323/625-million-in-additional-security-assistance-for-ukraine/",
+		"$625 Million in Additional Security Assistance for Ukraine"
+	],
+	[
+		"2022-10-04",
+		"US",
+		"Towed Artillery",
+		"105mm howitzer",
+		"16",
+		"",
+		"https://www.defense.gov/News/Releases/Release/Article/3179323/625-million-in-additional-security-assistance-for-ukraine/",
+		"$625 Million in Additional Security Assistance for Ukraine"
+	],
+	[
+		"2022-10-04",
+		"US",
+		"Other Armored Vehicle",
+		"MaxxPro MRAP",
+		"200",
+		"",
+		"https://www.defense.gov/News/Releases/Release/Article/3179323/625-million-in-additional-security-assistance-for-ukraine/",
+		"$625 Million in Additional Security Assistance for Ukraine"
+	],
+	[
+		"2022-10-03",
+		"France",
+		"Other Armored Vehicle",
+		"Bastion",
+		"20",
+		"",
+		"https://www.latribune.fr/entreprises-finance/industrie/aeronautique-defense/la-france-va-fournir-des-vehicules-blindes-bastion-arquus-a-l-ukraine-935022.html",
+		"La France va fournir des véhicules blindés Bastion (Arquus) à l'Ukraine"
 	]
 ]

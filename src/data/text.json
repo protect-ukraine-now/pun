@@ -12,7 +12,8 @@
 		},
 		"balance": {
 			"title": "Weapons possessed",
-			"subtitle": "as of {{till}}"
+			"subtitle": "as of {{till}}",
+			"description": "Only systems with a range of more than 10 km have been added to the \"Air Defense System\" category. \nSources: iiss.org, armedforces.eu, globalsecurity.org, wikipedia.org"
 		},
 		"report": {
 			"title": "Weapons committed to Ukraine",
@@ -26,7 +27,7 @@
 			"banner_btn": "Click here"
 		},
 		"inventory": {
-			"title": "USA: Weapons possessed and Presidential Drawdown (PDA)",
+			"title": "USA: Weapons possessed vs weapons provided under Presidential Drawdown (short term aid)",
 			"subtitle": "as of {{till}}"
 		},
 		"aid_chart": {
@@ -82,7 +83,8 @@
 		},
 		"balance": {
 			"title": "Наявна зброя",
-			"subtitle": "на {{till}}"
+			"subtitle": "на {{till}}",
+			"description": "У категорію «Зенітно-ракетний комплекс» додано лише системи з дальністю понад 10 км.\nДжерела: iiss.org, armedforces.eu, globalsecurity.org, wikipedia.org"
 		},
 		"report": {
 			"title": "Зброя, що передана або обіцяна Україні",
@@ -96,7 +98,7 @@
 			"banner_btn": "Натисніть тут"
 		},
 		"inventory": {
-			"title": "США: Наявна зброя та її поставки (PDA)",
+			"title": "США: Наявна зброя та її поставки по фонду PDA (короткострокова допомога)",
 			"subtitle": "на {{till}}"
 		},
 		"aid_chart": {
@@ -118,8 +120,8 @@
 			"Guided MLRS": "Високоточна РСЗВ",
 			"Tank": "Танк",
 			"Infantry Fighting Vehicle": "Бойова машина піхоти ",
-			"Other Armored Vehicle": "Інша броньована техніка",
-			"Air Defense System": "Зенітний ракетний комплекс",
+			"Other Armored Vehicle": "Інша бронетехніка",
+			"Air Defense System": "Зенітнo-ракетний комплекс",
 			"Helicopter": "Гелiкоптер",
 			"Warplane": "Бойовий літак",
 			"Vessel": "Судно",
