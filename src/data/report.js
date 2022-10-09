@@ -3,7 +3,7 @@ import commits from './commits.json'
 import { isoDate, DAY } from '../tools/date'
 
 let first = '2022-07-17'
-let latest = '2022-09-25'
+let latest = '2022-10-09'
 
 let timespan = 14 * DAY
 export let Report = till => {
