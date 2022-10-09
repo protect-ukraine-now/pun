@@ -10,14 +10,14 @@
           ),
           30px
   );
-  @include make-responsive('margin-bottom',
-          (
-                  mobile: 30px,
-                  tablet: 25px,
-                  desktop: 40px,
-          ),
-          40px
-  );
+  //@include make-responsive('margin-bottom',
+  //        (
+  //                mobile: 10px,
+  //                tablet: 15px,
+  //                desktop: 20px,
+  //        ),
+  //        20px
+  //);
 
   font-weight: 700;
   text-transform: uppercase;
@@ -37,49 +37,6 @@
   font-weight: 700;
   display: flex;
   align-items: center;
-}
-
-.subtitle {
-  display: inline-block;
-  color: $grey-text;
-}
-
-.nav {
-  margin-left: auto;
-  display: flex;
-  align-items: center;
-}
-
-.period {
-  margin: 0 10px;
-}
-
-.navLink {
-  @include make-responsive('--max-container-width',
-          (mobile: 16px,
-                  tablet: 18px,
-                  desktop: 20px,
-          ),
-          20px);
-
-  text-decoration: none;
-  transition: 0.25s ease;
-  font-weight: 700;
-  margin-top: -7px;
-  font-size: 40px;
-
-  &:visited {
-    color: $dark-text;
-  }
-
-  &[href]:hover {
-    color: $color-accent;
-  }
-
-  &:not([href]) {
-    cursor: default;
-    color: $grey-text;
-  }
 }
 
 .splitter {
@@ -257,30 +214,6 @@
   }
 }
 
-.countryFlag {
-  min-width: 30px;
-  min-height: 30px;
-  max-width: 30px;
-  max-height: 30px;
-  width: 100%;
-  border-radius: 50%;
-  border: 2px solid lightgray;
-
-  &:not(&:first-child) {
-    margin-left: -12px;
-  }
-}
-
-.ellipsis {
-  margin: 0 -11px -14px;
-  flex: 0 0 20px;
-  color: lightgray;
-  background-color: white;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-}
-
 .cell {
   position: relative;
 }
@@ -418,8 +351,4 @@
 .source {
   font-family: 'Open Sans', Arial, sans-serif;
   color: $color-accent;
-}
-
-.russia {
-  color: #ff5555;
 }

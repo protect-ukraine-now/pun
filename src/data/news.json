@@ -697,8 +697,8 @@
 	],
 	[
 		"2022-09-26",
-		"Secretary of State Antony Blinken said a conversation with Ukraine over the supply of U.S. weapons to aid the country’s war effort is “ongoing,” notably regarding a request from Kyiv for Army Tactical Missile Systems, or ATACMS, as the surface-to-surface missiles are commonly known.",
-		"Держсекретар Ентоні Блінкен заявив, що розмова з Україною щодо постачання зброї США для допомоги військовим зусиллям країни «триває», зокрема щодо запиту Києва на армійські тактичні ракетні системи (ATACMS) як ракети «земля-земля». загальновідомі.",
+		"Secretary of State Antony Blinken said a conversation with Ukraine over the supply of U.S. weapons to aid the country’s war effort is “ongoing,” notably regarding a request from Kyiv for Army Tactical Missile Systems, or ATACMS",
+		"Держсекретар Ентоні Блінкен заявив, що розмова з Україною щодо постачання зброї США для допомоги військовим зусиллям країни «триває», зокрема щодо запиту Києва на армійські тактичні ракетні системи (ATACMS)",
 		"https://www.washingtonpost.com/world/2022/09/26/blinken-ukraine-weapons-60-minutes-nasams/"
 	],
 	[
@@ -708,21 +708,9 @@
 		"https://www.reuters.com/world/us/us-congress-negotiators-set-12-bln-new-ukraine-aid-2022-09-26/"
 	],
 	[
-		"2022-09-25",
-		"President Volodymyr Zelenskyy said in an interview broadcast on Sunday (25 September) that Ukraine had received sophisticated air defence systems from the United States.",
-		"Президент Володимир Зеленський в інтерв'ю, яке транслювалося в неділю, 25 вересня, заявив, що Україна отримала від Сполучених Штатів сучасні системи ППО.",
-		"https://www.euractiv.com/section/global-europe/news/ukraine-receives-advanced-us-air-defense-system/"
-	],
-	[
-		"2022-09-28",
-		"The US undersecretary of defense for acquisition and sustainment Bill LaPlante will lead the first meeting of national armament directors on September 28. The meeting will focus on ways to shore up arms production for Ukraine and identify the capabilities the country will likely need in the future.",
-		"Заступник міністра оборони США з питань закупівель і забезпечення Білл Лаплант очолить першу зустріч національних директорів з озброєнь 28 вересня. Зустріч буде зосереджена на шляхах зміцнення виробництва зброї для України та визначенні можливостей, які країні, ймовірно, знадобляться в майбутньому.",
-		"https://www.thedefensepost.com/2022/09/26/us-partners-ukraine-arms-strategy/"
-	],
-	[
 		"2022-09-27",
-		"The United States will not start delivering sophisticated NASAMS air defenses to Ukraine for another two months or so, the Pentagon said on Tuesday, disputing reports suggesting Ukraine had already received them.",
-		"Пентагон заявив у вівторок, заперечуючи повідомлення про те, що Україна вже отримала їх, Сполучені Штати не почнуть постачати Україні складні засоби протиповітряної оборони NASAMS ще приблизно через два місяці.",
+		"The United States will not start delivering sophisticated NASAMS air defenses to Ukraine for another two months or so",
+		"Сполучені Штати не почнуть постачати Україні складні засоби протиповітряної оборони NASAMS ще приблизно два місяці.",
 		"https://www.reuters.com/world/us-has-not-yet-delivered-nasams-air-defenses-ukraine-pentagon-2022-09-27/"
 	],
 	[
@@ -734,20 +722,26 @@
 	[
 		"2022-09-28",
 		"$1.1 billion security assistance package for Ukraine is announced on Sept. 28 by the U.S. Defense Department. The package include: 18 High Mobility Artillery Rocket Systems (HIMARS) and associated ammunition, 150 Armored High Mobility Multipurpose Wheeled Vehicles (HMMWVs), 150 Tactical Vehicles to tow weapons, 40 trucks and 80 trailers to transport heavy equipment, other military systems and supplies.",
-		"Міністерство оборони США оголосило 28 вересня про пакет допомоги Україні в сфері безпеки на 1,1 мільярда доларів. Пакет включає: 18 ракетно-артилерійських систем високої мобільності (HIMARS) і пов’язаних боєприпасів, 150 броньованих багатоцільових колісних машин високої мобільності (HMMWV), 150 тактичних машин для буксирування зброї, 40 вантажівок і 80 причепів для транспортування важкого обладнання, інших військових систем і припасів. .",
+		"Міністерство оборони США оголосило 28 вересня про пакет допомоги Україні в сфері безпеки на 1,1 мільярда доларів. Пакет включає: 18 ракетно-артилерійських систем високої мобільності (HIMARS) і пов’язаних боєприпасів, 150 броньованих багатоцільових колісних машин високої мобільності (HMMWV), 150 тактичних машин для буксирування зброї, 40 вантажівок і 80 причепів для транспортування важкого обладнання, інших військових систем і припасів",
 		"https://www.msn.com/en-us/news/world/ukraine-situation-report-another-18-himars-launchers-for-ukraine/ar-AA12muql"
 	],
 	[
-		"2022-09-30",
-		"President Joe Biden released a statement Friday announcing that the United States \"will continue to support Ukraine's efforts to regain control of its territory by strengthening its hand militarily and diplomatically\".",
-		"Президент Джо Байден у п’ятницю оприлюднив заяву, в якій оголосив, що Сполучені Штати «продовжуватимуть підтримувати зусилля України відновити контроль над своєю територією шляхом зміцнення своєї позиції військовим і дипломатичним шляхом».",
-		"https://www.dailymail.co.uk/news/article-11266907/Putin-United-States-created-nuclear-precedent-bombing-Japan.html"
+		"2022-09-28",
+		"The HIMARS artillery system in the US’s latest security assistance package for Ukraine will take a few years to be built",
+		"Виробництво систем HIMARS для останнього пакету допомоги Україні займе кілька років",
+		"https://www.bloomberg.com/news/articles/2022-09-28/us-is-sending-more-artillery-to-ukraine-but-it-won-t-arrive-for-years"
 	],
 	[
-		"2022-10-01",
-		"France is preparing to supply Ukraine with a new series of Caesar guns, taken from an order originally intended for Denmark. This supply could relate to 6 to 12 howitzers out of the 15 requested by Kyiv.",
-		"Франція готується поставити в Україну нову серію рушниць Caesar, взяту із замовлення, спочатку призначеного для Данії. Це постачання може стосуватися від 6 до 12 гаубиць із 15, які запитує Київ.",
-		"https://www.lemonde.fr/international/article/2022/10/01/la-france-prepare-la-livraison-de-nouveaux-canons-caesar-a-l-ukraine_6143991_3210.html"
+		"2022-09-29",
+		"Republicans so far have unsuccessfully pressed the Biden administration to use the leftover $2.1 billion in Ukraine military aid in time. The moves correspond with another Republican push to provide Ukraine with the long-range Army Tactical Missile System that Kyiv has asked for despite the Biden administration’s reluctance.",
+		"Республіканці поки що безуспішно тиснули на адміністрацію Байдена, щоб вона вчасно використала залишки військової допомоги Україні в розмірі 2,1 мільярда доларів. Ці кроки відповідають ще одному поштовху республіканців щодо надання Україні армійської тактичної ракетної системи великої дальності, про яку просив Київ, незважаючи на небажання адміністрації Байдена.",
+		"https://www.defensenews.com/congress/2022/09/29/republicans-push-biden-to-use-21-billion-ukraine-aid-set-to-expire/"
+	],
+	[
+		"2022-09-30",
+		"President Joe Biden announced that the United States \"will continue to support Ukraine's efforts to regain control of its territory by strengthening its hand militarily and diplomatically\".",
+		"Президент Джо Байден оголосив, що Сполучені Штати «продовжуватимуть підтримувати зусилля України відновити контроль над своєю територією шляхом зміцнення своєї позиції військовим і дипломатичним шляхом».",
+		"https://www.dailymail.co.uk/news/article-11266907/Putin-United-States-created-nuclear-precedent-bombing-Japan.html"
 	],
 	[
 		"2022-09-30",
@@ -756,9 +750,57 @@
 		"https://www.zdf.de/nachrichten/politik/lambrecht-besuch-ukraine-krieg-russland-100.html"
 	],
 	[
-		"2022-09-29",
-		"Republicans so far have unsuccessfully pressed the Biden administration to use the leftover $2.1 billion in Ukraine military aid in time. The moves correspond with another Republican push to provide Ukraine with the long-range Army Tactical Missile System that Kyiv has asked for despite the Biden administration’s reluctance.",
-		"Республіканці поки що безуспішно тиснули на адміністрацію Байдена, щоб вона вчасно використала залишки військової допомоги Україні в розмірі 2,1 мільярда доларів. Ці кроки відповідають ще одному поштовху республіканців щодо надання Україні армійської тактичної ракетної системи великої дальності, про яку просив Київ, незважаючи на небажання адміністрації Байдена.",
-		"https://www.defensenews.com/congress/2022/09/29/republicans-push-biden-to-use-21-billion-ukraine-aid-set-to-expire/"
+		"2022-10-01",
+		"France is preparing to supply Ukraine with a new series of Caesar guns, taken from an order originally intended for Denmark. This supply could relate to 6 to 12 howitzers",
+		"Франція готується поставити в Україну нову серію гаубиць Caesar, взяту із замовлення, спочатку призначеного для Данії. Це постачання може стосуватися від 6 до 12 гаубиць",
+		"https://www.lemonde.fr/international/article/2022/10/01/la-france-prepare-la-livraison-de-nouveaux-canons-caesar-a-l-ukraine_6143991_3210.html"
+	],
+	[
+		"2022-10-02",
+		"Germany, Denmark and Norway will buy 16 Slovak Zuzana-2 howitzers for Ukraine with delivery to begin next year.",
+		"Німеччина, Данія та Норвегія закуплять для України 16 словацьких гаубиць Zuzana-2, постачання яких розпочнеться наступного року.",
+		"https://www.usnews.com/news/world/articles/2022-10-02/germany-denmark-norway-to-give-ukraine-16-slovak-zuzana-2-howitzers"
+	],
+	[
+		"2022-10-02",
+		"The heads of nine European NATO members on Sunday issued a joint statement backing a path to membership for Ukraine in the U.S.-led security alliance, and calling on all 30 NATO nations to ramp up military aid for Kyiv.",
+		"Глави дев'яти європейських країн-членів НАТО в неділю виступили зі спільною заявою, в якій підтримують шлях до членства України в очолюваному США безпековому альянсі та закликають усі 30 країн НАТО збільшити військову допомогу Києву.",
+		"https://www.cnbc.com/2022/10/02/9-nato-members-urge-support-for-ukraine-after-annexation.html"
+	],
+	[
+		"2022-10-03",
+		"Arquus (France) will supply Ukraine with 20 Bastion armored vehicles.",
+		"Arquus (Франція) поставить в Україну 20 броньованих машин Bastion.",
+		"https://www.latribune.fr/entreprises-finance/industrie/aeronautique-defense/la-france-va-fournir-des-vehicules-blindes-bastion-arquus-a-l-ukraine-935022.html"
+	],
+	[
+		"2022-10-04",
+		"The Department of Defense (DoD) announced the authorization of a Presidential Drawdown of security assistance valued at up to $625 million. This package include: 4 High Mobility Artillery Rocket Systems (HIMARS); 16 155mm Howitzers; 16 105mm Howitzers; 200 MaxxPro Mine Resistant Ambush Protected Vehicles and associated ammunition.",
+		"Міністерство оборони США оголосило про пакет допомоги на 625 мільйонів доларів. Цей пакет включає: 4 артилерійські ракетні системи високої мобільності (HIMARS); 16 155-мм гаубиць; 16 105-мм гаубиць; 200 протимінних транспортних засобів MaxxPro із захистом від засідки та відповідних боєприпасів.",
+		"https://www.defense.gov/News/Releases/Release/Article/3179323/625-million-in-additional-security-assistance-for-ukraine/"
+	],
+	[
+		"2022-10-05",
+		"European Parliament speaker Roberta Metsola told that the European Union should deliver tanks to Ukraine and speed up the procedure of having the country join the bloc. \"The Ukrainians need weapons that they can fight with in order to regain their territory, and that means, for example, Leopard II tanks that several members states have.\"",
+		"Спікер Європарламенту Роберта Мецола заявила, що Євросоюз має доставити Україні танки та прискорити процедуру вступу країни до блоку. «Українцям потрібна зброя, якою вони можуть воювати, щоб повернути свою територію, і це означає, наприклад, танки Leopard II, які є у кількох держав-членів».",
+		"https://www.france24.com/en/live-news/20221005-eu-should-give-tanks-to-ukraine-european-parliament-chief"
+	],
+	[
+		"2022-10-07",
+		"Estonian Minister of Defense Hanno Pevkur announced the next military aid package for Ukraine. According to a Ministry of Defence, the package will include artillery shells, anti-tank ammunition, winter uniforms and personal protective equipment.",
+		"Міністр оборони Естонії Ханно Певкур анонсував черговий пакет військової допомоги Україні. За даними Міноборони, пакет міститиме артилерійські снаряди, протитанкові боєприпаси, зимову форму та засоби індивідуального захисту.",
+		"https://news.err.ee/1608742171/estonia-sends-more-ammunition-protective-equipment-to-ukraine"
+	],
+	[
+		"2022-10-07",
+		"EU foreign policy chief Josep Borrell pushed the 27-nation bloc on Friday to earmark more money to pay for the military support of Ukraine.",
+		"Верховний представник ЄС із закордонних справ Жозеп Боррель у п’ятницю підштовхнув блок із 27 країн виділити більше грошей на оплату військової підтримки України.",
+		"https://www.reuters.com/world/europe/eu-needs-provide-more-money-pay-military-aid-ukraine-top-diplomat-2022-10-07/"
+	],
+	[
+		"2022-10-08",
+		"French President Emmanuel Macron has announced that he will step up arms supplies to Ukraine in the wake of criticism that Paris wasn't doing enough to help the war effort.",
+		"Президент Франції Еммануель Макрон оголосив, що він збільшить постачання зброї в Україну після критики, що Париж робить недостатньо, щоб допомогти військовим зусиллям.",
+		"https://newseu.cgtn.com/news/2022-10-08/Macron-ups-Ukraine-military-aid-after-criticism-over-low-spending-1dWJsVKfsJy/index.html"
 	]
 ]

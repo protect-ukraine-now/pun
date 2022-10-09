@@ -13,7 +13,7 @@ const loadData = require('./load')
 // 	}
 // }
 
-async function preparePages() {
+async function pages() {
 	let data = await loadData()
 	let { text } = data
 
@@ -59,4 +59,4 @@ This is a public opinion of US 20 top national security experts.
 	return pages
 }
 
-module.exports = preparePages
+module.exports = pages
