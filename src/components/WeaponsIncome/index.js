@@ -22,14 +22,14 @@ export default function WeaponsCommits({ language, className }) {
     till = formatter(till)
 
     let title = (
-        <Text id="report.title" fields={{ from, till }}>
+        <Text id="income.title" fields={{ from, till }}>
             Weapons committed to Ukraine
         </Text>
     )
 
     let subtitle = <>
         <div className={style.subtitle}>
-            <Text id="report.subtitle" fields={{ from, till }}>
+            <Text id="income.subtitle" fields={{ from, till }}>
                 as of {till}
             </Text>
         </div>
@@ -44,7 +44,7 @@ export default function WeaponsCommits({ language, className }) {
                 {'← '}
             </Link>
             <span className={style.period}>
-                <Text id="report.timespan">2 weeks</Text>
+                <Text id="income.timespan">2 weeks</Text>
             </span>
             <Link
                 className={style.navLink}
@@ -61,14 +61,14 @@ export default function WeaponsCommits({ language, className }) {
     let head = [
         <US className={style.countryFlag} title={translate('country.us')} />,
         <>
-            <CA className={style.countryFlag} title={translate('report.rest')} />
-            <GB className={style.countryFlag} title={translate('report.rest')} />
-            <PL className={style.countryFlag} title={translate('report.rest')} />
-            <IoEllipsisHorizontalCircle className={style.ellipsis} title={translate('report.rest')} />
+            <CA className={style.countryFlag} title={translate('income.rest')} />
+            <GB className={style.countryFlag} title={translate('income.rest')} />
+            <PL className={style.countryFlag} title={translate('income.rest')} />
+            <IoEllipsisHorizontalCircle className={style.ellipsis} title={translate('income.rest')} />
         </>,
     ]
 
-    let description = <Text id="report.description" />
+    let description = <Text id="income.description" />
 
     return <WeaponsTable {...{ title, subtitle, head, data, description, className }} />
 }

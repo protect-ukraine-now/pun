@@ -17,40 +17,37 @@ async function pages() {
 	let data = await loadData()
 	let { text } = data
 
-	let seoLetter = {
-		title: 'US must arm Ukraine now, before it’s too late',
-		cover: 'https://protectukrainenow.org/assets/letter.webp',
-		subtitle: `
-«With the necessary weapons and economic aid, Ukraine can defeat Russia. If it succeeds, our soldiers are less likely to have to risk their lives protecting U.S. treaty allies whom Russia also threatens»
-
-This is a public opinion of US 20 top national security experts.
-		`,
-	}
-
-	let seoWeapons = {
-		title: 'US must arm Ukraine now, before it’s too late',
-		cover: 'https://protectukrainenow.org/assets/weapons.webp',
-		subtitle: `
-«With the necessary weapons and economic aid, Ukraine can defeat Russia. If it succeeds, our soldiers are less likely to have to risk their lives protecting U.S. treaty allies whom Russia also threatens»
-
-This is a public opinion of US 20 top national security experts.
-		`,
-	}
-
 	let pages = [
-		{ url: '/' },
-		...Object.entries(text).map(([language]) => [
+		{
+			url: '/',
+			seo: {
+				...text.en.seo_letter
+			},
+		},
+		...Object.entries(text).map(([lang]) => [
 			{
-				url: `/${language}/letter`,
-				seo: seoLetter,
+				url: `/${lang}/letter`,
+				lang,
+				seo: {
+					...text[lang].seo_letter,
+					cover: 'https://protectukrainenow.org/assets/letter.webp',
+				},
 			},
 			{
-				url: `/${language}/news`,
-				seo: seoWeapons,
+				url: `/${lang}/news`,
+				lang,
+				seo: {
+					...text[lang].seo_news,
+					cover: `https://protectukrainenow.org/assets/report.${lang}.webp`,
+				},
 			},
 			{
-				url: `/${language}/report`,
-				seo: seoWeapons,
+				url: `/${lang}/report`,
+				lang,
+				seo: {
+					...text[lang].seo_report,
+					cover: `https://protectukrainenow.org/assets/report.${lang}.webp`,
+				},
 			},
 		])
 	].flat()

@@ -15,20 +15,24 @@
 			"subtitle": "as of {{till}}",
 			"description": "Only systems with a range of more than 10 km have been added to the \"Air Defense System\" category. \nSources: iiss.org, armedforces.eu, globalsecurity.org, wikipedia.org"
 		},
-		"report": {
+		"income": {
 			"title": "Weapons committed to Ukraine",
 			"subtitle": "as of {{till}}",
 			"timespan": "2 weeks",
 			"prev": "Previous Report",
 			"next": "Next Report",
 			"rest": "Other countries",
-			"description": "Includes both donations and purchases, already delivered and only promised, now and in coming years",
-			"banner_title": "Protect Ukraine now before it's too late!",
-			"banner_btn": "Click here"
+			"description": "Includes both donations and purchases, already delivered and only promised, now and in coming years"
 		},
 		"inventory": {
 			"title": "USA: Weapons possessed vs weapons provided under Presidential Drawdown (short term aid)",
-			"subtitle": "as of {{till}}"
+			"subtitle": "as of {{till}}",
+			"possessed": "Possessed",
+			"pda": "PDA"
+		},
+		"report": {
+			"banner_title": "Protect Ukraine now before it's too late!",
+			"banner_btn": "Click here"
 		},
 		"aid_chart": {
 			"title": "US military aid by week",
@@ -68,6 +72,22 @@
 			"donate_cta_title": "Help us help ukraine",
 			"donate_description": "This project is completely volunteer, so we will need finances to offer it, so support us so we can continue to help Ukraine!",
 			"donate_btn_title": "donate now"
+		},
+		"seo_root": {
+			"title": "US must arm Ukraine now, before it’s too late",
+			"subtitle": "«With the necessary weapons and economic aid, Ukraine can defeat Russia. If it succeeds, our soldiers are less likely to have to risk their lives protecting U.S. treaty allies whom Russia also threatens»\r\n\r\nThis is a public opinion of US 20 top national security experts.\r"
+		},
+		"seo_letter": {
+			"title": "US must arm Ukraine now, before it’s too late",
+			"subtitle": "«With the necessary weapons and economic aid, Ukraine can defeat Russia. If it succeeds, our soldiers are less likely to have to risk their lives protecting U.S. treaty allies whom Russia also threatens»\r\n\r\nThis is a public opinion of US 20 top national security experts.\r"
+		},
+		"seo_report": {
+			"title": "US must arm Ukraine now, before it’s too late",
+			"subtitle": "«With the necessary weapons and economic aid, Ukraine can defeat Russia. If it succeeds, our soldiers are less likely to have to risk their lives protecting U.S. treaty allies whom Russia also threatens»\n\nThis is a public opinion of US 20 top national security experts."
+		},
+		"seo_news": {
+			"title": "US must arm Ukraine now, before it’s too late",
+			"subtitle": "«With the necessary weapons and economic aid, Ukraine can defeat Russia. If it succeeds, our soldiers are less likely to have to risk their lives protecting U.S. treaty allies whom Russia also threatens»\n\nThis is a public opinion of US 20 top national security experts."
 		}
 	},
 	"ua": {
@@ -86,20 +106,24 @@
 			"subtitle": "на {{till}}",
 			"description": "У категорію «Зенітно-ракетний комплекс» додано лише системи з дальністю понад 10 км.\nДжерела: iiss.org, armedforces.eu, globalsecurity.org, wikipedia.org"
 		},
-		"report": {
+		"income": {
 			"title": "Зброя, що передана або обіцяна Україні",
 			"subtitle": "на {{till}}",
 			"timespan": "2 тижні",
 			"prev": "Попередній звіт",
 			"next": "Наступний звіт",
 			"rest": "Інші країни",
-			"description": "Включає як безкоштовну допомогу, так і покупки, як вже доставлене так і лише обіцяне, як зараз та у наступні роки",
-			"banner_title": "Захистить Україну зараз, поки не пізно!",
-			"banner_btn": "Натисніть тут"
+			"description": "Включає як безкоштовну допомогу, так і покупки, як вже доставлене так і лише обіцяне, як зараз та у наступні роки"
 		},
 		"inventory": {
 			"title": "США: Наявна зброя та її поставки по фонду PDA (короткострокова допомога)",
-			"subtitle": "на {{till}}"
+			"subtitle": "на {{till}}",
+			"possessed": "Наявна",
+			"pda": "PDA"
+		},
+		"report": {
+			"banner_title": "Захистить Україну зараз, поки не пізно!",
+			"banner_btn": "Натисніть тут"
 		},
 		"aid_chart": {
 			"title": "Військова допомога США по тижнях",
@@ -139,6 +163,22 @@
 			"donate_cta_title": "Допоможіть нам допомогти Україні",
 			"donate_description": "This project is completely volunteer, so we will need finances to offer it, so support us so we can continue to help Ukraine!",
 			"donate_btn_title": "Допомогти проекту"
+		},
+		"seo_root": {
+			"title": "US must arm Ukraine now, before it’s too late",
+			"subtitle": "«With the necessary weapons and economic aid, Ukraine can defeat Russia. If it succeeds, our soldiers are less likely to have to risk their lives protecting U.S. treaty allies whom Russia also threatens»\r\n\r\nThis is a public opinion of US 20 top national security experts.\r"
+		},
+		"seo_letter": {
+			"title": "US must arm Ukraine now, before it’s too late",
+			"subtitle": "«With the necessary weapons and economic aid, Ukraine can defeat Russia. If it succeeds, our soldiers are less likely to have to risk their lives protecting U.S. treaty allies whom Russia also threatens»\r\n\r\nThis is a public opinion of US 20 top national security experts.\r"
+		},
+		"seo_report": {
+			"title": "US must arm Ukraine now, before it’s too late",
+			"subtitle": "«With the necessary weapons and economic aid, Ukraine can defeat Russia. If it succeeds, our soldiers are less likely to have to risk their lives protecting U.S. treaty allies whom Russia also threatens»\n\nThis is a public opinion of US 20 top national security experts."
+		},
+		"seo_news": {
+			"title": "US must arm Ukraine now, before it’s too late",
+			"subtitle": "«With the necessary weapons and economic aid, Ukraine can defeat Russia. If it succeeds, our soldiers are less likely to have to risk their lives protecting U.S. treaty allies whom Russia also threatens»\r\n\r\nThis is a public opinion of US 20 top national security experts.\r"
 		}
 	}
 }
