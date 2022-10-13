@@ -24,32 +24,32 @@ async function pages() {
 				...text.en.seo_letter
 			},
 		},
-		...Object.entries(text).map(([lang]) => [
-			{
-				url: `/${lang}/letter`,
-				lang,
-				seo: {
-					...text[lang].seo_letter,
-					cover: 'https://protectukrainenow.org/assets/letter.webp',
-				},
-			},
-			{
-				url: `/${lang}/news`,
-				lang,
-				seo: {
-					...text[lang].seo_news,
-					cover: `https://protectukrainenow.org/assets/report.${lang}.webp`,
-				},
-			},
-			{
-				url: `/${lang}/report`,
-				lang,
-				seo: {
-					...text[lang].seo_report,
-					cover: `https://protectukrainenow.org/assets/report.${lang}.webp`,
-				},
-			},
-		])
+		// ...Object.entries(text).map(([lang]) => [
+		// 	{
+		// 		url: `/${lang}/letter`,
+		// 		lang,
+		// 		seo: {
+		// 			...text[lang].seo_letter,
+		// 			cover: 'https://protectukrainenow.org/assets/letter.webp',
+		// 		},
+		// 	},
+		// 	{
+		// 		url: `/${lang}/news`,
+		// 		lang,
+		// 		seo: {
+		// 			...text[lang].seo_news,
+		// 			cover: `https://protectukrainenow.org/assets/report.${lang}.webp`,
+		// 		},
+		// 	},
+		// 	{
+		// 		url: `/${lang}/report`,
+		// 		lang,
+		// 		seo: {
+		// 			...text[lang].seo_report,
+		// 			cover: `https://protectukrainenow.org/assets/report.${lang}.webp`,
+		// 		},
+		// 	},
+		// ])
 	].flat()
 	// console.log('pages', pages)
 
