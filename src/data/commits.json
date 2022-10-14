@@ -1198,5 +1198,85 @@
 		"",
 		"https://www.latribune.fr/entreprises-finance/industrie/aeronautique-defense/la-france-va-fournir-des-vehicules-blindes-bastion-arquus-a-l-ukraine-935022.html",
 		"La France va fournir des véhicules blindés Bastion (Arquus) à l'Ukraine"
+	],
+	[
+		"2022-10-13",
+		"Spain",
+		"Air Defense System",
+		"HAWK",
+		"4",
+		"",
+		"https://www.thelocal.es/20221014/spain-to-send-air-defence-systems-to-ukraine-nato-chief/",
+		"Spain to send air defence systems to Ukraine: Nato chief"
+	],
+	[
+		"2022-10-13",
+		"Portugal",
+		"Helicopter",
+		"Kamov KA-32A11BC",
+		"6",
+		"",
+		"https://www.theportugalnews.com/news/2022-10-13/portugal-to-send-broken-helicopters-to-ukraine/71186",
+		"Portugal to send broken helicopters to Ukraine"
+	],
+	[
+		"2022-10-12",
+		"France",
+		"Towed Artillery",
+		"TRF1 155mm",
+		"15",
+		"",
+		"https://www.lepoint.fr/monde/guerre-en-ukraine-macron-annonce-l-envoi-de-canons-caesar-12-10-2022-2493567_24.php",
+		"War in Ukraine: Macron announces the dispatch of Caesar guns"
+	],
+	[
+		"2022-10-12",
+		"France",
+		"Self-Propelled Artillery",
+		"CAESAR 155mm",
+		"6",
+		"",
+		"https://www.lepoint.fr/monde/guerre-en-ukraine-macron-annonce-l-envoi-de-canons-caesar-12-10-2022-2493567_24.php",
+		"War in Ukraine: Macron announces the dispatch of Caesar guns"
+	],
+	[
+		"2022-10-12",
+		"France",
+		"other",
+		"Anti-air radars",
+		"",
+		"",
+		"https://www.lepoint.fr/monde/guerre-en-ukraine-macron-annonce-l-envoi-de-canons-caesar-12-10-2022-2493567_24.php",
+		"War in Ukraine: Macron announces the dispatch of Caesar guns"
+	],
+	[
+		"2022-10-12",
+		"France",
+		"Air Defense System",
+		"Mistral missiles",
+		"",
+		"",
+		"https://www.lepoint.fr/monde/guerre-en-ukraine-macron-annonce-l-envoi-de-canons-caesar-12-10-2022-2493567_24.php",
+		"War in Ukraine: Macron announces the dispatch of Caesar guns"
+	],
+	[
+		"2022-10-12",
+		"France",
+		"Other Armored Vehicle",
+		"Bastion",
+		"20",
+		"",
+		"https://www.lepoint.fr/monde/guerre-en-ukraine-macron-annonce-l-envoi-de-canons-caesar-12-10-2022-2493567_24.php",
+		"War in Ukraine: Macron announces the dispatch of Caesar guns"
+	],
+	[
+		"2022-10-11",
+		"US",
+		"Air Defense System",
+		"NASAMS",
+		"4",
+		null,
+		null,
+		null
 	]
 ]

@@ -13,8 +13,12 @@ import { formatDate } from '../../tools/date'
 import { translate } from '../../tools/language'
 import WeaponsTable from '../WeaponsTable'
 
-export default function WeaponsCommits({ language, className }) {
+export default function WeaponsIncome({ language, className }) {
     const [report, setReport] = useState(latestReport)
+    let goto = report => e => {
+        e.preventDefault()
+        setReport(Report(report))
+    }
     let data = useMemo(() => incomeReport(report), [report])
     let { from, till, prev, next } = report
     const formatter = formatDate(language)
@@ -38,7 +42,7 @@ export default function WeaponsCommits({ language, className }) {
                 className={style.navLink}
                 {...prev && {
                     href: `#`,
-                    onClick: () => setReport(Report(prev))
+                    onClick: goto(prev)
                 }}
             >
                 {'← '}
@@ -50,7 +54,7 @@ export default function WeaponsCommits({ language, className }) {
                 className={style.navLink}
                 {...next && {
                     href: `#`,
-                    onClick: () => setReport(Report(next))
+                    onClick: goto(next)
                 }}
             >
                 {' →'}

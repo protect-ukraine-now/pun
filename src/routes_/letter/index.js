@@ -25,15 +25,14 @@ export default function Letter() {
 			</section>
 			<section className={cn(style.section, style.explanation)}>
 				<p>
-					"Although the Biden administration has successfully rallied U.S. allies and provided substantial military assistance to Ukraine’s valiant armed forces, it has failed to produce a satisfactory strategic narrative. By providing aid sufficient to produce a stalemate, but not enough to roll back Russian territorial gains, the Biden administration may be unintentionally seizing defeat from the jaws of victory.
+					Russia launched the most unprecedented missile attack across the entire Ukraine targeting critical infrastructure and slaughtering civilians. More than 3600 missiles have been launched on Ukrainian territory. By October, tens of thousands of civilians had been killed, including more than 400 children.
 				</p>
 				<p>
-					With the necessary weapons and economic aid, Ukraine can defeat Russia. If it succeeds, our soldiers are less likely to have to risk their lives protecting U.S. treaty allies whom Russia also threatens."
+					As off now not a single air defense system was provided by the US. There is no excuse for this cowardly and heartless position of the White House. Empty pledges and condemnations have not saved a single killed child.
 				</p>
 				<p>
-					This is a public opinion of US 20 top national security experts (<a href="https://thehill.com/opinion/national-security/3605064-us-must-arm-ukraine-now-before-its-too-late/">source</a>).
+					Significantly MORE MILITARY AID is needed urgently. Time to act is NOW before more children are killed.​
 				</p>
-
 				{country && country !== 'US' &&
 					<h1>If you are a US citizen (and have a US address)</h1>
 				}
