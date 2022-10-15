@@ -28,4 +28,6 @@ body {
   min-height: 100vh;
   display: flex;
   flex-flow: column;
+  position: relative;
+  padding-top: var(--header-height);
 }

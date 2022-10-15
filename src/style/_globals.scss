@@ -14,6 +14,14 @@
           40px
   );
 
+  @include make-responsive('--header-height', (
+          mobile: 60px,
+          desktop-min: 75px,
+          desktop: 80px
+  ),
+          80px
+  );
+
   // breakpoints
   --mobile-breakpoint: #{map-get($breakpoints, mobile)};
   --tablet-breakpoint: #{map-get($breakpoints, tablet)};
