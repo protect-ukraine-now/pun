@@ -16,6 +16,7 @@ import About from './routes_/about'
 import Home from './routes_/home'
 import News from './routes_/news'
 import Letter from './routes_/letter'
+import Candidates from './routes_/candidates'
 import Report from './routes_/report'
 
 export default function App(props) {
@@ -33,6 +34,7 @@ export default function App(props) {
 									<News path="/:language/news" />
 									<Report path="/:language/report" />
 									<Letter path="/:language/letter" />
+									<Candidates path="/:language/candidates" />
 									<About path="/:language/about" />
 									<Home default />
 								</Router>

@@ -28,7 +28,7 @@ export default function Letter() {
 					Russia launched the most unprecedented missile attack across the entire Ukraine targeting critical infrastructure and slaughtering civilians. More than 3600 missiles have been launched on Ukrainian territory. By October, tens of thousands of civilians had been killed, including more than 400 children.
 				</p>
 				<p>
-					As off now not a single air defense system was provided by the US. There is no excuse for this cowardly and heartless position of the White House. Empty pledges and condemnations have not saved a single killed child.
+					As of now not a single air defense system was provided by the US. There is no excuse for this cowardly and heartless position of the White House. Empty pledges and condemnations have not saved a single killed child.
 				</p>
 				<p>
 					Significantly MORE MILITARY AID is needed urgently. Time to act is NOW before more children are killed.​
