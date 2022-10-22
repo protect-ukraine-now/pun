@@ -1,7 +1,10 @@
+import cn from 'classnames';
 import { MdWeb, MdEmail } from 'react-icons/md'
 import { IoLogoYoutube, IoLogoInstagram, IoLogoFacebook, IoLogoTiktok, IoLogoLinkedin, IoLogoTwitter } from 'react-icons/io5'
 
-export default function IconLink({ href }) {
+import style from './style.scss';
+
+export default function IconLink({ className, href }) {
     let Icon = MdWeb
     if (~href.indexOf('mailto:'))   Icon = MdEmail
     if (~href.indexOf('youtube'))   Icon = IoLogoYoutube
@@ -11,6 +14,6 @@ export default function IconLink({ href }) {
     if (~href.indexOf('linkedin'))  Icon = IoLogoLinkedin
     if (~href.indexOf('twitter'))   Icon = IoLogoTwitter
     return (
-        <a href={href}><Icon /></a>
+        <a className={cn(className, style.container)} href={href}><Icon /></a>
     )
 }
