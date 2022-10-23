@@ -10,9 +10,9 @@ import copyToClipboard from '../../tools/copyToClipboard';
 const base = 'https://ochre-hermit-crab-veil.cyclic.app';
 
 export default function Letter() {
-	let [street, setStreet] = useState('3524 Gulfstream Pkwy');
-	let [city, setCity] = useState('Cape Coral');
-	let [zip, setZip] = useState('33993');
+	let [street, setStreet] = useState('');
+	let [city, setCity] = useState('');
+	let [zip, setZip] = useState('');
 	let [candidates, setCandidates] = useState();
 	useEffect(() => {
 		let address = `${street}, ${city}, ${zip}`;
