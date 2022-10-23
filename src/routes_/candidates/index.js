@@ -29,36 +29,28 @@ export default function Letter() {
 	}, [street, city, zip]);
 	return (
 		<Container className={style.container}>
-			<section className={cn(style.section, style.banner)}>
+			{/* <section className={cn(style.section, style.banner)}>
 				<h1 className={style.title}>
 					US must arm Ukraine now
 					<br/><span className={style.mobile}>&nbsp;</span>
 					before it’s too late
 				</h1>
-			</section>
+			</section> */}
 			<section className={cn(style.section, style.explanation)}>
 				<p>
-					Russia launched the most unprecedented missile attack across the entire Ukraine targeting critical
-					infrastructure and slaughtering civilians. More than 3600 missiles have been launched on Ukrainian territory.
-					By October, tens of thousands of civilians had been killed, including more than 400 children.
+                    Without western support Ukraine resistance will crumble.
+                    It is essential for world peace and US security that Ukraine emerges victorious from this war.
+                    Please use this portal to send an inquiry to your candidate about his/her public position toward supporting the Ukrainian sturgle.
 				</p>
 				<p>
-					As of now not a single air defense system was provided by the US. There is no excuse for this cowardly and
-					heartless position of the White House. Empty pledges and condemnations have not saved a single killed child.
-				</p>
-				<p>
-					Significantly MORE MILITARY AID is needed urgently. Time to act is NOW before more children are killed.
+                    Enter your address, find your candidates and send your inquiry.
+                    You can use our sample, modify it or write your own.
 				</p>
 			</section>
 			<div className={style.form}>
-            <textarea className={style.letter} rows="10">
-                Russia launched the most unprecedented missile attack across the entire Ukraine targeting critical infrastructure and slaughtering civilians. More than 3600 missiles have been launched on Ukrainian territory. By October, tens of thousands of civilians had been killed, including more than 400 children.
-							{'\n\n'}
-							As of now not a single air defense system was provided by the US. There is no excuse for this cowardly and heartless position of the White House. Empty pledges and condemnations have not saved a single killed child.
-							{'\n\n'}
-							Significantly MORE MILITARY AID is needed urgently. Time to act is NOW before more children are killed.
-            </textarea>
-
+                <textarea className={style.letter} rows="10">
+                    US support of Ukrainian struggle is one of the key political issues for me and I would like to know your position toward providing military support to Ukraine as well as sending humanitarian and government aid. Before I cast my vote for you I hope you can express your position publicly. Where do you stand on this issue?
+                </textarea>
 				<button onClick={() => copyToClipboard(`.${style.letter}`)}>Copy to Clipboard</button>
 				<input
 					type="text"
@@ -83,7 +75,7 @@ export default function Letter() {
 				/>
 			</div>
 			<div className={style.candidatesList}>
-				{candidates && candidates.length !== 0 ?
+				{candidates?.length > 0 &&
 					candidates.map(c => (
 						<div key={c.name} className={style.candidateCard}>
 							<div className={style.left}>
@@ -91,16 +83,28 @@ export default function Letter() {
 							</div>
 							<div className={style.right}>
 								<div className={style.name}>{c.name}</div>
-								<div className={style.party}>{c.race} | {c.party}</div>
+								<div className={style.party}>
+                                    {c.race.replace('Rep', 'Representative')} | {c.party}
+                                </div>
 								<div className={style.links}>
 									{c.links.map(href => <IconLink className={style.icon} {...{ href }} />)}
 								</div>
 							</div>
 						</div>
-					)) : <div>
+					))
+                }
+                {candidates?.length === 0 &&
+                    <div>
 						We were not able to find any candidates for you.
-						Please, check your voting address or try <a className={style.link} href="https://ivoterguide.com/my-ballot"
-																												target="_blank">this site</a>
+						Please, check your voting address or try
+                        {' '}
+                        <a
+                            // className={style.link}
+                            href="https://ivoterguide.com/my-ballot"
+                            target="_blank"
+                        >
+                            this site
+                        </a>
 					</div>
 				}
 			</div>
