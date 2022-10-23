@@ -14,6 +14,8 @@ export default function IconLink({ className, href }) {
     if (~href.indexOf('linkedin'))  Icon = IoLogoLinkedin
     if (~href.indexOf('twitter'))   Icon = IoLogoTwitter
     return (
-        <a className={cn(className, style.container)} href={href}><Icon /></a>
+        <a className={cn(className, style.container)} href={href} target="_blank">
+            <Icon />
+        </a>
     )
 }
