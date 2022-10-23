@@ -859,8 +859,8 @@
 	],
 	[
 		"2022-10-12",
-		"Canadian Defence Minister Anita Anand announced a new military aid package over C$47 million ($34.06 million) to assist Ukraine in dealing with Russia's invasion, with the package including artillery rounds, satellite communications, winter clothing and drone cameras, among other assistance.",
-		"Міністр оборони Канади Аніта Ананд оголосила про новий пакет військової допомоги на суму понад 47 мільйонів канадських доларів (34,06 мільйона доларів США), щоб допомогти Україні впоратися з вторгненням Росії, серед іншого пакет включає артилерійські снаряди, супутниковий зв’язок, зимовий одяг і камери для дронів.",
+		"Canadian Defence Minister Anita Anand announced a new military aid package over C$47 million ($34 million) to assist Ukraine in dealing with Russia's invasion, with the package including artillery rounds, satellite communications, winter clothing and drone cameras, among other assistance.",
+		"Міністр оборони Канади Аніта Ананд оголосила про новий пакет військової допомоги на суму понад 47 мільйонів канадських доларів (34 мільйона доларів США), щоб допомогти Україні впоратися з вторгненням Росії, серед іншого пакет включає артилерійські снаряди, супутниковий зв’язок, зимовий одяг і камери для дронів.",
 		"https://www.reuters.com/world/canada-announces-new-military-package-ukraine-after-russian-missile-attacks-2022-10-12/"
 	],
 	[
@@ -877,8 +877,8 @@
 	],
 	[
 		"2022-10-13",
-		"NATO chief Jens Stoltenberg said on Thursday Spain was sending 4 medium-range air defense systems to Ukraine.",
-		"Глава НАТО Єнс Столтенберг заявив у четвер, що Іспанія надсилає в Україну 4 системи ППО середньої дальності.",
+		"NATO chief Jens Stoltenberg said Spain was sending 4 medium-range air defense systems to Ukraine.",
+		"Глава НАТО Єнс Столтенберг заявив, що Іспанія надсилає в Україну 4 системи ППО середньої дальності.",
 		"https://www.thelocal.es/20221014/spain-to-send-air-defence-systems-to-ukraine-nato-chief/"
 	],
 	[
@@ -896,7 +896,85 @@
 	[
 		"2022-10-14",
 		"The Department of Defense announced the 23rd authorization of a Presidential Drawdown of security assistance to Ukraine valued at up to $725 million. This drawdown includes 200 High Mobility Multipurpose Wheeled Vehicles (HMMWV) HIMARS rockets, artillery rounds, anti-tank weapons, high-speed anti-radiation missiles (HARMs), small arms and ammunition.",
-		"Міністерство оборони оголосило про 23-й дозвіл президентського скорочення безпекової допомоги Україні на суму до 725 мільйонів доларів. Це скорочення включає 200 багатоцільових колісних транспортних засобів високої мобільності (HMMWV), ракети HIMARS, артилерійські снаряди, протитанкову зброю, високошвидкісні протирадіаційні ракети (HARM), стрілецьку зброю та боєприпаси.",
+		"Міністерство оборони США оголосило про 23-й пакет допомоги Україні на суму до 725 мільйонів доларів. Він включає 200 багатоцільових колісних транспортних засобів високої мобільності (HMMWV), ракети HIMARS, артилерійські снаряди, протитанкову зброю, високошвидкісні протирадіаційні ракети (HARM), стрілецьку зброю та боєприпаси.",
 		"https://www.defense.gov/News/Releases/Release/Article/3189571/725-million-in-additional-security-assistance-for-ukraine/"
+	],
+	[
+		"2022-10-14",
+		"Democrats on Capitol Hill have suggested transferring US weapons systems in Saudi Arabia to Ukraine and suspending a planned transfer of Patriot missiles to Riyadh",
+		"Демократи на Капітолійському пагорбі запропонували передати Україні системи озброєнь США в Саудівській Аравії та призупинити заплановану передачу Ер-Ріяду ракет Patriot.",
+		"https://www.theguardian.com/us-news/2022/oct/14/democrats-us-weapons-systems-saudi-arabia-ukraine"
+	],
+	[
+		"2022-10-16",
+		"Germany handed over Biber tank bridge-layers to Ukraine.",
+		"Німеччина передала Україні танкові мостоукладачі Biber.",
+		"https://en.defence-ua.com/events/ukraine_gets_16_bridge_laying_tanks_as_germany_hands_them_over-4552.html"
+	],
+	[
+		"2022-10-16",
+		"Ukraine on Tuesday received the first of four IRIS-T air defence systems Germany promised to supply",
+		"Україна у вівторок отримала першу з чотирьох систем ППО IRIS-T, які Німеччина обіцяла поставити)",
+		"https://www.reuters.com/world/europe/ukraine-has-received-iris-t-air-defence-system-germany-spiegel-2022-10-11/"
+	],
+	[
+		"2022-10-16",
+		"Israeli Minister of Diaspora Affairs Nachman Shai has said that military aid should be provided to Ukraine in view of recent reports about Iran's possible supply of ballistic missiles to Russia.",
+		"Міністр у справах діаспори Ізраїлю Нахман Шаї заявив, що Україні необхідно надати військову допомогу з огляду на останні повідомлення про можливе постачання Іраном Росії балістичних ракет.",
+		"https://twitter.com/DrNachmanShai/status/1581579455650492416"
+	],
+	[
+		"2022-10-18",
+		"Italy has provided Ukraine with the 5th military aid package. There was no disclosure what was included into it.",
+		"Італія надала Україні 5-й пакет військової допомоги. Не було розголошено, що там було включено.",
+		"https://finance.yahoo.com/news/italy-provides-ukraine-fifth-military-110100850.html"
+	],
+	[
+		"2022-10-18",
+		"The Biden administration laid out its vision for the Senate version of the annual Pentagon policy bill on a range of issues. It also asked Congress to include new authorities in the bill, including for military support to Ukraine.",
+		"Адміністрація Байдена виклала своє бачення сенатської версії щорічного законопроекту про політику Пентагону з низки питань. Він також звернувся до Конгресу з проханням включити до законопроекту нові повноваження, включно з військовою підтримкою України.",
+		"https://rollcall.com/2022/10/18/white-house-seeks-more-ukraine-weapons-support-in-senate-ndaa/"
+	],
+	[
+		"2022-10-18",
+		"NATO will deliver air defence systems to Ukraine in coming days to help the country defend itself against the drones, including those from Iran, that Russia is using to target critical infrastructure, the alliance's secretary-general said on Tuesday.",
+		"Генеральний секретар альянсу заявив у вівторок, що найближчими днями НАТО доставить Україні системи ППО, щоб допомогти країні захиститися від безпілотників",
+		"https://www.reuters.com/world/europe/ukraine-get-anti-drone-systems-coming-days-natos-stoltenberg-says-2022-10-18/"
+	],
+	[
+		"2022-10-18",
+		"The Pentagon is considering paying for Elon Musk’s Starlink satellite network in Ukraine",
+		"Пентагон розглядає можливість оплати супутникової мережі Starlink Ілона Маска в Україні.",
+		"https://www.euractiv.com/section/global-europe/news/pentagon-considers-funding-musks-starlink-network-for-ukraine/"
+	],
+	[
+		"2022-10-18",
+		"The French Defence Minister announced that France will supply Ukraine with Crotale air defence systems",
+		"Міністр оборони Франції повідомив, що Франція поставить Україні системи ППО Crotale",
+		"https://www.republicworld.com/amp/world-news/russia-ukraine-crisis/france-proposes-to-train-2000-ukrainian-soldiers-amid-russia-ukraine-war-articleshow.html"
+	],
+	[
+		"2022-10-19",
+		"Israel has refused a Ukrainian request for air defenses against the barrage of Russian attacks enabled by Iranian drones.",
+		"Ізраїль відхилив прохання України про протиповітряну оборону від шквалу російських атак іранських безпілотників.",
+		"https://www.washingtonexaminer.com/policy/defense-national-security/israel-rejects-ukraine-military-aid-russia-threat"
+	],
+	[
+		"2022-10-20",
+		"Czech Republic prepares new military aid package for Ukraine. Two weeks ago provided aid was almost CZK 400 million ($7.5 million), and today is CZK 22 million ($413,193). Defense minister apologized that she couldn't provide detailes.",
+		"Чехія готує новий пакет військової допомоги Україні. Два тижні тому надана допомога становила майже 400 мільйонів чеських крон (7,5 мільйона доларів), а сьогодні – 22 мільйони чеських крон (413 193 доларів). Міністр оборони вибачилася, що не може надати подробиць.",
+		"https://sports.yahoo.com/czech-republic-prepares-military-aid-091300386.html"
+	],
+	[
+		"2022-10-20",
+		"Germany delivers to Ukraine four Hensoldt’s TRML-4D multifunction radar for IRIS-T SLM air defence system.",
+		"Німеччина поставить в Україну чотири багатофункціональні радари Hensoldt TRML-4D для системи ППО IRIS-T SLM.",
+		"https://www.armyrecognition.com/defense_news_october_2022_global_security_army_industry/hensoldt_delivers_trml-4d_high-performance_air_defence_radars_for_ukraine.html"
+	],
+	[
+		"2022-10-05",
+		"Ukraine will receive new upgraded T-72M battle tanks called T-72 Avenger from Czech Republic. ",
+		"Україна отримає від Чехії нові модернізовані бойові танки Т-72М під назвою Т-72 «Месник».",
+		"https://www.armyrecognition.com/defense_news_october_2022_global_security_army_industry/czech_republic_delivers_t-72_avenger_tanks_to_ukraine_thanks_to_crowdfunding_campaign.html"
 	]
 ]

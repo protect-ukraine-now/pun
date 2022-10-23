@@ -1210,21 +1210,11 @@
 		"Portugal to send broken helicopters to Ukraine"
 	],
 	[
-		"2022-10-12",
+		"2022-06-24",
 		"France",
 		"Towed Artillery",
 		"TRF1 155mm",
 		"15",
-		"",
-		"https://www.lepoint.fr/monde/guerre-en-ukraine-macron-annonce-l-envoi-de-canons-caesar-12-10-2022-2493567_24.php",
-		"War in Ukraine: Macron announces the dispatch of Caesar guns"
-	],
-	[
-		"2022-10-12",
-		"France",
-		"Self-Propelled Artillery",
-		"CAESAR 155mm",
-		"6",
 		"",
 		"https://www.lepoint.fr/monde/guerre-en-ukraine-macron-annonce-l-envoi-de-canons-caesar-12-10-2022-2493567_24.php",
 		"War in Ukraine: Macron announces the dispatch of Caesar guns"
@@ -1250,26 +1240,6 @@
 		"War in Ukraine: Macron announces the dispatch of Caesar guns"
 	],
 	[
-		"2022-10-12",
-		"France",
-		"Other Armored Vehicle",
-		"Bastion",
-		"20",
-		"",
-		"https://www.lepoint.fr/monde/guerre-en-ukraine-macron-annonce-l-envoi-de-canons-caesar-12-10-2022-2493567_24.php",
-		"War in Ukraine: Macron announces the dispatch of Caesar guns"
-	],
-	[
-		"2022-10-11",
-		"US",
-		"Air Defense System",
-		"NASAMS",
-		"4",
-		"",
-		"https://twitter.com/oleksiireznikov/status/1579935298225831937",
-		null
-	],
-	[
 		"2022-10-14",
 		"US",
 		"Other Armored Vehicle",
@@ -1278,16 +1248,6 @@
 		"",
 		"https://www.defense.gov/News/Releases/Release/Article/3189571/725-million-in-additional-security-assistance-for-ukraine/",
 		"$725 Million in Additional Security Assistance for Ukraine"
-	],
-	[
-		"2022-10-13",
-		"Germany",
-		"Air Defense System",
-		"IRIS-T",
-		"4",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
 	],
 	[
 		"2022-10-13",
@@ -1303,7 +1263,7 @@
 		"2022-10-12",
 		"France",
 		"Air Defense System",
-		"unknown",
+		"Crotale",
 		"",
 		"",
 		"https://www.france24.com/en/europe/20221012-france-to-supply-air-defence-systems-to-ukraine-after-wave-of-russian-strikes",
@@ -1318,5 +1278,15 @@
 		"",
 		"https://www.euronews.com/my-europe/2022/10/12/nato-allies-set-to-boost-military-support-to-ukraine-at-two-day-meeting",
 		"The UK and France pledge to help bolster Ukraine's defence systems"
+	],
+	[
+		"2022-10-20",
+		"Germany",
+		"other",
+		"Hensoldt’s TRML-4D",
+		"4",
+		"",
+		"https://www.armyrecognition.com/defense_news_october_2022_global_security_army_industry/hensoldt_delivers_trml-4d_high-performance_air_defence_radars_for_ukraine.html",
+		"Hensoldt delivers TRML-4D high-performance air defence radars for Ukraine"
 	]
 ]

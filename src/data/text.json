@@ -8,6 +8,7 @@
 			"news": "News",
 			"report": "Military Aid",
 			"letter": "Letter to Congress",
+			"candidates": "Ask Candidate",
 			"about": "About Us"
 		},
 		"balance": {
@@ -99,6 +100,7 @@
 			"news": "Новини",
 			"report": "Військова допомога",
 			"letter": "Лист до Конгресу",
+			"candidates": "Запитайте кандидата",
 			"about": "Про нас"
 		},
 		"balance": {
