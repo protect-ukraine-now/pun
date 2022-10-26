@@ -5,11 +5,11 @@
 		<meta property="description" content="<%= htmlWebpackPlugin.options.description %>" />
 
 		<meta property="og:title" content="<%= htmlWebpackPlugin.options.og_title || htmlWebpackPlugin.options.title %>" />
-		<meta property="og:image" content="<%= htmlWebpackPlugin.options.og_image %>" />
+		<meta property="og:image" content="<%= htmlWebpackPlugin.options.og_image || htmlWebpackPlugin.options.image %>" />
 		<meta property="og:description" content="<%= htmlWebpackPlugin.options.og_description || htmlWebpackPlugin.options.description %>" />
 
 		<meta property="twitter:title" content="<%= htmlWebpackPlugin.options.twitter_title || htmlWebpackPlugin.options.og_title || htmlWebpackPlugin.options.title %>" />
-		<meta name="twitter:image" content="<%= htmlWebpackPlugin.options.twitter_image || htmlWebpackPlugin.options.og_image %>">
+		<meta name="twitter:image" content="<%= htmlWebpackPlugin.options.twitter_image || htmlWebpackPlugin.options.og_image || htmlWebpackPlugin.options.image %>">
 		<meta property="twitter:description" content="<%= htmlWebpackPlugin.options.twitter_description || htmlWebpackPlugin.options.og_description || htmlWebpackPlugin.options.description %>" />
 		<meta name="twitter:card" content="summary_large_image" />
 
