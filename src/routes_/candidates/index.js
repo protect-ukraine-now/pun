@@ -29,19 +29,12 @@ export default function Letter() {
 	}, [street, city, zip]);
 	return (
 		<Container className={style.container}>
-			{/* <section className={cn(style.section, style.banner)}>
-				<h1 className={style.title}>
-					US must arm Ukraine now
-					<br/><span className={style.mobile}>&nbsp;</span>
-					before it’s too late
-				</h1>
-			</section> */}
 			<section className={cn(style.section, style.explanation)}>
 				<p>
                     Without western support Ukraine resistance will crumble.
                     It is essential for world peace and US security that Ukraine emerges victorious from this war.
 				</p>
-				<h1>Please send an inquiry to your candidate about his/her public position toward supporting the Ukrainian sturgle</h1>
+				<h1>Please send an inquiry to your candidate about his/her public position toward supporting the Ukrainian struggle</h1>
 				<p>
                     Enter your address, find your candidates and send your inquiry.
                     You can use our sample, modify it or write your own.
