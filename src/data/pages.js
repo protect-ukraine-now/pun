@@ -20,42 +20,32 @@ async function pages() {
 	let pages = [
 		{
 			url: '/',
-			seo: {
-				...text.en.seo_letter
-			},
+			...text.en.root,
 		},
 		...Object.entries(text).map(([lang]) => [
 			{
 				url: `/${lang}/letter`,
 				lang,
-				seo: {
-					...text[lang].seo_letter,
-					cover: 'https://protectukrainenow.org/assets/letter.webp',
-				},
+				image: 'https://protectukrainenow.org/assets/letter.webp',
+				...text[lang].letter,
 			},
 			{
 				url: `/${lang}/candidates`,
 				lang,
-				seo: {
-					...text[lang].seo_letter,
-					cover: 'https://protectukrainenow.org/assets/letter.webp',
-				},
-			},
-			{
-				url: `/${lang}/news`,
-				lang,
-				seo: {
-					...text[lang].seo_news,
-					cover: `https://protectukrainenow.org/assets/report.${lang}.webp`,
-				},
+				image: 'https://protectukrainenow.org/assets/letter.webp',
+				...text[lang].candidates,
 			},
 			{
 				url: `/${lang}/report`,
 				lang,
-				seo: {
-					...text[lang].seo_report,
-					cover: `https://protectukrainenow.org/assets/report.${lang}.webp`,
-				},
+				image: `https://protectukrainenow.org/assets/report.${lang}.webp`,
+				...text[lang].report,
+			},
+			{
+				url: `/${lang}/news`,
+				lang,
+				image: `https://protectukrainenow.org/assets/report.${lang}.webp`,
+				...text[lang].news,
 			},
 		])
 	].flat()

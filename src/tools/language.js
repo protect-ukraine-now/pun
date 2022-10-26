@@ -20,5 +20,5 @@ export function LanguageProvider({ children }) {
 
 export function translate(id) {
     let language = useLanguage()
-    return intlTranslate(id, '', text[language])
+    return intlTranslate(id, '', text[language || 'en'])
 }

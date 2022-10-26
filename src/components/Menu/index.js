@@ -7,7 +7,7 @@ export default function Menu({ className, linkClassName, activeClassName, items,
 	return (
 		<Match>
 			{({ url }) => {
-				let language = url.split('/')[1];
+				let language = url.split('/')[1] || 'en';
 				return (
 					<div className={cn(style.container, className, style[theme])}>
 						{items(language).map(([name, href]) =>

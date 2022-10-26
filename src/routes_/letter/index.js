@@ -17,11 +17,11 @@ export default function Letter() {
 		/>
 		<Container className={style.container}>
 			<section className={cn(style.section, style.banner)}>
-				<h1 className={style.title}>
+				<h2 className={style.title}>
 					US must arm Ukraine now
 					<br /><span className={style.mobile}>&nbsp;</span>
 					before it’s too late
-				</h1>
+				</h2>
 			</section>
 			<section className={cn(style.section, style.explanation)}>
 				<p>
@@ -34,7 +34,7 @@ export default function Letter() {
 					Significantly MORE MILITARY AID is needed urgently. Time to act is NOW before more children are killed.​
 				</p>
 				{country && country !== 'US' &&
-					<h1>If you are a US citizen (and have a US address)</h1>
+					<h2>If you are a US citizen (and have a US address)</h2>
 				}
 
 				<div id='can-letter-area-protect-ukraine-now' style='width: 100%'></div>

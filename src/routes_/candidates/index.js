@@ -40,8 +40,8 @@ export default function Letter() {
 				<p>
                     Without western support Ukraine resistance will crumble.
                     It is essential for world peace and US security that Ukraine emerges victorious from this war.
-                    Please use this portal to send an inquiry to your candidate about his/her public position toward supporting the Ukrainian sturgle.
 				</p>
+				<h1>Please send an inquiry to your candidate about his/her public position toward supporting the Ukrainian sturgle</h1>
 				<p>
                     Enter your address, find your candidates and send your inquiry.
                     You can use our sample, modify it or write your own.

@@ -1,26 +1,22 @@
 <!DOCTYPE html>
 <html lang="<%= htmlWebpackPlugin.options.lang || 'en' %>">
 	<head>
+		<title><%= htmlWebpackPlugin.options.title %></title>
+		<meta property="description" content="<%= htmlWebpackPlugin.options.description %>" />
+
+		<meta property="og:title" content="<%= htmlWebpackPlugin.options.og_title || htmlWebpackPlugin.options.title %>" />
+		<meta property="og:image" content="<%= htmlWebpackPlugin.options.og_image %>" />
+		<meta property="og:description" content="<%= htmlWebpackPlugin.options.og_description || htmlWebpackPlugin.options.description %>" />
+
+		<meta property="twitter:title" content="<%= htmlWebpackPlugin.options.twitter_title || htmlWebpackPlugin.options.og_title || htmlWebpackPlugin.options.title %>" />
+		<meta name="twitter:image" content="<%= htmlWebpackPlugin.options.twitter_image || htmlWebpackPlugin.options.og_image %>">
+		<meta property="twitter:description" content="<%= htmlWebpackPlugin.options.twitter_description || htmlWebpackPlugin.options.og_description || htmlWebpackPlugin.options.description %>" />
+		<meta name="twitter:card" content="summary_large_image" />
+
 		<meta charset="utf-8">
-		<title><%= (htmlWebpackPlugin.options.seo && htmlWebpackPlugin.options.seo.title) || htmlWebpackPlugin.options.title %></title>
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<meta name="mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-capable" content="yes">
-		<meta property="og:title" content="<%= (htmlWebpackPlugin.options.seo && htmlWebpackPlugin.options.seo.title) || htmlWebpackPlugin.options.title %>" />
-		<% if(htmlWebpackPlugin.options.seo && 'cover' in htmlWebpackPlugin.options.seo) {%>
-			<meta property="og:image" content="<%= htmlWebpackPlugin.options.seo.cover %>" />
-		<% } %>
-		<% if(htmlWebpackPlugin.options.seo && 'subtitle' in htmlWebpackPlugin.options.seo) {%>
-			<meta property="og:description" content="<%= htmlWebpackPlugin.options.seo.subtitle %>" />
-			<meta property="description" content="<%= htmlWebpackPlugin.options.seo.subtitle %>" />
-		<% } %>
-		<meta name="twitter:card" content="<%= (htmlWebpackPlugin.options.seo && 'cover' in htmlWebpackPlugin.options.seo) ? 'summary_large_image' : 'summary'%>" />
-		<% if(htmlWebpackPlugin.options.seo && 'cover' in htmlWebpackPlugin.options.seo) {%>
-			<meta name="twitter:image" content="<%= htmlWebpackPlugin.options.seo.cover %>">
-		<% } %>
-		<% if(htmlWebpackPlugin.options.seo && 'subtitle' in htmlWebpackPlugin.options.seo) {%>
-			<meta property="twitter:description" content="<%= htmlWebpackPlugin.options.seo.subtitle %>" />
-		<% } %>
 
 		<!-- Google Tag Manager -->
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TSJ66R2');</script>
