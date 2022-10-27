@@ -11,7 +11,7 @@ export default function Share() {
     let lang = useLanguage() || 'en'
     let { title, description, image, og_title, og_description, og_image } = text[lang][page]
     let og = {
-        link: `https://protectukrainenow.org${url}?${Date.now()}`,
+        link: `https://protectukrainenow.org${url}`,
         title: og_title || title,
         description: og_description || description,
         image: og_image || image,
