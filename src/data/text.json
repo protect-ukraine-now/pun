@@ -36,7 +36,7 @@
 			"banner_btn": "Click here",
 			"title": "Military Aid to Ukraine",
 			"description": "Weapons possessed, committed, provided",
-			"image": "https://protectukrainenow.org/assets/report.en.webp"
+			"image": "https://protectukrainenow.org/assets/report.en.20221023.webp"
 		},
 		"aid_chart": {
 			"title": "US military aid by week",
@@ -51,7 +51,7 @@
 			"source": "source",
 			"title": "News about military aid to Ukraine",
 			"description": "The United States is considering sending older HAWK air defense equipment from storage to Ukraine",
-			"image": "https://protectukrainenow.org/assets/report.en.webp"
+			"image": "https://protectukrainenow.org/assets/report.en.20221023.webp"
 		},
 		"weapon_category": {
 			"Towed Artillery": "Towed Artillery",
@@ -132,7 +132,7 @@
 			"banner_btn": "Натисніть тут",
 			"title": "Військова допомога Україні",
 			"description": "Зброя наявна, обіцяна, передана",
-			"image": "https://protectukrainenow.org/assets/report.ua.webp"
+			"image": "https://protectukrainenow.org/assets/report.ua.20221023.webp"
 		},
 		"aid_chart": {
 			"title": "Військова допомога США по тижнях",
@@ -147,7 +147,7 @@
 			"source": "джерело",
 			"title": "Новини про військову допомогу Україні",
 			"description": "Сполучені Штати розглядають можливість відправлення Україні старих засобів протиповітряної оборони HAWK",
-			"image": "https://protectukrainenow.org/assets/report.ua.webp"
+			"image": "https://protectukrainenow.org/assets/report.ua.20221023.webp"
 		},
 		"weapon_category": {
 			"Towed Artillery": "Буксирувана артилерія",
