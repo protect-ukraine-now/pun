@@ -63,6 +63,7 @@
     "react-google-charts": "^4.0.0",
     "react-icons": "^4.4.0",
     "react-lite-youtube-embed": "^2.2.2",
+    "react-social-sharing": "^3.3.0",
     "reset-css": "^5.0.1"
   },
   "jest": {

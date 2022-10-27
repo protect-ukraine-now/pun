@@ -9,6 +9,7 @@ async function pages() {
 	pages = [
 		{
 			url: '/',
+			lang: 'en',
 			...text.en.root,
 		},
 		...languages.map(lang => pages.map(page => ({

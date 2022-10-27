@@ -96,6 +96,9 @@
 }
 
 .socialActions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   @include make-responsive('margin-bottom', (mobile: 20px,
       desktop: 30px), 30px);
 }

@@ -8,7 +8,6 @@ import './style'
 import './tools/scrollToTopOnNavigation'
 import { setUrl } from './tools/url'
 import { LanguageProvider } from './tools/language'
-import Meta from './components/Meta'
 import Header from './components/Header'
 import Footer from './components/Footer'
 
@@ -30,7 +29,6 @@ export default function App(props) {
 						setUrl(url)
 						return (
 							<LanguageProvider>
-								<Meta />
 								<Header />
 								<Router>
 									<News path="/:language/news" />
