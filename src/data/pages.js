@@ -1,8 +1,32 @@
+const loadData = require('./load')
+
+async function pages() {
+	let data = await loadData()
+	let { text } = data
+	let languages = Object.keys(text)
+	let pages = ['news', 'report', 'letter', 'candidates']
+
+	pages = [
+		{
+			url: '/',
+			...text.en.root,
+		},
+		...languages.map(lang => pages.map(page => ({
+			url: `/${lang}/${page}`,
+			lang,
+			...text[lang][page],
+		}))),
+	].flat()
+	// console.log('pages', pages)
+
+	return pages
+}
+
+module.exports = pages
+
 // const fs = require('fs')
 // const { join } = require('path')
 // const parseMD = require('parse-md').default
-
-const loadData = require('./load')
 
 // function loadMarkdown(folder, name) {
 // 	try {
@@ -12,46 +36,3 @@ const loadData = require('./load')
 // 		// console.error('loadMd', folder, name, e)
 // 	}
 // }
-
-async function pages() {
-	let data = await loadData()
-	let { text } = data
-
-	let pages = [
-		{
-			url: '/',
-			...text.en.root,
-		},
-		...Object.entries(text).map(([lang]) => [
-			{
-				url: `/${lang}/letter`,
-				lang,
-				image: 'https://protectukrainenow.org/assets/letter.webp',
-				...text[lang].letter,
-			},
-			{
-				url: `/${lang}/candidates`,
-				lang,
-				image: 'https://protectukrainenow.org/assets/letter.webp',
-				...text[lang].candidates,
-			},
-			{
-				url: `/${lang}/report`,
-				lang,
-				image: `https://protectukrainenow.org/assets/report.${lang}.webp`,
-				...text[lang].report,
-			},
-			{
-				url: `/${lang}/news`,
-				lang,
-				image: `https://protectukrainenow.org/assets/report.${lang}.webp`,
-				...text[lang].news,
-			},
-		])
-	].flat()
-	// console.log('pages', pages)
-
-	return pages
-}
-
-module.exports = pages

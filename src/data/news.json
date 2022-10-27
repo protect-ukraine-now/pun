@@ -786,6 +786,12 @@
 		"https://www.france24.com/en/live-news/20221005-eu-should-give-tanks-to-ukraine-european-parliament-chief"
 	],
 	[
+		"2022-10-05",
+		"Ukraine will receive new upgraded T-72M battle tanks called T-72 Avenger from Czech Republic. ",
+		"Україна отримає від Чехії нові модернізовані бойові танки Т-72М під назвою Т-72 «Месник».",
+		"https://www.armyrecognition.com/defense_news_october_2022_global_security_army_industry/czech_republic_delivers_t-72_avenger_tanks_to_ukraine_thanks_to_crowdfunding_campaign.html"
+	],
+	[
 		"2022-10-07",
 		"Estonian Minister of Defense Hanno Pevkur announced the next military aid package for Ukraine. According to a Ministry of Defence, the package will include artillery shells, anti-tank ammunition, winter uniforms and personal protective equipment.",
 		"Міністр оборони Естонії Ханно Певкур анонсував черговий пакет військової допомоги Україні. За даними Міноборони, пакет міститиме артилерійські снаряди, протитанкові боєприпаси, зимову форму та засоби індивідуального захисту.",
@@ -834,12 +840,6 @@
 		"https://www.thelocal.fr/20221010/macron-tells-zelensky-of-extreme-concern-and-pledges-more-military-aid/"
 	],
 	[
-		"2022-10-11",
-		"Australian government is preparing to deliver another round of military assistance to Ukraine. Their Defence personnel will travel to Europe to help train Ukrainian soldiers.",
-		"Уряд Австралії готується надати Україні черговий пакет військової допомоги. Їхні військовослужбовці вирушать до Європи, щоб допомагати навчати українських військових.",
-		"https://www.theage.com.au/politics/federal/australia-considers-sending-defence-staff-to-train-ukrainian-troops-20221011-p5bovw.html"
-	],
-	[
 		"2022-10-10",
 		"EU foreign policy chief Josep Borrell said he was \"deeply shocked\" by Russia's targeted missile strikes: \"We stand with Ukraine. Additional military support from the EU is on its way.\"",
 		"Верховний представник ЄС із закордонних справ Жозеп Боррель заявив, що «глибоко шокований» цілеспрямованими ракетними ударами Росії: «Ми підтримуємо Україну. Додаткова військова підтримка з боку ЄС вже на шляху».",
@@ -852,16 +852,10 @@
 		"https://www.thedefensepost.com/2022/10/10/us-ammunition-supplies-dwindle/"
 	],
 	[
-		"2022-10-13",
-		"The UK and France have pledged to help improve Ukraine's defences. London promised to send air defence missiles, while Paris said it would deliver its own anti-aircraft defence systems.",
-		"Велика Британія та Франція пообіцяли допомогти покращити оборону України. Лондон пообіцяв надіслати ракети протиповітряної оборони, а Париж заявив, що поставить власні системи протиповітряної оборони.",
-		"https://www.euronews.com/my-europe/2022/10/12/nato-allies-set-to-boost-military-support-to-ukraine-at-two-day-meeting"
-	],
-	[
-		"2022-10-12",
-		"Canadian Defence Minister Anita Anand announced a new military aid package over C$47 million ($34 million) to assist Ukraine in dealing with Russia's invasion, with the package including artillery rounds, satellite communications, winter clothing and drone cameras, among other assistance.",
-		"Міністр оборони Канади Аніта Ананд оголосила про новий пакет військової допомоги на суму понад 47 мільйонів канадських доларів (34 мільйона доларів США), щоб допомогти Україні впоратися з вторгненням Росії, серед іншого пакет включає артилерійські снаряди, супутниковий зв’язок, зимовий одяг і камери для дронів.",
-		"https://www.reuters.com/world/canada-announces-new-military-package-ukraine-after-russian-missile-attacks-2022-10-12/"
+		"2022-10-11",
+		"Australian government is preparing to deliver another round of military assistance to Ukraine. Their Defence personnel will travel to Europe to help train Ukrainian soldiers.",
+		"Уряд Австралії готується надати Україні черговий пакет військової допомоги. Їхні військовослужбовці вирушать до Європи, щоб допомагати навчати українських військових.",
+		"https://www.theage.com.au/politics/federal/australia-considers-sending-defence-staff-to-train-ukrainian-troops-20221011-p5bovw.html"
 	],
 	[
 		"2022-10-11",
@@ -871,9 +865,21 @@
 	],
 	[
 		"2022-10-12",
+		"Canadian Defence Minister Anita Anand announced a new military aid package over C$47 million ($34 million) to assist Ukraine in dealing with Russia's invasion, with the package including artillery rounds, satellite communications, winter clothing and drone cameras, among other assistance.",
+		"Міністр оборони Канади Аніта Ананд оголосила про новий пакет військової допомоги на суму понад 47 мільйонів канадських доларів (34 мільйона доларів США), щоб допомогти Україні впоратися з вторгненням Росії, серед іншого пакет включає артилерійські снаряди, супутниковий зв’язок, зимовий одяг і камери для дронів.",
+		"https://www.reuters.com/world/canada-announces-new-military-package-ukraine-after-russian-missile-attacks-2022-10-12/"
+	],
+	[
+		"2022-10-12",
 		"According to German Ministry of Defence's twitter, \"In the next few weeks, more PzH2000 and MARSII will be handed over to Ukraine\".",
 		"Згідно з твіттером міністерства оборони Німеччини, «протягом наступних кількох тижнів Україні буде передано більше PzH2000 і MARSII».",
 		"https://twitter.com/BMVg_Bundeswehr/status/1580177624516947971"
+	],
+	[
+		"2022-10-13",
+		"The UK and France have pledged to help improve Ukraine's defences. London promised to send air defence missiles, while Paris said it would deliver its own anti-aircraft defence systems.",
+		"Велика Британія та Франція пообіцяли допомогти покращити оборону України. Лондон пообіцяв надіслати ракети протиповітряної оборони, а Париж заявив, що поставить власні системи протиповітряної оборони.",
+		"https://www.euronews.com/my-europe/2022/10/12/nato-allies-set-to-boost-military-support-to-ukraine-at-two-day-meeting"
 	],
 	[
 		"2022-10-13",
@@ -972,33 +978,33 @@
 		"https://www.armyrecognition.com/defense_news_october_2022_global_security_army_industry/hensoldt_delivers_trml-4d_high-performance_air_defence_radars_for_ukraine.html"
 	],
 	[
-		"2022-10-05",
-		"Ukraine will receive new upgraded T-72M battle tanks called T-72 Avenger from Czech Republic. ",
-		"Україна отримає від Чехії нові модернізовані бойові танки Т-72М під назвою Т-72 «Месник».",
-		"https://www.armyrecognition.com/defense_news_october_2022_global_security_army_industry/czech_republic_delivers_t-72_avenger_tanks_to_ukraine_thanks_to_crowdfunding_campaign.html"
+		"2022-10-21",
+		"\"Arguably, Ukraine would not have been able to sustain Russia’s aggression if it had relied solely on European support to fight the war\", says CEPS think tank in their recent report on military aid to Ukraine. They also point at \"absence of clear leadership within the EU in coordinating the delivery of military aid to Ukraine\"",
+		"«Можливо, Україна не змогла б витримати агресію Росії, якби вона покладалася виключно на європейську підтримку для ведення війни», — йдеться в останньому звіті аналітичного центру CEPS про військову допомогу Україні. Також вказують на «відсутність чіткого лідерства всередині ЄС у координації постачання військової допомоги Україні».",
+		"https://www.ceps.eu/ceps-publications/assessing-the-eus-military-assistance-to-ukraine/"
 	],
 	[
 		"2022-10-23",
 		"Israel is providing Ukraine with intelligence on Iranian-made drones.",
-		"Ізраїль надає Україні Intel щодо російських іранських безпілотників.",
+		"Ізраїль надає Україні інформацію щодо іранських безпілотників",
 		"https://www.haaretz.com/israel-news/2022-10-13/ty-article/.premium/report-israel-providing-ukraine-with-intel-on-russias-iranian-drones/00000183-cfd6-d8cc-afc7-fffe2a4c0000"
 	],
 	[
 		"2022-10-23",
 		"Ukraine not cooperating with Israel on proposed missile alert system. Israeli officials believe Kyiv may be unhappy with the offer, as Jerusalem is refusing to supply it with interceptor systems. ",
-		"Україна не співпрацює з Ізраїлем щодо запропонованої системи оповіщення про ракети. Ізраїльські офіційні особи вважають, що Київ може бути незадоволений цією пропозицією, оскільки Єрусалим відмовляється постачати йому системи перехоплення.",
+		"Україна не співпрацює з Ізраїлем щодо запропонованої системи оповіщення про ракети. Ізраїльські офіційні особи вважають, що Київ може бути незадоволений цією пропозицією, оскільки Єрусалим відмовляється постачати системи перехоплення.",
 		"https://www.timesofisrael.com/report-ukraine-not-cooperating-with-israel-on-proposed-missile-alert-system/amp/"
 	],
 	[
 		"2022-10-23",
 		"The Chicago Council on Global Affairs published report on its 2022 survey of American public opinion on U.S. foreign policy. It states that nearly three-quarters of Americans support continuing economic (71%) and military (72%) aid to Ukraine, and 58 percent are willing to continue to support the country “as long as it takes,” even if U.S. households will have to pay higher prices for gas and food.",
-		"Чиказька рада з глобальних справ (The Chicago Council on Global Affairs) опублікувала звіт про своє дослідження американської громадської думки щодо зовнішньої політики США у 2022 році. У ньому зазначено, що майже три чверті американців підтримують продовження економічної (71%) і військової (72%) допомоги Україні, а 58 відсотків готові продовжувати підтримувати країну «стільки, скільки буде потрібно», навіть якщо домогосподарства США будуть змушені платити вищі ціни за газ і їжу.",
+		"Чиказька Рада з Глобальних Справ (The Chicago Council on Global Affairs) опублікувала звіт про своє дослідження американської громадської думки щодо зовнішньої політики США у 2022 році. У ньому зазначено, що майже три чверті американців підтримують продовження економічної (71%) і військової (72%) допомоги Україні, а 58 відсотків готові продовжувати підтримувати країну «стільки, скільки буде потрібно», навіть якщо домогосподарства США будуть змушені платити вищі ціни за газ і їжу.",
 		"https://www.globenewswire.com/Tracker?data=HXZ99wjde4jpd6JgTqs5_NgXH3mN-J5ItQVi_S1DYqudES_rYm6LC1OTT4EAapZeBRy3Nq4Jq0edpSI85VcjrWWkRgFtFNKz-0NeqK-t4NTDXPwKJzJteJFhpIsnMmBCHomLM9OI5mv8QFb5B9J1K61amudc5IuzoZ8sxzaAHZjnaQGAIP3t03b8os9wToOaKAMSsymXQMbGppdmNLi3ee-QQVzI3P2lPrjNTYfjUtcUOwE3-CwDv5nc6iwKXxRK3dwTvRqjxrXzrwJNDw5BVA=="
 	],
 	[
 		"2022-10-25",
-		"The United States is considering sending older HAWK air defense equipment from storage to Ukraine to help it defend against Russian drone and cruise missile attacks.The Biden administration would use the Presidential Drawdown Authority (PDA) to transfer the equipment.",
-		"Сполучені Штати розглядають можливість відправлення старішого обладнання протиповітряної оборони HAWK зі складу в Україну, щоб допомогти їй захищатися від атак російських безпілотників і крилатих ракет. Адміністрація Байдена використає Управління згортання штатів (PDA) для передачі обладнання.",
+		"The United States is considering sending older HAWK air defense equipment from storage to Ukraine",
+		"Сполучені Штати розглядають можливість відправлення Україні старих засобів протиповітряної оборони HAWK",
 		"https://www.reuters.com/world/europe/exclusive-us-considers-hawk-air-defense-equipment-ukraine-say-us-officials-2022-10-25/"
 	],
 	[
@@ -1008,9 +1014,27 @@
 		"https://www.washingtonpost.com/politics/2022/10/25/bidens-ukraine-policy-faces-bipartisan-squeeze/"
 	],
 	[
-		"2022-10-21",
-		"\"Arguably, Ukraine would not have been able to sustain Russia’s aggression if it had relied solely on European support to fight the war\", says CEPS think tank in their recent report on military aid to Ukraine. They also point at \"absence of clear leadership within the EU in coordinating the delivery of military aid to Ukraine\"",
-		"«Можливо, Україна не змогла б витримати агресію Росії, якби вона покладалася виключно на європейську підтримку для ведення війни», — йдеться в останньому звіті аналітичного центру CEPS про військову допомогу Україні. Також вказують на «відсутність чіткого лідерства всередині ЄС у координації постачання військової допомоги Україні».",
-		"https://www.ceps.eu/ceps-publications/assessing-the-eus-military-assistance-to-ukraine/"
+		"2022-10-25",
+		"On Tuesday, October 25, 2022, German President Frank-Walter Steinmeier announced the delivery to Ukraine of two more MARS II M270 MLRS and four PzH 2000 155mm tracked self-propelled howitzers, as well as new air defense missile systems.",
+		"Президент Німеччини Франк-Вальтер Штайнмаєр анонсував поставку в Україну ще двох РСЗВ MARS II M270 та чотирьох 155-мм гусеничних самохідних гаубиць PzH 2000, а також систем ППО",
+		"https://www.armyrecognition.com/defense_news_october_2022_global_security_army_industry/germany_to_supply_ukraine_with_two_more_mars_ii_rocket_launchers_and_4_pzh_2000_155mm_howitzers.html"
+	],
+	[
+		"2022-10-26",
+		"Up to 70 Australian defence force personnel will be deployed to the UK to train Ukrainian troops in the latest increase in Australia’s support for Kyiv. The Albanese government will provide Ukraine with 30 more Bushmaster protected mobility vehicles.",
+		"До 70 військовослужбовців австралійських сил оборони буде направлено до Сполученого Королівства для навчання українських військових у рамках останнього збільшення підтримки Києва Австралією. Уряд Албанії надасть Україні ще 30 захищених мобілів Bushmaster.",
+		"https://www.theguardian.com/australia-news/2022/oct/26/australian-defence-force-troops-to-train-ukrainian-soldiers-in-the-uk"
+	],
+	[
+		"2022-10-25",
+		"Prime Minister Denys Shmyhal has announced an agreement with Germany on the increase of military aid for Ukraine in 2023 from EUR 690 million to more than EUR 2 billion.",
+		"Прем'єр-міністр Денис Шмигаль заявив про домовленість з Німеччиною про збільшення військової допомоги Україні у 2023 році з 690 млн євро до понад 2 млрд євро.",
+		"https://ukranews.com/en/news/890294-ukraine-agrees-with-germany-on-military-aid-increase-from-eur-690-million-to-eur-2-billion-in-2023"
+	],
+	[
+		"2022-10-25",
+		"The Biden administration's lifting of the U.S. arms embargo on Cyprus on Oct. 1 has rekindled the prospect of Nicosia transferring its Russian military arsenal to Ukraine in return for Western-made weaponry.",
+		"Скасування адміністрацією Байдена ембарго США на постачання зброї на Кіпр 1 жовтня відродило перспективу того, що Нікосія передасть свій російський військовий арсенал Україні в обмін на зброю західного виробництва.",
+		"https://www.forbes.com/sites/pauliddon/2022/10/25/cyprus-could-transfer-its-russian-weaponry-to-ukraine-if-guaranteed-swift-replacements/?sh=3a9ec7583d7d"
 	]
 ]

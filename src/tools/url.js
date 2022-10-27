@@ -10,3 +10,8 @@ export function useUrl() {
 export function setUrl(url) {
     currentUrl = url
 }
+
+export function usePage() {
+    let url = useUrl()
+    return url.split('/')[2]
+}

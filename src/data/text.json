@@ -33,7 +33,10 @@
 		},
 		"report": {
 			"banner_title": "Protect Ukraine now before it's too late!",
-			"banner_btn": "Click here"
+			"banner_btn": "Click here",
+			"title": "Military Aid to Ukraine",
+			"description": "Weapons possessed, committed, provided",
+			"image": "https://protectukrainenow.org/assets/report.en.webp"
 		},
 		"aid_chart": {
 			"title": "US military aid by week",
@@ -45,7 +48,10 @@
 			"fmf": "FMF (long term)"
 		},
 		"news": {
-			"source": "source"
+			"source": "source",
+			"title": "News about military aid to Ukraine",
+			"description": "The United States is considering sending older HAWK air defense equipment from storage to Ukraine",
+			"image": "https://protectukrainenow.org/assets/report.en.webp"
 		},
 		"weapon_category": {
 			"Towed Artillery": "Towed Artillery",
@@ -79,8 +85,14 @@
 			"description": "Russia launched the most unprecedented missile attack across the entire Ukraine targeting critical infrastructure and slaughtering civilians. More than 3600 missiles have been launched on Ukrainian territory. By October, tens of thousands of civilians had been killed, including more than 400 children.\n\nAs off now not a single air defense system was provided by the US. There is no excuse for this cowardly and heartless position of the White House. Empty pledges and condemnations have not saved a single killed child.\n\nSignificantly MORE MILITARY AID is needed urgently. Time to act is NOW before more children are killed.​"
 		},
 		"letter": {
-			"title": "US must arm Ukraine now, before it’s too late",
-			"description": "Russia launched the most unprecedented missile attack across the entire Ukraine targeting critical infrastructure and slaughtering civilians. More than 3600 missiles have been launched on Ukrainian territory. By October, tens of thousands of civilians had been killed, including more than 400 children.\r\n\r\nAs off now not a single air defense system was provided by the US. There is no excuse for this cowardly and heartless position of the White House. Empty pledges and condemnations have not saved a single killed child.\r\n\r\nSignificantly MORE MILITARY AID is needed urgently. Time to act is NOW before more children are killed.​"
+			"title": "Request your representatives to give air defense to Ukraine",
+			"description": "More than 3600 missiles have been launched on Ukrainian territory. Tens of thousands of civilians had been killed. As off now not a single air defense system was provided by the US. Empty pledges and condemnations have not saved a single killed child. Time to act is NOW!",
+			"image": "https://protectukrainenow.org/assets/air-threat.webp"
+		},
+		"candidates": {
+			"title": "Ask your candidate about Ukraine support",
+			"description": "Without western support Ukraine resistance will crumble. It is essential for world peace and US security that Ukraine emerges victorious from this war",
+			"image": "https://protectukrainenow.org/assets/salvation.webp"
 		}
 	},
 	"ua": {
@@ -117,7 +129,10 @@
 		},
 		"report": {
 			"banner_title": "Захистить Україну зараз, поки не пізно!",
-			"banner_btn": "Натисніть тут"
+			"banner_btn": "Натисніть тут",
+			"title": "Військова допомога Україні",
+			"description": "Зброя наявна, обіцяна, передана",
+			"image": "https://protectukrainenow.org/assets/report.ua.webp"
 		},
 		"aid_chart": {
 			"title": "Військова допомога США по тижнях",
@@ -129,7 +144,10 @@
 			"fmf": "FMF (довгострокова)"
 		},
 		"news": {
-			"source": "джерело"
+			"source": "джерело",
+			"title": "Новини про військову допомогу Україні",
+			"description": "Сполучені Штати розглядають можливість відправлення Україні старих засобів протиповітряної оборони HAWK",
+			"image": "https://protectukrainenow.org/assets/report.ua.webp"
 		},
 		"weapon_category": {
 			"Towed Artillery": "Буксирувана артилерія",
@@ -160,8 +178,14 @@
 		},
 		"root": {},
 		"letter": {
-			"title": "US must arm Ukraine now, before it’s too late",
-			"description": "Russia launched the most unprecedented missile attack across the entire Ukraine targeting critical infrastructure and slaughtering civilians. More than 3600 missiles have been launched on Ukrainian territory. By October, tens of thousands of civilians had been killed, including more than 400 children.\r\n\r\nAs off now not a single air defense system was provided by the US. There is no excuse for this cowardly and heartless position of the White House. Empty pledges and condemnations have not saved a single killed child.\r\n\r\nSignificantly MORE MILITARY AID is needed urgently. Time to act is NOW before more children are killed.​"
+			"title": "Вимагайте від своїх представників надати Україні ППО",
+			"description": "По території України випущено понад 3600 ракет. Вбиті десятки тисяч мирних жителів. На даний момент США не надали жодної системи ППО. Порожні клятви і засудження не врятували жодної вбитої дитини. Час діяти ЗАРАЗ!",
+			"image": "https://protectukrainenow.org/assets/air-threat.webp"
+		},
+		"candidates": {
+			"title": "Запитайте кандидата щодо підтримки України",
+			"description": "Без підтримки Заходу опір України впаде. Для миру у світі та безпеки США важливо, щоб Україна вийшла з цієї війни переможцем",
+			"image": "https://protectukrainenow.org/assets/salvation.webp"
 		}
 	}
 }
