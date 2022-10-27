@@ -14,7 +14,7 @@ const Footer = () => {
 	useEffect(() => {
 		if (global.__sharethis__) {
 			console.log('__sharethis__.load()')
-			global.__sharethis__.window.__sharethis__.load()
+			global.__sharethis__.load()
 		}
 	}, [url])
 	return <>
