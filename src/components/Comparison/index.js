@@ -65,7 +65,7 @@ export default function Comparison(props) {
 
     return (
         <Container>
-            <h1 className={style.heading}>
+            <h2 className={style.heading}>
                 <Text id="report.title" fields={{ from, till }}>
                     Weapons committed to Ukraine
                 </Text>
@@ -91,7 +91,7 @@ export default function Comparison(props) {
                         </Link>
                     </div>
                 </div>
-            </h1>
+            </h2>
 
             <div className={style.splitter}>
                 {[left, right].map(renderTableLayout)}

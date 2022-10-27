@@ -34,10 +34,10 @@ const WeaponsTable = ({ className, title, subtitle, head, data, description }) =
 
 	return (
 		<Container className={className}>
-			<h1 className={style.heading}>
+			<h2 className={style.heading}>
 				{title}
 				<div className={style.subHeading}>{subtitle}</div>
-			</h1>
+			</h2>
 			<div className={style.splitter}>
 				{[left, right].map(renderTableLayout)}
 			</div>

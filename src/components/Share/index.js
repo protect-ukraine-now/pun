@@ -28,6 +28,7 @@ export default function Share() {
                 { property: "og:image", content: og.image },
             ]}
         />
+        <h1 style={{ display: 'none' }}>{title}</h1>
         <Facebook {...og} />
         <Twitter {...og} />
         <Linkedin {...og} />

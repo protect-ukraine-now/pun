@@ -9,7 +9,7 @@ import style from './style.scss';
 const About = ({ className }) => {
 	return (
 		<div className={cn(className)}>
-			<h1 className={style.title}><Text id="about.title">About us</Text></h1>
+			<h2 className={style.title}><Text id="about.title">About us</Text></h2>
 			<section className={style.aboutUs}>
 				<Container>
 					<div className={style.progectInfo}>

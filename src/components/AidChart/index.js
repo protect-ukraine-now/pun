@@ -62,9 +62,9 @@ export default function AidChart({ language }) {
 
     return (
         <Container>
-            <h1 className={style.heading}>
+            <h2 className={style.heading}>
                 <Text id="aid_chart.title">US Military Aid</Text>
-            </h1>
+            </h2>
             <Chart
                 chartType="ComboChart"
                 width="100%"
