@@ -1,14 +1,23 @@
+import { useEffect } from 'preact/hooks'
 import { Link } from 'preact-router/match';
 import Helmet from 'preact-helmet';
 
 import style from './style.scss';
+import { useUrl } from '../../tools/url'
 import LogoImage from '../../assets/icons/logo-dark-horizontal.svg';
 import Container from '../Container';
 // import Menu from '../Menu';
 // import { PAGES_MENU } from '../../constants/pages';
 
-const Footer = () => (
-	<>
+const Footer = () => {
+	let url = useUrl()
+	useEffect(() => {
+		if (global.__sharethis__) {
+			console.log('__sharethis__.initialize()')
+			global.__sharethis__.initialize()
+		}
+	}, [url])
+	return <>
 		<Helmet
 			script={[
 				{ defer: true, src: 'https://platform-api.sharethis.com/js/sharethis.js#property=623222622d10e5001932a789&product=inline-share-buttons', type: 'text/javascript' },
@@ -27,6 +36,6 @@ const Footer = () => (
 			</Container>
 		</footer>
 	</>
-);
+}
 
 export default Footer;
