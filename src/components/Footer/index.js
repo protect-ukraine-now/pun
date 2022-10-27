@@ -13,8 +13,8 @@ const Footer = () => {
 	let url = useUrl()
 	useEffect(() => {
 		if (global.__sharethis__) {
-			console.log('__sharethis__.initialize()')
-			global.__sharethis__.initialize()
+			console.log('__sharethis__.load()')
+			global.__sharethis__.window.__sharethis__.load()
 		}
 	}, [url])
 	return <>
