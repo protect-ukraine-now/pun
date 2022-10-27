@@ -14,7 +14,10 @@ const Footer = () => {
 	useEffect(() => {
 		if (global.__sharethis__) {
 			console.log('__sharethis__.load()')
-			global.__sharethis__.load()
+			global.__sharethis__.load('inline-share-buttons', {
+				id: 'sharethis-inline-share-buttons',
+				url: 'https://protectukrainenow.org/en/report',
+			})
 		}
 	}, [url])
 	return <>
@@ -24,7 +27,7 @@ const Footer = () => {
 			]}
 		/>
 		<div className={style.socialActions}>
-			<div className="sharethis-inline-share-buttons" />
+			<div id="sharethis-inline-share-buttons" className="sharethis-inline-share-buttons" />
 		</div>
 		<footer className={style.footer}>
 			<Container className={style.container}>
