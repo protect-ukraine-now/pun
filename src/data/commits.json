@@ -550,6 +550,16 @@
 		"Germany provides support for Ukraine"
 	],
 	[
+		"2022-06-24",
+		"France",
+		"Towed Artillery",
+		"TRF1 155mm",
+		"15",
+		"",
+		"https://www.lepoint.fr/monde/guerre-en-ukraine-macron-annonce-l-envoi-de-canons-caesar-12-10-2022-2493567_24.php",
+		"War in Ukraine: Macron announces the dispatch of Caesar guns"
+	],
+	[
 		"2022-06-28",
 		"Germany",
 		"Self-Propelled Artillery",
@@ -840,6 +850,16 @@
 		"Ukraine received four Su-25 jet aircraft from North Macedonia"
 	],
 	[
+		"2022-08-08",
+		"US",
+		"Other Armored Vehicle",
+		"armored medical treatment vehicles",
+		"50",
+		"",
+		"https://www.defense.gov/News/Releases/Release/Article/3120059/1-billion-in-additional-security-assistance-for-ukraine/",
+		"The United States will send more ammunition to Ukraine, including rockets for the HIMARS launchers"
+	],
+	[
 		"2022-08-10",
 		"Turkey",
 		"Other Armored Vehicle",
@@ -860,16 +880,6 @@
 		"UK to give more multiple launch rocket systems and guided missiles to Ukraine"
 	],
 	[
-		"2022-08-08",
-		"US",
-		"Other Armored Vehicle",
-		"armored medical treatment vehicles",
-		"50",
-		"",
-		"https://www.defense.gov/News/Releases/Release/Article/3120059/1-billion-in-additional-security-assistance-for-ukraine/",
-		"The United States will send more ammunition to Ukraine, including rockets for the HIMARS launchers"
-	],
-	[
 		"2022-08-13",
 		"Croatia",
 		"Towed Artillery",
@@ -878,6 +888,36 @@
 		"",
 		"https://www.shephardmedia.com/news/landwarfareintl/croatia-donates-m-46-field-guns-to-ukraine/",
 		"Croatia donates M-46 field guns to Ukraine"
+	],
+	[
+		"2022-08-15",
+		"Latvia",
+		"Helicopter",
+		"Mi-17",
+		"2",
+		"",
+		"https://babel.ua/en/news/82974-latvia-transferred-mi-17-and-mi-2-helicopters-to-ukraine",
+		"Latvia transferred Mi-17 and Mi-2 helicopters to Ukraine"
+	],
+	[
+		"2022-08-15",
+		"Latvia",
+		"Helicopter",
+		"Mi-2",
+		"2",
+		"",
+		"https://babel.ua/en/news/82974-latvia-transferred-mi-17-and-mi-2-helicopters-to-ukraine",
+		"Latvia transferred Mi-17 and Mi-2 helicopters to Ukraine"
+	],
+	[
+		"2022-08-16",
+		"Latvia",
+		"Self-Propelled Artillery",
+		"M109A5Oe",
+		"6",
+		"",
+		"https://www.mod.gov.lv/lv/zinas/latvija-piegada-ukrainai-sesas-pasgajejhaubices-m109a5oe",
+		"Latvija piegādā Ukrainai sešas pašgājējhaubices “M109A5Oe”"
 	],
 	[
 		"2022-08-20",
@@ -920,34 +960,14 @@
 		"Howitzers, Drones Highlight Ukraine's Newest U.S. Boost to Fight Russia"
 	],
 	[
-		"2022-08-15",
-		"Latvia",
-		"Helicopter",
-		"Mi-17",
-		"2",
+		"2022-08-23",
+		"Germany",
+		"Air Defense System",
+		"IRIS-T",
+		"9",
 		"",
-		"https://babel.ua/en/news/82974-latvia-transferred-mi-17-and-mi-2-helicopters-to-ukraine",
-		"Latvia transferred Mi-17 and Mi-2 helicopters to Ukraine"
-	],
-	[
-		"2022-08-15",
-		"Latvia",
-		"Helicopter",
-		"Mi-2",
-		"2",
-		"",
-		"https://babel.ua/en/news/82974-latvia-transferred-mi-17-and-mi-2-helicopters-to-ukraine",
-		"Latvia transferred Mi-17 and Mi-2 helicopters to Ukraine"
-	],
-	[
-		"2022-08-16",
-		"Latvia",
-		"Self-Propelled Artillery",
-		"M109A5Oe",
-		"6",
-		"",
-		"https://www.mod.gov.lv/lv/zinas/latvija-piegada-ukrainai-sesas-pasgajejhaubices-m109a5oe",
-		"Latvija piegādā Ukrainai sešas pašgājējhaubices “M109A5Oe”"
+		"https://www.reuters.com/world/europe/germanys-scholz-plans-send-more-arms-ukraine-source-2022-08-23/",
+		"Germany's Scholz plans to send more arms to Ukraine"
 	],
 	[
 		"2022-08-24",
@@ -968,16 +988,6 @@
 		"USAI",
 		"https://www.defense.gov/News/Releases/Release/Article/3138105/nearly-3-billion-in-additional-security-assistance-for-ukraine/",
 		"Nearly $3 Billion in Additional Security Assistance for Ukraine"
-	],
-	[
-		"2022-08-23",
-		"Germany",
-		"Air Defense System",
-		"IRIS-T",
-		"9",
-		"",
-		"https://www.reuters.com/world/europe/germanys-scholz-plans-send-more-arms-ukraine-source-2022-08-23/",
-		"Germany's Scholz plans to send more arms to Ukraine"
 	],
 	[
 		"2022-09-06",
@@ -1150,6 +1160,16 @@
 		"La France prépare la livraison de nouveaux canons Caesar à l’Ukraine"
 	],
 	[
+		"2022-10-03",
+		"France",
+		"Other Armored Vehicle",
+		"Bastion",
+		"20",
+		"",
+		"https://www.latribune.fr/entreprises-finance/industrie/aeronautique-defense/la-france-va-fournir-des-vehicules-blindes-bastion-arquus-a-l-ukraine-935022.html",
+		"La France va fournir des véhicules blindés Bastion (Arquus) à l'Ukraine"
+	],
+	[
 		"2022-10-04",
 		"US",
 		"Guided MLRS",
@@ -1190,14 +1210,34 @@
 		"$625 Million in Additional Security Assistance for Ukraine"
 	],
 	[
-		"2022-10-03",
+		"2022-10-12",
 		"France",
-		"Other Armored Vehicle",
-		"Bastion",
-		"20",
+		"other",
+		"Anti-air radars",
 		"",
-		"https://www.latribune.fr/entreprises-finance/industrie/aeronautique-defense/la-france-va-fournir-des-vehicules-blindes-bastion-arquus-a-l-ukraine-935022.html",
-		"La France va fournir des véhicules blindés Bastion (Arquus) à l'Ukraine"
+		"",
+		"https://www.lepoint.fr/monde/guerre-en-ukraine-macron-annonce-l-envoi-de-canons-caesar-12-10-2022-2493567_24.php",
+		"War in Ukraine: Macron announces the dispatch of Caesar guns"
+	],
+	[
+		"2022-10-12",
+		"France",
+		"Air Defense System",
+		"Mistral missiles",
+		"",
+		"",
+		"https://www.lepoint.fr/monde/guerre-en-ukraine-macron-annonce-l-envoi-de-canons-caesar-12-10-2022-2493567_24.php",
+		"War in Ukraine: Macron announces the dispatch of Caesar guns"
+	],
+	[
+		"2022-10-12",
+		"France",
+		"Air Defense System",
+		"Crotale",
+		"",
+		"",
+		"https://www.france24.com/en/europe/20221012-france-to-supply-air-defence-systems-to-ukraine-after-wave-of-russian-strikes",
+		"France to supply air defence systems to Ukraine after wave of Russian strikes"
 	],
 	[
 		"2022-10-13",
@@ -1220,46 +1260,6 @@
 		"Portugal to send broken helicopters to Ukraine"
 	],
 	[
-		"2022-06-24",
-		"France",
-		"Towed Artillery",
-		"TRF1 155mm",
-		"15",
-		"",
-		"https://www.lepoint.fr/monde/guerre-en-ukraine-macron-annonce-l-envoi-de-canons-caesar-12-10-2022-2493567_24.php",
-		"War in Ukraine: Macron announces the dispatch of Caesar guns"
-	],
-	[
-		"2022-10-12",
-		"France",
-		"other",
-		"Anti-air radars",
-		"",
-		"",
-		"https://www.lepoint.fr/monde/guerre-en-ukraine-macron-annonce-l-envoi-de-canons-caesar-12-10-2022-2493567_24.php",
-		"War in Ukraine: Macron announces the dispatch of Caesar guns"
-	],
-	[
-		"2022-10-12",
-		"France",
-		"Air Defense System",
-		"Mistral missiles",
-		"",
-		"",
-		"https://www.lepoint.fr/monde/guerre-en-ukraine-macron-annonce-l-envoi-de-canons-caesar-12-10-2022-2493567_24.php",
-		"War in Ukraine: Macron announces the dispatch of Caesar guns"
-	],
-	[
-		"2022-10-14",
-		"US",
-		"Other Armored Vehicle",
-		"HUMVEE",
-		"200",
-		"",
-		"https://www.defense.gov/News/Releases/Release/Article/3189571/725-million-in-additional-security-assistance-for-ukraine/",
-		"$725 Million in Additional Security Assistance for Ukraine"
-	],
-	[
 		"2022-10-13",
 		"Germany",
 		"Self-Propelled Artillery",
@@ -1268,16 +1268,6 @@
 		"",
 		"https://euromaidanpress.com/2022/10/12/germany-to-give-ukraine-16-zuzana-artillery-sysems/",
 		"Germany to give Ukraine 16 Zuzana artillery systems"
-	],
-	[
-		"2022-10-12",
-		"France",
-		"Air Defense System",
-		"Crotale",
-		"",
-		"",
-		"https://www.france24.com/en/europe/20221012-france-to-supply-air-defence-systems-to-ukraine-after-wave-of-russian-strikes",
-		"France to supply air defence systems to Ukraine after wave of Russian strikes"
 	],
 	[
 		"2022-10-13",
@@ -1290,6 +1280,16 @@
 		"The UK and France pledge to help bolster Ukraine's defence systems"
 	],
 	[
+		"2022-10-14",
+		"US",
+		"Other Armored Vehicle",
+		"HUMVEE",
+		"200",
+		"",
+		"https://www.defense.gov/News/Releases/Release/Article/3189571/725-million-in-additional-security-assistance-for-ukraine/",
+		"$725 Million in Additional Security Assistance for Ukraine"
+	],
+	[
 		"2022-10-20",
 		"Germany",
 		"other",
@@ -1298,36 +1298,6 @@
 		"",
 		"https://www.armyrecognition.com/defense_news_october_2022_global_security_army_industry/hensoldt_delivers_trml-4d_high-performance_air_defence_radars_for_ukraine.html",
 		"Hensoldt delivers TRML-4D high-performance air defence radars for Ukraine"
-	],
-	[
-		"2022-10-26",
-		"Germany",
-		"Guided MLRS",
-		"M270 MARS II",
-		"2",
-		"",
-		"https://www.armyrecognition.com/defense_news_october_2022_global_security_army_industry/germany_to_supply_ukraine_with_two_more_mars_ii_rocket_launchers_and_4_pzh_2000_155mm_howitzers.html",
-		"Germany to supply Ukraine with two more MARS II rocket launchers and 4 PzH 2000 155mm howitzers"
-	],
-	[
-		"2022-10-26",
-		"Germany",
-		"Self-Propelled Artillery",
-		"PzH2000 155mm",
-		"4",
-		"",
-		"https://www.armyrecognition.com/defense_news_october_2022_global_security_army_industry/germany_to_supply_ukraine_with_two_more_mars_ii_rocket_launchers_and_4_pzh_2000_155mm_howitzers.html",
-		"Germany to supply Ukraine with two more MARS II rocket launchers and 4 PzH 2000 155mm howitzers"
-	],
-	[
-		"2022-10-26",
-		"Australia",
-		"Other Armored Vehicle",
-		"Bushmaster",
-		"30",
-		"",
-		"https://www.theguardian.com/australia-news/2022/oct/26/australian-defence-force-troops-to-train-ukrainian-soldiers-in-the-uk",
-		"Australian defence force troops to train Ukrainian soldiers in the UK"
 	],
 	[
 		"2022-10-24",
@@ -1350,24 +1320,24 @@
 		"CEPS - EU Military Assistance to Ukraine Report 2023"
 	],
 	[
-		"2022-10-30",
-		"Italy",
-		"Air Defense System",
-		"SAMP-T",
+		"2022-10-26",
+		"Australia",
+		"Other Armored Vehicle",
+		"Bushmaster",
+		"30",
 		"",
-		"",
-		"https://www.reddit.com/r/UkrainianConflict/comments/yher1x/italy_and_france_will_supply_ukraine_with_sampt/",
-		"Italy and France will supply Ukraine with SAMP-T Air Defense Systems"
+		"https://www.theguardian.com/australia-news/2022/oct/26/australian-defence-force-troops-to-train-ukrainian-soldiers-in-the-uk",
+		"Australian defence force troops to train Ukrainian soldiers in the UK"
 	],
 	[
-		"2022-10-31",
-		"UK",
+		"2022-10-28",
+		"US",
 		"Other Armored Vehicle",
-		"Armtrac 400",
-		"1",
+		"HUMVEE",
+		"125",
 		"",
-		"https://www.armyrecognition.com/ukraine_-_russia_conflict_war_2022/ukraine_receives_first_armtrac_400_mine_clearing_vehicle_from_uk.html",
-		"Ukraine receives first Armtrac 400 mine clearing vehicle from UK"
+		"https://www.defense.gov/News/Releases/Release/Article/3203509/275-million-in-additional-presidential-drawdown-security-assistance-for-ukraine/",
+		"$275 Million in Additional Presidential Drawdown Security Assistance for Ukraine"
 	],
 	[
 		"2022-10-29",
@@ -1410,14 +1380,24 @@
 		"Cannoni e mezzi hi tech, ecco le armi date dall’Italia per l’offensiva ucraina"
 	],
 	[
-		"2022-11-04",
-		"US",
-		"Tank",
-		"T-72B",
-		"45",
+		"2022-10-30",
+		"France",
+		"Air Defense System",
+		"SAMP-T",
+		"1",
 		"",
-		"https://www.defense.gov/News/News-Stories/Article/Article/3210698/aid-package-to-ukraine-includes-t-72b-tanks/",
-		"Aid Package to Ukraine Includes T-72B Tanks"
+		"https://www.reddit.com/r/UkrainianConflict/comments/yher1x/italy_and_france_will_supply_ukraine_with_sampt/",
+		"Italy and France will supply Ukraine with SAMP-T Air Defense Systems"
+	],
+	[
+		"2022-10-31",
+		"UK",
+		"Other Armored Vehicle",
+		"Armtrac 400",
+		"1",
+		"",
+		"https://www.armyrecognition.com/ukraine_-_russia_conflict_war_2022/ukraine_receives_first_armtrac_400_mine_clearing_vehicle_from_uk.html",
+		"Ukraine receives first Armtrac 400 mine clearing vehicle from UK"
 	],
 	[
 		"2022-11-04",
