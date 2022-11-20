@@ -5,7 +5,7 @@ import IconCell from './IconCell';
 import DataCell from './DataCell';
 import Container from '../Container';
 
-const WeaponsTable = ({ className, title, subtitle, head, data, description }) => {
+const WeaponsTable = ({ className, title, subtitle, head, data, description, emptyValue = '-' }) => {
 	const left = data.slice(0, data.length / 2);
 	const right = data.slice(-data.length / 2);
 
@@ -20,7 +20,7 @@ const WeaponsTable = ({ className, title, subtitle, head, data, description }) =
 		<div className={style.row}>
 			<IconCell category={category}/>
 			{values.map((x, i) =>
-				<DataCell className={style.valueCell} {...x} key={i} />
+				<DataCell emptyValue={emptyValue} className={style.valueCell} {...x} key={i} />
 			)}
 		</div>
 	);
