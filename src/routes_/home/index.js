@@ -20,7 +20,7 @@ export default function Home() {
 		if (!global.window) return // prerendering
 		let country = detectCountry()
 		let map = {
-			US: '/en/candidates',
+			US: '/en/letter',
 			UA: '/ua/report',
 		}
 		route(map[country] || '/en/report', true); // replaces the current history entry

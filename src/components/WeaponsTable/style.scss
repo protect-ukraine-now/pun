@@ -89,7 +89,7 @@
   grid-template-columns: 2fr 1fr 1fr;
 
   @include max-w(mobile) {
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 40% 30% 30%;
   }
 
   &:not(:first-child) {

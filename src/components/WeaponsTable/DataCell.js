@@ -3,7 +3,7 @@ import style from './style.scss';
 import { useCallback, useMemo, useRef, useState } from 'preact/hooks';
 import useClickOutside from '../../hooks/useClickOutside';
 
-const DataCell = ({ className, value, delta, sources }) => {
+const DataCell = ({ className, value, delta, sources, emptyValue }) => {
 	const [isSourcePopupShown, setIsSourcePopupShown] = useState(false);
 	const popupRef = useRef();
 
@@ -36,7 +36,7 @@ const DataCell = ({ className, value, delta, sources }) => {
 	return (
 		<div className={cn(className, style.cell)}>
 			<span className={style.count}>
-				{value || '-'}
+				{value || emptyValue}
 				{!!delta && (
 					<button
 						className={style.deltaValue}
