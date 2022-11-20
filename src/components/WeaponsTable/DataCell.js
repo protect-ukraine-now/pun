@@ -36,7 +36,7 @@ const DataCell = ({ className, value, delta, sources }) => {
 	return (
 		<div className={cn(className, style.cell)}>
 			<span className={style.count}>
-				{value || '-'}
+				{value || <span className={style.emptyValue}>0</span>}
 				{!!delta && (
 					<button
 						className={style.deltaValue}
