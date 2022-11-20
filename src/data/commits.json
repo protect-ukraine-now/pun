@@ -1234,7 +1234,7 @@
 		"France",
 		"Air Defense System",
 		"Crotale",
-		"",
+		"2",
 		"",
 		"https://www.france24.com/en/europe/20221012-france-to-supply-air-defence-systems-to-ukraine-after-wave-of-russian-strikes",
 		"France to supply air defence systems to Ukraine after wave of Russian strikes"
@@ -1438,5 +1438,65 @@
 		"",
 		"https://en.defence-ua.com/weapon_and_tech/the_czech_republic_to_update_90_t_72b_tanks_for_ukraine_worth_1_million_dollars_each_the_arrival_dates_of_vehles_are_named-4755.html",
 		"The Czech Republic to Update 90 T-72B Tanks For Ukraine Worth 1 Million Dollars Each: the Arrival Dates of Vehles Are Named"
+	],
+	[
+		"2022-11-10",
+		"US",
+		"Air Defense System",
+		"Avenger",
+		"4",
+		"",
+		"https://www.defense.gov/News/News-Stories/Article/Article/3216745/400-million-security-package-headed-to-ukraine/",
+		"$400 Million Security Package Headed to Ukraine"
+	],
+	[
+		"2022-11-10",
+		"US",
+		"Air Defense System",
+		"HAWK missiles",
+		"",
+		"",
+		"https://www.defense.gov/News/News-Stories/Article/Article/3216745/400-million-security-package-headed-to-ukraine/",
+		"$400 Million Security Package Headed to Ukraine"
+	],
+	[
+		"2022-11-10",
+		"US",
+		"Other Armored Vehicle",
+		"HUMVEE",
+		"100",
+		"",
+		"https://www.defense.gov/News/News-Stories/Article/Article/3216745/400-million-security-package-headed-to-ukraine/",
+		"$400 Million Security Package Headed to Ukraine"
+	],
+	[
+		"2022-11-10",
+		"Spain",
+		"Air Defense System",
+		"HAWK",
+		"2",
+		"",
+		"https://www.usnews.com/news/world/articles/2022-11-10/spain-to-send-two-more-hawk-air-defence-systems-to-ukraine",
+		"Spain to Send Two More HAWK Air Defence Systems to Ukraine"
+	],
+	[
+		"2022-11-16",
+		"Croatia",
+		"Helicopter",
+		"Mi-8",
+		"14",
+		"",
+		"https://gagadget.com/en/188218-media-croatia-will-hand-over-14-mi-8-helicopters-to-the-ukrainian-armed-forces-and-will-buy-an-additional-batch-of-black-/",
+		"Media: Croatia will hand over 14 Mi-8 helicopters to the Ukrainian Armed Forces and will buy an additional batch of Black Hawks"
+	],
+	[
+		"2022-11-19",
+		"UK",
+		"other",
+		"anti-aircraft guns",
+		"120",
+		"",
+		"https://www.france24.com/en/europe/20221119-live-more-than-200-ukrainians-detained-or-disappeared-during-occupation-of-kherson-report-says",
+		"British PM Sunak visits Kyiv to confirm 'UK continued support' to Ukraine"
 	]
 ]
