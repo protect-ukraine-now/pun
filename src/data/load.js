@@ -21,10 +21,10 @@ const spreadsheets = {
         range: "'Sheet1'",
         transform: indexText,
     },
-    balance: {
-        id: '1AlaNAeRxzTihBONjvtsnQgRqw96TtxmDZ2bipYQfjPg',
-        range: "'Total'",
-    },
+    // balance: {
+    //     id: '1AlaNAeRxzTihBONjvtsnQgRqw96TtxmDZ2bipYQfjPg',
+    //     range: "'Total'",
+    // },
     commits: {
         id: '1zJuvhRLAKPuVrtaA-xTm2KvVwRZjInDuA4M9k7HZT1E',
         range: "'Weapons'",

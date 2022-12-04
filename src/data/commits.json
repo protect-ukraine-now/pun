@@ -340,6 +340,16 @@
 		null
 	],
 	[
+		"2022-06-05",
+		"Spain",
+		"Other Armored Vehicle",
+		"RG-31 Nyala Ambulance",
+		"1",
+		"",
+		"https://www.armyrecognition.com/defense_news_june_2022_global_security_army_industry/spain_approves_delivery_to_ukraine_of_40_leopard_2a4_tanks_and_aspide_missile_systems.html",
+		"Spain approves delivery to Ukraine of 40 Leopard 2A4 tanks and Aspide missile systems"
+	],
+	[
 		"2022-06-06",
 		"UK",
 		"Other Armored Vehicle",
@@ -408,16 +418,6 @@
 		"",
 		"https://www.himalayaustralia.com.au/2022/06/23/germany-reveals-full-list-of-military-aid-to-ukraine/",
 		"GERMANY REVEALS FULL LIST OF MILITARY AID TO UKRAINE"
-	],
-	[
-		"2022-06-23",
-		"Germany",
-		"Air Defense System",
-		"IRIS-T",
-		"30",
-		"",
-		"https://www.pravda.com.ua/eng/news/2022/06/23/7354251/",
-		null
 	],
 	[
 		"2022-06-24",
@@ -860,6 +860,16 @@
 		"Ukraine received four Su-25 jet aircraft from North Macedonia"
 	],
 	[
+		"2022-08-05",
+		"Spain",
+		"Other Armored Vehicle",
+		"M113",
+		"20",
+		"",
+		"https://www.armyrecognition.com/defense_news_august_2022_global_security_army_industry/spain_starts_the_process_to_deliver_20_m113_apc_armored_vehicles_to_ukraine.html",
+		"Spain starts the process to deliver 20 M113 APC armored vehicles to Ukraine"
+	],
+	[
 		"2022-08-08",
 		"US",
 		"Other Armored Vehicle",
@@ -930,21 +940,21 @@
 		"Latvija piegādā Ukrainai sešas pašgājējhaubices “M109A5Oe”"
 	],
 	[
-		"2022-08-20",
-		"US",
-		"other",
-		"Sky Eagle drone",
-		"15",
-		"",
-		"https://www.defense.gov/News/Releases/Release/Article/3134457/775-million-in-additional-security-assistance-for-ukraine/",
-		"$775 Million in Additional Security Assistance for Ukraine"
-	],
-	[
 		"2022-08-19",
 		"US",
 		"Other Armored Vehicle",
 		"MaxxPro MRAP",
 		"40",
+		"",
+		"https://www.defense.gov/News/Releases/Release/Article/3134457/775-million-in-additional-security-assistance-for-ukraine/",
+		"$775 Million in Additional Security Assistance for Ukraine"
+	],
+	[
+		"2022-08-20",
+		"US",
+		"other",
+		"Sky Eagle drone",
+		"15",
 		"",
 		"https://www.defense.gov/News/Releases/Release/Article/3134457/775-million-in-additional-security-assistance-for-ukraine/",
 		"$775 Million in Additional Security Assistance for Ukraine"
@@ -970,16 +980,6 @@
 		"Howitzers, Drones Highlight Ukraine's Newest U.S. Boost to Fight Russia"
 	],
 	[
-		"2022-08-23",
-		"Germany",
-		"Air Defense System",
-		"IRIS-T",
-		"9",
-		"",
-		"https://www.reuters.com/world/europe/germanys-scholz-plans-send-more-arms-ukraine-source-2022-08-23/",
-		"Germany's Scholz plans to send more arms to Ukraine"
-	],
-	[
 		"2022-08-24",
 		"Slovakia",
 		"Infantry Fighting Vehicle",
@@ -990,14 +990,14 @@
 		"Slovakia to donate 30 infantry fighting vehicles to Ukraine -minister"
 	],
 	[
-		"2022-08-24",
-		"US",
-		"Air Defense System",
-		"NASAMS",
-		"48",
-		"USAI",
-		"https://www.defense.gov/News/Releases/Release/Article/3138105/nearly-3-billion-in-additional-security-assistance-for-ukraine/",
-		"Nearly $3 Billion in Additional Security Assistance for Ukraine"
+		"2022-09-05",
+		"Poland",
+		"Tank",
+		"PT-91 Twardy",
+		"0",
+		"",
+		"https://www.globaldefensecorp.com/2022/09/05/ukraine-receives-pt-91-twardy-tanks-from-poland/",
+		"Ukraine receives PT-91 Twardy tanks from Poland"
 	],
 	[
 		"2022-09-06",
@@ -1310,6 +1310,16 @@
 		"Hensoldt delivers TRML-4D high-performance air defence radars for Ukraine"
 	],
 	[
+		"2022-10-23",
+		"US",
+		"Other Armored Vehicle",
+		"MaxxPro MRAP",
+		"200",
+		"",
+		"https://media.defense.gov/2022/Nov/23/2003120409/-1/-1/1/UKRAINE%20FACT%20SHEET%2020221123.PDF",
+		"Ukraine to receive 200 MaxxPro MRAP from the US"
+	],
+	[
 		"2022-10-24",
 		"Denmark",
 		"other",
@@ -1328,6 +1338,16 @@
 		"",
 		"CEPS report",
 		"CEPS - EU Military Assistance to Ukraine Report 2023"
+	],
+	[
+		"2022-10-24",
+		"Norway",
+		"Self-Propelled Artillery",
+		"M109 155mm",
+		"1",
+		"",
+		"https://www.tv2.no/nyheter/innenriks/pakket-og-sendt-i-all-hemmelighet/15282815/",
+		null
 	],
 	[
 		"2022-10-26",
@@ -1410,12 +1430,22 @@
 		"Ukraine receives first Armtrac 400 mine clearing vehicle from UK"
 	],
 	[
+		"2022-11-02",
+		"UK",
+		"Other Armored Vehicle",
+		"FV103 Spartan",
+		"50",
+		"",
+		"https://defence-blog.com/influencer-launches-crowdfunding-to-gift-50-armored-vehicles-to-ukraine/",
+		"Influencer launches crowdfunding to gift 50 armored vehicles to Ukraine"
+	],
+	[
 		"2022-11-04",
 		"US",
 		"other",
 		"Phoenix Ghost drone",
 		"1100",
-		"",
+		"USAI",
 		"https://www.defense.gov/News/News-Stories/Article/Article/3210698/aid-package-to-ukraine-includes-t-72b-tanks/",
 		"Aid Package to Ukraine Includes T-72B Tanks"
 	],
@@ -1425,7 +1455,7 @@
 		"other",
 		"armored boats",
 		"40",
-		"",
+		"USAI",
 		"https://www.defense.gov/News/News-Stories/Article/Article/3210698/aid-package-to-ukraine-includes-t-72b-tanks/",
 		"Aid Package to Ukraine Includes T-72B Tanks"
 	],
@@ -1433,9 +1463,9 @@
 		"2022-11-04",
 		"US",
 		"Other Armored Vehicle",
-		"M-1117",
+		"M1117",
 		"250",
-		"",
+		"USAI",
 		"https://www.defense.gov/News/News-Stories/Article/Article/3210698/aid-package-to-ukraine-includes-t-72b-tanks/",
 		"Aid Package to Ukraine Includes T-72B Tanks"
 	],
@@ -1452,7 +1482,7 @@
 	[
 		"2022-11-10",
 		"US",
-		"Air Defense System",
+		"Other Armored Vehicle",
 		"Avenger",
 		"4",
 		"",
@@ -1510,6 +1540,16 @@
 		"British PM Sunak visits Kyiv to confirm 'UK continued support' to Ukraine"
 	],
 	[
+		"2022-11-19",
+		"Romania",
+		"Other Armored Vehicle",
+		"TAB-71 APC",
+		"1",
+		"",
+		"https://www.armyrecognition.com/ukraine_-_russia_conflict_war_2022/ukraine_army_uses_romanian-made_tab-71m_8x8_armored_personnel_carrier.html",
+		"Ukraine army uses Romanian-made TAB-71M 8x8 armored personnel carrier"
+	],
+	[
 		"2022-11-21",
 		"Turkey",
 		"Guided MLRS",
@@ -1520,14 +1560,24 @@
 		"The Stalwart Ally: Türkiye’s Arms Deliveries To Ukraine"
 	],
 	[
-		"2022-11-19",
-		"Romania",
-		"Other Armored Vehicle",
-		"TAB-71 APC",
-		"1",
+		"2022-11-21",
+		"Germany",
+		"other",
+		"Unmanned Surface Vehicles",
+		"10",
 		"",
-		"https://www.armyrecognition.com/ukraine_-_russia_conflict_war_2022/ukraine_army_uses_romanian-made_tab-71m_8x8_armored_personnel_carrier.html",
-		"Ukraine army uses Romanian-made TAB-71M 8x8 armored personnel carrier"
+		"https://navyrecognition.com/index.php/focus-analysis/naval-technology/12503-list-of-western-naval-equipment-for-ukraine-amid-russian-invasion.html",
+		"List of Western naval equipment for Ukraine amid Russian invasion"
+	],
+	[
+		"2022-11-21",
+		"Germany",
+		"other",
+		"tank transporter M1070 Oshkosh",
+		"10",
+		"",
+		"https://www.armyrecognition.com/defense_news_november_2022_global_security_army_industry/ukraine_army_to_receive_8_oshkosh_m1070_tank_transport_tractors_from_germany.html",
+		"Ukraine army to receive 8 Oshkosh M1070 tank transport tractors from Germany"
 	],
 	[
 		"2022-11-23",
@@ -1560,34 +1610,44 @@
 		"Britain sending helicopters to Ukraine for first time - Ben Wallace"
 	],
 	[
-		"2022-11-21",
-		"Germany",
-		"other",
-		"Unmanned Surface Vehicles",
-		"10",
+		"2022-11-29",
+		"France",
+		"Guided MLRS",
+		"LRU MLRS (improved M270)",
+		"2",
 		"",
-		"https://navyrecognition.com/index.php/focus-analysis/naval-technology/12503-list-of-western-naval-equipment-for-ukraine-amid-russian-invasion.html",
-		"List of Western naval equipment for Ukraine amid Russian invasion"
+		"https://twitter.com/oleksiireznikov/status/1597554553398136832?s=20&t=6ckQn0EqM8c3rPH3BYd_PA",
+		null
 	],
 	[
-		"2022-11-21",
+		"2022-12-02",
 		"Germany",
 		"other",
-		"tank transporter M1070 Oshkosh",
-		"10",
+		"Unmanned Surface Vessels",
+		"8",
 		"",
-		"https://www.armyrecognition.com/defense_news_november_2022_global_security_army_industry/ukraine_army_to_receive_8_oshkosh_m1070_tank_transport_tractors_from_germany.html",
-		"Ukraine army to receive 8 Oshkosh M1070 tank transport tractors from Germany"
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
 	],
 	[
-		"2022-09-05",
-		"Poland",
-		"Tank",
-		"PT-91 Twardy",
-		"0",
+		"2022-12-02",
+		"Germany",
+		"Other Armored Vehicle",
+		"Biber bridge layer tank",
+		"3",
 		"",
-		"https://www.globaldefensecorp.com/2022/09/05/ukraine-receives-pt-91-twardy-tanks-from-poland/",
-		"Ukraine receives PT-91 Twardy tanks from Poland"
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2022-12-02",
+		"Germany",
+		"other",
+		"Border protection vehicle",
+		"12",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
 	],
 	[
 		"",
@@ -1598,55 +1658,5 @@
 		"",
 		"",
 		""
-	],
-	[
-		"2022-11-02",
-		"UK",
-		"Other Armored Vehicle",
-		"FV103 Spartan",
-		"50",
-		"",
-		"https://defence-blog.com/influencer-launches-crowdfunding-to-gift-50-armored-vehicles-to-ukraine/",
-		"Influencer launches crowdfunding to gift 50 armored vehicles to Ukraine"
-	],
-	[
-		"2022-08-05",
-		"Spain",
-		"Other Armored Vehicle",
-		"M113",
-		"20",
-		"",
-		"https://www.armyrecognition.com/defense_news_august_2022_global_security_army_industry/spain_starts_the_process_to_deliver_20_m113_apc_armored_vehicles_to_ukraine.html",
-		"Spain starts the process to deliver 20 M113 APC armored vehicles to Ukraine"
-	],
-	[
-		"2022-06-05",
-		"Spain",
-		"Other Armored Vehicle",
-		"RG-31 Nyala Ambulance",
-		"1",
-		"",
-		"https://www.armyrecognition.com/defense_news_june_2022_global_security_army_industry/spain_approves_delivery_to_ukraine_of_40_leopard_2a4_tanks_and_aspide_missile_systems.html",
-		"Spain approves delivery to Ukraine of 40 Leopard 2A4 tanks and Aspide missile systems"
-	],
-	[
-		"2022-10-23",
-		"US",
-		"Other Armored Vehicle",
-		"MaxxPro MRAP",
-		"200",
-		"",
-		"https://media.defense.gov/2022/Nov/23/2003120409/-1/-1/1/UKRAINE%20FACT%20SHEET%2020221123.PDF",
-		"Ukraine to receive 200 MaxxPro MRAP from the US"
-	],
-	[
-		"2022-10-24",
-		"Norway",
-		"Self-Propelled Artillery",
-		"M109 155mm",
-		"1",
-		"",
-		"https://www.tv2.no/nyheter/innenriks/pakket-og-sendt-i-all-hemmelighet/15282815/",
-		null
 	]
 ]
