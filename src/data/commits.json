@@ -786,8 +786,8 @@
 		"HIMARS",
 		"4",
 		"",
-		"https://www.washingtonpost.com/politics/white-house-announces-270m-military-package-for-ukraine/2022/07/22/c1660d08-09e8-11ed-80b6-43f2bfcc6662_story.html",
-		"White House announces $270M military package for Ukraine"
+		"https://www.defense.gov/News/Releases/Release/Article/3102984/270-million-in-additional-security-assistance-for-ukraine/",
+		"$270 Million in Additional Security Assistance for Ukraine"
 	],
 	[
 		"2022-07-22",
@@ -796,8 +796,8 @@
 		"Phoenix Ghost drone",
 		"580",
 		"",
-		"https://www.washingtonpost.com/politics/white-house-announces-270m-military-package-for-ukraine/2022/07/22/c1660d08-09e8-11ed-80b6-43f2bfcc6662_story.html",
-		"White House announces $270M military package for Ukraine"
+		"https://www.defense.gov/News/Releases/Release/Article/3102984/270-million-in-additional-security-assistance-for-ukraine/",
+		"$270 Million in Additional Security Assistance for Ukraine"
 	],
 	[
 		"2022-07-28",
@@ -824,7 +824,7 @@
 		"Germany",
 		"Other Armored Vehicle",
 		"Biber bridge layer tank",
-		"16",
+		"3",
 		"",
 		"https://www.theguardian.com/world/2022/jul/29/germany-bridge-layer-tanks-ukraine-forces-howitzer-sale-authorisation",
 		"Germany lends more support to Ukraine forces with tanks pledge"
@@ -970,14 +970,14 @@
 		"$775 Million in Additional Security Assistance for Ukraine"
 	],
 	[
-		"2022-08-20",
+		"2022-08-19",
 		"US",
 		"Other Armored Vehicle",
 		"HUMVEE",
 		"50",
 		"",
-		"https://www.newsweek.com/howitzers-drones-highlight-ukraines-newest-us-boost-fight-russia-1735350",
-		"Howitzers, Drones Highlight Ukraine's Newest U.S. Boost to Fight Russia"
+		"https://www.defense.gov/News/Releases/Release/Article/3134457/775-million-in-additional-security-assistance-for-ukraine/",
+		"$775 Million in Additional Security Assistance for Ukraine"
 	],
 	[
 		"2022-08-24",
@@ -1126,8 +1126,8 @@
 		"M142 HIMARS",
 		"18",
 		"USAI",
-		"https://www.washingtonpost.com/politics/us-poised-to-provide-11-billion-more-in-aid-to-ukraine/2022/09/28/4f96ab4a-3f4b-11ed-8c6e-9386bd7cd826_story.html",
-		"US announces $1.1 billion more in military aid for Ukraine"
+		"https://www.defense.gov/News/Releases/Release/Article/3173378/11-billion-in-additional-security-assistance-for-ukraine/",
+		"$1.1 Billion in Additional Security Assistance for Ukraine"
 	],
 	[
 		"2022-09-28",
@@ -1136,8 +1136,8 @@
 		"Titan anti-drone system",
 		"12",
 		"USAI",
-		"https://www.washingtonpost.com/politics/us-poised-to-provide-11-billion-more-in-aid-to-ukraine/2022/09/28/4f96ab4a-3f4b-11ed-8c6e-9386bd7cd826_story.html",
-		"US announces $1.1 billion more in military aid for Ukraine"
+		"https://www.defense.gov/News/Releases/Release/Article/3173378/11-billion-in-additional-security-assistance-for-ukraine/",
+		"$1.1 Billion in Additional Security Assistance for Ukraine"
 	],
 	[
 		"2022-09-28",
@@ -1632,16 +1632,6 @@
 	[
 		"2022-12-02",
 		"Germany",
-		"Other Armored Vehicle",
-		"Biber bridge layer tank",
-		"3",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2022-12-02",
-		"Germany",
 		"other",
 		"Border protection vehicle",
 		"12",
@@ -1650,7 +1640,7 @@
 		"Military support for Ukraine"
 	],
 	[
-		"",
+		"2022-09-15",
 		"Finland",
 		"Other Armored Vehicle",
 		"SISU XA-180/185s",
@@ -1658,5 +1648,25 @@
 		"",
 		"",
 		""
+	],
+	[
+		"2022-12-09",
+		"US",
+		"Other Armored Vehicle",
+		"HUMVEE",
+		"",
+		"PDA",
+		"https://www.defense.gov/News/Releases/Release/Article/3241679/275-million-in-additional-assistance-for-ukraine/",
+		"$275 Million in Additional Assistance for Ukraine"
+	],
+	[
+		"2022-12-02",
+		"Germany",
+		"Other Armored Vehicle",
+		"bridge system",
+		"17",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
 	]
 ]
