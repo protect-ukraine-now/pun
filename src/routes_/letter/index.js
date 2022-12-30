@@ -36,6 +36,7 @@ export default function Letter() {
 						</li>
 					</ul>
 				</Article>
+				<br />
 				{country && country !== 'US' &&
 					<h2><br />If you are a US citizen (and have a US address)</h2>
 				}
