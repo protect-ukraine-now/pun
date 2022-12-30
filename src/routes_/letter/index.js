@@ -38,7 +38,7 @@ export default function Letter() {
 				</Article>
 				<br />
 				{country && country !== 'US' &&
-					<h2><br />If you are a US citizen (and have a US address)</h2>
+					<h2>If you are a US citizen (and have a US address)</h2>
 				}
 				<div id='can-letter-area-protect-ukraine-now' style='width: 100%'></div>
 			</section>
