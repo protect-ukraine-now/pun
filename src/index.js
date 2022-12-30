@@ -20,7 +20,7 @@ import Letter from './routes_/letter'
 import Report from './routes_/report'
 
 export default function App(props) {
-	// console.log('App', props)
+	console.log(' App', props.url)
 	return (
 		<div id="preact_root" style={{ height: '100%' }}>
 			<DataProvider value={props}>

@@ -1,5 +1,7 @@
 import cn from 'classnames';
 import Helmet from 'preact-helmet';
+import Markdown from 'markdown-to-jsx'
+import { translate } from '../../tools/language'
 
 import Article from '../../components/Article'
 import detectCountry from '../../tools/detectCountry';
@@ -20,25 +22,19 @@ export default function Letter() {
 		<Container className={style.container}>
 			<section className={cn(style.section, style.banner)}>
 				<h2 className={style.title}>
-					Save Ukrainian lives with your Petition!
+					{translate('letter.header')}
 					<br /><span className={style.mobile}>&nbsp;</span>
 				</h2>
 			</section>
 			<section className={cn(style.section, style.explanation)}>
 				<Article>
-					<ul>
-						<li>Innocent people are killed in their homes every day; on Christmas Eve 17 civilians were killed and 71 were wounded</li>
-						<li>The prolonged war in Ukraine will shatter the world stability; we can’t allow the war to evolve into a multiyear conflict</li>
-						<li>General Zaloujny is ready to end this war:
-							<blockquote>
-							“I know that I can beat this enemy. But I need resources. I need 300 tanks, 600-700 IFVs, 500 Howitzers”
-							</blockquote>
-						</li>
-					</ul>
+					<Markdown>
+						{translate('letter.description')}
+					</Markdown>
 				</Article>
 				<br />
 				{country && country !== 'US' &&
-					<h2>If you are a U.S. citizen (and have a U.S. address)</h2>
+					<h3>(if you are a U.S. citizen and have a U.S. address)</h3>
 				}
 				<div id='can-letter-area-protect-ukraine-now' style='width: 100%'></div>
 			</section>

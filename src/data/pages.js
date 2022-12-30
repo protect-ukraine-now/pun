@@ -4,7 +4,7 @@ async function pages() {
 	let data = await loadData()
 	let { text } = data
 	let languages = Object.keys(text)
-	let pages = ['news', 'report', 'letter', 'candidates']
+	let pages = ['news', 'report', 'letter']
 
 	pages = [
 		{

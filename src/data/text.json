@@ -50,7 +50,7 @@
 		"news": {
 			"source": "source",
 			"title": "News about military aid to Ukraine",
-			"description": "The United States is considering sending older HAWK air defense equipment from storage to Ukraine",
+			"description": "The Pentagon will not supply Abrams M1 tanks to Ukraine. The reason is that Abrams tanks are &quot;too difficult to maintain and complex to operate,&quot; and &quot;Ukraine has enough tanks already&quot;",
 			"image": "https://protectukrainenow.org/assets/report.en.20221023.webp"
 		},
 		"weapon_category": {
@@ -82,11 +82,12 @@
 		},
 		"root": {
 			"title": "Protect Ukraine NOW!",
-			"description": "Russia launched the most unprecedented missile attack across the entire Ukraine targeting critical infrastructure and slaughtering civilians. More than 3600 missiles have been launched on Ukrainian territory. By October, tens of thousands of civilians had been killed, including more than 400 children.\n\nAs off now not a single air defense system was provided by the US. There is no excuse for this cowardly and heartless position of the White House. Empty pledges and condemnations have not saved a single killed child.\n\nSignificantly MORE MILITARY AID is needed urgently. Time to act is NOW before more children are killed.​"
+			"description": "Russia launched the most unprecedented missile attack across the entire Ukraine targeting critical infrastructure and slaughtering civilians. By October, tens of thousands of civilians had been killed, including more than 400 children.\n\nSignificantly MORE MILITARY AID is needed urgently. Time to act is NOW before more children are killed.​"
 		},
 		"letter": {
-			"title": "Request your representatives to give air defense to Ukraine",
-			"description": "More than 3600 missiles have been launched on Ukrainian territory. Tens of thousands of civilians had been killed. As off now not a single air defense system was provided by the US. Empty pledges and condemnations have not saved a single killed child. Time to act is NOW!",
+			"header": "Save lives with your Petition!",
+			"title": "Request your representatives to give Ukraine the munitions to end this war",
+			"description": "- Innocent people are killed in their homes every day; on Christmas Eve 17 civilians were killed and 71 were wounded\n\n- Ukraine's victory is essential for global stability and the US security\n\n- General Zaloujny is ready to end this war:\n\n    > “I know that I can beat this enemy. But I need resources. I need 300 tanks, 600-700 IFVs, 500 Howitzers”",
 			"image": "https://protectukrainenow.org/assets/air-threat.webp"
 		},
 		"candidates": {
@@ -146,7 +147,7 @@
 		"news": {
 			"source": "джерело",
 			"title": "Новини про військову допомогу Україні",
-			"description": "Сполучені Штати розглядають можливість відправлення Україні старих засобів протиповітряної оборони HAWK",
+			"description": "Пентагон не буде поставляти Україні танки Abrams M1. Причина в тому, що танки Абрамс &quot;надто складні в обслуговуванні та складні в експлуатації&quot;, а &quot;в Україні вже достатньо танків&quot;",
 			"image": "https://protectukrainenow.org/assets/report.ua.20221023.webp"
 		},
 		"weapon_category": {
@@ -178,8 +179,9 @@
 		},
 		"root": {},
 		"letter": {
-			"title": "Вимагайте від своїх представників надати Україні ППО",
-			"description": "По території України випущено понад 3600 ракет. Вбиті десятки тисяч мирних жителів. На даний момент США не надали жодної системи ППО. Порожні клятви і засудження не врятували жодної вбитої дитини. Час діяти ЗАРАЗ!",
+			"header": "Своєю петицією врятуйте життя!",
+			"title": "Вимагайте від своїх представників надати Україні зброю перемоги",
+			"description": "- Невинних людей щодня вбивають у їхніх будинках; на Святвечір було вбито 17 мирних жителів, 71 поранено\n\n- Перемога України є важливою для глобальної стабільності та безпеки США\n\n- Генерал Залужний готовий закінчити війну: \n\n    > «Я знаю, що можу перемогти цього ворога. Але мені потрібні ресурси. Мені потрібно 300 танків, 600-700 БМП, 500 гаубиць»",
 			"image": "https://protectukrainenow.org/assets/air-threat.webp"
 		},
 		"candidates": {
