@@ -744,7 +744,7 @@
 		"Germany",
 		"other",
 		"Strela",
-		"2500",
+		"2700",
 		"",
 		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
 		"Germany provides support for Ukraine"
@@ -774,7 +774,7 @@
 		"Germany",
 		"Other Armored Vehicle",
 		"Bergepanzer 2",
-		"15",
+		"10",
 		"",
 		"https://www.bundesregierung.de/breg-de/themen/krieg-in-der-ukraine/lieferungen-ukraine-2054514",
 		"Germany provides support for Ukraine"
@@ -823,7 +823,7 @@
 		"2022-07-29",
 		"Germany",
 		"Other Armored Vehicle",
-		"Biber bridge layer tank",
+		"BEAVER bridge layer tank",
 		"3",
 		"",
 		"https://www.theguardian.com/world/2022/jul/29/germany-bridge-layer-tanks-ukraine-forces-howitzer-sale-authorisation",
@@ -843,7 +843,7 @@
 		"2022-08-02",
 		"Germany",
 		"Other Armored Vehicle",
-		"protected vehicles",
+		"HMMWV",
 		"10",
 		"",
 		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
@@ -950,6 +950,16 @@
 		"$775 Million in Additional Security Assistance for Ukraine"
 	],
 	[
+		"2022-08-19",
+		"US",
+		"Other Armored Vehicle",
+		"HUMVEE",
+		"50",
+		"",
+		"https://www.defense.gov/News/Releases/Release/Article/3134457/775-million-in-additional-security-assistance-for-ukraine/",
+		"$775 Million in Additional Security Assistance for Ukraine"
+	],
+	[
 		"2022-08-20",
 		"US",
 		"other",
@@ -965,16 +975,6 @@
 		"Towed Artillery",
 		"M119 105mm",
 		"16",
-		"",
-		"https://www.defense.gov/News/Releases/Release/Article/3134457/775-million-in-additional-security-assistance-for-ukraine/",
-		"$775 Million in Additional Security Assistance for Ukraine"
-	],
-	[
-		"2022-08-19",
-		"US",
-		"Other Armored Vehicle",
-		"HUMVEE",
-		"50",
 		"",
 		"https://www.defense.gov/News/Releases/Release/Article/3134457/775-million-in-additional-security-assistance-for-ukraine/",
 		"$775 Million in Additional Security Assistance for Ukraine"
@@ -1051,16 +1051,6 @@
 	],
 	[
 		"2022-09-15",
-		"Germany",
-		"Other Armored Vehicle",
-		"Dingo Armored Personnel Carriers",
-		"50",
-		"",
-		"https://www.msn.com/en-us/news/world/germany-to-send-rocket-launchers-and-armored-vehicles-to-ukraine/ar-AA11RuSZ",
-		"Germany to send rocket launchers and armored vehicles to Ukraine"
-	],
-	[
-		"2022-09-15",
 		"Greece",
 		"Infantry Fighting Vehicle",
 		"BMP-1",
@@ -1088,6 +1078,26 @@
 		"",
 		"https://www.defense.gov/News/Releases/Release/Article/3160503/600-million-in-additional-security-assistance-for-ukraine/",
 		"$600 Million in Additional Security Assistance for Ukraine"
+	],
+	[
+		"2022-09-15",
+		"Germany",
+		"Other Armored Vehicle",
+		"Dingo Armored Personnel Carriers",
+		"30",
+		"",
+		"https://www.msn.com/en-us/news/world/germany-to-send-rocket-launchers-and-armored-vehicles-to-ukraine/ar-AA11RuSZ",
+		"Germany to send rocket launchers and armored vehicles to Ukraine"
+	],
+	[
+		"2022-09-15",
+		"Finland",
+		"Other Armored Vehicle",
+		"SISU XA-180/185s",
+		"0",
+		"",
+		"",
+		""
 	],
 	[
 		"2022-09-19",
@@ -1118,26 +1128,6 @@
 		"",
 		"https://www.delfi.lt/ru/news/live/glava-minoborony-litva-postavila-ukraine-50-btr-m113.d?id=91326491",
 		"Minister: Lithuania transferred 50 M113 APCs to Ukraine"
-	],
-	[
-		"2022-09-28",
-		"US",
-		"Guided MLRS",
-		"M142 HIMARS",
-		"18",
-		"USAI",
-		"https://www.defense.gov/News/Releases/Release/Article/3173378/11-billion-in-additional-security-assistance-for-ukraine/",
-		"$1.1 Billion in Additional Security Assistance for Ukraine"
-	],
-	[
-		"2022-09-28",
-		"US",
-		"other",
-		"Titan anti-drone system",
-		"12",
-		"USAI",
-		"https://www.defense.gov/News/Releases/Release/Article/3173378/11-billion-in-additional-security-assistance-for-ukraine/",
-		"$1.1 Billion in Additional Security Assistance for Ukraine"
 	],
 	[
 		"2022-09-28",
@@ -1268,16 +1258,6 @@
 		"",
 		"https://www.theportugalnews.com/news/2022-10-13/portugal-to-send-broken-helicopters-to-ukraine/71186",
 		"Portugal to send broken helicopters to Ukraine"
-	],
-	[
-		"2022-10-13",
-		"Germany",
-		"Self-Propelled Artillery",
-		"Zusanna 2 155mm",
-		"16",
-		"",
-		"https://euromaidanpress.com/2022/10/12/germany-to-give-ukraine-16-zuzana-artillery-sysems/",
-		"Germany to give Ukraine 16 Zuzana artillery systems"
 	],
 	[
 		"2022-10-13",
@@ -1413,7 +1393,7 @@
 		"2022-10-30",
 		"France",
 		"Air Defense System",
-		"SAMP-T",
+		"SAMP-T (MAMBA)",
 		"1",
 		"",
 		"https://www.reddit.com/r/UkrainianConflict/comments/yher1x/italy_and_france_will_supply_ukraine_with_sampt/",
@@ -1445,26 +1425,6 @@
 		"other",
 		"Phoenix Ghost drone",
 		"1100",
-		"USAI",
-		"https://www.defense.gov/News/News-Stories/Article/Article/3210698/aid-package-to-ukraine-includes-t-72b-tanks/",
-		"Aid Package to Ukraine Includes T-72B Tanks"
-	],
-	[
-		"2022-11-04",
-		"US",
-		"other",
-		"armored boats",
-		"40",
-		"USAI",
-		"https://www.defense.gov/News/News-Stories/Article/Article/3210698/aid-package-to-ukraine-includes-t-72b-tanks/",
-		"Aid Package to Ukraine Includes T-72B Tanks"
-	],
-	[
-		"2022-11-04",
-		"US",
-		"Other Armored Vehicle",
-		"M1117",
-		"250",
 		"USAI",
 		"https://www.defense.gov/News/News-Stories/Article/Article/3210698/aid-package-to-ukraine-includes-t-72b-tanks/",
 		"Aid Package to Ukraine Includes T-72B Tanks"
@@ -1573,7 +1533,7 @@
 		"2022-11-21",
 		"Germany",
 		"other",
-		"tank transporter M1070 Oshkosh",
+		"M1070 Oshkosh tank transporter",
 		"10",
 		"",
 		"https://www.armyrecognition.com/defense_news_november_2022_global_security_army_industry/ukraine_army_to_receive_8_oshkosh_m1070_tank_transport_tractors_from_germany.html",
@@ -1620,6 +1580,16 @@
 		null
 	],
 	[
+		"2022-12-01",
+		"Germany",
+		"other",
+		"Border protection vehicle",
+		"53",
+		null,
+		null,
+		null
+	],
+	[
 		"2022-12-02",
 		"Germany",
 		"other",
@@ -1640,14 +1610,34 @@
 		"Military support for Ukraine"
 	],
 	[
-		"2022-09-15",
-		"Finland",
+		"2022-12-02",
+		"Germany",
+		"other",
+		"bridge system",
+		"17",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2022-12-08",
+		"Germany",
+		"other",
+		"M1070 Oshkosh tank transporter",
+		"2",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2022-12-08",
+		"Germany",
 		"Other Armored Vehicle",
-		"SISU XA-180/185s",
-		"0",
+		"Dingo Armored Personnel Carriers",
+		"20",
 		"",
-		"",
-		""
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Germany provides support for Ukraine"
 	],
 	[
 		"2022-12-09",
@@ -1655,18 +1645,68 @@
 		"Other Armored Vehicle",
 		"HUMVEE",
 		"",
-		"PDA",
+		"",
 		"https://www.defense.gov/News/Releases/Release/Article/3241679/275-million-in-additional-assistance-for-ukraine/",
 		"$275 Million in Additional Assistance for Ukraine"
 	],
 	[
-		"2022-12-02",
+		"2022-12-21",
+		"US",
+		"Air Defense System",
+		"Patriot",
+		"8",
+		"PDA",
+		"https://www.defense.gov/News/Releases/Release/Article/3252782/185-billion-in-additional-security-assistance-for-ukraine/",
+		"$1.85 Billion in Additional Security Assistance for Ukraine"
+	],
+	[
+		"2022-12-15",
 		"Germany",
 		"Other Armored Vehicle",
-		"bridge system",
-		"17",
+		"Bergepanzer 2",
+		"2",
 		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
+		"https://www.bundesregierung.de/breg-de/themen/krieg-in-der-ukraine/lieferungen-ukraine-2054514",
+		"Germany provides support for Ukraine"
+	],
+	[
+		"2022-12-18",
+		"UK",
+		"other",
+		"Brimstone rockets",
+		"",
+		"",
+		"https://en.mehrnews.com/news/195079/UK-sends-Brimstone-2-precision-guided-missiles-to-Ukraine",
+		"UK sends Brimstone 2 precision-guided missiles to Ukraine"
+	],
+	[
+		"2022-12-21",
+		"US",
+		"Other Armored Vehicle",
+		"Cougar MRAP",
+		"37",
+		"PDA",
+		"https://www.defense.gov/News/Releases/Release/Article/3252782/185-billion-in-additional-security-assistance-for-ukraine/",
+		"$1.85 Billion in Additional Security Assistance for Ukraine"
+	],
+	[
+		"2022-12-21",
+		"US",
+		"Other Armored Vehicle",
+		"HUMVEE",
+		"120",
+		"PDA",
+		"https://www.defense.gov/News/Releases/Release/Article/3252782/185-billion-in-additional-security-assistance-for-ukraine/",
+		"$1.85 Billion in Additional Security Assistance for Ukraine"
+	],
+	[
+		"2022-12-21",
+		"US",
+		"Other Armored Vehicle",
+		"Armored utility trucks",
+		"6",
+		"PDA",
+		"https://www.defense.gov/News/Releases/Release/Article/3252782/185-billion-in-additional-security-assistance-for-ukraine/",
+		"$1.85 Billion in Additional Security Assistance for Ukraine"
 	]
 ]
