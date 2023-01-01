@@ -62,7 +62,7 @@ export function incomeReport(report) {
 }
 
 export function inventoryReport() {
-    let byCategory = commitsByCategory({ filter: x => !x[5] }) // fund == PDA
+    let byCategory = commitsByCategory({ filter: x => (x[5] || 'PDA') === 'PDA' })
     return balance.map(([category, ru, ua, us]) => ({
         category,
         values: [{ value: us }, byCategory[category][0]],
