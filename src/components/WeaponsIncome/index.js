@@ -48,7 +48,7 @@ export default function WeaponsIncome({ language, className }) {
                 {'← '}
             </Link>
             <span className={style.period}>
-                <Text id="income.timespan">2 weeks</Text>
+                <Text id="income.timespan1"></Text>
             </span>
             <Link
                 className={style.navLink}
