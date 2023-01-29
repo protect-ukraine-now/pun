@@ -14,7 +14,7 @@
 		"balance": {
 			"title": "Weapons possessed",
 			"subtitle": "as of {{till}}",
-			"description": "Only systems with a range of more than 10 km have been added to the \"Air Defense System\" category. \nSources: iiss.org, armedforces.eu, globalsecurity.org, wikipedia.org"
+			"description": "- Includes equipment in store\n- Air Defense: number of launchers is shown\n- Tanks: includes T-62 and above\n- IFVs: includes BMD, BTR-80A and above, BTR-3 and above\n- Sources: iiss.org, armedforces.eu, globalsecurity.org, wikipedia.org"
 		},
 		"income": {
 			"title": "Weapons committed to Ukraine",
@@ -23,13 +23,14 @@
 			"prev": "Previous Report",
 			"next": "Next Report",
 			"rest": "Other countries",
-			"description": "Includes both donations and purchases, delivered and promised in the near future"
+			"description": "- Includes both donations and purchases, delivered and promised in the near future\n- Air Defense: number of launchers is shown\n- IFVs: includes all Bradley and Stryker variants"
 		},
 		"inventory": {
 			"title": "USA: Weapons possessed vs weapons provided under Presidential Drawdown (short term aid)",
 			"subtitle": "as of {{till}}",
 			"possessed": "Possessed",
-			"pda": "PDA"
+			"pda": "Provided",
+			"description": "- Includes equipment in store\n- Air Defense: number of launchers is shown\n- IFVs: includes all Bradley and Stryker variants\n- Sources: iiss.org, armedforces.eu, globalsecurity.org, wikipedia.org"
 		},
 		"report": {
 			"banner_title": "Protect Ukraine now before it's too late!",
@@ -50,7 +51,7 @@
 		"news": {
 			"source": "source",
 			"title": "News about military aid to Ukraine",
-			"description": "The Pentagon will not supply Abrams M1 tanks to Ukraine. The reason is that Abrams tanks are &quot;too difficult to maintain and complex to operate,&quot; and &quot;Ukraine has enough tanks already&quot;",
+			"description": "The Dutch Cabinet will look into supplying F-16 fighter jets to Ukraine",
 			"image": "https://protectukrainenow.org/assets/report.en.20221023.webp"
 		},
 		"weapon_category": {
@@ -61,7 +62,7 @@
 			"Tank": "Tank",
 			"Infantry Fighting Vehicle": "Infantry Fighting Vehicle",
 			"Other Armored Vehicle": "Other Armored Vehicle",
-			"Air Defense System": "Air Defense System",
+			"Air Defense System": "Air Defense",
 			"Helicopter": "Helicopter",
 			"Warplane": "War Plane",
 			"Vessel": "Vessel",
@@ -111,7 +112,7 @@
 		"balance": {
 			"title": "Наявна зброя",
 			"subtitle": "на {{till}}",
-			"description": "У категорію «Зенітно-ракетний комплекс» додано лише системи з дальністю понад 10 км.\nДжерела: iiss.org, armedforces.eu, globalsecurity.org, wikipedia.org"
+			"description": "- Включає техніку на зберіганні\n- ППО: показано кількість пускових установок\n- Танки: включає Т-62 і вище\n- БМП: включає БМД, БТР-80А i вище, БТР-3 і вище\n- Джерела: iiss.org, Armedforces.eu, globalsecurity.org, wikipedia.org"
 		},
 		"income": {
 			"title": "Зброя, що передана Україні",
@@ -120,13 +121,14 @@
 			"prev": "Попередній звіт",
 			"next": "Наступний звіт",
 			"rest": "Інші країни",
-			"description": "Включає безкоштовну допомогу та покупки, вже доставлене та обіцяне найближчим часом"
+			"description": "- Включає як пожертви, так і покупки, доставлені та обіцяні найближчим часом\r\n- ППО: показано кількість пускових установок\r\n- БМП: включає всі варіанти Bradley і Stryker"
 		},
 		"inventory": {
 			"title": "США: Наявна зброя та її поставки по фонду PDA (короткострокова допомога)",
 			"subtitle": "на {{till}}",
 			"possessed": "Наявна",
-			"pda": "PDA"
+			"pda": "Поставлена",
+			"description": "- Включає техніку на зберіганні\n- ППО: показано кількість пускових установок\n- БМП: включає всі варіанти Bradley і Stryker\n- Джерела: iiss.org, Armedforces.eu, globalsecurity.org, wikipedia.org"
 		},
 		"report": {
 			"banner_title": "Захистить Україну зараз, поки не пізно!",
@@ -147,7 +149,7 @@
 		"news": {
 			"source": "джерело",
 			"title": "Новини про військову допомогу Україні",
-			"description": "Пентагон не буде поставляти Україні танки Abrams M1. Причина в тому, що танки Абрамс &quot;надто складні в обслуговуванні та складні в експлуатації&quot;, а &quot;в Україні вже достатньо танків&quot;",
+			"description": "Кабмін Нідерландів розгляне постачання Україні винищувачів F-16",
 			"image": "https://protectukrainenow.org/assets/report.ua.20221023.webp"
 		},
 		"weapon_category": {
@@ -158,7 +160,7 @@
 			"Tank": "Танк",
 			"Infantry Fighting Vehicle": "Бойова машина піхоти ",
 			"Other Armored Vehicle": "Інша бронетехніка",
-			"Air Defense System": "Зенітнo-ракетний комплекс",
+			"Air Defense System": "Протиповітряна оборона",
 			"Helicopter": "Гелiкоптер",
 			"Warplane": "Бойовий літак",
 			"Vessel": "Судно",
@@ -179,9 +181,9 @@
 		},
 		"root": {},
 		"letter": {
-			"header": "Своєю петицією врятуйте життя!",
+			"header": "Врятуйте життя cвоєю петицією!",
 			"title": "Вимагайте від своїх представників надати Україні зброю перемоги",
-			"description": "- Невинних людей щодня вбивають у їхніх будинках; на Святвечір було вбито 17 мирних жителів, 71 поранено\n\n- Перемога України є важливою для глобальної стабільності та безпеки США\n\n- Генерал Залужний готовий закінчити війну: \n\n    > «Я знаю, що можу перемогти цього ворога. Але мені потрібні ресурси. Мені потрібно 300 танків, 600-700 БМП, 500 гаубиць»",
+			"description": "- Невинних людей щодня вбивають у їхніх будинках; на Святвечір було вбито 17 мирних жителів, 71 поранено\n\n- Перемога України є важливою для глобальної стабільності та безпеки США\n\n- Генерал Залужний готовий закінчити цю війну: \n\n    > «Я знаю, що можу перемогти цього ворога. Але мені потрібні ресурси. Мені потрібно 300 танків, 600-700 БМП, 500 гаубиць»",
 			"image": "https://protectukrainenow.org/assets/air-threat.webp"
 		},
 		"candidates": {

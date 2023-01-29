@@ -7,7 +7,7 @@ let indexText = text => text.slice(1).reduce((a, [group, key, desc, en, ua]) => 
 }, { en: {}, ua: {} })
 
 let transformCommits = data => data
-    .filter(([date, author, status]) => status === 'Draft' || status === 'Approved')
+    .filter(([date, author, status, country, category, type, qty]) => status === 'Approved' && +qty)
     .map(([date, author, status, country, category, type, qty, fund, notes, link, title]) => [date, country, category, type, qty, fund, link, title])
 
 let transformNews = data => data
@@ -22,7 +22,7 @@ const spreadsheets = {
         transform: indexText,
     },
     // balance: {
-    //     id: '1AlaNAeRxzTihBONjvtsnQgRqw96TtxmDZ2bipYQfjPg',
+    //     id: '1xgDA4BxipENhnh8vAkKgISbGyWGHMOZulbLtRZFBV-4',
     //     range: "'Total'",
     // },
     commits: {

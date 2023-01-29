@@ -1,11 +1,13 @@
 import cn from 'classnames';
+import Markdown from 'markdown-to-jsx'
 
+import Article from '../../components/Article'
 import style from './style.scss';
 import IconCell from './IconCell';
 import DataCell from './DataCell';
 import Container from '../Container';
 
-const WeaponsTable = ({ className, title, subtitle, head, data, description, emptyValue = '-' }) => {
+const WeaponsTable = ({ className, title, subtitle, head, data, description }) => {
 	const left = data.slice(0, data.length / 2);
 	const right = data.slice(-data.length / 2);
 
@@ -20,7 +22,7 @@ const WeaponsTable = ({ className, title, subtitle, head, data, description, emp
 		<div className={style.row}>
 			<IconCell category={category}/>
 			{values.map((x, i) =>
-				<DataCell emptyValue={emptyValue} className={style.valueCell} {...x} key={i} />
+				<DataCell className={style.valueCell} {...x} key={i} />
 			)}
 		</div>
 	);
@@ -41,7 +43,15 @@ const WeaponsTable = ({ className, title, subtitle, head, data, description, emp
 			<div className={style.splitter}>
 				{[left, right].map(renderTableLayout)}
 			</div>
-			{description && <p className={style.description}>{description}</p>}
+			{description &&
+				<p className={style.description}>
+					<Article>
+						<Markdown>
+							{description}
+						</Markdown>
+					</Article>
+				</p>
+			}
 		</Container>
 	);
 };

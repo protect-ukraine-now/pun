@@ -3,7 +3,7 @@ import style from './style.scss';
 import { useCallback, useMemo, useRef, useState } from 'preact/hooks';
 import useClickOutside from '../../hooks/useClickOutside';
 
-const DataCell = ({ className, value, delta, sources, emptyValue }) => {
+const DataCell = ({ className, value, delta, sources }) => {
 	const [isSourcePopupShown, setIsSourcePopupShown] = useState(false);
 	const popupRef = useRef();
 
@@ -32,6 +32,8 @@ const DataCell = ({ className, value, delta, sources, emptyValue }) => {
 			</div>
 		) : null;
 	}, [sources, isSourcePopupShown]);
+
+	let emptyValue = <span className={style.emptyValue}>0</span >
 
 	return (
 		<div className={cn(className, style.cell)}>

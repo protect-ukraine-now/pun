@@ -3,7 +3,7 @@ import commits from './commits.json'
 import { isoDate, DAY } from '../tools/date'
 
 let first = '2022-07-17'
-let latest = '2023-01-15'
+let latest = '2023-01-29'
 
 let timespan = 14 * DAY
 export let Report = till => {
@@ -21,26 +21,29 @@ const CATEGORIES = [
     'Towed Artillery',
     'Self-Propelled Artillery',
     'Multiple Launch Rocket System',
-    'Guided MLRS',
+    // 'Guided MLRS',
     'Air Defense System',
     'Warplane',
     'Helicopter',
     'Tank',
     'Infantry Fighting Vehicle',
-    'Other Armored Vehicle',
+    // 'Other Armored Vehicle',
 ]
 
 let commitsByCategory = ({ report = latestReport, filter }) => commits.reduce((byCategory, r) => {
     let [date, country, category, type, qty, fund, link, title] = r
+    qty = +qty || 0
     if (date <= report.till && (!filter || filter(r))) {
         let values = byCategory[category] || [{}, {}]
         byCategory[category] = values
         let index = country === 'US' ? 0 : 1
         let x = values[index]
-        x.value = (x.value || 0) + +qty
+        x.value = (x.value || 0) + qty
         if (date >= report.from) {
-            x.delta = (x.delta || 0) + +qty
-            x.sources = { ...(x.sources || {}), [link]: title }
+            x.delta = (x.delta || 0) + qty
+            if (link) {
+                x.sources = { ...(x.sources || {}), [link]: title }
+            }
         }
     }
     return byCategory

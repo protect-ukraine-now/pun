@@ -33,7 +33,7 @@ export default function WeaponsCommitments({ language, className }) {
         <UA className={style.countryFlag} title={translate('country.ua')} />,
     ]
 
-    let description = <Text id="balance.description" />
+    let description = translate('balance.description')
 
     return <WeaponsTable {...{ title, subtitle, head, data, description, className }} />
 }

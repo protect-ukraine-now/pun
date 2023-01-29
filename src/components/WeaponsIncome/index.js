@@ -72,7 +72,7 @@ export default function WeaponsIncome({ language, className }) {
         </>,
     ]
 
-    let description = <Text id="income.description" />
+    let description = translate('income.description')
 
-    return <WeaponsTable emptyValue={<span className={style.emptyValue}>0</span>} {...{ title, subtitle, head, data, description, className }} />
+    return <WeaponsTable {...{ title, subtitle, head, data, description, className }} />
 }
