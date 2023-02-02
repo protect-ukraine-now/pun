@@ -5,5 +5,5 @@ export const PAGES_MENU = language => [
 	[translate('menu.report'), `/${language}/report`],
 	[translate('menu.letter'), `/${language}/letter`],
 	// [translate('menu.candidates'), `/${language}/candidates`],
-	// [translate('menu.about'), `/${language}/about`],
+	[translate('menu.about'), `/${language}/about`],
 ];
