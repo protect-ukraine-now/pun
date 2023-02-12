@@ -171,16 +171,6 @@
 	],
 	[
 		"2022-05-03",
-		"Germany",
-		"Self-Propelled Artillery",
-		"PzH2000 155mm",
-		"7",
-		"",
-		"Waffenlieferungen: Bundesregierung will Panzerhaubitzen 2000 an die Ukraine liefern - WELT",
-		"Bundesregierung will Panzerhaubitzen 2000 an die Ukraine liefern"
-	],
-	[
-		"2022-05-03",
 		"Czech Republic",
 		"Tank",
 		"T-72",
@@ -190,14 +180,14 @@
 		"Czech Republic sends tanks, infantry fighting vehicles to Ukraine"
 	],
 	[
-		"2022-05-08",
-		"Portugal",
-		"Other Armored Vehicle",
-		"M113",
-		"15",
+		"2022-05-03",
+		"Germany",
+		"Self-Propelled Artillery",
+		"PzH2000 155mm",
+		"7",
 		"",
-		"https://sol.sapo.pt/artigo/770506/portugal-vai-ja-enviar-blindados-para-a-ucr-nia",
-		"Portugal vai já enviar blindados para a Ucrânia"
+		"Waffenlieferungen: Bundesregierung will Panzerhaubitzen 2000 an die Ukraine liefern - WELT",
+		"Bundesregierung will Panzerhaubitzen 2000 an die Ukraine liefern"
 	],
 	[
 		"2022-05-08",
@@ -205,6 +195,16 @@
 		"Towed Artillery",
 		"M114 155mm",
 		"5",
+		"",
+		"https://sol.sapo.pt/artigo/770506/portugal-vai-ja-enviar-blindados-para-a-ucr-nia",
+		"Portugal vai já enviar blindados para a Ucrânia"
+	],
+	[
+		"2022-05-08",
+		"Portugal",
+		"Other Armored Vehicle",
+		"M113",
+		"15",
 		"",
 		"https://sol.sapo.pt/artigo/770506/portugal-vai-ja-enviar-blindados-para-a-ucr-nia",
 		"Portugal vai já enviar blindados para a Ucrânia"
@@ -252,22 +252,22 @@
 	[
 		"2022-05-25",
 		"Lithuania",
-		"Other Armored Vehicle",
-		"M113",
-		"20",
-		"",
-		"https://defence-blog.com/ukraine-to-get-more-m113-armored-personnel-carriers-from-lithuania/",
-		""
-	],
-	[
-		"2022-05-25",
-		"Lithuania",
 		"other",
 		"Military truck",
 		"10",
 		"",
 		"https://www.lrt.lt/en/news-in-english/19/1702086/lithuania-to-hand-over-eur15-5-million-worth-of-armoured-vehicles-trucks-suvs-to-ukraine",
 		"Lithuania to hand over €15.5m worth of armoured vehicles, trucks, SUVs to Ukraine"
+	],
+	[
+		"2022-05-25",
+		"Lithuania",
+		"Other Armored Vehicle",
+		"M113",
+		"20",
+		"",
+		"https://defence-blog.com/ukraine-to-get-more-m113-armored-personnel-carriers-from-lithuania/",
+		""
 	],
 	[
 		"2022-05-26",
@@ -361,16 +361,6 @@
 	],
 	[
 		"2022-06-15",
-		"Germany",
-		"Multiple Launch Rocket System",
-		"M270 MARS 227mm",
-		"3",
-		"",
-		"Ukraine Defense Contact Group: Joint Statement | BMVg.de",
-		"Ukraine Defense Contact Group: Joint Statement"
-	],
-	[
-		"2022-06-15",
 		"Slovakia",
 		"Helicopter",
 		"Mi-17",
@@ -378,6 +368,16 @@
 		"",
 		"https://theaviationgeekclub.com/slovakia-secretly-delivered-four-mil-mi-17-hips-and-one-mil-mi-2-hoplite-to-ukraine/",
 		null
+	],
+	[
+		"2022-06-15",
+		"Germany",
+		"Multiple Launch Rocket System",
+		"M270 MARS 227mm",
+		"3",
+		"",
+		"Ukraine Defense Contact Group: Joint Statement | BMVg.de",
+		"Ukraine Defense Contact Group: Joint Statement"
 	],
 	[
 		"2022-06-15",
@@ -472,9 +472,9 @@
 	[
 		"2022-06-24",
 		"US",
-		"Other Armored Vehicle",
-		"M113",
-		"200",
+		"other",
+		"Harpoon coastal defense system",
+		"2",
 		"",
 		"https://www.defense.gov/News/Releases/Release/Article/3073551/fact-sheet-on-us-security-assistance-to-ukraine/",
 		"Fact Sheet on U.S. Security Assistance to Ukraine"
@@ -482,9 +482,9 @@
 	[
 		"2022-06-24",
 		"US",
-		"other",
-		"Harpoon coastal defense system",
-		"2",
+		"Other Armored Vehicle",
+		"M113",
+		"200",
 		"",
 		"https://www.defense.gov/News/Releases/Release/Article/3073551/fact-sheet-on-us-security-assistance-to-ukraine/",
 		"Fact Sheet on U.S. Security Assistance to Ukraine"
@@ -551,6 +551,16 @@
 	],
 	[
 		"2022-06-24",
+		"France",
+		"Towed Artillery",
+		"TRF1 155mm",
+		"15",
+		"",
+		"https://www.lepoint.fr/monde/guerre-en-ukraine-macron-annonce-l-envoi-de-canons-caesar-12-10-2022-2493567_24.php",
+		"War in Ukraine: Macron announces the dispatch of Caesar guns"
+	],
+	[
+		"2022-06-24",
 		"Germany",
 		"Air Defense System",
 		"IRIS-T",
@@ -560,14 +570,14 @@
 		"Germany provides support for Ukraine"
 	],
 	[
-		"2022-06-24",
+		"2022-06-28",
 		"France",
-		"Towed Artillery",
-		"TRF1 155mm",
-		"15",
+		"Other Armored Vehicle",
+		"VAB",
+		"4",
 		"",
-		"https://www.lepoint.fr/monde/guerre-en-ukraine-macron-annonce-l-envoi-de-canons-caesar-12-10-2022-2493567_24.php",
-		"War in Ukraine: Macron announces the dispatch of Caesar guns"
+		"https://edition.cnn.com/europe/live-news/russia-ukraine-war-news-06-28-22/h_7ea43ee9673957a79390ce311f31861b",
+		null
 	],
 	[
 		"2022-06-28",
@@ -587,16 +597,6 @@
 		"3",
 		"",
 		null,
-		null
-	],
-	[
-		"2022-06-28",
-		"France",
-		"Other Armored Vehicle",
-		"VAB",
-		"4",
-		"",
-		"https://edition.cnn.com/europe/live-news/russia-ukraine-war-news-06-28-22/h_7ea43ee9673957a79390ce311f31861b",
 		null
 	],
 	[
@@ -821,16 +821,6 @@
 	],
 	[
 		"2022-07-29",
-		"Germany",
-		"Other Armored Vehicle",
-		"BEAVER bridge layer tank",
-		"3",
-		"",
-		"https://www.theguardian.com/world/2022/jul/29/germany-bridge-layer-tanks-ukraine-forces-howitzer-sale-authorisation",
-		"Germany lends more support to Ukraine forces with tanks pledge"
-	],
-	[
-		"2022-07-29",
 		"Norway",
 		"Other Armored Vehicle",
 		"Iveco LAV III",
@@ -838,6 +828,16 @@
 		"",
 		"https://norwaytoday.info/news/norway-has-donated-14-armored-patrol-vehicles-to-ukraine/",
 		"Norway has donated 14 armored patrol vehicles to Ukraine"
+	],
+	[
+		"2022-07-29",
+		"Germany",
+		"Other Armored Vehicle",
+		"BEAVER bridge layer tank",
+		"3",
+		"",
+		"https://www.theguardian.com/world/2022/jul/29/germany-bridge-layer-tanks-ukraine-forces-howitzer-sale-authorisation",
+		"Germany lends more support to Ukraine forces with tanks pledge"
 	],
 	[
 		"2022-08-02",
@@ -1031,16 +1031,6 @@
 	],
 	[
 		"2022-09-15",
-		"Germany",
-		"Multiple Launch Rocket System",
-		"M270 MARS II",
-		"2",
-		"",
-		"https://www.msn.com/en-us/news/world/germany-to-send-rocket-launchers-and-armored-vehicles-to-ukraine/ar-AA11RuSZ",
-		"Germany to send rocket launchers and armored vehicles to Ukraine"
-	],
-	[
-		"2022-09-15",
 		"Greece",
 		"Infantry Fighting Vehicle",
 		"BMP-1",
@@ -1048,6 +1038,16 @@
 		"",
 		"https://www.msn.com/en-us/news/world/germany-to-send-rocket-launchers-and-armored-vehicles-to-ukraine/ar-AA11RuSZ",
 		"Greece will soon send 40 infantry fighting vehicles"
+	],
+	[
+		"2022-09-15",
+		"Germany",
+		"Multiple Launch Rocket System",
+		"M270 MARS II",
+		"2",
+		"",
+		"https://www.msn.com/en-us/news/world/germany-to-send-rocket-launchers-and-armored-vehicles-to-ukraine/ar-AA11RuSZ",
+		"Germany to send rocket launchers and armored vehicles to Ukraine"
 	],
 	[
 		"2022-09-15",
@@ -1124,7 +1124,7 @@
 		"France",
 		"Self-Propelled Artillery",
 		"CAESAR 155mm",
-		"6",
+		"12",
 		"",
 		"https://www.lemonde.fr/international/article/2022/10/01/la-france-prepare-la-livraison-de-nouveaux-canons-caesar-a-l-ukraine_6143991_3210.html",
 		"La France prépare la livraison de nouveaux canons Caesar à l’Ukraine"
@@ -1292,9 +1292,9 @@
 	[
 		"2022-10-29",
 		"Italy",
-		"Self-Propelled Artillery",
-		"PzH2000 155mm",
-		"6",
+		"Multiple Launch Rocket System",
+		"M270 MRLS",
+		"2",
 		"",
 		"https://www.repubblica.it/esteri/2022/10/29/news/ucraina_kiev_armi_italia-372176795/",
 		"Cannoni e mezzi hi tech, ecco le armi date dall’Italia per l’offensiva ucraina"
@@ -1302,9 +1302,9 @@
 	[
 		"2022-10-29",
 		"Italy",
-		"Multiple Launch Rocket System",
-		"M270 MRLS",
-		"2",
+		"Self-Propelled Artillery",
+		"PzH2000 155mm",
+		"6",
 		"",
 		"https://www.repubblica.it/esteri/2022/10/29/news/ucraina_kiev_armi_italia-372176795/",
 		"Cannoni e mezzi hi tech, ecco le armi date dall’Italia per l’offensiva ucraina"
@@ -1653,8 +1653,8 @@
 		"2023-01-06",
 		"US",
 		"Other Armored Vehicle",
-		"M113",
-		"100",
+		"MRAP",
+		"55",
 		"PDA",
 		"https://www.defense.gov/News/Releases/Release/Article/3261263/more-than-3-billion-in-additional-security-assistance-for-ukraine/",
 		"More Than $3 Billion in Additional Security Assistance for Ukraine"
@@ -1663,8 +1663,8 @@
 		"2023-01-06",
 		"US",
 		"Other Armored Vehicle",
-		"MRAP",
-		"55",
+		"M113",
+		"100",
 		"PDA",
 		"https://www.defense.gov/News/Releases/Release/Article/3261263/more-than-3-billion-in-additional-security-assistance-for-ukraine/",
 		"More Than $3 Billion in Additional Security Assistance for Ukraine"
@@ -2051,16 +2051,6 @@
 	],
 	[
 		"2023-01-19",
-		"Germany",
-		"other",
-		"Border protection vehicle",
-		"12",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Germany provides support for Ukraine"
-	],
-	[
-		"2023-01-19",
 		"Lithuania",
 		"Helicopter",
 		"Mi-8",
@@ -2071,6 +2061,16 @@
 	],
 	[
 		"2023-01-19",
+		"Germany",
+		"other",
+		"Border protection vehicle",
+		"12",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Germany provides support for Ukraine"
+	],
+	[
+		"2023-01-19",
 		"Netherlands",
 		"Air Defense System",
 		"Patriot",
@@ -2078,6 +2078,26 @@
 		"",
 		"https://www.aa.com.tr/en/europe/netherlands-to-support-ukraine-with-patriot-parts-missiles/2793323",
 		"Davos 2023: Netherlands finalising Patriot system plan for Ukraine, to announce more support"
+	],
+	[
+		"2023-01-26",
+		"Canada",
+		"Tank",
+		"Leopard-2",
+		"4",
+		"",
+		"https://www.cbc.ca/news/politics/anita-anand-ukraine-military-assistance-1.6726949",
+		"Canada to send 4 combat-ready Leopard 2 tanks to Ukraine in the coming weeks"
+	],
+	[
+		"2023-01-26",
+		"Portugal",
+		"Tank",
+		"Leopard-2",
+		"3",
+		"",
+		"https://www.reuters.com/world/europe/portugal-send-ukraine-three-leopard-2-tanks-2023-02-08/",
+		"Portugal to send Ukraine three Leopard 2 tanks"
 	],
 	[
 		"2023-01-27",
@@ -2110,23 +2130,33 @@
 		"Poland to send 60 more tanks to Ukraine in addition to 14 Leopard 2"
 	],
 	[
-		"2023-01-26",
-		"Portugal",
-		"Tank",
-		"Leopard-2",
-		"4",
-		"",
-		"https://www.cmjornal.pt/mundo/detalhe/portugal-prepara-envio-de-quatro-tanques-para-a-ucrania",
-		"Portugal prepares to send four tanks to Ukraine"
+		"2023-02-03",
+		"US",
+		"Other Armored Vehicle",
+		"MRAP",
+		"181",
+		"PDA",
+		"https://www.defense.gov/News/News-Stories/Article/Article/3288155/air-defense-systems-long-range-fires-capability-to-be-sent-to-ukraine/",
+		"Air Defense Systems, Long-Range Fires Capability to be Sent to Ukraine"
 	],
 	[
-		"2023-01-26",
-		"Canada",
-		"Tank",
-		"Leopard-2",
-		"4",
+		"2023-02-08",
+		"Germany",
+		"Air Defense System",
+		"Gepard",
+		"2",
 		"",
-		"https://www.cbc.ca/news/politics/anita-anand-ukraine-military-assistance-1.6726949",
-		"Canada to send 4 combat-ready Leopard 2 tanks to Ukraine in the coming weeks"
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		null
+	],
+	[
+		"2023-02-11",
+		"Lithuania",
+		"Air Defense System",
+		"L-70",
+		"36",
+		"",
+		"https://news.yahoo.com/first-batch-lithuanian-anti-aircraft-135235593.html",
+		"First batch of Lithuanian anti-aircraft guns L-70 arrives in Ukraine"
 	]
 ]

@@ -14,7 +14,7 @@ async function pages() {
 		},
 		...languages.map(lang => pages.map(page => ({
 			url: `/${lang}/${page}`,
-			lang,
+			lang: lang === 'ua' ? 'uk' : lang,
 			...text[lang][page],
 		}))),
 	].flat()
