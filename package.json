@@ -8,7 +8,7 @@
     "start": "per-env",
     "start:production": "npm run -s serve",
     "start:development": "npm run -s dev",
-    "build": "cross-env NODE_OPTIONS='--openssl-legacy-provider' preact build --prerenderUrls ./prerender-urls.js",
+    "build": "preact build --prerenderUrls ./prerender-urls.js",
     "build:analyze": "cross-env NODE_OPTIONS='--openssl-legacy-provider' preact build --analyze --prerenderUrls ./prerender-urls.js",
     "dev": "cross-env NODE_OPTIONS='--openssl-legacy-provider' preact watch --prerender --prerenderUrls ./prerender-urls.js",
     "lint": "eslint src",
