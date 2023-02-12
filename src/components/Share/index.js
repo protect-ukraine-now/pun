@@ -12,9 +12,9 @@ export default function Share() {
 
     // lang should be validated to be present in text.json
     // if it's not there - we should use `en` as a default
-    if (!Object.keys(text).includes(lang)) {
-        lang = 'en'
-    }
+    // if (!Object.keys(text).includes(lang)) {
+    //     lang = 'en'
+    // }
 
     let { title, description, image, og_title, og_description, og_image } = text[lang][page]
     let og = {
@@ -26,7 +26,7 @@ export default function Share() {
     }
     return <>
         <Helmet
-            htmlAttributes={{ lang }}
+            htmlAttributes={{ lang: lang === 'ua' ? 'uk' : lang }}
             title={title}
             meta={[
                 { property: "description", content: description },
