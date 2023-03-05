@@ -1,6 +1,6 @@
 import { useMemo } from 'preact/hooks';
 import { Text } from 'preact-i18n';
-// import Markdown from 'markdown-to-jsx'
+import Markdown from 'markdown-to-jsx'
 
 import { formatDate } from '../../tools/date';
 
@@ -21,10 +21,11 @@ export default function News({ language }) {
 					<ul>
 						{news.map(({ text, source }) =>
 							<li key={source}>
-								{/* <Markdown>{text}</Markdown> */}
-								{text}
+								<Markdown>{text}</Markdown>
 								{' '}
-								<a href={source} target="_blank">(<Text id="news.source">source</Text>)</a>
+								<a href={source} target="_blank">
+									(<Text id="news.source">source</Text>)
+								</a>
 							</li>
 						)}
 					</ul>

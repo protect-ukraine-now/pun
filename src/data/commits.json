@@ -4,7 +4,7 @@
 		"Czech Republic",
 		"Infantry Fighting Vehicle",
 		"Pbv 501As",
-		"56",
+		"50",
 		"",
 		"What Heavy Weapons the West Has (and Hasn’t) Sent Ukraine - New Lines Institute",
 		"Newlines Institute: What Heavy Weapons the West Has (and Hasn’t) Sent Ukraine"
@@ -54,7 +54,7 @@
 		"Czech Republic",
 		"Self-Propelled Artillery",
 		"ShKH vz. 77 DANA 152mm",
-		"20",
+		"13",
 		"",
 		"Czech Republic Supplies Heavy Weapons to Ukraine (wsj.com)",
 		"Czech Republic Supplies Heavy Weapons to Ukraine"
@@ -171,16 +171,6 @@
 	],
 	[
 		"2022-05-03",
-		"Czech Republic",
-		"Tank",
-		"T-72",
-		"40",
-		"",
-		"What Heavy Weapons the West Has (and Hasn’t) Sent Ukraine - New Lines Institute",
-		"Czech Republic sends tanks, infantry fighting vehicles to Ukraine"
-	],
-	[
-		"2022-05-03",
 		"Germany",
 		"Self-Propelled Artillery",
 		"PzH2000 155mm",
@@ -244,10 +234,20 @@
 		"Czech Republic",
 		"Helicopter",
 		"Mi-24 attack helicopter",
-		"7",
+		"4",
 		"",
 		"https://www.flightglobal.com/helicopters/czech-republic-sending-attack-helicopters-to-ukraine/148770.article",
 		"Flight Global: Czech Republic sending attack helicopters to Ukraine"
+	],
+	[
+		"2022-05-24",
+		"Canada",
+		"Artillery rounds",
+		"155 mm",
+		"27000",
+		"",
+		"https://ottawacitizen.com/news/national/defence-watch/canada-to-buy-98-million-worth-of-ammunition-to-donate-to-ukraine?_gl=1*1tbwsfb*_ga*Mjk2MzU4Mzc1LjE2NzcxNDE0MjQ.*_ga_72QH41ZTMR*MTY3NzE0MTQyMy4xLjEuMTY3NzE0MjQ2MC42MC4wLjA.",
+		"Canada to buy $98 million worth of ammunition to donate to Ukraine"
 	],
 	[
 		"2022-05-25",
@@ -660,16 +660,6 @@
 		"$820 Million in Additional Security Assistance for Ukraine"
 	],
 	[
-		"2022-07-01",
-		"US",
-		"Artillery rounds",
-		"155mm",
-		"150000",
-		"",
-		"https://www.defense.gov/News/Releases/Release/Article/3081993/820-million-in-additional-security-assistance-for-ukraine/",
-		"$820 Million in Additional Security Assistance for Ukraine"
-	],
-	[
 		"2022-07-03",
 		"Slovakia",
 		"Tank",
@@ -678,6 +668,16 @@
 		"",
 		"https://ct24.ceskatelevize.cz/domaci/3512984-zive-hosty-otazek-vaclava-moravce-jsou-predsedove-vlad-ceska-a-slovenska",
 		null
+	],
+	[
+		"2022-07-01",
+		"US",
+		"Artillery rounds",
+		"155mm",
+		"150000",
+		"",
+		"https://www.defense.gov/News/Releases/Release/Article/3081993/820-million-in-additional-security-assistance-for-ukraine/",
+		"$820 Million in Additional Security Assistance for Ukraine"
 	],
 	[
 		"2022-07-04",
@@ -800,16 +800,6 @@
 		"$270 Million in Additional Security Assistance for Ukraine"
 	],
 	[
-		"2022-07-28",
-		"Lithuania",
-		"Other Armored Vehicle",
-		"M113",
-		"10",
-		"",
-		"https://www.baltictimes.com/lithuania_won_t_get_tired_supporting_ukraine___nauseda_in_kyiv/",
-		"Lithuania won't get tired supporting Ukraine – Nauseda in Kyiv"
-	],
-	[
 		"2022-07-29",
 		"North Macedonia",
 		"Tank",
@@ -818,6 +808,16 @@
 		"",
 		"https://www.reuters.com/world/europe/nmacedonia-donates-tanks-ukraine-it-modernises-own-military-2022-07-29/",
 		"North Macedonia donates tanks to Ukraine as it modernises own military"
+	],
+	[
+		"2022-07-28",
+		"Lithuania",
+		"Other Armored Vehicle",
+		"M113",
+		"10",
+		"",
+		"https://www.baltictimes.com/lithuania_won_t_get_tired_supporting_ukraine___nauseda_in_kyiv/",
+		"Lithuania won't get tired supporting Ukraine – Nauseda in Kyiv"
 	],
 	[
 		"2022-07-29",
@@ -1060,16 +1060,6 @@
 		"$600 Million in Additional Security Assistance for Ukraine"
 	],
 	[
-		"2022-09-15",
-		"Germany",
-		"Other Armored Vehicle",
-		"Dingo Armored Personnel Carriers",
-		"30",
-		"",
-		"https://www.msn.com/en-us/news/world/germany-to-send-rocket-launchers-and-armored-vehicles-to-ukraine/ar-AA11RuSZ",
-		"Germany to send rocket launchers and armored vehicles to Ukraine"
-	],
-	[
 		"2022-09-19",
 		"Slovenia",
 		"Tank",
@@ -1078,6 +1068,16 @@
 		"",
 		"https://www.gov.si/en/news/2022-09-19-prime-minister-robert-golob-in-a-telephone-conversation-with-german-chancellor-olaf-scholz-about-current-european-affairs/",
 		"Prime Minister Robert Golob in a telephone conversation with German Chancellor Olaf Scholz about current European affairs"
+	],
+	[
+		"2022-09-15",
+		"Germany",
+		"Other Armored Vehicle",
+		"Dingo Armored Personnel Carriers",
+		"30",
+		"",
+		"https://www.msn.com/en-us/news/world/germany-to-send-rocket-launchers-and-armored-vehicles-to-ukraine/ar-AA11RuSZ",
+		"Germany to send rocket launchers and armored vehicles to Ukraine"
 	],
 	[
 		"2022-09-19",
@@ -1368,16 +1368,6 @@
 		"USAI",
 		"https://www.defense.gov/News/News-Stories/Article/Article/3210698/aid-package-to-ukraine-includes-t-72b-tanks/",
 		"Aid Package to Ukraine Includes T-72B Tanks"
-	],
-	[
-		"2022-11-05",
-		"Czech Republic",
-		"Tank",
-		"T-72B",
-		"45",
-		"",
-		"https://en.defence-ua.com/weapon_and_tech/the_czech_republic_to_update_90_t_72b_tanks_for_ukraine_worth_1_million_dollars_each_the_arrival_dates_of_vehles_are_named-4755.html",
-		"The Czech Republic to Update 90 T-72B Tanks For Ukraine Worth 1 Million Dollars Each: the Arrival Dates of Vehles Are Named"
 	],
 	[
 		"2022-11-10",
@@ -1830,6 +1820,16 @@
 		"Germany provides support for Ukraine"
 	],
 	[
+		"2023-01-15",
+		"UK",
+		"Tank",
+		"Challenger 2",
+		"14",
+		"",
+		"https://www.bbc.com/news/uk-64274755",
+		"UK to send Challenger 2 tanks to Ukraine, Rishi Sunak confirms"
+	],
+	[
 		"2023-01-14",
 		"Germany",
 		"Other Armored Vehicle",
@@ -1842,18 +1842,8 @@
 	[
 		"2023-01-15",
 		"UK",
-		"Tank",
-		"Challenger 2",
-		"14",
-		"",
-		"https://www.bbc.com/news/uk-64274755",
-		"UK to send Challenger 2 tanks to Ukraine, Rishi Sunak confirms"
-	],
-	[
-		"2023-01-15",
-		"UK",
 		"Self-Propelled Artillery",
-		"AS90 Braveheart",
+		"AS-90 Braveheart",
 		"8",
 		"",
 		"https://www.reuters.com/world/europe/uk-defence-minister-sets-out-further-military-aid-package-ukraine-2023-01-16/",
@@ -2031,6 +2021,16 @@
 	],
 	[
 		"2023-01-19",
+		"Denmark",
+		"Self-Propelled Artillery",
+		"CAESAR 155mm",
+		"19",
+		"",
+		"https://defbrief.com/2023/01/19/denmark-donating-all-of-its-caesar-howitzers-to-ukraine/",
+		"Denmark donating all of its Caesar howitzers to Ukraine"
+	],
+	[
+		"2023-01-19",
 		"UK",
 		"other",
 		"Brimstone rockets",
@@ -2083,7 +2083,7 @@
 		"2023-01-26",
 		"Canada",
 		"Tank",
-		"Leopard-2",
+		"Leopard 2",
 		"4",
 		"",
 		"https://www.cbc.ca/news/politics/anita-anand-ukraine-military-assistance-1.6726949",
@@ -2093,21 +2093,11 @@
 		"2023-01-26",
 		"Portugal",
 		"Tank",
-		"Leopard-2",
+		"Leopard 2A6",
 		"3",
 		"",
 		"https://www.reuters.com/world/europe/portugal-send-ukraine-three-leopard-2-tanks-2023-02-08/",
 		"Portugal to send Ukraine three Leopard 2 tanks"
-	],
-	[
-		"2023-01-27",
-		"Poland",
-		"Tank",
-		"Leopard-2",
-		"14",
-		"",
-		"https://www.aa.com.tr/en/russia-ukraine-war/poland-to-send-60-more-tanks-to-ukraine-in-addition-to-14-leopard-2/2799176",
-		"Poland to send 60 more tanks to Ukraine in addition to 14 Leopard 2"
 	],
 	[
 		"2023-01-27",
@@ -2130,6 +2120,16 @@
 		"Poland to send 60 more tanks to Ukraine in addition to 14 Leopard 2"
 	],
 	[
+		"2023-01-27",
+		"Poland",
+		"Tank",
+		"Leopard 2A4",
+		"14",
+		"",
+		"https://www.aa.com.tr/en/russia-ukraine-war/poland-to-send-60-more-tanks-to-ukraine-in-addition-to-14-leopard-2/2799176",
+		"Poland to send 60 more tanks to Ukraine in addition to 14 Leopard 2"
+	],
+	[
 		"2023-02-03",
 		"US",
 		"Other Armored Vehicle",
@@ -2147,7 +2147,7 @@
 		"2",
 		"",
 		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		null
+		"Germany provides support for Ukraine"
 	],
 	[
 		"2023-02-11",
@@ -2158,5 +2158,135 @@
 		"",
 		"https://news.yahoo.com/first-batch-lithuanian-anti-aircraft-135235593.html",
 		"First batch of Lithuanian anti-aircraft guns L-70 arrives in Ukraine"
+	],
+	[
+		"2023-02-14",
+		"Norway",
+		"Tank",
+		"Leopard-2",
+		"8",
+		"",
+		"https://www.regjeringen.no/en/aktuelt/norge-vil-sende-stridsvogner-til-ukraina/id2960681/",
+		"Norway will send tanks to Ukraine"
+	],
+	[
+		"2023-02-17",
+		"France",
+		"Tank",
+		"AMX-10RC",
+		"14",
+		"",
+		"https://twitter.com/visegrad24/status/1626513339210780674?s=20",
+		"France has sent the first 14 AMX-10 RC armored fighting vehicles to Ukraine."
+	],
+	[
+		"2023-02-14",
+		"Germany",
+		"Tank",
+		"Leopard 2 A6",
+		"14",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Germany provides support for Ukraine"
+	],
+	[
+		"2023-02-16",
+		"Netherlands",
+		"other",
+		"120 mm tank shells",
+		"20000",
+		"",
+		"https://www.telegraaf.nl/nieuws/928278313/nederland-gaat-munitie-voor-leopard-2-tanks-aan-oekraine-leveren",
+		"The Netherlands will supply ammunition for Leopard 2 tanks to Ukraine"
+	],
+	[
+		"2023-02-20",
+		"US",
+		"Infantry Fighting Vehicle",
+		"Bradley Infantry Fire Support Team",
+		"4",
+		"PDA",
+		"https://www.defense.gov/News/Releases/Release/Article/3302787/biden-administration-announces-additional-security-assistance-for-ukraine/",
+		"Biden Administration Announces Additional Security Assistance for Ukraine"
+	],
+	[
+		"2023-02-23",
+		"Finland",
+		"Other Armored Vehicle",
+		"Leopard 2",
+		"3",
+		"",
+		"https://www.reuters.com/world/europe/finland-send-three-leopard-tanks-ukraine-2023-02-23/",
+		"Finland to send three Leopard tanks to UkraineFinland to send three Leopard tanks to Ukraine"
+	],
+	[
+		"2023-02-23",
+		"Spain",
+		"Tank",
+		"Leopard 2A4",
+		"10",
+		"",
+		"https://elpais.com/internacional/2023-02-24/guerra-ucrania-rusia-ultimas-noticias-en-directo.html",
+		"Guerra Ucraina-Rusia ultimas noticia en directo"
+	],
+	[
+		"2023-02-24",
+		"Sweden",
+		"Tank",
+		"Leopard 2 A5",
+		"10",
+		"",
+		"https://twitter.com/PlJonson/status/1629117599513550848?s=20",
+		"Pål Jonson Twitter @PlJonson Försvarsminister / Minister for Defence Sweden"
+	],
+	[
+		"2023-02-24",
+		"Germany",
+		"Other Armored Vehicle",
+		"BEAVER bridge layer tank",
+		"6",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Germany provides support for Ukraine"
+	],
+	[
+		"2023-02-24",
+		"Germany",
+		"other",
+		"Zetros truck",
+		"28",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Germany provides support for Ukraine"
+	],
+	[
+		"2023-02-24",
+		"Canada",
+		"Tank",
+		"Leopard 2",
+		"4",
+		"",
+		"https://www.ctvnews.ca/politics/canada-sending-four-more-battle-tanks-to-ukraine-1.6288251",
+		"Canada sending four more battle tanks, ammunition to Ukraine"
+	],
+	[
+		"2023-02-24",
+		"Canada",
+		"Artillery rounds",
+		"155 mm",
+		"5000",
+		"",
+		"https://www.canada.ca/en/department-national-defence/campaigns/canadian-military-support-to-ukraine.html",
+		"Canadian donations and military support to Ukraine"
+	],
+	[
+		"2023-03-03",
+		"Germany",
+		"Tank",
+		"Leopard 2 A6",
+		"4",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Germany provides support for Ukraine"
 	]
 ]
