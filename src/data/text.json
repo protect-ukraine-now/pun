@@ -8,7 +8,6 @@
 			"news": "News",
 			"report": "Military Aid",
 			"letter": "Letter to Congress",
-			"candidates": "Ask your Candidate",
 			"about": "About Us"
 		},
 		"balance": {
@@ -23,7 +22,7 @@
 			"prev": "Previous Report",
 			"next": "Next Report",
 			"rest": "Other countries",
-			"description": "- Includes both donations and purchases, delivered and promised in the near future\n- Air Defense: number of launchers is shown\n- IFVs: includes all Bradley and Stryker variants"
+			"description": "- Includes delivered and promised in the near future\n- Air Defense: number of launchers is shown\n- IFVs: includes all Bradley and Stryker variants"
 		},
 		"inventory": {
 			"title": "USA: Weapons possessed vs weapons provided under Presidential Drawdown (short term aid)",
@@ -96,7 +95,6 @@
 			"news": "Новини",
 			"report": "Військова допомога",
 			"letter": "Лист до Конгресу",
-			"candidates": "Запитайте кандидата",
 			"about": "Про нас"
 		},
 		"balance": {
@@ -111,7 +109,7 @@
 			"prev": "Попередній звіт",
 			"next": "Наступний звіт",
 			"rest": "Інші країни",
-			"description": "- Включає як пожертви, так і покупки, доставлені та обіцяні найближчим часом\r\n- ППО: показано кількість пускових установок\r\n- БМП: включає всі варіанти Bradley і Stryker"
+			"description": "- Включає доставлене та обіцяне найближчим часом\n- ППО: показано кількість пускових установок\n- БМП: включає всі варіанти Bradley і Stryker"
 		},
 		"inventory": {
 			"title": "США: Наявна зброя та її поставки по фонду PDA (короткострокова допомога)",

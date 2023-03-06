@@ -7,8 +7,8 @@ let indexText = text => text.slice(1).reduce((a, [group, key, desc, en, ua]) => 
 }, { en: {}, ua: {} })
 
 let transformCommits = data => data
-    .filter(([date, author, status, country, category, type, qty]) => status === 'Approved' && +qty)
-    .map(([date, author, status, country, category, type, qty, fund, notes, link, title]) => [date, country, category, type, qty, fund, link, title])
+    .filter(([date, status, country, category, type, qty]) => status === 'Approved' && +qty)
+    .map(([date, status, country, category, type, qty, fund, notes, link, title]) => [date, country, category, type, qty, fund, link, title])
 
 let transformNews = data => data
     .filter(([id, date, en, ua, author, source, status]) => status === 'Translated' || status === 'Published')
@@ -26,12 +26,12 @@ const spreadsheets = {
     //     range: "'Total'",
     // },
     commits: {
-        id: '1zJuvhRLAKPuVrtaA-xTm2KvVwRZjInDuA4M9k7HZT1E',
+        id: '1Q9aLVoSZ9vTKH0VLnMpFRiY6h0kV6Rcb16R4lP0rUFs',
         range: "'Weapons'",
         transform: transformCommits,
     },
     money: {
-        id: '1zJuvhRLAKPuVrtaA-xTm2KvVwRZjInDuA4M9k7HZT1E',
+        id: '1Q9aLVoSZ9vTKH0VLnMpFRiY6h0kV6Rcb16R4lP0rUFs',
         range: "'Money'",
     },
     news: {

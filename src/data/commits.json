@@ -154,7 +154,7 @@
 		"Poland",
 		"Tank",
 		"T-72 and T-72M1",
-		"230",
+		"240",
 		"",
 		"https://www.polskieradio.pl/395/7785/Artykul/2948382",
 		"Poland has sent over 200 tanks to Ukraine: IAR"
@@ -168,6 +168,16 @@
 		"",
 		"https://www.armyrecognition.com/defense_news_april_2022_global_security_army_industry/denmark_approves_delivery_of_m113_tracked_armored_vehicles_and_ammunition_to_ukraine.html",
 		"Denmark approves delivery of M113 tracked armored vehicles and ammunition to Ukraine"
+	],
+	[
+		"2022-05-03",
+		"Czech Republic",
+		"Tank",
+		"T-72",
+		"38",
+		"",
+		"What Heavy Weapons the West Has (and Hasn’t) Sent Ukraine - New Lines Institute",
+		"Czech Republic sends tanks, infantry fighting vehicles to Ukraine"
 	],
 	[
 		"2022-05-03",
@@ -308,16 +318,6 @@
 		"",
 		"https://twitter.com/JaroNad/status/1531289896048111616",
 		"https://www.reuters.com/world/europe/slovakia-deliver-eight-zuzana-2-howitzers-ukraine-says-ministry-2022-06-02/"
-	],
-	[
-		"2022-06-01",
-		"Poland",
-		"Self-Propelled Artillery",
-		"AHS Krab 155mm",
-		"54",
-		"",
-		"https://gospodarka.dziennik.pl/news/artykuly/8432488,polska-kraby-ukraina.html?s=09",
-		"Polska sprzedaje Kraby Ukrainie"
 	],
 	[
 		"2022-06-05",
@@ -600,16 +600,6 @@
 		null
 	],
 	[
-		"2022-06-29",
-		"Norway",
-		"Multiple Launch Rocket System",
-		"M270 MARS 227mm",
-		"3",
-		"",
-		"https://www.regjeringen.no/en/aktuelt/norge-og-storbritannia-gir-langtrekkende-rakettartilleri-til-ukraina/id2921395/",
-		"Norway and the United Kingdom donate long range rocket artillery to Ukraine"
-	],
-	[
 		"2022-06-30",
 		"UK",
 		"Towed Artillery",
@@ -628,6 +618,16 @@
 		"",
 		"https://www.canada.ca/en/department-national-defence/campaigns/canadian-military-support-to-ukraine.html",
 		"Canadian military support to Ukraine"
+	],
+	[
+		"2022-06-30",
+		"UK",
+		"Multiple Launch Rocket System",
+		"M270 MARS 227mm",
+		"3",
+		"",
+		"https://www.bbc.com/news/world-europe-61482305",
+		"What weapons are being given to Ukraine by the UK?"
 	],
 	[
 		"2022-06-30",
@@ -980,6 +980,16 @@
 		"$775 Million in Additional Security Assistance for Ukraine"
 	],
 	[
+		"2022-09-05",
+		"Poland",
+		"Tank",
+		"PT-91 Twardy",
+		"10",
+		"",
+		"https://www.globaldefensecorp.com/2022/09/05/ukraine-receives-pt-91-twardy-tanks-from-poland/",
+		"Ukraine receives PT-91 Twardy tanks from Poland"
+	],
+	[
 		"2022-08-24",
 		"Slovakia",
 		"Infantry Fighting Vehicle",
@@ -1120,16 +1130,6 @@
 		"Latest U.S. Support for Ukraine Targets Long-Term Security Investment"
 	],
 	[
-		"2022-10-01",
-		"France",
-		"Self-Propelled Artillery",
-		"CAESAR 155mm",
-		"12",
-		"",
-		"https://www.lemonde.fr/international/article/2022/10/01/la-france-prepare-la-livraison-de-nouveaux-canons-caesar-a-l-ukraine_6143991_3210.html",
-		"La France prépare la livraison de nouveaux canons Caesar à l’Ukraine"
-	],
-	[
 		"2022-10-03",
 		"France",
 		"Other Armored Vehicle",
@@ -1178,6 +1178,16 @@
 		"",
 		"https://www.defense.gov/News/Releases/Release/Article/3179323/625-million-in-additional-security-assistance-for-ukraine/",
 		"$625 Million in Additional Security Assistance for Ukraine"
+	],
+	[
+		"2022-10-12",
+		"France",
+		"Self-Propelled Artillery",
+		"CAESAR 155mm",
+		"6",
+		"",
+		"https://www.lepoint.fr/monde/guerre-en-ukraine-macron-annonce-l-envoi-de-canons-caesar-12-10-2022-2493567_24.php",
+		"War in Ukraine: Macron announces the dispatch of Caesar guns"
 	],
 	[
 		"2022-10-12",
@@ -1257,7 +1267,7 @@
 		"25",
 		"",
 		"CEPS report",
-		"CEPS - EU Military Assistance to Ukraine Report 2023"
+		"CEPS - EU Military Assistance to Ukraine Report 2022"
 	],
 	[
 		"2022-10-24",
@@ -1884,7 +1894,7 @@
 		"Sweden",
 		"Infantry Fighting Vehicle",
 		"CV-90",
-		"50",
+		"51",
 		"",
 		"https://www.reuters.com/world/europe/sweden-send-infantry-fighting-vehicles-ukraine-2023-01-19/",
 		"Sweden to send infantry fighting vehicles to Ukraine"
@@ -2068,16 +2078,6 @@
 		"",
 		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
 		"Germany provides support for Ukraine"
-	],
-	[
-		"2023-01-19",
-		"Netherlands",
-		"Air Defense System",
-		"Patriot",
-		"2",
-		"",
-		"https://www.aa.com.tr/en/europe/netherlands-to-support-ukraine-with-patriot-parts-missiles/2793323",
-		"Davos 2023: Netherlands finalising Patriot system plan for Ukraine, to announce more support"
 	],
 	[
 		"2023-01-26",
