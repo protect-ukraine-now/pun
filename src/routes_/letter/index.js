@@ -1,14 +1,61 @@
-import cn from 'classnames';
-import Helmet from 'preact-helmet';
+import { useEffect } from 'preact/hooks'
+import cn from 'classnames'
+import Helmet from 'preact-helmet'
 import Markdown from 'markdown-to-jsx'
-import { translate } from '../../tools/language'
 
+import { translate } from '../../tools/language'
 import Article from '../../components/Article'
-import detectCountry from '../../tools/detectCountry';
-import Container from '../../components/Container';
-import style from './style.scss';
+import detectCountry from '../../tools/detectCountry'
+import Container from '../../components/Container'
+import style from './style.scss'
+
+const checks = [
+	/Homeland Security/i,
+	/National Security/i,
+	/Foreign Affairs/i,
+	/Foreign Relations/i,
+	/International Affairs/i,
+	/International Relations/i,
+	/Defense/i,
+	/Military/i,
+	/Armed Forces/i,
+	/Other/i,
+]
+
+function chooseTopic(topics) {
+	console.log(topics)
+	for (let check of checks) {
+		let found = topics.find(t => check.test(t.text))
+		console.log({ check }, found)
+		if (found) {
+			return found
+		}
+	}
+}
 
 export default function Letter() {
+	useEffect(() => {
+		let timer = setInterval(() => {
+			let selects = document.querySelectorAll('select[placeholder="$TOPIC"]')
+			if (selects.length) {
+				console.log('selects found', selects.length)
+				clearInterval(timer)
+			}
+			selects.forEach(select => {
+				let options = Array.from(select.children).map(o => ({
+					text: o.innerText,
+					value: o.value,
+				}))
+				let best = chooseTopic(options)
+				if (best) {
+					select.value = best.value
+					select.parentNode.style = 'display: none'
+				}
+			})
+		}, 200)
+		return () => clearInterval(timer)
+	}, [])
+
 	let country = detectCountry()
 	return (<>
 		<Helmet
@@ -39,5 +86,5 @@ export default function Letter() {
 				<div id='can-letter-area-protect-ukraine-now' style='width: 100%'></div>
 			</section>
 		</Container>
-	</>);
+	</>)
 }
