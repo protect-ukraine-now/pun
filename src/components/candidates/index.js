@@ -3,8 +3,8 @@ import cn from 'classnames';
 import ky from 'ky';
 
 import style from './style.scss';
-import Container from '../../components/Container';
-import IconLink from '../../components/IconLink';
+import Container from '../Container';
+import IconLink from '../IconLink';
 import copyToClipboard from '../../tools/copyToClipboard';
 
 const base = 'https://ochre-hermit-crab-veil.cyclic.app';

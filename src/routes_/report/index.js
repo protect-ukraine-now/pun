@@ -8,7 +8,7 @@ import Banner from '../../components/Banner';
 import { Link } from 'preact-router';
 import { Text } from 'preact-i18n';
 import { useLanguage } from '../../tools/language';
-import reportBannerImage from '../../assets/images/banner-bg-1.webp';
+import reportBannerImage from '../../assets/banner-bg.webp';
 import detectCountry from '../../tools/detectCountry';
 
 export default function Report(props) {
