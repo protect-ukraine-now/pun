@@ -10,15 +10,14 @@ import Container from '../../components/Container'
 import style from './style.scss'
 
 const checks = [
-	/Homeland Security/i,
-	/National Security/i,
 	/Foreign Affairs/i,
 	/Foreign Relations/i,
 	/International Affairs/i,
 	/International Relations/i,
-	/Defense/i,
 	/Military/i,
 	/Armed Forces/i,
+	/National Security/i,
+	/Defense/i,
 	/Other/i,
 ]
 
