@@ -11,8 +11,8 @@ let transformCommits = data => data
     .map(([date, status, country, category, type, qty, fund, notes, link, title]) => [date, country, category, type, qty, fund, link, title])
 
 let transformNews = data => data
-    .filter(([id, date, en, ua, author, source, status]) => status === 'Translated' || status === 'Published')
-    .map(([id, date, en, ua, author, source, status]) => [date, en, ua, source])
+    .filter(([date, en, ua, author, source, status]) => status === 'Translated' || status === 'Published')
+    .map(([date, en, ua, author, source, status]) => [date, en, ua, source])
 
 const API_KEY = 'AIzaSyCX8cPcl4eAd311z9wCZ8xlQCkfmJ5sIpU'
 const spreadsheets = {
