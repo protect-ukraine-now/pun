@@ -27,7 +27,7 @@
 		"5",
 		"",
 		"🇺🇦 Ukraine Weapons Tracker on Twitter: \"#Ukraine: In some significant news, it appears that the Czech Republic is supplying \"dozens\" of T-72M1 tanks & BVP-1 IFV to the UA forces. Whilst the T-72M1 is rather old (slightly altered T-72A1), & so are the BVP-1 (BMP-1 with very minor changes), they would still be of use. https://t.co/tUMEP3fBuE\" / Twitter",
-		"not confirmed by this or other sources. Kiel Institute refers to the same link but gives number of BVP-1 = 5. Reuters said about such deliveries but didn't specify numbers. "
+		""
 	],
 	[
 		"2022-04-08",
@@ -50,11 +50,21 @@
 		null
 	],
 	[
+		"2022-04-08",
+		"Czech Republic",
+		"Air Defense System",
+		"Strela-10",
+		"6",
+		"",
+		"https://www.mzv.cz/un.newyork/en/news_events/czechia_sends_hundreds_of_heavy_military.html",
+		"Czechia sends hundreds of heavy military systems worth tens of billions to Ukraine during the first year of Russian invasion"
+	],
+	[
 		"2022-04-13",
 		"Czech Republic",
 		"Self-Propelled Artillery",
 		"ShKH vz. 77 DANA 152mm",
-		"13",
+		"38",
 		"",
 		"Czech Republic Supplies Heavy Weapons to Ukraine (wsj.com)",
 		"Czech Republic Supplies Heavy Weapons to Ukraine"
@@ -64,7 +74,7 @@
 		"Czech Republic",
 		"Multiple Launch Rocket System",
 		"RM-70 122mm",
-		"20",
+		"33",
 		"",
 		"Czech Republic Supplies Heavy Weapons to Ukraine (wsj.com)",
 		"Czech Republic Supplies Heavy Weapons to Ukraine"
@@ -174,7 +184,7 @@
 		"Czech Republic",
 		"Tank",
 		"T-72",
-		"38",
+		"44",
 		"",
 		"What Heavy Weapons the West Has (and Hasn’t) Sent Ukraine - New Lines Institute",
 		"Czech Republic sends tanks, infantry fighting vehicles to Ukraine"
@@ -546,7 +556,7 @@
 		"Su-25",
 		"14",
 		"",
-		"It seems that Ukraine received Su-25 aircraft. In a very unusual way • Mezha.Media",
+		"It seems that Ukraine received Su-25 aircraft. In a very unusual way",
 		null
 	],
 	[
@@ -660,16 +670,6 @@
 		"$820 Million in Additional Security Assistance for Ukraine"
 	],
 	[
-		"2022-07-03",
-		"Slovakia",
-		"Tank",
-		"T-72-M",
-		"2",
-		"",
-		"https://ct24.ceskatelevize.cz/domaci/3512984-zive-hosty-otazek-vaclava-moravce-jsou-predsedove-vlad-ceska-a-slovenska",
-		null
-	],
-	[
 		"2022-07-01",
 		"US",
 		"Artillery rounds",
@@ -678,6 +678,16 @@
 		"",
 		"https://www.defense.gov/News/Releases/Release/Article/3081993/820-million-in-additional-security-assistance-for-ukraine/",
 		"$820 Million in Additional Security Assistance for Ukraine"
+	],
+	[
+		"2022-07-03",
+		"Slovakia",
+		"Tank",
+		"T-72-M",
+		"2",
+		"",
+		"https://ct24.ceskatelevize.cz/domaci/3512984-zive-hosty-otazek-vaclava-moravce-jsou-predsedove-vlad-ceska-a-slovenska",
+		null
 	],
 	[
 		"2022-07-04",
@@ -800,16 +810,6 @@
 		"$270 Million in Additional Security Assistance for Ukraine"
 	],
 	[
-		"2022-07-29",
-		"North Macedonia",
-		"Tank",
-		"T-72",
-		"8",
-		"",
-		"https://www.reuters.com/world/europe/nmacedonia-donates-tanks-ukraine-it-modernises-own-military-2022-07-29/",
-		"North Macedonia donates tanks to Ukraine as it modernises own military"
-	],
-	[
 		"2022-07-28",
 		"Lithuania",
 		"Other Armored Vehicle",
@@ -818,6 +818,16 @@
 		"",
 		"https://www.baltictimes.com/lithuania_won_t_get_tired_supporting_ukraine___nauseda_in_kyiv/",
 		"Lithuania won't get tired supporting Ukraine – Nauseda in Kyiv"
+	],
+	[
+		"2022-07-29",
+		"North Macedonia",
+		"Tank",
+		"T-72",
+		"8",
+		"",
+		"https://www.reuters.com/world/europe/nmacedonia-donates-tanks-ukraine-it-modernises-own-military-2022-07-29/",
+		"North Macedonia donates tanks to Ukraine as it modernises own military"
 	],
 	[
 		"2022-07-29",
@@ -980,16 +990,6 @@
 		"$775 Million in Additional Security Assistance for Ukraine"
 	],
 	[
-		"2022-09-05",
-		"Poland",
-		"Tank",
-		"PT-91 Twardy",
-		"10",
-		"",
-		"https://www.globaldefensecorp.com/2022/09/05/ukraine-receives-pt-91-twardy-tanks-from-poland/",
-		"Ukraine receives PT-91 Twardy tanks from Poland"
-	],
-	[
 		"2022-08-24",
 		"Slovakia",
 		"Infantry Fighting Vehicle",
@@ -998,6 +998,16 @@
 		"",
 		"https://www.reuters.com/world/europe/slovakia-donate-30-infantry-fighting-vehicles-ukraine-minister-2022-08-23/",
 		"Slovakia to donate 30 infantry fighting vehicles to Ukraine -minister"
+	],
+	[
+		"2022-09-05",
+		"Poland",
+		"Tank",
+		"PT-91 Twardy",
+		"10",
+		"",
+		"https://www.globaldefensecorp.com/2022/09/05/ukraine-receives-pt-91-twardy-tanks-from-poland/",
+		"Ukraine receives PT-91 Twardy tanks from Poland"
 	],
 	[
 		"2022-09-06",
@@ -1070,16 +1080,6 @@
 		"$600 Million in Additional Security Assistance for Ukraine"
 	],
 	[
-		"2022-09-19",
-		"Slovenia",
-		"Tank",
-		"M-55S",
-		"28",
-		"",
-		"https://www.gov.si/en/news/2022-09-19-prime-minister-robert-golob-in-a-telephone-conversation-with-german-chancellor-olaf-scholz-about-current-european-affairs/",
-		"Prime Minister Robert Golob in a telephone conversation with German Chancellor Olaf Scholz about current European affairs"
-	],
-	[
 		"2022-09-15",
 		"Germany",
 		"Other Armored Vehicle",
@@ -1088,6 +1088,16 @@
 		"",
 		"https://www.msn.com/en-us/news/world/germany-to-send-rocket-launchers-and-armored-vehicles-to-ukraine/ar-AA11RuSZ",
 		"Germany to send rocket launchers and armored vehicles to Ukraine"
+	],
+	[
+		"2022-09-19",
+		"Slovenia",
+		"Tank",
+		"M-55S",
+		"28",
+		"",
+		"https://www.gov.si/en/news/2022-09-19-prime-minister-robert-golob-in-a-telephone-conversation-with-german-chancellor-olaf-scholz-about-current-european-affairs/",
+		"Prime Minister Robert Golob in a telephone conversation with German Chancellor Olaf Scholz about current European affairs"
 	],
 	[
 		"2022-09-19",
@@ -1256,7 +1266,7 @@
 		"Harpoon coastal defense system",
 		"1",
 		"",
-		"CEPS report",
+		"https://www.ceps.eu/ceps-publications/assessing-the-eus-military-assistance-to-ukraine/",
 		"CEPS - EU Military Assistance to Ukraine Report 2022"
 	],
 	[
@@ -1266,7 +1276,7 @@
 		"Skywatch drones",
 		"25",
 		"",
-		"CEPS report",
+		"https://www.ceps.eu/ceps-publications/assessing-the-eus-military-assistance-to-ukraine/",
 		"CEPS - EU Military Assistance to Ukraine Report 2022"
 	],
 	[
@@ -1497,7 +1507,7 @@
 		"2",
 		"",
 		"https://twitter.com/oleksiireznikov/status/1597554553398136832?s=20&t=6ckQn0EqM8c3rPH3BYd_PA",
-		null
+		"LRU from France, has arrived in Ukraine"
 	],
 	[
 		"2022-12-01",
@@ -1830,16 +1840,6 @@
 		"Germany provides support for Ukraine"
 	],
 	[
-		"2023-01-15",
-		"UK",
-		"Tank",
-		"Challenger 2",
-		"14",
-		"",
-		"https://www.bbc.com/news/uk-64274755",
-		"UK to send Challenger 2 tanks to Ukraine, Rishi Sunak confirms"
-	],
-	[
 		"2023-01-14",
 		"Germany",
 		"Other Armored Vehicle",
@@ -1848,6 +1848,16 @@
 		"",
 		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
 		"Germany provides support for Ukraine"
+	],
+	[
+		"2023-01-15",
+		"UK",
+		"Tank",
+		"Challenger 2",
+		"14",
+		"",
+		"https://www.bbc.com/news/uk-64274755",
+		"UK to send Challenger 2 tanks to Ukraine, Rishi Sunak confirms"
 	],
 	[
 		"2023-01-15",
@@ -1863,7 +1873,7 @@
 		"2023-01-16",
 		"UK",
 		"Artillery rounds",
-		"",
+		"caliber not specified",
 		"10000",
 		"",
 		"https://www.reuters.com/world/europe/uk-defence-minister-sets-out-further-military-aid-package-ukraine-2023-01-16/",
@@ -2170,16 +2180,6 @@
 		"Norway will send tanks to Ukraine"
 	],
 	[
-		"2023-02-17",
-		"France",
-		"Tank",
-		"AMX-10RC",
-		"14",
-		"",
-		"https://twitter.com/visegrad24/status/1626513339210780674?s=20",
-		"France has sent the first 14 AMX-10 RC armored fighting vehicles to Ukraine."
-	],
-	[
 		"2023-02-14",
 		"Germany",
 		"Tank",
@@ -2198,6 +2198,16 @@
 		"",
 		"https://www.telegraaf.nl/nieuws/928278313/nederland-gaat-munitie-voor-leopard-2-tanks-aan-oekraine-leveren",
 		"The Netherlands will supply ammunition for Leopard 2 tanks to Ukraine"
+	],
+	[
+		"2023-02-17",
+		"France",
+		"Tank",
+		"AMX-10RC",
+		"14",
+		"",
+		"https://twitter.com/visegrad24/status/1626513339210780674?s=20",
+		"France has sent the first 14 AMX-10 RC armored fighting vehicles to Ukraine."
 	],
 	[
 		"2023-02-20",
@@ -2228,6 +2238,16 @@
 		"",
 		"https://elpais.com/internacional/2023-02-24/guerra-ucrania-rusia-ultimas-noticias-en-directo.html",
 		"Guerra Ucraina-Rusia ultimas noticia en directo"
+	],
+	[
+		"2023-02-24",
+		"Czech Republic",
+		"Tank",
+		"T-72B",
+		"45",
+		"",
+		"https://en.defence-ua.com/weapon_and_tech/the_czech_republic_to_update_90_t_72b_tanks_for_ukraine_worth_1_million_dollars_each_the_arrival_dates_of_vehles_are_named-4755.html",
+		"The Czech Republic to Update 90 T-72B Tanks For Ukraine Worth 1 Million Dollars Each: the Arrival Dates of Vehles Are Named"
 	],
 	[
 		"2023-02-24",
@@ -2288,5 +2308,25 @@
 		"",
 		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
 		"Germany provides support for Ukraine"
+	],
+	[
+		"2023-03-07",
+		"Germany",
+		"Air Defense System",
+		"Gepard",
+		"2",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Germany provides support for Ukraine"
+	],
+	[
+		"2023-03-10",
+		"Norway",
+		"Air Defense System",
+		"NASAMS",
+		"2",
+		"",
+		"https://www.regjeringen.no/en/aktuelt/nettsak-miw/id2966031/",
+		"Norway provides Ukraine with NASAMS ground-based air defence system"
 	]
 ]
