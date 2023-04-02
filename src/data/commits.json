@@ -326,8 +326,8 @@
 		"Zusanna 2 155mm",
 		"8",
 		"",
-		"https://twitter.com/JaroNad/status/1531289896048111616",
-		"https://www.reuters.com/world/europe/slovakia-deliver-eight-zuzana-2-howitzers-ukraine-says-ministry-2022-06-02/"
+		"https://www.reuters.com/world/europe/slovakia-deliver-eight-zuzana-2-howitzers-ukraine-says-ministry-2022-06-02/",
+		"Slovakia to deliver eight Zuzana 2 howitzers to Ukraine"
 	],
 	[
 		"2022-06-05",
@@ -2223,7 +2223,7 @@
 		"2023-02-23",
 		"Finland",
 		"Other Armored Vehicle",
-		"Leopard 2",
+		"mine-clearing tank",
 		"3",
 		"",
 		"https://www.reuters.com/world/europe/finland-send-three-leopard-tanks-ukraine-2023-02-23/",
@@ -2300,6 +2300,26 @@
 		"Canadian donations and military support to Ukraine"
 	],
 	[
+		"2023-02-25",
+		"Croatia",
+		"Helicopter",
+		"MI 8 MTV-1",
+		"12",
+		"",
+		"https://www.jutarnji.hr/vijesti/hrvatska/pocela-specijalna-operacija-slanja-14-nasih-helikoptera-ukrajini-s-njih-vec-skidaju-oznake-15309682",
+		"Croatia has launched an operation to send 14 transport helicopters to Ukraine"
+	],
+	[
+		"2023-02-25",
+		"Croatia",
+		"Helicopter",
+		"MI 8 T",
+		"2",
+		"",
+		"https://www.jutarnji.hr/vijesti/hrvatska/pocela-specijalna-operacija-slanja-14-nasih-helikoptera-ukrajini-s-njih-vec-skidaju-oznake-15309682",
+		"Croatia has launched an operation to send 14 transport helicopters to Ukraine"
+	],
+	[
 		"2023-03-03",
 		"Germany",
 		"Tank",
@@ -2320,13 +2340,93 @@
 		"Germany provides support for Ukraine"
 	],
 	[
-		"2023-03-10",
-		"Norway",
+		"2023-03-16",
+		"Canada",
+		"Artillery rounds",
+		"155 mm",
+		"8000",
+		"",
+		"https://www.siasat.com/canada-announces-additional-military-aid-to-ukraine-2548113/",
+		"Canada announces additional military aid to Ukraine"
+	],
+	[
+		"2023-03-17",
+		"Poland",
+		"Warplane",
+		"MiG-29",
+		"4",
+		"",
+		"https://www.bbc.com/news/world-europe-64975770",
+		"Poland to send four fighter jets to Ukraine 'in coming days'"
+	],
+	[
+		"2023-03-17",
+		"Slovakia",
+		"Warplane",
+		"MiG-29",
+		"13",
+		"",
+		"https://www.mosr.sk/52628-en/minister-obrany-j-nad-podpisal-medzivladnu-dohodu-s-ukrajinou/",
+		"Defence Minister Jaroslav Naď signs intergovernmental agreement with Ukraine"
+	],
+	[
+		"2023-03-17",
+		"Germany",
+		"Artillery rounds",
+		"155 mm",
+		"5330",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Germany provides support for Ukraine"
+	],
+	[
+		"2023-03-17",
+		"Slovakia",
 		"Air Defense System",
-		"NASAMS",
+		"2K12 Kub (SA-6 Gainful)",
 		"2",
 		"",
-		"https://www.regjeringen.no/en/aktuelt/nettsak-miw/id2966031/",
-		"Norway provides Ukraine with NASAMS ground-based air defence system"
+		"https://www.mosr.sk/52628-en/minister-obrany-j-nad-podpisal-medzivladnu-dohodu-s-ukrajinou/",
+		"Defence Minister Jaroslav Naď signs intergovernmental agreement with Ukraine"
+	],
+	[
+		"2023-03-20",
+		"France",
+		"Self-Propelled Artillery",
+		"CAESAR 155mm",
+		"6",
+		"",
+		"https://www.theguardian.com/world/live/2023/jan/31/russia-ukraine-war-live-biden-says-the-us-will-not-provide-f-16-fighter-jets-to-ukraine",
+		"France to send 12 additional Caesar howitzers to Ukraine"
+	],
+	[
+		"2023-03-20",
+		"UK",
+		"Self-Propelled Artillery",
+		"AS-90 Braveheart",
+		"24",
+		"",
+		"https://www.19fortyfive.com/2023/03/here-comes-the-big-guns-britain-is-replacing-weapons-sent-to-ukraine/",
+		"Here Comes The ‘Big’ Guns: Britain Is Replacing Weapons Sent To Ukraine"
+	],
+	[
+		"2023-03-20",
+		"Canada",
+		"Other Armored Vehicle",
+		"Bergepanzer 3 arv",
+		"1",
+		"",
+		"https://www.armyrecognition.com/defense_news_march_2023_global_security_army_industry/canada_is_sending_leopard_2_arv_recovery_tanks_to_ukraine.html",
+		"Canada is sending Leopard 2 ARV recovery tanks to Ukraine"
+	],
+	[
+		"2023-03-24",
+		"Finland",
+		"Other Armored Vehicle",
+		"mine-clearing tank",
+		"3",
+		"",
+		"https://www.army-technology.com/news/finland-mine-clearing-leopard2-ukraine/",
+		"Finland to donate three mine-clearing Leopard 2 MBTs to Ukraine"
 	]
 ]

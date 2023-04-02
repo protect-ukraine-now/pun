@@ -22,7 +22,7 @@
 			"prev": "Previous Report",
 			"next": "Next Report",
 			"rest": "Other countries",
-			"description": "- Includes delivered and promised in the near future\n- Air Defense: number of launchers is shown\n- IFVs: includes all Bradley and Stryker variants"
+			"description": "- Includes delivered and promised in the near future\n- Air Defense: number of launchers is shown\n- IFVs: includes all Bradley and Stryker variants\n- [Dataset](https://docs.google.com/spreadsheets/d/1Q9aLVoSZ9vTKH0VLnMpFRiY6h0kV6Rcb16R4lP0rUFs)"
 		},
 		"inventory": {
 			"title": "USA: Weapons possessed vs weapons provided under Presidential Drawdown (short term aid)",
@@ -80,9 +80,9 @@
 			"description": "Russia launched the most unprecedented missile attack across the entire Ukraine targeting critical infrastructure and slaughtering civilians. By October, tens of thousands of civilians had been killed, including more than 400 children.\n\nSignificantly MORE MILITARY AID is needed urgently. Time to act is NOW before more children are killed.​"
 		},
 		"letter": {
-			"header": "Save lives with your Petition!",
+			"header": "Ukraine needs Public Support!",
 			"title": "Request your representatives to give Ukraine the munitions to win this war",
-			"description": "- Innocent people are killed in their homes every day; on Christmas Eve 17 civilians were killed and 71 were wounded\n\n- Ukraine's victory is essential for global stability and the US security\n\n- General Zaloujny is ready to end this war:\n\n    > “I know that I can beat this enemy. But I need resources. I need 300 tanks, 600-700 IFVs, 500 Howitzers”",
+			"description": "Your Letter to Congress will\n\n- Support politicians committed to the Ukrainian victory\n- Tell politicians who are against aiding Ukraine they are wrong\n- Participate in shaping the Public Opinion in favor of Ukraine",
 			"image": "https://protectukrainenow.org/assets/support.webp"
 		}
 	},
@@ -109,7 +109,7 @@
 			"prev": "Попередній звіт",
 			"next": "Наступний звіт",
 			"rest": "Інші країни",
-			"description": "- Включає доставлене та обіцяне найближчим часом\n- ППО: показано кількість пускових установок\n- БМП: включає всі варіанти Bradley і Stryker"
+			"description": "- Включає доставлене та обіцяне найближчим часом\n- ППО: показано кількість пускових установок\n- БМП: включає всі варіанти Bradley і Stryker\n- [Набір даних](https://docs.google.com/spreadsheets/d/1Q9aLVoSZ9vTKH0VLnMpFRiY6h0kV6Rcb16R4lP0rUFs)"
 		},
 		"inventory": {
 			"title": "США: Наявна зброя та її поставки по фонду PDA (короткострокова допомога)",
@@ -164,9 +164,9 @@
 		},
 		"root": {},
 		"letter": {
-			"header": "Врятуйте життя cвоєю петицією!",
+			"header": "Україні потрібна громадська підтримка!",
 			"title": "Вимагайте від своїх представників надати Україні зброю перемоги",
-			"description": "- Невинних людей щодня вбивають у їхніх будинках; на Святвечір було вбито 17 мирних жителів, 71 поранено\n\n- Перемога України є важливою для глобальної стабільності та безпеки США\n\n- Генерал Залужний готовий закінчити цю війну: \n\n    > «Я знаю, що можу перемогти цього ворога. Але мені потрібні ресурси. Мені потрібно 300 танків, 600-700 БМП, 500 гаубиць»",
+			"description": "Ваш лист до Конгресу\r\n\r\n– Підтримає політиків, відданих українській перемозі\r\n– Скаже політикам, які виступають проти допомоги Україні, що вони не праві\r\n– Сприятиме формуванню громадської думки на користь України",
 			"image": "https://protectukrainenow.org/assets/support.webp"
 		}
 	}
