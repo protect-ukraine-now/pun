@@ -17,7 +17,7 @@ const config = {
 }
 
 export default function App(props) {
-	console.log(' App', props.url)
+	// console.log(' App', props.url)
 	return (
 		<div id="preact_root" style={{ height: '100%' }}>
 			<LanguageProvider>
