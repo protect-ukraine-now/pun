@@ -8,7 +8,7 @@
     "dev": "cross-env PREACT_APP_NAME='pun' NODE_OPTIONS='--openssl-legacy-provider' preact watch --prerender --prerenderUrls ./prerender-urls.js",
     "dev:uaaid": "cross-env PREACT_APP_NAME='uaaid' NODE_OPTIONS='--openssl-legacy-provider' preact watch --prerender --prerenderUrls ./prerender-urls.js",
     "build": "cross-env PREACT_APP_NAME='pun' preact build --prerenderUrls ./prerender-urls.js",
-    "build:uaaid": "cross-env PREACT_APP_NAME='uaaid' preact build --prerenderUrls ./prerender-urls.js",
+    "build:uaaid": "cross-env PREACT_APP_NAME='uaaid' NODE_OPTIONS='--openssl-legacy-provider' preact build --prerenderUrls ./prerender-urls.js",
     "build:analyze": "cross-env PREACT_APP_NAME='uaaid' NODE_OPTIONS='--openssl-legacy-provider' preact build --analyze --prerenderUrls ./prerender-urls.js"
   },
   "eslintConfig": {
