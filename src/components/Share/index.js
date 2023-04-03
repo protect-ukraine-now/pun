@@ -16,7 +16,12 @@ export default function Share() {
     //     lang = 'en'
     // }
 
-    let { title, description, image, og_title, og_description, og_image } = text[lang][page]
+    const meta = Object.assign(
+        {},
+        text[lang][page],
+        text[lang][`${process.env.PREACT_APP_NAME}-${page}`],
+    )
+    let { title, description, image, og_title, og_description, og_image } = meta
     let og = {
         link: `https://protectukrainenow.org${url}`,
         title: og_title || title,

@@ -1,26 +1,25 @@
 const fs = require('fs')
 
-let indexText = text => text.slice(1).reduce((a, [group, key, desc, en, ua]) => {
+let indexText = text => text.slice(1).reduce((a, [group, key, desc, en, uk]) => {
     a.en[group] = { ...(a.en[group] || {}), [key]: en }
-    a.ua[group] = { ...(a.ua[group] || {}), [key]: ua }
+    a.uk[group] = { ...(a.uk[group] || {}), [key]: uk }
     return a
-}, { en: {}, ua: {} })
+}, { en: {}, uk: {} })
 
 let transformCommits = data => data
     .filter(([date, status, country, category, type, qty]) => status === 'Approved' && +qty)
     .map(([date, status, country, category, type, qty, fund, notes, link, title]) => [date, country, category, type, qty, fund, link, title])
 
 let transformNews = data => data
-    .filter(([date, en, ua, author, source, status]) => status === 'Translated' || status === 'Published')
-    .map(([date, en, ua, author, source, status]) => [date, en, ua, source])
+    .filter(([date, en, uk, author, source, status]) => (
+        (status === 'Translated' || status === 'Published')
+        && date >= new Date(Date.now() - 28 * 24 * 60 * 60e3).toISOString().slice(0, 10)
+    ))
+    .map(([date, en, uk, author, source, status]) => [date, en, uk, source])
+    .sort(([a], [b]) => new Date(b) - new Date(a))
 
 const API_KEY = 'AIzaSyCX8cPcl4eAd311z9wCZ8xlQCkfmJ5sIpU'
 const spreadsheets = {
-    text: {
-        id: '1Cm0x0JZAO05wxfN2iHeShnoXwdoTGe5jGuE5AhhJkBs',
-        range: "'Sheet1'",
-        transform: indexText,
-    },
     // balance: {
     //     id: '1xgDA4BxipENhnh8vAkKgISbGyWGHMOZulbLtRZFBV-4',
     //     range: "'Total'",
@@ -39,16 +38,19 @@ const spreadsheets = {
         range: "'News Log'",
         transform: transformNews,
     },
+    text: {
+        id: '1Cm0x0JZAO05wxfN2iHeShnoXwdoTGe5jGuE5AhhJkBs',
+        range: "'Sheet1'",
+        transform: indexText,
+    },
 }
 
 async function loadData() {
     let tasks = Object.entries(spreadsheets).map(async ([what, { id, range, transform }]) => {
         const url = `https://sheets.googleapis.com/v4/spreadsheets/${id}/values/${range}?key=${API_KEY}`
-        let data = (await (await fetch(url)).json()).values.slice(1)
-        console.log(what, data.length)
-        if (transform) {
-            data = transform(data)
-        }
+        let raw = (await (await fetch(url)).json()).values.slice(1)
+        let data = transform ? transform(raw) : raw
+        console.log(what, raw.length, data.length)
         let file = `src/data/${what}.json`
         fs.writeFileSync(file, JSON.stringify(data, null, '\t'))
         return [what, data]

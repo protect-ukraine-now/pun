@@ -1,4 +1,8 @@
+import { useEffect } from 'preact/hooks'
+import { route } from 'preact-router'
+
 import style from './style.scss';
+import { useUrl } from '../../tools/url';
 import Container from '../../components/Container';
 import WeaponsBalance from '../../components/WeaponsBalance';
 import WeaponsIncome from '../../components/WeaponsIncome';
@@ -14,7 +18,14 @@ import detectCountry from '../../tools/detectCountry';
 export default function Report(props) {
 	// console.log('Report props', props)
 	const language = useLanguage();
-	const country = global.window && detectCountry();
+	const country = detectCountry();
+	const url = useUrl()
+
+	useEffect(() => {
+		if (url === '/') {
+			route('/en/report', true) // replaces the current history entry
+		}
+	}, [])
 
 	return (
 		<>
@@ -23,7 +34,7 @@ export default function Report(props) {
 				<WeaponsIncome {...props} className={style.table} />
 				<WeaponsInventory {...props} className={style.table} />
 			</Container>
-			{country === 'US' &&
+			{process.env.PREACT_APP_NAME === 'pun' && country === 'US' &&
 				<Banner
 					className={style.banner}
 					title={<Text id="report.banner_title">Protect Ukraine now before it's too late!</Text>}

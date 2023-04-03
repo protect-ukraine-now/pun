@@ -1,21 +1,29 @@
 const loadData = require('./load')
 
-async function pages() {
+async function pages(pages, languages) {
 	let data = await loadData()
 	let { text } = data
-	let languages = Object.keys(text)
-	let pages = ['news', 'report', 'letter']
+
+	let meta = (lang, page) => {
+		const meta = Object.assign(
+			{},
+			text[lang][page],
+			text[lang][`${process.env.PREACT_APP_NAME}-${page}`],
+		)
+		// console.log('meta', lang, page, meta)
+		return meta
+	}
 
 	pages = [
 		{
 			url: '/',
 			lang: 'en',
-			...text.en.root,
+			...meta('en', 'root'),
 		},
 		...languages.map(lang => pages.map(page => ({
 			url: `/${lang}/${page}`,
-			lang: lang === 'ua' ? 'uk' : lang,
-			...text[lang][page],
+			lang,
+			...meta(lang, page),
 		}))),
 	].flat()
 	// console.log('pages', pages)

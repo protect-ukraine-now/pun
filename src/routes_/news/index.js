@@ -19,8 +19,8 @@ export default function News({ language }) {
 				<Article className={style.article} key={date}>
 					<h4 className={style.heading}>{formatDate(language)(date)}</h4>
 					<ul>
-						{news.map(({ text, source }) =>
-							<li key={source}>
+						{news.map(({ text, source }, i) =>
+							<li key={i}>
 								<Markdown>{text}</Markdown>
 								{' '}
 								<a href={source} target="_blank">

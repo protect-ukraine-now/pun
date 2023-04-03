@@ -7,7 +7,7 @@ import Share from '../Share'
 // import Menu from '../Menu';
 // import { PAGES_MENU } from '../../constants/pages';
 
-const Footer = () => {
+const Footer = ({ email }) => {
 	return <>
 		<div className={style.socialActions}>
 			<Share />
@@ -18,7 +18,9 @@ const Footer = () => {
 					<img className={style.logo} src={LogoImage} alt=""/>
 				</Link>
 				{/* <Menu className={style.nav} linkClassName={style.link} activeClassName={style.active} items={PAGES_MENU}/> */}
-				<a href="mailto:ProtectUkraineNOW@gmail.com" className={style.email}>ProtectUkraineNOW@gmail.com</a>
+				<a href={`mailto:${email}`} className={style.email} target="_blank">
+					{email}
+				</a>
 			</Container>
 		</footer>
 	</>

@@ -1,7 +1,7 @@
 /*
     preact-router's missing "hook"
 */
-let currentUrl
+let currentUrl = ''
 
 export function useUrl() {
     return currentUrl

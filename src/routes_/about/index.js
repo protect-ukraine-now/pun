@@ -9,7 +9,9 @@ export default function About() {
 	return (
 		<Container>
 			<Article>
-				<Markdown>{translate('about.content')}</Markdown>
+				<Markdown>
+					{translate(`${process.env.PREACT_APP_NAME}-about.content`)}
+				</Markdown>
 			</Article>
 		</Container>
 	)

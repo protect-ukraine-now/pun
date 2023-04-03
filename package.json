@@ -5,14 +5,11 @@
   "version": "0.1.3",
   "license": "MIT",
   "scripts": {
-    "start": "per-env",
-    "start:production": "npm run -s serve",
-    "start:development": "npm run -s dev",
-    "build": "preact build --prerenderUrls ./prerender-urls.js",
-    "build:analyze": "cross-env NODE_OPTIONS='--openssl-legacy-provider' preact build --analyze --prerenderUrls ./prerender-urls.js",
-    "dev": "cross-env NODE_OPTIONS='--openssl-legacy-provider' preact watch --prerender --prerenderUrls ./prerender-urls.js",
-    "lint": "eslint src",
-    "test": "jest"
+    "dev": "cross-env PREACT_APP_NAME='pun' NODE_OPTIONS='--openssl-legacy-provider' preact watch --prerender --prerenderUrls ./prerender-urls.js",
+    "dev:uaaid": "cross-env PREACT_APP_NAME='uaaid' NODE_OPTIONS='--openssl-legacy-provider' preact watch --prerender --prerenderUrls ./prerender-urls.js",
+    "build": "cross-env PREACT_APP_NAME='pun' preact build --prerenderUrls ./prerender-urls.js",
+    "build:uaaid": "cross-env PREACT_APP_NAME='uaaid' preact build --prerenderUrls ./prerender-urls.js",
+    "build:analyze": "cross-env PREACT_APP_NAME='uaaid' NODE_OPTIONS='--openssl-legacy-provider' preact build --analyze --prerenderUrls ./prerender-urls.js"
   },
   "eslintConfig": {
     "extends": [

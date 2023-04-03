@@ -1,24 +1,34 @@
 import { IntlProvider, translate as intlTranslate } from 'preact-i18n'
+import { Match } from 'preact-router/match'
 
-import { useUrl } from './url'
+import { useUrl, setUrl } from './url'
 import text from '../data/text.json'
 
-export function useLanguage() {
-    let url = useUrl()
-    return url.split('/')[1]
+const languageFromUrl = url => url.split('/')[1] || 'en'
+export const useLanguage = () => languageFromUrl(useUrl())
+export const translate = id => intlTranslate(id, '', text[useLanguage()])
+
+export function replaceLanguageInUrl(url, language) {
+	let a = url.split('/')
+	a[1] = language
+	return a.join('/')
 }
 
 export function LanguageProvider({ children }) {
-    let language = useLanguage()
-    // console.log('LanguageProvider', language)
-    return (
-        <IntlProvider definition={text[language]}>
-            {children}
-        </IntlProvider>
-    )
-}
-
-export function translate(id) {
-    let language = useLanguage()
-    return intlTranslate(id, '', text[language || 'en'])
+	return (
+		<Match>
+			{({ url }) => {
+				setUrl(url)
+				const language = languageFromUrl(url)
+				return (
+					<IntlProvider definition={text[language]}>
+						{typeof (children) === 'function'
+							? children(language)
+							: children
+						}
+					</IntlProvider>
+				)
+			}}
+		</Match>
+	)
 }
