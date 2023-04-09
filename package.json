@@ -7,7 +7,7 @@
   "scripts": {
     "dev:pun": "cross-env PREACT_APP_NAME='pun' NODE_OPTIONS='--openssl-legacy-provider' preact watch",
     "dev:uat": "cross-env PREACT_APP_NAME='uat' NODE_OPTIONS='--openssl-legacy-provider' preact watch",
-    "build": "cross-env PREACT_APP_NAME='pun' NODE_OPTIONS='--openssl-legacy-provider' preact build --prerenderUrls ./prerender-urls.js",
+    "build:pun": "cross-env PREACT_APP_NAME='pun' NODE_OPTIONS='--openssl-legacy-provider' preact build --prerenderUrls ./prerender-urls.js",
     "build:uat": "cross-env PREACT_APP_NAME='uat' NODE_OPTIONS='--openssl-legacy-provider' preact build --prerenderUrls ./prerender-urls.js",
     "build:analyze": "cross-env PREACT_APP_NAME='pun' NODE_OPTIONS='--openssl-legacy-provider' preact build --analyze --prerenderUrls ./prerender-urls.js"
   },
