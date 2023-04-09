@@ -1,29 +1,41 @@
-import style from './style.scss';
-import Container from '../../components/Container';
-import WeaponsBalance from '../../components/WeaponsBalance';
-import WeaponsIncome from '../../components/WeaponsIncome';
-import WeaponsInventory from '../../components/WeaponsInventory';
-import AidChart from '../../components/AidChart';
-import Banner from '../../components/Banner';
-import { Link } from 'preact-router';
-import { Text } from 'preact-i18n';
-import { useLanguage } from '../../tools/language';
-import reportBannerImage from '../../assets/banner-bg.webp';
-import detectCountry from '../../tools/detectCountry';
+import { useEffect } from 'preact/hooks'
+import { route } from 'preact-router'
 
-export default function Report(props) {
-	// console.log('Report props', props)
-	const language = useLanguage();
-	const country = global.window && detectCountry();
+import style from './style.scss'
+import { useLanguage } from '../../tools/language'
+import { useUrl } from '../../tools/url'
+import Container from '../../components/Container'
+import Summary from '../../components/Summary'
+import WeaponsBalance from '../../components/WeaponsBalance'
+import WeaponsIncome from '../../components/WeaponsIncome'
+import WeaponsInventory from '../../components/WeaponsInventory'
+import AidChart from '../../components/AidChart'
+import Banner from '../../components/Banner'
+import { Link } from 'preact-router'
+import { Text } from 'preact-i18n'
+import reportBannerImage from '../../assets/banner-bg.webp'
+import detectCountry from '../../tools/detectCountry'
+
+export default function Report() {
+	const language = useLanguage()
+	const country = detectCountry()
+	const url = useUrl()
+
+	useEffect(() => {
+		if (url === '/') {
+			route('/en/report', true) // replace the current history entry
+		}
+	}, [])
 
 	return (
 		<>
 			<Container className={style.container}>
-				<WeaponsBalance {...props} className={style.table} />
-				<WeaponsIncome {...props} className={style.table} />
-				<WeaponsInventory {...props} className={style.table} />
+				<Summary className={style.chart} />
+				<WeaponsIncome className={style.table} />
+				<WeaponsBalance className={style.table} />
+				<WeaponsInventory className={style.table} />
 			</Container>
-			{country === 'US' &&
+			{process.env.PREACT_APP_NAME === 'pun' && country === 'US' &&
 				<Banner
 					className={style.banner}
 					title={<Text id="report.banner_title">Protect Ukraine now before it's too late!</Text>}
@@ -36,8 +48,8 @@ export default function Report(props) {
 				/>
 			}
 			<Container className={style.chart}>
-				<AidChart {...props} />
+				<AidChart />
 			</Container>
 		</>
-	);
+	)
 }

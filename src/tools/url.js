@@ -1,17 +1,11 @@
-/*
-    preact-router's missing "hook"
-*/
-let currentUrl
+import { useRouter } from 'preact-router'
 
 export function useUrl() {
-    return currentUrl
-}
-
-export function setUrl(url) {
-    currentUrl = url
+    const [{ url }] = useRouter()
+    return url
 }
 
 export function usePage() {
-    let url = useUrl()
+    const url = useUrl()
     return url.split('/')[2]
 }

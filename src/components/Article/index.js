@@ -1,7 +1,7 @@
 import cn from 'classnames';
 import style from './style.scss';
 
-const Index = ({ className, children }) => {
+const Article = ({ className, children }) => {
 	return (
 		<article className={cn(className, style.container)}>
 			{children}
@@ -9,4 +9,4 @@ const Index = ({ className, children }) => {
 	)
 };
 
-export default Index;
+export default Article;

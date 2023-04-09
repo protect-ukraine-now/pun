@@ -5,7 +5,7 @@ import { useState } from 'preact/hooks';
 import LanguageSelector from '../LanguageSelector';
 import useNoScroll from '../../hooks/useNoScroll';
 
-const Hamburger = ({ languages, navigation, className }) => {
+const Hamburger = ({ menu, languages, className }) => {
 	const [isOpen, setIsOpen] = useState(false);
 
 	useNoScroll(isOpen);
@@ -18,7 +18,7 @@ const Hamburger = ({ languages, navigation, className }) => {
 					onClick={() => setIsOpen(false)}
 					className={style.nav}
 					linkClassName={style.link}
-					items={navigation}
+					items={menu}
 				/>
 				<LanguageSelector
 					onClick={() => setIsOpen(false)}

@@ -2,8 +2,8 @@ import balance from './balance.json'
 import commits from './commits.json'
 import { isoDate, DAY } from '../tools/date'
 
-let first = '2022-07-17'
-let latest = '2023-03-26'
+const first = '2022-07-17'
+export const latest = '2023-04-09'
 
 let timespan = 14 * DAY
 export let Report = till => {

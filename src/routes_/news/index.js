@@ -1,17 +1,17 @@
-import { useMemo } from 'preact/hooks';
-import { Text } from 'preact-i18n';
+import { useMemo } from 'preact/hooks'
+import { Text } from 'preact-i18n'
 import Markdown from 'markdown-to-jsx'
 
-import { formatDate } from '../../tools/date';
+import { useLanguage } from '../../tools/language'
+import { formatDate } from '../../tools/date'
+import { prepareNews } from '../../data/news'
+import style from './style.scss'
+import Container from '../../components/Container'
+import Article from '../../components/Article'
 
-import { prepareNews } from '../../data/news';
-import style from './style.scss';
-import Container from '../../components/Container';
-import Article from '../../components/Article';
-
-export default function News({ language }) {
-	// console.log('News props', props)
-	let news = useMemo(() => prepareNews(language), [language]);
+export default function News() {
+	const language = useLanguage()
+	const news = useMemo(() => prepareNews(language), [language])
 	// console.log('News data', news)
 	return (
 		<Container className={style.digest}>
@@ -19,8 +19,8 @@ export default function News({ language }) {
 				<Article className={style.article} key={date}>
 					<h4 className={style.heading}>{formatDate(language)(date)}</h4>
 					<ul>
-						{news.map(({ text, source }) =>
-							<li key={source}>
+						{news.map(({ text, source }, i) =>
+							<li key={i}>
 								<Markdown>{text}</Markdown>
 								{' '}
 								<a href={source} target="_blank">
@@ -32,5 +32,5 @@ export default function News({ language }) {
 				</Article>
 			)}
 		</Container>
-	);
+	)
 }
