@@ -1,6 +1,7 @@
 {
 	"en": {
 		"pun/seo": {
+			"title": "Ukraine needs Public Support!",
 			"description": "Request your representatives to give Ukraine the munitions to win this war",
 			"image": "https://protectukrainenow.org/assets/support.webp"
 		},
@@ -84,6 +85,7 @@
 	},
 	"uk": {
 		"pun/seo": {
+			"title": "Україні потрібна громадська підтримка!",
 			"description": "Вимагайте від своїх представників надати Україні зброю перемоги",
 			"image": "https://protectukrainenow.org/assets/support.webp"
 		},
