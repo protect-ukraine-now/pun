@@ -27,7 +27,8 @@ const footer = {
 	email: 'contact@ProtectUkraineNOW.org',
 }
 
-export default function App() {
+export default function App(props) {
+	console.log(props?.CLI_DATA?.preRenderData)
 	return (
 		<div id="preact_root" style={{ height: '100%' }}>
 			<LanguageProvider>
