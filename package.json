@@ -5,11 +5,11 @@
   "version": "0.1.3",
   "license": "MIT",
   "scripts": {
-    "dev": "cross-env PREACT_APP_NAME='pun' NODE_OPTIONS='--openssl-legacy-provider' preact watch --prerender --prerenderUrls ./prerender-urls.js",
+    "dev": "cross-env PREACT_APP_NAME='pun' NODE_OPTIONS='--openssl-legacy-provider' preact watch --prerenderUrls ./prerender-urls.js",
     "dev:uat": "cross-env PREACT_APP_NAME='uat' NODE_OPTIONS='--openssl-legacy-provider' preact watch --prerender --prerenderUrls ./prerender-urls.js",
     "build": "cross-env PREACT_APP_NAME='pun' NODE_OPTIONS='--openssl-legacy-provider' preact build --prerenderUrls ./prerender-urls.js",
     "build:uat": "cross-env PREACT_APP_NAME='uat' NODE_OPTIONS='--openssl-legacy-provider' preact build --prerenderUrls ./prerender-urls.js",
-    "build:analyze": "cross-env PREACT_APP_NAME='uat' NODE_OPTIONS='--openssl-legacy-provider' preact build --analyze --prerenderUrls ./prerender-urls.js"
+    "build:analyze": "cross-env PREACT_APP_NAME='pun' NODE_OPTIONS='--openssl-legacy-provider' preact build --analyze --prerenderUrls ./prerender-urls.js"
   },
   "eslintConfig": {
     "extends": [
