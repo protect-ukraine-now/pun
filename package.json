@@ -6,10 +6,10 @@
   "license": "MIT",
   "scripts": {
     "dev": "cross-env PREACT_APP_NAME='pun' NODE_OPTIONS='--openssl-legacy-provider' preact watch --prerender --prerenderUrls ./prerender-urls.js",
-    "dev:uaaid": "cross-env PREACT_APP_NAME='uaaid' NODE_OPTIONS='--openssl-legacy-provider' preact watch --prerender --prerenderUrls ./prerender-urls.js",
+    "dev:uat": "cross-env PREACT_APP_NAME='uat' NODE_OPTIONS='--openssl-legacy-provider' preact watch --prerender --prerenderUrls ./prerender-urls.js",
     "build": "cross-env PREACT_APP_NAME='pun' NODE_OPTIONS='--openssl-legacy-provider' preact build --prerenderUrls ./prerender-urls.js",
-    "build:uaaid": "cross-env PREACT_APP_NAME='uaaid' NODE_OPTIONS='--openssl-legacy-provider' preact build --prerenderUrls ./prerender-urls.js",
-    "build:analyze": "cross-env PREACT_APP_NAME='uaaid' NODE_OPTIONS='--openssl-legacy-provider' preact build --analyze --prerenderUrls ./prerender-urls.js"
+    "build:uat": "cross-env PREACT_APP_NAME='uat' NODE_OPTIONS='--openssl-legacy-provider' preact build --prerenderUrls ./prerender-urls.js",
+    "build:analyze": "cross-env PREACT_APP_NAME='uat' NODE_OPTIONS='--openssl-legacy-provider' preact build --analyze --prerenderUrls ./prerender-urls.js"
   },
   "eslintConfig": {
     "extends": [
@@ -56,12 +56,11 @@
     "preact-helmet": "^4.0.0-alpha-3",
     "preact-i18n": "^2.4.0-preactx",
     "preact-render-to-string": "^5.1.10",
-    "preact-router": "^3.0.1",
+    "preact-router": "^4.1.0",
     "rambda": "^7.1.4",
     "react-google-charts": "^4.0.0",
     "react-icons": "^4.4.0",
     "react-lite-youtube-embed": "^2.2.2",
-    "react-social-sharing": "^3.3.0",
     "reset-css": "^5.0.1"
   },
   "jest": {

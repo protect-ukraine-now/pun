@@ -1,13 +1,10 @@
 import { Link } from 'preact-router/match';
 
 import style from './style.scss';
-import LogoImage from '../../assets/icons/logo-dark-horizontal.svg';
 import Container from '../Container';
 import Share from '../Share'
-// import Menu from '../Menu';
-// import { PAGES_MENU } from '../../constants/pages';
 
-const Footer = ({ email }) => {
+const Footer = ({ logo, email }) => {
 	return <>
 		<div className={style.socialActions}>
 			<Share />
@@ -15,7 +12,7 @@ const Footer = ({ email }) => {
 		<footer className={style.footer}>
 			<Container className={style.container}>
 				<Link href="/">
-					<img className={style.logo} src={LogoImage} alt=""/>
+					<img className={style.logo} src={logo} alt=""/>
 				</Link>
 				{/* <Menu className={style.nav} linkClassName={style.link} activeClassName={style.active} items={PAGES_MENU}/> */}
 				<a href={`mailto:${email}`} className={style.email} target="_blank">

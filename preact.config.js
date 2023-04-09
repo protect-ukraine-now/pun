@@ -15,7 +15,7 @@ module.exports = (config, env, helpers) => {
 
 	netlifyPlugin(config);
 
-	const index = path.resolve(config.context, process.env.PREACT_APP_NAME)
+	const index = path.resolve(config.context, process.env.PREACT_APP_NAME + '.index')
 	if (config.entry['ssr-bundle']) { // if pre-rendering is used
 		config.entry['ssr-bundle'] = index
 	}

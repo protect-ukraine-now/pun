@@ -9,11 +9,13 @@ import { IoEllipsisHorizontalCircle } from 'react-icons/io5'
 
 import style from './style.scss';
 import { latestReport, incomeReport, Report } from '../../data/report'
+import { useLanguage } from '../../tools/language'
 import { formatDate } from '../../tools/date'
 import { translate } from '../../tools/language'
 import WeaponsTable from '../WeaponsTable'
 
-export default function WeaponsIncome({ language, className }) {
+export default function WeaponsIncome({ className }) {
+    const language = useLanguage()
     const [report, setReport] = useState(latestReport)
     let goto = report => e => {
         e.preventDefault()

@@ -1,6 +1,6 @@
 const fs = require('fs')
 
-let indexText = text => text.slice(1).reduce((a, [group, key, desc, en, uk]) => {
+let indexText = text => text.slice(1).reduce((a, [group, key, en, uk]) => {
     a.en[group] = { ...(a.en[group] || {}), [key]: en }
     a.uk[group] = { ...(a.uk[group] || {}), [key]: uk }
     return a

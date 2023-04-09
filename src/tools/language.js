@@ -1,12 +1,11 @@
 import { IntlProvider, translate as intlTranslate } from 'preact-i18n'
-import { Match } from 'preact-router/match'
 
-import { useUrl, setUrl } from './url'
 import text from '../data/text.json'
+import { useUrl } from './url'
 
-const languageFromUrl = url => url.split('/')[1] || 'en'
-export const useLanguage = () => languageFromUrl(useUrl())
-export const translate = id => intlTranslate(id, '', text[useLanguage()])
+function languageFromUrl(url) {
+	return url.split('/')[1]
+}
 
 export function replaceLanguageInUrl(url, language) {
 	let a = url.split('/')
@@ -14,21 +13,26 @@ export function replaceLanguageInUrl(url, language) {
 	return a.join('/')
 }
 
-export function LanguageProvider({ children }) {
+export function useLanguage() {
+	const url = useUrl()
+	return languageFromUrl(url) || 'en'
+}
+
+export function translate(id, ...rest) {
+	const app = process.env.PREACT_APP_NAME
+	const lang = useLanguage()
 	return (
-		<Match>
-			{({ url }) => {
-				setUrl(url)
-				const language = languageFromUrl(url)
-				return (
-					<IntlProvider definition={text[language]}>
-						{typeof (children) === 'function'
-							? children(language)
-							: children
-						}
-					</IntlProvider>
-				)
-			}}
-		</Match>
+		intlTranslate(`${app}/${id}`, '', text[lang], ...rest)
+		||
+		intlTranslate(id, '', text[lang], ...rest)
+	)
+}
+
+export function LanguageProvider({ children }) {
+	const lang = useLanguage()
+	return (
+		<IntlProvider definition={text[lang]}>
+			{children}
+		</IntlProvider>
 	)
 }

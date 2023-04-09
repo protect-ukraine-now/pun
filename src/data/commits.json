@@ -430,11 +430,91 @@
 		"GERMANY REVEALS FULL LIST OF MILITARY AID TO UKRAINE"
 	],
 	[
-		"2022-06-24",
+		"2022-04-13",
+		"US",
+		"Helicopter",
+		"Mi-17",
+		"5",
+		"",
+		"https://www.defense.gov/News/Releases/Release/Article/3007664/fact-sheet-on-us-security-assistance-for-ukraine-roll-up-as-of-april-21-2022/",
+		"Fact Sheet on U.S. Security Assistance for Ukraine"
+	],
+	[
+		"2022-04-13",
+		"US",
+		"Helicopter",
+		"Mi-17",
+		"11",
+		"",
+		"https://www.defense.gov/News/Releases/Release/Article/3007664/fact-sheet-on-us-security-assistance-for-ukraine-roll-up-as-of-april-21-2022/",
+		"Fact Sheet on U.S. Security Assistance for Ukraine"
+	],
+	[
+		"2022-04-13",
 		"US",
 		"Towed Artillery",
 		"M777 155mm",
-		"126",
+		"18",
+		"",
+		"https://www.defense.gov/News/Releases/Release/Article/3007664/fact-sheet-on-us-security-assistance-for-ukraine-roll-up-as-of-april-21-2022/",
+		"Fact Sheet on U.S. Security Assistance for Ukraine"
+	],
+	[
+		"2022-04-13",
+		"US",
+		"Other Armored Vehicle",
+		"M113",
+		"200",
+		"",
+		"https://www.defense.gov/News/Releases/Release/Article/3073551/fact-sheet-on-us-security-assistance-to-ukraine/",
+		"Fact Sheet on U.S. Security Assistance to Ukraine"
+	],
+	[
+		"2022-04-21",
+		"US",
+		"Towed Artillery",
+		"M777 155mm",
+		"72",
+		"",
+		"https://www.defense.gov/News/Releases/Release/Article/3007664/fact-sheet-on-us-security-assistance-for-ukraine-roll-up-as-of-april-21-2022/",
+		"Fact Sheet on U.S. Security Assistance for Ukraine"
+	],
+	[
+		"2022-05-19",
+		"US",
+		"Towed Artillery",
+		"M777 155mm",
+		"18",
+		"",
+		"https://www.defense.gov/News/Releases/Release/Article/3037837/100-million-in-additional-security-assistance-for-ukraine/",
+		"$100 Million in Additional Security Assistance for Ukraine"
+	],
+	[
+		"2022-06-01",
+		"US",
+		"Helicopter",
+		"Mi-17",
+		"4",
+		"",
+		"https://www.defense.gov/News/Releases/Release/Article/3073551/fact-sheet-on-us-security-assistance-to-ukraine/",
+		"Fact Sheet on U.S. Security Assistance to Ukraine"
+	],
+	[
+		"2022-06-01",
+		"US",
+		"Multiple Launch Rocket System",
+		"HIMARS",
+		"8",
+		"",
+		"https://www.defense.gov/News/Releases/Release/Article/3073551/fact-sheet-on-us-security-assistance-to-ukraine/",
+		"Fact Sheet on U.S. Security Assistance to Ukraine"
+	],
+	[
+		"2022-06-15",
+		"US",
+		"Towed Artillery",
+		"M777 155mm",
+		"18",
 		"",
 		"https://www.defense.gov/News/Releases/Release/Article/3073551/fact-sheet-on-us-security-assistance-to-ukraine/",
 		"Fact Sheet on U.S. Security Assistance to Ukraine"
@@ -462,39 +542,9 @@
 	[
 		"2022-06-24",
 		"US",
-		"Multiple Launch Rocket System",
-		"HIMARS",
-		"8",
-		"",
-		"https://www.defense.gov/News/Releases/Release/Article/3073551/fact-sheet-on-us-security-assistance-to-ukraine/",
-		"Fact Sheet on U.S. Security Assistance to Ukraine"
-	],
-	[
-		"2022-06-24",
-		"US",
-		"Helicopter",
-		"Mi-17",
-		"20",
-		"",
-		"https://www.defense.gov/News/Releases/Release/Article/3073551/fact-sheet-on-us-security-assistance-to-ukraine/",
-		"Fact Sheet on U.S. Security Assistance to Ukraine"
-	],
-	[
-		"2022-06-24",
-		"US",
 		"other",
 		"Harpoon coastal defense system",
 		"2",
-		"",
-		"https://www.defense.gov/News/Releases/Release/Article/3073551/fact-sheet-on-us-security-assistance-to-ukraine/",
-		"Fact Sheet on U.S. Security Assistance to Ukraine"
-	],
-	[
-		"2022-06-24",
-		"US",
-		"Other Armored Vehicle",
-		"M113",
-		"200",
 		"",
 		"https://www.defense.gov/News/Releases/Release/Article/3073551/fact-sheet-on-us-security-assistance-to-ukraine/",
 		"Fact Sheet on U.S. Security Assistance to Ukraine"
@@ -2438,5 +2488,15 @@
 		"",
 		"https://en.interfax.com.ua/news/general/901644.html",
 		"Denmark, Norway sign agreement on transfer of 8,000 artillery shells to Ukraine"
+	],
+	[
+		"2023-04-06",
+		"Poland",
+		"Warplane",
+		"MiG-29",
+		"14",
+		"",
+		"https://www.rferl.org/a/ukraine-zelenskiy-poland-visit/32350100.html",
+		"Zelenskiy Tells Warsaw It Will Be Instrumental In Ukraine's Reconstruction Effort"
 	]
 ]

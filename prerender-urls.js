@@ -4,7 +4,7 @@ module.exports = async () => {
 	console.log('prerender', process.env.PREACT_APP_NAME)
 	try {
 		return await pages(...{
-			uaaid: [['news', 'report'], ['en']],
+			uat: [['news', 'report'], ['en']],
 			pun: [['news', 'report', 'letter'], ['en', 'uk']],
 		}[process.env.PREACT_APP_NAME])
 	} catch (e) {

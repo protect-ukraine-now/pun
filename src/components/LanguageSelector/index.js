@@ -8,5 +8,5 @@ export default function LanguageSelector({ items, ...props }) {
 	items = Object.entries(items).map(([key, text]) =>
 		[text, replaceLanguageInUrl(url, key)]
 	)
-	return <Menu {...props} items={items} />
+	return <Menu items={items} {...props} />
 }

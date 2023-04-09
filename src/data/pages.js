@@ -1,29 +1,20 @@
 const loadData = require('./load')
 
 async function pages(pages, languages) {
-	let data = await loadData()
-	let { text } = data
-
-	let meta = (lang, page) => {
-		const meta = Object.assign(
-			{},
-			text[lang][page],
-			text[lang][`${process.env.PREACT_APP_NAME}-${page}`],
-		)
-		// console.log('meta', lang, page, meta)
-		return meta
-	}
+	const data = await loadData()
+	const { text } = data
+	const seo = lang => text[lang][`${process.env.PREACT_APP_NAME}/seo`]
 
 	pages = [
 		{
 			url: '/',
 			lang: 'en',
-			...meta('en', 'root'),
+			...seo('en', 'root'),
 		},
 		...languages.map(lang => pages.map(page => ({
 			url: `/${lang}/${page}`,
 			lang,
-			...meta(lang, page),
+			...seo(lang, page),
 		}))),
 	].flat()
 	// console.log('pages', pages)
