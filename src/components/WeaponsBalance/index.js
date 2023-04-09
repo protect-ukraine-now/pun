@@ -2,7 +2,8 @@ import { Text } from 'preact-i18n'
 import UA from 'country-flag-icons/react/1x1/UA'
 import RU from 'country-flag-icons/react/1x1/RU'
 
-import style from './style.scss';
+import style from './style.scss'
+import { useLanguage } from '../../tools/language'
 import { balanceReport } from '../../data/report'
 import { formatDate } from '../../tools/date'
 import { translate } from '../../tools/language'
@@ -10,7 +11,8 @@ import WeaponsTable from '../WeaponsTable'
 
 let data = balanceReport()
 
-export default function WeaponsCommitments({ language, className }) {
+export default function WeaponsCommitments({ className }) {
+    const language = useLanguage()
     const formatter = formatDate(language)
     let till = formatter('2022-02-24')
 

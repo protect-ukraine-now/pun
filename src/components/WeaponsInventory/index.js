@@ -1,14 +1,15 @@
 import { Text } from 'preact-i18n'
 
 import style from './style.scss'
-import { translate } from '../../tools/language'
+import { useLanguage, translate } from '../../tools/language'
 import { latestReport, inventoryReport } from '../../data/report'
 import { formatDate } from '../../tools/date'
 import WeaponsTable from '../WeaponsTable'
 
 let data = inventoryReport()
 
-export default function WeaponsInventory({ language, className }) {
+export default function WeaponsInventory({ className }) {
+    const language = useLanguage()
     const formatter = formatDate(language)
     let till = formatter(latestReport.till)
     let title = <Text id="inventory.title" fields={{ till }} />

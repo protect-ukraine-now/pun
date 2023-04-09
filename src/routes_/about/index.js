@@ -6,10 +6,14 @@ import Article from '../../components/Article'
 import { translate } from '../../tools/language'
 
 export default function About() {
+	const app = process.env.PREACT_APP_NAME
+	const content = translate(`${app}/about.content`)
 	return (
 		<Container>
 			<Article>
-				<Markdown>{translate('about.content')}</Markdown>
+				<Markdown>
+					{content}
+				</Markdown>
 			</Article>
 		</Container>
 	)

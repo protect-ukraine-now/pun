@@ -1,6 +1,17 @@
 {
 	"en": {
+		"pun/seo": {
+			"title": "Ukraine needs Public Support!",
+			"description": "Request your representatives to give Ukraine the munitions to win this war",
+			"image": "https://protectukrainenow.org/assets/support.webp"
+		},
+		"uat/seo": {
+			"title": "Ukraine Military Aid Tracker",
+			"description": "Weapons possessed, committed, provided",
+			"image": "https://protectukrainenow.org/assets/report.en.20230306.webp"
+		},
 		"country": {
+			"ua": "Ukraine",
 			"us": "USA",
 			"ru": "Russia"
 		},
@@ -9,6 +20,10 @@
 			"report": "Military Aid",
 			"letter": "Letter to Congress",
 			"about": "About Us"
+		},
+		"summary": {
+			"title": "US Military Aid",
+			"content": "#### Since {{from}} the United States has committed to Ukraine:\n\n- ${{short}} billion in short-term military aid (~${{shortPer}} per US citizen per month)\n- ${{long}} billion in long-term military aid (~${{longPer}} per US citizen per month)"
 		},
 		"balance": {
 			"title": "Weapons possessed",
@@ -22,7 +37,7 @@
 			"prev": "Previous Report",
 			"next": "Next Report",
 			"rest": "Other countries",
-			"description": "- Includes delivered and promised in the near future\n- Air Defense: number of launchers is shown\n- IFVs: includes all Bradley and Stryker variants"
+			"description": "- Includes delivered and promised in the near future\n- Air Defense: number of launchers is shown\n- IFVs: includes all Bradley and Stryker variants\n- [Dataset](https://docs.google.com/spreadsheets/d/1Q9aLVoSZ9vTKH0VLnMpFRiY6h0kV6Rcb16R4lP0rUFs)"
 		},
 		"inventory": {
 			"title": "USA: Weapons possessed vs weapons provided under Presidential Drawdown (short term aid)",
@@ -33,10 +48,7 @@
 		},
 		"report": {
 			"banner_title": "Protect Ukraine now before it's too late!",
-			"banner_btn": "Click here",
-			"title": "Military Aid to Ukraine",
-			"description": "Weapons possessed, committed, provided",
-			"image": "https://protectukrainenow.org/assets/report.en.20230306.webp"
+			"banner_btn": "Click here"
 		},
 		"aid_chart": {
 			"title": "US military aid by week",
@@ -48,46 +60,38 @@
 			"fmf": "FMF (long term)"
 		},
 		"news": {
-			"source": "source",
-			"title": "News about military aid to Ukraine",
-			"description": "The Dutch Cabinet will look into supplying F-16 fighter jets to Ukraine",
-			"image": "https://protectukrainenow.org/assets/support.webp"
+			"source": "source"
 		},
 		"weapon_category": {
 			"Towed Artillery": "Towed Artillery",
 			"Self-Propelled Artillery": "Self-Propelled Artillery",
 			"Multiple Launch Rocket System": "Multiple Launch Rocket System",
-			"Guided MLRS": "Guided MLRS",
 			"Tank": "Tank",
 			"Infantry Fighting Vehicle": "Infantry Fighting Vehicle",
-			"Other Armored Vehicle": "Other Armored Vehicle",
 			"Air Defense System": "Air Defense",
 			"Helicopter": "Helicopter",
-			"Warplane": "War Plane",
-			"Vessel": "Vessel",
-			"Artillery rounds": "Artillery rounds",
-			"GMLRS ammunition": "GMLRS ammunition",
-			"other": "other"
-		},
-		"about": {
-			"title": "About Us",
-			"description": "Help Ukraine withstand unprovoked aggression by the Russian Federation, win the war and save as many lives as possible",
-			"image": "https://protectukrainenow.org/assets/support.webp",
-			"content": "**The Goals of the Project**\n\nThe Protect Ukraine Now Project is an initiative of individuals who deeply care of Ukrainians and Ukraine and have a strong will and desire to help Ukraine withstand unprovoked aggression by the Russian Federation, win the war and save as many Ukrainian lives as possible.\n\nThe project participants believe this conflict has no diplomatic resolution, and in order to ensure long-term peace in Ukraine, the Russian Federation must suffer a complete military defeat in the war they have started.The main objective of the project is as follows:\n\n**Prevent the evolution of the assault on Ukraine into a Protracted War and aid to military defeat of the Russian Federation in Ukraine in the most immediate future.**\n\nThe Protect Ukraine Now project participants, through data review and analytics, have arrived at the conclusion, the current strategy, used by the collective West, needs a significant revision. Should it remain unchanged, the current strategy will inevitably lead to a multi-year conflict with an astonishing death toll and destruction. The Project is resisting this outcome by the following means:\n\n1. Provides unbiased and complete informing to the general public about the real situation with military aid to Ukraine. This is necessary to resist misleading and inaccurate data that exists in abundance in the information space.\n2. Communicates to the general public the importance of the constant contact with their elected officials regarding support for Ukraine, as this is the most efficient way of making a difference in the current political process.\n3. Facilitating a way for the United States residents to reach out to their congressmen via an online form available on our website. The Project provides the site visitors with a template, which they can use as a letter of support for Ukraine to their congressmen or they can write their own letter of support.\n4. Increased public awareness about the Project through promoting its content via social media and other means of communication.\n\n**The Fundamental Principles of the Project**\n\nThe ProtectUkraineNow.org Project is a Non-Governmental Organization (NGO). The participants of the project are volunteers from various countries around the world.\n\nThe project participants are united by a common goal, therefore all project participants treat each other and the activities of each participant in the project with respect, regardless of age, experience, previous merits, nationality, religion, political views, etc.\n\nThe project participants agree that the objectivity and accuracy of providing information and the protection of the people of Ukraine is of greater importance than their own political, religious, national or other personal preferences.\n\n**How Can You Help?**\n\n1. The effectiveness of our project is directly related to the number of people we can reach. Please help us with the distribution of information about the Protect Ukraine Now Project among your acquaintances, friends, colleagues, relatives in the USA and around the world. Please follow us on Facebook, like and share our publications.\n2. The US residents can use our website to submit a letter of support for Ukraine to your representatives in Congress. Writing to Congress is the most efficient way to make your voice heard and make a difference. This way of participation in the political process is one of the fundamental principles of democracy and should be taken with the appropriate seriousness.\n3. If you would like to join the project and you have skills in the following areas: marketing, SMM, programming, illustration, website development, translation (Ukrainian, English, other European languages), please contact us with your offer to help and a description of your specialization at [ProtectUkraineNOW@gmail.com](mailto:ProtectUkraineNOW@gmail.com)\n\n**The Data and the Analytics**\n\nThe goals stated above are achieved by the means of creating and refreshing a digest with the key news; providing the information about military aid supplied to Ukraine by allies.\n\nThe Protect Ukraine Now Project is only using publicly available data sources and all the appropriate references are cited on the project website.\n\n**How Can Protect Ukraine Now Help?**\n\n**We are totally open to mutual cooperation with any organizations whose goal is to ensure the earliest possible victory for Ukraine.**"
-		},
-		"root": {
-			"title": "Protect Ukraine NOW!",
-			"description": "Russia launched the most unprecedented missile attack across the entire Ukraine targeting critical infrastructure and slaughtering civilians. By October, tens of thousands of civilians had been killed, including more than 400 children.\n\nSignificantly MORE MILITARY AID is needed urgently. Time to act is NOW before more children are killed.​"
+			"Warplane": "War Plane"
 		},
 		"letter": {
-			"header": "Save lives with your Petition!",
-			"title": "Request your representatives to give Ukraine the munitions to win this war",
-			"description": "- Innocent people are killed in their homes every day; on Christmas Eve 17 civilians were killed and 71 were wounded\n\n- Ukraine's victory is essential for global stability and the US security\n\n- General Zaloujny is ready to end this war:\n\n    > “I know that I can beat this enemy. But I need resources. I need 300 tanks, 600-700 IFVs, 500 Howitzers”",
-			"image": "https://protectukrainenow.org/assets/support.webp"
+			"header": "Ukraine needs Public Support!",
+			"description": "Your Letter to Congress will\r\n\r\n- Support politicians committed to the Ukrainian victory\r\n- Tell politicians who are against aiding Ukraine they are wrong\r\n- Participate in shaping the Public Opinion in favor of Ukraine"
+		},
+		"pun/about": {
+			"content": "### The Goals of the Project\n\nThe Protect Ukraine Now Project is an initiative of individuals who deeply care of Ukrainians and Ukraine and have a strong will and desire to help Ukraine withstand unprovoked aggression by the Russian Federation, win the war and save as many Ukrainian lives as possible.\n\nThe project participants believe this conflict has no diplomatic resolution, and in order to ensure long-term peace in Ukraine, the Russian Federation must suffer a complete military defeat in the war they have started.The main objective of the project is as follows:\n\n**Prevent the evolution of the assault on Ukraine into a Protracted War and aid to military defeat of the Russian Federation in Ukraine in the most immediate future.**\n\nThe Protect Ukraine Now project participants, through data review and analytics, have arrived at the conclusion, the current strategy, used by the collective West, needs a significant revision. Should it remain unchanged, the current strategy will inevitably lead to a multi-year conflict with an astonishing death toll and destruction. The Project is resisting this outcome by the following means:\n\n1. Provides unbiased and complete informing to the general public about the real situation with military aid to Ukraine. This is necessary to resist misleading and inaccurate data that exists in abundance in the information space.\n2. Communicates to the general public the importance of the constant contact with their elected officials regarding support for Ukraine, as this is the most efficient way of making a difference in the current political process.\n3. Facilitating a way for the United States residents to reach out to their congressmen via an online form available on our website. The Project provides the site visitors with a template, which they can use as a letter of support for Ukraine to their congressmen or they can write their own letter of support.\n4. Increased public awareness about the Project through promoting its content via social media and other means of communication.\n\n### The Fundamental Principles of the Project\n\nThe ProtectUkraineNow.org Project is a Non-Governmental Organization (NGO). The participants of the project are volunteers from various countries around the world.\n\nThe project participants are united by a common goal, therefore all project participants treat each other and the activities of each participant in the project with respect, regardless of age, experience, previous merits, nationality, religion, political views, etc.\n\nThe project participants agree that the objectivity and accuracy of providing information and the protection of the people of Ukraine is of greater importance than their own political, religious, national or other personal preferences.\n\n### How Can You Help?\n\n1. The effectiveness of our project is directly related to the number of people we can reach. Please help us with the distribution of information about the Protect Ukraine Now Project among your acquaintances, friends, colleagues, relatives in the USA and around the world. Please follow us on Facebook, like and share our publications.\n2. The US residents can use our website to submit a letter of support for Ukraine to your representatives in Congress. Writing to Congress is the most efficient way to make your voice heard and make a difference. This way of participation in the political process is one of the fundamental principles of democracy and should be taken with the appropriate seriousness.\n3. If you would like to join the project and you have skills in the following areas: marketing, SMM, programming, illustration, website development, translation (Ukrainian, English, other European languages), please contact us with your offer to help and a description of your specialization at [ProtectUkraineNOW@gmail.com](mailto:ProtectUkraineNOW@gmail.com)\n\n### The Data and the Analytics\n\nThe goals stated above are achieved by the means of creating and refreshing a digest with the key news; providing the information about military aid supplied to Ukraine by allies.\n\nThe Protect Ukraine Now Project is only using publicly available data sources and all the appropriate references are cited on the project website.\n\n### How Can Protect Ukraine Now Help?\n\n**We are totally open to mutual cooperation with any organizations whose goal is to ensure the earliest possible victory for Ukraine.**"
+		},
+		"uat/about": {
+			"content": "Welcome to Ukraine Aid Tracker!\n\nOur mission is to provide the public with accurate and up-to-date information about military aid to Ukraine.\n\nWe collect data from various open sources.\n\nOur organization was founded in 2022 by a group of concerned citizens who wanted to shed light on the issue of military aid to Ukraine.\n\nWe hope that you find our website informative and useful."
 		}
 	},
-	"ua": {
+	"uk": {
+		"pun/seo": {
+			"title": "Україні потрібна громадська підтримка!",
+			"description": "Вимагайте від своїх представників надати Україні зброю перемоги",
+			"image": "https://protectukrainenow.org/assets/support.webp"
+		},
+		"uat/seo": {},
 		"country": {
+			"ua": "Україна",
 			"us": "США ",
 			"ru": "Росія"
 		},
@@ -96,6 +100,10 @@
 			"report": "Військова допомога",
 			"letter": "Лист до Конгресу",
 			"about": "Про нас"
+		},
+		"summary": {
+			"title": "Військова допомога США",
+			"content": "#### З {{from}} Сполучені Штати надали Україні:\n\n- ${{short}} мільярдів короткострокової військової допомоги (~${{shortPer}} на громадянина США на місяць)\n- ${{long}} мільярдів довгострокової військової допомоги (~${{longPer}} на громадянина США на місяць)"
 		},
 		"balance": {
 			"title": "Наявна зброя",
@@ -109,7 +117,7 @@
 			"prev": "Попередній звіт",
 			"next": "Наступний звіт",
 			"rest": "Інші країни",
-			"description": "- Включає доставлене та обіцяне найближчим часом\n- ППО: показано кількість пускових установок\n- БМП: включає всі варіанти Bradley і Stryker"
+			"description": "- Включає доставлене та обіцяне найближчим часом\n- ППО: показано кількість пускових установок\n- БМП: включає всі варіанти Bradley і Stryker\n- [Набір даних](https://docs.google.com/spreadsheets/d/1Q9aLVoSZ9vTKH0VLnMpFRiY6h0kV6Rcb16R4lP0rUFs)"
 		},
 		"inventory": {
 			"title": "США: Наявна зброя та її поставки по фонду PDA (короткострокова допомога)",
@@ -120,10 +128,7 @@
 		},
 		"report": {
 			"banner_title": "Захистить Україну зараз, поки не пізно!",
-			"banner_btn": "Натисніть тут",
-			"title": "Військова допомога Україні",
-			"description": "Зброя наявна, обіцяна, передана",
-			"image": "https://protectukrainenow.org/assets/report.uk.20230306.webp"
+			"banner_btn": "Натисніть тут"
 		},
 		"aid_chart": {
 			"title": "Військова допомога США по тижнях",
@@ -135,39 +140,25 @@
 			"fmf": "FMF (довгострокова)"
 		},
 		"news": {
-			"source": "джерело",
-			"title": "Новини про військову допомогу Україні",
-			"description": "Кабмін Нідерландів розгляне постачання Україні винищувачів F-16",
-			"image": "https://protectukrainenow.org/assets/report.uk.20230306.webp"
+			"source": "джерело"
 		},
 		"weapon_category": {
 			"Towed Artillery": "Буксирувана артилерія",
 			"Self-Propelled Artillery": "Самохідна артилерія",
 			"Multiple Launch Rocket System": "Реактивна система залпового вогню",
-			"Guided MLRS": "Високоточна РСЗВ",
 			"Tank": "Танк",
 			"Infantry Fighting Vehicle": "Бойова машина піхоти ",
-			"Other Armored Vehicle": "Інша бронетехніка",
 			"Air Defense System": "Протиповітряна оборона",
 			"Helicopter": "Гелiкоптер",
-			"Warplane": "Бойовий літак",
-			"Vessel": "Судно",
-			"Artillery rounds": "Артилерійські снаряди",
-			"GMLRS ammunition": "Керовані реактивні снаряди",
-			"other": "інше"
+			"Warplane": "Бойовий літак"
 		},
-		"about": {
-			"title": "Про нас",
-			"description": "Допоможіть Україні протистояти неспровокованій агресії з боку Російської Федерації, виграти війну та врятувати якомога більше життів",
-			"image": "https://protectukrainenow.org/assets/report.uk.20230306.webp",
-			"content": "**Цілі проекту**\r\n\r\nПроект «Захистимо Україну зараз» – це ініціатива людей, які глибоко вболівають за українців та Україну та мають сильну волю та бажання допомогти Україні протистояти неспровокованій агресії з боку Російської Федерації, перемогти у війні та врятувати якомога більше українських життів.\r\n\r\nУчасники проекту вважають, що цей конфлікт не має дипломатичного вирішення, і для забезпечення довгострокового миру в Україні Російська Федерація повинна зазнати повної військової поразки в розпочатій ними війні. Основна мета проекту полягає в наступному:\r\n\r\n**Не допустити переростання наступу на Україну в тривалу війну та сприяти військовому розгрому Російської Федерації в Україні**\r\n\r\nУчасники проекту Protect Ukraine Now шляхом аналізу даних та аналітики дійшли висновку, що нинішня стратегія, яку використовує колективний Захід, потребує суттєвого перегляду. Якщо вона залишиться незмінною, нинішня стратегія неминуче призведе до багаторічного конфлікту з вражаючими жертвами та руйнуваннями. Проект протистоїть цьому результату такими засобами:\r\n\r\n1. Забезпечує неупереджене та повне інформування широкої громадськості про реальний стан військової допомоги Україні. Це необхідно для того, щоб протистояти оманливим і неточним даним, яких у надлишку існують в інформаційному просторі.\r\n2. Доносить до широкої громадськості важливість постійного контакту з обраними посадовими особами щодо підтримки України, оскільки це є найефективніший спосіб внести зміни в поточний політичний процес.\r\n3. Полегшення способу для жителів Сполучених Штатів зв’язатися зі своїми конгресменами через онлайн-форму, доступну на нашому веб-сайті. Проект надає відвідувачам сайту шаблон, який вони можуть використати як лист підтримки України своїм конгресменам або написати власний лист підтримки.\r\n4. Підвищення обізнаності громадськості про Проект шляхом популяризації його змісту через соціальні мережі та інші засоби комунікації.\r\n\r\n**Основні принципи проекту**\r\n\r\nПроект ProtectUkraineNow.org є неурядовою організацією. Учасники проекту – волонтери з різних країн світу.\r\n\r\nУчасників проекту об’єднує спільна мета, тому всі учасники проекту з повагою ставляться один до одного та до діяльності кожного учасника проекту, незалежно від віку, досвіду, попередніх заслуг, національності, віросповідання, політичних поглядів тощо.\r\n\r\nУчасники проекту погоджуються, що об’єктивність і точність надання інформації та захист народу України є важливішими за їхні власні політичні, релігійні, національні чи інші особисті уподобання.\r\n\r\n**Як ви можете допомогти?**\r\n\r\n1. Ефективність нашого проекту безпосередньо залежить від кількості людей, яких ми можемо охопити. Будь ласка, допоможіть нам із поширенням інформації про проект Protect Ukraine Now серед ваших знайомих, друзів, колег, родичів у США та по всьому світу. Слідкуйте за нами у Facebook, ставте лайки та діліться нашими публікаціями.\r\n2. Жителі США можуть використовувати наш веб-сайт, щоб надіслати листа підтримки України своїм представникам у Конгресі. Письмо до Конгресу – це найефективніший спосіб зробити так, щоб ваш голос був почутий і вплинути на зміни. Такий спосіб участі в політичному процесі є одним із основоположних принципів демократії і до нього слід ставитися з належною серйозністю.\r\n3. Якщо ви бажаєте приєднатися до проекту та маєте навички в таких сферах: маркетинг, SMM, програмування, ілюстрація, розробка сайтів, переклад (українська, англійська, інші європейські мови), будь ласка, зв’яжіться з нами з пропозицією допомогти та опис вашої спеціалізації на [ProtectUkraineNOW@gmail.com](mailto:ProtectUkraineNOW@gmail.com)\r\n\r\n**Дані та аналітика**\r\n\r\nЗазначені вище цілі досягаються шляхом створення та оновлення дайджесту з ключовими новинами; надання інформації про військову допомогу, яку надають Україні союзники.\r\n\r\nПроект «Захистимо Україну зараз» використовує лише загальнодоступні джерела даних, а всі відповідні посилання наведено на сайті проекту.\r\n\r\n**«Захистимо Україну зараз» може допомогти?**\r\n\r\n**Ми повністю відкриті до взаємної співпраці з будь-якими організаціями, метою яких є забезпечення якнайшвидшої перемоги України.**"
-		},
-		"root": {},
 		"letter": {
-			"header": "Врятуйте життя cвоєю петицією!",
-			"title": "Вимагайте від своїх представників надати Україні зброю перемоги",
-			"description": "- Невинних людей щодня вбивають у їхніх будинках; на Святвечір було вбито 17 мирних жителів, 71 поранено\n\n- Перемога України є важливою для глобальної стабільності та безпеки США\n\n- Генерал Залужний готовий закінчити цю війну: \n\n    > «Я знаю, що можу перемогти цього ворога. Але мені потрібні ресурси. Мені потрібно 300 танків, 600-700 БМП, 500 гаубиць»",
-			"image": "https://protectukrainenow.org/assets/support.webp"
-		}
+			"header": "Україні потрібна громадська підтримка!",
+			"description": "Ваш лист до Конгресу\r\n\r\n- Підтримає політиків, відданих українській перемозі\n- Скаже політикам, які виступають проти допомоги Україні, що вони не праві\n- Сприятиме формуванню громадської думки на користь України"
+		},
+		"pun/about": {
+			"content": "### Цілі проекту\n\nПроект «Захистимо Україну зараз» – це ініціатива людей, які глибоко вболівають за українців та Україну та мають сильну волю та бажання допомогти Україні протистояти неспровокованій агресії з боку Російської Федерації, перемогти у війні та врятувати якомога більше українських життів.\n\nУчасники проекту вважають, що цей конфлікт не має дипломатичного вирішення, і для забезпечення довгострокового миру в Україні Російська Федерація повинна зазнати повної військової поразки в розпочатій ними війні. Основна мета проекту полягає в наступному:\n\n**Не допустити переростання наступу на Україну в тривалу війну та сприяти військовому розгрому Російської Федерації в Україні**\n\nУчасники проекту Protect Ukraine Now шляхом аналізу даних та аналітики дійшли висновку, що нинішня стратегія, яку використовує колективний Захід, потребує суттєвого перегляду. Якщо вона залишиться незмінною, нинішня стратегія неминуче призведе до багаторічного конфлікту з вражаючими жертвами та руйнуваннями. Проект протистоїть цьому результату такими засобами:\n\n1. Забезпечує неупереджене та повне інформування широкої громадськості про реальний стан військової допомоги Україні. Це необхідно для того, щоб протистояти оманливим і неточним даним, яких у надлишку існують в інформаційному просторі.\n2. Доносить до широкої громадськості важливість постійного контакту з обраними посадовими особами щодо підтримки України, оскільки це є найефективніший спосіб внести зміни в поточний політичний процес.\n3. Полегшення способу для жителів Сполучених Штатів зв’язатися зі своїми конгресменами через онлайн-форму, доступну на нашому веб-сайті. Проект надає відвідувачам сайту шаблон, який вони можуть використати як лист підтримки України своїм конгресменам або написати власний лист підтримки.\n4. Підвищення обізнаності громадськості про Проект шляхом популяризації його змісту через соціальні мережі та інші засоби комунікації.\n\n### Основні принципи проекту\n\nПроект ProtectUkraineNow.org є неурядовою організацією. Учасники проекту – волонтери з різних країн світу.\n\nУчасників проекту об’єднує спільна мета, тому всі учасники проекту з повагою ставляться один до одного та до діяльності кожного учасника проекту, незалежно від віку, досвіду, попередніх заслуг, національності, віросповідання, політичних поглядів тощо.\n\nУчасники проекту погоджуються, що об’єктивність і точність надання інформації та захист народу України є важливішими за їхні власні політичні, релігійні, національні чи інші особисті уподобання.\n\n### Як ви можете допомогти?\n\n1. Ефективність нашого проекту безпосередньо залежить від кількості людей, яких ми можемо охопити. Будь ласка, допоможіть нам із поширенням інформації про проект Protect Ukraine Now серед ваших знайомих, друзів, колег, родичів у США та по всьому світу. Слідкуйте за нами у Facebook, ставте лайки та діліться нашими публікаціями.\n2. Жителі США можуть використовувати наш веб-сайт, щоб надіслати листа підтримки України своїм представникам у Конгресі. Письмо до Конгресу – це найефективніший спосіб зробити так, щоб ваш голос був почутий і вплинути на зміни. Такий спосіб участі в політичному процесі є одним із основоположних принципів демократії і до нього слід ставитися з належною серйозністю.\n3. Якщо ви бажаєте приєднатися до проекту та маєте навички в таких сферах: маркетинг, SMM, програмування, ілюстрація, розробка сайтів, переклад (українська, англійська, інші європейські мови), будь ласка, зв’яжіться з нами з пропозицією допомогти та опис вашої спеціалізації на [ProtectUkraineNOW@gmail.com](mailto:ProtectUkraineNOW@gmail.com)\n\n### Дані та аналітика\n\nЗазначені вище цілі досягаються шляхом створення та оновлення дайджесту з ключовими новинами; надання інформації про військову допомогу, яку надають Україні союзники.\n\nПроект «Захистимо Україну зараз» використовує лише загальнодоступні джерела даних, а всі відповідні посилання наведено на сайті проекту.\n\n### «Захистимо Україну зараз» може допомогти?\n\n**Ми повністю відкриті до взаємної співпраці з будь-якими організаціями, метою яких є забезпечення якнайшвидшої перемоги України.**"
+		},
+		"uat/about": {}
 	}
 }

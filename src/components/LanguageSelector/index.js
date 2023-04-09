@@ -1,19 +1,12 @@
-import { Match } from 'preact-router/match';
-import Menu from '../Menu';
+import { useUrl } from '../../tools/url'
+import { replaceLanguageInUrl } from '../../tools/language'
+import Menu from '../Menu'
 
-const Index = ({ items, className, linkClassName, activeClassName, onClick, ...props }) => (
-	<Match>
-		{({ url }) => (
-			<Menu
-				{...props}
-				onClick={onClick}
-				className={className}
-				activeClassName={activeClassName}
-				linkClassName={linkClassName}
-				items={items(url)}
-			/>
-		)}
-	</Match>
-);
-
-export default Index;
+export default function LanguageSelector({ items, ...props }) {
+	if (!items) return
+	const url = useUrl()
+	items = Object.entries(items).map(([key, text]) =>
+		[text, replaceLanguageInUrl(url, key)]
+	)
+	return <Menu items={items} {...props} />
+}
