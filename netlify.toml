@@ -1,6 +1,6 @@
 
 [build]
-  command = "yarn build"
+  command = "yarn build:pun"
   publish = "build"
 [build.environment]
   YARN_VERSION = "1.9.4"

@@ -6,9 +6,9 @@
 			"image": "https://protectukrainenow.org/assets/support.webp"
 		},
 		"uat/seo": {
-			"title": "Ukraine Military Aid Tracker",
+			"title": "Military Aid to Ukraine",
 			"description": "Weapons possessed, committed, provided",
-			"image": "https://protectukrainenow.org/assets/report.en.20230306.webp"
+			"image": "https://protectukrainenow.org/assets/report.en.20230409.webp"
 		},
 		"country": {
 			"ua": "Ukraine",
@@ -44,7 +44,7 @@
 			"subtitle": "as of {{till}}",
 			"possessed": "Possessed",
 			"pda": "Provided",
-			"description": "- Includes equipment in store\n- Air Defense: number of launchers is shown\n- IFVs: includes all Bradley and Stryker variants\n- Sources: iiss.org, armedforces.eu, globalsecurity.org, wikipedia.org"
+			"description": "- Includes equipment in store\n- Air Defense: number of launchers is shown\n- IFVs: includes all Bradley and Stryker variants\n- Sources: iiss.org, armedforces.eu, globalsecurity.org, wikipedia.org, defense.gov"
 		},
 		"report": {
 			"banner_title": "Protect Ukraine now before it's too late!",
@@ -124,7 +124,7 @@
 			"subtitle": "на {{till}}",
 			"possessed": "Наявна",
 			"pda": "Поставлена",
-			"description": "- Включає техніку на зберіганні\n- ППО: показано кількість пускових установок\n- БМП: включає всі варіанти Bradley і Stryker\n- Джерела: iiss.org, Armedforces.eu, globalsecurity.org, wikipedia.org"
+			"description": "- Включає техніку на зберіганні\n- ППО: показано кількість пускових установок\n- БМП: включає всі варіанти Bradley і Stryker\n- Джерела: iiss.org, Armedforces.eu, globalsecurity.org, wikipedia.org, defense.gov"
 		},
 		"report": {
 			"banner_title": "Захистить Україну зараз, поки не пізно!",
