@@ -14,6 +14,7 @@ import reportBannerImage from 'src/assets/banner-bg.webp'
 import detectCountry from 'src/tools/detectCountry'
 
 const style = import.meta.env.VITE_APP_NAME === 'pun' ? punStyle : uatStyle
+// const style = punStyle
 
 export default function Report() {
 	const language = useLanguage()

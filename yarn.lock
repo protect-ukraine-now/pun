@@ -492,6 +492,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@hattip/adapter-cloudflare-workers@npm:^0.0.34":
+  version: 0.0.34
+  resolution: "@hattip/adapter-cloudflare-workers@npm:0.0.34"
+  dependencies:
+    "@hattip/core": 0.0.34
+  checksum: a1b3e3eef39f8215e65ba5b003ca0d8e747ecd6b63a4d845f63dea5eebdfc69a1a2ce8be66414198ae31ba10d4a266383c8b9550a40c8fab717263008119025d
+  languageName: node
+  linkType: hard
+
+"@hattip/adapter-netlify-edge@npm:^0.0.34":
+  version: 0.0.34
+  resolution: "@hattip/adapter-netlify-edge@npm:0.0.34"
+  dependencies:
+    "@hattip/core": 0.0.34
+  checksum: f80729c7441a5c7b67e06e52ab10c5def24fe8917019e3aa66993c309cace941f9b74cba31a4c0ef651adb297f3ad834868e6d619c0cdc4a7c120cabfd2cfaa5
+  languageName: node
+  linkType: hard
+
 "@hattip/adapter-node@npm:^0.0.29":
   version: 0.0.29
   resolution: "@hattip/adapter-node@npm:0.0.29"
@@ -566,6 +584,13 @@ __metadata:
   version: 0.0.29
   resolution: "@hattip/core@npm:0.0.29"
   checksum: d3046d07d455ec05631d40fa71629e118c57651eed69b18f3a7d5b901727a8b791c2768e8d0928ced43af7d783b28e2c5964941206c371f3c921bdf0f093c96a
+  languageName: node
+  linkType: hard
+
+"@hattip/core@npm:0.0.34":
+  version: 0.0.34
+  resolution: "@hattip/core@npm:0.0.34"
+  checksum: 3c1117c853be618f3a1cd2b2ebd111cdffe0db73f7d0841a0ce4b05bda7dd7e1ca015627d697c139573bea60c31ed13e72ab1564fc10133d032ec5caad9ed549
   languageName: node
   linkType: hard
 
@@ -4304,6 +4329,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "protect-ukraine-now@workspace:."
   dependencies:
+    "@hattip/adapter-cloudflare-workers": ^0.0.34
+    "@hattip/adapter-netlify-edge": ^0.0.34
     "@rakkasjs/eslint-config": 0.6.20
     "@types/react": ^18.0.28
     "@types/react-dom": ^18.0.11

@@ -10,7 +10,12 @@ Object.keys(process.env).forEach((key) => {
 })
 
 export default defineConfig({
-	plugins: [tsconfigPaths(), rakkas()],
+	plugins: [
+		tsconfigPaths(),
+		rakkas({
+//			adapter: process.env.VITE_APP_NAME === 'pun' ? "netlify-edge" : "cloudflare-workers",
+		}),
+	],
 	define: viteEnv,
 	resolve: {
 		alias: {

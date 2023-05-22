@@ -1,0 +1,11 @@
+name = "protect-ukraine-now"
+compatibility_date = "2023-05-22"
+compatibility_flags = [
+  "streams_enable_constructors",
+]
+main = "dist/server/cloudflare-workers-bundle.js"
+usage_model = 'bundled'
+workers_dev = true
+
+[site]
+bucket = "./dist/client"
