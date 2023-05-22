@@ -1,6 +1,7 @@
-import { useLocation, Link } from 'rakkasjs'
+import { Link } from 'rakkasjs'
 
-import style from './style.module.scss'
+import punStyle from './pun.module.scss'
+import uatStyle from './uat.module.scss'
 import { useLanguage, useText } from 'src/tools/language'
 import Container from 'src/components/Container'
 import Summary from 'src/components/Summary'
@@ -11,6 +12,8 @@ import AidChart from 'src/components/AidChart'
 import Banner from 'src/components/Banner'
 import reportBannerImage from 'src/assets/banner-bg.webp'
 import detectCountry from 'src/tools/detectCountry'
+
+const style = import.meta.env.VITE_APP_NAME === 'pun' ? punStyle : uatStyle
 
 export default function Report() {
 	const language = useLanguage()

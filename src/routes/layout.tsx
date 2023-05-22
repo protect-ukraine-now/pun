@@ -7,7 +7,6 @@ import logo1 from 'src/assets/logo/logo-horizontal-light.svg'
 import logo2 from 'src/assets/logo/logo-dark-horizontal.svg'
 import Header from 'src/components/Header'
 import Footer from 'src/components/Footer'
-// import 'src/tools/scrollToTopOnNavigation'
 
 console.log('app:', import.meta.env.VITE_APP_NAME)
 
