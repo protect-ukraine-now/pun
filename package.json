@@ -1,10 +1,11 @@
 {
 	"name": "protect-ukraine-now",
 	"description": "Protect Ukraine Now",
-	"version": "2.0.0",
-	"license": "MIT",
+	"version": "4.0.0",
 	"type": "module",
+	"packageManager": "yarn@3.5.1",
 	"private": true,
+	"license": "MIT",
 	"homepage": "https://protectukrainenow.org",
 	"scripts": {
 		"load": "node src/data/load.js",
