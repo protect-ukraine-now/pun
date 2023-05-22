@@ -3,7 +3,7 @@ const loadData = require('./load')
 async function pages(pages, languages) {
 	const data = await loadData()
 	const { text } = data
-	const seo = lang => text[lang][`${process.env.PREACT_APP_NAME}/seo`]
+	const seo = lang => text[lang][`${process.env.VITE_APP_NAME}/seo`]
 
 	pages = [
 		{

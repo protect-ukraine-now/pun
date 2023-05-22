@@ -1,4 +1,4 @@
-const fs = require('fs')
+import fs from 'fs'
 
 let indexText = text => text.reduce((a, [group, key, en, uk]) => {
     a.en[group] = { ...(a.en[group] || {}), [key]: en }
@@ -59,4 +59,4 @@ async function loadData() {
     return data
 }
 
-module.exports = loadData
+await loadData()
