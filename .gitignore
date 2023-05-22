@@ -1,7 +1,8 @@
 .wrangler
+.netlify
+netlify
 
 dist
-netlify
 node_modules
 
 .pnp.*
