@@ -904,15 +904,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@hattip/adapter-netlify-edge@npm:^0.0.34":
-  version: 0.0.34
-  resolution: "@hattip/adapter-netlify-edge@npm:0.0.34"
-  dependencies:
-    "@hattip/core": 0.0.34
-  checksum: f80729c7441a5c7b67e06e52ab10c5def24fe8917019e3aa66993c309cace941f9b74cba31a4c0ef651adb297f3ad834868e6d619c0cdc4a7c120cabfd2cfaa5
-  languageName: node
-  linkType: hard
-
 "@hattip/adapter-node@npm:^0.0.29":
   version: 0.0.29
   resolution: "@hattip/adapter-node@npm:0.0.29"
@@ -10711,7 +10702,6 @@ __metadata:
   dependencies:
     "@hattip/adapter-cloudflare-workers": ^0.0.34
     "@hattip/adapter-deno": ^0.0.34
-    "@hattip/adapter-netlify-edge": ^0.0.34
     "@rakkasjs/eslint-config": 0.6.20
     "@types/react": ^18.0.28
     "@types/react-dom": ^18.0.11
