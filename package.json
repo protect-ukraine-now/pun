@@ -9,12 +9,13 @@
 	"homepage": "https://protectukrainenow.org",
 	"scripts": {
 		"load": "node src/data/load.js",
-		"dev": "cross-env VITE_APP_NAME='pun' vite",
-		"dev:pun": "cross-env VITE_APP_NAME='pun' vite",
-		"dev:uat": "cross-env VITE_APP_NAME='uat' vite",
-		"build": "yarn load && cross-env VITE_APP_NAME='pun' rakkas build",
-		"build:pun": "yarn load && cross-env VITE_APP_NAME='pun' rakkas build",
-		"build:uat": "yarn load && cross-env VITE_APP_NAME='uat' rakkas build"
+		"dev": "set VITE_APP_NAME=pun&& vite",
+		"dev:pun": "set VITE_APP_NAME=pun&& vite",
+		"dev:uat": "set VITE_APP_NAME=uat&& vite",
+		"build": "yarn load && set VITE_APP_NAME=pun&& rakkas build && yarn move",
+		"build:pun": "yarn load && set VITE_APP_NAME=pun&& rakkas build && yarn move",
+		"build:uat": "yarn load && set VITE_APP_NAME=uat&& rakkas build && yarn move",
+		"move": "mv dist/server/cloudflare-workers-bundle.js dist/client/_worker.js"
 	},
 	"devDependencies": {
 		"@rakkasjs/eslint-config": "0.6.20",
