@@ -14,7 +14,7 @@
 		"dev:uat": "set VITE_APP_NAME=uat&& vite",
 		"build": "yarn load && set VITE_APP_NAME=pun&& rakkas build && yarn move",
 		"build:pun": "yarn load && set VITE_APP_NAME=pun&& rakkas build && yarn move",
-		"build:uat": "yarn load && set VITE_APP_NAME=uat&& rakkas build && yarn move",
+		"build:uat": "yarn load && crossenv VITE_APP_NAME='uat' && rakkas build && yarn move",
 		"move": "mv dist/server/cloudflare-workers-bundle.js dist/client/_worker.js"
 	},
 	"devDependencies": {
