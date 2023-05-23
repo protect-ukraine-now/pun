@@ -33,5 +33,5 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "pun-rakkas"
-          entrypoint: "dist/deno/mod.js" # 📝 Update the entrypoint
+          entrypoint: "deno/mod.js" # 📝 Update the entrypoint
           root: "dist"
