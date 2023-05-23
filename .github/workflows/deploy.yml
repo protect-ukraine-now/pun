@@ -34,4 +34,4 @@ jobs:
         with:
           project: "pun-rakkas"
           entrypoint: "dist/deno/mod.js" # 📝 Update the entrypoint
-          root: "."
+          root: "dist"
