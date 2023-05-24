@@ -1,5 +1,5 @@
 name = "protect-ukraine-now"
-compatibility_date = "2021-11-01"
+compatibility_date = "2023-05-15"
 main = "dist/server/cloudflare-workers-bundle.js"
 usage_model = 'bundled'
 workers_dev = true
