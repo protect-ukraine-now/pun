@@ -2,6 +2,6 @@
 command = "yarn build:pun"
 publish = "netlify/static"
 
-#[[edge_functions]]
-#function = "edge"
-#path = "/*"
+# [[edge_functions]]
+# function = "edge"
+# path = "/*"
