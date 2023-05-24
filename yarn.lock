@@ -904,6 +904,28 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@hattip/adapter-netlify-functions@npm:^0.0.34":
+  version: 0.0.34
+  resolution: "@hattip/adapter-netlify-functions@npm:0.0.34"
+  dependencies:
+    "@hattip/adapter-node": 0.0.34
+    "@hattip/core": 0.0.34
+    "@hattip/polyfills": 0.0.34
+    netlify-lambda-types: ^1.0.0
+  checksum: 4af98924446bf4124becfce0da96fb5bdcd228cf23ec3cd4f816f5c98a6234df956774d487ea02cf2d0553d5740765a3ea2e90c34a0bf76dc18e794aebb8adf7
+  languageName: node
+  linkType: hard
+
+"@hattip/adapter-node@npm:0.0.34":
+  version: 0.0.34
+  resolution: "@hattip/adapter-node@npm:0.0.34"
+  dependencies:
+    "@hattip/core": 0.0.34
+    "@hattip/polyfills": 0.0.34
+  checksum: 78f451a5c3769510c3eec750a560ed711437b4d7800afecb03a365c6e4f0e649e6ddc30106677c116141d56a53360755d46bc12a698c671fd1f5a2c1811dbf3a
+  languageName: node
+  linkType: hard
+
 "@hattip/adapter-node@npm:^0.0.29":
   version: 0.0.29
   resolution: "@hattip/adapter-node@npm:0.0.29"
@@ -995,6 +1017,16 @@ __metadata:
     "@hattip/core": 0.0.29
     node-fetch-native: ^1.0.2
   checksum: a767ed3afd436fbe0e2e49bd44604531b03e593853e0ceb063fa00c23f43e4a0d86a147f37442d3f859c2ae3a5bf64a187a1f7f9cc47340e960246fc9ae70b21
+  languageName: node
+  linkType: hard
+
+"@hattip/polyfills@npm:0.0.34":
+  version: 0.0.34
+  resolution: "@hattip/polyfills@npm:0.0.34"
+  dependencies:
+    "@hattip/core": 0.0.34
+    node-fetch-native: ^1.0.2
+  checksum: d9e87ee536ecd98ca73d6250bba3a67023dc42a9e1bd4f906383a4be946518ff3e95b04ee74b5b890f9c6ef31e4ef941a46096d06b00a5ac1cc05a35a0653299
   languageName: node
   linkType: hard
 
@@ -2179,6 +2211,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/aws-lambda@npm:^8.10.57":
+  version: 8.10.115
+  resolution: "@types/aws-lambda@npm:8.10.115"
+  checksum: 58c924812b0dac2e13118cbda05594f820033d2df572e0e264443cdfdb7ea07ed725614f0d5841b3f3bcf48bca7d3aa0da5b5ad3bf51ae74dadf9962037e23b5
+  languageName: node
+  linkType: hard
+
 "@types/cacheable-request@npm:^6.0.1":
   version: 6.0.3
   resolution: "@types/cacheable-request@npm:6.0.3"
@@ -2266,6 +2305,13 @@ __metadata:
   version: 20.2.3
   resolution: "@types/node@npm:20.2.3"
   checksum: 576065e8fc1fa45798c8f59a6bf809169582d04abc2e25fab1a048ffc734975b9992ae31be0d960cf705a21fb37112f7fcde11aa322beddf7491e73d5a5a988c
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^14.0.14":
+  version: 14.18.47
+  resolution: "@types/node@npm:14.18.47"
+  checksum: 249467fa37e60bb7ce631616a5fea53f3b957a6792c6a09f7db7cdff85a7410c9e657dd9fa54bcc9d878e58f35407ce35169b84556f46b2154f90bc71063e1d0
   languageName: node
   linkType: hard
 
@@ -9489,6 +9535,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"netlify-lambda-types@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "netlify-lambda-types@npm:1.0.0"
+  dependencies:
+    "@types/aws-lambda": ^8.10.57
+    "@types/node": ^14.0.14
+  checksum: 8260bebd58725071bd02573784dae110a9c43fdc883e41e40fd172bd733aa50d5e9b00e59c7f583fe1d290ae00898911c7a64aff8e3796dd4b1cec77a41774a7
+  languageName: node
+  linkType: hard
+
 "netlify-redirect-parser@npm:14.1.2, netlify-redirect-parser@npm:^14.1.2":
   version: 14.1.2
   resolution: "netlify-redirect-parser@npm:14.1.2"
@@ -10702,6 +10758,7 @@ __metadata:
   dependencies:
     "@hattip/adapter-cloudflare-workers": ^0.0.34
     "@hattip/adapter-deno": ^0.0.34
+    "@hattip/adapter-netlify-functions": ^0.0.34
     "@rakkasjs/eslint-config": 0.6.20
     "@types/react": ^18.0.28
     "@types/react-dom": ^18.0.11
