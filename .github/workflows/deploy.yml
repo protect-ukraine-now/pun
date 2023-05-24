@@ -9,9 +9,6 @@ jobs:
   deploy:
     name: Deploy
     runs-on: ubuntu-latest
-    permissions:
-      id-token: write # Needed for auth with Deno Deploy
-      contents: read # Needed to clone the repository
 
     steps:
       - name: Clone repository
@@ -27,11 +24,9 @@ jobs:
         run: yarn --immutable
 
       - name: Build
-        run: yarn build:pun # 📝 Update the build command(s)
+        run: yarn build:uat # 📝 Update the build command(s)
 
-      - name: Upload to Deno Deploy
-        uses: denoland/deployctl@v1
+      - name: Publish
+        uses: cloudflare/wrangler-action@2.0.0
         with:
-          project: "pun-rakkas"
-          entrypoint: "mod.js" # 📝 Update the entrypoint
-          root: "dist/deno"
+          apiToken: ${{ secrets.CF_API }}
