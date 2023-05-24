@@ -13,7 +13,7 @@ export default defineConfig({
 	plugins: [
 		tsconfigPaths(),
 		rakkas({
-			adapter: 'netlify' // process.env.VITE_APP_NAME === 'pun' ? 'netlify' : 'cloudflare-workers',
+			adapter: 'netlify-edge' // process.env.VITE_APP_NAME === 'pun' ? 'netlify' : 'cloudflare-workers',
 		}),
 	],
 	define: viteEnv,
