@@ -1,7 +1,5 @@
 name: Deploy
 on:
-  push:
-    branches: master
   pull_request:
     branches: master
 
@@ -25,6 +23,9 @@ jobs:
 
       - name: Build
         run: yarn build:uat # 📝 Update the build command(s)
+
+      - name: Stage
+        run: yarn stage
 
       - name: Publish
         uses: cloudflare/wrangler-action@2.0.0
