@@ -18,11 +18,18 @@ jobs:
           node-version-file: .nvmrc
           cache: yarn
 
+      - name: Cache
+        uses: actions/cache@v2
+        with:
+          path: '**/node_modules'
+          key: ${{ runner.os }}-modules-${{ hashFiles('yarn.lock', '.nvmrc') }}
+
       - name: Install dependencies
-        run: yarn --immutable
+        if: steps.yarn-cache.outputs.cache-hit != 'true'
+        run: yarn
 
       - name: Build
-        run: yarn build:uat # 📝 Update the build command(s)
+        run: yarn build
 
       - name: Publish
         uses: cloudflare/wrangler-action@2.0.0
