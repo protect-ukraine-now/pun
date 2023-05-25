@@ -15,19 +15,19 @@
 		"build": "yarn load && cross-env VITE_APP_NAME='pun' && rakkas build",
 		"build:pun": "yarn load && cross-env VITE_APP_NAME='pun' && rakkas build",
 		"build:uat": "yarn load && cross-env VITE_APP_NAME='uat' && rakkas build",
-		"stage": "sed -i 's/name = \"pun\"/name = \"pun-stage\"/g' wrangler.toml"
+		"switch:prod": "sed -i 's/pun-stage/pun/g' wrangler.toml",
+		"deploy:stage": "yarn build && wrangler deploy"
 	},
 	"devDependencies": {
 		"@rakkasjs/eslint-config": "0.6.20",
 		"@types/react": "^18.0.28",
 		"@types/react-dom": "^18.0.11",
-		"@yarnpkg/sdks": "^3.0.0-rc.44",
 		"eslint": "^8.34.0",
 		"rakkasjs": "0.6.20",
 		"typescript": "^4.9.5",
 		"vite": "^4.1.3",
 		"vite-tsconfig-paths": "^4.0.5",
-		"wrangler": "^3.0.0"
+		"wrangler": "^3.0.1"
 	},
 	"dependencies": {
 		"@hattip/adapter-cloudflare-workers": "^0.0.34",

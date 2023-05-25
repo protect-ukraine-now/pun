@@ -22,7 +22,10 @@ jobs:
         run: yarn --immutable
 
       - name: Build
-        run: yarn build:uat # 📝 Update the build command(s)
+        run: yarn build:uat
+
+      - name: Switch
+        run: yarn switch:prod
 
       - name: Publish
         uses: cloudflare/wrangler-action@2.0.0
