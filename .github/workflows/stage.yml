@@ -18,8 +18,15 @@ jobs:
           node-version-file: .nvmrc
           cache: yarn
 
+      - name: Cache
+        uses: actions/cache@v2
+        with:
+          path: '**/node_modules'
+          key: ${{ runner.os }}-modules-${{ hashFiles('yarn.lock', '.nvmrc') }}
+
       - name: Install dependencies
-        uses: bahmutov/npm-install@v1
+        if: steps.yarn-cache.outputs.cache-hit != 'true'
+        run: yarn --immutable
 
       - name: Build
         run: yarn build
