@@ -6,7 +6,7 @@ import { useApp } from './app'
 
 export function useLanguage() {
 	const { current } = useLocation()
-	return current.pathname.split('/')[1]
+	return current.pathname.split('/')[1] || 'en'
 }
 
 export function useText() {
