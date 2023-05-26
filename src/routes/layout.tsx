@@ -7,8 +7,7 @@ import logo1 from 'src/assets/logo/logo-horizontal-light.svg'
 import logo2 from 'src/assets/logo/logo-dark-horizontal.svg'
 import Header from 'src/components/Header'
 import Footer from 'src/components/Footer'
-
-console.log('app:', import.meta.env.VITE_APP_NAME)
+import { useApp } from 'src/tools/app'
 
 const config = {
 	pun: {
@@ -37,7 +36,7 @@ const config = {
 
 const MainLayout: Layout = ({ children }) => {
 	const language = useLanguage()
-	const { header, footer } = config[import.meta.env.VITE_APP_NAME ?? 'pun']
+	const { header, footer } = config[useApp()]
 	return <>
 		<Head prioritizeSeoTags>
 			<html lang={language} />

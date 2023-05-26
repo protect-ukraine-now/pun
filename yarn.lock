@@ -31,7 +31,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:^7.21.4, @babel/core@npm:^7.21.8":
+"@babel/core@npm:^7.20.12, @babel/core@npm:^7.21.0":
   version: 7.21.8
   resolution: "@babel/core@npm:7.21.8"
   dependencies:
@@ -209,7 +209,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-transform-react-jsx-self@npm:^7.21.0":
+"@babel/plugin-transform-react-jsx-self@npm:^7.18.6":
   version: 7.21.0
   resolution: "@babel/plugin-transform-react-jsx-self@npm:7.21.0"
   dependencies:
@@ -711,73 +711,80 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@hattip/adapter-node@npm:0.0.34":
-  version: 0.0.34
-  resolution: "@hattip/adapter-node@npm:0.0.34"
+"@hattip/adapter-node@npm:^0.0.29":
+  version: 0.0.29
+  resolution: "@hattip/adapter-node@npm:0.0.29"
   dependencies:
-    "@hattip/core": 0.0.34
-    "@hattip/polyfills": 0.0.34
-  checksum: 78f451a5c3769510c3eec750a560ed711437b4d7800afecb03a365c6e4f0e649e6ddc30106677c116141d56a53360755d46bc12a698c671fd1f5a2c1811dbf3a
+    "@hattip/core": 0.0.29
+    "@hattip/polyfills": 0.0.29
+  checksum: ad5fc1e18d5df1c8d10b8f7f4d98b62e5ae2ad36e0c0098d68f92efe472b45cf80c2972af1136d52582c9a0953382c0f8cab7a3da6f65a9fa93db77415a3831d
   languageName: node
   linkType: hard
 
-"@hattip/bundler-cloudflare-workers@npm:0.0.34":
-  version: 0.0.34
-  resolution: "@hattip/bundler-cloudflare-workers@npm:0.0.34"
+"@hattip/bundler-cloudflare-workers@npm:^0.0.29":
+  version: 0.0.29
+  resolution: "@hattip/bundler-cloudflare-workers@npm:0.0.29"
   dependencies:
     cac: ^6.7.14
-    esbuild: ^0.17.12
+    esbuild: ^0.17.9
   bin:
     hattip-cloudflare-workers: cli.js
-  checksum: ca4126fd3eb0f0863d4c6701a3a1ecf3d968b42dcbbf37f049510dca7adf2a79fd422cce7678658112a999e9278f41bbd44ef0b228d37420eba7db56942b5535
+  checksum: cd0cd429214cd13db8577c969516356ff35da08c277f581485e20af64ebfdaa5c1e628455f52af27ecef84c3378d8169c7bfa4de99707d57273e1e53dcc0d713
   languageName: node
   linkType: hard
 
-"@hattip/bundler-deno@npm:0.0.34":
-  version: 0.0.34
-  resolution: "@hattip/bundler-deno@npm:0.0.34"
+"@hattip/bundler-deno@npm:^0.0.29":
+  version: 0.0.29
+  resolution: "@hattip/bundler-deno@npm:0.0.29"
   dependencies:
     cac: ^6.7.14
     cpr: ^3.0.1
-    esbuild: ^0.17.12
+    esbuild: ^0.17.9
   bin:
     hattip-deno: cli.js
-  checksum: 765b940204b460effc23fac2397c0abf2b5852089a849fb1d3ba951e6f3e6493f61c411500b0b371eb2ba2ab045785b83dc59a58f55110d0920bcb403906551a
+  checksum: dea2a81aaab2b5b48aca93ab6e6c0114cbeee37eae5a54df131f59c1fe05aa973738ef41f89ec9a3afc41e4feb874b4fa74612b535081780aa43e4f777b4ab4f
   languageName: node
   linkType: hard
 
-"@hattip/bundler-netlify@npm:0.0.34":
-  version: 0.0.34
-  resolution: "@hattip/bundler-netlify@npm:0.0.34"
+"@hattip/bundler-netlify@npm:^0.0.29":
+  version: 0.0.29
+  resolution: "@hattip/bundler-netlify@npm:0.0.29"
   dependencies:
     cac: ^6.7.14
     cpr: ^3.0.1
-    esbuild: ^0.17.12
+    esbuild: ^0.17.9
   bin:
     hattip-netlify: cli.js
-  checksum: d76630d0bee052c715b7e0f331160a1867d3adfff3ba9e362e53969d5ea47e4cd3d67f420e4ddb19fbf1cd40e07fd79378ee34c9387962cf4a093a8c88d3bc57
+  checksum: 210f07d6017202369f96b6070fc02d7cb436c0ea6361c60d9f54a2e7c0087f6e99bde02684de3692753086b1cae67910c69883a5b9a11ab74b343fad2cacba4f
   languageName: node
   linkType: hard
 
-"@hattip/bundler-vercel@npm:0.0.34":
-  version: 0.0.34
-  resolution: "@hattip/bundler-vercel@npm:0.0.34"
+"@hattip/bundler-vercel@npm:^0.0.29":
+  version: 0.0.29
+  resolution: "@hattip/bundler-vercel@npm:0.0.29"
   dependencies:
     cac: ^6.7.14
     cpr: ^3.0.1
-    esbuild: ^0.17.12
+    esbuild: ^0.17.9
   bin:
     hattip-vercel: cli.js
-  checksum: 130b8ce81210f82423d8a0ef07a758da580ef43637d07d937bf7284f950e8b8150aa7758b946a18c62c9900ed6ce7e48d606dc0048aea2fdccf46bea1df64255
+  checksum: c7db25eea4ff718e5858efde6a39ad1ec9be6fc473c3a841b56b9c801f5fa2a77cc4f33c98db22c168ba3b97292736f8bbc321f93cee35298571ebacafd89c25
   languageName: node
   linkType: hard
 
-"@hattip/compose@npm:0.0.34":
-  version: 0.0.34
-  resolution: "@hattip/compose@npm:0.0.34"
+"@hattip/compose@npm:^0.0.29":
+  version: 0.0.29
+  resolution: "@hattip/compose@npm:0.0.29"
   dependencies:
-    "@hattip/core": 0.0.34
-  checksum: fe37c6698bbdd7031af46fbab7edff6160308fca1d8c43ca3e32a7e1aa09425c5407614ead985deff641c4e5bd2883c9552f8fa44f34ab8c5f0ab6cf08b3c2ad
+    "@hattip/core": 0.0.29
+  checksum: e233ba9971c418fc32ae19808c5b5a81ce5e122a98ab6a49e06abd78ea9c5eea2cc8b22c879f91ce45a974e0cb895a63599a3f8ba2e19ba16a570a6e5040eea3
+  languageName: node
+  linkType: hard
+
+"@hattip/core@npm:0.0.29, @hattip/core@npm:^0.0.29":
+  version: 0.0.29
+  resolution: "@hattip/core@npm:0.0.29"
+  checksum: d3046d07d455ec05631d40fa71629e118c57651eed69b18f3a7d5b901727a8b791c2768e8d0928ced43af7d783b28e2c5964941206c371f3c921bdf0f093c96a
   languageName: node
   linkType: hard
 
@@ -788,13 +795,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@hattip/polyfills@npm:0.0.34":
-  version: 0.0.34
-  resolution: "@hattip/polyfills@npm:0.0.34"
+"@hattip/polyfills@npm:0.0.29, @hattip/polyfills@npm:^0.0.29":
+  version: 0.0.29
+  resolution: "@hattip/polyfills@npm:0.0.29"
   dependencies:
-    "@hattip/core": 0.0.34
+    "@hattip/core": 0.0.29
     node-fetch-native: ^1.0.2
-  checksum: d9e87ee536ecd98ca73d6250bba3a67023dc42a9e1bd4f906383a4be946518ff3e95b04ee74b5b890f9c6ef31e4ef941a46096d06b00a5ac1cc05a35a0653299
+  checksum: a767ed3afd436fbe0e2e49bd44604531b03e593853e0ceb063fa00c23f43e4a0d86a147f37442d3f859c2ae3a5bf64a187a1f7f9cc47340e960246fc9ae70b21
   languageName: node
   linkType: hard
 
@@ -997,17 +1004,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^18.15.5":
+"@types/node@npm:^18.14.0, @types/node@npm:^18.15.5":
   version: 18.16.15
   resolution: "@types/node@npm:18.16.15"
   checksum: 65bc0fd036b0abf307c26e99ca0add3248ac26664ace65f2ae6b85a8bf22d6d6cb2448995f3550d72280b017aafee7cafc03e8a594102a4151bf927236411724
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:^20.2.0":
-  version: 20.2.4
-  resolution: "@types/node@npm:20.2.4"
-  checksum: 6bc45fdc1c1c0c0e03ca9aded926a5ce0f5e8154ae476a996f22832c530a8c909cfa2979b0b08c506477e836910f8b888bbe6eb9ebb698c4cd6f1f602456a9d4
   languageName: node
   linkType: hard
 
@@ -1018,7 +1018,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:^18.0.11, @types/react-dom@npm:^18.2.4":
+"@types/react-dom@npm:^18.0.11":
   version: 18.2.4
   resolution: "@types/react-dom@npm:18.2.4"
   dependencies:
@@ -1035,17 +1035,6 @@ __metadata:
     "@types/scheduler": "*"
     csstype: ^3.0.2
   checksum: dea9d232d8df7ac357367a69dcb557711ab3d5501807ffa77cebeee73d49ee94d095f298e36853c63ed47cce097eee4c7eae2aaa8c02fac3f0171ec1b523a819
-  languageName: node
-  linkType: hard
-
-"@types/react@npm:^18.2.6":
-  version: 18.2.7
-  resolution: "@types/react@npm:18.2.7"
-  dependencies:
-    "@types/prop-types": "*"
-    "@types/scheduler": "*"
-    csstype: ^3.0.2
-  checksum: caa5da4cf929766738ec789301dc6fb6624bd48dd317d851c4c9b84b1f47cd8ebe17fe01398cadaa0bc938cd4d502d67f4b9de9ff771dc132096bdc86228efba
   languageName: node
   linkType: hard
 
@@ -1184,7 +1173,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vavite/connect@npm:^1.7.1":
+"@vavite/connect@npm:^1.5.3":
   version: 1.8.1
   resolution: "@vavite/connect@npm:1.8.1"
   dependencies:
@@ -1195,16 +1184,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vavite/expose-vite-dev-server@npm:1.7.1":
-  version: 1.7.1
-  resolution: "@vavite/expose-vite-dev-server@npm:1.7.1"
+"@vavite/expose-vite-dev-server@npm:1.5.3":
+  version: 1.5.3
+  resolution: "@vavite/expose-vite-dev-server@npm:1.5.3"
   peerDependencies:
     vite: ">=2.8.1"
-  checksum: dfaa838f31e793a4ad390746b4e04d48cb01f867fceb656932b03659eb97a9256028fa8e7048daadb3ec0c527f5cc45d287167524a9cd2eefc8cf7eb983e2d6d
+  checksum: cae4ab3bff968bf5790f45f6538605ae74b27ff13329865fef4f01130e9df8c310808e320031f46e892b8636d58dea1d11e2374a4f1d7081da739be2d3820d71
   languageName: node
   linkType: hard
 
-"@vavite/multibuild@npm:^1.7.1":
+"@vavite/multibuild@npm:^1.5.3":
   version: 1.8.1
   resolution: "@vavite/multibuild@npm:1.8.1"
   dependencies:
@@ -1217,28 +1206,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vavite/node-loader@npm:^1.7.1":
-  version: 1.8.1
-  resolution: "@vavite/node-loader@npm:1.8.1"
-  peerDependencies:
-    vite: ">=2.8.1"
-  bin:
-    vavite-loader: cli.js
-  checksum: c3d1792b9f71e82d8db17e39e388fc17c33abb37a5a8a8a05d942bfe5828730b5a19841a6c2f898641229ef00352b0bd99bebc858d08a3c4896d9ad25d2427cf
-  languageName: node
-  linkType: hard
-
-"@vitejs/plugin-react@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "@vitejs/plugin-react@npm:4.0.0"
+"@vitejs/plugin-react@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "@vitejs/plugin-react@npm:3.1.0"
   dependencies:
-    "@babel/core": ^7.21.4
-    "@babel/plugin-transform-react-jsx-self": ^7.21.0
+    "@babel/core": ^7.20.12
+    "@babel/plugin-transform-react-jsx-self": ^7.18.6
     "@babel/plugin-transform-react-jsx-source": ^7.19.6
+    magic-string: ^0.27.0
     react-refresh: ^0.14.0
   peerDependencies:
-    vite: ^4.2.0
-  checksum: 575298f66517c51348892d49b302490c48e15c9ddb0b2c5f710931804e559dceafca1be1e62cb72d0902cba5f3c98e4b1272970d328e3a62d59ecdf976e68d3d
+    vite: ^4.1.0-beta.0
+  checksum: 450fac79e67cba9e1581c860f78e687b44108ab4117663ef20db279316e03cd8e87f94fef376e27cc5e200bd52813dcc09b70ea570c7c7cc291fcd47eb260fbc
   languageName: node
   linkType: hard
 
@@ -2041,7 +2020,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"devalue@npm:^4.3.1":
+"devalue@npm:^4.3.0":
   version: 4.3.2
   resolution: "devalue@npm:4.3.2"
   checksum: 034530e3910a096e528ca6481cd80ab2a21f4a5b813fb896d421eadf52dc969dfbbd5677aa06d28a6448a0f2f7e7d91d9ed88cd9aaa497f4b34e427d80c2a8a5
@@ -2326,7 +2305,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild@npm:^0.17.12, esbuild@npm:^0.17.5":
+"esbuild@npm:^0.17.5, esbuild@npm:^0.17.9":
   version: 0.17.19
   resolution: "esbuild@npm:0.17.19"
   dependencies:
@@ -3780,12 +3759,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"magic-string@npm:^0.30.0":
-  version: 0.30.0
-  resolution: "magic-string@npm:0.30.0"
+"magic-string@npm:^0.27.0":
+  version: 0.27.0
+  resolution: "magic-string@npm:0.27.0"
   dependencies:
     "@jridgewell/sourcemap-codec": ^1.4.13
-  checksum: 7bdf22e27334d8a393858a16f5f840af63a7c05848c000fd714da5aa5eefa09a1bc01d8469362f25cc5c4a14ec01b46557b7fff8751365522acddf21e57c488d
+  checksum: 273faaa50baadb7a2df6e442eac34ad611304fc08fe16e24fe2e472fd944bfcb73ffb50d2dc972dc04e92784222002af46868cb9698b1be181c81830fd95a13e
+  languageName: node
+  linkType: hard
+
+"magic-string@npm:^0.29.0":
+  version: 0.29.0
+  resolution: "magic-string@npm:0.29.0"
+  dependencies:
+    "@jridgewell/sourcemap-codec": ^1.4.13
+  checksum: 19e5398fcfc44804917127c72ad622c68a19a0a10cbdb8d4f9f9417584a087fe9e117140bfb2463d86743cf1ed9cf4182ae0b0ad1a7536f7fdda257ee4449ffb
   languageName: node
   linkType: hard
 
@@ -4547,7 +4535,7 @@ __metadata:
     date-fns: ^2.30.0
     eslint: ^8.34.0
     markdown-to-jsx: ^7.2.0
-    rakkasjs: 0.7.0-next.11
+    rakkasjs: ^0.6.20
     rambda: ^7.5.0
     react: ^18.2.0
     react-dom: ^18.2.0
@@ -4586,37 +4574,36 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rakkasjs@npm:0.7.0-next.11":
-  version: 0.7.0-next.11
-  resolution: "rakkasjs@npm:0.7.0-next.11"
+"rakkasjs@npm:^0.6.20":
+  version: 0.6.20
+  resolution: "rakkasjs@npm:0.6.20"
   dependencies:
-    "@babel/core": ^7.21.8
-    "@babel/types": ^7.21.5
-    "@hattip/adapter-node": 0.0.34
-    "@hattip/bundler-cloudflare-workers": 0.0.34
-    "@hattip/bundler-deno": 0.0.34
-    "@hattip/bundler-netlify": 0.0.34
-    "@hattip/bundler-vercel": 0.0.34
-    "@hattip/compose": 0.0.34
-    "@hattip/core": 0.0.34
-    "@hattip/polyfills": 0.0.34
+    "@babel/core": ^7.21.0
+    "@babel/types": ^7.21.0
+    "@hattip/adapter-node": ^0.0.29
+    "@hattip/bundler-cloudflare-workers": ^0.0.29
+    "@hattip/bundler-deno": ^0.0.29
+    "@hattip/bundler-netlify": ^0.0.29
+    "@hattip/bundler-vercel": ^0.0.29
+    "@hattip/compose": ^0.0.29
+    "@hattip/core": ^0.0.29
+    "@hattip/polyfills": ^0.0.29
     "@microsoft/fetch-event-source": ^2.0.1
-    "@types/node": ^20.2.0
-    "@types/react": ^18.2.6
-    "@types/react-dom": ^18.2.4
-    "@vavite/connect": ^1.7.1
-    "@vavite/expose-vite-dev-server": 1.7.1
-    "@vavite/multibuild": ^1.7.1
-    "@vavite/node-loader": ^1.7.1
-    "@vitejs/plugin-react": ^4.0.0
+    "@types/node": ^18.14.0
+    "@types/react": ^18.0.28
+    "@types/react-dom": ^18.0.11
+    "@vavite/connect": ^1.5.3
+    "@vavite/expose-vite-dev-server": 1.5.3
+    "@vavite/multibuild": ^1.5.3
+    "@vitejs/plugin-react": ^3.1.0
     cac: ^6.7.14
     cheerio: ^1.0.0-rc.12
-    devalue: ^4.3.1
+    devalue: ^4.3.0
     fast-glob: ^3.2.12
-    magic-string: ^0.30.0
+    magic-string: ^0.29.0
     micromatch: ^4.0.5
     picocolors: ^1.0.0
-    sirv: ^2.0.3
+    sirv: ^2.0.2
   peerDependencies:
     react: 18
     react-dom: 18
@@ -4624,7 +4611,7 @@ __metadata:
   bin:
     rakkas: cli.js
     rakkasjs: cli.js
-  checksum: c572a18ef337d8d492637a742262e29c1f0098a34ed3a178a3fde25160662cc6d8521be3ba69f64d59fc3fc69bf3254bbca8f1090e243eb85ca72eb3c7f739ae
+  checksum: cea670d4338219b3044f0b053a6d0d3246240fbd9727db69a8b533da415276652f70281e7f919e98adf2cc9cb989a780b71ffa089dac47b4005324e02a82966d
   languageName: node
   linkType: hard
 
@@ -5039,7 +5026,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sirv@npm:^2.0.3":
+"sirv@npm:^2.0.2":
   version: 2.0.3
   resolution: "sirv@npm:2.0.3"
   dependencies:

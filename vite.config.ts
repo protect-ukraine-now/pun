@@ -3,9 +3,10 @@ import rakkas from 'rakkasjs/vite-plugin'
 import tsconfigPaths from 'vite-tsconfig-paths'
 
 const viteEnv = {}
-Object.keys(process.env).forEach((key) => {
+Object.entries(process.env).forEach(([key, val]) => {
 	if (key.startsWith(`VITE_`)) {
-		viteEnv[`import.meta.env.${key}`] = `'${process.env[key]}'`
+		console.log(key, val)
+		viteEnv[`import.meta.env.${key}`] = `'${val}'`
 	}
 })
 

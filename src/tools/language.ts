@@ -2,6 +2,7 @@ import { useLocation } from 'rakkasjs'
 import { path } from 'rambda'
 
 import text from '../data/text.json'
+import { useApp } from './app'
 
 export function useLanguage() {
 	const { current } = useLocation()
@@ -10,8 +11,9 @@ export function useLanguage() {
 
 export function useText() {
 	const language = useLanguage()
+	const app = useApp()
 	return (id: string, values: object = {}) => {
-		const idApp = `${import.meta.env.VITE_APP_NAME || 'pun'}/${id}`
+		const idApp = `${app}/${id}`
 		let translation: string = (
 			path(idApp.split('.'), text[language])
 			??

@@ -12,14 +12,13 @@ import AidChart from 'src/components/AidChart'
 import Banner from 'src/components/Banner'
 import reportBannerImage from 'src/assets/banner-bg.webp'
 import detectCountry from 'src/tools/detectCountry'
-
-const style = import.meta.env.VITE_APP_NAME === 'pun' ? punStyle : uatStyle
-// const style = punStyle
+import { useApp } from 'src/tools/app'
 
 export default function Report() {
 	const language = useLanguage()
 	const text = useText()
 	const country = detectCountry()
+	const style = useApp() === 'pun' ? punStyle : uatStyle
 
 	return (
 		<>
