@@ -25,9 +25,9 @@ jobs:
         uses: actions/cache@v2
         with:
           path: 'node_modules'
-          key: ${{ runner.os }}-${{ matrix.node-version }}-node_modules-${{ hashFiles('yarn.lock') }}
+          key: node_modules-${{ hashFiles('yarn.lock', '.nvmrc') }}
           restore-keys: |
-            ${{ runner.os }}-${{ matrix.node-version }}-node_modules-
+            node_modules-
 
       - name: Install dependencies
         if: steps.cache-node-modules.outputs.cache-hit != 'true'
