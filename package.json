@@ -14,7 +14,7 @@
 		"load": "node src/data/load.js",
 		"build": "yarn load && rakkas build",
 		"deploy:stage": "yarn build && wrangler deploy",
-		"switch:prod": "sed -i 's/pun-stage/pun/g' wrangler.toml"
+		"switch:prod": "sed -i 's/stage/prod/g' wrangler.toml"
 	},
 	"devDependencies": {
 		"@rakkasjs/eslint-config": "0.6.20",

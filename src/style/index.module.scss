@@ -23,12 +23,14 @@ body {
   box-sizing: border-box;
 }
 
-#root {
-  overflow-x: hidden;
-  height: 100%;
-  min-height: 100vh;
-  display: flex;
-  flex-flow: column;
-  position: relative;
-  padding-top: var(--header-height);
+:global {
+  #root {
+    overflow-x: hidden;
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column;
+    position: relative;
+    padding-top: var(--header-height);
+  }
 }

@@ -1,14 +1,44 @@
 [
 	[
+		"2023-05-25",
+		"The United States plans to announce up to $300 million worth of military aid for Ukraine comprised mainly of ammunition.",
+		"Сполучені Штати планують оголосити про надання Україні військової допомоги на суму до 300 мільйонів доларів, яка складатиметься переважно з боєприпасів.",
+		"https://www.reuters.com/world/europe/us-announce-more-military-aid-ukraine-mainly-ammunition-sources-2023-05-25/"
+	],
+	[
+		"2023-05-25",
+		"The Pentagon continues to work its way through an accounting error that overstated the value of past aid, an error that may lead the way for more weapons being sent to Ukraine.",
+		"Пентагон продовжує намагатися виправити облікову помилку, яка завищила вартість минулої допомоги, помилка, яка може стати причиною надсилання нових озброєнь в Україну.",
+		"https://www.reuters.com/world/europe/us-announce-more-military-aid-ukraine-mainly-ammunition-sources-2023-05-25/"
+	],
+	[
+		"2023-05-25",
+		"The members of the Ukraine Defense Contact Group, which meets in Germany’s Ramstein Air Base, pledged to provide $65 billion of military aid to Ukraine,",
+		"Члени Контактної групи з питань оборони України, яка збирається на німецькій авіабазі Рамштайн, пообіцяли надати Україні військову допомогу на суму 65 мільярдів доларів.",
+		"https://www.defense.gov/News/Speeches/Speech/Article/3407082/opening-remarks-by-secretary-of-defense-lloyd-j-austin-iii-at-the-12th-ukraine/"
+	],
+	[
+		"2023-05-25",
+		"Lithuania's next package of assistance announced at Ramstein meeting would provide to Ukraine drone jamming equipment, ammunition, military rations, and other types of assistance.",
+		"Наступний пакет допомоги Литви, оголошений на зустрічі в Рамштайні, передбачатиме надання Україні обладнання для постановки перешкод безпілотникам, амуніції, військового пайка та інших видів допомоги.",
+		"https://kam.lt/en/lithuania-announces-its-next-package-of-support-to-ukraine-at-the-ramstein-format-meeting/"
+	],
+	[
 		"2023-05-24",
 		"Germany’s request to buy 25 mothballed Swiss Leopard 2 tanks, intended to make up for stocks it’s sending to Ukraine, won the support of Switzerland’s government.",
 		"Заявка Німеччини на купівлю 25 законсервованих швейцарських танків Leopard 2 для компенсації запасів, які вона відправляє в Україну, отримала підтримку уряду Швейцарії.",
 		"https://www.bloomberg.com/news/articles/2023-05-24/swiss-back-sale-of-25-tanks-to-germany-to-support-ukraine-effort"
 	],
 	[
+		"2023-05-24",
+		"Finland said it would provide Ukraine with 109 million euros ($117 million) in additional military equipment to include anti-aircraft weapons and ammunition. The details of the aid would not be disclosed “for operational reasons and in order to ensure the safe delivery of assistance.” The Finland's total military assistance to Ukraine will become 1.1 billion euros ($1.2 billion). ",
+		"Фінляндія заявила, що надасть Україні 109 мільйонів євро (117 мільйонів доларів) додаткового військового обладнання, включаючи зенітну зброю та боєприпаси. Деталі допомоги не розголошуються «з оперативних причин і для забезпечення безпечної доставки допомоги». Загальна військова допомога Фінляндії Україні становитиме 1,1 млрд євро ($1,2 млрд).",
+		"https://www.rferl.org/a/finland-ukraine-military-aid-russia-invasion/32427777.html"
+	],
+	[
 		"2023-05-23",
-		"Germany has significantly increased their list of military help to Ukraine in planning or execution phase. It includes 110 Leopard 1 tanks, 20 Marder IFVs, 4 IRIS-T air defense systems with 12 launchers, 18 self-propelled anti-air GEPARD guns, anti-air rockets and ammunition, a variety of reconnaissance, military engineer and transport systems, artillery and tank shells, small arms, equipment and munitions.",
-		"Німеччина значно розширила перелік військової допомоги Україні на етапі планування або виконання. Він включає 110 танків Leopard 1, 20 БМП Marder, 4 системи ППО IRIS-T з 12 пусковими установками, 18 самохідних зенітних установок GEPARD, зенітні ракети та боєприпаси, різноманітні розвідувальні, військово-інженерні та транспортні системи, артилерійських і танкових снарядів, стрілецької зброї, техніки та боєприпасів.",
+		"Germany has significantly increased their list of military help to Ukraine in planning or execution phase. It includes \n\n- 110 Leopard 1 tanks\n- 20 Marder IFVs\n- 4 IRIS-T air defense systems with 12 launchers\n- 18 self-propelled anti-air GEPARD guns\n- anti-air rockets and ammunition\n- a variety of reconnaissance, military engineer and transport systems\n- artillery and tank shells\n- small arms, equipment and munitions",
+		"Німеччина значно розширила перелік військової допомоги Україні на етапі планування або виконання. Він включає \n\n- 110 танків Leopard 1\n- 20 БМП Marder\n- 4 системи ППО IRIS-T з 12 пусковими установками\n- 18 самохідних зенітних установок GEPARD\n- зенітні ракети та боєприпаси\n- різноманітні розвідувальні, військово-інженерні та транспортні системи\n- артилерійські і танкові снаряди\n- стрілецьку зброю, спорядження та боєприпаси",
 		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
 	],
 	[
@@ -28,6 +58,18 @@
 		"The Netherlands is contributing €260 million to a joint purchase of 155 mm ammunition for Ukraine.",
 		"Нідерланди виділять 260 мільйонів євро на спільну закупівлю 155 мм боєприпасів для України.",
 		"https://www.defensie.nl/actueel/nieuws/2023/05/23/eu-raad-defensieministers-munitie-voor-oekraine-opschaling-productie-en-nieuwe-defensieprojecten"
+	],
+	[
+		"2023-05-23",
+		"EU Foreign Affairs Council meeting on defence gathered in Brussels on May 22. The meeting addressed possibilities to accelerate the military support to Ukraine and ensure manufacturing and supply of the ammunition required.",
+		"22 травня в Брюсселі відбулося засідання Ради ЄС із закордонних справ з питань оборони, на якому обговорювалися можливості прискорити військову підтримку України та забезпечити виробництво та постачання необхідних боєприпасів.",
+		"https://www.consilium.europa.eu/en/meetings/fac/2023/05/22/"
+	],
+	[
+		"2023-05-22",
+		"Recent polls by SWG show the majority of Italians are in favor of military support of Ukraine. Among the most convinced supporters instead of military support for Ukraine are the Poles with 68% and the Spanish with 66%.",
+		"Останні опитування SWG показують, що більшість італійців виступають за військову підтримку України. Серед найбільш переконаних прихильників замість військової підтримки України – поляки з 68% та іспанці з 66%.",
+		"https://www.open.online/2023/05/22/sondaggio-swg-tgla7-invio-armi-italia-europa/"
 	],
 	[
 		"2023-05-21",
@@ -256,11 +298,5 @@
 		"Ukrainian Defense Minister Oleksii Reznikov on Twitter: \"CAESARs from Denmark are in Ukraine! ... Denmark had intended to use these systems for its army, but wisely and nobly decided to transfer them to the Ukrainian Army due to the significant threat that Russian aggression against Ukraine poses to Europe as a whole.\"",
 		"Міністр оборони України Олексій Резніков у Twitter: «CAESAR з Данії в Україні!... Данія мала намір використовувати ці системи для своєї армії, але мудро і благородно вирішила передати їх українській армії через значну загрозу російської агресії проти України для Європи в цілому».",
 		"https://twitter.com/oleksiireznikov/status/1651970145462435840?s=20"
-	],
-	[
-		"2023-04-27",
-		"The Ukrainian defense industry is developing unmanned underwater vehicles.",
-		"Український оборонно промисловий комплекс розробляє безпілотні торпеди.",
-		"https://mil.in.ua/en/news/unmanned-underwater-vehicles-are-being-developed-in-ukraine/"
 	]
 ]

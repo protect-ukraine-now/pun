@@ -1,4 +1,4 @@
-name = "pun-stage"
+name = "stage"
 compatibility_date = "2023-05-15"
 main = "dist/server/cloudflare-workers-bundle.js"
 usage_model = 'bundled'
