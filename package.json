@@ -8,9 +8,9 @@
 	"license": "MIT",
 	"homepage": "https://protectukrainenow.org",
 	"scripts": {
+		"dev": "vite",
 		"dev:pun": "cross-env VITE_APP_NAME='pun' vite",
 		"dev:uat": "cross-env VITE_APP_NAME='uat' vite",
-		"dev": "yarn dev:pun",
 		"load": "node src/data/load.js",
 		"build": "yarn load && rakkas build",
 		"deploy:stage": "yarn build && wrangler deploy",
