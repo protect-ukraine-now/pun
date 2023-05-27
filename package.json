@@ -13,6 +13,7 @@
 		"dev:uat": "cross-env VITE_APP_NAME='uat' vite",
 		"load": "node src/data/load.js",
 		"build": "yarn load && rakkas build",
+		"preview": "cross-env NODE_ENV='development' rakkas build && wrangler dev",
 		"deploy:stage": "yarn build && wrangler deploy",
 		"switch:prod": "sed -i 's/stage/prod/g' wrangler.toml"
 	},
