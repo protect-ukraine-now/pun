@@ -13,7 +13,7 @@ import reportBannerImage from 'src/assets/banner-bg.webp'
 import detectCountry from 'src/tools/detectCountry'
 import { useApp } from 'src/tools/app'
 import Vega from 'src/components/Vega'
-import testChartData from 'src/assets/test-chart.json?init'
+import sankeyData from 'src/data/vega_sankey.json?init'
 
 export default function Report() {
 	const language = useLanguage()
@@ -42,7 +42,7 @@ export default function Report() {
 				/>
 			}
 			<Container className={style.chart}>
-				<Vega id="test" spec={testChartData} />
+				<Vega id="test" spec={sankeyData} />
 			</Container>
 		</>
 	)
