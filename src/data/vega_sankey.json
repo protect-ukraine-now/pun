@@ -27,108 +27,30 @@
   "data": [
     {
       "name": "entries",
-      "values": [
-        {
-          "category": "USAA 2022, March 2022",
-          "stack": 1,
-          "sort": 1,
-          "labels": "left"
+      "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS3jrAmURTBkJy0I4mmuxY8SXvRqbEEZu5ubLVY3N5CGkgaFiOnKKIbmKEuHnj08n9Pyii3ROpNEUC5/pub?gid=1543994417&single=true&output=csv",
+      "format": {
+        "type": "csv",
+        "parse": {
+          "category": "string",
+          "stack": "number",
+          "sort": "number",
+          "labels": "string"
         },
-        {
-          "category": "+USAA 2022, May 2022",
-          "stack": 1,
-          "sort": 2,
-          "labels": "left"
-        },
-        {
-          "category": "USAA 2023, September 2022",
-          "stack": 1,
-          "sort": 3,
-          "labels": "left"
-        },
-        {
-          "category": "+USAA 2023, December 2022",
-          "stack": 1,
-          "sort": 4,
-          "labels": "left"
-        },
-        {"category": "Total", "stack": 2, "sort": 1},
-        {"category": "Direct aid to Ukraine", "stack": 3, "sort": 1},
-        {"category": "Other", "stack": 3, "sort": 2},
-        {"category": "Military Aid", "stack": 4, "sort": 1},
-        {"category": "Humanitarian & Economic Aid", "stack": 4, "sort": 2},
-        {"category": "Short-term aid (PDA)", "stack": 5, "sort": 1},
-        {"category": "Long-term aid (USAI & FMF)", "stack": 5, "sort": 2},
-        {"category": "Committed", "stack": 6, "sort": 1},
-        {"category": "Expired funds", "stack": 6, "sort": 2},
-        {"category": "Available", "stack": 6, "sort": 3}
-      ]
+        "delimiter": ","
+      }
     },
     {
       "name": "connections",
-      "values": [
-        {
-          "source": "USAA 2022, March 2022",
-          "value": 21.0783,
-          "destination": "Total"
+      "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS3jrAmURTBkJy0I4mmuxY8SXvRqbEEZu5ubLVY3N5CGkgaFiOnKKIbmKEuHnj08n9Pyii3ROpNEUC5/pub?gid=911995573&single=true&output=csv",
+      "format": {
+        "type": "csv",
+        "parse": {
+          "source": "string",
+          "destination": "string",
+          "value": "number"
         },
-        {
-          "source": "USAA 2023, September 2022",
-          "value": 10.337,
-          "destination": "Total"
-        },
-        {
-          "source": "+USAA 2022, May 2022",
-          "value": 31.048,
-          "destination": "Total"
-        },
-        {
-          "source": "+USAA 2023, December 2022",
-          "value": 49.9343,
-          "destination": "Total"
-        },
-        {
-          "source": "Total",
-          "value": 82.87,
-          "destination": "Direct aid to Ukraine"
-        },
-        {"source": "Total", "value": 29.4013, "destination": "Other"},
-        {
-          "source": "Direct aid to Ukraine",
-          "value": 48.15,
-          "destination": "Military Aid"
-        },
-        {
-          "source": "Direct aid to Ukraine",
-          "value": 34.72,
-          "destination": "Humanitarian & Economic Aid"
-        },
-        {
-          "source": "Military Aid",
-          "value": 25.5,
-          "destination": "Short-term aid (PDA)"
-        },
-        {
-          "source": "Military Aid",
-          "value": 22.65,
-          "destination": "Long-term aid (USAI & FMF)"
-        },
-        {
-          "source": "Short-term aid (PDA)",
-          "value": 20.735,
-          "destination": "Committed"
-        },
-        {
-          "source": "Short-term aid (PDA)",
-          "value": 1.775,
-          "destination": "Expired funds"
-        },
-        {
-          "source": "Short-term aid (PDA)",
-          "value": 2.99,
-          "destination": "Available"
-        }
-      ]
+        "delimiter": ","
+      }
     },
     {
       "name": "preStacks",
