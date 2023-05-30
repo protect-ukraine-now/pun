@@ -14,6 +14,26 @@
   },
   "signals": [
     {
+      "name": "width",
+      "init": "containerSize()[0]",
+      "on": [
+        {
+          "events": "window:resize",
+          "update": "containerSize()[0]"
+        }
+      ]
+    },
+    {
+      "name": "height",
+      "init": "containerSize()[0]/16*9",
+      "on": [
+        {
+          "events": "window:resize",
+          "update": "containerSize()[0]/16*9"
+        }
+      ]
+    },
+    {
       "name": "standardGap",
       "value": 14,
       "description": "Gap as a percentage of full domain"
