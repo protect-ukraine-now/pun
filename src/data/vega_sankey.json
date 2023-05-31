@@ -1,8 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
   "description": "Sankey Chart",
-  "width": 800,
-  "height": 400,
   "padding": {"bottom": 20, "left": 20, "right": 30, "top": 40},
   "title": {
     "text": "US aid to Ukraine since Feb 24, 2022",
@@ -11,6 +9,10 @@
     "dy": 0,
     "fontWeight": "bold",
     "offset": 30
+  },
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
   },
   "signals": [
     {
