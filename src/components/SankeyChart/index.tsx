@@ -4,7 +4,7 @@ import { useLanguage, useText } from 'src/tools/language'
 import { latestReport } from 'src/data/report'
 import { formatDate } from 'src/tools/date'
 import Vega from 'src/components/Vega'
-import sankeyData from 'src/data/vega_sankey.json?init'
+import sankeyData from 'src/data/sankey-w-data.vg.json?init'
 
 export default function SankeyChart() {
 	const text = useText()

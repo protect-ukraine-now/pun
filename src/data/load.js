@@ -1,5 +1,7 @@
 import fs from 'fs'
 
+import sankey from './sankey.vg.json' assert { type: "json" }
+
 let indexText = text => text.reduce((a, [group, key, en, uk]) => {
     a.en[group] = { ...(a.en[group] || {}), [key]: en }
     a.uk[group] = { ...(a.uk[group] || {}), [key]: uk }
@@ -45,18 +47,30 @@ const spreadsheets = {
     },
 }
 
-async function loadData() {
-    let tasks = Object.entries(spreadsheets).map(async ([what, { id, range, transform }]) => {
+async function loadSheets() {
+    let sheets = Object.entries(spreadsheets).map(async ([what, { id, range, transform }]) => {
         const url = `https://sheets.googleapis.com/v4/spreadsheets/${id}/values/${range}?key=${API_KEY}`
         let raw = (await (await fetch(url)).json()).values.slice(1)
         let data = transform ? transform(raw) : raw
         console.log(what, raw.length, data.length)
         let file = `src/data/${what}.json`
         fs.writeFileSync(file, JSON.stringify(data, null, '\t'))
-        return [what, data]
     })
-    let data = Object.fromEntries(await Promise.all(tasks))
-    return data
+    return Promise.all(sheets)
 }
 
-await loadData()
+async function loadVega(spec, target) {
+    let data = spec.data.map(async ({ url }, i) => {
+        if (!url) return
+        let csv = await (await fetch(url)).text()
+        delete spec.data[i].url
+        spec.data[i].values = csv
+    })
+    await Promise.all(data)
+    fs.writeFileSync(target, JSON.stringify(spec, null, '\t'))
+}
+
+await Promise.all([
+    loadSheets(),
+    loadVega(sankey, 'src/data/sankey-w-data.vg.json'),
+])
