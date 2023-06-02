@@ -46,6 +46,10 @@
 			"pda": "Provided",
 			"description": "- Includes equipment in store\n- Air Defense: number of launchers is shown\n- IFVs: includes all Bradley and Stryker variants\n- Sources: iiss.org, armedforces.eu, globalsecurity.org, wikipedia.org, defense.gov"
 		},
+		"sankey": {
+			"title": "US Aid to Ukraine",
+			"subtitle": "as of {{till}}"
+		},
 		"report": {
 			"banner_title": "Protect Ukraine now before it's too late!",
 			"banner_btn": "Click here"
@@ -125,6 +129,10 @@
 			"possessed": "Наявна",
 			"pda": "Поставлена",
 			"description": "- Включає техніку на зберіганні\n- ППО: показано кількість пускових установок\n- БМП: включає всі варіанти Bradley і Stryker\n- Джерела: iiss.org, Armedforces.eu, globalsecurity.org, wikipedia.org, defense.gov"
+		},
+		"sankey": {
+			"title": "Допомога США Україні",
+			"subtitle": "на {{till}}"
 		},
 		"report": {
 			"banner_title": "Захистить Україну зараз, поки не пізно!",

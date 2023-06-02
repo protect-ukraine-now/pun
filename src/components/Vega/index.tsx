@@ -2,11 +2,11 @@ import { ClientOnly } from 'rakkasjs'
 import AppendHead from 'react-append-head'
 import { clsx } from 'clsx'
 
-import styles from './style.module.scss'
+import style from './style.module.scss'
 
 export default function Vega({ id, spec, className }) {
 	function draw() {
-		window.vegaEmbed(`#${id}`, spec).then(result => {
+		window.vegaEmbed(`#${id}`, spec, { actions: false }).then(result => {
 			console.log('Vega', result)
 		}).catch(console.error)
 	}
@@ -17,7 +17,9 @@ export default function Vega({ id, spec, className }) {
 				<script order="2" name="vega-lite" src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
 				<script order="3" name="vega-embed" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 			</AppendHead>
-			<div id={id} className={clsx(styles.chart, className)} />
+			<div className={clsx(style.container, className)}>
+				<div id={id} className={style.chart} />
+			</div>
 		</ClientOnly>
 	)
 }

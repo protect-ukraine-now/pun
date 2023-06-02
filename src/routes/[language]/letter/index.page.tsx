@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import cn from 'clsx'
-import { Head } from 'rakkasjs'
+import { Head, ClientOnly } from 'rakkasjs'
 import Markdown from 'markdown-to-jsx'
 
 import { useText } from 'src/tools/language'
@@ -78,7 +78,9 @@ export default function Letter() {
 				</Article>
 				<br />
 				{country && country !== 'US' &&
-					<h3>(if you are a U.S. citizen and have a U.S. address)</h3>
+					<ClientOnly fallback="">
+						<h3>(if you are a U.S. citizen and have a U.S. address)</h3>
+					</ClientOnly>
 				}
 				<div id='can-letter-area-protect-ukraine-now' style={{ width: '100%' }}></div>
 			</section>

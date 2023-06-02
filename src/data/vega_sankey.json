@@ -1,15 +1,5 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
-  "description": "Sankey Chart",
-  "padding": {"bottom": 20, "left": 20, "right": 30, "top": 40},
-  "title": {
-    "text": "US aid to Ukraine since Feb 24, 2022",
-    "color": "#005ca5",
-    "fontSize": 32,
-    "dy": 0,
-    "fontWeight": "bold",
-    "offset": 30
-  },
   "autosize": {
     "type": "fit",
     "contains": "padding"
@@ -383,21 +373,6 @@
           "fill": {"value": "white"},
           "opacity": {"value": 0.7},
           "cornerRadius": {"value": 4}
-        }
-      }
-    },
-    {
-      "type": "text",
-      "data": [{}],
-      "encode": {
-        "update": {
-          "text": {"value": ["Source: https://protectukrainenow.org"]},
-          "align": {"value": "left"},
-          "lineHeight": {"value": 16},
-          "fill": {"value": "#595959"},
-          "x": {"signal": "-150"},
-          "y": {"signal": "height +70"},
-          "fontSize": {"value": 10}
         }
       }
     }

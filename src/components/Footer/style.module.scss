@@ -24,7 +24,7 @@
     flex-flow: column;
     justify-content: flex-start;
     align-items: center;
-    padding: 33px 10px 28px;
+    // padding: 33px 10px 28px;
   }
 }
 
@@ -35,6 +35,10 @@
   ),
           231px
   );
+
+  @include max-w(tablet) {
+    display: none;
+  }
 
   margin-left: 10px;
 }
@@ -84,7 +88,7 @@
   }
 
   @include max-w(tablet) {
-    margin-top: 50px;
+    // margin-top: 25px;
   }
 }
 

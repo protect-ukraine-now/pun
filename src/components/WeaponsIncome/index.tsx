@@ -12,7 +12,7 @@ import { useLanguage, useText } from 'src/tools/language'
 import { formatDate } from 'src/tools/date'
 import WeaponsTable from '../WeaponsTable'
 
-export default function WeaponsIncome({ className }) {
+export default function WeaponsIncome() {
     const language = useLanguage()
     const text = useText()
     const [report, setReport] = useState(latestReport)
@@ -69,5 +69,5 @@ export default function WeaponsIncome({ className }) {
 
     let description = text('income.description')
 
-    return <WeaponsTable {...{ title, subtitle, head, data, description, className }} />
+    return <WeaponsTable {...{ title, subtitle, head, data, description }} />
 }

@@ -5,9 +5,9 @@ import style from './style.module.scss'
 import Article from 'src/components/Article'
 import IconCell from './IconCell'
 import DataCell from './DataCell'
-import Container from '../Container'
+import Section from '../Section'
 
-const WeaponsTable = ({ className, title, subtitle, head, data, description }) => {
+const WeaponsTable = ({ title, subtitle, head, data, description }) => {
 	const left = data.slice(0, data.length / 2)
 	const right = data.slice(-data.length / 2)
 
@@ -35,11 +35,7 @@ const WeaponsTable = ({ className, title, subtitle, head, data, description }) =
 	)
 
 	return (
-		<Container className={className}>
-			<h2 className={style.heading}>
-				{title}
-				<div className={style.subHeading}>{subtitle}</div>
-			</h2>
+		<Section title={title} subtitle={subtitle} className={style.container}>
 			<div className={style.splitter}>
 				{[left, right].map(renderTableLayout)}
 			</div>
@@ -52,7 +48,7 @@ const WeaponsTable = ({ className, title, subtitle, head, data, description }) =
 					</Article>
 				</div>
 			}
-		</Container>
+		</Section>
 	)
 }
 
