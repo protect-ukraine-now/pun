@@ -36,6 +36,11 @@
       ]
     },
     {
+      "name": "fontSize",
+      "init": "containerSize()[0]/70",
+      "on": [{"events": "window:resize", "update": "containerSize()[0]/70"}]
+    },
+    {
       "name": "standardGap",
       "value": 14,
       "description": "Gap as a percentage of full domain"
@@ -358,7 +363,7 @@
           "encode": {
             "update": {
               "x": {"value": 0},
-              "y": {"value": 12},
+              "y": {"signal": "fontSize"},
               "text": {"signal": " format(datum.value, '$.1f') + ' B'"},
               "align": {"signal": "datum.labels=='left'?'right':'left'"}
             }
@@ -399,6 +404,9 @@
   ],
   "config": {
     "view": {"stroke": "transparent"},
-    "text": {"fontSize": 13, "fill": "#333333"}
+    "text": {
+      "fontSize": { "signal": "fontSize" },
+      "fill": "#333333"
+    }
   }
 }
