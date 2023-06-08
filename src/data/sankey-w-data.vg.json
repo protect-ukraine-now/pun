@@ -425,13 +425,38 @@
 		{
 			"name": "color",
 			"type": "ordinal",
-			"range": {
-				"scheme": "rainbow"
-			},
-			"domain": {
-				"data": "stacks",
-				"field": "name"
-			}
+			"range": [
+				"blue",
+				"blue",
+				"blue",
+				"blue",
+				"blue",
+				"green",
+				"grey",
+				"green",
+				"pink",
+				"green",
+				"#f2cf5b",
+				"green",
+				"red",
+				"green"
+			],
+			"domain": [
+				"USAA 2022, March 2022",
+				"+USAA 2022, May 2022",
+				"USAA 2023, September 2022",
+				"+USAA 2023, December 2022",
+				"Total",
+				"Direct aid to Ukraine",
+				"Other",
+				"Military Aid",
+				"Humanitarian & Economic Aid",
+				"Short-term aid (PDA)",
+				"Long-term aid (USAI & FMF)",
+				"Committed",
+				"Expired funds",
+				"Available"
+			]
 		}
 	],
 	"marks": [

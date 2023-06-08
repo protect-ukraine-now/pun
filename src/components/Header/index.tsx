@@ -14,9 +14,9 @@ const Header = ({ logo, menu, languages }) => {
 	return (
 		<header className={style.header}>
 			<Container className={style.container}>
-				<Link className={style.logo} href="/">
+				<div className={style.logo}>
 					{logo}
-				</Link>
+				</div>
 				<Menu
 					className={style.menu}
 					theme="light"

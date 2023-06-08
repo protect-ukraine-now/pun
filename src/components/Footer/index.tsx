@@ -14,9 +14,7 @@ const Footer = ({ logo, email }) => {
 		</div>
 		<footer className={style.footer}>
 			<Container className={style.container}>
-				<Link href="/">
-					{logo}
-				</Link>
+				{logo}
 				{/* <Menu className={style.nav} linkClassName={style.link} activeClassName={style.active} items={PAGES_MENU}/> */}
 				<a href={`mailto:${email}`} className={style.email} target="_blank" rel="noreferrer">
 					{email}
