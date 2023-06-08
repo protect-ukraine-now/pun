@@ -3,8 +3,8 @@ import 'reset-css'
 
 import 'src/style/index.module.scss'
 import { useLanguage, useText } from 'src/tools/language'
-import logo1 from 'src/assets/logo/logo-horizontal-light.svg'
-import logo2 from 'src/assets/logo/logo-dark-horizontal.svg'
+import PunLogo from 'src/components/logo/PunLogo'
+import UatLogo from 'src/components/logo/UatLogo'
 import Header from 'src/components/Header'
 import Footer from 'src/components/Footer'
 import { useApp } from 'src/tools/app'
@@ -12,25 +12,24 @@ import { useApp } from 'src/tools/app'
 const config = {
 	pun: {
 		header: {
-			logo: logo1,
+			logo: <PunLogo />,
 			menu: ['news', 'report', 'letter', 'about'],
 			languages: { en: 'ENG', uk: 'УКР' },
 		},
 		footer: {
-			logo: logo2,
+			logo: <PunLogo theme="dark" />,
 			email: 'contact@ProtectUkraineNOW.org',
 		},
 	},
 	uat: {
 		header: {
-			logo: logo1,
+			logo: <UatLogo />,
 			menu: ['news', 'report', 'about'],
 		},
 		footer: {
-			logo: logo2,
+			logo: <UatLogo theme="dark" />,
 			email: 'contact@UkraineAidTracker.org',
 		},
-
 	}
 }
 

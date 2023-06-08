@@ -14,8 +14,8 @@ const Header = ({ logo, menu, languages }) => {
 	return (
 		<header className={style.header}>
 			<Container className={style.container}>
-				<Link className={style.logo}  href="/">
-					<img src={logo} alt="" />
+				<Link className={style.logo} href="/">
+					{logo}
 				</Link>
 				<Menu
 					className={style.menu}

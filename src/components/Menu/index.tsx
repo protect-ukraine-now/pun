@@ -13,7 +13,7 @@ export default function Menu({ items, className, linkClassName, activeClassName,
 						className={cn(style.link, linkClassName, style.active, activeClassName)}
 						key={href}
 					>
-							<span>{name}</span>
+						<span>{name}</span>
 					</span>
 				) : (
 					<StyledLink
