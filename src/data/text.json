@@ -48,7 +48,21 @@
 		},
 		"sankey": {
 			"title": "US Aid to Ukraine",
-			"subtitle": "as of {{till}}"
+			"subtitle": "as of {{till}}",
+			"USAA 2022, March 2022": "",
+			"+USAA 2022, May 2022": "",
+			"USAA 2023, September 2022": "",
+			"+USAA 2023, December 2022": "",
+			"Total": "",
+			"Direct aid to Ukraine": "",
+			"Other": "",
+			"Military Aid": "",
+			"Humanitarian & Economic Aid": "",
+			"Short-term aid (PDA)": "",
+			"Long-term aid (USAI & FMF)": "",
+			"Committed": "",
+			"Expired funds": "",
+			"Available": ""
 		},
 		"report": {
 			"banner_title": "Protect Ukraine now before it's too late!",
@@ -132,7 +146,21 @@
 		},
 		"sankey": {
 			"title": "Допомога США Україні",
-			"subtitle": "на {{till}}"
+			"subtitle": "на {{till}}",
+			"USAA 2022, March 2022": "USAA 2022, березень 2022",
+			"+USAA 2022, May 2022": "+USAA 2022, травень 2022",
+			"USAA 2023, September 2022": "USAA 2023, вересень 2022",
+			"+USAA 2023, December 2022": "+USAA 2023, грудень 2022",
+			"Total": "Всього",
+			"Direct aid to Ukraine": "Пряма допомога Україні",
+			"Other": "Інше",
+			"Military Aid": "Військова допомога",
+			"Humanitarian & Economic Aid": "Гуманітарна та економічна допомога",
+			"Short-term aid (PDA)": "Короткострокова допомога (PDA)",
+			"Long-term aid (USAI & FMF)": "Довгострокова допомога (USAI & FMF)",
+			"Committed": "Передано обо обіцяно найближчім часом",
+			"Expired funds": "Прострочено",
+			"Available": "В наявності"
 		},
 		"report": {
 			"banner_title": "Захистить Україну зараз, поки не пізно!",

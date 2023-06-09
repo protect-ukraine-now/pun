@@ -48,18 +48,20 @@ const spreadsheets = {
 }
 
 async function loadSheets() {
-    let sheets = Object.entries(spreadsheets).map(async ([what, { id, range, transform }]) => {
+    let tasks = Object.entries(spreadsheets).map(async ([what, { id, range, transform }]) => {
         const url = `https://sheets.googleapis.com/v4/spreadsheets/${id}/values/${range}?key=${API_KEY}`
         let raw = (await (await fetch(url)).json()).values.slice(1)
         let data = transform ? transform(raw) : raw
         console.log(what, raw.length, data.length)
         let file = `src/data/${what}.json`
         fs.writeFileSync(file, JSON.stringify(data, null, '\t'))
+        return [what, data]
     })
-    return Promise.all(sheets)
+    let data = Object.fromEntries(await Promise.all(tasks))
+    return data
 }
 
-async function loadVega(spec, target) {
+async function loadVega(spec, { uk }) {
     let data = spec.data.map(async ({ url }, i) => {
         if (!url) return
         let csv = await (await fetch(url)).text()
@@ -67,10 +69,13 @@ async function loadVega(spec, target) {
         spec.data[i].values = csv
     })
     await Promise.all(data)
-    fs.writeFileSync(target, JSON.stringify(spec, null, '\t'))
+    let json = JSON.stringify(spec, null, '\t')
+    fs.writeFileSync('src/data/sankey-w-data.en.vg.json', json)
+    spec.scales.filter(x => x.domain?.length)[0].domain.forEach(x => {
+        json = json.replaceAll(x, uk.sankey[x])
+    })
+    fs.writeFileSync('src/data/sankey-w-data.uk.vg.json', json)
 }
 
-await Promise.all([
-    loadSheets(),
-    loadVega(sankey, 'src/data/sankey-w-data.vg.json'),
-])
+const { text } = await loadSheets()
+await loadVega(sankey, text)
