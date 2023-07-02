@@ -1,7 +1,7 @@
 {
 	"name": "protect-ukraine-now",
 	"description": "Protect Ukraine Now",
-	"version": "4.0.0",
+	"version": "4.0.1",
 	"type": "module",
 	"packageManager": "yarn@3.5.1",
 	"private": true,
