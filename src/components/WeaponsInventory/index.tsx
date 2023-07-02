@@ -8,9 +8,10 @@ let data = inventoryReport()
 export default function WeaponsInventory() {
     const text = useText()
     const formatter = formatDate(useLanguage())
+    const from = formatter('2022-02-24')
     const till = formatter(latestReport.till)
-    const title = text('inventory.title', { till })
-    const subtitle = text('inventory.subtitle', { till })
+    const title = text('inventory.title')
+    const subtitle = text('inventory.subtitle', { from, till })
     const head = [text('inventory.possessed'), text('inventory.pda')]
     const description = text('inventory.description')
     return <WeaponsTable {...{ title, subtitle, head, data, description }} />

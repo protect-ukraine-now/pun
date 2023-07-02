@@ -7,7 +7,7 @@ import { useText } from 'src/tools/language'
 
 export default function About() {
 	const text = useText()
-	const content = text('about.content')
+	const content = text('methodology.content')
 	// return content
 	return <>
 		<Container className={style.container}>

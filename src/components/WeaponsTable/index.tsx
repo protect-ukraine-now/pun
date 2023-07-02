@@ -1,8 +1,6 @@
 import cn from 'clsx'
-import Markdown from 'markdown-to-jsx'
 
 import style from './style.module.scss'
-import Article from 'src/components/Article'
 import IconCell from './IconCell'
 import DataCell from './DataCell'
 import Section from '../Section'
@@ -35,19 +33,10 @@ const WeaponsTable = ({ title, subtitle, head, data, description }) => {
 	)
 
 	return (
-		<Section title={title} subtitle={subtitle} className={style.container}>
+		<Section {...{ title, subtitle, description, className: style.container }}>
 			<div className={style.splitter}>
 				{[left, right].map(renderTableLayout)}
 			</div>
-			{description &&
-				<div className={style.description}>
-					<Article>
-						<Markdown>
-							{description}
-						</Markdown>
-					</Article>
-				</div>
-			}
 		</Section>
 	)
 }

@@ -21,9 +21,9 @@ export default function WeaponsIncome() {
         setReport(Report(report))
     }
     let data = incomeReport(report)
-    let { from, till, prev, next } = report
+    let { till, prev, next } = report
     const formatter = formatDate(language)
-    from = formatter(from)
+    const from = formatter('2022-02-24')
     till = formatter(till)
 
     let title = text('income.title', { from, till })

@@ -1,5 +1,3 @@
-import { Link } from 'rakkasjs'
-
 import style from './style.module.scss'
 import { useLanguage, useText } from 'src/tools/language'
 import Container from '../Container'

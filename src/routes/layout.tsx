@@ -24,7 +24,7 @@ const config = {
 	uat: {
 		header: {
 			logo: <UatLogo />,
-			menu: ['news', 'report', 'about'],
+			menu: ['news', 'report', 'methodology'],
 		},
 		footer: {
 			logo: <UatLogo theme="dark" />,

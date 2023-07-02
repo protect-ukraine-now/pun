@@ -1,12 +1,8 @@
-import Markdown from 'markdown-to-jsx'
-
-import style from './style.module.scss'
 import money from 'src/data/money.json'
 import { useLanguage, useText } from 'src/tools/language'
 import { latest } from 'src/data/report'
 import { formatDate } from 'src/tools/date'
-import Container from '../Container'
-import Article from '../Article'
+import Section from '../Section'
 
 const population = 334565848
 
@@ -24,24 +20,20 @@ export default function Summary() {
 		}),
 		{}
 	)
-	const fields = {
+	sum.short -= 6200
+	const dates = {
 		from: formatDate(language)(from),
+		till: formatDate(language)(till),
+	}
+	const data = {
 		short: (sum.short / 1e3).toFixed(1),
 		shortPer: Math.round(sum.short * 1e6 / months / population),
 		long: (sum.long / 1e3).toFixed(1),
 		longPer: Math.round(sum.long * 1e6 / months / population),
 	}
 
-	return (
-		<Container>
-			<h2 className={style.heading}>
-				{text('summary.title')}
-			</h2>
-			<Article className={style.content}>
-				<Markdown>
-					{text('summary.content', fields)}
-				</Markdown>
-			</Article>
-		</Container>
-	)
+	const title = text('summary.title')
+	const subtitle = text('summary.subtitle', dates)
+	const description = text('summary.content', data)
+	return <Section {...{ title, subtitle, description }} />
 }

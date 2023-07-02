@@ -3,7 +3,7 @@ import commits from './commits.json'
 import { isoDate, DAY } from '../tools/date'
 
 const first = '2022-07-17'
-export const latest = '2023-05-21'
+export const latest = '2023-07-02'
 
 let timespan = 14 * DAY
 export let Report = till => {
@@ -15,7 +15,7 @@ export let Report = till => {
     return { from, till, prev, next }
 }
 
-export let latestReport = Report(latest)
+export let latestReport = Report(latest)!
 
 const CATEGORIES = [
     'Towed Artillery',
@@ -30,7 +30,7 @@ const CATEGORIES = [
     // 'Other Armored Vehicle',
 ]
 
-let commitsByCategory = ({ report = latestReport, filter }) => commits.reduce((byCategory, r) => {
+let commitsByCategory = ({ report = latestReport, filter = null } = {}) => commits.reduce((byCategory, r) => {
     let [date, country, category, type, qty, fund, link, title] = r
     qty = +qty || 0
     if (date <= report.till && (!filter || filter(r))) {
@@ -65,7 +65,7 @@ export function incomeReport(report) {
 }
 
 export function inventoryReport() {
-    let byCategory = commitsByCategory({ filter: x => (x[5] || 'PDA') === 'PDA' })
+    let byCategory = commitsByCategory() // { filter: x => (x[5] || 'PDA') === 'PDA' }
     return balance.map(([category, ru, ua, us]) => ({
         category,
         values: [{ value: us }, byCategory[category][0]],
