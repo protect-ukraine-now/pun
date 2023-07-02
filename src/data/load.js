@@ -1,4 +1,6 @@
-const fs = require('fs')
+import fs from 'fs'
+
+import sankey from './sankey.vg.json' assert { type: "json" }
 
 let indexText = text => text.reduce((a, [group, key, en, uk]) => {
     a.en[group] = { ...(a.en[group] || {}), [key]: en }
@@ -45,7 +47,7 @@ const spreadsheets = {
     },
 }
 
-async function loadData() {
+async function loadSheets() {
     let tasks = Object.entries(spreadsheets).map(async ([what, { id, range, transform }]) => {
         const url = `https://sheets.googleapis.com/v4/spreadsheets/${id}/values/${range}?key=${API_KEY}`
         let raw = (await (await fetch(url)).json()).values.slice(1)
@@ -59,4 +61,21 @@ async function loadData() {
     return data
 }
 
-module.exports = loadData
+async function loadVega(spec, { uk }) {
+    let data = spec.data.map(async ({ url }, i) => {
+        if (!url) return
+        let csv = await (await fetch(url)).text()
+        delete spec.data[i].url
+        spec.data[i].values = csv
+    })
+    await Promise.all(data)
+    let json = JSON.stringify(spec, null, '\t')
+    fs.writeFileSync('src/data/sankey-w-data.en.vg.json', json)
+    spec.scales.filter(x => x.domain?.length)[0].domain.forEach(x => {
+        json = json.replaceAll(x, uk.sankey[x])
+    })
+    fs.writeFileSync('src/data/sankey-w-data.uk.vg.json', json)
+}
+
+const { text } = await loadSheets()
+await loadVega(sankey, text)

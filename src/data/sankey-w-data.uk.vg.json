@@ -1,0 +1,687 @@
+{
+	"$schema": "https://vega.github.io/schema/vega/v5.json",
+	"autosize": {
+		"type": "fit",
+		"contains": "padding"
+	},
+	"signals": [
+		{
+			"name": "width",
+			"init": "containerSize()[0]",
+			"on": [
+				{
+					"events": "window:resize",
+					"update": "containerSize()[0]"
+				}
+			]
+		},
+		{
+			"name": "height",
+			"init": "containerSize()[0]/16*9",
+			"on": [
+				{
+					"events": "window:resize",
+					"update": "containerSize()[0]/16*9"
+				}
+			]
+		},
+		{
+			"name": "fontSize",
+			"init": "containerSize()[0]/70",
+			"on": [
+				{
+					"events": "window:resize",
+					"update": "containerSize()[0]/70"
+				}
+			]
+		},
+		{
+			"name": "standardGap",
+			"value": 14,
+			"description": "Gap as a percentage of full domain"
+		},
+		{
+			"name": "base",
+			"value": "center",
+			"description": "How to stack(center or zero)"
+		}
+	],
+	"data": [
+		{
+			"name": "entries",
+			"format": {
+				"type": "csv",
+				"parse": {
+					"category": "string",
+					"stack": "number",
+					"sort": "number",
+					"labels": "string"
+				},
+				"delimiter": ","
+			},
+			"values": "category,stack,sort,labels\r\n\"USAA 2022, березень 2022\",1,1,left\r\n\"+USAA 2022, травень 2022\",1,2,left\r\n\"USAA 2023, вересень 2022\",1,3,left\r\n\"+USAA 2023, грудень 2022\",1,4,left\r\nВсього,2,1,left\r\nПряма допомога Україні,3,1,left\r\nІнше,3,2,left\r\nВійськова допомога,4,1,left\r\nГуманітарна та економічна допомога,4,2,left\r\nКороткострокова допомога (PDA),5,1,left\r\nДовгострокова допомога (USAI & FMF),5,2,left\r\nПередано обо обіцяно найближчім часом,6,1,left\r\nВ наявності,6,2,left\r\nПрострочено,6,3,left"
+		},
+		{
+			"name": "connections",
+			"format": {
+				"type": "csv",
+				"parse": {
+					"source": "string",
+					"destination": "string",
+					"value": "number"
+				},
+				"delimiter": ","
+			},
+			"values": "source,value,destination\r\n\"USAA 2022, березень 2022\",21.0783,Всього\r\n\"USAA 2023, вересень 2022\",10.337,Всього\r\n\"+USAA 2022, травень 2022\",31.048,Всього\r\n\"+USAA 2023, грудень 2022\",49.9343,Всього\r\nВсього,82.87,Пряма допомога Україні\r\nВсього,29.4013,Інше\r\nПряма допомога Україні,48.15,Військова допомога\r\nПряма допомога Україні,34.72,Гуманітарна та економічна допомога\r\nВійськова допомога,25.5,Короткострокова допомога (PDA)\r\nВійськова допомога,22.65,Довгострокова допомога (USAI & FMF)\r\nКороткострокова допомога (PDA),20.735,Передано обо обіцяно найближчім часом\r\nКороткострокова допомога (PDA),1.775,Прострочено\r\nКороткострокова допомога (PDA),2.99,В наявності"
+		},
+		{
+			"name": "preStacks",
+			"source": "connections",
+			"transform": [
+				{
+					"type": "formula",
+					"as": "end",
+					"expr": "['source','destination']"
+				},
+				{
+					"type": "formula",
+					"as": "name",
+					"expr": "[datum.source,datum.destination]"
+				},
+				{
+					"type": "project",
+					"fields": [
+						"end",
+						"name",
+						"value"
+					]
+				},
+				{
+					"type": "flatten",
+					"fields": [
+						"end",
+						"name"
+					]
+				},
+				{
+					"type": "aggregate",
+					"fields": [
+						"value"
+					],
+					"groupby": [
+						"end",
+						"name"
+					],
+					"ops": [
+						"sum"
+					],
+					"as": [
+						"value"
+					]
+				},
+				{
+					"type": "aggregate",
+					"fields": [
+						"value"
+					],
+					"groupby": [
+						"name"
+					],
+					"ops": [
+						"max"
+					],
+					"as": [
+						"value"
+					]
+				}
+			]
+		},
+		{
+			"name": "stacks",
+			"source": "preStacks",
+			"transform": [
+				{
+					"type": "lookup",
+					"from": "entries",
+					"key": "category",
+					"values": [
+						"stack",
+						"sort",
+						"gap",
+						"labels"
+					],
+					"fields": [
+						"name"
+					],
+					"as": [
+						"stack",
+						"sort",
+						"gap",
+						"labels"
+					]
+				},
+				{
+					"type": "formula",
+					"as": "gap",
+					"expr": "datum.gap?datum.gap:0"
+				}
+			]
+		},
+		{
+			"name": "maxValue",
+			"source": [
+				"stacks"
+			],
+			"transform": [
+				{
+					"type": "aggregate",
+					"fields": [
+						"value"
+					],
+					"groupby": [
+						"stack"
+					],
+					"ops": [
+						"sum"
+					],
+					"as": [
+						"value"
+					]
+				},
+				{
+					"type": "aggregate",
+					"fields": [
+						"value"
+					],
+					"ops": [
+						"max"
+					],
+					"as": [
+						"value"
+					]
+				}
+			]
+		},
+		{
+			"name": "plottedStacks",
+			"source": [
+				"stacks"
+			],
+			"transform": [
+				{
+					"type": "formula",
+					"as": "spacer",
+					"expr": "(data('maxValue')[0].value/(100 * .5))*(standardGap+datum.gap)"
+				},
+				{
+					"type": "formula",
+					"as": "type",
+					"expr": "['data','spacer']"
+				},
+				{
+					"type": "formula",
+					"as": "spacedValue",
+					"expr": "[datum.value,datum.spacer]"
+				},
+				{
+					"type": "flatten",
+					"fields": [
+						"type",
+						"spacedValue"
+					]
+				},
+				{
+					"type": "stack",
+					"groupby": [
+						"stack"
+					],
+					"sort": {
+						"field": "sort",
+						"order": "descending"
+					},
+					"field": "spacedValue",
+					"offset": {
+						"signal": "base"
+					}
+				},
+				{
+					"type": "formula",
+					"expr": "((datum.value)/2)+datum.y0",
+					"as": "yc"
+				}
+			]
+		},
+		{
+			"name": "finalTable",
+			"source": [
+				"plottedStacks"
+			],
+			"transform": [
+				{
+					"type": "filter",
+					"expr": "datum.type == 'data'"
+				}
+			]
+		},
+		{
+			"name": "linkTable",
+			"source": [
+				"connections"
+			],
+			"transform": [
+				{
+					"type": "lookup",
+					"from": "finalTable",
+					"key": "name",
+					"values": [
+						"y0",
+						"y1",
+						"stack",
+						"sort"
+					],
+					"fields": [
+						"source"
+					],
+					"as": [
+						"sourceStacky0",
+						"sourceStacky1",
+						"sourceStack",
+						"sourceSort"
+					]
+				},
+				{
+					"type": "lookup",
+					"from": "finalTable",
+					"key": "name",
+					"values": [
+						"y0",
+						"y1",
+						"stack",
+						"sort"
+					],
+					"fields": [
+						"destination"
+					],
+					"as": [
+						"destinationStacky0",
+						"destinationStacky1",
+						"destinationStack",
+						"destinationSort"
+					]
+				},
+				{
+					"type": "stack",
+					"groupby": [
+						"source"
+					],
+					"sort": {
+						"field": "destinationSort",
+						"order": "descending"
+					},
+					"field": "value",
+					"offset": "zero",
+					"as": [
+						"syi0",
+						"syi1"
+					]
+				},
+				{
+					"type": "formula",
+					"expr": "datum.syi0+datum.sourceStacky0",
+					"as": "sy0"
+				},
+				{
+					"type": "formula",
+					"expr": "datum.sy0+datum.value",
+					"as": "sy1"
+				},
+				{
+					"type": "stack",
+					"groupby": [
+						"destination"
+					],
+					"sort": {
+						"field": "sourceSort",
+						"order": "descending"
+					},
+					"field": "value",
+					"offset": "zero",
+					"as": [
+						"dyi0",
+						"dyi1"
+					]
+				},
+				{
+					"type": "formula",
+					"expr": "datum.dyi0+datum.destinationStacky0",
+					"as": "dy0"
+				},
+				{
+					"type": "formula",
+					"expr": "(datum.dy0+datum.value)",
+					"as": "dy1"
+				},
+				{
+					"type": "formula",
+					"expr": "((datum.value)/2)+datum.sy0",
+					"as": "syc"
+				},
+				{
+					"type": "formula",
+					"expr": "((datum.value)/2)+datum.dy0",
+					"as": "dyc"
+				},
+				{
+					"type": "formula",
+					"expr": "range('y')[0]-scale('y', datum.value)",
+					"as": "sample"
+				},
+				{
+					"type": "linkpath",
+					"orient": "horizontal",
+					"shape": "diagonal",
+					"sourceY": {
+						"expr": "scale('y', datum.syc)"
+					},
+					"sourceX": {
+						"expr": "scale('x', toNumber(datum.sourceStack)) + bandwidth('x')"
+					},
+					"targetY": {
+						"expr": "scale('y', datum.dyc)"
+					},
+					"targetX": {
+						"expr": "scale('x', datum.destinationStack)"
+					}
+				},
+				{
+					"type": "formula",
+					"expr": "(range('y')[0]-scale('y', datum.value))",
+					"as": "strokeWidth"
+				}
+			]
+		}
+	],
+	"scales": [
+		{
+			"name": "x",
+			"type": "band",
+			"range": "width",
+			"domain": {
+				"data": "finalTable",
+				"field": "stack"
+			},
+			"paddingInner": 0.88
+		},
+		{
+			"name": "y",
+			"type": "linear",
+			"range": "height",
+			"domain": {
+				"data": "finalTable",
+				"field": "y1"
+			},
+			"reverse": false
+		},
+		{
+			"name": "color",
+			"type": "ordinal",
+			"range": [
+				"blue",
+				"blue",
+				"blue",
+				"blue",
+				"blue",
+				"green",
+				"grey",
+				"green",
+				"pink",
+				"green",
+				"#f2cf5b",
+				"green",
+				"red",
+				"green"
+			],
+			"domain": [
+				"USAA 2022, березень 2022",
+				"+USAA 2022, травень 2022",
+				"USAA 2023, вересень 2022",
+				"+USAA 2023, грудень 2022",
+				"Всього",
+				"Пряма допомога Україні",
+				"Інше",
+				"Військова допомога",
+				"Гуманітарна та економічна допомога",
+				"Короткострокова допомога (PDA)",
+				"Довгострокова допомога (USAI & FMF)",
+				"Передано обо обіцяно найближчім часом",
+				"Прострочено",
+				"В наявності"
+			]
+		}
+	],
+	"marks": [
+		{
+			"type": "rect",
+			"from": {
+				"data": "finalTable"
+			},
+			"encode": {
+				"update": {
+					"x": {
+						"scale": "x",
+						"field": "stack"
+					},
+					"width": {
+						"scale": "x",
+						"band": 1
+					},
+					"y": {
+						"scale": "y",
+						"field": "y0"
+					},
+					"y2": {
+						"scale": "y",
+						"field": "y1"
+					},
+					"fill": {
+						"scale": "color",
+						"field": "name"
+					},
+					"fillOpacity": {
+						"value": 0.75
+					},
+					"strokeWidth": {
+						"value": 0
+					},
+					"stroke": {
+						"scale": "color",
+						"field": "name"
+					}
+				},
+				"hover": {
+					"tooltip": {
+						"signal": "{'Name':datum.name, 'Value':format(datum.value, '$') + ' B'}"
+					},
+					"fillOpacity": {
+						"value": 1
+					}
+				}
+			}
+		},
+		{
+			"type": "path",
+			"name": "links",
+			"from": {
+				"data": "linkTable"
+			},
+			"clip": true,
+			"encode": {
+				"update": {
+					"strokeWidth": {
+						"field": "strokeWidth"
+					},
+					"path": {
+						"field": "path"
+					},
+					"strokeOpacity": {
+						"signal": "0.3"
+					},
+					"stroke": {
+						"field": "destination",
+						"scale": "color"
+					}
+				},
+				"hover": {
+					"strokeOpacity": {
+						"value": 1
+					},
+					"tooltip": {
+						"signal": "{'Source':datum.source,'Destination':datum.destination, 'Value':format(datum.value, '$') + ' B'}"
+					}
+				}
+			}
+		},
+		{
+			"type": "group",
+			"name": "labelText",
+			"zindex": 1,
+			"from": {
+				"facet": {
+					"data": "finalTable",
+					"name": "labelFacet",
+					"groupby": [
+						"name",
+						"stack",
+						"yc",
+						"value",
+						"labels"
+					]
+				}
+			},
+			"clip": false,
+			"encode": {
+				"update": {
+					"strokeWidth": {
+						"value": 1
+					},
+					"stroke": {
+						"value": "red"
+					},
+					"x": {
+						"signal": "datum.labels=='left'?scale('x', datum.stack)-8 : scale('x', datum.stack) + (bandwidth('x')) +8"
+					},
+					"yc": {
+						"scale": "y",
+						"signal": "datum.yc"
+					},
+					"width": {
+						"signal": "0"
+					},
+					"height": {
+						"signal": "0"
+					},
+					"fillOpacity": {
+						"signal": "0.1"
+					}
+				}
+			},
+			"marks": [
+				{
+					"type": "text",
+					"name": "heading",
+					"from": {
+						"data": "labelFacet"
+					},
+					"encode": {
+						"update": {
+							"x": {
+								"value": 0
+							},
+							"y": {
+								"value": -2
+							},
+							"text": {
+								"field": "name"
+							},
+							"align": {
+								"signal": "datum.labels=='left'?'right':'left'"
+							},
+							"fontWeight": {
+								"value": "normal"
+							}
+						}
+					}
+				},
+				{
+					"type": "text",
+					"name": "amount",
+					"from": {
+						"data": "labelFacet"
+					},
+					"encode": {
+						"update": {
+							"x": {
+								"value": 0
+							},
+							"y": {
+								"signal": "fontSize"
+							},
+							"text": {
+								"signal": " format(datum.value, '$.1f') + ' B'"
+							},
+							"align": {
+								"signal": "datum.labels=='left'?'right':'left'"
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"type": "rect",
+			"from": {
+				"data": "labelText"
+			},
+			"encode": {
+				"update": {
+					"x": {
+						"field": "bounds.x1",
+						"offset": -4
+					},
+					"x2": {
+						"field": "bounds.x2",
+						"offset": 4
+					},
+					"y": {
+						"field": "bounds.y1",
+						"offset": -4
+					},
+					"y2": {
+						"field": "bounds.y2",
+						"offset": 4
+					},
+					"fill": {
+						"value": "white"
+					},
+					"opacity": {
+						"value": 0.7
+					},
+					"cornerRadius": {
+						"value": 4
+					}
+				}
+			}
+		}
+	],
+	"config": {
+		"view": {
+			"stroke": "transparent"
+		},
+		"text": {
+			"fontSize": {
+				"signal": "fontSize"
+			},
+			"fill": "#333333"
+		}
+	}
+}

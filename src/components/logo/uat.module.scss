@@ -1,0 +1,46 @@
+@import 'src/style/variables';
+@import 'src/style/mixins';
+
+.container {
+	display: flex;
+
+	&.light {
+		.logo {
+			background: $light-text;
+			}
+		.name {
+			color: $light-text;
+		}
+	}
+}
+
+.logo {
+	mask: center / contain no-repeat url("src/assets/logo/uat-logo.svg");
+	-webkit-mask: center / contain no-repeat url("src/assets/logo/uat-logo.svg");
+	background: #b7b7b7;
+	height: 44px;
+	aspect-ratio: 1;
+	display: inline-block;
+}
+
+.name {
+	text-transform: uppercase;
+	position: relative;
+	display: flex;
+	font-size: 17px;
+	font-weight: 700;
+	padding: 5px 15px;
+	color: #b7b7b7;
+	text-decoration: none;
+	align-items: center;
+	white-space: nowrap;
+	&:visisted {
+		text-transform: uppercase;
+	}
+	&:active {
+		text-transform: uppercase;
+	}
+	&:hover {
+		text-transform: uppercase;
+	}
+}

@@ -1,0 +1,1 @@
+start "preview" /max yarn preview

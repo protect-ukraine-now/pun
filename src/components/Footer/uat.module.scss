@@ -1,0 +1,11 @@
+@import './src/style/variables';
+@import './src/style/mixins';
+
+.logo {
+  width: 40px;
+  color: white;
+
+  @include max-w(tablet) {
+    display: none;
+  }
+}

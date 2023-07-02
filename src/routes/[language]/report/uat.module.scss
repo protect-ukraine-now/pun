@@ -1,0 +1,60 @@
+@import 'src/style/variables';
+@import 'src/style/mixins';
+
+.container {
+	@include make-responsive('padding-top',
+		(
+			mobile: 22px,
+			tablet: 28px,
+			desktop: 55px,
+		),
+		40px
+	);
+
+	@include make-responsive('padding-bottom',
+		(
+			mobile: 32px,
+			tablet: 48px,
+			desktop: 54px,
+		),
+		60px
+	);
+
+	width: 100%;
+	//   margin-bottom: 47px;
+	//box-shadow: 0 0 5px rgba(0,0,0,0.16); // TODO: Remove this line!!!
+}
+
+.banner {
+	margin: 0 0 65px;
+}
+
+.bannerBtn {
+	@include make-responsive('font-size',
+		(
+			mobile: 18px,
+			tablet: 24px,
+		),
+		24px
+	);
+
+	font-weight: 700;
+	background: $color-accent;
+	color: $light-text;
+	text-transform: uppercase;
+	padding: 0 18px;
+	line-height: 2;
+	text-decoration: none;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.12);
+	border-radius: 6px;
+	transition: all 0.25s ease;
+
+	&:hover {
+		box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.2);
+		transform: translate(0, -1px);
+	}
+}
+
+.chart {
+	margin-bottom: 64px;
+}

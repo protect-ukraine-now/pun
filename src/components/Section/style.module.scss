@@ -1,0 +1,43 @@
+@import './src/style/variables';
+@import './src/style/mixins';
+
+.title {
+	@include container-padding;
+	@include make-responsive('font-size',
+		(tablet: 22px,
+			desktop: 30px,
+		),
+		30px);
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.subtitle {
+	// @include container-padding;
+	@include make-responsive('font-size',
+		(tablet: 18px,
+			desktop: 24px,
+		),
+		30px);
+	margin-top: 10px;
+	font-weight: 700;
+	display: flex;
+	align-items: center;
+	color: $grey-text;
+}
+
+.description {
+	@include make-responsive('padding-right',
+		(mobile: 13px,
+			desktop: 55px,
+		),
+		15px);
+
+	@include make-responsive('padding-left',
+		(mobile: 5px,
+			desktop: 55px,
+		),
+		15px);
+
+	margin-top: 1em;
+}

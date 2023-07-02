@@ -1294,7 +1294,7 @@
 		"Germany",
 		"other",
 		"Hensoldt’s TRML-4D",
-		"4",
+		"1",
 		"",
 		"https://www.armyrecognition.com/defense_news_october_2022_global_security_army_industry/hensoldt_delivers_trml-4d_high-performance_air_defence_radars_for_ukraine.html",
 		"Hensoldt delivers TRML-4D high-performance air defence radars for Ukraine"
@@ -1401,10 +1401,10 @@
 	],
 	[
 		"2022-10-30",
-		"Italy",
+		"France",
 		"Air Defense System",
 		"SAMP-T (MAMBA)",
-		"2",
+		"4",
 		"",
 		"https://www.reddit.com/r/UkrainianConflict/comments/yher1x/italy_and_france_will_supply_ukraine_with_sampt/",
 		"Italy and France will supply Ukraine with SAMP-T Air Defense Systems"
@@ -1893,7 +1893,7 @@
 		"2023-01-14",
 		"Germany",
 		"Other Armored Vehicle",
-		"Mine clearing tank",
+		"mine clearing tank",
 		"4",
 		"",
 		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
@@ -2638,5 +2638,315 @@
 		"",
 		"https://news.yahoo.com/czech-republic-supplies-ukraine-two-160616614.html",
 		"Czech Republic supplies Ukraine with two Kub air defence systems – Czech President"
+	],
+	[
+		"2023-05-20",
+		"Norway",
+		"other",
+		"ARTHUR",
+		"3",
+		"",
+		"https://www.regjeringen.no/no/aktuelt/statement-from-bjorn-arild-gram-meeting-ben-wallace-in-northwood/id2977724/",
+		"Statement from Bjørn Arild Gram meeting Ben Wallace in Northwood"
+	],
+	[
+		"2023-05-20",
+		"Norway",
+		"Multiple Launch Rocket System",
+		"M270B1",
+		"8",
+		"",
+		"https://www.regjeringen.no/no/aktuelt/statement-from-bjorn-arild-gram-meeting-ben-wallace-in-northwood/id2977724/",
+		"Statement from Bjørn Arild Gram meeting Ben Wallace in Northwood"
+	],
+	[
+		"2023-05-23",
+		"Germany",
+		"other",
+		"Border protection vehicle",
+		"23",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-05-23",
+		"Germany",
+		"other",
+		"Zetros truck",
+		"64",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-05-31",
+		"US",
+		"Air Defense System",
+		"Avenger",
+		"8",
+		"",
+		"https://www.defense.gov/News/Releases/Release/Article/3402206/biden-administration-announces-additional-security-assistance-for-ukraine/",
+		"Biden Administration Announces Additional Security Assistance for Ukraine"
+	],
+	[
+		"2023-06-09",
+		"US",
+		"Artillery rounds",
+		"203 mm",
+		"10000",
+		"USAI",
+		"https://media.defense.gov/2023/Jun/09/2003238573/-1/-1/0/UKRAINE-FACT-SHEET-JUNE-9.PDF",
+		"Fact Sheet on U.S. Security Assistance to Ukraine, June 9, 2023"
+	],
+	[
+		"2023-06-06",
+		"Germany",
+		"Other Armored Vehicle",
+		"Bandvagn 206 (BV206)",
+		"8",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-06-06",
+		"Germany",
+		"other",
+		"Border protection vehicle",
+		"16",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-06-13",
+		"US",
+		"Infantry Fighting Vehicle",
+		"Bradley",
+		"15",
+		"PDA",
+		"https://www.defense.gov/News/Releases/Release/Article/3426389/biden-administration-announces-additional-security-assistance-for-ukraine/",
+		"Biden Administration Announces Additional Security Assistance for Ukraine"
+	],
+	[
+		"2023-06-13",
+		"US",
+		"Infantry Fighting Vehicle",
+		"Stryker",
+		"10",
+		"PDA",
+		"https://www.defense.gov/News/Releases/Release/Article/3426389/biden-administration-announces-additional-security-assistance-for-ukraine/",
+		"Biden Administration Announces Additional Security Assistance for Ukraine"
+	],
+	[
+		"2023-06-15",
+		"Germany",
+		"Other Armored Vehicle",
+		"Wisent 1",
+		"2",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-06-15",
+		"Germany",
+		"other",
+		"Zetros truck",
+		"16",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-06-15",
+		"Germany",
+		"other",
+		"HX-81",
+		"23",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-06-16",
+		"Spain",
+		"Tank",
+		"Leopard 2A4",
+		"2",
+		"",
+		"https://www.newsweek.com/ukraine-more-leopard-tanks-counteroffensive-spain-germany-russia-1807177",
+		"Ukraine To Get More Leopard 2 Tanks As Counteroffensive Heats Up"
+	],
+	[
+		"2023-06-16",
+		"Spain",
+		"Other Armored Vehicle",
+		"M113",
+		"20",
+		"",
+		"https://www.newsweek.com/ukraine-more-leopard-tanks-counteroffensive-spain-germany-russia-1807177",
+		"Ukraine To Get More Leopard 2 Tanks As Counteroffensive Heats Up"
+	],
+	[
+		"2023-06-16",
+		"Norway",
+		"Artillery rounds",
+		"155 mm ",
+		"9000",
+		"",
+		"https://www.regjeringen.no/en/aktuelt/noreg-og-danmark-samarbeider-om-ny-donasjon-til-ukraina/id2983852/",
+		"Norway and Denmark cooperate on new donations to Ukraine"
+	],
+	[
+		"2023-06-21",
+		"Germany",
+		"Artillery rounds",
+		"155 mm",
+		"1000",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-06-21",
+		"Germany",
+		"other",
+		"Border protection vehicle",
+		"6",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-06-21",
+		"Germany",
+		"other",
+		"HX-81",
+		"2",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-06-26",
+		"Australia",
+		"Other Armored Vehicle",
+		"M113",
+		"28",
+		"",
+		"https://www.reuters.com/world/europe/australia-provide-74-million-assistance-package-ukraine-2023-06-26/",
+		"Australia to provide more armoured vehicles to Ukraine"
+	],
+	[
+		"2023-06-26",
+		"Australia",
+		"Other Armored Vehicle",
+		"Special operation vehicles",
+		"14",
+		"",
+		"https://www.reuters.com/world/europe/australia-provide-74-million-assistance-package-ukraine-2023-06-26/",
+		"Australia to provide more armoured vehicles to Ukraine"
+	],
+	[
+		"2023-06-26",
+		"Australia",
+		"other",
+		"MAN 40M",
+		"28",
+		"",
+		"https://www.reuters.com/world/europe/australia-provide-74-million-assistance-package-ukraine-2023-06-26/",
+		"Australia to provide more armoured vehicles to Ukraine"
+	],
+	[
+		"2023-06-27",
+		"US",
+		"other",
+		"Anti-armor system and munition",
+		"10000",
+		"",
+		"https://media.defense.gov/2023/Jun/27/2003248805/-1/-1/1/Ukraine-Fact-Sheet-27-June.PDF",
+		"Fact Sheet June 27th 2023"
+	],
+	[
+		"2023-06-27",
+		"US",
+		"Infantry Fighting Vehicle",
+		"Bradley",
+		"26",
+		"PDA",
+		"https://media.defense.gov/2023/Jun/27/2003248805/-1/-1/1/Ukraine-Fact-Sheet-27-June.PDF",
+		"Fact Sheet June 27th 2023"
+	],
+	[
+		"2023-06-27",
+		"US",
+		"Infantry Fighting Vehicle",
+		"Stryker",
+		"25",
+		"PDA",
+		"https://media.defense.gov/2023/Jun/27/2003248805/-1/-1/1/Ukraine-Fact-Sheet-27-June.PDF",
+		"Fact Sheet June 27th 2023"
+	],
+	[
+		"2023-06-28",
+		"Lithuania",
+		"Air Defense System",
+		"NASAMS",
+		"2",
+		"",
+		"https://www.thedefensepost.com/2023/06/28/lithuania-nasams-ukraine/",
+		"Lithuania Buys Two NASAMS Air Defense Launchers for Ukraine"
+	],
+	[
+		"2023-06-28",
+		"Lithuania",
+		"Other Armored Vehicle",
+		"M113",
+		"10",
+		"",
+		"https://www.thedefensepost.com/2023/06/28/lithuania-nasams-ukraine/",
+		"Lithuania Buys Two NASAMS Air Defense Launchers for Ukraine"
+	],
+	[
+		"2023-06-29",
+		"Germany",
+		"other",
+		"Bridge for Bridgelayer tank",
+		"3",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-06-29",
+		"Germany",
+		"other",
+		"mine clearing system",
+		"1",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-06-29",
+		"Germany",
+		"other",
+		"Border protection vehicle",
+		"2",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-06-29",
+		"Germany",
+		"other",
+		"Zetros truck",
+		"16",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
 	]
 ]
