@@ -61,7 +61,7 @@ async function loadSheets() {
     return data
 }
 
-async function loadVega(spec, { uk }) {
+async function loadVega(spec, text) {
     let data = spec.data.map(async ({ url }, i) => {
         if (!url) return
         let csv = await (await fetch(url)).text()
@@ -70,11 +70,12 @@ async function loadVega(spec, { uk }) {
     })
     await Promise.all(data)
     let json = JSON.stringify(spec, null, '\t')
-    fs.writeFileSync('src/data/sankey-w-data.en.vg.json', json)
-    spec.scales.filter(x => x.domain?.length)[0].domain.forEach(x => {
-        json = json.replaceAll(x, uk.sankey[x])
+    Object.entries(text).forEach(([lang, { sankey }]) => {
+        let translated = Object.entries(sankey).reduce((json, [key, val]) => (
+            json.replaceAll(key, val)
+        ), json)
+        fs.writeFileSync(`src/data/sankey-w-data.${lang}.vg.json`, translated)
     })
-    fs.writeFileSync('src/data/sankey-w-data.uk.vg.json', json)
 }
 
 const { text } = await loadSheets()

@@ -383,7 +383,7 @@
 		"2022-05-30",
 		"Slovakia",
 		"Self-Propelled Artillery",
-		"Zusanna 2 155mm",
+		"SpGH Zuzana 155mm",
 		"8",
 		"",
 		"https://www.reuters.com/world/europe/slovakia-deliver-eight-zuzana-2-howitzers-ukraine-says-ministry-2022-06-02/",
@@ -1293,7 +1293,7 @@
 		"2022-10-20",
 		"Germany",
 		"other",
-		"Hensoldt’s TRML-4D",
+		"Hensoldt TRML-4D",
 		"1",
 		"",
 		"https://www.armyrecognition.com/defense_news_october_2022_global_security_army_industry/hensoldt_delivers_trml-4d_high-performance_air_defence_radars_for_ukraine.html",
@@ -2874,7 +2874,7 @@
 		"US",
 		"Infantry Fighting Vehicle",
 		"Bradley",
-		"26",
+		"30",
 		"PDA",
 		"https://media.defense.gov/2023/Jun/27/2003248805/-1/-1/1/Ukraine-Fact-Sheet-27-June.PDF",
 		"Fact Sheet June 27th 2023"
@@ -2945,6 +2945,156 @@
 		"other",
 		"Zetros truck",
 		"16",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-06-29",
+		"Germany",
+		"other",
+		"Hensoldt TRML-4D",
+		"1",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-07-07",
+		"Slovakia",
+		"Self-Propelled Artillery",
+		"SpGH Zuzana 155mm",
+		"16",
+		"",
+		"https://en.interfax.com.ua/news/general/921535.html",
+		"Slovakia to supply Ukraine with 16 howitzers, establish their joint production with Ukraine – Čaputová"
+	],
+	[
+		"2023-07-07",
+		"US",
+		"other",
+		"Stinger",
+		"300",
+		"PDA",
+		"https://www.defense.gov/News/News-Stories/Article/Article/3451905/dod-announces-800m-security-assistance-package-for-ukraine/",
+		"DOD Announces $800M Security Assistance Package for Ukraine "
+	],
+	[
+		"2023-07-07",
+		"US",
+		"Towed Artillery",
+		"M777 155mm",
+		"36",
+		"PDA",
+		"https://www.defense.gov/News/News-Stories/Article/Article/3451905/dod-announces-800m-security-assistance-package-for-ukraine/",
+		"DOD Announces $800M Security Assistance Package for Ukraine "
+	],
+	[
+		"2023-07-07",
+		"US",
+		"Other Armored Vehicle",
+		"Tactical vehicle",
+		"17",
+		"PDA",
+		"https://www.defense.gov/News/News-Stories/Article/Article/3451905/dod-announces-800m-security-assistance-package-for-ukraine/",
+		"DOD Announces $800M Security Assistance Package for Ukraine "
+	],
+	[
+		"2023-07-07",
+		"US",
+		"Infantry Fighting Vehicle",
+		"Bradley",
+		"32",
+		"PDA",
+		"https://www.defense.gov/News/News-Stories/Article/Article/3451905/dod-announces-800m-security-assistance-package-for-ukraine/",
+		"DOD Announces $800M Security Assistance Package for Ukraine "
+	],
+	[
+		"2023-07-07",
+		"US",
+		"other",
+		"Bradley fire support team vehicle",
+		"4",
+		"PDA",
+		"https://www.defense.gov/News/News-Stories/Article/Article/3451905/dod-announces-800m-security-assistance-package-for-ukraine/",
+		"DOD Announces $800M Security Assistance Package for Ukraine "
+	],
+	[
+		"2023-07-07",
+		"US",
+		"Infantry Fighting Vehicle",
+		"Stryker",
+		"32",
+		"PDA",
+		"https://www.defense.gov/News/News-Stories/Article/Article/3451905/dod-announces-800m-security-assistance-package-for-ukraine/",
+		"DOD Announces $800M Security Assistance Package for Ukraine "
+	],
+	[
+		"2023-07-07",
+		"US",
+		"other",
+		"Penguin UAS",
+		"1",
+		"PDA",
+		"https://www.defense.gov/News/News-Stories/Article/Article/3451905/dod-announces-800m-security-assistance-package-for-ukraine/",
+		"DOD Announces $800M Security Assistance Package for Ukraine "
+	],
+	[
+		"2023-07-07",
+		"Germany",
+		"Other Armored Vehicle",
+		"DACHS",
+		"1",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-07-07",
+		"Germany",
+		"other",
+		"Bridge for Bridgelayer tank",
+		"1",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-07-07",
+		"Germany",
+		"Other Armored Vehicle",
+		"BEAVER bridge layer tank",
+		"1",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-07-07",
+		"Germany",
+		"other",
+		"Radio Jammers",
+		"3",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-07-07",
+		"Germany",
+		"other",
+		"Anti-drone sensors and jammers",
+		"2",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-07-07",
+		"Germany",
+		"other",
+		"HX-81",
+		"6",
 		"",
 		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
 		"Military support for Ukraine"

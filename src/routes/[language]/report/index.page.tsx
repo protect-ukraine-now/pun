@@ -43,9 +43,9 @@ export default function Report() {
 					/>
 				</ClientOnly>
 			}
-			{/* <Container className={style.chart}>
+			<Container className={style.chart}>
 				<SankeyChart />
-			</Container> */}
+			</Container>
 		</>
 	)
 }

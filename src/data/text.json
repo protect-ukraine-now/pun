@@ -3,12 +3,12 @@
 		"pun/seo": {
 			"title": "Ukraine needs Public Support!",
 			"description": "Request your representatives to give Ukraine the munitions to win this war",
-			"image": "https://protectukrainenow.org/assets/support.webp"
+			"image": "https://protectukrainenow.org/support.webp"
 		},
 		"uat/seo": {
-			"title": "Military Aid to Ukraine",
-			"description": "Weapons possessed, committed, provided",
-			"image": "https://protectukrainenow.org/assets/report.en.20230409.webp"
+			"title": "Ukraine Aid Tracker",
+			"description": "Analytics of the Military assistance to Ukraine",
+			"image": "https://protectukrainenow.org/report.en.20230409.webp"
 		},
 		"country": {
 			"ua": "Ukraine",
@@ -88,27 +88,29 @@
 			"title": "US Aid to Ukraine",
 			"subtitle": "From {{from}} to {{till}}",
 			"description": "- FMF funds spent on other countries are included in 'Other'",
-			"USAA 2022, March 2022": "",
-			"+USAA 2022, May 2022": "",
-			"USAA 2023, September 2022": "",
-			"+USAA 2023, December 2022": "",
-			"Total": "",
-			"Direct aid to Ukraine": "",
-			"Other": "",
-			"Military Aid": "",
-			"Humanitarian & Economic Aid": "",
-			"Short-term aid (PDA)": "",
-			"Long-term aid (USAI & FMF)": "",
-			"Committed": "",
-			"Expired funds": "",
-			"Available": ""
+			"bill_mar_22": "Mar '22",
+			"bill_may_22": "May '22",
+			"bill_sep_22": "Sep '22",
+			"bill_dec_22": "Dec '22",
+			"total": "Total",
+			"direct": "Direct aid to Ukraine",
+			"other": "Other",
+			"military": "Military",
+			"human": "Humanitarian & Economic",
+			"instant": "Instant (PDA)",
+			"deferred": "Deferred (USAI & FMF)",
+			"committed_pda": "Committed",
+			"available_pda": "Expired funds",
+			"expired_pda": "Available",
+			"committed_deferred": "Committed.",
+			"available_deferred": "Available."
 		}
 	},
 	"uk": {
 		"pun/seo": {
 			"title": "Україні потрібна громадська підтримка!",
 			"description": "Вимагайте від своїх представників надати Україні зброю перемоги",
-			"image": "https://protectukrainenow.org/assets/support.webp"
+			"image": "https://protectukrainenow.org/support.webp"
 		},
 		"uat/seo": {},
 		"country": {
@@ -186,20 +188,22 @@
 			"title": "Допомога США Україні",
 			"subtitle": "З {{from}} по {{till}}",
 			"description": "- Кошти FMF, витрачені на інші країни, включені в «Інше»",
-			"USAA 2022, March 2022": "USAA 2022, березень 2022",
-			"+USAA 2022, May 2022": "+USAA 2022, травень 2022",
-			"USAA 2023, September 2022": "USAA 2023, вересень 2022",
-			"+USAA 2023, December 2022": "+USAA 2023, грудень 2022",
-			"Total": "Всього",
-			"Direct aid to Ukraine": "Пряма допомога Україні",
-			"Other": "Інше",
-			"Military Aid": "Військова допомога",
-			"Humanitarian & Economic Aid": "Гуманітарна та економічна допомога",
-			"Short-term aid (PDA)": "Короткострокова допомога (PDA)",
-			"Long-term aid (USAI & FMF)": "Довгострокова допомога (USAI & FMF)",
-			"Committed": "Передано обо обіцяно найближчім часом",
-			"Expired funds": "Прострочено",
-			"Available": "В наявності"
+			"bill_mar_22": "15.03.22",
+			"bill_may_22": "21.05.22",
+			"bill_sep_22": "30.09.22",
+			"bill_dec_22": "29.12.22",
+			"total": "Всього",
+			"direct": "Пряма допомога Україні",
+			"other": "Інше",
+			"military": "Військова",
+			"human": "Гуманітарна та економічна",
+			"instant": "Миттєва (PDA)",
+			"deferred": "Відкладена (USAI & FMF)",
+			"committed_pda": "Передано",
+			"available_pda": "Прострочено",
+			"expired_pda": "Доступно",
+			"committed_deferred": "Обіцяно.",
+			"available_deferred": "Доступно."
 		}
 	}
 }
