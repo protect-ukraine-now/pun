@@ -38,12 +38,15 @@
 		{
 			"name": "standardGap",
 			"value": 14,
-			"description": "Gap as a percentage of full domain"
+			"- Кошти FMF, витрачені на інші країни, включені в «Інше»": "Gap as a percentage of full domain"
 		},
 		{
-			"name": "base",
-			"value": "center",
-			"description": "How to stack(center or zero)"
+			"name": "maxValue",
+			"init": "data('maxValue')[0].value"
+		},
+		{
+			"name": "spacer",
+			"init": "maxValue/(100 * 1.)*standardGap"
 		}
 	],
 	"data": [
@@ -55,11 +58,11 @@
 					"category": "string",
 					"stack": "number",
 					"sort": "number",
-					"labels": "string"
-				},
-				"delimiter": ","
+					"labels": "string",
+					"color": "string"
+				}
 			},
-			"values": "category,stack,sort,labels\r\n\"USAA 2022, березень 2022\",1,1,left\r\n\"+USAA 2022, травень 2022\",1,2,left\r\n\"USAA 2023, вересень 2022\",1,3,left\r\n\"+USAA 2023, грудень 2022\",1,4,left\r\nВсього,2,1,left\r\nПряма допомога Україні,3,1,left\r\nІнше,3,2,left\r\nВійськова допомога,4,1,left\r\nГуманітарна та економічна допомога,4,2,left\r\nКороткострокова допомога (PDA),5,1,left\r\nДовгострокова допомога (USAI & FMF),5,2,left\r\nПередано обо обіцяно найближчім часом,6,1,left\r\nВ наявності,6,2,left\r\nПрострочено,6,3,left"
+			"values": "name,category,stack,sort,labels,color,\r\nMar '22,15.03.22,1,1,left,blue,\"USAA 2022, March 2022\"\r\nMay '22,21.05.22,1,2,left,blue,\"+USAA 2022, May 2022\"\r\nSep '22,30.09.22,1,3,left,blue,\"USAA 2023, September 2022\"\r\nDec '22,29.12.22,1,4,left,blue,\"+USAA 2023, December 2022\"\r\nTotal,Всього,2,1,left,blue,\r\nDirect aid to Ukraine,Пряма допомога Україні,3,1,left,green,\r\nOther,Інше,3,2,left,grey,\r\nMilitary Aid,Військова,4,1,left,green,\r\nHumanitarian & Economic Aid,Гуманітарна та економічна,4,2,left,pink,\r\nInstant aid (PDA),Миттєва (PDA),5,1,left,green,\r\nCommitted,Миттєва (PDA)_committed,6,1,right,green,\r\nAvailable,Миттєва (PDA)_available,6,2,right,green,\r\nExpired funds,Миттєва (PDA)_expired,6,3,right,red,\r\nDeferred aid (USAI & FMF),Відкладена (USAI & FMF),5,2,left,#f2cf5b,\r\nCommitted.,Відкладена (USAI & FMF)_committed,6,4,right,#f2cf5b,\r\nAvailable.,Відкладена (USAI & FMF)_available,6,5,right,#f2cf5b,"
 		},
 		{
 			"name": "connections",
@@ -69,10 +72,9 @@
 					"source": "string",
 					"destination": "string",
 					"value": "number"
-				},
-				"delimiter": ","
+				}
 			},
-			"values": "source,value,destination\r\n\"USAA 2022, березень 2022\",21.0783,Всього\r\n\"USAA 2023, вересень 2022\",10.337,Всього\r\n\"+USAA 2022, травень 2022\",31.048,Всього\r\n\"+USAA 2023, грудень 2022\",49.9343,Всього\r\nВсього,82.87,Пряма допомога Україні\r\nВсього,29.4013,Інше\r\nПряма допомога Україні,48.15,Військова допомога\r\nПряма допомога Україні,34.72,Гуманітарна та економічна допомога\r\nВійськова допомога,25.5,Короткострокова допомога (PDA)\r\nВійськова допомога,22.65,Довгострокова допомога (USAI & FMF)\r\nКороткострокова допомога (PDA),20.735,Передано обо обіцяно найближчім часом\r\nКороткострокова допомога (PDA),1.775,Прострочено\r\nКороткострокова допомога (PDA),2.99,В наявності"
+			"values": "source,value,destination,\r\n15.03.22,13.6005,Всього,\"USAA 2022, March 2022\"\r\n21.05.22,40.143,Всього,\"+USAA 2022, May 2022\"\r\n30.09.22,11.837,Всього,\"USAA 2023, September 2022\"\r\n29.12.22,47.3218,Всього,\"+USAA 2023, December 2022\"\r\nВсього,80.7233,Пряма допомога Україні,\r\nВсього,32.179,Інше,\r\nПряма допомога Україні,45.877,Військова,\r\nПряма допомога Україні,34.8463,Гуманітарна та економічна,\r\nВійськова,25.5,Миттєва (PDA),\r\nМиттєва (PDA),15.535,Миттєва (PDA)_committed,\r\nМиттєва (PDA),5.59,Миттєва (PDA)_available,\r\nМиттєва (PDA),4.375,Миттєва (PDA)_expired,\r\nВійськова,20.377,Відкладена (USAI & FMF),\r\nВідкладена (USAI & FMF),18.242,Відкладена (USAI & FMF)_committed,\r\nВідкладена (USAI & FMF),2.135,Відкладена (USAI & FMF)_available,"
 		},
 		{
 			"name": "preStacks",
@@ -144,20 +146,22 @@
 					"type": "lookup",
 					"from": "entries",
 					"key": "category",
+					"fields": [
+						"name"
+					],
 					"values": [
 						"stack",
 						"sort",
 						"gap",
-						"labels"
-					],
-					"fields": [
-						"name"
+						"labels",
+						"color"
 					],
 					"as": [
 						"stack",
 						"sort",
 						"gap",
-						"labels"
+						"labels",
+						"color"
 					]
 				},
 				{
@@ -210,18 +214,13 @@
 			"transform": [
 				{
 					"type": "formula",
-					"as": "spacer",
-					"expr": "(data('maxValue')[0].value/(100 * .5))*(standardGap+datum.gap)"
-				},
-				{
-					"type": "formula",
 					"as": "type",
 					"expr": "['data','spacer']"
 				},
 				{
 					"type": "formula",
 					"as": "spacedValue",
-					"expr": "[datum.value,datum.spacer]"
+					"expr": "[datum.value,spacer]"
 				},
 				{
 					"type": "flatten",
@@ -240,9 +239,7 @@
 						"order": "descending"
 					},
 					"field": "spacedValue",
-					"offset": {
-						"signal": "base"
-					}
+					"offset": "center"
 				},
 				{
 					"type": "formula",
@@ -297,7 +294,8 @@
 						"y0",
 						"y1",
 						"stack",
-						"sort"
+						"sort",
+						"color"
 					],
 					"fields": [
 						"destination"
@@ -306,7 +304,8 @@
 						"destinationStacky0",
 						"destinationStacky1",
 						"destinationStack",
-						"destinationSort"
+						"destinationSort",
+						"color"
 					]
 				},
 				{
@@ -395,7 +394,7 @@
 				},
 				{
 					"type": "formula",
-					"expr": "(range('y')[0]-scale('y', datum.value))",
+					"expr": "(range('y')[0]-scale('y', datum.value)) / 1.",
 					"as": "strokeWidth"
 				}
 			]
@@ -410,7 +409,7 @@
 				"data": "finalTable",
 				"field": "stack"
 			},
-			"paddingInner": 0.88
+			"paddingInner": 0.9
 		},
 		{
 			"name": "y",
@@ -421,42 +420,6 @@
 				"field": "y1"
 			},
 			"reverse": false
-		},
-		{
-			"name": "color",
-			"type": "ordinal",
-			"range": [
-				"blue",
-				"blue",
-				"blue",
-				"blue",
-				"blue",
-				"green",
-				"grey",
-				"green",
-				"pink",
-				"green",
-				"#f2cf5b",
-				"green",
-				"red",
-				"green"
-			],
-			"domain": [
-				"USAA 2022, березень 2022",
-				"+USAA 2022, травень 2022",
-				"USAA 2023, вересень 2022",
-				"+USAA 2023, грудень 2022",
-				"Всього",
-				"Пряма допомога Україні",
-				"Інше",
-				"Військова допомога",
-				"Гуманітарна та економічна допомога",
-				"Короткострокова допомога (PDA)",
-				"Довгострокова допомога (USAI & FMF)",
-				"Передано обо обіцяно найближчім часом",
-				"Прострочено",
-				"В наявності"
-			]
 		}
 	],
 	"marks": [
@@ -484,8 +447,7 @@
 						"field": "y1"
 					},
 					"fill": {
-						"scale": "color",
-						"field": "name"
+						"field": "color"
 					},
 					"fillOpacity": {
 						"value": 0.75
@@ -494,8 +456,7 @@
 						"value": 0
 					},
 					"stroke": {
-						"scale": "color",
-						"field": "name"
+						"field": "color"
 					}
 				},
 				"hover": {
@@ -527,8 +488,7 @@
 						"signal": "0.3"
 					},
 					"stroke": {
-						"field": "destination",
-						"scale": "color"
+						"field": "color"
 					}
 				},
 				"hover": {
@@ -568,7 +528,7 @@
 						"value": "red"
 					},
 					"x": {
-						"signal": "datum.labels=='left'?scale('x', datum.stack)-8 : scale('x', datum.stack) + (bandwidth('x')) +8"
+						"signal": "datum.labels=='left'?scale('x', datum.stack) - 8 : scale('x', datum.stack) + (bandwidth('x')) + 8"
 					},
 					"yc": {
 						"scale": "y",
@@ -627,7 +587,7 @@
 								"signal": "fontSize"
 							},
 							"text": {
-								"signal": " format(datum.value, '$.1f') + ' B'"
+								"signal": " format(datum.value, '$.2f') + ' B'"
 							},
 							"align": {
 								"signal": "datum.labels=='left'?'right':'left'"
