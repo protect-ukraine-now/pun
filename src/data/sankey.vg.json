@@ -111,8 +111,7 @@
           "values": ["stack", "sort", "gap", "labels", "color"],
           "as": ["stack", "sort", "gap", "labels", "color"]
         },
-        // {"type": "formula", "as": "gap", "expr": "datum.gap?datum.gap:0"}
-        {"type": "impute", "key": "gap", "field": "gap", "method": "value", "value": 0}
+        {"type": "formula", "as": "gap", "expr": "datum.gap?datum.gap:0"}
       ]
     },
     {
@@ -271,8 +270,6 @@
           "width": {"scale": "x", "band": 1},
           "y": {"scale": "y", "field": "y0"},
           "y2": {"scale": "y", "field": "y1"},
-          // "yc": { "scale": "y", "field": "yc"},
-          // "height": { "scale": "y", "field": "spacedValue"},
           "fill": {"field": "color"},
           "fillOpacity": {"value": 0.75},
           "strokeWidth": {"value": 0},
