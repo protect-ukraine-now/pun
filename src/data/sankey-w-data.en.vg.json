@@ -38,12 +38,15 @@
 		{
 			"name": "standardGap",
 			"value": 14,
-			"description": "Gap as a percentage of full domain"
+			"- FMF funds spent on Other countries are included in 'Other'": "Gap as a percentage of full domain"
 		},
 		{
-			"name": "base",
-			"value": "center",
-			"description": "How to stack(center or zero)"
+			"name": "maxValue",
+			"init": "data('maxValue')[0].value"
+		},
+		{
+			"name": "spacer",
+			"init": "maxValue/(100 * 1.)*standardGap"
 		}
 	],
 	"data": [
@@ -55,11 +58,11 @@
 					"category": "string",
 					"stack": "number",
 					"sort": "number",
-					"labels": "string"
-				},
-				"delimiter": ","
+					"labels": "string",
+					"color": "string"
+				}
 			},
-			"values": "category,stack,sort,labels\r\n\"USAA 2022, March 2022\",1,1,left\r\n\"+USAA 2022, May 2022\",1,2,left\r\n\"USAA 2023, September 2022\",1,3,left\r\n\"+USAA 2023, December 2022\",1,4,left\r\nTotal,2,1,left\r\nDirect aid to Ukraine,3,1,left\r\nOther,3,2,left\r\nMilitary Aid,4,1,left\r\nHumanitarian & Economic Aid,4,2,left\r\nShort-term aid (PDA),5,1,left\r\nLong-term aid (USAI & FMF),5,2,left\r\nCommitted,6,1,left\r\nAvailable,6,2,left\r\nExpired funds,6,3,left"
+			"values": "name,category,stack,sort,labels,color,\r\nMar '22,Mar '22,1,1,left,blue,\"USAA 2022, March 2022\"\r\nMay '22,May '22,1,2,left,blue,\"+USAA 2022, May 2022\"\r\nSep '22,Sep '22,1,3,left,blue,\"USAA 2023, September 2022\"\r\nDec '22,Dec '22,1,4,left,blue,\"+USAA 2023, December 2022\"\r\nTotal,Total,2,1,left,blue,\r\nDirect aid to Ukraine,Direct aid to Ukraine,3,1,left,green,\r\nOther,Other,3,2,left,grey,\r\nMilitary Aid,Military,4,1,left,green,\r\nHumanitarian & Economic Aid,Humanitarian & Economic,4,2,left,pink,\r\nInstant aid (PDA),Instant (PDA),5,1,left,green,\r\nCommitted,Committed,6,1,right,green,\r\nAvailable,Expired funds,6,2,right,green,\r\nExpired funds,Available,6,3,right,red,\r\nDeferred aid (USAI & FMF),Deferred (USAI & FMF),5,2,left,#f2cf5b,\r\nCommitted.,committed_Deferred (USAI & FMF),6,4,right,#f2cf5b,\r\nAvailable.,available_Deferred (USAI & FMF),6,5,right,#f2cf5b,"
 		},
 		{
 			"name": "connections",
@@ -69,10 +72,9 @@
 					"source": "string",
 					"destination": "string",
 					"value": "number"
-				},
-				"delimiter": ","
+				}
 			},
-			"values": "source,value,destination\r\n\"USAA 2022, March 2022\",21.0783,Total\r\n\"USAA 2023, September 2022\",10.337,Total\r\n\"+USAA 2022, May 2022\",31.048,Total\r\n\"+USAA 2023, December 2022\",49.9343,Total\r\nTotal,82.87,Direct aid to Ukraine\r\nTotal,29.4013,Other\r\nDirect aid to Ukraine,48.15,Military Aid\r\nDirect aid to Ukraine,34.72,Humanitarian & Economic Aid\r\nMilitary Aid,25.5,Short-term aid (PDA)\r\nMilitary Aid,22.65,Long-term aid (USAI & FMF)\r\nShort-term aid (PDA),20.735,Committed\r\nShort-term aid (PDA),1.775,Expired funds\r\nShort-term aid (PDA),2.99,Available"
+			"values": "source,value,destination,\r\nMar '22,13.6005,Total,\"USAA 2022, March 2022\"\r\nMay '22,40.143,Total,\"+USAA 2022, May 2022\"\r\nSep '22,11.837,Total,\"USAA 2023, September 2022\"\r\nDec '22,47.3218,Total,\"+USAA 2023, December 2022\"\r\nTotal,80.7233,Direct aid to Ukraine,\r\nTotal,32.179,Other,\r\nDirect aid to Ukraine,45.877,Military,\r\nDirect aid to Ukraine,34.8463,Humanitarian & Economic,\r\nMilitary,25.5,Instant (PDA),\r\nInstant (PDA),16.335,Committed,\r\nInstant (PDA),4.375,Available,\r\nInstant (PDA),4.79,Expired funds,\r\nMilitary,20.377,Deferred (USAI & FMF),\r\nDeferred (USAI & FMF),18.242,committed_Deferred (USAI & FMF),\r\nDeferred (USAI & FMF),2.135,available_Deferred (USAI & FMF),"
 		},
 		{
 			"name": "preStacks",
@@ -144,20 +146,22 @@
 					"type": "lookup",
 					"from": "entries",
 					"key": "category",
+					"fields": [
+						"name"
+					],
 					"values": [
 						"stack",
 						"sort",
 						"gap",
-						"labels"
-					],
-					"fields": [
-						"name"
+						"labels",
+						"color"
 					],
 					"as": [
 						"stack",
 						"sort",
 						"gap",
-						"labels"
+						"labels",
+						"color"
 					]
 				},
 				{
@@ -210,18 +214,13 @@
 			"transform": [
 				{
 					"type": "formula",
-					"as": "spacer",
-					"expr": "(data('maxValue')[0].value/(100 * .5))*(standardGap+datum.gap)"
-				},
-				{
-					"type": "formula",
 					"as": "type",
 					"expr": "['data','spacer']"
 				},
 				{
 					"type": "formula",
 					"as": "spacedValue",
-					"expr": "[datum.value,datum.spacer]"
+					"expr": "[datum.value,spacer]"
 				},
 				{
 					"type": "flatten",
@@ -240,9 +239,7 @@
 						"order": "descending"
 					},
 					"field": "spacedValue",
-					"offset": {
-						"signal": "base"
-					}
+					"offset": "center"
 				},
 				{
 					"type": "formula",
@@ -297,7 +294,8 @@
 						"y0",
 						"y1",
 						"stack",
-						"sort"
+						"sort",
+						"color"
 					],
 					"fields": [
 						"destination"
@@ -306,7 +304,8 @@
 						"destinationStacky0",
 						"destinationStacky1",
 						"destinationStack",
-						"destinationSort"
+						"destinationSort",
+						"color"
 					]
 				},
 				{
@@ -395,7 +394,7 @@
 				},
 				{
 					"type": "formula",
-					"expr": "(range('y')[0]-scale('y', datum.value))",
+					"expr": "(range('y')[0]-scale('y', datum.value)) / 1.",
 					"as": "strokeWidth"
 				}
 			]
@@ -410,7 +409,7 @@
 				"data": "finalTable",
 				"field": "stack"
 			},
-			"paddingInner": 0.88
+			"paddingInner": 0.9
 		},
 		{
 			"name": "y",
@@ -421,42 +420,6 @@
 				"field": "y1"
 			},
 			"reverse": false
-		},
-		{
-			"name": "color",
-			"type": "ordinal",
-			"range": [
-				"blue",
-				"blue",
-				"blue",
-				"blue",
-				"blue",
-				"green",
-				"grey",
-				"green",
-				"pink",
-				"green",
-				"#f2cf5b",
-				"green",
-				"red",
-				"green"
-			],
-			"domain": [
-				"USAA 2022, March 2022",
-				"+USAA 2022, May 2022",
-				"USAA 2023, September 2022",
-				"+USAA 2023, December 2022",
-				"Total",
-				"Direct aid to Ukraine",
-				"Other",
-				"Military Aid",
-				"Humanitarian & Economic Aid",
-				"Short-term aid (PDA)",
-				"Long-term aid (USAI & FMF)",
-				"Committed",
-				"Expired funds",
-				"Available"
-			]
 		}
 	],
 	"marks": [
@@ -484,8 +447,7 @@
 						"field": "y1"
 					},
 					"fill": {
-						"scale": "color",
-						"field": "name"
+						"field": "color"
 					},
 					"fillOpacity": {
 						"value": 0.75
@@ -494,8 +456,7 @@
 						"value": 0
 					},
 					"stroke": {
-						"scale": "color",
-						"field": "name"
+						"field": "color"
 					}
 				},
 				"hover": {
@@ -527,8 +488,7 @@
 						"signal": "0.3"
 					},
 					"stroke": {
-						"field": "destination",
-						"scale": "color"
+						"field": "color"
 					}
 				},
 				"hover": {
@@ -568,7 +528,7 @@
 						"value": "red"
 					},
 					"x": {
-						"signal": "datum.labels=='left'?scale('x', datum.stack)-8 : scale('x', datum.stack) + (bandwidth('x')) +8"
+						"signal": "datum.labels=='left'?scale('x', datum.stack) - 8 : scale('x', datum.stack) + (bandwidth('x')) + 8"
 					},
 					"yc": {
 						"scale": "y",
@@ -627,7 +587,7 @@
 								"signal": "fontSize"
 							},
 							"text": {
-								"signal": " format(datum.value, '$.1f') + ' B'"
+								"signal": " format(datum.value, '$.2f') + ' B'"
 							},
 							"align": {
 								"signal": "datum.labels=='left'?'right':'left'"
