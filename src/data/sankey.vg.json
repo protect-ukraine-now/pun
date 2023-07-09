@@ -36,9 +36,12 @@
       "description": "Gap as a percentage of full domain"
     },
     {
-      "name": "base",
-      "value": "center",
-      "description": "How to stack(center or zero)"
+      "name": "maxValue",
+      "init": "data('maxValue')[0].value"
+    },
+    {
+      "name": "spacer",
+      "init": "maxValue/(100 * 1.)*standardGap"
     }
   ],
   "data": [
@@ -51,9 +54,9 @@
           "category": "string",
           "stack": "number",
           "sort": "number",
-          "labels": "string"
-        },
-        "delimiter": ","
+          "labels": "string",
+          "color": "string"
+        }
       }
     },
     {
@@ -65,8 +68,7 @@
           "source": "string",
           "destination": "string",
           "value": "number"
-        },
-        "delimiter": ","
+        }
       }
     },
     {
@@ -105,11 +107,12 @@
           "type": "lookup",
           "from": "entries",
           "key": "category",
-          "values": ["stack", "sort", "gap", "labels"],
           "fields": ["name"],
-          "as": ["stack", "sort", "gap", "labels"]
+          "values": ["stack", "sort", "gap", "labels", "color"],
+          "as": ["stack", "sort", "gap", "labels", "color"]
         },
-        {"type": "formula", "as": "gap", "expr": "datum.gap?datum.gap:0"}
+        // {"type": "formula", "as": "gap", "expr": "datum.gap?datum.gap:0"}
+        {"type": "impute", "key": "gap", "field": "gap", "method": "value", "value": 0}
       ]
     },
     {
@@ -135,16 +138,11 @@
       "name": "plottedStacks",
       "source": ["stacks"],
       "transform": [
-        {
-          "type": "formula",
-          "as": "spacer",
-          "expr": "(data('maxValue')[0].value/(100 * .5))*(standardGap+datum.gap)"
-        },
         {"type": "formula", "as": "type", "expr": "['data','spacer']"},
         {
           "type": "formula",
           "as": "spacedValue",
-          "expr": "[datum.value,datum.spacer]"
+          "expr": "[datum.value,spacer]"
         },
         {"type": "flatten", "fields": ["type", "spacedValue"]},
         {
@@ -152,7 +150,7 @@
           "groupby": ["stack"],
           "sort": {"field": "sort", "order": "descending"},
           "field": "spacedValue",
-          "offset": {"signal": "base"}
+          "offset": "center"
         },
         {"type": "formula", "expr": "((datum.value)/2)+datum.y0", "as": "yc"}
       ]
@@ -172,19 +170,25 @@
           "key": "name",
           "values": ["y0", "y1", "stack", "sort"],
           "fields": ["source"],
-          "as": ["sourceStacky0", "sourceStacky1", "sourceStack", "sourceSort"]
+          "as": [
+            "sourceStacky0", 
+            "sourceStacky1", 
+            "sourceStack", 
+            "sourceSort"
+          ]
         },
         {
           "type": "lookup",
           "from": "finalTable",
           "key": "name",
-          "values": ["y0", "y1", "stack", "sort"],
+          "values": ["y0", "y1", "stack", "sort", "color"],
           "fields": ["destination"],
           "as": [
             "destinationStacky0",
             "destinationStacky1",
             "destinationStack",
-            "destinationSort"
+            "destinationSort",
+            "color"
           ]
         },
         {
@@ -235,7 +239,7 @@
         },
         {
           "type": "formula",
-          "expr": "(range('y')[0]-scale('y', datum.value))",
+          "expr": "(range('y')[0]-scale('y', datum.value)) / 1.",
           "as": "strokeWidth"
         }
       ]
@@ -247,7 +251,7 @@
       "type": "band",
       "range": "width",
       "domain": {"data": "finalTable", "field": "stack"},
-      "paddingInner": 0.88
+      "paddingInner": 0.9
     },
     {
       "name": "y",
@@ -255,34 +259,6 @@
       "range": "height",
       "domain": {"data": "finalTable", "field": "y1"},
       "reverse": false
-    },
-    {
-      "name": "color",
-      "type": "ordinal",
-      "range": [
-        "blue", "blue", "blue", "blue",
-        "blue",
-        "green", "grey",
-        "green", "pink",
-        "green", "#f2cf5b",
-        "green", "red", "green"
-      ],
-      "domain": [
-        "USAA 2022, March 2022",
-        "+USAA 2022, May 2022",
-        "USAA 2023, September 2022",
-        "+USAA 2023, December 2022",
-        "Total",
-        "Direct aid to Ukraine",
-        "Other",
-        "Military Aid",
-        "Humanitarian & Economic Aid",
-        "Short-term aid (PDA)",
-        "Long-term aid (USAI & FMF)",
-        "Committed",
-        "Expired funds",
-        "Available"
-      ]
     }
   ],
   "marks": [
@@ -295,10 +271,12 @@
           "width": {"scale": "x", "band": 1},
           "y": {"scale": "y", "field": "y0"},
           "y2": {"scale": "y", "field": "y1"},
-          "fill": {"scale": "color", "field": "name"},
+          // "yc": { "scale": "y", "field": "yc"},
+          // "height": { "scale": "y", "field": "spacedValue"},
+          "fill": {"field": "color"},
           "fillOpacity": {"value": 0.75},
           "strokeWidth": {"value": 0},
-          "stroke": {"scale": "color", "field": "name"}
+          "stroke": {"field": "color"}
         },
         "hover": {
           "tooltip": {
@@ -318,7 +296,7 @@
           "strokeWidth": {"field": "strokeWidth"},
           "path": {"field": "path"},
           "strokeOpacity": {"signal": "0.3"},
-          "stroke": {"field": "destination", "scale": "color"}
+          "stroke": {"field": "color"}
         },
         "hover": {
           "strokeOpacity": {"value": 1},
@@ -345,7 +323,7 @@
           "strokeWidth": {"value": 1},
           "stroke": {"value": "red"},
           "x": {
-            "signal": "datum.labels=='left'?scale('x', datum.stack)-8 : scale('x', datum.stack) + (bandwidth('x')) +8"
+            "signal": "datum.labels=='left'?scale('x', datum.stack) - 8 : scale('x', datum.stack) + (bandwidth('x')) + 8"
           },
           "yc": {"scale": "y", "signal": "datum.yc"},
           "width": {"signal": "0"},
@@ -376,7 +354,7 @@
             "update": {
               "x": {"value": 0},
               "y": {"signal": "fontSize"},
-              "text": {"signal": " format(datum.value, '$.1f') + ' B'"},
+              "text": {"signal": " format(datum.value, '$.2f') + ' B'"},
               "align": {"signal": "datum.labels=='left'?'right':'left'"}
             }
           }
