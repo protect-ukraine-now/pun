@@ -235,7 +235,7 @@
         },
         {
           "type": "formula",
-          "expr": "(range('y')[0]-scale('y', datum.value))",
+          "expr": "(range('y')[0]-scale('y', datum.value)) / 1.",
           "as": "strokeWidth"
         }
       ]
@@ -265,13 +265,13 @@
         "green", "grey",
         "green", "pink",
         "green", "#f2cf5b",
-        "green", "red", "green"
+        "green", "red", "green", "#f2cf5b", "#f2cf5b"
       ],
       "domain": [
-        "USAA 2022, March 2022",
-        "+USAA 2022, May 2022",
-        "USAA 2023, September 2022",
-        "+USAA 2023, December 2022",
+        "Mar '22 (FY 22)",
+        "May '22 (FY 22)",
+        "Sep '22 (FY 23)",
+        "Dec '22 (FY 23)",
         "Total",
         "Direct aid to Ukraine",
         "Other",
@@ -279,9 +279,11 @@
         "Humanitarian & Economic Aid",
         "Short-term aid (PDA)",
         "Long-term aid (USAI & FMF)",
-        "Committed",
-        "Expired funds",
-        "Available"
+        "Committed (PDA)",
+        "Expired funds (PDA)",
+        "Available (PDA)",
+        "Committed (USAI & FMF)",
+        "Available (USAI & FMF)"
       ]
     }
   ],
@@ -345,7 +347,7 @@
           "strokeWidth": {"value": 1},
           "stroke": {"value": "red"},
           "x": {
-            "signal": "datum.labels=='left'?scale('x', datum.stack)-8 : scale('x', datum.stack) + (bandwidth('x')) +8"
+            "signal": "datum.labels=='left'?scale('x', datum.stack) - 8 : scale('x', datum.stack) + (bandwidth('x')) + 8"
           },
           "yc": {"scale": "y", "signal": "datum.yc"},
           "width": {"signal": "0"},
@@ -376,7 +378,7 @@
             "update": {
               "x": {"value": 0},
               "y": {"signal": "fontSize"},
-              "text": {"signal": " format(datum.value, '$.1f') + ' B'"},
+              "text": {"signal": " format(datum.value, '$.2f') + ' B'"},
               "align": {"signal": "datum.labels=='left'?'right':'left'"}
             }
           }

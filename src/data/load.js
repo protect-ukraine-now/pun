@@ -72,7 +72,9 @@ async function loadVega(spec, { uk }) {
     let json = JSON.stringify(spec, null, '\t')
     fs.writeFileSync('src/data/sankey-w-data.en.vg.json', json)
     spec.scales.filter(x => x.domain?.length)[0].domain.forEach(x => {
-        json = json.replaceAll(x, uk.sankey[x])
+        if (uk.sankey[x]) {
+            json = json.replaceAll(x, uk.sankey[x])
+        }
     })
     fs.writeFileSync('src/data/sankey-w-data.uk.vg.json', json)
 }
