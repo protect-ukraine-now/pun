@@ -63,7 +63,7 @@ export default
 					"color": "string"
 				}
 			},
-			"values": "name,category,stack,sort,labels,color,\r\nMar '22,bill_mar_22,1,1,left,blue,\"USAA 2022, March 2022\"\r\nMay '22,bill_may_22,1,2,left,blue,\"+USAA 2022, May 2022\"\r\nSep '22,bill_sep_22,1,3,left,blue,\"USAA 2023, September 2022\"\r\nDec '22,bill_dec_22,1,4,left,blue,\"+USAA 2023, December 2022\"\r\nTotal,total,2,1,left,blue,\r\nDirect aid to Ukraine,direct,3,1,left,green,\r\nOther,other,3,2,left,grey,\r\nMilitary Aid,military,4,1,left,green,\r\nHumanitarian & Economic Aid,human,4,2,left,pink,\r\nInstant aid (PDA),instant_total,5,1,left,green,\r\nCommitted,instant_committed,6,1,right,green,\r\nAvailable,instant_available,6,2,right,green,\r\nExpired funds,instant_expired,6,3,right,red,\r\nDeferred aid (USAI & FMF),deferred_total,5,2,left,#f2cf5b,\r\nCommitted.,deferred_committed,6,4,right,#f2cf5b,\r\nAvailable.,deferred_available,6,5,right,#f2cf5b,"
+			"values": "name,category,stack,sort,labels,color,\r\nMar '22,bill_mar_22,1,1,left,blue,\"USAA 2022, March 2022\"\r\nMay '22,bill_may_22,1,2,left,blue,\"+USAA 2022, May 2022\"\r\nSep '22,bill_sep_22,1,3,left,blue,\"USAA 2023, September 2022\"\r\nDec '22,bill_dec_22,1,4,left,blue,\"+USAA 2023, December 2022\"\r\nTotal,total_budget,2,1,left,blue,\r\nDirect aid to Ukraine,direct,3,1,left,green,\r\nOther,other,3,2,left,grey,\r\nMilitary Aid,military,4,1,left,green,\r\nHumanitarian & Economic Aid,human,4,2,left,pink,\r\nInstant aid (PDA),instant_total,5,1,left,green,\r\nCommitted,instant_committed,6,1,right,green,\r\nAvailable,instant_available,6,2,right,green,\r\nExpired funds,instant_expired,6,3,right,red,\r\nDeferred aid (USAI & FMF),deferred_total,5,2,left,#f2cf5b,\r\nCommitted.,deferred_committed,6,4,right,#f2cf5b,\r\nAvailable.,deferred_available,6,5,right,#f2cf5b,"
 		},
 		{
 			"name": "connections",
@@ -75,7 +75,7 @@ export default
 					"value": "number"
 				}
 			},
-			"values": "source,value,destination,\r\nbill_mar_22,13.6005,total,\"USAA 2022, March 2022\"\r\nbill_may_22,40.143,total,\"+USAA 2022, May 2022\"\r\nbill_sep_22,11.837,total,\"USAA 2023, September 2022\"\r\nbill_dec_22,47.3218,total,\"+USAA 2023, December 2022\"\r\ntotal,80.7233,direct,\r\ntotal,32.179,other,\r\ndirect,45.877,military,\r\ndirect,34.8463,human,\r\nmilitary,25.5,instant_total,\r\ninstant_total,15.535,instant_committed,\r\ninstant_total,5.59,instant_available,\r\ninstant_total,4.375,instant_expired,\r\nmilitary,20.377,deferred_total,\r\ndeferred_total,18.242,deferred_committed,\r\ndeferred_total,2.135,deferred_available,"
+			"values": "source,value,destination,\r\nbill_mar_22,13.6005,total_budget,\"USAA 2022, March 2022\"\r\nbill_may_22,40.143,total_budget,\"+USAA 2022, May 2022\"\r\nbill_sep_22,11.837,total_budget,\"USAA 2023, September 2022\"\r\nbill_dec_22,47.3218,total_budget,\"+USAA 2023, December 2022\"\r\ntotal_budget,80.7233,direct,\r\ntotal_budget,32.179,other,\r\ndirect,45.877,military,\r\ndirect,34.8463,human,\r\nmilitary,25.5,instant_total,\r\ninstant_total,15.535,instant_committed,\r\ninstant_total,5.59,instant_available,\r\ninstant_total,4.375,instant_expired,\r\nmilitary,20.377,deferred_total,\r\ndeferred_total,18.242,deferred_committed,\r\ndeferred_total,2.135,deferred_available,"
 		},
 		{
 			"name": "preStacks",
