@@ -10,7 +10,9 @@ import spec from 'src/data/sankey-w-data.vg'
 export default function SankeyChart() {
 	const formatter = formatDate(useLanguage())
 	const from = formatter('2022-02-24')
-	const till = formatter(latestReport.till)
+	let till = latestReport.till
+	if (till === '2023-07-02') till = '2023-07-09'
+	till = formatter(till)
 	const text = useText()
 	const title = text('sankey.title')
 	const subtitle = text('sankey.subtitle', { from, till })
