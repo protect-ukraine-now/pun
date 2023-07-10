@@ -170,9 +170,9 @@
           "values": ["y0", "y1", "stack", "sort"],
           "fields": ["source"],
           "as": [
-            "sourceStacky0", 
-            "sourceStacky1", 
-            "sourceStack", 
+            "sourceStacky0",
+            "sourceStacky1",
+            "sourceStack",
             "sourceSort"
           ]
         },
@@ -276,7 +276,7 @@
           "stroke": {"field": "color"}
         },
         "hover": {
-          "tooltip": {
+          "_tooltip": {
             "signal": "{'Name':datum.name, 'Value':format(datum.value, '$') + ' B'}"
           },
           "fillOpacity": {"value": 1}
@@ -297,7 +297,7 @@
         },
         "hover": {
           "strokeOpacity": {"value": 1},
-          "tooltip": {
+          "_tooltip": {
             "signal": "{'Source':datum.source,'Destination':datum.destination, 'Value':format(datum.value, '$') + ' B'}"
           }
         }

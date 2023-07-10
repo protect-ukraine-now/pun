@@ -1,7 +1,5 @@
 import fs from 'fs'
 
-import sankey from './sankey.vg.json' assert { type: "json" }
-
 let indexText = text => text.reduce((a, [group, key, en, uk]) => {
     a.en[group] = { ...(a.en[group] || {}), [key]: en }
     a.uk[group] = { ...(a.uk[group] || {}), [key]: uk }
@@ -61,22 +59,4 @@ async function loadSheets() {
     return data
 }
 
-async function loadVega(spec, text) {
-    let data = spec.data.map(async ({ url }, i) => {
-        if (!url) return
-        let csv = await (await fetch(url)).text()
-        delete spec.data[i].url
-        spec.data[i].values = csv
-    })
-    await Promise.all(data)
-    let json = JSON.stringify(spec, null, '\t')
-    Object.entries(text).forEach(([lang, { sankey }]) => {
-        let translated = Object.entries(sankey).reduce((json, [key, val]) => (
-            json.replaceAll(key, val)
-        ), json)
-        fs.writeFileSync(`src/data/sankey-w-data.${lang}.vg.json`, translated)
-    })
-}
-
-const { text } = await loadSheets()
-await loadVega(sankey, text)
+loadSheets()

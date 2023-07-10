@@ -11,11 +11,15 @@
 		"dev": "vite",
 		"dev:pun": "cross-env VITE_APP_NAME='pun' vite",
 		"dev:uat": "cross-env VITE_APP_NAME='uat' vite",
-		"load": "node src/data/load.js",
+		"load": "yarn load:sheets && yarn load:sankey",
+		"load:sheets": "node src/data/load-sheets.js",
+		"load:sankey": "node src/data/load-sankey.js",
 		"build": "yarn load && rakkas build",
 		"preview": "cross-env NODE_ENV='development' rakkas build && wrangler dev",
-		"deploy:stage": "yarn build && wrangler deploy",
-		"switch:prod": "sed -i 's/stage/prod/g' wrangler.toml"
+		"switch:stage": "sed -i 's/prod/stage/g' wrangler.toml",
+		"switch:prod": "sed -i 's/stage/prod/g' wrangler.toml",
+		"deploy:stage": "yarn build && yarn switch:stage && wrangler deploy",
+		"deploy:prod": "yarn build && yarn switch:prod && wrangler deploy"
 	},
 	"devDependencies": {
 		"@rakkasjs/eslint-config": "0.6.20",

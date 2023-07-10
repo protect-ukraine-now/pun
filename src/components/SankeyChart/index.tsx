@@ -4,21 +4,24 @@ import { useLanguage, useText } from 'src/tools/language'
 import { latestReport } from 'src/data/report'
 import { formatDate } from 'src/tools/date'
 import Vega from 'src/components/Vega'
-import sankeySpecEn from 'src/data/sankey-w-data.en.vg.json?init'
-import sankeySpecUk from 'src/data/sankey-w-data.uk.vg.json?init'
+import texts from 'src/data/text.json?init'
+import spec from 'src/data/sankey-w-data.vg'
 
 export default function SankeyChart() {
-	const text = useText()
 	const formatter = formatDate(useLanguage())
 	const from = formatter('2022-02-24')
 	const till = formatter(latestReport.till)
+	const text = useText()
 	const title = text('sankey.title')
 	const subtitle = text('sankey.subtitle', { from, till })
 	const description = text('sankey.description')
-	const spec = useLanguage() === 'uk' ? sankeySpecUk : sankeySpecEn
+	let json = JSON.stringify(spec)
+	Object.entries(texts[useLanguage()].sankey).forEach(([key, val]) => {
+		json = json.replaceAll(key, val)
+	})
 	return (
 		<Section {...{ title, subtitle, description }} >
-			<Vega id="test" spec={spec} className={style.chart} />
+			<Vega id="test" spec={JSON.parse(json)} className={style.chart} />
 		</Section>
 	)
 }

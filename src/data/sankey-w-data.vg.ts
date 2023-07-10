@@ -1,3 +1,4 @@
+export default
 {
 	"$schema": "https://vega.github.io/schema/vega/v5.json",
 	"autosize": {
@@ -38,7 +39,7 @@
 		{
 			"name": "standardGap",
 			"value": 14,
-			"- FMF funds spent on Other countries are included in 'Other'": "Gap as a percentage of full domain"
+			"description": "Gap as a percentage of full domain"
 		},
 		{
 			"name": "maxValue",
@@ -62,7 +63,7 @@
 					"color": "string"
 				}
 			},
-			"values": "name,category,stack,sort,labels,color,\r\nMar '22,Mar '22,1,1,left,blue,\"USAA 2022, March 2022\"\r\nMay '22,May '22,1,2,left,blue,\"+USAA 2022, May 2022\"\r\nSep '22,Sep '22,1,3,left,blue,\"USAA 2023, September 2022\"\r\nDec '22,Dec '22,1,4,left,blue,\"+USAA 2023, December 2022\"\r\nTotal,Total,2,1,left,blue,\r\nDirect aid to Ukraine,Direct aid to Ukraine,3,1,left,green,\r\nOther,Other,3,2,left,grey,\r\nMilitary Aid,Military,4,1,left,green,\r\nHumanitarian & Economic Aid,Humanitarian & Economic,4,2,left,pink,\r\nInstant aid (PDA),Instant (PDA),5,1,left,green,\r\nCommitted,Instant (PDA)_committed,6,1,right,green,\r\nAvailable,Instant (PDA)_available,6,2,right,green,\r\nExpired funds,Instant (PDA)_expired,6,3,right,red,\r\nDeferred aid (USAI & FMF),Deferred (USAI & FMF),5,2,left,#f2cf5b,\r\nCommitted.,Deferred (USAI & FMF)_committed,6,4,right,#f2cf5b,\r\nAvailable.,Deferred (USAI & FMF)_available,6,5,right,#f2cf5b,"
+			"values": "name,category,stack,sort,labels,color,\r\nMar '22,bill_mar_22,1,1,left,blue,\"USAA 2022, March 2022\"\r\nMay '22,bill_may_22,1,2,left,blue,\"+USAA 2022, May 2022\"\r\nSep '22,bill_sep_22,1,3,left,blue,\"USAA 2023, September 2022\"\r\nDec '22,bill_dec_22,1,4,left,blue,\"+USAA 2023, December 2022\"\r\nTotal,total,2,1,left,blue,\r\nDirect aid to Ukraine,direct,3,1,left,green,\r\nOther,other,3,2,left,grey,\r\nMilitary Aid,military,4,1,left,green,\r\nHumanitarian & Economic Aid,human,4,2,left,pink,\r\nInstant aid (PDA),instant_total,5,1,left,green,\r\nCommitted,instant_committed,6,1,right,green,\r\nAvailable,instant_available,6,2,right,green,\r\nExpired funds,instant_expired,6,3,right,red,\r\nDeferred aid (USAI & FMF),deferred_total,5,2,left,#f2cf5b,\r\nCommitted.,deferred_committed,6,4,right,#f2cf5b,\r\nAvailable.,deferred_available,6,5,right,#f2cf5b,"
 		},
 		{
 			"name": "connections",
@@ -74,7 +75,7 @@
 					"value": "number"
 				}
 			},
-			"values": "source,value,destination,\r\nMar '22,13.6005,Total,\"USAA 2022, March 2022\"\r\nMay '22,40.143,Total,\"+USAA 2022, May 2022\"\r\nSep '22,11.837,Total,\"USAA 2023, September 2022\"\r\nDec '22,47.3218,Total,\"+USAA 2023, December 2022\"\r\nTotal,80.7233,Direct aid to Ukraine,\r\nTotal,32.179,Other,\r\nDirect aid to Ukraine,45.877,Military,\r\nDirect aid to Ukraine,34.8463,Humanitarian & Economic,\r\nMilitary,25.5,Instant (PDA),\r\nInstant (PDA),15.535,Instant (PDA)_committed,\r\nInstant (PDA),5.59,Instant (PDA)_available,\r\nInstant (PDA),4.375,Instant (PDA)_expired,\r\nMilitary,20.377,Deferred (USAI & FMF),\r\nDeferred (USAI & FMF),18.242,Deferred (USAI & FMF)_committed,\r\nDeferred (USAI & FMF),2.135,Deferred (USAI & FMF)_available,"
+			"values": "source,value,destination,\r\nbill_mar_22,13.6005,total,\"USAA 2022, March 2022\"\r\nbill_may_22,40.143,total,\"+USAA 2022, May 2022\"\r\nbill_sep_22,11.837,total,\"USAA 2023, September 2022\"\r\nbill_dec_22,47.3218,total,\"+USAA 2023, December 2022\"\r\ntotal,80.7233,direct,\r\ntotal,32.179,other,\r\ndirect,45.877,military,\r\ndirect,34.8463,human,\r\nmilitary,25.5,instant_total,\r\ninstant_total,15.535,instant_committed,\r\ninstant_total,5.59,instant_available,\r\ninstant_total,4.375,instant_expired,\r\nmilitary,20.377,deferred_total,\r\ndeferred_total,18.242,deferred_committed,\r\ndeferred_total,2.135,deferred_available,"
 		},
 		{
 			"name": "preStacks",
@@ -460,7 +461,7 @@
 					}
 				},
 				"hover": {
-					"tooltip": {
+					"_tooltip": {
 						"signal": "{'Name':datum.name, 'Value':format(datum.value, '$') + ' B'}"
 					},
 					"fillOpacity": {
@@ -495,7 +496,7 @@
 					"strokeOpacity": {
 						"value": 1
 					},
-					"tooltip": {
+					"_tooltip": {
 						"signal": "{'Source':datum.source,'Destination':datum.destination, 'Value':format(datum.value, '$') + ' B'}"
 					}
 				}
