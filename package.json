@@ -18,7 +18,7 @@
 		"preview": "cross-env NODE_ENV='development' rakkas build && wrangler dev",
 		"switch:stage": "sed -i 's/prod/stage/g' wrangler.toml",
 		"switch:prod": "sed -i 's/stage/prod/g' wrangler.toml",
-		"deploy:stage": "yarn build && yarn switch:stage && wrangler deploy",
+		"deploy:stage": "yarn build && wrangler deploy",
 		"deploy:prod": "yarn build && yarn switch:prod && wrangler deploy"
 	},
 	"devDependencies": {
