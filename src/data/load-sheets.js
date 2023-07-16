@@ -8,7 +8,7 @@ let indexText = text => text.reduce((a, [group, key, en, uk]) => {
 
 let transformCommits = data => data
     .filter(([date, status, country, category, type, qty]) => status === 'Approved' && +qty)
-    .map(([date, status, country, category, type, qty, fund, notes, link, title]) => [date, country, category, type, qty, fund, link, title])
+    .map(([date, status, country, category, type, qty, price, amt, fund, notes, link, title]) => [date, country, category, type, qty, fund, link, title])
 
 let transformNews = data => data
     .filter(([date, en, uk, author, source, status]) => (
