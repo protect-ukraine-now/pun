@@ -82,6 +82,26 @@
 	[
 		"2022-04-13",
 		"US",
+		"Other Armored Vehicle",
+		"M113",
+		"200",
+		"",
+		"https://www.defense.gov/News/Releases/Release/Article/3073551/fact-sheet-on-us-security-assistance-to-ukraine/",
+		"Fact Sheet on U.S. Security Assistance to Ukraine"
+	],
+	[
+		"2022-04-13",
+		"US",
+		"Towed Artillery",
+		"M777 155mm",
+		"18",
+		"PDA",
+		"https://www.defense.gov/News/Releases/Release/Article/3007664/fact-sheet-on-us-security-assistance-for-ukraine-roll-up-as-of-april-21-2022/",
+		"Fact Sheet on U.S. Security Assistance for Ukraine"
+	],
+	[
+		"2022-04-13",
+		"US",
 		"Helicopter",
 		"Mi-17",
 		"5",
@@ -100,26 +120,6 @@
 		"Fact Sheet on U.S. Security Assistance for Ukraine"
 	],
 	[
-		"2022-04-13",
-		"US",
-		"Towed Artillery",
-		"M777 155mm",
-		"18",
-		"",
-		"https://www.defense.gov/News/Releases/Release/Article/3007664/fact-sheet-on-us-security-assistance-for-ukraine-roll-up-as-of-april-21-2022/",
-		"Fact Sheet on U.S. Security Assistance for Ukraine"
-	],
-	[
-		"2022-04-13",
-		"US",
-		"Other Armored Vehicle",
-		"M113",
-		"200",
-		"",
-		"https://www.defense.gov/News/Releases/Release/Article/3073551/fact-sheet-on-us-security-assistance-to-ukraine/",
-		"Fact Sheet on U.S. Security Assistance to Ukraine"
-	],
-	[
 		"2022-04-19",
 		"Netherlands",
 		"Other Armored Vehicle",
@@ -135,7 +135,7 @@
 		"Towed Artillery",
 		"M777 155mm",
 		"72",
-		"",
+		"PDA",
 		"https://www.defense.gov/News/Releases/Release/Article/3007664/fact-sheet-on-us-security-assistance-for-ukraine-roll-up-as-of-april-21-2022/",
 		"Fact Sheet on U.S. Security Assistance for Ukraine"
 	],
@@ -305,7 +305,7 @@
 		"Towed Artillery",
 		"M777 155mm",
 		"18",
-		"",
+		"PDA",
 		"https://www.defense.gov/News/Releases/Release/Article/3037837/100-million-in-additional-security-assistance-for-ukraine/",
 		"$100 Million in Additional Security Assistance for Ukraine"
 	],
@@ -392,9 +392,9 @@
 	[
 		"2022-06-01",
 		"US",
-		"Helicopter",
-		"Mi-17",
-		"4",
+		"Multiple Launch Rocket System",
+		"M142 HIMARS",
+		"8",
 		"",
 		"https://www.defense.gov/News/Releases/Release/Article/3073551/fact-sheet-on-us-security-assistance-to-ukraine/",
 		"Fact Sheet on U.S. Security Assistance to Ukraine"
@@ -402,9 +402,9 @@
 	[
 		"2022-06-01",
 		"US",
-		"Multiple Launch Rocket System",
-		"HIMARS",
-		"8",
+		"Helicopter",
+		"Mi-17",
+		"4",
 		"",
 		"https://www.defense.gov/News/Releases/Release/Article/3073551/fact-sheet-on-us-security-assistance-to-ukraine/",
 		"Fact Sheet on U.S. Security Assistance to Ukraine"
@@ -485,7 +485,7 @@
 		"Towed Artillery",
 		"M777 155mm",
 		"18",
-		"",
+		"PDA",
 		"https://www.defense.gov/News/Releases/Release/Article/3073551/fact-sheet-on-us-security-assistance-to-ukraine/",
 		"Fact Sheet on U.S. Security Assistance to Ukraine"
 	],
@@ -523,16 +523,6 @@
 		"2022-06-24",
 		"US",
 		"Artillery rounds",
-		"155mm",
-		"260000",
-		"",
-		"https://www.defense.gov/News/Releases/Release/Article/3073551/fact-sheet-on-us-security-assistance-to-ukraine/",
-		"Fact Sheet on U.S. Security Assistance to Ukraine"
-	],
-	[
-		"2022-06-24",
-		"US",
-		"Artillery rounds",
 		"105mm",
 		"36000",
 		"",
@@ -542,9 +532,9 @@
 	[
 		"2022-06-24",
 		"US",
-		"other",
-		"Harpoon coastal defense system",
-		"2",
+		"Artillery rounds",
+		"155mm",
+		"260000",
 		"",
 		"https://www.defense.gov/News/Releases/Release/Article/3073551/fact-sheet-on-us-security-assistance-to-ukraine/",
 		"Fact Sheet on U.S. Security Assistance to Ukraine"
@@ -555,6 +545,16 @@
 		"Vessel",
 		"Coastal and riverine patrol boats",
 		"18",
+		"",
+		"https://www.defense.gov/News/Releases/Release/Article/3073551/fact-sheet-on-us-security-assistance-to-ukraine/",
+		"Fact Sheet on U.S. Security Assistance to Ukraine"
+	],
+	[
+		"2022-06-24",
+		"US",
+		"other",
+		"Harpoon coastal defense system",
+		"2",
 		"",
 		"https://www.defense.gov/News/Releases/Release/Article/3073551/fact-sheet-on-us-security-assistance-to-ukraine/",
 		"Fact Sheet on U.S. Security Assistance to Ukraine"
@@ -712,20 +712,20 @@
 	[
 		"2022-07-01",
 		"US",
-		"Air Defense System",
-		"NASAMS",
-		"16",
-		"USAI",
+		"Artillery rounds",
+		"155mm",
+		"150000",
+		"",
 		"https://www.defense.gov/News/Releases/Release/Article/3081993/820-million-in-additional-security-assistance-for-ukraine/",
 		"$820 Million in Additional Security Assistance for Ukraine"
 	],
 	[
 		"2022-07-01",
 		"US",
-		"Artillery rounds",
-		"155mm",
-		"150000",
-		"",
+		"Air Defense System",
+		"NASAMS",
+		"16",
+		"USAI",
 		"https://www.defense.gov/News/Releases/Release/Article/3081993/820-million-in-additional-security-assistance-for-ukraine/",
 		"$820 Million in Additional Security Assistance for Ukraine"
 	],
@@ -762,9 +762,9 @@
 	[
 		"2022-07-08",
 		"US",
-		"Multiple Launch Rocket System",
-		"HIMARS",
-		"4",
+		"Artillery rounds",
+		"155mm",
+		"1000",
 		"",
 		"https://www.defense.gov/News/Releases/Release/Article/3087750/400-million-in-additional-security-assistance-for-ukraine/",
 		"$400 Million in Additional Security Assistance for Ukraine"
@@ -772,9 +772,9 @@
 	[
 		"2022-07-08",
 		"US",
-		"Artillery rounds",
-		"155mm",
-		"1000",
+		"Multiple Launch Rocket System",
+		"M142 HIMARS",
+		"4",
 		"",
 		"https://www.defense.gov/News/Releases/Release/Article/3087750/400-million-in-additional-security-assistance-for-ukraine/",
 		"$400 Million in Additional Security Assistance for Ukraine"
@@ -843,7 +843,7 @@
 		"2022-07-22",
 		"US",
 		"Multiple Launch Rocket System",
-		"HIMARS",
+		"M142 HIMARS",
 		"4",
 		"",
 		"https://www.defense.gov/News/Releases/Release/Article/3102984/270-million-in-additional-security-assistance-for-ukraine/",
@@ -1003,8 +1003,8 @@
 		"2022-08-19",
 		"US",
 		"Other Armored Vehicle",
-		"MaxxPro MRAP",
-		"40",
+		"HMMWV",
+		"50",
 		"",
 		"https://www.defense.gov/News/Releases/Release/Article/3134457/775-million-in-additional-security-assistance-for-ukraine/",
 		"$775 Million in Additional Security Assistance for Ukraine"
@@ -1013,18 +1013,8 @@
 		"2022-08-19",
 		"US",
 		"Other Armored Vehicle",
-		"HUMVEE",
-		"50",
-		"",
-		"https://www.defense.gov/News/Releases/Release/Article/3134457/775-million-in-additional-security-assistance-for-ukraine/",
-		"$775 Million in Additional Security Assistance for Ukraine"
-	],
-	[
-		"2022-08-20",
-		"US",
-		"other",
-		"Sky Eagle drone",
-		"15",
+		"MaxxPro MRAP",
+		"40",
 		"",
 		"https://www.defense.gov/News/Releases/Release/Article/3134457/775-million-in-additional-security-assistance-for-ukraine/",
 		"$775 Million in Additional Security Assistance for Ukraine"
@@ -1035,6 +1025,16 @@
 		"Towed Artillery",
 		"M119 105mm",
 		"16",
+		"PDA",
+		"https://www.defense.gov/News/Releases/Release/Article/3134457/775-million-in-additional-security-assistance-for-ukraine/",
+		"$775 Million in Additional Security Assistance for Ukraine"
+	],
+	[
+		"2022-08-20",
+		"US",
+		"other",
+		"Sky Eagle drone",
+		"15",
 		"",
 		"https://www.defense.gov/News/Releases/Release/Article/3134457/775-million-in-additional-security-assistance-for-ukraine/",
 		"$775 Million in Additional Security Assistance for Ukraine"
@@ -1072,9 +1072,9 @@
 	[
 		"2022-09-08",
 		"US",
-		"Towed Artillery",
-		"M119 105mm",
-		"4",
+		"Other Armored Vehicle",
+		"armored medical treatment vehicles",
+		"50",
 		"",
 		"https://www.defense.gov/News/Releases/Release/Article/3152071/675-million-in-additional-security-assistance-for-ukraine/",
 		"$675 Million in Additional Security Assistance for Ukraine"
@@ -1083,7 +1083,7 @@
 		"2022-09-08",
 		"US",
 		"Other Armored Vehicle",
-		"HUMVEE",
+		"HMMWV",
 		"100",
 		"",
 		"https://www.defense.gov/News/Releases/Release/Article/3152071/675-million-in-additional-security-assistance-for-ukraine/",
@@ -1092,10 +1092,10 @@
 	[
 		"2022-09-08",
 		"US",
-		"Other Armored Vehicle",
-		"armored medical treatment vehicles",
-		"50",
-		"",
+		"Towed Artillery",
+		"M119 105mm",
+		"4",
+		"PDA",
 		"https://www.defense.gov/News/Releases/Release/Article/3152071/675-million-in-additional-security-assistance-for-ukraine/",
 		"$675 Million in Additional Security Assistance for Ukraine"
 	],
@@ -1173,7 +1173,7 @@
 		"2022-09-28",
 		"US",
 		"Other Armored Vehicle",
-		"HUMVEE",
+		"HMMWV",
 		"150",
 		"USAI",
 		"https://www.defense.gov/News/News-Stories/Article/Article/3173752/latest-us-support-for-ukraine-targets-long-term-security-investment/",
@@ -1202,6 +1202,16 @@
 	[
 		"2022-10-04",
 		"US",
+		"Towed Artillery",
+		"M119 105mm",
+		"16",
+		"PDA",
+		"https://www.defense.gov/News/Releases/Release/Article/3179323/625-million-in-additional-security-assistance-for-ukraine/",
+		"$625 Million in Additional Security Assistance for Ukraine"
+	],
+	[
+		"2022-10-04",
+		"US",
 		"Multiple Launch Rocket System",
 		"M142 HIMARS",
 		"4",
@@ -1215,17 +1225,7 @@
 		"Towed Artillery",
 		"M777 155mm",
 		"16",
-		"",
-		"https://www.defense.gov/News/Releases/Release/Article/3179323/625-million-in-additional-security-assistance-for-ukraine/",
-		"$625 Million in Additional Security Assistance for Ukraine"
-	],
-	[
-		"2022-10-04",
-		"US",
-		"Towed Artillery",
-		"M119 105mm",
-		"16",
-		"",
+		"PDA",
 		"https://www.defense.gov/News/Releases/Release/Article/3179323/625-million-in-additional-security-assistance-for-ukraine/",
 		"$625 Million in Additional Security Assistance for Ukraine"
 	],
@@ -1283,7 +1283,7 @@
 		"2022-10-14",
 		"US",
 		"Other Armored Vehicle",
-		"HUMVEE",
+		"HMMWV",
 		"200",
 		"",
 		"https://www.defense.gov/News/Releases/Release/Article/3189571/725-million-in-additional-security-assistance-for-ukraine/",
@@ -1353,7 +1353,7 @@
 		"2022-10-28",
 		"US",
 		"Other Armored Vehicle",
-		"HUMVEE",
+		"HMMWV",
 		"125",
 		"",
 		"https://www.defense.gov/News/Releases/Release/Article/3203509/275-million-in-additional-presidential-drawdown-security-assistance-for-ukraine/",
@@ -1442,16 +1442,6 @@
 	[
 		"2022-11-10",
 		"US",
-		"Other Armored Vehicle",
-		"HUMVEE",
-		"100",
-		"",
-		"https://www.defense.gov/News/News-Stories/Article/Article/3216745/400-million-security-package-headed-to-ukraine/",
-		"$400 Million Security Package Headed to Ukraine"
-	],
-	[
-		"2022-11-10",
-		"US",
 		"Air Defense System",
 		"Avenger",
 		"4",
@@ -1468,6 +1458,16 @@
 		"",
 		"https://www.usnews.com/news/world/articles/2022-11-10/spain-to-send-two-more-hawk-air-defence-systems-to-ukraine",
 		"Spain to Send Two More HAWK Air Defence Systems to Ukraine"
+	],
+	[
+		"2022-11-10",
+		"US",
+		"Other Armored Vehicle",
+		"HMMWV",
+		"100",
+		"",
+		"https://www.defense.gov/News/News-Stories/Article/Article/3216745/400-million-security-package-headed-to-ukraine/",
+		"$400 Million Security Package Headed to Ukraine"
 	],
 	[
 		"2022-11-16",
@@ -1522,9 +1522,9 @@
 	[
 		"2022-11-23",
 		"US",
-		"other",
-		"light tactical vehicles",
-		"100",
+		"Other Armored Vehicle",
+		"HMMWV",
+		"150",
 		"",
 		"https://www.defense.gov/News/Releases/Release/Article/3227217/400-million-in-additional-assistance-for-ukraine/",
 		"$400 Million in Additional Assistance for Ukraine"
@@ -1532,9 +1532,9 @@
 	[
 		"2022-11-23",
 		"US",
-		"Other Armored Vehicle",
-		"HUMVEE",
-		"150",
+		"other",
+		"light tactical vehicles",
+		"100",
 		"",
 		"https://www.defense.gov/News/Releases/Release/Article/3227217/400-million-in-additional-assistance-for-ukraine/",
 		"$400 Million in Additional Assistance for Ukraine"
@@ -1653,6 +1653,16 @@
 		"2022-12-21",
 		"US",
 		"Other Armored Vehicle",
+		"Armored utility trucks",
+		"6",
+		"",
+		"https://www.defense.gov/News/Releases/Release/Article/3252782/185-billion-in-additional-security-assistance-for-ukraine/",
+		"$1.85 Billion in Additional Security Assistance for Ukraine"
+	],
+	[
+		"2022-12-21",
+		"US",
+		"Other Armored Vehicle",
 		"Cougar MRAP",
 		"37",
 		"",
@@ -1663,18 +1673,8 @@
 		"2022-12-21",
 		"US",
 		"Other Armored Vehicle",
-		"HUMVEE",
+		"HMMWV",
 		"120",
-		"",
-		"https://www.defense.gov/News/Releases/Release/Article/3252782/185-billion-in-additional-security-assistance-for-ukraine/",
-		"$1.85 Billion in Additional Security Assistance for Ukraine"
-	],
-	[
-		"2022-12-21",
-		"US",
-		"Other Armored Vehicle",
-		"Armored utility trucks",
-		"6",
 		"",
 		"https://www.defense.gov/News/Releases/Release/Article/3252782/185-billion-in-additional-security-assistance-for-ukraine/",
 		"$1.85 Billion in Additional Security Assistance for Ukraine"
@@ -1702,9 +1702,9 @@
 	[
 		"2023-01-06",
 		"US",
-		"Infantry Fighting Vehicle",
-		"Bradley M2-A2",
-		"50",
+		"Artillery rounds",
+		"105mm",
+		"95000",
 		"PDA",
 		"https://www.defense.gov/News/Releases/Release/Article/3261263/more-than-3-billion-in-additional-security-assistance-for-ukraine/",
 		"More Than $3 Billion in Additional Security Assistance for Ukraine"
@@ -1712,39 +1712,9 @@
 	[
 		"2023-01-06",
 		"US",
-		"Other Armored Vehicle",
-		"MRAP",
-		"55",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3261263/more-than-3-billion-in-additional-security-assistance-for-ukraine/",
-		"More Than $3 Billion in Additional Security Assistance for Ukraine"
-	],
-	[
-		"2023-01-06",
-		"US",
-		"Other Armored Vehicle",
-		"M113",
-		"100",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3261263/more-than-3-billion-in-additional-security-assistance-for-ukraine/",
-		"More Than $3 Billion in Additional Security Assistance for Ukraine"
-	],
-	[
-		"2023-01-06",
-		"US",
-		"Other Armored Vehicle",
-		"HUMVEE",
-		"138",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3261263/more-than-3-billion-in-additional-security-assistance-for-ukraine/",
-		"More Than $3 Billion in Additional Security Assistance for Ukraine"
-	],
-	[
-		"2023-01-06",
-		"US",
-		"Self-Propelled Artillery",
-		"M109 155mm",
-		"18",
+		"other",
+		"120mm mortar rounds",
+		"10000",
 		"PDA",
 		"https://www.defense.gov/News/Releases/Release/Article/3261263/more-than-3-billion-in-additional-security-assistance-for-ukraine/",
 		"More Than $3 Billion in Additional Security Assistance for Ukraine"
@@ -1782,8 +1752,58 @@
 	[
 		"2023-01-06",
 		"US",
+		"other",
+		"anti-armor rockets",
+		"2000",
+		"PDA",
+		"https://www.defense.gov/News/Releases/Release/Article/3261263/more-than-3-billion-in-additional-security-assistance-for-ukraine/",
+		"More Than $3 Billion in Additional Security Assistance for Ukraine"
+	],
+	[
+		"2023-01-06",
+		"US",
+		"Infantry Fighting Vehicle",
+		"Bradley",
+		"50",
+		"PDA",
+		"https://www.defense.gov/News/Releases/Release/Article/3261263/more-than-3-billion-in-additional-security-assistance-for-ukraine/",
+		"More Than $3 Billion in Additional Security Assistance for Ukraine"
+	],
+	[
+		"2023-01-06",
+		"US",
+		"Other Armored Vehicle",
+		"HMMWV",
+		"138",
+		"PDA",
+		"https://www.defense.gov/News/Releases/Release/Article/3261263/more-than-3-billion-in-additional-security-assistance-for-ukraine/",
+		"More Than $3 Billion in Additional Security Assistance for Ukraine"
+	],
+	[
+		"2023-01-06",
+		"US",
+		"Self-Propelled Artillery",
+		"M109 155mm",
+		"18",
+		"PDA",
+		"https://www.defense.gov/News/Releases/Release/Article/3261263/more-than-3-billion-in-additional-security-assistance-for-ukraine/",
+		"More Than $3 Billion in Additional Security Assistance for Ukraine"
+	],
+	[
+		"2023-01-06",
+		"US",
+		"Other Armored Vehicle",
+		"M113",
+		"100",
+		"PDA",
+		"https://www.defense.gov/News/Releases/Release/Article/3261263/more-than-3-billion-in-additional-security-assistance-for-ukraine/",
+		"More Than $3 Billion in Additional Security Assistance for Ukraine"
+	],
+	[
+		"2023-01-06",
+		"US",
 		"Towed Artillery",
-		"105mm howitzer",
+		"M119 105mm",
 		"36",
 		"PDA",
 		"https://www.defense.gov/News/Releases/Release/Article/3261263/more-than-3-billion-in-additional-security-assistance-for-ukraine/",
@@ -1792,19 +1812,9 @@
 	[
 		"2023-01-06",
 		"US",
-		"Artillery rounds",
-		"105mm",
-		"95000",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3261263/more-than-3-billion-in-additional-security-assistance-for-ukraine/",
-		"More Than $3 Billion in Additional Security Assistance for Ukraine"
-	],
-	[
-		"2023-01-06",
-		"US",
-		"other",
-		"120mm mortar rounds",
-		"10000",
+		"Other Armored Vehicle",
+		"MRAP",
+		"55",
 		"PDA",
 		"https://www.defense.gov/News/Releases/Release/Article/3261263/more-than-3-billion-in-additional-security-assistance-for-ukraine/",
 		"More Than $3 Billion in Additional Security Assistance for Ukraine"
@@ -1815,16 +1825,6 @@
 		"other",
 		"Zuni rocket",
 		"4000",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3261263/more-than-3-billion-in-additional-security-assistance-for-ukraine/",
-		"More Than $3 Billion in Additional Security Assistance for Ukraine"
-	],
-	[
-		"2023-01-06",
-		"US",
-		"other",
-		"anti-armor rockets",
-		"2000",
 		"PDA",
 		"https://www.defense.gov/News/Releases/Release/Article/3261263/more-than-3-billion-in-additional-security-assistance-for-ukraine/",
 		"More Than $3 Billion in Additional Security Assistance for Ukraine"
@@ -1982,9 +1982,9 @@
 	[
 		"2023-01-19",
 		"US",
-		"Infantry Fighting Vehicle",
-		"Bradley",
-		"59",
+		"Artillery rounds",
+		"105mm",
+		"95000",
 		"PDA",
 		"https://www.defense.gov/News/Releases/Release/Article/3272866/biden-administration-announces-additional-security-assistance-for-ukraine/",
 		"Biden Administration Announces Additional Security Assistance for Ukraine"
@@ -1992,29 +1992,9 @@
 	[
 		"2023-01-19",
 		"US",
-		"Infantry Fighting Vehicle",
-		"Stryker",
-		"90",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3272866/biden-administration-announces-additional-security-assistance-for-ukraine/",
-		"Biden Administration Announces Additional Security Assistance for Ukraine"
-	],
-	[
-		"2023-01-19",
-		"US",
-		"Other Armored Vehicle",
-		"MRAP",
-		"53",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3272866/biden-administration-announces-additional-security-assistance-for-ukraine/",
-		"Biden Administration Announces Additional Security Assistance for Ukraine"
-	],
-	[
-		"2023-01-19",
-		"US",
-		"Other Armored Vehicle",
-		"HUMVEE",
-		"350",
+		"Artillery rounds",
+		"120mm mortar",
+		"11800",
 		"PDA",
 		"https://www.defense.gov/News/Releases/Release/Article/3272866/biden-administration-announces-additional-security-assistance-for-ukraine/",
 		"Biden Administration Announces Additional Security Assistance for Ukraine"
@@ -2042,29 +2022,29 @@
 	[
 		"2023-01-19",
 		"US",
-		"Artillery rounds",
-		"105mm",
-		"95000",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3272866/biden-administration-announces-additional-security-assistance-for-ukraine/",
-		"Biden Administration Announces Additional Security Assistance for Ukraine"
-	],
-	[
-		"2023-01-19",
-		"US",
-		"Artillery rounds",
-		"120mm mortar",
-		"11800",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3272866/biden-administration-announces-additional-security-assistance-for-ukraine/",
-		"Biden Administration Announces Additional Security Assistance for Ukraine"
-	],
-	[
-		"2023-01-19",
-		"US",
 		"other",
 		"ammunition support vehicles",
 		"12",
+		"PDA",
+		"https://www.defense.gov/News/Releases/Release/Article/3272866/biden-administration-announces-additional-security-assistance-for-ukraine/",
+		"Biden Administration Announces Additional Security Assistance for Ukraine"
+	],
+	[
+		"2023-01-19",
+		"US",
+		"Air Defense System",
+		"Avenger",
+		"8",
+		"PDA",
+		"https://www.defense.gov/News/Releases/Release/Article/3272866/biden-administration-announces-additional-security-assistance-for-ukraine/",
+		"Biden Administration Announces Additional Security Assistance for Ukraine"
+	],
+	[
+		"2023-01-19",
+		"US",
+		"Infantry Fighting Vehicle",
+		"Bradley",
+		"59",
 		"PDA",
 		"https://www.defense.gov/News/Releases/Release/Article/3272866/biden-administration-announces-additional-security-assistance-for-ukraine/",
 		"Biden Administration Announces Additional Security Assistance for Ukraine"
@@ -2082,9 +2062,29 @@
 	[
 		"2023-01-19",
 		"US",
-		"other",
-		"tactical towing vehicles",
-		"22",
+		"Other Armored Vehicle",
+		"HMMWV",
+		"350",
+		"PDA",
+		"https://www.defense.gov/News/Releases/Release/Article/3272866/biden-administration-announces-additional-security-assistance-for-ukraine/",
+		"Biden Administration Announces Additional Security Assistance for Ukraine"
+	],
+	[
+		"2023-01-19",
+		"US",
+		"Other Armored Vehicle",
+		"MRAP",
+		"53",
+		"PDA",
+		"https://www.defense.gov/News/Releases/Release/Article/3272866/biden-administration-announces-additional-security-assistance-for-ukraine/",
+		"Biden Administration Announces Additional Security Assistance for Ukraine"
+	],
+	[
+		"2023-01-19",
+		"US",
+		"Infantry Fighting Vehicle",
+		"Stryker",
+		"90",
 		"PDA",
 		"https://www.defense.gov/News/Releases/Release/Article/3272866/biden-administration-announces-additional-security-assistance-for-ukraine/",
 		"Biden Administration Announces Additional Security Assistance for Ukraine"
@@ -2112,9 +2112,9 @@
 	[
 		"2023-01-19",
 		"US",
-		"Air Defense System",
-		"Avenger",
-		"8",
+		"other",
+		"tactical towing vehicles",
+		"22",
 		"PDA",
 		"https://www.defense.gov/News/Releases/Release/Article/3272866/biden-administration-announces-additional-security-assistance-for-ukraine/",
 		"Biden Administration Announces Additional Security Assistance for Ukraine"
@@ -2263,7 +2263,7 @@
 		"2023-02-20",
 		"US",
 		"Infantry Fighting Vehicle",
-		"Bradley Infantry Fire Support Team",
+		"Bradley",
 		"4",
 		"PDA",
 		"https://www.defense.gov/News/Releases/Release/Article/3302787/biden-administration-announces-additional-security-assistance-for-ukraine/",
@@ -2625,7 +2625,7 @@
 		"Towed Artillery",
 		"M777 155mm",
 		"2",
-		"",
+		"PDA",
 		"https://www.defense.gov/News/Releases/Release/Article/3383288/biden-administration-announces-additional-security-assistance-for-ukraine/",
 		"Biden Administration Announces Additional Security Assistance for Ukraine"
 	],
@@ -2690,16 +2690,6 @@
 		"Biden Administration Announces Additional Security Assistance for Ukraine"
 	],
 	[
-		"2023-06-09",
-		"US",
-		"Artillery rounds",
-		"203 mm",
-		"10000",
-		"USAI",
-		"https://media.defense.gov/2023/Jun/09/2003238573/-1/-1/0/UKRAINE-FACT-SHEET-JUNE-9.PDF",
-		"Fact Sheet on U.S. Security Assistance to Ukraine, June 9, 2023"
-	],
-	[
 		"2023-06-06",
 		"Germany",
 		"Other Armored Vehicle",
@@ -2718,6 +2708,16 @@
 		"",
 		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
 		"Military support for Ukraine"
+	],
+	[
+		"2023-06-09",
+		"US",
+		"Artillery rounds",
+		"203 mm",
+		"10000",
+		"USAI",
+		"https://media.defense.gov/2023/Jun/09/2003238573/-1/-1/0/UKRAINE-FACT-SHEET-JUNE-9.PDF",
+		"Fact Sheet on U.S. Security Assistance to Ukraine, June 9, 2023"
 	],
 	[
 		"2023-06-13",
@@ -2972,9 +2972,9 @@
 	[
 		"2023-07-07",
 		"US",
-		"other",
-		"Stinger",
-		"300",
+		"Infantry Fighting Vehicle",
+		"Bradley",
+		"32",
 		"PDA",
 		"https://www.defense.gov/News/News-Stories/Article/Article/3451905/dod-announces-800m-security-assistance-package-for-ukraine/",
 		"DOD Announces $800M Security Assistance Package for Ukraine "
@@ -2992,19 +2992,9 @@
 	[
 		"2023-07-07",
 		"US",
-		"Other Armored Vehicle",
-		"Tactical vehicle",
-		"17",
-		"PDA",
-		"https://www.defense.gov/News/News-Stories/Article/Article/3451905/dod-announces-800m-security-assistance-package-for-ukraine/",
-		"DOD Announces $800M Security Assistance Package for Ukraine "
-	],
-	[
-		"2023-07-07",
-		"US",
-		"Infantry Fighting Vehicle",
-		"Bradley",
-		"32",
+		"other",
+		"Penguin UAS",
+		"1",
 		"PDA",
 		"https://www.defense.gov/News/News-Stories/Article/Article/3451905/dod-announces-800m-security-assistance-package-for-ukraine/",
 		"DOD Announces $800M Security Assistance Package for Ukraine "
@@ -3013,8 +3003,8 @@
 		"2023-07-07",
 		"US",
 		"other",
-		"Bradley fire support team vehicle",
-		"4",
+		"Stinger",
+		"300",
 		"PDA",
 		"https://www.defense.gov/News/News-Stories/Article/Article/3451905/dod-announces-800m-security-assistance-package-for-ukraine/",
 		"DOD Announces $800M Security Assistance Package for Ukraine "
@@ -3032,9 +3022,9 @@
 	[
 		"2023-07-07",
 		"US",
-		"other",
-		"Penguin UAS",
-		"1",
+		"Other Armored Vehicle",
+		"Tactical vehicle",
+		"17",
 		"PDA",
 		"https://www.defense.gov/News/News-Stories/Article/Article/3451905/dod-announces-800m-security-assistance-package-for-ukraine/",
 		"DOD Announces $800M Security Assistance Package for Ukraine "
@@ -3095,6 +3085,166 @@
 		"other",
 		"HX-81",
 		"6",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-07-12",
+		"Germany",
+		"Air Defense System",
+		"Gepard",
+		"7",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-07-12",
+		"Germany",
+		"Artillery rounds",
+		"155 mm",
+		"3230",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-07-12",
+		"Germany",
+		"Artillery rounds",
+		"155 mm smoke",
+		"1184",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-07-12",
+		"Germany",
+		"other",
+		"Border protection vehicle",
+		"5",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-07-12",
+		"Germany",
+		"other",
+		"IRIS-T SLM laser aiming equipment",
+		"10",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-07-12",
+		"Germany",
+		"other",
+		"HX-81",
+		"1",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-07-14",
+		"Bulgaria",
+		"Other Armored Vehicle",
+		"BTR-1",
+		"100",
+		"",
+		"https://www.euractiv.com/section/politics/news/bulgaria-sends-largest-military-aid-package-to-ukraine/",
+		"Bulgaria sends largest military aid package to Ukraine"
+	],
+	[
+		"2023-07-20",
+		"Germany",
+		"Tank",
+		"Leopard 1 A5",
+		"10",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-07-20",
+		"Germany",
+		"Artillery rounds",
+		"155 mm",
+		"1305",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-07-20",
+		"Germany",
+		"Artillery rounds",
+		"155 mm smoke",
+		"2064",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-07-20",
+		"Germany",
+		"other",
+		"heavy bridge system",
+		"1",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-07-20",
+		"Germany",
+		"Other Armored Vehicle",
+		"border protection vehicle",
+		"4",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-07-20",
+		"Germany",
+		"other",
+		"ground survailance radar",
+		"10",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-07-20",
+		"Germany",
+		"other",
+		"Zetros truck",
+		"16",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-07-20",
+		"Germany",
+		"other",
+		"first aid kit",
+		"100000",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-07-20",
+		"Germany",
+		"other",
+		"recoinancence drones RQ-35 HEIDRUN",
+		"80",
 		"",
 		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
 		"Military support for Ukraine"
