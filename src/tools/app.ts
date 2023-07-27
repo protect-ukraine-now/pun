@@ -5,6 +5,6 @@ export function useApp() {
     href = href.toLocaleLowerCase()
     const uat = href.includes('uat') || href.includes('ukraineaidtracker')
     const app = import.meta.env.VITE_APP_NAME ?? (uat ? 'uat' : 'pun')
-    console.log(app)
+    // console.log(app)
     return app
 }

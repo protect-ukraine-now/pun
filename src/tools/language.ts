@@ -10,21 +10,21 @@ export function useLanguage() {
 }
 
 export function useText() {
-	const language = useLanguage()
+	const lang = useLanguage()
 	const app = useApp()
 	return (id: string, values: object = {}) => {
 		const idApp = `${app}/${id}`
 		let translation: string = (
-			path(idApp.split('.'), text[language])
+			path(idApp.split('.'), text[lang])
 			??
-			path(id.split('.'), text[language])
+			path(id.split('.'), text[lang])
 			??
 			id
 		)
 		Object.entries(values).forEach(([key, val]) => {
 			translation = translation.replace(`{{${key}}}`, val)
 		})
-		// console.log(`text(${id})\t-> `, translation.slice(0, 100).replace(/\n/g, ' '))
+		// console.log(`[${app}/${lang}] text(${id})\t-> `, translation.slice(0, 90).replace(/\n/g, ' '))
 		return translation
 	}
 }
