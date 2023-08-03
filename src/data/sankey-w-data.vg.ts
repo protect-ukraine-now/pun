@@ -75,7 +75,7 @@ export default
 					"value": "number"
 				}
 			},
-			"values": "source,value,destination,\r\nbill_mar_22,13.6005,total_budget,\"USAA 2022, March 2022\"\r\nbill_may_22,40.143,total_budget,\"+USAA 2022, May 2022\"\r\nbill_sep_22,11.837,total_budget,\"USAA 2023, September 2022\"\r\nbill_dec_22,47.3218,total_budget,\"+USAA 2023, December 2022\"\r\ntotal_budget,80.7233,direct,\r\ntotal_budget,32.179,other,\r\ndirect,45.877,military,\r\ndirect,34.8463,human,\r\nmilitary,25.5,instant_total,\r\ninstant_total,17.135,instant_committed,\r\ninstant_total,3.99,instant_available,\r\ninstant_total,4.375,instant_expired,\r\nmilitary,20.377,deferred_total,\r\ndeferred_total,18.242,deferred_committed,\r\ndeferred_total,2.135,deferred_available,"
+			"values": "source,value,destination,\r\nbill_mar_22,13.6005,total_budget,\"USAA 2022, March 2022\"\r\nbill_may_22,40.143,total_budget,\"+USAA 2022, May 2022\"\r\nbill_sep_22,11.837,total_budget,\"USAA 2023, September 2022\"\r\nbill_dec_22,47.3218,total_budget,\"+USAA 2023, December 2022\"\r\ntotal_budget,80.7233,direct,\r\ntotal_budget,32.179,other,\r\ndirect,45.877,military,\r\ndirect,34.8463,human,\r\nmilitary,25.5,instant_total,\r\ninstant_total,17.535,instant_committed,\r\ninstant_total,3.59,instant_available,\r\ninstant_total,4.375,instant_expired,\r\nmilitary,20.377,deferred_total,\r\ndeferred_total,19.542,deferred_committed,\r\ndeferred_total,0.835,deferred_available,"
 		},
 		{
 			"name": "preStacks",

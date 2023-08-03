@@ -85,7 +85,7 @@
 		"Other Armored Vehicle",
 		"M113",
 		"200",
-		"",
+		"PDA",
 		"https://www.defense.gov/News/Releases/Release/Article/3073551/fact-sheet-on-us-security-assistance-to-ukraine/",
 		"Fact Sheet on U.S. Security Assistance to Ukraine"
 	],
@@ -105,7 +105,7 @@
 		"Helicopter",
 		"Mi-17",
 		"5",
-		"",
+		"PDA",
 		"https://www.defense.gov/News/Releases/Release/Article/3007664/fact-sheet-on-us-security-assistance-for-ukraine-roll-up-as-of-april-21-2022/",
 		"Fact Sheet on U.S. Security Assistance for Ukraine"
 	],
@@ -115,7 +115,7 @@
 		"Helicopter",
 		"Mi-17",
 		"11",
-		"",
+		"PDA",
 		"https://www.defense.gov/News/Releases/Release/Article/3007664/fact-sheet-on-us-security-assistance-for-ukraine-roll-up-as-of-april-21-2022/",
 		"Fact Sheet on U.S. Security Assistance for Ukraine"
 	],
@@ -395,7 +395,7 @@
 		"Multiple Launch Rocket System",
 		"M142 HIMARS",
 		"8",
-		"",
+		"PDA",
 		"https://www.defense.gov/News/Releases/Release/Article/3073551/fact-sheet-on-us-security-assistance-to-ukraine/",
 		"Fact Sheet on U.S. Security Assistance to Ukraine"
 	],
@@ -405,7 +405,7 @@
 		"Helicopter",
 		"Mi-17",
 		"4",
-		"",
+		"PDA",
 		"https://www.defense.gov/News/Releases/Release/Article/3073551/fact-sheet-on-us-security-assistance-to-ukraine/",
 		"Fact Sheet on U.S. Security Assistance to Ukraine"
 	],
@@ -525,7 +525,7 @@
 		"Artillery rounds",
 		"105mm",
 		"36000",
-		"",
+		"PDA",
 		"https://www.defense.gov/News/Releases/Release/Article/3073551/fact-sheet-on-us-security-assistance-to-ukraine/",
 		"Fact Sheet on U.S. Security Assistance to Ukraine"
 	],
@@ -535,7 +535,7 @@
 		"Artillery rounds",
 		"155mm",
 		"260000",
-		"",
+		"PDA",
 		"https://www.defense.gov/News/Releases/Release/Article/3073551/fact-sheet-on-us-security-assistance-to-ukraine/",
 		"Fact Sheet on U.S. Security Assistance to Ukraine"
 	],
@@ -545,7 +545,7 @@
 		"Vessel",
 		"Coastal and riverine patrol boats",
 		"18",
-		"",
+		"PDA",
 		"https://www.defense.gov/News/Releases/Release/Article/3073551/fact-sheet-on-us-security-assistance-to-ukraine/",
 		"Fact Sheet on U.S. Security Assistance to Ukraine"
 	],
@@ -555,7 +555,7 @@
 		"other",
 		"Harpoon coastal defense system",
 		"2",
-		"",
+		"PDA",
 		"https://www.defense.gov/News/Releases/Release/Article/3073551/fact-sheet-on-us-security-assistance-to-ukraine/",
 		"Fact Sheet on U.S. Security Assistance to Ukraine"
 	],
@@ -634,7 +634,7 @@
 		"France",
 		"Other Armored Vehicle",
 		"VAB",
-		"4",
+		"20",
 		"",
 		"https://edition.cnn.com/europe/live-news/russia-ukraine-war-news-06-28-22/h_7ea43ee9673957a79390ce311f31861b",
 		null
@@ -692,7 +692,7 @@
 	[
 		"2022-06-30",
 		"Canada",
-		"Other Armored Vehicle",
+		"Infantry Fighting Vehicle",
 		"Armoured Combat Support Vehicles (ACSV) LAV 6.0",
 		"39",
 		"",
@@ -715,7 +715,7 @@
 		"Artillery rounds",
 		"155mm",
 		"150000",
-		"",
+		"PDA",
 		"https://www.defense.gov/News/Releases/Release/Article/3081993/820-million-in-additional-security-assistance-for-ukraine/",
 		"$820 Million in Additional Security Assistance for Ukraine"
 	],
@@ -765,7 +765,7 @@
 		"Artillery rounds",
 		"155mm",
 		"1000",
-		"",
+		"PDA",
 		"https://www.defense.gov/News/Releases/Release/Article/3087750/400-million-in-additional-security-assistance-for-ukraine/",
 		"$400 Million in Additional Security Assistance for Ukraine"
 	],
@@ -775,7 +775,7 @@
 		"Multiple Launch Rocket System",
 		"M142 HIMARS",
 		"4",
-		"",
+		"PDA",
 		"https://www.defense.gov/News/Releases/Release/Article/3087750/400-million-in-additional-security-assistance-for-ukraine/",
 		"$400 Million in Additional Security Assistance for Ukraine"
 	],
@@ -845,7 +845,7 @@
 		"Multiple Launch Rocket System",
 		"M142 HIMARS",
 		"4",
-		"",
+		"PDA",
 		"https://www.defense.gov/News/Releases/Release/Article/3102984/270-million-in-additional-security-assistance-for-ukraine/",
 		"$270 Million in Additional Security Assistance for Ukraine"
 	],
@@ -855,7 +855,7 @@
 		"other",
 		"Phoenix Ghost drone",
 		"580",
-		"",
+		"PDA",
 		"https://www.defense.gov/News/Releases/Release/Article/3102984/270-million-in-additional-security-assistance-for-ukraine/",
 		"$270 Million in Additional Security Assistance for Ukraine"
 	],
@@ -935,7 +935,7 @@
 		"Other Armored Vehicle",
 		"armored medical treatment vehicles",
 		"50",
-		"",
+		"PDA",
 		"https://www.defense.gov/News/Releases/Release/Article/3120059/1-billion-in-additional-security-assistance-for-ukraine/",
 		"The United States will send more ammunition to Ukraine, including rockets for the HIMARS launchers"
 	],
@@ -1005,7 +1005,7 @@
 		"Other Armored Vehicle",
 		"HMMWV",
 		"50",
-		"",
+		"PDA",
 		"https://www.defense.gov/News/Releases/Release/Article/3134457/775-million-in-additional-security-assistance-for-ukraine/",
 		"$775 Million in Additional Security Assistance for Ukraine"
 	],
@@ -1015,7 +1015,7 @@
 		"Other Armored Vehicle",
 		"MaxxPro MRAP",
 		"40",
-		"",
+		"PDA",
 		"https://www.defense.gov/News/Releases/Release/Article/3134457/775-million-in-additional-security-assistance-for-ukraine/",
 		"$775 Million in Additional Security Assistance for Ukraine"
 	],
@@ -1035,7 +1035,7 @@
 		"other",
 		"Sky Eagle drone",
 		"15",
-		"",
+		"PDA",
 		"https://www.defense.gov/News/Releases/Release/Article/3134457/775-million-in-additional-security-assistance-for-ukraine/",
 		"$775 Million in Additional Security Assistance for Ukraine"
 	],
@@ -1075,7 +1075,7 @@
 		"Other Armored Vehicle",
 		"armored medical treatment vehicles",
 		"50",
-		"",
+		"PDA",
 		"https://www.defense.gov/News/Releases/Release/Article/3152071/675-million-in-additional-security-assistance-for-ukraine/",
 		"$675 Million in Additional Security Assistance for Ukraine"
 	],
@@ -1085,7 +1085,7 @@
 		"Other Armored Vehicle",
 		"HMMWV",
 		"100",
-		"",
+		"PDA",
 		"https://www.defense.gov/News/Releases/Release/Article/3152071/675-million-in-additional-security-assistance-for-ukraine/",
 		"$675 Million in Additional Security Assistance for Ukraine"
 	],
@@ -1125,7 +1125,7 @@
 		"other",
 		"anti-artillery radars",
 		"4",
-		"",
+		"PDA",
 		"https://www.defense.gov/News/Releases/Release/Article/3160503/600-million-in-additional-security-assistance-for-ukraine/",
 		"$600 Million in Additional Security Assistance for Ukraine"
 	],
@@ -1215,7 +1215,7 @@
 		"Multiple Launch Rocket System",
 		"M142 HIMARS",
 		"4",
-		"",
+		"PDA",
 		"https://www.defense.gov/News/Releases/Release/Article/3179323/625-million-in-additional-security-assistance-for-ukraine/",
 		"$625 Million in Additional Security Assistance for Ukraine"
 	],
@@ -1235,7 +1235,7 @@
 		"Other Armored Vehicle",
 		"MaxxPro MRAP",
 		"200",
-		"",
+		"PDA",
 		"https://www.defense.gov/News/Releases/Release/Article/3179323/625-million-in-additional-security-assistance-for-ukraine/",
 		"$625 Million in Additional Security Assistance for Ukraine"
 	],
@@ -1285,7 +1285,7 @@
 		"Other Armored Vehicle",
 		"HMMWV",
 		"200",
-		"",
+		"PDA",
 		"https://www.defense.gov/News/Releases/Release/Article/3189571/725-million-in-additional-security-assistance-for-ukraine/",
 		"$725 Million in Additional Security Assistance for Ukraine"
 	],
@@ -1305,7 +1305,7 @@
 		"Other Armored Vehicle",
 		"MaxxPro MRAP",
 		"200",
-		"",
+		"PDA",
 		"https://media.defense.gov/2022/Nov/23/2003120409/-1/-1/1/UKRAINE%20FACT%20SHEET%2020221123.PDF",
 		"Ukraine to receive 200 MaxxPro MRAP from the US"
 	],
@@ -1355,7 +1355,7 @@
 		"Other Armored Vehicle",
 		"HMMWV",
 		"125",
-		"",
+		"PDA",
 		"https://www.defense.gov/News/Releases/Release/Article/3203509/275-million-in-additional-presidential-drawdown-security-assistance-for-ukraine/",
 		"$275 Million in Additional Presidential Drawdown Security Assistance for Ukraine"
 	],
@@ -1445,7 +1445,7 @@
 		"Air Defense System",
 		"Avenger",
 		"4",
-		"",
+		"PDA",
 		"https://www.defense.gov/News/News-Stories/Article/Article/3216745/400-million-security-package-headed-to-ukraine/",
 		"$400 Million Security Package Headed to Ukraine"
 	],
@@ -1465,7 +1465,7 @@
 		"Other Armored Vehicle",
 		"HMMWV",
 		"100",
-		"",
+		"PDA",
 		"https://www.defense.gov/News/News-Stories/Article/Article/3216745/400-million-security-package-headed-to-ukraine/",
 		"$400 Million Security Package Headed to Ukraine"
 	],
@@ -1525,7 +1525,7 @@
 		"Other Armored Vehicle",
 		"HMMWV",
 		"150",
-		"",
+		"PDA",
 		"https://www.defense.gov/News/Releases/Release/Article/3227217/400-million-in-additional-assistance-for-ukraine/",
 		"$400 Million in Additional Assistance for Ukraine"
 	],
@@ -1535,7 +1535,7 @@
 		"other",
 		"light tactical vehicles",
 		"100",
-		"",
+		"PDA",
 		"https://www.defense.gov/News/Releases/Release/Article/3227217/400-million-in-additional-assistance-for-ukraine/",
 		"$400 Million in Additional Assistance for Ukraine"
 	],
@@ -1655,7 +1655,7 @@
 		"Other Armored Vehicle",
 		"Armored utility trucks",
 		"6",
-		"",
+		"PDA",
 		"https://www.defense.gov/News/Releases/Release/Article/3252782/185-billion-in-additional-security-assistance-for-ukraine/",
 		"$1.85 Billion in Additional Security Assistance for Ukraine"
 	],
@@ -1665,7 +1665,7 @@
 		"Other Armored Vehicle",
 		"Cougar MRAP",
 		"37",
-		"",
+		"PDA",
 		"https://www.defense.gov/News/Releases/Release/Article/3252782/185-billion-in-additional-security-assistance-for-ukraine/",
 		"$1.85 Billion in Additional Security Assistance for Ukraine"
 	],
@@ -1675,7 +1675,7 @@
 		"Other Armored Vehicle",
 		"HMMWV",
 		"120",
-		"",
+		"PDA",
 		"https://www.defense.gov/News/Releases/Release/Article/3252782/185-billion-in-additional-security-assistance-for-ukraine/",
 		"$1.85 Billion in Additional Security Assistance for Ukraine"
 	],
@@ -1685,7 +1685,7 @@
 		"Air Defense System",
 		"Patriot",
 		"4",
-		"",
+		"PDA",
 		"https://www.defense.gov/News/Releases/Release/Article/3252782/185-billion-in-additional-security-assistance-for-ukraine/",
 		"$1.85 Billion in Additional Security Assistance for Ukraine"
 	],
@@ -2685,7 +2685,7 @@
 		"Air Defense System",
 		"Avenger",
 		"8",
-		"",
+		"PDA",
 		"https://www.defense.gov/News/Releases/Release/Article/3402206/biden-administration-announces-additional-security-assistance-for-ukraine/",
 		"Biden Administration Announces Additional Security Assistance for Ukraine"
 	],
@@ -2865,7 +2865,7 @@
 		"other",
 		"Anti-armor system and munition",
 		"10000",
-		"",
+		"PDA",
 		"https://media.defense.gov/2023/Jun/27/2003248805/-1/-1/1/Ukraine-Fact-Sheet-27-June.PDF",
 		"Fact Sheet June 27th 2023"
 	],
@@ -3243,10 +3243,80 @@
 		"2023-07-20",
 		"Germany",
 		"other",
-		"recoinancence drones RQ-35 HEIDRUN",
-		"80",
+		"recoinancence drone RQ-35 HEIDRUN",
+		"20",
 		"",
 		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-07-25",
+		"US",
+		"Infantry Fighting Vehicle",
+		"Stryker",
+		"32",
+		"PDA",
+		"https://www.defense.gov/News/Releases/Release/Article/3470064/biden-administration-announces-additional-security-assistance-for-ukraine/",
+		"Biden Administration Announces Additional Security Assistance for Ukraine"
+	],
+	[
+		"2023-07-28",
+		"Germany",
+		"other",
+		"Bandvagn 206 (BV206)",
+		"10",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-07-28",
+		"Germany",
+		"Air Defense System",
+		"Gepard",
+		"6",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054993",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-07-28",
+		"Germany",
+		"other",
+		"35 mm rounds for Gepard",
+		"15000",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054994",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-07-28",
+		"Germany",
+		"Artillery rounds",
+		"155 mm smoke",
+		"2688",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054995",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-07-28",
+		"Germany",
+		"other",
+		"reconnaissance drone VECTOR",
+		"13",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054996",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-07-28",
+		"Germany",
+		"other",
+		"ambulance",
+		"8",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054997",
 		"Military support for Ukraine"
 	]
 ]
