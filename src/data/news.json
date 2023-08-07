@@ -1,9 +1,39 @@
 [
 	[
+		"2023-08-03",
+		"Ukraine accelerates own ammunition production amid urgent need",
+		"Україна прискорює власне виробництво боєприпасів через гостру потребу",
+		"https://global.espreso.tv/ukraine-accelerates-own-ammunition-production-amid-urgent-need-nyt"
+	],
+	[
+		"2023-08-03",
+		"Germany has sent almost nothing out of promised weapons to Ukraine from their 2.4 bln Euro fund which was announced in May.",
+		"Німеччина не надіслала Україні майже нічого з обіцяної зброї зі свого фонду в 2,4 млрд євро, про який було оголошено в травні.",
+		"https://www.welt.de/politik/ausland/article246721222/Unterstuetzung-fuer-Ukraine-Trotz-grosser-Versprechen-Deutschland-zoegert-weiter-bei-Waffenlieferungen.html"
+	],
+	[
+		"2023-08-02",
+		"Weapons makers in Poland and the Czech Republic are launching or expanding programs to recruit and train new workers after the Ukraine war drove a spike in demand for their productions.",
+		"Виробники зброї в Польщі та Чехії запускають або розширюють програми найму та навчання нових працівників після того, як війна в Україні спричинила різке зростання попиту на їхню продукцію.",
+		"https://www.reuters.com/article/ukraine-crisis-arms-easteurope-idCAKBN2ZD087"
+	],
+	[
+		"2023-08-01",
+		"The Biden administration is facing challenges in providing essential munitions to Ukraine as it continues its counteroffensive against Russian forces",
+		"Адміністрація Байдена стикається з проблемами в забезпеченні України необхідними боєприпасами",
+		"https://global.espreso.tv/us-struggles-to-supply-ukraine-with-crucial-artillery-shells-amid-counteroffensive-ft"
+	],
+	[
 		"2023-08-01",
 		"Seven-in-ten American voters favour continued support of of military aid to Ukraine, including military equipment, ammunition, training and intelligence, according to an in-depth study by the University of Maryland.",
 		"Згідно з поглибленим дослідженням Університету Меріленда, сім із десяти американських виборців виступають за продовження підтримки військової допомоги Україні, включаючи військову техніку, боєприпаси, навчання та розвідку.",
 		"https://www.army-technology.com/features/us-confidence-in-its-military-slumps-below-its-approval-of-aid-to-ukraine/"
+	],
+	[
+		"2023-07-31",
+		"US military assistance for Ukraine has strong bilateral support, finds study of the University of Maryland.",
+		"Дослідження Університету Меріленда показало, що військова допомога США Україні має сильну підтримку обох партій.",
+		"https://publicconsultation.org/ukraine/large-bipartisan-majority-approves-us-military-aid-to-ukraine/"
 	],
 	[
 		"2023-07-28",
@@ -208,41 +238,5 @@
 		"The German arms maker Rheinmetall will deploy production facilities for the production of armored vehicles in Ukraine within the following 12 weeks.",
 		"Німецький виробник зброї Rheinmetall протягом наступних 12 тижнів розгорне в Україні потужності з виробництва бронетехніки.",
 		"https://edition.cnn.com/2023/07/10/business/rheinmetall-german-tank-factory-ukraine/index.html"
-	],
-	[
-		"2023-07-09",
-		"Poland has supplied Ukraine with about 12 Mi-24 attack helicopters without announcement.",
-		"Польща без оголошення поставила Україні близько 12 ударних вертольотів Мі-24.",
-		"https://www.wsj.com/articles/ukraine-war-counteroffensive-frontlines-russia-add3e4e4"
-	],
-	[
-		"2023-07-07",
-		"Only around half of heavy weapons committed to Ukraine have been delivered, experts say: 'The gap between promised and delivered military aid is wide'. The Kiel Institute said some European countries like the Czech Republic, Slovenia, Poland, and Slovakia had outperformed others, delivering \"upwards of 80 percent of their promised heavy weapons.\"",
-		"Лише близько половини важкого озброєння, обіцяного Україні, було поставлено: «Розрив між обіцяною та наданою військовою допомогою великий». Кільський інститут заявив, що деякі європейські країни, такі як Чехія, Словенія, Польща та Словаччина, перевершили інші, поставивши «понад 80 відсотків своїх обіцяних важких озброєнь».",
-		"https://www.businessinsider.com/only-half-of-heavy-weapons-promised-to-ukraine-delivered-experts-2023-7"
-	],
-	[
-		"2023-07-07",
-		"The Defense Department announced an additional security assistance package of up to $800 million aimed to support Ukraine: \n\n- 300 Stingers\n- 36 artillery systems M777\n- 17 recovery tactical vehicles\n- 32 Bradleys\n- 32 Strykers\n- UAS Penguin\n- air-to-air AIM-7 missilles\n- TOW missiles\n- small arms munition \n\nThe package also contains dual-purpose improved conventional munitions, or DPICM, which the Pentagon is providing for the first time to Ukraine",
-		"Міністерство оборони США оголосило про додатковий пакет безпекової допомоги на суму до 800 мільйонів доларів, спрямований на підтримку України: \n\n- 300 Стінгерів\n- 36 артилерійських систем M777\n- 17 евакуаційно-тактичних машин\n- 32 Бредлі\n- 32 Страйкери\n- UAS Penguin\n- ракети повітря-повітря AIM-7\n- ракети TOW\n- боєприпаси до стрілецької зброї\n\nПакет також містить вдосконалені звичайні боєприпаси подвійного призначення або DPICM, які Пентагон вперше надає Україні",
-		"https://www.defense.gov/News/News-Stories/Article/Article/3451905/dod-announces-800m-security-assistance-package-for-ukraine/"
-	],
-	[
-		"2023-07-07",
-		"Slovakia will supply Ukraine with 16 Zuzanna-2 howitzers.",
-		"Словаччина поставить Україні 16 гаубиць Zuzanna-2.",
-		"https://en.interfax.com.ua/news/general/921535.html"
-	],
-	[
-		"2023-07-07",
-		"Ukraine expects to receive Turkish-made Fırtına self-propelled howitzers.",
-		"Україна розраховує отримати самохідні гаубиці Fırtına турецького виробництва.",
-		"https://www.overtdefense.com/2023/07/07/ukraine-aims-to-procure-t-155-firtina-howitzers-from-turkey/"
-	],
-	[
-		"2023-07-07",
-		"Czhech Republic will provide Ukraine with attack helicopters, possibly Mi-24, large-caliber ammunition and will provide training of Ukrainian pilots for F-16s.",
-		"Чехія надасть Україні ударні гелікоптери, можливо, Мі-24, великокаліберні боєприпаси та забезпечить навчання українських пілотів на F-16.",
-		"https://www.youtube.com/live/-JpwYk3BIjU?feature=share"
 	]
 ]

@@ -3276,7 +3276,7 @@
 		"Gepard",
 		"6",
 		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054993",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine",
 		"Military support for Ukraine"
 	],
 	[
@@ -3286,7 +3286,7 @@
 		"35 mm rounds for Gepard",
 		"15000",
 		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054994",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine",
 		"Military support for Ukraine"
 	],
 	[
@@ -3296,7 +3296,7 @@
 		"155 mm smoke",
 		"2688",
 		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054995",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine",
 		"Military support for Ukraine"
 	],
 	[
@@ -3306,7 +3306,7 @@
 		"reconnaissance drone VECTOR",
 		"13",
 		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054996",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine",
 		"Military support for Ukraine"
 	],
 	[
@@ -3316,7 +3316,87 @@
 		"ambulance",
 		"8",
 		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054997",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-07-27",
+		"UK",
+		"Multiple Launch Rocket System",
+		"Wolfram",
+		"24",
+		"",
+		"https://www.thedefensepost.com/2023/07/27/uk-combat-vehicle-brimstone/",
+		"UK Sends Brimstone Mobile Missile Launchers to Ukraine"
+	],
+	[
+		"2023-08-04",
+		"Germany",
+		"Self-Propelled Artillery",
+		"Zuzana 2 155mm",
+		"2",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-08-04",
+		"Germany",
+		"other",
+		"mine-clearing tank Wisent 1",
+		"2",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-08-04",
+		"Germany",
+		"Other Armored Vehicle",
+		"mine plough for T-72",
+		"11",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-08-04",
+		"Germany",
+		"other",
+		"mobile reconnaissance systems SurveilSPIRE",
+		"5",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-08-04",
+		"Germany",
+		"Other Armored Vehicle",
+		"border protection vehicle",
+		"9",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-08-04",
+		"Germany",
+		"other",
+		"reconnaissance drones VECTOR",
+		"3",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-08-04",
+		"Germany",
+		"other",
+		"mobile antenna mast systems",
+		"5",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
 		"Military support for Ukraine"
 	]
 ]
