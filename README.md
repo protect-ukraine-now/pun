@@ -2,4 +2,4 @@
 California-based NGO to help Ukraine in its struggle against Russia's unprovoked aggression.
 
 ** Manual deployment **
-2023-10-09 20:45
+2023-10-15
