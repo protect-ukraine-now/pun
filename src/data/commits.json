@@ -601,13 +601,13 @@
 	],
 	[
 		"2022-06-24",
-		"NATO",
+		"Bulgaria",
 		"Warplane",
 		"Su-25",
 		"14",
 		"",
 		"It seems that Ukraine received Su-25 aircraft. In a very unusual way",
-		null
+		""
 	],
 	[
 		"2022-06-24",
@@ -2153,7 +2153,7 @@
 		"2023-01-26",
 		"Portugal",
 		"Tank",
-		"Leopard 2A6",
+		"Leopard 2 A6",
 		"3",
 		"",
 		"https://www.reuters.com/world/europe/portugal-send-ukraine-three-leopard-2-tanks-2023-02-08/",
@@ -2183,7 +2183,7 @@
 		"2023-01-27",
 		"Poland",
 		"Tank",
-		"Leopard 2A4",
+		"Leopard 2 A4",
 		"14",
 		"",
 		"https://www.aa.com.tr/en/russia-ukraine-war/poland-to-send-60-more-tanks-to-ukraine-in-addition-to-14-leopard-2/2799176",
@@ -2223,7 +2223,7 @@
 		"2023-02-14",
 		"Norway",
 		"Tank",
-		"Leopard-2",
+		"Leopard 2",
 		"8",
 		"",
 		"https://www.regjeringen.no/en/aktuelt/norge-vil-sende-stridsvogner-til-ukraina/id2960681/",
@@ -2283,7 +2283,7 @@
 		"2023-02-23",
 		"Spain",
 		"Tank",
-		"Leopard 2A4",
+		"Leopard 2 A4",
 		"10",
 		"",
 		"https://elpais.com/internacional/2023-02-24/guerra-ucrania-rusia-ultimas-noticias-en-directo.html",
@@ -2303,7 +2303,7 @@
 		"2023-02-24",
 		"Sweden",
 		"Tank",
-		"Leopard 2 A5",
+		"Leopard 2 A5 / Stridsvagn 122",
 		"10",
 		"",
 		"https://twitter.com/PlJonson/status/1629117599513550848?s=20",
@@ -2773,7 +2773,7 @@
 		"2023-06-16",
 		"Spain",
 		"Tank",
-		"Leopard 2A4",
+		"Leopard 2 A4",
 		"2",
 		"",
 		"https://www.newsweek.com/ukraine-more-leopard-tanks-counteroffensive-spain-germany-russia-1807177",
@@ -3260,6 +3260,16 @@
 		"Biden Administration Announces Additional Security Assistance for Ukraine"
 	],
 	[
+		"2023-07-27",
+		"UK",
+		"Multiple Launch Rocket System",
+		"Wolfram",
+		"24",
+		"",
+		"https://www.thedefensepost.com/2023/07/27/uk-combat-vehicle-brimstone/",
+		"UK Sends Brimstone Mobile Missile Launchers to Ukraine"
+	],
+	[
 		"2023-07-28",
 		"Germany",
 		"other",
@@ -3318,16 +3328,6 @@
 		"",
 		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine",
 		"Military support for Ukraine"
-	],
-	[
-		"2023-07-27",
-		"UK",
-		"Multiple Launch Rocket System",
-		"Wolfram",
-		"24",
-		"",
-		"https://www.thedefensepost.com/2023/07/27/uk-combat-vehicle-brimstone/",
-		"UK Sends Brimstone Mobile Missile Launchers to Ukraine"
 	],
 	[
 		"2023-08-04",
@@ -3395,6 +3395,496 @@
 		"other",
 		"mobile antenna mast systems",
 		"5",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-08-08",
+		"Belgium",
+		"Tank",
+		"Leopard 1",
+		"2",
+		"",
+		"https://www.brusselstimes.com/belgium/636119/first-belgian-leopard-1-tanks-on-their-way-to-ukraine",
+		"First 'Belgian' Leopard 1 tanks on their way to Ukraine"
+	],
+	[
+		"2023-08-09",
+		"Germany",
+		"other",
+		"Bandvagn 206",
+		"10",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-08-09",
+		"Germany",
+		"Air Defense System",
+		"Patriot",
+		"2",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-08-09",
+		"Germany",
+		"Artillery rounds",
+		"155 mm smoke",
+		"6525",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-08-09",
+		"Germany",
+		"Other Armored Vehicle",
+		"border protection vehicle",
+		"5",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-08-09",
+		"Germany",
+		"other",
+		"reconnaissance drones VECTOR",
+		"4",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-08-09",
+		"Germany",
+		"other",
+		"HX-81",
+		"6",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-08-09",
+		"Germany",
+		"other",
+		"load-handling trucks 8x6",
+		"2",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-08-09",
+		"Germany",
+		"other",
+		"first aid kit",
+		"40000",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-08-17",
+		"Germany",
+		"Air Defense System",
+		"IRIS-T SLS",
+		"2",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-08-17",
+		"Germany",
+		"Artillery rounds",
+		"155 mm smoke",
+		"4539",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-08-17",
+		"Germany",
+		"other",
+		"ground surveillance radars GO12",
+		"10",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-08-17",
+		"Germany",
+		"other",
+		"HX-81",
+		"4",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-08-17",
+		"Czech Republic",
+		"Helicopter",
+		"Mi-24/V35",
+		"10",
+		"",
+		"https://www.ceskenoviny.cz/zpravy/bitevniky-mi-24-mohou-najit-uplatneni-na-ukrajine-naznacila-cernochova/2402172",
+		"Mi-24 fighters may find application in Ukraine, Černochová indicated"
+	],
+	[
+		"2023-08-24",
+		"Turkey",
+		"other",
+		"Baykar TB2 UAV",
+		"1",
+		"",
+		"https://kyivindependent.com/bayraktar-manufacturer-donates-drone-to-ukraine-for-independence-day/",
+		"Bayraktar manufacturer donates drone to Ukraine on Independence Day"
+	],
+	[
+		"2023-08-24",
+		"Germany",
+		"other",
+		"drone detection system",
+		"10",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-08-24",
+		"Germany",
+		"other",
+		"reconnaissance drones RQ-35 HEIDRUN",
+		"40",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-08-24",
+		"Germany",
+		"other",
+		"Zetros truck",
+		"16",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-08-25",
+		"Latvia",
+		"Helicopter",
+		"Mi-17",
+		"1",
+		"",
+		"https://twitter.com/visegrad24/status/1695181632481747187?s=20",
+		"Latvia has donated another Mi-17 transport helicopter to the Ukrainian Army.\n"
+	],
+	[
+		"2023-08-30",
+		"Germany",
+		"Tank",
+		"Leopard 1 A5",
+		"10",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-08-30",
+		"Germany",
+		"other",
+		"air surveillance radar TRML-4D",
+		"1",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-08-30",
+		"Germany",
+		"other",
+		"reconnaissance drones VECTOR",
+		"16",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-08-30",
+		"Germany",
+		"other",
+		"HX-81",
+		"4",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-08-30",
+		"Germany",
+		"other",
+		"field hospital",
+		"1",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-08-30",
+		"Switzerland",
+		"other",
+		"remote-controlled mine-clearing vehicle DIGGER D-250",
+		"1",
+		"",
+		"https://www.janes.com/defence-news/news-detail/ukraine-conflict-switzerland-to-provide-remote-controlled-mine-clearing-vehicle-to-kyiv",
+		"Ukraine conflict: Switzerland to provide remote-controlled mine-clearing vehicle to Kyiv"
+	],
+	[
+		"2023-09-13",
+		"Germany",
+		"Infantry Fighting Vehicle",
+		"Marder",
+		"20",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-09-14",
+		"Germany",
+		"Artillery rounds",
+		"155mm",
+		"3000",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-09-15",
+		"Germany",
+		"other",
+		"mine clearing tanks WISENT 1",
+		"2",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-09-16",
+		"Germany",
+		"other",
+		"Satcom surveillance system",
+		"1",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-09-16",
+		"Germany",
+		"other",
+		"reconnaissance drone RQ-35 HEIDRUN",
+		"20",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-09-16",
+		"Germany",
+		"other",
+		"mobile antenna mast system",
+		"2",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-09-16",
+		"Germany",
+		"other",
+		"drone detection system",
+		"10",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-09-16",
+		"Germany",
+		"other",
+		"load-handling truck 8x8",
+		"5",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-09-16",
+		"Germany",
+		"other",
+		"ambulance",
+		"3",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-09-16",
+		"Germany",
+		"other",
+		"HX-81",
+		"1",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-09-20",
+		"Albania",
+		"Other Armored Vehicle",
+		"MaxxPro",
+		"22",
+		"",
+		"https://closetheskyoverukraine.com/latest-news/albania-hands-over-22-maxx-pro-armored-vehicles-to-ukraine",
+		"Albania hands over 22 MaxxPro armored vehicles to Ukraine"
+	],
+	[
+		"2023-09-20",
+		"Germany",
+		"other",
+		"HX-81",
+		"4",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-09-20",
+		"Germany",
+		"other",
+		"Zetros truck",
+		"12",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-09-22",
+		"US",
+		"Tank",
+		"Abrams M1A1",
+		"10",
+		"USAI",
+		"https://www.aljazeera.com/news/2023/9/22/what-we-know-about-us-abrams-tanks-arriving-in-ukraine-next-week",
+		"What we know about US Abrams tanks arriving in Ukraine ‘next week’"
+	],
+	[
+		"2023-09-23",
+		"Canada",
+		"Other Armored Vehicle",
+		"Senator",
+		"50",
+		"",
+		"https://x.com/JustinTrudeau/status/1705362591965479128?s=20",
+		null
+	],
+	[
+		"2023-10-02",
+		"Germany",
+		"other",
+		"Bandvagn 206",
+		"14",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-10-02",
+		"Germany",
+		"other",
+		"bridge-laying tank Biber",
+		"1",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-10-02",
+		"Germany",
+		"other",
+		"mine-clearing tank Wisent 1",
+		"2",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-10-02",
+		"Germany",
+		"other",
+		"border protection vehicle",
+		"21",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-10-02",
+		"Germany",
+		"other",
+		"HX-81",
+		"11",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-10-13",
+		"Germany",
+		"other",
+		"Bandvagn 206",
+		"4",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-10-13",
+		"Germany",
+		"other",
+		"Border protection vehicle",
+		"4",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-10-13",
+		"Germany",
+		"other",
+		"drone detection system",
+		"50",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-10-13",
+		"Germany",
+		"other",
+		"HX-81",
+		"2",
 		"",
 		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
 		"Military support for Ukraine"

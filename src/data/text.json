@@ -99,9 +99,9 @@
 			"human": "Humanitarian & Economic",
 			"instant_total": "Instant (PDA)",
 			"deferred_total": "Deferred (USAI & FMF)",
-			"instant_committed": "Committed",
+			"instant_committed": "Delivered",
 			"instant_available": "Available",
-			"instant_expired": "Expired funds",
+			"instant_expired": "FY22-23 Unused funds",
 			"deferred_committed": "Committed.",
 			"deferred_available": "Available."
 		}

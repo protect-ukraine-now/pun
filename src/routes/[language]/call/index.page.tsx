@@ -5,7 +5,8 @@ const API_KEY = 'AIzaSyCSvWsU49SRTe5oeWTdBCNVDYSl9drIsIw'
 
 export async function action(ctx: ActionContext) {
 	let formData = await ctx.requestContext.request.formData()
-	let address: string = formData.get('address') || ''
+	let address = [formData.get('address'), formData.get('city'), formData.get('zip')].join(' ')
+	console.log(address)
 	let params = new URLSearchParams({
 		address,
 		roles: 'legislatorLowerBody',
@@ -19,6 +20,7 @@ export async function action(ctx: ActionContext) {
 
 	if (data.error) return { data: { err: data.error }}
 
+	console.log(data)
 	let { divisions, offices, officials } = data
 	offices.forEach(office => {
 		office.officialIndices.forEach(idx => {
@@ -39,16 +41,28 @@ export default function Call({ actionData }: PageProps) {
 		<form method="POST" onSubmit={submitHandler}>
 			<input
 				type="text"
-				id="address"
 				name="address"
-				defaultValue={actionData?.address}
+				placeholder="address"
+				autoComplete="street-address"
+			/>
+			<input
+				type="text"
+				name="city"
+				placeholder="city"
+				autoComplete="address-level2"
+			/>
+			<input
+				type="text"
+				name="zip"
+				placeholder="ZIP"
+				autoComplete="postal-code"
 			/>
 			<button type="submit">Search</button>
 			{actionData?.err && <p style={{ color: "red" }}>{actionData.err.message}</p>}
 			{actionData?.length && actionData.map(o =>
 				<div key={o.name} style={{ paddingTop: 20 }}>
 					<img src={o.photoUrl} />
-					<b>{o.name}</b>
+					<div>{o.name}</div>
 					<div>{o.office}</div>
 					<div>{o.division}</div>
 					<div>{o.party}</div>
