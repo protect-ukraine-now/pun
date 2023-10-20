@@ -4,13 +4,13 @@ import { useServerSideQuery, Redirect, navigate } from 'rakkasjs'
 import { useApp } from 'src/tools/app'
 import detectCountry from 'src/tools/detectCountry'
 import Report from './[language]/report/index.page'
-import Letter from './[language]/letter/index.page'
+import Congress from './[language]/congress/index.page'
 
 function defaults(app, country) {
     if (app === 'uat') return '/en/report'
     if (!country) return
     let page = {
-        US: '/en/letter',
+        US: '/en/congress',
         UA: '/uk/report',
     }[country]
     return page || '/en/report'
@@ -32,7 +32,7 @@ export default function Root() {
     }, [redirect])
     return {
         '/en/report': <Report />,
-        '/en/letter': <Letter />,
+        '/en/congress': <Congress />,
         '/uk/report': <Redirect href={redirect} />,
     }[redirect] || null
 }

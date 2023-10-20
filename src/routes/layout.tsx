@@ -13,7 +13,7 @@ const config = {
 	pun: {
 		header: {
 			logo: <PunLogo />,
-			menu: ['news', 'report', 'letter', 'about'],
+			menu: ['news', 'report', 'congress', 'about'],
 			languages: { en: 'ENG', uk: 'УКР' },
 		},
 		footer: {
