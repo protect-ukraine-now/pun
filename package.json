@@ -11,9 +11,9 @@
 		"dev": "vite",
 		"dev:pun": "cross-env VITE_APP_NAME='pun' vite",
 		"dev:uat": "cross-env VITE_APP_NAME='uat' vite",
-		"load": "yarn load:sheets && yarn load:sankey",
+		"load": "yarn load:sheets && yarn load:vega",
 		"load:sheets": "node src/data/load-sheets.js",
-		"load:sankey": "node src/data/load-sankey.js",
+		"load:vega": "node src/data/load-vega.js",
 		"build": "yarn load && rakkas build",
 		"preview": "cross-env NODE_ENV='development' rakkas build && wrangler dev",
 		"switch:stage": "sed -i 's/prod/stage/g' wrangler.toml",
@@ -46,6 +46,8 @@
 		"react-icons": "^4.8.0",
 		"reset-css": "^5.0.1",
 		"sass": "^1.62.1",
+		"vega": "^5.25.0",
+		"vega-lite": "^5.16.1",
 		"vite": "^4.3.9"
 	},
 	"resolutions": {

@@ -1,0 +1,216 @@
+{
+	"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+	"data": {
+		"name": "pda",
+		"url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS2qLku8nsIV3ttuaPh4YkmUU6GkQoSFxRQ5UK4Q1TTQh2Yp_Y_y8q7WkKYLZAZCuy14y4O703SJe4o/pub?gid=1730063955&single=true&output=csv&range=A:B",
+		"format": {
+			"type": "csv",
+			"parse": {
+				"week": "date",
+				"PDA": "number"
+			}
+		}
+	},
+	"width": "container",
+	"height": "container",
+	"transform": [
+		{
+			"calculate": "datum.PDA / 1000",
+			"as": "PDA"
+		},
+		{
+			"timeUnit": "yearmonth",
+			"field": "week",
+			"as": "label"
+		},
+		{
+			"aggregate": [
+				{
+					"op": "sum",
+					"field": "PDA",
+					"as": "amount"
+				}
+			],
+			"groupby": [
+				"label"
+			]
+		},
+		{
+			"filter": "datum.amount != 0"
+		},
+		{
+			"window": [
+				{
+					"op": "sum",
+					"field": "amount",
+					"as": "sum"
+				}
+			]
+		},
+		{
+			"window": [
+				{
+					"op": "lead",
+					"field": "label",
+					"as": "lead"
+				}
+			]
+		},
+		{
+			"calculate": "datum.lead === null ? datum.label : datum.lead",
+			"as": "lead"
+		},
+		{
+			"calculate": "datum.label === 'End' ? 0 : datum.sum - datum.amount",
+			"as": "previous_sum"
+		},
+		{
+			"calculate": "datum.label === 'End' ? datum.sum : datum.amount",
+			"as": "amount"
+		},
+		{
+			"calculate": "join(['$', format(datum.amount, '.2f'), 'B'], '')",
+			"as": "text_amount"
+		},
+		{
+			"calculate": "(datum.sum + datum.previous_sum) / 2",
+			"as": "center"
+		},
+		{
+			"calculate": "datum.sum < datum.previous_sum ? datum.sum : ''",
+			"as": "sum_dec"
+		},
+		{
+			"calculate": "datum.sum > datum.previous_sum ? datum.sum : ''",
+			"as": "sum_inc"
+		}
+	],
+	"encoding": {
+		"x": {
+			"field": "label",
+			"type": "temporal",
+			"sort": null,
+			"axis": {
+				"title": null,
+				"format": "%b-%y",
+				"labelFontSize": 15,
+				"tickCount": {
+					"interval": "month",
+					"step": 2
+				},
+				"labelAngle": 0,
+				"grid": false
+			}
+		},
+		"y": {
+			"field": "amount",
+			"type": "quantitative",
+			"sort": null,
+			"axis": {
+				"title": null,
+				"format": "$",
+				"labelFontSize": 15,
+				"labelExpr": "datum.label + 'B'",
+				"tickCount": 5,
+				"labelAngle": 0
+			}
+		}
+	},
+	"layer": [
+		{
+			"mark": {
+				"type": "bar",
+				"size": 40
+			},
+			"encoding": {
+				"y": {
+					"field": "previous_sum",
+					"type": "quantitative",
+					"title": "Amount"
+				},
+				"y2": {
+					"field": "sum"
+				},
+				"color": {
+					"condition": [
+						{
+							"test": {
+								"field": "datum.label",
+								"oneOf": [
+									"Begin",
+									"End"
+								]
+							},
+							"value": "#f7e0b6"
+						},
+						{
+							"test": "datum.sum < datum.previous_sum",
+							"value": "#f78a64"
+						}
+					],
+					"value": "#93c4aa"
+				}
+			}
+		},
+		{
+			"mark": {
+				"type": "rule",
+				"color": "#404040",
+				"opacity": 1,
+				"strokeWidth": 1.5,
+				"xOffset": -20,
+				"x2Offset": 20
+			},
+			"encoding": {
+				"x2": {
+					"field": "lead"
+				},
+				"y": {
+					"field": "sum",
+					"type": "quantitative"
+				}
+			}
+		},
+		{
+			"mark": {
+				"type": "text",
+				"dy": -4,
+				"baseline": "bottom",
+				"fontSize": 14
+			},
+			"encoding": {
+				"y": {
+					"field": "sum_inc",
+					"type": "quantitative"
+				},
+				"text": {
+					"field": "text_amount",
+					"type": "nominal"
+				}
+			}
+		},
+		{
+			"mark": {
+				"type": "text",
+				"dy": 4,
+				"baseline": "top"
+			},
+			"encoding": {
+				"y": {
+					"field": "sum_dec",
+					"type": "quantitative"
+				},
+				"text": {
+					"field": "sum_dec",
+					"type": "nominal"
+				}
+			}
+		}
+	],
+	"config": {
+		"text": {
+			"fontWeight": "bold",
+			"color": "#404040"
+		}
+	}
+}

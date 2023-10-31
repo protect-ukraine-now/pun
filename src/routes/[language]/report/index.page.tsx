@@ -12,6 +12,7 @@ import WeaponsInventory from 'src/components/WeaponsInventory'
 import Banner from 'src/components/Banner'
 import reportBannerImage from 'src/assets/banner-bg.webp'
 import SankeyChart from 'src/components/SankeyChart'
+import PdaChart from 'src/components/PdaChart'
 import Summary from 'src/components/Summary'
 
 export default function Report() {
@@ -45,6 +46,9 @@ export default function Report() {
 			}
 			<Container className={style.chart}>
 				<SankeyChart />
+			</Container>
+			<Container className={style.chart}>
+				<PdaChart />
 			</Container>
 		</>
 	)

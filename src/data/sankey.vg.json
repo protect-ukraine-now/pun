@@ -7,21 +7,21 @@
   "signals": [
     {
       "name": "width",
-      "init": "containerSize()[0]",
+      "init": "isFinite(containerSize()[0]) ? containerSize()[0] : 800",
       "on": [
         {
-          "events": "window:resize",
-          "update": "containerSize()[0]"
+          "update": "isFinite(containerSize()[0]) ? containerSize()[0] : 800",
+          "events": "window:resize"
         }
       ]
     },
     {
       "name": "height",
-      "init": "containerSize()[0]/16*9",
+      "init": "isFinite(containerSize()[1]) ? containerSize()[1] : 400",
       "on": [
         {
-          "events": "window:resize",
-          "update": "containerSize()[0]/16*9"
+          "update": "isFinite(containerSize()[1]) ? containerSize()[1] : 400",
+          "events": "window:resize"
         }
       ]
     },
