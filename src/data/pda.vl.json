@@ -1,13 +1,13 @@
 {
 	"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 	"data": {
-		"name": "pda",
-		"url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS2qLku8nsIV3ttuaPh4YkmUU6GkQoSFxRQ5UK4Q1TTQh2Yp_Y_y8q7WkKYLZAZCuy14y4O703SJe4o/pub?gid=1730063955&single=true&output=csv&range=A:B",
+		"name": "PDA",
+    	"url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vT7ok1ZDyU1Lz37NIZAMrSv7u_xL4SjWQcXIj5RWj4qzsgbIiU-wqmEK8kwtsMeVt_qTuEVIPgRiLiE/pub?gid=1730063955&single=true&output=csv&range=A:Q",
 		"format": {
 			"type": "csv",
 			"parse": {
-				"week": "date",
-				"PDA": "number"
+				"Date": "date",
+				"PDA_adjusted": "number"
 			}
 		}
 	},
@@ -15,19 +15,19 @@
 	"height": "container",
 	"transform": [
 		{
-			"calculate": "datum.PDA / 1000",
-			"as": "PDA"
-		},
+	 		"calculate": "datum.PDA_adjusted / 1000",
+	 		"as": "PDA_adjusted"
+	 	},
 		{
 			"timeUnit": "yearmonth",
-			"field": "week",
+			"field": "Date",
 			"as": "label"
 		},
 		{
 			"aggregate": [
 				{
 					"op": "sum",
-					"field": "PDA",
+					"field": "PDA_adjusted",
 					"as": "amount"
 				}
 			],
