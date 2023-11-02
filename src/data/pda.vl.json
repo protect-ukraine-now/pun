@@ -120,7 +120,7 @@
 		{
 			"mark": {
 				"type": "bar",
-				"size": 40
+				"size": 30
 			},
 			"encoding": {
 				"y": {
@@ -158,8 +158,8 @@
 				"color": "#404040",
 				"opacity": 1,
 				"strokeWidth": 1.5,
-				"xOffset": -20,
-				"x2Offset": 20
+				"xOffset": -15,
+				"x2Offset": 15
 			},
 			"encoding": {
 				"x2": {
@@ -176,7 +176,7 @@
 				"type": "text",
 				"dy": -4,
 				"baseline": "bottom",
-				"fontSize": 14
+				"fontSize": 10
 			},
 			"encoding": {
 				"y": {
