@@ -1,5 +1,11 @@
 {
 	"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+	"params": [
+		{
+			"name": "fontSize",
+			"expr": "width/70"
+		}
+	],
 	"data": {
 		"name": "PDA",
     	"url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vT7ok1ZDyU1Lz37NIZAMrSv7u_xL4SjWQcXIj5RWj4qzsgbIiU-wqmEK8kwtsMeVt_qTuEVIPgRiLiE/pub?gid=1730063955&single=true&output=csv&range=A:Q",
@@ -13,6 +19,7 @@
 	},
 	"width": "container",
 	"height": "container",
+	"background": null,
 	"transform": [
 		{
 	 		"calculate": "datum.PDA_adjusted / 1000",
@@ -92,11 +99,13 @@
 			"sort": null,
 			"axis": {
 				"title": null,
-				"format": "%b-%y",
-				"labelFontSize": 15,
+				"format": "%b`%y",
+				"labelFontSize": {
+					"expr": "fontSize"
+				},
 				"tickCount": {
 					"interval": "month",
-					"step": 2
+					"step": 1
 				},
 				"labelAngle": 0,
 				"grid": false
@@ -109,7 +118,9 @@
 			"axis": {
 				"title": null,
 				"format": "$",
-				"labelFontSize": 15,
+				"labelFontSize": {
+					"expr": "fontSize"
+				},
 				"labelExpr": "datum.label + 'B'",
 				"tickCount": 5,
 				"labelAngle": 0
@@ -176,7 +187,9 @@
 				"type": "text",
 				"dy": -4,
 				"baseline": "bottom",
-				"fontSize": 10
+				"fontSize": {
+					"expr": "fontSize"
+				}
 			},
 			"encoding": {
 				"y": {

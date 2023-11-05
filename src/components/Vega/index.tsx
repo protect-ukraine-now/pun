@@ -11,7 +11,7 @@ export default function Vega({ id, spec, className }) {
 		if (!loaded) return
 		window.vegaEmbed(`#${id}`, spec, { actions: false })
 		.then(result => {
-			console.log('Vega', result)
+			// console.log('Vega', result)
 		}).catch(console.error)
 	}, [loaded, id, spec])
 	return (

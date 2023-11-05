@@ -5,27 +5,27 @@ export default
 		"type": "fit",
 		"contains": "padding"
 	},
-	"background": "white",
+	"background": null,
 	"padding": 5,
 	"style": "cell",
 	"data": [
 		{
-			"name": "pda",
+			"name": "PDA",
 			"format": {
 				"type": "csv",
 				"parse": {
-					"week": "date",
-					"PDA": "number"
+					"Date": "date",
+					"PDA_adjusted": "number"
 				}
 			},
 			"transform": [
 				{
 					"type": "formula",
-					"expr": "datum.PDA / 1000",
-					"as": "PDA"
+					"expr": "datum.PDA_adjusted / 1000",
+					"as": "PDA_adjusted"
 				},
 				{
-					"field": "week",
+					"field": "Date",
 					"type": "timeunit",
 					"units": [
 						"year",
@@ -45,7 +45,7 @@ export default
 						"sum"
 					],
 					"fields": [
-						"PDA"
+						"PDA_adjusted"
 					],
 					"as": [
 						"amount"
@@ -129,11 +129,11 @@ export default
 					"as": "sum_inc"
 				}
 			],
-			"values": "week,PDA\r\n2022-02-26,350\r\n2022-03-05,\r\n2022-03-12,200\r\n2022-03-19,800\r\n2022-03-26,\r\n2022-04-02,\r\n2022-04-09,100\r\n2022-04-16,800\r\n2022-04-23,800\r\n2022-04-30,\r\n2022-05-07,150\r\n2022-05-14,\r\n2022-05-21,100\r\n2022-05-28,\r\n2022-06-04,700\r\n2022-06-11,\r\n2022-06-18,350\r\n2022-06-25,450\r\n2022-07-02,50\r\n2022-07-09,400\r\n2022-07-16,\r\n2022-07-23,175\r\n2022-07-30,\r\n2022-08-06,550\r\n2022-08-13,1000\r\n2022-08-20,775\r\n2022-08-27,\r\n2022-09-03,\r\n2022-09-10,675\r\n2022-09-17,600\r\n2022-09-24,\r\n2022-10-01,\r\n2022-10-08,625\r\n2022-10-15,725\r\n2022-10-22,\r\n2022-10-29,275\r\n2022-11-05,\r\n2022-11-12,400\r\n2022-11-19,\r\n2022-11-26,400\r\n2022-12-03,\r\n2022-12-10,275\r\n2022-12-17,\r\n2022-12-24,1000\r\n2022-12-31,\r\n2023-01-07,2850\r\n2023-01-14,\r\n2023-01-21,2500\r\n2023-01-28,\r\n2023-02-04,425\r\n2023-02-11,\r\n2023-02-18,\r\n2023-02-25,460\r\n2023-03-04,400\r\n2023-03-11,\r\n2023-03-18,\r\n2023-03-25,350\r\n2023-04-01,\r\n2023-04-08,500\r\n2023-04-15,\r\n2023-04-22,325\r\n2023-04-29,\r\n2023-05-06,300\r\n2023-05-13,\r\n2023-05-20,\r\n2023-05-27,375\r\n2023-06-03,300\r\n2023-06-10,\r\n2023-06-17,325\r\n2023-06-24,\r\n2023-07-01,500\r\n2023-07-08,800\r\n2023-07-15,\r\n2023-07-22,\r\n2023-07-29,400\r\n2023-08-05,\r\n2023-08-12,\r\n2023-08-19,200\r\n2023-08-26,\r\n2023-09-02,250\r\n2023-09-09,175\r\n2023-09-16,\r\n2023-09-23,325\r\n2023-09-30,\r\n2023-10-07,\r\n2023-10-14,200\r\n2023-10-21,\r\n2023-10-28,\r\n2023-11-04,\r\n2023-11-11,\r\n2023-11-18,\r\n2023-11-25,\r\n2023-12-02,\r\n2023-12-09,"
+			"values": "Date,PDA,USAI,FMF,Source,Notes,,,,,,,,,,PDA_corrected,PDA_adjusted\r\n2021-12-23,200,,,,,,Relevant Appropriation Bills,FY,PDA,PDA cap,USAI,FMF,,,200,144\r\n2022-02-25,350,,,,cap?,,,2022,,300,,,,,350,251\r\n2022-03-12,200,,,,cap?,,2022-03-15,2022,\"3,500\",\"3,000\",,650,,,200,144\r\n2022-03-16,800,,,,,,2022-05-21,2022,\"9,050\",\"11,000\",\"6,300\",\"4,000\",,,800,575\r\n2022-03-31,,300,,,appropriation?,,2022-09-30,2023,\"1,500\",\"3,700\",\"3,000\",,,,,0\r\n2022-04-06,100,,,,,,2022-12-29,2023,\"11,880\",\"14,500\",\"9,300\",,,,100,72\r\n2022-04-13,800,,,,,,,,,,,,,,800,575\r\n2022-04-21,800,,,,,,,PDA,USAI,FMF,(FMF for Ukr),(FMF not for Ukr),Total,,800,575\r\n2022-04-24,,,322,https://www.state.gov/u-s-security-cooperation-with-ukraine/,713 total. appropriation?,,Appropriated,\"25,500\",\"18,600\",\"4,650\",,,\"48,750\",,,0\r\n2022-05-06,150,,,,,,Obliged in FY2022,\"9,225\",\"4,790\",\"2,913\",\"1,322\",\"1,591\",\"16,928\",,150,108\r\n2022-05-19,100,,,,,,Obliged in FY2023,\"15,935\",\"14,105\",\"1,007\",325,682,\"31,047\",,100,72\r\n2022-06-01,700,,,,,,Accounting error correction,\"-6,200\",,,,,,,700,503\r\n2022-06-14,,650,,,,,FY 2022-2023 overdue,\"1,615\",,,,,,,,0\r\n2022-06-15,350,,,,,,Left,\"4,925\",-295,730,,,\"5,360\",,350,251\r\n2022-06-23,450,,,,,,https://www.defense.gov/News/Transcripts/Transcript/Article/3547122/sabrina-singh-deputy-pentagon-press-secretary-holds-an-on-camera-press-briefing/,,,,,,,,450,323\r\n2022-06-30,,770,,,,,,,,,,,,,,0\r\n2022-07-01,50,,,,,,FY2022 USAI expires in Sept. 2023 and FMF in Sept. 2024.,,,,,,,,50,36\r\n2022-07-08,400,,,,,,,,,,,,,,400,287\r\n2022-07-22,175,95,,,,,,,,,,,,,175,125.6775068\r\n2022-08-01,550,,,,,,,,,,,,,,550,394.9864499\r\n2022-08-08,1000,,,,,,,,,,,,,,1000,718.1571816\r\n2022-08-19,775,,,,,,,,,,,,,,775,556.5718157\r\n2022-08-24,,2975,,,,,,,,,,,,,,0\r\n2022-09-08,675,,1000,https://www.defense.gov/News/Releases/Release/Article/3152071/675-million-in-additional-security-assistance-for-ukraine/,,,,,,,,,,,675,484.7560976\r\n2022-09-15,600,,,,,,,,,,,,,,600,430.8943089\r\n2022-09-28,,1105,,,,,,,,,,,,,,0\r\n2022-10-04,625,,,,,,,,,,,,,,625,429.5178106\r\n2022-10-14,725,,,,,,,,,,,,,,725,498.2406603\r\n2022-10-28,275,,,https://comptroller.defense.gov/Budget-Execution/PDA_Announcements/,,,,,,,,,,,275,188.9878367\r\n2022-11-04,,400,,https://comptroller.defense.gov/Budget-Execution/USAI_Announcements/,,,,,,,,,,,,0\r\n2022-11-10,400,,,,,,,,,,,,,,400,274.8913988\r\n2022-11-23,400,,,,,,,,,,,,,,400,274.8913988\r\n2022-12-09,275,,,,,,,,,,,,,,275,188.9878367\r\n2022-12-21,1000,850,,,,,,,,,,,,,1000,687.228497\r\n2023-01-06,2850,,225,https://www.defense.gov/News/Releases/Release/Article/3261263/more-than-3-billion-in-additional-security-assistance-for-ukraine/,,,,,,,,,,,2850,1958.601216\r\n2023-01-19,2500,,,,,,,,,,,,,,2500,1718.071242\r\n2023-01-25,,400,,,,,,,,,,,,,,0\r\n2023-02-03,425,1750,,,,,,,,,,,,,425,292.0721112\r\n2023-02-20,460,,,,,,,,,,,,,,460,316.1251086\r\n2023-02-24,,2000,,,,,,,,,,,,,,0\r\n2023-03-03,400,,,,,,,,,,,,,,400,274.8913988\r\n2023-03-20,350,,,,,,,,,,,,,,350,240.5299739\r\n2023-04-04,500,2100,,,,,,,,,,,,,500,343.6142485\r\n2023-04-19,325,,,,,,,,,,,,,,325,223.3492615\r\n2023-05-03,300,,,,,,,,,,,,,,300,300\r\n2023-05-09,,1200,,,,,,,,,,,,,-6200,\r\n2023-05-21,375,,,,,,,,,,,,,,375,375\r\n2023-05-31,300,,,,,,,,,,,,,,300,300\r\n2023-06-09,,2100,,,,,,,,,,,,,,\r\n2023-06-13,325,,,,,,,,,,,,,,325,325\r\n2023-06-20,,,,https://www.defense.gov/News/Transcripts/Transcript/Article/3433535/deputy-pentagon-press-secretary-sabrina-singh-holds-a-press-briefing/,Accounting error correction,,,,,,,,,,,\r\n2023-06-27,500,,,,,,,,,,,,,,500,500\r\n2023-07-07,800,,,,,,,,,,,,,,800,800\r\n2023-07-19,,1300,,https://www.defense.gov/News/Releases/Release/Article/3463890/biden-administration-announces-additional-security-assistance-for-ukraine/,,,,,,,,,,,,\r\n2023-07-25,400,,,,,,,,,,,,,,400,400\r\n2023-08-14,200,,,,,,,,,,,,,,200,200\r\n2023-08-29,250,,,https://www.defense.gov/News/News-Stories/Article/Article/3509657/aim-9m-missiles-250-million-in-additional-security-assistance-headed-for-ukraine/,,,,,,,,,,,250,250\r\n2023-09-06,175,,100,https://www.defense.gov/News/News-Stories/Article/Article/3517088/dod-announces-175m-in-additional-security-assistance-for-ukraine/,https://www.state.gov/secretary-blinkens-travel-to-ukraine-2/,,,,,,,,,,175,175\r\n2023-09-07,,600,,https://www.defense.gov/News/Releases/Release/Article/3518903/biden-administration-announces-additional-security-assistance-for-ukraine/,,,,,,,,,,,,\r\n2023-09-08,325,,,https://www.defense.gov/News/Releases/Release/Article/3534283/biden-administration-announces-additional-security-assistance-for-ukraine/,,,,,,,,,,,325,325\r\n2023-10-11,200,,,https://www.defense.gov/News/Releases/Release/Article/3553644/biden-administration-announces-additional-security-assistance-for-ukraine/,,,,,,,,,,,200,200\r\n2023-10-26,150,,,https://www.defense.gov/News/News-Stories/Article/Article/3570190/dod-announces-up-to-150m-in-aid-for-ukraine/,,,,,,,,,,,150,150\r\n2023-11-03,125,300,,https://www.defense.gov/News/Releases/Release/Article/3578754/biden-administration-announces-new-security-assistance-for-ukraine/,,,,,,,,,,,125,#REF!\r\n2023-12-01,,,,,,,,,,,,,,,,"
 		},
 		{
 			"name": "data_0",
-			"source": "pda",
+			"source": "PDA",
 			"transform": [
 				{
 					"type": "filter",
@@ -143,7 +143,7 @@ export default
 		},
 		{
 			"name": "data_1",
-			"source": "pda",
+			"source": "PDA",
 			"transform": [
 				{
 					"type": "filter",
@@ -153,7 +153,7 @@ export default
 		},
 		{
 			"name": "data_2",
-			"source": "pda",
+			"source": "PDA",
 			"transform": [
 				{
 					"type": "filter",
@@ -163,7 +163,7 @@ export default
 		},
 		{
 			"name": "data_3",
-			"source": "pda",
+			"source": "PDA",
 			"transform": [
 				{
 					"type": "filter",
@@ -192,6 +192,10 @@ export default
 					"events": "window:resize"
 				}
 			]
+		},
+		{
+			"name": "fontSize",
+			"update": "width/70"
 		}
 	],
 	"marks": [
@@ -223,14 +227,14 @@ export default
 						"value": "bar"
 					},
 					"description": {
-						"signal": "\"label: \" + (timeFormat(datum[\"label\"], '%b-%y')) + \"; Amount: \" + (format(datum[\"previous_sum\"], \"$\")) + \"; sum: \" + (format(datum[\"sum\"], \"\"))"
+						"signal": "\"label: \" + (timeFormat(datum[\"label\"], '%b`%y')) + \"; Amount: \" + (format(datum[\"previous_sum\"], \"$\")) + \"; sum: \" + (format(datum[\"sum\"], \"\"))"
 					},
 					"xc": {
 						"scale": "x",
 						"field": "label"
 					},
 					"width": {
-						"value": 40
+						"value": 30
 					},
 					"y": {
 						"scale": "y",
@@ -264,17 +268,17 @@ export default
 						"value": "#404040"
 					},
 					"description": {
-						"signal": "\"label: \" + (timeFormat(datum[\"label\"], '%b-%y')) + \"; sum: \" + (format(datum[\"sum\"], \"$\")) + \"; lead: \" + (timeFormat(datum[\"lead\"], '%b %d, %Y'))"
+						"signal": "\"label: \" + (timeFormat(datum[\"label\"], '%b`%y')) + \"; sum: \" + (format(datum[\"sum\"], \"$\")) + \"; lead: \" + (timeFormat(datum[\"lead\"], '%b %d, %Y'))"
 					},
 					"x": {
 						"scale": "x",
 						"field": "label",
-						"offset": -20
+						"offset": -15
 					},
 					"x2": {
 						"scale": "x",
 						"field": "lead",
-						"offset": 20
+						"offset": 15
 					},
 					"y": {
 						"scale": "y",
@@ -301,13 +305,13 @@ export default
 						"value": -4
 					},
 					"fontSize": {
-						"value": 14
+						"signal": "fontSize"
 					},
 					"fill": {
 						"value": "#404040"
 					},
 					"description": {
-						"signal": "\"label: \" + (timeFormat(datum[\"label\"], '%b-%y')) + \"; sum_inc: \" + (format(datum[\"sum_inc\"], \"$\")) + \"; text_amount: \" + (isValid(datum[\"text_amount\"]) ? datum[\"text_amount\"] : \"\"+datum[\"text_amount\"])"
+						"signal": "\"label: \" + (timeFormat(datum[\"label\"], '%b`%y')) + \"; sum_inc: \" + (format(datum[\"sum_inc\"], \"$\")) + \"; text_amount: \" + (isValid(datum[\"text_amount\"]) ? datum[\"text_amount\"] : \"\"+datum[\"text_amount\"])"
 					},
 					"x": {
 						"scale": "x",
@@ -347,7 +351,7 @@ export default
 						"value": "#404040"
 					},
 					"description": {
-						"signal": "\"label: \" + (timeFormat(datum[\"label\"], '%b-%y')) + \"; sum_dec: \" + (format(datum[\"sum_dec\"], \"$\"))"
+						"signal": "\"label: \" + (timeFormat(datum[\"label\"], '%b`%y')) + \"; sum_dec: \" + (format(datum[\"sum_dec\"], \"$\"))"
 					},
 					"x": {
 						"scale": "x",
@@ -459,16 +463,24 @@ export default
 			"scale": "x",
 			"orient": "bottom",
 			"grid": false,
-			"format": "%b-%y",
+			"format": "%b`%y",
 			"labelAngle": 0,
-			"labelFontSize": 15,
 			"tickCount": {
 				"interval": "month",
-				"step": 2
+				"step": 1
 			},
 			"labelBaseline": "top",
 			"labelFlush": true,
 			"labelOverlap": true,
+			"encode": {
+				"labels": {
+					"update": {
+						"fontSize": {
+							"signal": "fontSize"
+						}
+					}
+				}
+			},
 			"zindex": 0
 		},
 		{
@@ -477,13 +489,15 @@ export default
 			"grid": false,
 			"format": "$",
 			"labelAngle": 0,
-			"labelFontSize": 15,
 			"tickCount": 5,
 			"labelAlign": "right",
 			"labelOverlap": true,
 			"encode": {
 				"labels": {
 					"update": {
+						"fontSize": {
+							"signal": "fontSize"
+						},
 						"text": {
 							"signal": "datum.label + 'B'"
 						}
