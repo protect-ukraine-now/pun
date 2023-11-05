@@ -112,6 +112,11 @@
 			"instant_carryover": "FY22-23 Carryover funds",
 			"deferred_committed": "Committed.",
 			"deferred_available": "Available."
+		},
+		"pda": {
+			"title": "US Instant Military Aid (PDA) distribution over time",
+			"subtitle": "From {{from}} to {{till}}",
+			"description": "- Adjusted for accounting errors for $6.2B"
 		}
 	},
 	"uk": {
@@ -220,6 +225,11 @@
 			"instant_carryover": "Перенесенно з 2023 ФР",
 			"deferred_committed": "Обіцяно.",
 			"deferred_available": "Доступно."
+		},
+		"pda": {
+			"title": "Розподіл миттєвої військової допомоги США (PDA) у часі",
+			"subtitle": "З {{from}} по {{till}}",
+			"description": "- З поправками на бухгалтерські помилки на суму 6,2 мільярда доларів США"
 		}
 	}
 }

@@ -8,21 +8,21 @@ export default
 	"signals": [
 		{
 			"name": "width",
-			"init": "containerSize()[0]",
+			"init": "isFinite(containerSize()[0]) ? containerSize()[0] : 800",
 			"on": [
 				{
-					"events": "window:resize",
-					"update": "containerSize()[0]"
+					"update": "isFinite(containerSize()[0]) ? containerSize()[0] : 800",
+					"events": "window:resize"
 				}
 			]
 		},
 		{
 			"name": "height",
-			"init": "containerSize()[0]/16*9",
+			"init": "isFinite(containerSize()[1]) ? containerSize()[1] : 400",
 			"on": [
 				{
-					"events": "window:resize",
-					"update": "containerSize()[0]/16*9"
+					"update": "isFinite(containerSize()[1]) ? containerSize()[1] : 400",
+					"events": "window:resize"
 				}
 			]
 		},
@@ -75,7 +75,7 @@ export default
 					"value": "number"
 				}
 			},
-			"values": "source,value,destination,\r\nbill_mar_22,13.6005,total_budget,\"USAA 2022, March 2022\"\r\nbill_may_22,40.143,total_budget,\"+USAA 2022, May 2022\"\r\nbill_sep_22,11.837,total_budget,\"USAA 2023, September 2022\"\r\nbill_dec_22,47.3218,total_budget,\"+USAA 2023, December 2022\"\r\ntotal_budget,81.3233,direct,\r\ntotal_budget,32.179,other,\r\ndirect,46.477,military,\r\ndirect,34.8463,human,\r\nmilitary,25.5,instant_total,\r\ninstant_total,18.835,instant_committed,\r\ninstant_total,5.05,instant_carryover,\r\ninstant_total,1.615,instant_expired,\r\nmilitary,20.977,deferred_total,\r\ndeferred_total,20.142,deferred_committed,\r\ndeferred_total,0.835,deferred_available,"
+			"values": "source,value,destination,\r\nbill_mar_22,13.6005,total_budget,\"USAA 2022, March 2022\"\r\nbill_may_22,40.143,total_budget,\"+USAA 2022, May 2022\"\r\nbill_sep_22,11.837,total_budget,\"USAA 2023, September 2022\"\r\nbill_dec_22,47.3218,total_budget,\"+USAA 2023, December 2022\"\r\ntotal_budget,81.3233,direct,\r\ntotal_budget,32.179,other,\r\ndirect,46.477,military,\r\ndirect,34.8463,human,\r\nmilitary,25.5,instant_total,\r\ninstant_total,18.96,instant_committed,\r\ninstant_total,4.925,instant_carryover,\r\ninstant_total,1.615,instant_expired,\r\nmilitary,20.977,deferred_total,\r\ndeferred_total,20.142,deferred_committed,\r\ndeferred_total,0.835,deferred_available,"
 		},
 		{
 			"name": "preStacks",
