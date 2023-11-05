@@ -1,8 +1,8 @@
 import { useEffect } from 'react'
-import { useServerSideQuery, Redirect, navigate } from 'rakkasjs'
+import { Redirect, navigate } from 'rakkasjs'
 
 import { useApp } from 'src/tools/app'
-import detectCountry from 'src/tools/detectCountry'
+import { useCountry } from 'src/tools/country'
 import Report from './[language]/report/index.page'
 import Letter from './[language]/letter/index.page'
 
@@ -18,17 +18,14 @@ function defaults(app, country) {
 
 export default function Root() {
     let app = useApp()
-    let { data: country } = useServerSideQuery(({ request }) => {
-        // console.log('useServerSideQuery', request.headers)
-        const country = request.headers.get('cf-ipcountry')
-        console.log('cf-ipcountry', country)
-        return country
-    })
-    country = country ?? detectCountry()
+    let country = useCountry()
     let redirect = defaults(app, country)
-    console.log('Root.redirect', app, country, redirect)
+    console.log('Root', app, country, redirect)
     useEffect(() => {
-        if (redirect) navigate(redirect, { replace: true })
+        if (redirect) {
+            console.log('Root.redirect', redirect)
+            navigate(redirect, { replace: true })
+        }
     }, [redirect])
     return {
         '/en/report': <Report />,

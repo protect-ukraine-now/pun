@@ -33,10 +33,12 @@ const config = {
 	}
 }
 
-const MainLayout: Layout = ({ children }) => {
+const MainLayout: Layout = ({ children, url }) => {
+	// console.log('Layout', url?.pathname)
 	const language = useLanguage()
 	const text = useText()
 	const { header, footer } = config[useApp()]
+
 	return <>
 		<Head prioritizeSeoTags>
 			<html lang={language} />

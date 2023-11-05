@@ -1,3 +1,5 @@
+import { useServerSideQuery } from "rakkasjs"
+
 let map = {
 	"Kiev": "UA",
 	"Uzhgorod": "UA",
@@ -36,7 +38,7 @@ let map = {
 	"St_Thomas": "US",
 }
 
- export default () => {
+ function detectCountry() {
 	if (typeof window === 'undefined') return
 
 	// override country with the query parameter for testing
@@ -44,7 +46,7 @@ let map = {
 		let query = location.search.slice(1)
 		let params = Object.fromEntries(query.split('&').map(x => x.split('=')))
 		if (params.country) {
-			// console.log('country overrided', params.country)
+			console.log('country overrided', params.country)
 			return params.country
 		}
 	}
@@ -53,6 +55,13 @@ let map = {
 	let a = tz.split('/')
 	let city = a[a.length - 1]
 	let country = map[city] || 'other'
-	// console.log('country detected', country)
+	console.log('country detected', country)
+	return country
+}
+
+export function useCountry() {
+	let { data } = useServerSideQuery(({ request }) => request.headers.get('cf-ipcountry'))
+	let country = data || detectCountry()
+	console.log('country', data, country)
 	return country
 }

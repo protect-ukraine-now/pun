@@ -4,7 +4,7 @@ import punStyle from './pun.module.scss'
 import uatStyle from './uat.module.scss'
 import { useApp } from 'src/tools/app'
 import { useLanguage, useText } from 'src/tools/language'
-import detectCountry from 'src/tools/detectCountry'
+import { useCountry } from 'src/tools/country'
 import Container from 'src/components/Container'
 import WeaponsBalance from 'src/components/WeaponsBalance'
 import WeaponsIncome from 'src/components/WeaponsIncome'
@@ -18,7 +18,7 @@ import Summary from 'src/components/Summary'
 export default function Report() {
 	const language = useLanguage()
 	const text = useText()
-	const country = detectCountry()
+	const country = useCountry()
 	const app = useApp()
 	const style = app === 'pun' ? punStyle : uatStyle
 

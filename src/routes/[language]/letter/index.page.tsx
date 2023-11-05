@@ -5,7 +5,7 @@ import Markdown from 'markdown-to-jsx'
 
 import { useText } from 'src/tools/language'
 import Article from 'src/components/Article'
-import detectCountry from 'src/tools/detectCountry'
+import { useCountry } from 'src/tools/country'
 import Container from 'src/components/Container'
 import style from './style.module.scss'
 
@@ -34,7 +34,7 @@ function chooseTopic(topics) {
 
 export default function Letter() {
 	const text = useText()
-	const country = detectCountry()
+	const country = useCountry()
 
 	useEffect(() => {
 		let timer = setInterval(() => {
