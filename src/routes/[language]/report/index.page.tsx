@@ -44,10 +44,10 @@ export default function Report() {
 					/>
 				</ClientOnly>
 			}
-			<Container className={style.chart}>
+			<Container className={style.container}>
 				<SankeyChart />
 			</Container>
-			<Container className={style.chart}>
+			<Container className={style.container}>
 				<PdaChart />
 			</Container>
 		</>
