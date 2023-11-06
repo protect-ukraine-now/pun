@@ -1,4 +1,4 @@
-import { useServerSideQuery } from "rakkasjs"
+import { usePageContext, useServerSideQuery } from "rakkasjs"
 
 let map = {
 	"Kiev": "UA",
@@ -52,8 +52,9 @@ export function useCountry() {
 	let { data } = useServerSideQuery(({ request }) => request.headers.get('cf-ipcountry'))
 
 	// override country with the query parameter for testing
-	if (typeof window !== 'undefined' && location.search) {
-		let params = location.search.slice(1).split('&').map(x => x.split('='))
+	let { url } = usePageContext()
+	if (url.search) {
+		let params = url.search.slice(1).split('&').map(x => x.split('='))
 		let { country } = Object.fromEntries(params)
 		if (country) {
 			console.log('country overrided', country)
