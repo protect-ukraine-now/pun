@@ -1,7 +1,6 @@
 import { Link, ClientOnly } from 'rakkasjs'
 
-import punStyle from './pun.module.scss'
-import uatStyle from './uat.module.scss'
+import style from './style.module.scss'
 import { useApp } from 'src/tools/app'
 import { useLanguage, useText } from 'src/tools/language'
 import { useCountry } from 'src/tools/country'
@@ -20,7 +19,6 @@ export default function Report() {
 	const text = useText()
 	const country = useCountry()
 	const app = useApp()
-	const style = app === 'pun' ? punStyle : uatStyle
 
 	return (
 		<>

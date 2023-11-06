@@ -1,13 +1,8 @@
-import { Link } from 'rakkasjs'
-
-import style from './pun.module.scss'
-import uatStyle from './uat.module.scss'
-import { useApp } from 'src/tools/app'
+import style from './style.module.scss'
 import Container from '../Container'
 import Share from '../Share'
 
 const Footer = ({ logo, email }) => {
-	if (useApp() === 'uat') Object.assign(style, uatStyle)
 	return <>
 		<div className={style.socialActions}>
 			<Share />
