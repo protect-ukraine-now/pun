@@ -39,19 +39,8 @@ let map = {
 }
 
  function detectCountry() {
-	if (typeof window === 'undefined') return
-
-	// override country with the query parameter for testing
-	if (location?.search) {
-		let query = location.search.slice(1)
-		let params = Object.fromEntries(query.split('&').map(x => x.split('=')))
-		if (params.country) {
-			console.log('country overrided', params.country)
-			return params.country
-		}
-	}
-
-	let tz = Intl?.DateTimeFormat().resolvedOptions().timeZone || ''
+	if (typeof Intl === 'undefined') return
+	let tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''
 	let a = tz.split('/')
 	let city = a[a.length - 1]
 	let country = map[city] || 'other'
@@ -61,6 +50,17 @@ let map = {
 
 export function useCountry() {
 	let { data } = useServerSideQuery(({ request }) => request.headers.get('cf-ipcountry'))
+
+	// override country with the query parameter for testing
+	if (typeof window !== 'undefined' && location.search) {
+		let params = location.search.slice(1).split('&').map(x => x.split('='))
+		let { country } = Object.fromEntries(params)
+		if (country) {
+			console.log('country overrided', country)
+			return country
+		}
+	}
+
 	let country = data || detectCountry()
 	console.log('country', data, country)
 	return country
