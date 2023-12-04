@@ -1,6 +1,5 @@
 import { defineConfig } from 'vite'
 import rakkas from 'rakkasjs/vite-plugin'
-import tsconfigPaths from 'vite-tsconfig-paths'
 import unocss from 'unocss/vite'
 import { presetUno, transformerDirectives, presetAttributify } from 'unocss'
 import transformerAttributifyJsx from '@unocss/transformer-attributify-jsx'
@@ -36,7 +35,6 @@ export default defineConfig({
 				}),
 			],
 		}),
-		tsconfigPaths(),
 		rakkas({
 			adapter: 'cloudflare-workers',
 		}),

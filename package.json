@@ -21,7 +21,6 @@
 		"deploy:prod": "pnpm build && pnpm switch:prod && wrangler deploy"
 	},
 	"dependencies": {
-		"cross-env": "^7.0.3",
 		"@hattip/adapter-cloudflare-workers": "^0.0.35",
 		"@iconify-json/ion": "^1.1.14",
 		"@iconify-json/map": "^1.1.8",
@@ -31,6 +30,7 @@
 		"@unocss/transformer-attributify-jsx": "^0.58.0",
 		"clsx": "^2.0.0",
 		"country-flag-icons": "^1.5.9",
+		"cross-env": "^7.0.3",
 		"daisyui": "3",
 		"date-fns": "^2.30.0",
 		"markdown-to-jsx": "^7.3.2",
@@ -53,7 +53,6 @@
 		"@types/react-dom": "^18.2.17",
 		"eslint": "^8.55.0",
 		"typescript": "^5.3.2",
-		"vite-tsconfig-paths": "^4.2.1",
 		"wrangler": "^3.18.0"
 	},
 	"repository": {
