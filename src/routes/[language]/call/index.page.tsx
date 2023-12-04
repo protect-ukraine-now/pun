@@ -1,6 +1,5 @@
-import { useEffect } from 'react'
 import cn from 'clsx'
-import { useSubmit, PageProps, ActionContext, Head } from 'rakkasjs'
+import { useSubmit, PageProps, ActionContext } from 'rakkasjs'
 import Markdown from 'markdown-to-jsx'
 
 import { useText } from 'src/tools/language'
