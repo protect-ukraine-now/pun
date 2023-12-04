@@ -1,5 +1,8 @@
 import { Head, Layout } from 'rakkasjs'
 import 'reset-css'
+// import '@unocss/reset/tailwind.css'
+import 'virtual:uno.css'
+// import 'virtual:unocss-devtools'
 
 import 'src/style/index.module.scss'
 import { useLanguage, useText } from 'src/tools/language'
@@ -13,7 +16,7 @@ const config = {
 	pun: {
 		header: {
 			logo: <PunLogo />,
-			menu: ['news', 'report', 'congress', 'about'],
+			menu: ['news', 'report', 'call', 'letter', 'about'],
 			languages: { en: 'ENG', uk: 'УКР' },
 		},
 		footer: {

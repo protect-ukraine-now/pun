@@ -1,1 +1,1 @@
-start "dev" /max yarn dev:uat
+start "dev" /max pnpm dev:uat
