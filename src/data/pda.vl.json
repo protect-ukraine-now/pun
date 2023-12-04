@@ -1,0 +1,232 @@
+{
+	"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+	"params": [
+		{
+			"name": "fontSize",
+			"expr": "width/70"
+		}
+	],
+	"data": {
+		"name": "PDA",
+    	"url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vT7ok1ZDyU1Lz37NIZAMrSv7u_xL4SjWQcXIj5RWj4qzsgbIiU-wqmEK8kwtsMeVt_qTuEVIPgRiLiE/pub?gid=1730063955&single=true&output=csv&range=A:Z",
+		"format": {
+			"type": "csv",
+			"parse": {
+				"Date": "date",
+				"PDA_adjusted": "number"
+			}
+		}
+	},
+	"width": "container",
+	"height": "container",
+	"background": null,
+	"transform": [
+		{
+      			"filter": "datum.Date > datetime(2022, 1, 1)"
+    		},
+		{
+	 		"calculate": "datum.PDA_adjusted / 1000",
+	 		"as": "PDA_adjusted"
+	 	},
+		{
+			"timeUnit": "yearmonth",
+			"field": "Date",
+			"as": "label"
+		},
+		{
+			"aggregate": [
+				{
+					"op": "sum",
+					"field": "PDA_adjusted",
+					"as": "amount"
+				}
+			],
+			"groupby": [
+				"label"
+			]
+		},
+		{
+			"filter": "datum.amount != 0"
+		},
+		{
+			"window": [
+				{
+					"op": "sum",
+					"field": "amount",
+					"as": "sum"
+				}
+			]
+		},
+		{
+			"window": [
+				{
+					"op": "lead",
+					"field": "label",
+					"as": "lead"
+				}
+			]
+		},
+		{
+			"calculate": "datum.lead === null ? datum.label : datum.lead",
+			"as": "lead"
+		},
+		{
+			"calculate": "datum.label === 'End' ? 0 : datum.sum - datum.amount",
+			"as": "previous_sum"
+		},
+		{
+			"calculate": "datum.label === 'End' ? datum.sum : datum.amount",
+			"as": "amount"
+		},
+		{
+			"calculate": "join(['$', format(datum.amount, '.2f'), 'B'], '')",
+			"as": "text_amount"
+		},
+		{
+			"calculate": "(datum.sum + datum.previous_sum) / 2",
+			"as": "center"
+		},
+		{
+			"calculate": "datum.sum < datum.previous_sum ? datum.sum : ''",
+			"as": "sum_dec"
+		},
+		{
+			"calculate": "datum.sum > datum.previous_sum ? datum.sum : ''",
+			"as": "sum_inc"
+		}
+	],
+	"encoding": {
+		"x": {
+			"field": "label",
+			"type": "temporal",
+			"sort": null,
+			"axis": {
+				"title": null,
+				"format": "%b`%y",
+				"labelFontSize": {
+					"expr": "fontSize"
+				},
+				"tickCount": {
+					"interval": "month",
+					"step": 1
+				},
+				"labelAngle": 0,
+				"grid": false
+			}
+		},
+		"y": {
+			"field": "amount",
+			"type": "quantitative",
+			"sort": null,
+			"axis": {
+				"title": null,
+				"format": "$",
+				"labelFontSize": {
+					"expr": "fontSize"
+				},
+				"labelExpr": "datum.label + 'B'",
+				"tickCount": 5,
+				"labelAngle": 0
+			}
+		}
+	},
+	"layer": [
+		{
+			"mark": {
+				"type": "bar",
+				"size": 30
+			},
+			"encoding": {
+				"y": {
+					"field": "previous_sum",
+					"type": "quantitative",
+					"title": "Amount"
+				},
+				"y2": {
+					"field": "sum"
+				},
+				"color": {
+					"condition": [
+						{
+							"test": {
+								"field": "datum.label",
+								"oneOf": [
+									"Begin",
+									"End"
+								]
+							},
+							"value": "#f7e0b6"
+						},
+						{
+							"test": "datum.sum < datum.previous_sum",
+							"value": "#f78a64"
+						}
+					],
+					"value": "#93c4aa"
+				}
+			}
+		},
+		{
+			"mark": {
+				"type": "rule",
+				"color": "#404040",
+				"opacity": 1,
+				"strokeWidth": 1.5,
+				"xOffset": -15,
+				"x2Offset": 15
+			},
+			"encoding": {
+				"x2": {
+					"field": "lead"
+				},
+				"y": {
+					"field": "sum",
+					"type": "quantitative"
+				}
+			}
+		},
+		{
+			"mark": {
+				"type": "text",
+				"dy": -4,
+				"baseline": "bottom",
+				"fontSize": {
+					"expr": "fontSize"
+				}
+			},
+			"encoding": {
+				"y": {
+					"field": "sum_inc",
+					"type": "quantitative"
+				},
+				"text": {
+					"field": "text_amount",
+					"type": "nominal"
+				}
+			}
+		},
+		{
+			"mark": {
+				"type": "text",
+				"dy": 4,
+				"baseline": "top"
+			},
+			"encoding": {
+				"y": {
+					"field": "sum_dec",
+					"type": "quantitative"
+				},
+				"text": {
+					"field": "sum_dec",
+					"type": "nominal"
+				}
+			}
+		}
+	],
+	"config": {
+		"text": {
+			"fontWeight": "bold",
+			"color": "#404040"
+		}
+	}
+}
