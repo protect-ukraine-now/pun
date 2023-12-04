@@ -20,7 +20,7 @@
 		"deploy:stage": "pnpm build && wrangler deploy",
 		"deploy:prod": "pnpm build && pnpm switch:prod && wrangler deploy"
 	},
-	"devDependencies": {
+	"dependencies": {
 		"@rakkasjs/eslint-config": "0.6.20",
 		"@types/react": "^18.2.41",
 		"@types/react-dom": "^18.2.17",
@@ -28,9 +28,7 @@
 		"eslint": "^8.55.0",
 		"typescript": "^5.3.2",
 		"vite-tsconfig-paths": "^4.2.1",
-		"wrangler": "^3.18.0"
-	},
-	"dependencies": {
+		"wrangler": "^3.18.0",
 		"@hattip/adapter-cloudflare-workers": "^0.0.35",
 		"@iconify-json/ion": "^1.1.14",
 		"@iconify-json/map": "^1.1.8",
