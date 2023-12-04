@@ -68,7 +68,15 @@ const links = {
 
 export default function Congress({ actionData }: PageProps) {
 	actionData && console.warn(actionData)
-	const { submitHandler } = useSubmit()
+	const { submitHandler } = useSubmit({
+		onSettled() {
+			const scrollTo = window.scrollTo
+			window.scrollTo = x => x
+			setTimeout(() => {
+				window.scrollTo = scrollTo
+			}, 100)
+		}
+	})
 	const text = useText()
 
 	// function onAddressChange(e) {
