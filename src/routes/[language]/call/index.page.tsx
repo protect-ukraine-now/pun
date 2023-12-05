@@ -161,20 +161,18 @@ export default function Congress({ actionData }: PageProps) {
 				<ul>
 					{actionData?.length && actionData.map(o =>
 						<li
-							className="p4 flex gap-4 line-height-relaxed"
+							className="pt-8 flex gap-4 line-height-relaxed"
 							key={o.name}
 						>
-							<div className="w-40">
+							<div className="w-20 sm:w-30 lg:w-40 xl:w-50 shrink-0">
 								{o.photoUrl
 									?
 									<img
-										className="w-full rounded"
+										className="w-full"
 										src={o.photoUrl}
 									/>
 									:
-									<div
-										className="i-mdi-person text-9xl w-full"
-									/>
+									<div className="i-healthicons-person-negative text-20 sm:text-30 lg:text-40 xl:text-50" />
 								}
 							</div>
 							<div>
@@ -199,7 +197,7 @@ export default function Congress({ actionData }: PageProps) {
 									if (!href) return null
 									return (
 										<a
-											className={`${icon} text-4xl m-1 mt-2`}
+											className={`${icon} text-2xl m-1 mt-2`}
 											href={href}
 											target="_blank"
 											rel="noreferrer"
