@@ -1,21 +1,21 @@
-import { useEffect } from 'react'
+import { useEffect, useRef } from 'react'
 import { clsx } from 'clsx'
 import { View, parse } from 'vega'
 
 import style from './style.module.scss'
 
-export default function Vega({ id, spec, className }) {
+export default function Vega({ spec, className }) {
+	const ref = useRef()
 	useEffect(() => {
 		const view = new View(parse(spec), {
-			renderer: 'canvas',  // renderer (canvas or svg)
-			container: `#${id}`,   // parent DOM container
-			hover: true       // enable hover processing
+			container: ref.current,
+			hover: true,
 		})
 		view.runAsync()
-	}, [id, spec])
+	}, [spec])
 	return (
 		<div className={clsx(style.container, className)}>
-			<div id={id} className={style.chart} />
+			<div className={style.chart} ref={ref} />
 		</div>
 	)
 }

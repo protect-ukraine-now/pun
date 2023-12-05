@@ -23,7 +23,7 @@ export default function SankeyChart() {
 	})
 	return (
 		<Section {...{ title, subtitle, description }} >
-			<Vega id="sankey" spec={JSON.parse(json)} className={style.chart} />
+			<Vega spec={JSON.parse(json)} className={style.chart} />
 		</Section>
 	)
 }

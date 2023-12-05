@@ -47,9 +47,6 @@ dependencies:
   react:
     specifier: ^18.2.0
     version: 18.2.0
-  react-append-head:
-    specifier: ^1.0.16
-    version: 1.0.16
   react-dom:
     specifier: ^18.2.0
     version: 18.2.0(react@18.2.0)
@@ -4041,10 +4038,6 @@ packages:
 
   /rambda@8.6.0:
     resolution: {integrity: sha512-Ax+/bAcV2h4wINXx6wm0792G5uXZAl78rzhei+FqmHezg45vbeTUyDAmDNbSdjNOL6LGN8AUEvzaYD7oO5eYrw==}
-    dev: false
-
-  /react-append-head@1.0.16:
-    resolution: {integrity: sha512-lEZxJrW0MgBZZEmIBMW/fQznGjBgPi9SdGL5fI7NTjiB5DgDrNeQ5a6eKYs7InbYenmIaLR5W/B5MVQCxc1EUw==}
     dev: false
 
   /react-dom@18.2.0(react@18.2.0):
