@@ -1,8 +1,7 @@
 import { defineConfig } from 'vite'
 import rakkas from 'rakkasjs/vite-plugin'
 import unocss from 'unocss/vite'
-import { presetUno, transformerDirectives, presetAttributify } from 'unocss'
-import transformerAttributifyJsx from '@unocss/transformer-attributify-jsx'
+import { presetUno, transformerDirectives } from 'unocss'
 import { presetDaisy } from 'unocss-preset-daisy'
 import { presetIcons } from '@unocss/preset-icons'
 
@@ -18,11 +17,9 @@ export default defineConfig({
 	plugins: [
 		unocss({
 			transformers: [
-				transformerAttributifyJsx(),
 				transformerDirectives(),
 			],
 			presets: [
-				presetAttributify(),
 				presetUno(),
 				presetDaisy({
 					themes: ["light"],
