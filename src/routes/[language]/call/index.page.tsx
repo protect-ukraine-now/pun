@@ -18,10 +18,6 @@ const congressmen = indexBy(({ first_name, middle_name, last_name, suffix }) =>
 	.join(' ')
 , members.members)
 
-if (typeof window !== 'undefined') {
-	window.congressmen = congressmen
-}
-
 export async function action(ctx: ActionContext) {
 	let formData = await ctx.requestContext.request.formData()
 	let address = ['street', 'city', 'zip_code'].map(x => formData.get(x)).join(' ')
@@ -68,8 +64,8 @@ export async function action(ctx: ActionContext) {
 				.map(({ name }) => name)
 			)
 
-			// delete official.urls
-			// delete official.channels
+			delete official.urls
+			delete official.channels
 			delete official.address
 		})
 	})

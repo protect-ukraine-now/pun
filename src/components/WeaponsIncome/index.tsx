@@ -1,9 +1,5 @@
 import { useState, Fragment } from 'react'
-import US from 'country-flag-icons/react/1x1/US'
-import PL from 'country-flag-icons/react/1x1/PL'
-import CA from 'country-flag-icons/react/1x1/CA'
-import GB from 'country-flag-icons/react/1x1/GB'
-import { IoEllipsisHorizontalCircle } from 'react-icons/io5'
+import cn from 'clsx'
 
 import style from './style.module.scss';
 import { latestReport, incomeReport, Report } from 'src/data/report'
@@ -57,12 +53,14 @@ export default function WeaponsIncome() {
     </>
 
     let head = [
-        <US className={style.countryFlag} title={text('country.us')} key="us" />,
+        <span className={cn(style.countryFlag, 'i-circle-flags-us')} title={text('country.us')} key="us" />,
         <Fragment key="other">
-            <CA className={style.countryFlag} title={text('income.rest')} />
-            <GB className={style.countryFlag} title={text('income.rest')} />
-            <PL className={style.countryFlag} title={text('income.rest')} />
-            <IoEllipsisHorizontalCircle className={style.ellipsis} title={text('income.rest')} />
+            <span className={cn(style.countryFlag, 'i-circle-flags-ca')} title={text('income.rest')} />
+            <span className={cn(style.countryFlag, 'i-circle-flags-gb')} title={text('income.rest')} />
+            <span className={cn(style.countryFlag, 'i-circle-flags-pl')} title={text('income.rest')} />
+            <span className={style.ellipsis} title={text('income.rest')}>
+                <span className="i-ion-ellipsis-horizontal-circle w-full h-full" />
+            </span>
         </Fragment>,
     ]
 

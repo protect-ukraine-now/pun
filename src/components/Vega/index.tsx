@@ -9,13 +9,15 @@ export default function Vega({ id, spec, className }) {
 	const [loaded, setLoaded] = useState(false)
 	useEffect(() => {
 		if (!loaded) return
-		window.vegaEmbed(`#${id}`, spec, { actions: false })
-		.then(result => {
-			// console.log('Vega', result)
-		}).catch(console.error)
+		try {
+			window.vegaEmbed(`#${id}`, spec, { actions: false })
+			.catch(console.error)
+		} catch(e) {
+			console.error(e)
+		}
 	}, [loaded, id, spec])
 	return (
-		<ClientOnly>
+		<ClientOnly fallback="">
 			<AppendHead onLoad={() => setLoaded(true)}>
 				<script order="1" name="vega" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
 				{/* <script order="2" name="vega-lite" src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script> */}

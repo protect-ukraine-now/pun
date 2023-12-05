@@ -8,6 +8,9 @@ dependencies:
   '@hattip/adapter-cloudflare-workers':
     specifier: ^0.0.35
     version: 0.0.35
+  '@iconify-json/circle-flags':
+    specifier: ^1.1.45
+    version: 1.1.45
   '@iconify-json/ion':
     specifier: ^1.1.14
     version: 1.1.14
@@ -17,21 +20,12 @@ dependencies:
   '@iconify-json/mdi':
     specifier: ^1.1.58
     version: 1.1.58
-  '@unocss/preset-attributify':
-    specifier: ^0.58.0
-    version: 0.58.0
   '@unocss/preset-icons':
-    specifier: ^0.58.0
-    version: 0.58.0
-  '@unocss/transformer-attributify-jsx':
     specifier: ^0.58.0
     version: 0.58.0
   clsx:
     specifier: ^2.0.0
     version: 2.0.0
-  country-flag-icons:
-    specifier: ^1.5.9
-    version: 1.5.9
   cross-env:
     specifier: ^7.0.3
     version: 7.0.3
@@ -59,9 +53,6 @@ dependencies:
   react-dom:
     specifier: ^18.2.0
     version: 18.2.0(react@18.2.0)
-  react-icons:
-    specifier: ^4.12.0
-    version: 4.12.0(react@18.2.0)
   reset-css:
     specifier: ^5.0.2
     version: 5.0.2
@@ -1058,6 +1049,12 @@ packages:
     resolution: {integrity: sha512-dvuCeX5fC9dXgJn9t+X5atfmgQAzUOWqS1254Gh0m6i8wKd10ebXkfNKiRK+1GWi/yTvvLDHpoxLr0xxxeslWw==}
     dev: true
 
+  /@iconify-json/circle-flags@1.1.45:
+    resolution: {integrity: sha512-cikwpIBFmHZWCGzIGEr6d7+KRZDlfDezCiREZPiXKP5JAMrPO4qWnNQEEjZ3WHTeTwFUB+CwyiNubnTp6UAmOA==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: false
+
   /@iconify-json/ion@1.1.14:
     resolution: {integrity: sha512-NrUB/HqQqki7tXrgu4MrRZXCeG6zLe0rOdzdWrkRzabwMdaDuzHSZJXYT6X6DWsV+0iCVhLutaZTa4s9eitwiQ==}
     dependencies:
@@ -2022,10 +2019,6 @@ packages:
     resolution: {integrity: sha512-YZ3GUyn/o8gfKJlnlX7g7xq4gyO6OSuhGPKaaGssGB2qgDUS0gPgtTvoyZLTt9Ab6dC4hfc9dV5arkvc/OCmrw==}
     engines: {node: '>= 0.6'}
     dev: true
-
-  /country-flag-icons@1.5.9:
-    resolution: {integrity: sha512-9jrjv2w7kRbqNtdtMdK2j3gmDIZzd5l9L2pZiQjF9J0mUcB+NKIGDNADTDHBEp8EQtjOkCOcciJGGSOpERdXPQ==}
-    dev: false
 
   /cpr@3.0.1:
     resolution: {integrity: sha512-Xch4PXQ/KC8lJ+KfJ9JI6eG/nmppLrPPWg5Q+vh65Qr9EjuJEubxh/H/Le1TmCZ7+Xv7iJuNRqapyOFZB+wsxA==}
@@ -4059,14 +4052,6 @@ packages:
       loose-envify: 1.4.0
       react: 18.2.0
       scheduler: 0.23.0
-    dev: false
-
-  /react-icons@4.12.0(react@18.2.0):
-    resolution: {integrity: sha512-IBaDuHiShdZqmfc/TwHu6+d6k2ltNCf3AszxNmjJc1KUfXdEeRJOKyNvLmAHaarhzGmTSVygNdyu8/opXv2gaw==}
-    peerDependencies:
-      react: '*'
-    dependencies:
-      react: 18.2.0
     dev: false
 
   /react-is@16.13.1:
