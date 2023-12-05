@@ -1,5 +1,7 @@
 import cn from 'clsx'
-import { StyledLink, useLocation } from 'rakkasjs'
+import { useLocation } from 'rakkasjs'
+
+import { Link } from '../Link'
 
 import style from './style.module.scss'
 
@@ -16,7 +18,7 @@ export default function Menu({ items, className, linkClassName, activeClassName,
 						<span>{name}</span>
 					</span>
 				) : (
-					<StyledLink
+					<Link
 						href={href}
 						onClick={onClick}
 						className={cn(style.link, linkClassName)}
@@ -24,7 +26,7 @@ export default function Menu({ items, className, linkClassName, activeClassName,
 						key={href}
 					>
 						<span>{name}</span>
-					</StyledLink>
+					</Link>
 				)
 			)}
 		</div>

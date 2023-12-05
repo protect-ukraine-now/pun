@@ -1,5 +1,4 @@
-import UA from 'country-flag-icons/react/1x1/UA'
-import RU from 'country-flag-icons/react/1x1/RU'
+import cn from 'clsx'
 
 import style from './style.module.scss'
 import { useLanguage, useText } from 'src/tools/language'
@@ -18,8 +17,8 @@ export default function WeaponsCommitments() {
 	let subtitle = text('balance.subtitle', { till })
 
 	let head = [
-		<RU className={style.countryFlag} title={text('country.ru')} key="ru" />,
-		<UA className={style.countryFlag} title={text('country.ua')} key="ua" />,
+		<span className={cn(style.countryFlag, 'i-circle-flags-ru')} title={text('country.ru')} key="ru" />,
+		<span className={cn(style.countryFlag, 'i-circle-flags-ua')} title={text('country.ua')} key="ua" />,
 	]
 
 	let description = text('balance.description')

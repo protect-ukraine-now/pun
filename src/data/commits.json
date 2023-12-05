@@ -3890,6 +3890,16 @@
 		"Military support for Ukraine"
 	],
 	[
+		"2023-10-16",
+		"US",
+		"Tank",
+		"Abrams M1A1",
+		"21",
+		"USAI",
+		"https://www.voanews.com/a/all-31-abrams-tanks-in-ukraine-us-military-confirms-to-voa/7313918.html",
+		"All 31 Abrams Tanks in Ukraine, US Military Confirms to VOA"
+	],
+	[
 		"2023-10-20",
 		"Germany",
 		"Air Defense System",
@@ -3958,16 +3968,6 @@
 		"",
 		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
 		"Military support for Ukraine"
-	],
-	[
-		"2023-10-16",
-		"US",
-		"Tank",
-		"Abrams M1A1",
-		"21",
-		"USAI",
-		"https://www.voanews.com/a/all-31-abrams-tanks-in-ukraine-us-military-confirms-to-voa/7313918.html",
-		"All 31 Abrams Tanks in Ukraine, US Military Confirms to VOA"
 	],
 	[
 		"2023-10-27",
@@ -4255,6 +4255,136 @@
 		"other",
 		"MAN TGS trucks ",
 		"13",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-11-20",
+		"US",
+		"Multiple Launch Rocket System",
+		"M142 HIMARS",
+		"1",
+		"PDA",
+		"https://www.defense.gov/News/Releases/Release/Article/3594318/biden-administration-announces-new-security-assistance-for-ukraine/",
+		"Biden Administration Announces New Security Assistance for Ukraine"
+	],
+	[
+		"2023-11-22",
+		"Germany",
+		"Infantry Fighting Vehicle",
+		"Marder",
+		"20",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-11-22",
+		"Germany",
+		"Artillery rounds",
+		"155mm",
+		"2380",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-11-22",
+		"Germany",
+		"Other Armored Vehicle",
+		"WISENT 1",
+		"1",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-11-22",
+		"Germany",
+		"other",
+		"HX-81",
+		"2",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-11-22",
+		"Germany",
+		"other",
+		"other vehicles (trucks, minibuses, all-terrain vehicles)",
+		"9",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-11-22",
+		"Germany",
+		"other",
+		"All Terrain Tracked Carrier Warthog Ambulance",
+		"5",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-11-22",
+		"Germany",
+		"other",
+		"ambulance",
+		"2",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-12-01",
+		"Germany",
+		"Artillery rounds",
+		"155mm",
+		"3840",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-12-01",
+		"Germany",
+		"Other Armored Vehicle",
+		"border protection vehicle",
+		"2",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-12-01",
+		"Germany",
+		"other",
+		"drone detection systems",
+		"5",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-12-01",
+		"Germany",
+		"other",
+		"Zetros truck",
+		"8",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-12-01",
+		"Germany",
+		"other",
+		"other vehicles (trucks, minibuses, all-terrain vehicles)",
+		"3",
 		"",
 		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
 		"Military support for Ukraine"

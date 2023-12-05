@@ -4,13 +4,13 @@ import { Redirect, navigate } from 'rakkasjs'
 import { useApp } from 'src/tools/app'
 import { useCountry } from 'src/tools/country'
 import Report from './[language]/report/index.page'
-import Letter from './[language]/letter/index.page'
+import Call from './[language]/call/index.page'
 
 function defaults(app, country) {
     if (app === 'uat') return '/en/report'
     if (!country) return
     let page = {
-        US: '/en/letter',
+        US: '/en/call',
         UA: '/uk/report',
     }[country]
     return page || '/en/report'
@@ -29,7 +29,7 @@ export default function Root() {
     }, [redirect])
     return {
         '/en/report': <Report />,
-        '/en/letter': <Letter />,
+        '/en/call': <Call />,
         '/uk/report': <Redirect href={redirect} />,
     }[redirect] || null
 }

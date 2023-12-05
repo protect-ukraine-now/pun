@@ -20,6 +20,14 @@ let transformNews = data => data
 
 const API_KEY = 'AIzaSyCX8cPcl4eAd311z9wCZ8xlQCkfmJ5sIpU'
 const spreadsheets = {
+    // zccd: {
+    //     id: '19TSFcSWyKmIqIhxEdQWJ4hhh6pv58kbeyXp3zyW1dWk',
+    //     range: "'zccd'",
+    // },
+    // legislators: {
+    //     id: '19TSFcSWyKmIqIhxEdQWJ4hhh6pv58kbeyXp3zyW1dWk',
+    //     range: "'legislators-current'",
+    // },
     // balance: {
     //     id: '1xgDA4BxipENhnh8vAkKgISbGyWGHMOZulbLtRZFBV-4',
     //     range: "'Total'",

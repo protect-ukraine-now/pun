@@ -1,11 +1,10 @@
 import { useEffect } from 'react'
 import cn from 'clsx'
-import { Head, ClientOnly } from 'rakkasjs'
+import { Head } from 'rakkasjs'
 import Markdown from 'markdown-to-jsx'
 
 import { useText } from 'src/tools/language'
 import Article from 'src/components/Article'
-import { useCountry } from 'src/tools/country'
 import Container from 'src/components/Container'
 import style from './style.module.scss'
 
@@ -32,9 +31,8 @@ function chooseTopic(topics) {
 	}
 }
 
-export default function Letter() {
+export default function Congress() {
 	const text = useText()
-	const country = useCountry()
 
 	useEffect(() => {
 		let timer = setInterval(() => {
@@ -58,11 +56,7 @@ export default function Letter() {
 		return () => clearInterval(timer)
 	}, [])
 
-	return (<>
-		<Head>
-			<link href="https://actionnetwork.org/css/style-embed-v3.css" rel="stylesheet" type="text/css" />
-			<script src="https://actionnetwork.org/widgets/v5/letter/protect-ukraine-now?format=js&source=widget" defer type="text/javascript" />
-		</Head>
+	return (
 		<Container className={style.container}>
 			<section className={cn(style.section, style.banner)}>
 				<h2 className={style.title}>
@@ -76,14 +70,14 @@ export default function Letter() {
 						{text('letter.description')}
 					</Markdown>
 				</Article>
-				<br />
-				{country && country !== 'US' &&
-					<ClientOnly fallback="">
-						<h3>(if you are a U.S. citizen and have a U.S. address)</h3>
-					</ClientOnly>
-				}
+			</section>
+			<section className={cn(style.section, style.explanation)}>
+				<Head>
+					<link href="https://actionnetwork.org/css/style-embed-v3.css" rel="stylesheet" type="text/css" />
+					<script src="https://actionnetwork.org/widgets/v5/letter/protect-ukraine-now?format=js&source=widget" defer type="text/javascript" />
+				</Head>
 				<div id='can-letter-area-protect-ukraine-now' style={{ width: '100%' }}></div>
 			</section>
 		</Container>
-	</>)
+	)
 }

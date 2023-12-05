@@ -93,7 +93,7 @@
 		"",
 		"2023-09-30",
 		"2024",
-		"",
+		"0",
 		"",
 		"300",
 		"",
@@ -133,7 +133,7 @@
 		"",
 		"https://www.defense.gov/News/Tag/215492/StartDate/2022-04-13/EndDate/2022-04-13",
 		"",
-		"Announced",
+		"Notified Congress & Announced",
 		"2022",
 		"9,225",
 		"",
@@ -141,7 +141,7 @@
 		"2,913",
 		"1,318",
 		"1,595",
-		"15,338",
+		"",
 		"",
 		"800",
 		"575"
@@ -154,15 +154,15 @@
 		"",
 		"https://www.defense.gov/News/Tag/215492/StartDate/2022-04-21/EndDate/2022-04-21",
 		"",
-		"Announced",
+		"Notified Congress & Announced",
 		"2023",
-		"15,460",
+		"14,650",
 		"",
 		"13,805",
 		"1,200",
 		"325",
 		"875",
-		"29,590",
+		"",
 		"",
 		"800",
 		"575"
@@ -175,15 +175,15 @@
 		"713 total",
 		"https://www.state.gov/u-s-security-cooperation-with-ukraine/",
 		"",
-		"Announced",
+		"Notified Congress & Announced",
 		"2024",
-		"475",
+		"0",
 		"",
 		"300",
 		"0",
 		"0",
 		"",
-		"775",
+		"",
 		"",
 		"",
 		"0"
@@ -196,15 +196,15 @@
 		"",
 		"https://www.defense.gov/News/Tag/215492/StartDate/2022-05-06/EndDate/2022-05-06",
 		"",
-		"Total Announced",
+		"Total Notified & Announced",
 		"",
-		"25,160",
+		"23,875",
 		"",
 		"18,900",
 		"4,113",
 		"1,643",
 		"2,470",
-		"45,703",
+		"44,418",
 		"",
 		"150",
 		"108"
@@ -217,9 +217,9 @@
 		"",
 		"https://www.defense.gov/News/Tag/215492/StartDate/2022-05-19/EndDate/2022-05-19",
 		"",
-		"Accounting Error Correction",
-		"",
-		"-6,200",
+		"Revaluation due to Accounting Error",
+		"2022",
+		"2,600",
 		"",
 		"",
 		"",
@@ -238,15 +238,15 @@
 		"",
 		"https://www.defense.gov/News/Tag/215492/StartDate/2022-06-01/EndDate/2022-06-01",
 		"",
-		"Total Announced Corrected",
+		"Revaluation due to Accounting Error",
+		"2023",
+		"3,600",
 		"",
-		"18,960",
 		"",
-		"18,900",
-		"4,113",
-		"1,643",
-		"2,470",
-		"39,503",
+		"",
+		"",
+		"",
+		"",
 		"",
 		"700",
 		"503"
@@ -259,9 +259,9 @@
 		"",
 		"https://www.defense.gov/News/Tag/215492/StartDate/2022-06-14/EndDate/2022-06-14",
 		"",
-		"FY 2022-23 expired funds",
+		"Total Revaluation",
 		"",
-		"1,615"
+		"6,200"
 	],
 	[
 		"2022-06-15",
@@ -271,15 +271,15 @@
 		"",
 		"https://www.defense.gov/News/Tag/215492/StartDate/2022-06-15/EndDate/2022-06-15",
 		"",
-		"Left",
-		"",
-		"4,925",
-		"1000",
-		"0",
-		"537",
+		"Announced from Revaluation",
+		"2023",
+		"800",
 		"",
 		"",
-		"4,925",
+		"",
+		"",
+		"",
+		"",
 		"",
 		"350",
 		"251"
@@ -292,9 +292,9 @@
 		"",
 		"https://www.defense.gov/News/Tag/215492/StartDate/2022-06-23/EndDate/2022-06-23",
 		"",
-		"",
-		"",
-		"",
+		"Announced from Revaluation",
+		"2024",
+		"575",
 		"",
 		"",
 		"",
@@ -313,15 +313,15 @@
 		"",
 		"https://www.defense.gov/News/Tag/215492/StartDate/2022-06-30/EndDate/2022-06-30",
 		"",
-		"Total Reported by Pentagon",
+		"Total Announced from Revaluation",
+		"",
+		"1,375",
 		"",
 		"",
 		"",
 		"",
 		"",
 		"",
-		"",
-		"44,200",
 		"",
 		"",
 		"0"
@@ -334,15 +334,15 @@
 		"",
 		"https://www.defense.gov/News/Tag/215492/StartDate/2022-07-01/EndDate/2022-07-01",
 		"",
-		"The same calculated",
+		"Announced Corrected",
+		"2022",
+		"6,625",
 		"",
 		"",
 		"",
 		"",
 		"",
 		"",
-		"",
-		"44,228",
 		"",
 		"50",
 		"36"
@@ -355,9 +355,9 @@
 		"",
 		"https://www.defense.gov/News/Tag/215492/StartDate/2022-07-08/EndDate/2022-07-08",
 		"",
-		"",
-		"",
-		"",
+		"Announced Corrected",
+		"2023",
+		"11,850",
 		"",
 		"",
 		"",
@@ -376,9 +376,9 @@
 		"",
 		"https://www.defense.gov/News/Tag/215492/StartDate/2022-07-22/EndDate/2022-07-22",
 		"",
-		"",
-		"",
-		"",
+		"Announced Corrected",
+		"2024",
+		"575",
 		"",
 		"",
 		"",
@@ -397,15 +397,15 @@
 		"",
 		"https://www.defense.gov/News/Tag/215492/StartDate/2022-08-01/EndDate/2022-08-01",
 		"",
+		"Total Announced Corrected",
 		"",
+		"19,050",
 		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
+		"18,900",
+		"4,113",
+		"1,643",
+		"2,470",
+		"39,593",
 		"",
 		"550",
 		"394.9864499"
@@ -418,9 +418,9 @@
 		"",
 		"https://www.defense.gov/News/Tag/215492/StartDate/2022-08-08/EndDate/2022-08-08",
 		"",
+		"FY 2022-23 Announced Corrected",
 		"",
-		"",
-		"",
+		"18,475",
 		"",
 		"",
 		"",
@@ -439,9 +439,9 @@
 		"",
 		"https://www.defense.gov/News/Tag/215492/StartDate/2022-08-19/EndDate/2022-08-19",
 		"",
+		"FY 2022-23 Unused",
 		"",
-		"",
-		"",
+		"7,025",
 		"",
 		"",
 		"",
@@ -458,7 +458,11 @@
 		"2980",
 		"",
 		"",
-		"https://www.defense.gov/News/Tag/215492/StartDate/2022-08-24/EndDate/2022-08-24"
+		"https://www.defense.gov/News/Tag/215492/StartDate/2022-08-24/EndDate/2022-08-24",
+		"",
+		"FY 2022 Expired",
+		"",
+		"1,625"
 	],
 	[
 		"2022-09-08",
@@ -468,15 +472,15 @@
 		"",
 		"https://www.defense.gov/News/Releases/Release/Article/3152071/675-million-in-additional-security-assistance-for-ukraine/",
 		"",
+		"Available",
+		"",
+		"4,825",
+		"1000",
+		"0",
+		"537",
 		"",
 		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
+		"4,825",
 		"",
 		"675",
 		"484.7560976"
@@ -510,6 +514,7 @@
 		"",
 		"https://www.defense.gov/News/Tag/215492/StartDate/2022-09-28/EndDate/2022-09-28",
 		"",
+		"Total Reported by Pentagon",
 		"",
 		"",
 		"",
@@ -517,8 +522,7 @@
 		"",
 		"",
 		"",
-		"",
-		"",
+		"44,200",
 		"",
 		"",
 		"0"
@@ -531,6 +535,7 @@
 		"",
 		"https://www.defense.gov/News/Tag/215492/StartDate/2022-10-04/EndDate/2022-10-04",
 		"",
+		"The same calculated",
 		"",
 		"",
 		"",
@@ -538,11 +543,10 @@
 		"",
 		"",
 		"",
-		"",
-		"",
+		"44,218",
 		"",
 		"625",
-		"429.5178106"
+		"429.3478261"
 	],
 	[
 		"2022-10-14",
@@ -563,7 +567,7 @@
 		"",
 		"",
 		"725",
-		"498.2406603"
+		"498.0434783"
 	],
 	[
 		"2022-10-28",
@@ -584,7 +588,7 @@
 		"",
 		"",
 		"275",
-		"188.9878367"
+		"188.9130435"
 	],
 	[
 		"2022-11-04",
@@ -626,7 +630,7 @@
 		"",
 		"",
 		"400",
-		"274.8913988"
+		"274.7826087"
 	],
 	[
 		"2022-11-23",
@@ -647,7 +651,7 @@
 		"",
 		"",
 		"400",
-		"274.8913988"
+		"274.7826087"
 	],
 	[
 		"2022-12-09",
@@ -668,7 +672,7 @@
 		"",
 		"",
 		"275",
-		"188.9878367"
+		"188.9130435"
 	],
 	[
 		"2022-12-21",
@@ -689,7 +693,7 @@
 		"",
 		"",
 		"1000",
-		"687.228497"
+		"686.9565217"
 	],
 	[
 		"2023-01-06",
@@ -710,7 +714,7 @@
 		"",
 		"",
 		"2850",
-		"1958.601216"
+		"1957.826087"
 	],
 	[
 		"2023-01-19",
@@ -731,7 +735,7 @@
 		"",
 		"",
 		"2500",
-		"1718.071242"
+		"1717.391304"
 	],
 	[
 		"2023-01-25",
@@ -760,11 +764,11 @@
 		"",
 		"",
 		"425",
-		"292.0721112"
+		"291.9565217"
 	],
 	[
 		"2023-02-20",
-		"460",
+		"450",
 		"",
 		"",
 		"",
@@ -780,8 +784,8 @@
 		"",
 		"",
 		"",
-		"460",
-		"316.1251086"
+		"450",
+		"309.1304348"
 	],
 	[
 		"2023-02-24",
@@ -823,7 +827,7 @@
 		"",
 		"",
 		"400",
-		"274.8913988"
+		"274.7826087"
 	],
 	[
 		"2023-03-20",
@@ -844,7 +848,7 @@
 		"",
 		"",
 		"350",
-		"240.5299739"
+		"240.4347826"
 	],
 	[
 		"2023-04-04",
@@ -853,7 +857,7 @@
 		"",
 		"",
 		"https://www.defense.gov/News/Tag/215492/StartDate/2023-04-04/EndDate/2023-04-04",
-		"",
+		"https://media.defense.gov/2023/Apr/04/2003192566/-1/-1/1/UKRAINE-FACT-SHEET-APR-4.PDF",
 		"",
 		"",
 		"",
@@ -865,7 +869,7 @@
 		"",
 		"",
 		"500",
-		"343.6142485"
+		"343.4782609"
 	],
 	[
 		"2023-04-19",
@@ -886,7 +890,7 @@
 		"",
 		"",
 		"325",
-		"223.3492615"
+		"223.2608696"
 	],
 	[
 		"2023-05-03",
@@ -945,7 +949,7 @@
 		"",
 		"",
 		"https://www.defense.gov/News/Tag/215492/StartDate/2023-05-31/EndDate/2023-05-31",
-		"",
+		"https://media.defense.gov/2023/May/31/2003232961/-1/-1/1/UKRAINE-FACT-SHEET-PDA-39.PDF",
 		"",
 		"",
 		"",
@@ -1028,7 +1032,7 @@
 		"",
 		"",
 		"https://www.defense.gov/News/Tag/215492/StartDate/2023-07-07/EndDate/2023-07-07",
-		"",
+		"https://media.defense.gov/2023/Jul/07/2003255319/-1/-1/1/UKRAINE-FACT-SHEET.PDF",
 		"",
 		"",
 		"",
@@ -1077,7 +1081,7 @@
 		"",
 		"",
 		"",
-		"https://www.defense.gov/News/Tag/215492/StartDate/2023-08-14/EndDate/2023-08-14",
+		"https://www.defense.gov/News/Releases/Release/Article/3491937/biden-administration-announces-additional-security-assistance-for-ukraine/",
 		"https://media.defense.gov/2023/Aug/14/2003280324/-1/-1/1/UKRAINE_FACT_SHEET_PDA%2044_.PDF",
 		"",
 		"",
@@ -1141,8 +1145,7 @@
 		"100",
 		"",
 		"https://www.defense.gov/News/Releases/Release/Article/3518903/biden-administration-announces-additional-security-assistance-for-ukraine/",
-		"https://media.defense.gov/2023/Sep/07/2003296114/-1/-1/0/UKRAINE-FACT-SHEET.PDF",
-		"https://www.state.gov/secretary-blinkens-travel-to-ukraine-2/"
+		"https://media.defense.gov/2023/Sep/07/2003296114/-1/-1/0/UKRAINE-FACT-SHEET.PDF"
 	],
 	[
 		"2023-09-21",
@@ -1152,7 +1155,7 @@
 		"",
 		"https://www.defense.gov/News/Releases/Release/Article/3534283/biden-administration-announces-additional-security-assistance-for-ukraine/",
 		"https://media.defense.gov/2023/Sep/21/2003306164/-1/-1/0/Ukraine-Fact-Sheet.PDF",
-		"",
+		"https://www.state.gov/secretary-blinkens-travel-to-ukraine-2/",
 		"",
 		"",
 		"",
@@ -1227,5 +1230,36 @@
 		"",
 		"125",
 		"125"
+	],
+	[
+		"2023-11-20",
+		"100",
+		"",
+		"",
+		"",
+		"https://www.defense.gov/News/Releases/Release/Article/3594318/biden-administration-announces-new-security-assistance-for-ukraine/",
+		"https://media.defense.gov/2023/Nov/20/2003344157/-1/-1/1/202311017_UKRAINE_FACT_SHEET_PDA_51.PDF"
+	],
+	[],
+	[
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"100",
+		"100"
 	]
 ]

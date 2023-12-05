@@ -1,1 +1,1 @@
-yarn deploy:stage
+pnpm deploy:stage

@@ -1,6 +1,9 @@
 import { defineConfig } from 'vite'
 import rakkas from 'rakkasjs/vite-plugin'
-import tsconfigPaths from 'vite-tsconfig-paths'
+import unocss from 'unocss/vite'
+import { presetUno, transformerDirectives } from 'unocss'
+import { presetDaisy } from 'unocss-preset-daisy'
+import { presetIcons } from '@unocss/preset-icons'
 
 const viteEnv = {}
 Object.entries(process.env).forEach(([key, val]) => {
@@ -12,7 +15,23 @@ Object.entries(process.env).forEach(([key, val]) => {
 
 export default defineConfig({
 	plugins: [
-		tsconfigPaths(),
+		unocss({
+			transformers: [
+				transformerDirectives(),
+			],
+			presets: [
+				presetUno(),
+				presetDaisy({
+					themes: ["light"],
+				}),
+				presetIcons({
+					prefix: 'i-',
+					extraProperties: {
+						display: 'inline-block'
+					}
+				}),
+			],
+		}),
 		rakkas({
 			adapter: 'cloudflare-workers',
 		}),

@@ -18,7 +18,7 @@ export default function PdaChart() {
 	const description = text('pda.description')
 	return (
 		<Section {...{ title, subtitle, description }} >
-			<Vega id="pda" spec={spec} className={style.chart} />
+			<Vega spec={spec} className={style.chart} />
 		</Section>
 	)
 }
