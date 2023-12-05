@@ -1,9 +1,10 @@
-import { Link, ClientOnly } from 'rakkasjs'
+import { ClientOnly } from 'rakkasjs'
 
 import style from './style.module.scss'
 import { useApp } from 'src/tools/app'
 import { useLanguage, useText } from 'src/tools/language'
 import { useCountry } from 'src/tools/country'
+import { Link } from 'src/components/Link'
 import Container from 'src/components/Container'
 import WeaponsBalance from 'src/components/WeaponsBalance'
 import WeaponsIncome from 'src/components/WeaponsIncome'

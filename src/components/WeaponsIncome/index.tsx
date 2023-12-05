@@ -1,5 +1,4 @@
 import { useState, Fragment } from 'react'
-import { Link } from 'rakkasjs'
 import US from 'country-flag-icons/react/1x1/US'
 import PL from 'country-flag-icons/react/1x1/PL'
 import CA from 'country-flag-icons/react/1x1/CA'
@@ -33,7 +32,7 @@ export default function WeaponsIncome() {
             {text('income.subtitle', { from, till })}
         </div>
         <div className={style.nav}>
-            <Link
+            <a
                 className={style.navLink}
                 {...prev && {
                     href: `#`,
@@ -41,11 +40,11 @@ export default function WeaponsIncome() {
                 }}
             >
                 {'← '}
-            </Link>
+            </a>
             <span className={style.period}>
                 {text('income.timespan')}
             </span>
-            <Link
+            <a
                 className={style.navLink}
                 {...next && {
                     href: `#`,
@@ -53,7 +52,7 @@ export default function WeaponsIncome() {
                 }}
             >
                 {' →'}
-            </Link>
+            </a>
         </div>
     </>
 

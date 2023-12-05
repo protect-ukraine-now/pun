@@ -39,20 +39,20 @@ const config = {
 
 const MainLayout: Layout = ({ children, url }) => {
 	// console.log('Layout', url?.pathname)
-	const language = useLanguage()
+	const lang = useLanguage()
 	const text = useText()
 	const { header, footer } = config[useApp()]
 
 	return <>
-		<Head prioritizeSeoTags>
-			<html lang={language} />
-			<title lang="en">{text('seo.title')}</title>
-			<meta property="description" content={text('seo.description')} />
-
+		<Head
+			prioritizeSeoTags
+			htmlAttributes={{ lang }}
+		>
+			<html lang={lang} />
+			<title>{text('seo.title')}</title>
+			<meta name="description" property="og:description" content={text('seo.description')} />
 			<meta property="og:title" content={text('seo.title')} />
-			<meta property="og:description" content={text('seo.description')} />
 			<meta property="og:image" content={text('seo.image')} />
-
 			<meta name="twitter:card" content="summary_large_image" />
 
 			<meta charSet="utf-8" />
