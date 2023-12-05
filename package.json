@@ -41,6 +41,7 @@
 		"sass": "^1.69.5",
 		"unocss": "^0.58.0",
 		"unocss-preset-daisy": "^7.0.0",
+		"vega": "^5.26.1",
 		"vega-lite": "^5.16.3",
 		"vite": "4"
 	},

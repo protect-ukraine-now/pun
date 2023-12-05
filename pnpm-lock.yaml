@@ -65,6 +65,9 @@ dependencies:
   unocss-preset-daisy:
     specifier: ^7.0.0
     version: 7.0.0(daisyui@3.9.4)(unocss@0.58.0)
+  vega:
+    specifier: ^5.26.1
+    version: 5.26.1
   vega-lite:
     specifier: ^5.16.3
     version: 5.16.3(vega@5.26.1)

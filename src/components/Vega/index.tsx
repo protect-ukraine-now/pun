@@ -1,32 +1,22 @@
-import { useState, useEffect } from 'react'
-import { ClientOnly } from 'rakkasjs'
-import AppendHead from 'react-append-head'
+import { useEffect } from 'react'
 import { clsx } from 'clsx'
+import { View, parse } from 'vega'
 
 import style from './style.module.scss'
 
 export default function Vega({ id, spec, className }) {
-	const [loaded, setLoaded] = useState(false)
 	useEffect(() => {
-		if (!loaded) return
-		try {
-			window.vegaEmbed(`#${id}`, spec, { actions: false })
-			.catch(console.error)
-		} catch(e) {
-			console.error(e)
-		}
-	}, [loaded, id, spec])
+		const view = new View(parse(spec), {
+			renderer: 'canvas',  // renderer (canvas or svg)
+			container: `#${id}`,   // parent DOM container
+			hover: true       // enable hover processing
+		})
+		view.runAsync()
+	}, [id, spec])
 	return (
-		<ClientOnly fallback="">
-			<AppendHead onLoad={() => setLoaded(true)}>
-				<script order="1" name="vega" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
-				{/* <script order="2" name="vega-lite" src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script> */}
-				<script order="3" name="vega-embed" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-			</AppendHead>
-			<div className={clsx(style.container, className)}>
-				<div id={id} className={style.chart} />
-			</div>
-		</ClientOnly>
+		<div className={clsx(style.container, className)}>
+			<div id={id} className={style.chart} />
+		</div>
 	)
 }
 
