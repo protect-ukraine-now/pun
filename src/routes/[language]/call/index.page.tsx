@@ -1,4 +1,5 @@
 import cn from 'clsx'
+import { indexBy } from 'rambda'
 import { useSubmit, PageProps, ActionContext } from 'rakkasjs'
 import Markdown from 'markdown-to-jsx'
 
@@ -6,9 +7,20 @@ import { useText } from 'src/tools/language'
 import Article from 'src/components/Article'
 import Container from 'src/components/Container'
 import style from './style.module.scss'
+import members from 'src/data/members.json'
 
 const API_URL = 'https://content-civicinfo.googleapis.com/civicinfo/v2/'
 const API_KEY = 'AIzaSyCSvWsU49SRTe5oeWTdBCNVDYSl9drIsIw'
+
+const congressmen = indexBy(({ first_name, middle_name, last_name, suffix }) =>
+	[first_name, middle_name, last_name, suffix]
+	.filter(x => x)
+	.join(' ')
+, members.members)
+
+if (typeof window !== 'undefined') {
+	window.congressmen = congressmen
+}
 
 export async function action(ctx: ActionContext) {
 	let formData = await ctx.requestContext.request.formData()
@@ -50,6 +62,12 @@ export async function action(ctx: ActionContext) {
 				}
 			})
 			official.links = links
+
+			official.committees = (
+				congressmen[official.name]?.committees
+				.map(({ name }) => name)
+			)
+
 			// delete official.urls
 			// delete official.channels
 			delete official.address
@@ -168,6 +186,9 @@ export default function Congress({ actionData }: PageProps) {
 								<div>{o.office}</div>
 								<div>{o.division}</div>
 								<div>{o.party}</div>
+								{o.committees?.map((name, i) =>
+									<div key={i}>{name}</div>
+								)}
 								{o.phones?.map((p, i) =>
 									<a
 										className="text-lg block"
