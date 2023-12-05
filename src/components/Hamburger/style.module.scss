@@ -1,121 +1,121 @@
 @import 'src/style/mixins';
 
 .container {
-  transition: all 0.25s ease;
-  align-self: center;
+	transition: all 0.25s ease;
+	align-self: center;
 
-  &.isOpen {
-    .trigger {
-      height: 32px;
-      z-index: 11;
-      opacity: 1;
+	&.isOpen {
+		.trigger {
+			height: 32px;
+			z-index: 11;
+			opacity: 1;
 
-      span {
-        transform: scaleX(0);
-      }
+			span {
+				transform: scaleX(0);
+			}
 
-      &:before, &:after {
-        top: 50%;
-        background: #000;
-      }
+			&:before, &:after {
+				top: 50%;
+				background: #000;
+			}
 
-      &:before {
-        transform: translateY(-50%) rotate(45deg);
-      }
+			&:before {
+				transform: translateY(-50%) rotate(45deg);
+			}
 
-      &:after {
-        bottom: 0;
-        transform: translateY(-50%) rotate(-45deg);
-      }
-    }
+			&:after {
+				bottom: 0;
+				transform: translateY(-50%) rotate(-45deg);
+			}
+		}
 
-    .menus {
-      transform: scaleX(1);
-    }
-  }
+		.menus {
+			transform: scaleX(1);
+		}
+	}
 }
 
 .trigger {
-  @include reset-button-style;
+	@include reset-button-style;
 
-  width: 32px;
-  height: 14px;
-  position: relative;
-  cursor: pointer;
-  opacity: 0.7;
-  transition: all 0.25s ease;
+	width: 32px;
+	height: 14px;
+	position: relative;
+	cursor: pointer;
+	opacity: 0.7;
+	transition: all 0.25s ease;
 
-  &:hover {
-    opacity: 1;
-  }
+	&:hover {
+		opacity: 1;
+	}
 
-  &:before, &:after, span {
-    content: '';
-    position: absolute;
-    height: 2px;
-    background: #fff;
-    right: 0;
-    transition: transform 0.25s ease, top 0.15s ease, background-color 0.25s ease;
-  }
+	&:before, &:after, span {
+		content: '';
+		position: absolute;
+		height: 2px;
+		background: #fff;
+		right: 0;
+		transition: transform 0.25s ease, top 0.15s ease, background-color 0.25s ease;
+	}
 
-  &:before, &:after {
-    width: 100%;
-    transform-origin: center center;
-  }
+	&:before, &:after {
+		width: 100%;
+		transform-origin: center center;
+	}
 
-  &:before {
-    top: 0;
-  }
+	&:before {
+		top: 0;
+	}
 
-  &:after {
-    top: 50%;
-    transform: translateY(-50%);
-  }
+	&:after {
+		top: 50%;
+		transform: translateY(-50%);
+	}
 
-  span {
-    bottom: 0;
-    width: 55%;
-    transform-origin: right center;
-  }
+	span {
+		bottom: 0;
+		width: 55%;
+		transform-origin: right center;
+	}
 }
 
 .menus {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 10;
-  background: #fff;
-  padding: 148px 30px 65px;
-  display: flex;
-  flex-flow: column;
-  justify-content: space-between;
-  align-items: stretch;
-  transform-origin: left center;
-  transition: transform 0.4s ease;
-  transform: scaleX(0);
-  perspective: 400px;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 10;
+	background: #fff;
+	padding: 148px 30px 65px;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+	align-items: stretch;
+	transform-origin: left center;
+	transition: transform 0.4s ease;
+	transform: scaleX(0);
+	perspective: 400px;
 }
 
 .nav {
-  flex-flow: column;
-  align-self: flex-start;
+	flex-flow: column;
+	align-self: flex-start;
 
-  .link {
-    font-size: 16px;
+	.link {
+		font-size: 16px;
 
-    &:not(:first-child) {
-      margin-left: 0;
-      margin-top: 16px;
+		&:not(:first-child) {
+			margin-left: 0;
+			margin-top: 16px;
 
-      &:before {
-        content: none;
-      }
-    }
-  }
+			&:before {
+				content: none;
+			}
+		}
+	}
 }
 
 .i18n {
-  align-self: flex-start;
+	align-self: flex-start;
 }

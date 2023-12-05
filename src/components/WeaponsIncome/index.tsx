@@ -55,9 +55,9 @@ export default function WeaponsIncome() {
     let head = [
         <span className={cn(style.countryFlag, 'i-circle-flags-us')} title={text('country.us')} key="us" />,
         <Fragment key="other">
-            <span className={cn(style.countryFlag, 'i-circle-flags-ca')} title={text('income.rest')} />
+            <span className={cn(style.countryFlag, 'i-circle-flags-no')} title={text('income.rest')} />
             <span className={cn(style.countryFlag, 'i-circle-flags-gb')} title={text('income.rest')} />
-            <span className={cn(style.countryFlag, 'i-circle-flags-pl')} title={text('income.rest')} />
+            <span className={cn(style.countryFlag, 'i-circle-flags-de')} title={text('income.rest')} />
             <span className={style.ellipsis} title={text('income.rest')}>
                 <span className="i-ion-ellipsis-horizontal-circle w-full h-full" />
             </span>
