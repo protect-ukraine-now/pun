@@ -1,5 +1,5 @@
 import cn from 'clsx'
-import { indexBy } from 'rambda'
+import { indexBy, groupBy } from 'rambda'
 import { useSubmit, PageProps, ActionContext } from 'rakkasjs'
 import Markdown from 'markdown-to-jsx'
 
@@ -12,10 +12,12 @@ import members from 'src/data/members.json'
 const API_URL = 'https://content-civicinfo.googleapis.com/civicinfo/v2/'
 const API_KEY = 'AIzaSyCSvWsU49SRTe5oeWTdBCNVDYSl9drIsIw'
 
-const congressmen = indexBy(({ first_name, middle_name, last_name, suffix }) =>
-	[first_name, middle_name, last_name, suffix]
-	.filter(x => x)
-	.join(' ')
+const officialsByName = indexBy(({ first_name, middle_name, last_name, suffix }) =>
+	[first_name, middle_name, last_name, suffix].filter(x => x).join(' ')
+, members.members)
+
+const officialsByDivision = groupBy(({ state, district }) =>
+	[state, district?.replace('At-Large', '')].filter(x => x).join('-')
 , members.members)
 
 export async function action(ctx: ActionContext) {
@@ -41,6 +43,7 @@ export async function action(ctx: ActionContext) {
 			let official = officials[idx]
 			official.office = office.name
 			official.division = divisions[office.divisionId].name
+
 			let { channels = [], urls = [] } = official
 			let links = {}
 			urls.forEach(url => {
@@ -59,10 +62,18 @@ export async function action(ctx: ActionContext) {
 			})
 			official.links = links
 
-			official.committees = (
-				congressmen[official.name]?.committees
-				.map(({ name }) => name)
-			)
+			let o = officialsByName[official.name]
+			if (!o) {
+				try {
+					const { state, cd } = Object.fromEntries(office.divisionId.split('/').map(x => x.split(':')))
+					const id = [state.toUpperCase(), cd].filter(x => x).join('-')
+					o = officialsByDivision[id].find(o => ~official.name.indexOf(o.last_name))
+					if (!o) console.log('NOT FOUND', id)
+				} catch(e) {
+					console.error(e)
+				}
+			}
+			official.committees = o?.committees?.map(({ name }) => name)
 
 			delete official.urls
 			delete official.channels
