@@ -19,6 +19,10 @@ export function useText() {
 			??
 			path(id.split('.'), text[lang])
 			??
+			path(idApp.split('.'), text.en)
+			??
+			path(id.split('.'), text.en)
+			??
 			id
 		)
 		Object.entries(values).forEach(([key, val]) => {

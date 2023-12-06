@@ -122,7 +122,7 @@ export default function Congress({ actionData }: PageProps) {
 			<section className={cn(style.section, style.explanation)}>
 				<Article>
 					<Markdown>
-						{text('call.description')}
+						{text('call.motivation')}
 					</Markdown>
 				</Article>
 			</section>
@@ -192,7 +192,12 @@ export default function Congress({ actionData }: PageProps) {
 								<div>{o.division}</div>
 								<div>{o.party}</div>
 								{o.committees?.map((name, i) =>
-									<div key={i}>{name}</div>
+									<div
+										className={name === 'Committee on Appropriations' ? 'font-bold' : ''}
+										key={i}
+									>
+										{name}
+									</div>
 								)}
 								{o.phones?.map((p, i) =>
 									<a
@@ -224,7 +229,7 @@ export default function Congress({ actionData }: PageProps) {
 			<section className={cn(style.section, style.explanation)}>
 				<Article>
 					<Markdown>
-						{text('call.message')}
+						{text('call.explanation')}
 					</Markdown>
 				</Article>
 			</section>
