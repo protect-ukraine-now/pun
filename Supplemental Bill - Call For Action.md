@@ -50,7 +50,7 @@ Ask your **social media** followers to engage in [#Call4Ukraine](https://twitter
 If you are an Organization, consider using **mailing lists** to reach out to your **members** and **subscribers** with the message.
 
 ### How is that going to affect my 501(c)3 org?
-A 501(c)(3) organization may engage in some lobbying, but too much lobbying activity risks loss of tax-exempt status. [Read more](https://www.irs.gov/charities-non-profits/lobbying). Please talk to an attorney for professional advice.
+A 501(c)(3) organization may engage in some lobbying, but too much lobbying activity risks loss of tax-exempt status ([read more](https://www.irs.gov/charities-non-profits/lobbying)). Please talk to an attorney for professional advice.
 
 ---------------------------------------
 

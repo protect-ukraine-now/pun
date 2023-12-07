@@ -351,7 +351,7 @@
             "update": {
               "x": {"value": 0},
               "y": {"signal": "fontSize"},
-              "text": {"signal": " format(datum.value, '$.2f') + ' B'"},
+              "text": {"signal": " format(datum.value, '$.1f') + ' B'"},
               "align": {"signal": "datum.labels=='left'?'right':'left'"}
             }
           }
