@@ -31,20 +31,22 @@ const CATEGORIES = [
 ]
 
 let commitsByCategory = ({ report = latestReport, filter = null } = {}) => commits.reduce((byCategory, r) => {
-    let [date, country, category, type, qty, fund, link, title] = r
+    let [date, country, category, model, qty, fund, link, title] = r
     qty = +qty || 0
     if (date <= report.till && (!filter || filter(r))) {
-        let values = byCategory[category] || [{}, {}]
-        byCategory[category] = values
+        byCategory[category] ||= [{}, {}]
+        let values = byCategory[category]
         let index = country === 'US' ? 0 : 1
         let x = values[index]
         x.value = (x.value || 0) + qty
         if (date >= report.from) {
             x.delta = (x.delta || 0) + qty
-            if (link) {
-                x.sources = { ...(x.sources || {}), [link]: title }
-            }
+            x.sources = [...(x.sources || []), { country, model, qty, link }]
         }
+        values.details ||= {}
+        values.details[model] ||= {}
+        let details = values.details[model]
+        details[country] = (details[country] || 0) + qty
     }
     return byCategory
 }, {})
@@ -64,8 +66,8 @@ export function incomeReport(report) {
     }))
 }
 
+let byCategory = commitsByCategory() // { filter: x => (x[5] || 'PDA') === 'PDA' }
 export function inventoryReport() {
-    let byCategory = commitsByCategory() // { filter: x => (x[5] || 'PDA') === 'PDA' }
     return balance.map(([category, ru, ua, us]) => ({
         category,
         values: [{ value: us }, byCategory[category][0]],

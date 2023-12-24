@@ -17,7 +17,7 @@ const DataCell = ({ className, value, delta, sources }) => {
 	const sourcesPopup = (
 		isSourcePopupShown ? (
 			<div className={style.popup} ref={popupRef}>
-				{Object.entries(sources).map(([link, title]) => {
+				{sources.map(({ country, model, qty, link }) => {
 					return (
 						<a
 							className={style.source}
@@ -27,7 +27,7 @@ const DataCell = ({ className, value, delta, sources }) => {
 							title={link}
 							rel="noreferrer"
 						>
-							{title || link}
+							{country} +{qty} {model}
 						</a>
 					)
 				})}
