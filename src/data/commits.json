@@ -1,7 +1,7 @@
 [
 	[
 		"2022-04-01",
-		"Czech Republic",
+		"Czechia",
 		"Infantry Fighting Vehicle",
 		"Pbv 501As",
 		"50",
@@ -21,7 +21,7 @@
 	],
 	[
 		"2022-04-05",
-		"Czech Republic",
+		"Czechia",
 		"Infantry Fighting Vehicle",
 		"BVP-1",
 		"5",
@@ -51,7 +51,7 @@
 	],
 	[
 		"2022-04-08",
-		"Czech Republic",
+		"Czechia",
 		"Air Defense System",
 		"Strela-10",
 		"6",
@@ -61,7 +61,7 @@
 	],
 	[
 		"2022-04-13",
-		"Czech Republic",
+		"Czechia",
 		"Self-Propelled Artillery",
 		"ShKH vz. 77 DANA 152mm",
 		"38",
@@ -71,7 +71,7 @@
 	],
 	[
 		"2022-04-13",
-		"Czech Republic",
+		"Czechia",
 		"Multiple Launch Rocket System",
 		"RM-70 122mm",
 		"33",
@@ -231,7 +231,7 @@
 	],
 	[
 		"2022-05-03",
-		"Czech Republic",
+		"Czechia",
 		"Tank",
 		"T-72",
 		"44",
@@ -311,7 +311,7 @@
 	],
 	[
 		"2022-05-23",
-		"Czech Republic",
+		"Czechia",
 		"Helicopter",
 		"Mi-24 attack helicopter",
 		"4",
@@ -2291,7 +2291,7 @@
 	],
 	[
 		"2023-02-24",
-		"Czech Republic",
+		"Czechia",
 		"Tank",
 		"T-72B",
 		"45",
@@ -2631,7 +2631,7 @@
 	],
 	[
 		"2023-05-10",
-		"Czech Republic",
+		"Czechia",
 		"Air Defense System",
 		"2K12 Kub (SA-6 Gainful)",
 		"2",
@@ -3531,7 +3531,7 @@
 	],
 	[
 		"2023-08-17",
-		"Czech Republic",
+		"Czechia",
 		"Helicopter",
 		"Mi-24/V35",
 		"10",
@@ -4435,6 +4435,96 @@
 		"other",
 		"Zetros truck",
 		"8",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-12-14",
+		"Germany",
+		"Other Armored Vehicle",
+		"Bandvagn 206",
+		"9",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-12-14",
+		"Germany",
+		"Air Defense System",
+		"Patriot",
+		"4",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-12-14",
+		"Germany",
+		"Artillery rounds",
+		"155mm",
+		"7390",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-12-14",
+		"Germany",
+		"other",
+		"mobile, remote controlled and protected mine clearing systems",
+		"3",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-12-14",
+		"Germany",
+		"other",
+		"drone detection systems",
+		"14",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-12-14",
+		"Germany",
+		"other",
+		"Zetros truck",
+		"8",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-12-14",
+		"Germany",
+		"other",
+		"semi-trailers",
+		"4",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-12-14",
+		"Germany",
+		"other",
+		"vehicles (trucks, minibuses, all-terrain vehicles) ",
+		"4",
+		"",
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
+		"Military support for Ukraine"
+	],
+	[
+		"2023-12-14",
+		"Germany",
+		"other",
+		"40mm ammunition",
+		"47040",
 		"",
 		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
 		"Military support for Ukraine"

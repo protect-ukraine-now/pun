@@ -18,6 +18,10 @@ let transformNews = data => data
     .map(([date, en, uk, author, source, status]) => [date, en, uk, source])
     .sort(([a], [b]) => new Date(b) - new Date(a))
 
+let transformCountries = data => Object.fromEntries(
+    data.map(([status, category, country, code]) => [country, code.toLowerCase()])
+)
+
 const API_KEY = 'AIzaSyCX8cPcl4eAd311z9wCZ8xlQCkfmJ5sIpU'
 const spreadsheets = {
     // zccd: {
@@ -51,6 +55,11 @@ const spreadsheets = {
         range: "'Sheet1'",
         transform: indexText,
     },
+    countries: {
+        id: '1Q9aLVoSZ9vTKH0VLnMpFRiY6h0kV6Rcb16R4lP0rUFs',
+        range: "'REF'",
+        transform: transformCountries,
+    }
 }
 
 async function loadSheets() {

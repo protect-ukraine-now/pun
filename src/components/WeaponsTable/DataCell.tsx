@@ -3,6 +3,7 @@ import cn from 'clsx'
 
 import style from './style.module.scss'
 import useClickOutside from 'src/tools/useClickOutside'
+import countries from 'src/data/countries.json'
 
 const DataCell = ({ className, value, delta, sources }) => {
 	const [isSourcePopupShown, setIsSourcePopupShown] = useState(false)
@@ -17,17 +18,17 @@ const DataCell = ({ className, value, delta, sources }) => {
 	const sourcesPopup = (
 		isSourcePopupShown ? (
 			<div className={style.popup} ref={popupRef}>
-				{sources.map(({ country, model, qty, link }) => {
+				{sources.map(({ country, model, qty, link }, i) => {
 					return (
 						<a
 							className={style.source}
 							href={link}
-							key={link}
+							key={i}
 							target="_blank"
-							title={link}
 							rel="noreferrer"
 						>
-							{country} +{qty} {model}
+							<span className={`i-circle-flags-${countries[country]} text-xl align-text-bottom`} />
+							{' '}<b className="font-bold">+{qty}</b> {model}
 						</a>
 					)
 				})}

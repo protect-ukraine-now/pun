@@ -20,7 +20,6 @@ export default function Report() {
 	const text = useText()
 	const country = useCountry()
 	const app = useApp()
-
 	return (
 		<>
 			<Container className={style.container}>
