@@ -7,6 +7,34 @@ import { useLanguage, useText } from 'src/tools/language'
 import { formatDate } from 'src/tools/date'
 import WeaponsTable from '../WeaponsTable'
 
+function Details(props) {
+    let { byModel } = props
+    return <>
+        {byModel.map(({ model, byCountry }, i) =>
+            <Fragment key={i}>
+                <div className="py-1">
+                    <a
+                        className="decoration-none"
+                        href={`https://www.google.com/search?q=${model}`}
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        {model}
+                    </a>
+                </div>
+                <div className="col-span-2 py-1">
+                    {byCountry.map(({ country, qty }, i) =>
+                        <Fragment key={i}>
+                            <span className={`i-circle-flags-${country} border-gray border-1 border-solid border-rounded-full`} />
+                            {' '}<span className="pr-2">{qty}</span>
+                        </Fragment>
+                    )}
+                </div>
+            </Fragment>
+        )}
+    </>
+}
+
 export default function WeaponsIncome() {
     const language = useLanguage()
     const text = useText()
@@ -66,5 +94,5 @@ export default function WeaponsIncome() {
 
     let description = text('income.description')
 
-    return <WeaponsTable {...{ title, subtitle, head, data, description }} />
+    return <WeaponsTable {...{ title, subtitle, head, data, description, Details }} />
 }

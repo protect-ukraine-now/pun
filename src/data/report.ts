@@ -1,5 +1,8 @@
+import { assocPath, path } from 'rambda'
+
 import balance from './balance.json'
 import commits from './commits.json'
+import categories from './categories.json'
 import { isoDate, DAY } from '../tools/date'
 
 const first = '2022-07-17'
@@ -17,39 +20,28 @@ export let Report = till => {
 
 export let latestReport = Report(latest)!
 
-const CATEGORIES = [
-    'Towed Artillery',
-    'Self-Propelled Artillery',
-    'Multiple Launch Rocket System',
-    // 'Guided MLRS',
-    'Air Defense System',
-    'Warplane',
-    'Helicopter',
-    'Tank',
-    'Infantry Fighting Vehicle',
-    // 'Other Armored Vehicle',
-]
+let modify = (p, fn, o) => assocPath(p, fn(path(p, o)), o)
 
-let commitsByCategory = ({ report = latestReport, filter = null } = {}) => commits.reduce((byCategory, r) => {
-    let [date, country, category, model, qty, fund, link, title] = r
-    qty = +qty || 0
-    if (date <= report.till && (!filter || filter(r))) {
-        byCategory[category] ||= [{}, {}]
-        let values = byCategory[category]
-        let index = country === 'US' ? 0 : 1
-        let x = values[index]
-        x.value = (x.value || 0) + qty
+let commitsByCategory = ({ report = latestReport, filter = null } = {}) => {
+    let o = commits.reduce((o, r) => {
+        let [date, country, category, model, qty, link] = r
+        if (date > report.till || (filter && !filter(r))) return o
+        let add = x => (x || 0) + (+qty || 0)
+        let idx = country === 'us' ? 0 : 1
+        let values = x => modify([idx, 'value'], add, x || [{}, {}])
+        o = modify([category, 'values'], values, o)
         if (date >= report.from) {
-            x.delta = (x.delta || 0) + qty
-            x.sources = [...(x.sources || []), { country, model, qty, link }]
+            o = modify([category, 'values', idx, 'delta'], add, o)
+            let sources = x => [...(x || []), { country, model, qty, link }]
+            o = modify([category, 'values', idx, 'sources'], sources, o)
         }
-        values.details ||= {}
-        values.details[model] ||= {}
-        let details = values.details[model]
-        details[country] = (details[country] || 0) + qty
-    }
-    return byCategory
-}, {})
+        o = modify([category, 'byModel', model, 'qty'], add, o)
+        o = modify([category, 'byModel', model, 'byCountry', country], add, o)
+        return o
+    }, {})
+    console.log(o)
+    return o
+}
 
 export function balanceReport() {
     return balance.map(([category, ru, ua]) => ({
@@ -60,16 +52,26 @@ export function balanceReport() {
 
 export function incomeReport(report) {
     let byCategory = commitsByCategory({ report })
-    return CATEGORIES.map(category => ({
-        category,
-        values: byCategory[category],
-    }))
+    return categories.map(category => {
+        let cat = byCategory[category]
+        cat.byModel = Object.entries(cat.byModel)
+        .map(([model, val]) => ({ model, ...val }))
+        cat.byModel.sort((a, b) => b.qty - a.qty)
+        .forEach(m => {
+            m.byCountry = Object.entries(m.byCountry).map(([country, qty]) => ({ country, qty }))
+            m.byCountry.sort((a, b) => b.qty - a.qty)
+        })
+        return {
+            category,
+            ...byCategory[category],
+        }
+    })
 }
 
 let byCategory = commitsByCategory() // { filter: x => (x[5] || 'PDA') === 'PDA' }
 export function inventoryReport() {
     return balance.map(([category, ru, ua, us]) => ({
         category,
-        values: [{ value: us }, byCategory[category][0]],
+        values: [{ value: us }, byCategory[category]?.values[0]],
     }))
 }

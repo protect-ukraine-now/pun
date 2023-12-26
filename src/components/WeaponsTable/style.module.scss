@@ -41,6 +41,7 @@
 
 .splitter {
 	display: flex;
+	align-items: flex-start;
 
 	@include max-w(tablet-min) {
 		flex-flow: column;

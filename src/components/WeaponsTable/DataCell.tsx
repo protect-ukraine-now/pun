@@ -27,7 +27,7 @@ const DataCell = ({ className, value, delta, sources }) => {
 							target="_blank"
 							rel="noreferrer"
 						>
-							<span className={`i-circle-flags-${countries[country]} text-xl align-text-bottom`} />
+							<span className={`i-circle-flags-${country} text-xl align-text-bottom`} />
 							{' '}<b className="font-bold">+{qty}</b> {model}
 						</a>
 					)

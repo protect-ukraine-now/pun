@@ -1,4 +1,8 @@
 import fs from 'fs'
+import { indexBy } from 'rambda'
+
+import categories from './categories.json' with { type: "json" }
+import countries from './countries.json' with { type: "json" }
 
 let indexText = text => text.reduce((a, [group, key, en, uk]) => {
     a.en[group] = { ...(a.en[group] || {}), [key]: en }
@@ -6,9 +10,16 @@ let indexText = text => text.reduce((a, [group, key, en, uk]) => {
     return a
 }, { en: {}, uk: {} })
 
+let cats = indexBy(x => x, categories)
 let transformCommits = data => data
-    .filter(([date, status, country, category, type, qty]) => status === 'Approved' && +qty)
-    .map(([date, status, country, category, type, qty, price, amt, fund, notes, link, title]) => [date, country, category, type, qty, fund, link, title])
+    .filter(([date, status, country, category, type, qty]) => (
+        status === 'Approved' &&
+        cats[category] &&
+        +qty
+    ))
+    .map(([date, status, country, category, type, qty, price, amt, fund, notes, link, title]) => (
+        [date, countries[country] || country, category, type, +qty, link]
+    ))
 
 let transformNews = data => data
     .filter(([date, en, uk, author, source, status]) => (

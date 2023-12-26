@@ -29,7 +29,8 @@ export default defineConfig({
 				presetIcons({
 					prefix: 'i-',
 					extraProperties: {
-						display: 'inline-block'
+						display: 'inline-block',
+						'vertical-align': 'text-bottom',
 					}
 				}),
 			],

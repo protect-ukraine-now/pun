@@ -5,7 +5,7 @@ import IconCell from './IconCell'
 import DataCell from './DataCell'
 import Section from '../Section'
 
-const WeaponsTable = ({ title, subtitle, head, data, description }) => {
+const WeaponsTable = ({ title, subtitle, head, data, description, Details }) => {
 	const left = data.slice(0, data.length / 2)
 	const right = data.slice(-data.length / 2)
 
@@ -16,14 +16,20 @@ const WeaponsTable = ({ title, subtitle, head, data, description }) => {
 		</div>
 	)
 
-	const rowsRenderer = ({ category, values }, ix) => (
-		<div className={style.row} key={ix}>
-			<IconCell category={category}/>
-			{values.map((x, i) =>
-				<DataCell className={style.valueCell} {...x} key={i} />
-			)}
-		</div>
-	)
+	const rowsRenderer = (row, ix) => {
+		let { category, values } = row
+		return <>
+			<div className={style.row} key={ix}>
+				<IconCell category={category}/>
+				{values.map((x, i) =>
+					<DataCell className={style.valueCell} {...x} key={i} />
+				)}
+				{Details &&
+					<Details {...row} />
+				}
+			</div>
+		</>
+	}
 
 	const renderTableLayout = (tableData, ix) => (
 		<div className={style.table} key={ix}>

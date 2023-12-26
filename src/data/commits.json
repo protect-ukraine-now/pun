@@ -1,4532 +1,1330 @@
 [
 	[
 		"2022-04-01",
-		"Czechia",
+		"cz",
 		"Infantry Fighting Vehicle",
-		"Pbv 501As",
-		"50",
-		"",
-		"What Heavy Weapons the West Has (and Hasn’t) Sent Ukraine - New Lines Institute",
-		"Newlines Institute: What Heavy Weapons the West Has (and Hasn’t) Sent Ukraine"
+		"BMP-1",
+		50,
+		"https://newlinesinstitute.org/ukraine/what-heavy-weapons-the-west-has-and-hasnt-sent-ukraine/"
 	],
 	[
 		"2022-04-05",
-		"Estonia",
+		"ee",
 		"Towed Artillery",
-		"D-30 122mm howitzer",
-		"9",
-		"",
-		"https://mil.in.ua/en/news/officially-estonia-has-sent-122-mm-howitzers-to-ukraine/",
-		"Officially: Estonia has sent 122-mm howitzers to Ukraine"
+		"D-30 122mm",
+		9,
+		"https://mil.in.ua/en/news/officially-estonia-has-sent-122-mm-howitzers-to-ukraine/"
 	],
 	[
 		"2022-04-05",
-		"Czechia",
+		"cz",
 		"Infantry Fighting Vehicle",
-		"BVP-1",
-		"5",
-		"",
-		"🇺🇦 Ukraine Weapons Tracker on Twitter: \"#Ukraine: In some significant news, it appears that the Czech Republic is supplying \"dozens\" of T-72M1 tanks & BVP-1 IFV to the UA forces. Whilst the T-72M1 is rather old (slightly altered T-72A1), & so are the BVP-1 (BMP-1 with very minor changes), they would still be of use. https://t.co/tUMEP3fBuE\" / Twitter",
-		""
+		"BMP-1",
+		5,
+		"https://twitter.com/UAWeapons/status/1511400930364825605"
 	],
 	[
 		"2022-04-08",
-		"Slovakia",
+		"sk",
 		"Air Defense System",
 		"S-300PMU",
-		"2",
-		"",
-		"What Heavy Weapons the West Has (and Hasn’t) Sent Ukraine - New Lines Institute",
-		null
+		2,
+		"https://newlinesinstitute.org/ukraine/what-heavy-weapons-the-west-has-and-hasnt-sent-ukraine/"
 	],
 	[
 		"2022-04-08",
-		"Australia",
-		"Other Armored Vehicle",
-		"Bushmaster",
-		"20",
-		"",
-		"https://www.minister.defence.gov.au/minister/peter-dutton/statements/australia-gift-20-bushmasters-government-ukraine",
-		null
-	],
-	[
-		"2022-04-08",
-		"Czechia",
+		"cz",
 		"Air Defense System",
 		"Strela-10",
-		"6",
-		"",
-		"https://www.mzv.cz/un.newyork/en/news_events/czechia_sends_hundreds_of_heavy_military.html",
-		"Czechia sends hundreds of heavy military systems worth tens of billions to Ukraine during the first year of Russian invasion"
+		6,
+		"https://www.mzv.cz/un.newyork/en/news_events/czechia_sends_hundreds_of_heavy_military.html"
 	],
 	[
 		"2022-04-13",
-		"Czechia",
+		"cz",
 		"Self-Propelled Artillery",
 		"ShKH vz. 77 DANA 152mm",
-		"38",
-		"",
-		"Czech Republic Supplies Heavy Weapons to Ukraine (wsj.com)",
-		"Czech Republic Supplies Heavy Weapons to Ukraine"
+		38,
+		"https://www.wsj.com/livecoverage/russia-ukraine-latest-news-2022-04-13/card/czech-republic-supplies-heavy-weapons-to-ukraine-wgT3jSDz1RwRr9JZhzeL"
 	],
 	[
 		"2022-04-13",
-		"Czechia",
+		"cz",
 		"Multiple Launch Rocket System",
-		"RM-70 122mm",
-		"33",
-		"",
-		"Czech Republic Supplies Heavy Weapons to Ukraine (wsj.com)",
-		"Czech Republic Supplies Heavy Weapons to Ukraine"
+		"BM-21 Grad",
+		33,
+		"https://www.wsj.com/livecoverage/russia-ukraine-latest-news-2022-04-13/card/czech-republic-supplies-heavy-weapons-to-ukraine-wgT3jSDz1RwRr9JZhzeL"
 	],
 	[
 		"2022-04-13",
-		"US",
-		"Other Armored Vehicle",
-		"M113",
-		"200",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3073551/fact-sheet-on-us-security-assistance-to-ukraine/",
-		"Fact Sheet on U.S. Security Assistance to Ukraine"
-	],
-	[
-		"2022-04-13",
-		"US",
+		"us",
 		"Towed Artillery",
 		"M777 155mm",
-		"18",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3007664/fact-sheet-on-us-security-assistance-for-ukraine-roll-up-as-of-april-21-2022/",
-		"Fact Sheet on U.S. Security Assistance for Ukraine"
+		18,
+		"https://www.defense.gov/News/Releases/Release/Article/3007664/fact-sheet-on-us-security-assistance-for-ukraine-roll-up-as-of-april-21-2022/"
 	],
 	[
 		"2022-04-13",
-		"US",
+		"us",
 		"Helicopter",
 		"Mi-17",
-		"5",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3007664/fact-sheet-on-us-security-assistance-for-ukraine-roll-up-as-of-april-21-2022/",
-		"Fact Sheet on U.S. Security Assistance for Ukraine"
+		5,
+		"https://www.defense.gov/News/Releases/Release/Article/3007664/fact-sheet-on-us-security-assistance-for-ukraine-roll-up-as-of-april-21-2022/"
 	],
 	[
 		"2022-04-13",
-		"US",
+		"us",
 		"Helicopter",
 		"Mi-17",
-		"11",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3007664/fact-sheet-on-us-security-assistance-for-ukraine-roll-up-as-of-april-21-2022/",
-		"Fact Sheet on U.S. Security Assistance for Ukraine"
-	],
-	[
-		"2022-04-19",
-		"Netherlands",
-		"Other Armored Vehicle",
-		"YPR-765",
-		"8",
-		"",
-		"https://t.me/horevica/4112",
-		"Horevica Telegram Channel"
+		11,
+		"https://www.defense.gov/News/Releases/Release/Article/3007664/fact-sheet-on-us-security-assistance-for-ukraine-roll-up-as-of-april-21-2022/"
 	],
 	[
 		"2022-04-21",
-		"US",
+		"us",
 		"Towed Artillery",
 		"M777 155mm",
-		"72",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3007664/fact-sheet-on-us-security-assistance-for-ukraine-roll-up-as-of-april-21-2022/",
-		"Fact Sheet on U.S. Security Assistance for Ukraine"
+		72,
+		"https://www.defense.gov/News/Releases/Release/Article/3007664/fact-sheet-on-us-security-assistance-for-ukraine-roll-up-as-of-april-21-2022/"
 	],
 	[
 		"2022-04-22",
-		"France",
+		"fr",
 		"Self-Propelled Artillery",
 		"CAESAR 155mm",
-		"12",
-		"",
-		"https://www.ouest-france.fr/europe/france/la-france-va-livrer-des-canons-de-155-mm-a-l-ukraine-d94045ea-c219-11ec-8207-1f0e356db714",
-		"INFO OUEST-FRANCE. Guerre en Ukraine : la France va livrer des canons Caesar aux forces ukrainiennes"
+		12,
+		"https://www.ouest-france.fr/europe/france/la-france-va-livrer-des-canons-de-155-mm-a-l-ukraine-d94045ea-c219-11ec-8207-1f0e356db714"
 	],
 	[
 		"2022-04-25",
-		"Netherlands",
+		"nl",
 		"Self-Propelled Artillery",
 		"PzH2000 155mm",
-		"5",
-		"",
-		"Beyond The Call - Dutch Arms Deliveries To Ukraine - Oryx (oryxspioenkop.com)",
-		"Beyond The Call - Dutch Arms Deliveries To Ukraine"
+		5,
+		"https://www.oryxspioenkop.com/2022/04/beyond-call-dutch-arms-deliveries-to.html"
 	],
 	[
 		"2022-04-25",
-		"Germany",
+		"de",
 		"Air Defense System",
 		"Gepard",
-		"30",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		null
-	],
-	[
-		"2022-04-26",
-		"Canada",
-		"Other Armored Vehicle",
-		"Roshel Senator IMV",
-		"8",
-		"",
-		"https://twitter.com/AnitaAnandMP/status/1518992953515069442?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1518992953515069442%7Ctwgr%5E%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fnv.ua%2Fukr%2Fworld%2Fgeopolitics%2Fviyskova-dopomoga-ukrajini-kanada-peredala-visim-broneavtomobiliv-roshel-50237165.html",
-		"Twitter announcement by Canada Govt. official Anita Anand"
+		30,
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
 	],
 	[
 		"2022-04-27",
-		"Australia",
-		"Towed Artillery",
-		"M-777 155mm Howitzers",
-		"6",
-		"",
-		"Australia to Deliver Six M777 Howitzers to Ukraine (thedefensepost.com)",
-		"Australia to Deliver Six M777 Howitzers to Ukraine"
-	],
-	[
-		"2022-04-29",
-		"Poland",
-		"Self-Propelled Artillery",
-		"2S1 Gvozdika 122mm",
-		"20",
-		"",
-		"https://www.polskieradio.pl/395/7785/Artykul/2948382",
-		"Poland has sent over 200 tanks to Ukraine: IAR"
-	],
-	[
-		"2022-04-29",
-		"Poland",
-		"Multiple Launch Rocket System",
-		"BM-21 Grad 122mm",
-		"20",
-		"",
-		"https://www.polskieradio.pl/395/7785/Artykul/2948382",
-		"Poland has sent over 200 tanks to Ukraine: IAR"
-	],
-	[
-		"2022-04-29",
-		"Poland",
-		"Tank",
-		"T-72 and T-72M1",
-		"240",
-		"",
-		"https://www.polskieradio.pl/395/7785/Artykul/2948382",
-		"Poland has sent over 200 tanks to Ukraine: IAR"
-	],
-	[
-		"2022-04-29",
-		"Denmark",
-		"Other Armored Vehicle",
-		"M113G3DK/G4DKs",
-		"54",
-		"",
-		"https://www.armyrecognition.com/defense_news_april_2022_global_security_army_industry/denmark_approves_delivery_of_m113_tracked_armored_vehicles_and_ammunition_to_ukraine.html",
-		"Denmark approves delivery of M113 tracked armored vehicles and ammunition to Ukraine"
-	],
-	[
-		"2022-05-03",
-		"Czechia",
-		"Tank",
-		"T-72",
-		"44",
-		"",
-		"What Heavy Weapons the West Has (and Hasn’t) Sent Ukraine - New Lines Institute",
-		"Czech Republic sends tanks, infantry fighting vehicles to Ukraine"
-	],
-	[
-		"2022-05-03",
-		"Germany",
-		"Self-Propelled Artillery",
-		"PzH2000 155mm",
-		"7",
-		"",
-		"Waffenlieferungen: Bundesregierung will Panzerhaubitzen 2000 an die Ukraine liefern - WELT",
-		"Bundesregierung will Panzerhaubitzen 2000 an die Ukraine liefern"
-	],
-	[
-		"2022-05-08",
-		"Portugal",
-		"Towed Artillery",
-		"M114 155mm",
-		"5",
-		"",
-		"https://sol.sapo.pt/artigo/770506/portugal-vai-ja-enviar-blindados-para-a-ucr-nia",
-		"Portugal vai já enviar blindados para a Ucrânia"
-	],
-	[
-		"2022-05-08",
-		"Portugal",
-		"Other Armored Vehicle",
-		"M113",
-		"15",
-		"",
-		"https://sol.sapo.pt/artigo/770506/portugal-vai-ja-enviar-blindados-para-a-ucr-nia",
-		"Portugal vai já enviar blindados para a Ucrânia"
-	],
-	[
-		"2022-05-17",
-		"Estonia",
-		"Other Armored Vehicle",
-		"Alvis 4s \"Mamba\"",
-		"7",
-		"",
-		"https://t.me/horevica/3281",
-		"Ukrainian Kraken Special Forces Get New Armored Vehicles"
-	],
-	[
-		"2022-05-19",
-		"Australia",
-		"Other Armored Vehicle",
-		"M113AS4s",
-		"14",
-		"",
-		"https://www.australiandefence.com.au/news/m113s-and-more-bushmasters-for-ukraine",
-		null
-	],
-	[
-		"2022-05-19",
-		"Australia",
-		"Other Armored Vehicle",
-		"Bushmaster",
-		"20",
-		"",
-		"https://www.australiandefence.com.au/news/m113s-and-more-bushmasters-for-ukraine",
-		null
-	],
-	[
-		"2022-05-19",
-		"US",
+		"au",
 		"Towed Artillery",
 		"M777 155mm",
-		"18",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3037837/100-million-in-additional-security-assistance-for-ukraine/",
-		"$100 Million in Additional Security Assistance for Ukraine"
+		6,
+		"https://www.thedefensepost.com/2022/04/27/australia-m777-howitzers-ukraine/"
+	],
+	[
+		"2022-04-29",
+		"pl",
+		"Self-Propelled Artillery",
+		"2S1 Gvozdika 122mm",
+		20,
+		"https://www.polskieradio.pl/395/7785/Artykul/2948382"
+	],
+	[
+		"2022-04-29",
+		"pl",
+		"Multiple Launch Rocket System",
+		"BM-21 Grad",
+		20,
+		"https://www.polskieradio.pl/395/7785/Artykul/2948382"
+	],
+	[
+		"2022-04-29",
+		"pl",
+		"Tank",
+		"T-72",
+		240,
+		"https://www.polskieradio.pl/395/7785/Artykul/2948382"
+	],
+	[
+		"2022-05-03",
+		"cz",
+		"Tank",
+		"T-72",
+		44,
+		"https://newlinesinstitute.org/ukraine/what-heavy-weapons-the-west-has-and-hasnt-sent-ukraine/"
+	],
+	[
+		"2022-05-03",
+		"de",
+		"Self-Propelled Artillery",
+		"PzH2000 155mm",
+		7,
+		"https://www.welt.de/politik/deutschland/article238522185/Waffenlieferungen-Bundesregierung-will-Panzerhaubitzen-2000-an-die-Ukraine-liefern.html"
+	],
+	[
+		"2022-05-08",
+		"pt",
+		"Towed Artillery",
+		"M114 155mm",
+		5,
+		"https://sol.sapo.pt/artigo/770506/portugal-vai-ja-enviar-blindados-para-a-ucr-nia"
+	],
+	[
+		"2022-05-19",
+		"us",
+		"Towed Artillery",
+		"M777 155mm",
+		18,
+		"https://www.defense.gov/News/Releases/Release/Article/3037837/100-million-in-additional-security-assistance-for-ukraine/"
 	],
 	[
 		"2022-05-23",
-		"Czechia",
+		"cz",
 		"Helicopter",
-		"Mi-24 attack helicopter",
-		"4",
-		"",
-		"https://www.flightglobal.com/helicopters/czech-republic-sending-attack-helicopters-to-ukraine/148770.article",
-		"Flight Global: Czech Republic sending attack helicopters to Ukraine"
-	],
-	[
-		"2022-05-24",
-		"Canada",
-		"Artillery rounds",
-		"155 mm",
-		"27000",
-		"",
-		"https://ottawacitizen.com/news/national/defence-watch/canada-to-buy-98-million-worth-of-ammunition-to-donate-to-ukraine?_gl=1*1tbwsfb*_ga*Mjk2MzU4Mzc1LjE2NzcxNDE0MjQ.*_ga_72QH41ZTMR*MTY3NzE0MTQyMy4xLjEuMTY3NzE0MjQ2MC42MC4wLjA.",
-		"Canada to buy $98 million worth of ammunition to donate to Ukraine"
-	],
-	[
-		"2022-05-25",
-		"Lithuania",
-		"other",
-		"Military truck",
-		"10",
-		"",
-		"https://www.lrt.lt/en/news-in-english/19/1702086/lithuania-to-hand-over-eur15-5-million-worth-of-armoured-vehicles-trucks-suvs-to-ukraine",
-		"Lithuania to hand over €15.5m worth of armoured vehicles, trucks, SUVs to Ukraine"
-	],
-	[
-		"2022-05-25",
-		"Lithuania",
-		"Other Armored Vehicle",
-		"M113",
-		"20",
-		"",
-		"https://defence-blog.com/ukraine-to-get-more-m113-armored-personnel-carriers-from-lithuania/",
-		""
+		"Mi-24",
+		4,
+		"https://www.flightglobal.com/helicopters/czech-republic-sending-attack-helicopters-to-ukraine/148770.article"
 	],
 	[
 		"2022-05-26",
-		"Italy",
+		"it",
 		"Towed Artillery",
-		"FH70 155mm howitzer",
-		"2",
-		"",
-		"https://mil.in.ua/en/news/fh70-howitzers-are-already-working-against-the-russian-invaders-in-ukraine/",
-		"https://t.me/RVvoenkor/14096"
+		"FH70 155mm",
+		2,
+		"https://mil.in.ua/en/news/fh70-howitzers-are-already-working-against-the-russian-invaders-in-ukraine/"
 	],
 	[
 		"2022-05-27",
-		"Canada",
+		"ca",
 		"Towed Artillery",
-		"M-777 155mm Howitzers",
-		"4",
-		"",
-		"https://www.canada.ca/en/department-national-defence/news/2022/04/canada-announces-artillery-and-other-additional-military-aid-for-ukraine.html",
-		"Canada announces artillery and other additional military aid for Ukraine"
+		"M777 155mm",
+		4,
+		"https://www.canada.ca/en/department-national-defence/news/2022/04/canada-announces-artillery-and-other-additional-military-aid-for-ukraine.html"
 	],
 	[
 		"2022-05-29",
-		"Poland",
+		"pl",
 		"Self-Propelled Artillery",
 		"AHS Krab 155mm",
-		"18",
-		"",
-		"https://polskieradio24.pl/5/1222/Artykul/2968446,Polskie-armatohaubice-KRAB-trafily-do-ukrainskiej-armii?utm_source=polskieradio.pl&utm_medium=mozaika&utm_campaign=mozaika",
-		"Poland will hand over the 155-mm Krab AHS self-propelled howitzers to Ukraine"
+		18,
+		"https://polskieradio24.pl/5/1222/Artykul/2968446,Polskie-armatohaubice-KRAB-trafily-do-ukrainskiej-armii?utm_source=polskieradio.pl&utm_medium=mozaika&utm_campaign=mozaika"
 	],
 	[
 		"2022-05-30",
-		"Slovakia",
+		"sk",
 		"Self-Propelled Artillery",
-		"SpGH Zuzana 155mm",
-		"8",
-		"",
-		"https://www.reuters.com/world/europe/slovakia-deliver-eight-zuzana-2-howitzers-ukraine-says-ministry-2022-06-02/",
-		"Slovakia to deliver eight Zuzana 2 howitzers to Ukraine"
+		"ShKH Zuzana 155mm",
+		8,
+		"https://www.reuters.com/world/europe/slovakia-deliver-eight-zuzana-2-howitzers-ukraine-says-ministry-2022-06-02/"
 	],
 	[
 		"2022-06-01",
-		"US",
+		"us",
 		"Multiple Launch Rocket System",
 		"M142 HIMARS",
-		"8",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3073551/fact-sheet-on-us-security-assistance-to-ukraine/",
-		"Fact Sheet on U.S. Security Assistance to Ukraine"
+		8,
+		"https://www.defense.gov/News/Releases/Release/Article/3073551/fact-sheet-on-us-security-assistance-to-ukraine/"
 	],
 	[
 		"2022-06-01",
-		"US",
+		"us",
 		"Helicopter",
 		"Mi-17",
-		"4",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3073551/fact-sheet-on-us-security-assistance-to-ukraine/",
-		"Fact Sheet on U.S. Security Assistance to Ukraine"
+		4,
+		"https://www.defense.gov/News/Releases/Release/Article/3073551/fact-sheet-on-us-security-assistance-to-ukraine/"
 	],
 	[
 		"2022-06-05",
-		"Norway",
+		"no",
 		"Self-Propelled Artillery",
 		"M109 155mm",
-		"21",
-		"",
-		"Norway has donated M109 to Ukraine - regjeringen.no",
-		"Norway has donated M109 to Ukraine"
+		21,
+		"https://www.regjeringen.no/en/aktuelt/norge-har-donert-artilleriskyts-til-ukraina/id2917760/"
 	],
 	[
 		"2022-06-05",
-		"Greece",
+		"gr",
 		"Infantry Fighting Vehicle",
 		"BMP-1",
-		"122",
-		"",
-		"https://mil.in.ua/en/news/greece-disclosed-the-amount-and-types-of-weapons-handed-over-to-ukraine/",
-		"Greece disclosed the amount and types of weapons handed over to Ukraine"
-	],
-	[
-		"2022-06-05",
-		"Spain",
-		"Other Armored Vehicle",
-		"RG-31 Nyala Ambulance",
-		"1",
-		"",
-		"https://www.armyrecognition.com/defense_news_june_2022_global_security_army_industry/spain_approves_delivery_to_ukraine_of_40_leopard_2a4_tanks_and_aspide_missile_systems.html",
-		"Spain approves delivery to Ukraine of 40 Leopard 2A4 tanks and Aspide missile systems"
-	],
-	[
-		"2022-06-06",
-		"UK",
-		"Other Armored Vehicle",
-		"Pinzgauer Vector 6x6",
-		"8",
-		"",
-		"https://armyinform.com.ua/2022/06/07/ukrayinski-vijskovi-otrymaly-brytanski-bronovani-pozashlyahovyky-pinzgauer/",
-		null
+		122,
+		"https://mil.in.ua/en/news/greece-disclosed-the-amount-and-types-of-weapons-handed-over-to-ukraine/"
 	],
 	[
 		"2022-06-15",
-		"Slovakia",
+		"sk",
 		"Helicopter",
 		"Mi-17",
-		"4",
-		"",
-		"https://theaviationgeekclub.com/slovakia-secretly-delivered-four-mil-mi-17-hips-and-one-mil-mi-2-hoplite-to-ukraine/",
-		null
+		4,
+		"https://theaviationgeekclub.com/slovakia-secretly-delivered-four-mil-mi-17-hips-and-one-mil-mi-2-hoplite-to-ukraine/"
 	],
 	[
 		"2022-06-15",
-		"Germany",
+		"de",
 		"Multiple Launch Rocket System",
-		"M270 MARS 227mm",
-		"3",
-		"",
-		"Ukraine Defense Contact Group: Joint Statement | BMVg.de",
-		"Ukraine Defense Contact Group: Joint Statement"
+		"M270",
+		3,
+		"https://www.bmvg.de/en/news/ukraine-defense-contact-group-joint-statement-5448880"
 	],
 	[
 		"2022-06-15",
-		"Slovakia",
+		"sk",
 		"Helicopter",
 		"Mi-2",
-		"1",
-		"",
-		"https://theaviationgeekclub.com/slovakia-secretly-delivered-four-mil-mi-17-hips-and-one-mil-mi-2-hoplite-to-ukraine/",
-		null
+		1,
+		"https://theaviationgeekclub.com/slovakia-secretly-delivered-four-mil-mi-17-hips-and-one-mil-mi-2-hoplite-to-ukraine/"
 	],
 	[
 		"2022-06-15",
-		"US",
+		"us",
 		"Towed Artillery",
 		"M777 155mm",
-		"18",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3073551/fact-sheet-on-us-security-assistance-to-ukraine/",
-		"Fact Sheet on U.S. Security Assistance to Ukraine"
+		18,
+		"https://www.defense.gov/News/Releases/Release/Article/3073551/fact-sheet-on-us-security-assistance-to-ukraine/"
 	],
 	[
 		"2022-06-16",
-		"France",
+		"fr",
 		"Self-Propelled Artillery",
 		"CAESAR 155mm",
-		"6",
-		"",
-		"https://twitter.com/EmmanuelMacron/status/1542480626560942080",
-		"Twitter @EmmanuelMacron"
+		6,
+		"https://twitter.com/EmmanuelMacron/status/1542480626560942080"
 	],
 	[
 		"2022-06-17",
-		"UK",
+		"gb",
 		"Self-Propelled Artillery",
 		"M109 155mm",
-		"20",
-		"",
-		"https://en.defence-ua.com/news/uk_will_donates_more_than_20_m109_howitzers_to_ukraine-3298.html",
-		"UK will Donates More Than 20 M109 Howitzers to Ukraine"
+		20,
+		"https://en.defence-ua.com/news/uk_will_donates_more_than_20_m109_howitzers_to_ukraine-3298.html"
 	],
 	[
 		"2022-06-23",
-		"Slovenia",
+		"si",
 		"Infantry Fighting Vehicle",
-		"BVP M-80As",
-		"35",
-		"",
-		"https://www.himalayaustralia.com.au/2022/06/23/germany-reveals-full-list-of-military-aid-to-ukraine/",
-		"GERMANY REVEALS FULL LIST OF MILITARY AID TO UKRAINE"
+		"BVP M-80A",
+		35,
+		"https://www.himalayaustralia.com.au/2022/06/23/germany-reveals-full-list-of-military-aid-to-ukraine/"
 	],
 	[
 		"2022-06-24",
-		"US",
-		"Artillery rounds",
-		"105mm",
-		"36000",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3073551/fact-sheet-on-us-security-assistance-to-ukraine/",
-		"Fact Sheet on U.S. Security Assistance to Ukraine"
-	],
-	[
-		"2022-06-24",
-		"US",
-		"Artillery rounds",
-		"155mm",
-		"260000",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3073551/fact-sheet-on-us-security-assistance-to-ukraine/",
-		"Fact Sheet on U.S. Security Assistance to Ukraine"
-	],
-	[
-		"2022-06-24",
-		"US",
-		"Vessel",
-		"Coastal and riverine patrol boats",
-		"18",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3073551/fact-sheet-on-us-security-assistance-to-ukraine/",
-		"Fact Sheet on U.S. Security Assistance to Ukraine"
-	],
-	[
-		"2022-06-24",
-		"US",
-		"other",
-		"Harpoon coastal defense system",
-		"2",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3073551/fact-sheet-on-us-security-assistance-to-ukraine/",
-		"Fact Sheet on U.S. Security Assistance to Ukraine"
-	],
-	[
-		"2022-06-24",
-		"UK",
-		"Other Armored Vehicle",
-		"FV103 Spartan",
-		"35",
-		"",
-		"The Ukrainian armed forces showed British FV103 Spartan armored personnel carriers at the front - Ukraine received a total of 35 such armored personnel carriers | gagadget.com",
-		null
-	],
-	[
-		"2022-06-24",
-		"UK",
-		"Other Armored Vehicle",
-		"CVR(T)",
-		"40",
-		"",
-		"🇺🇦 Ukraine Weapons Tracker on Twitter: \"#Ukraine: The Ukrainian army received British FV103 Spartan armored personnel carriers - they are already used by Ukrainian troops. British officials previously mentioned that Ukraine will get 35 FV103 APCs and 40 vehicles from the CVR(T) family from the UK. https://t.co/Ntp5OzBiVA\" / Twitter",
-		null
-	],
-	[
-		"2022-06-24",
-		"Spain",
-		"Other Armored Vehicle",
-		"URO VAMTAC",
-		"20",
-		"",
-		"Spain supplies Ukraine with 20 URO VAMTAC 4x4 light armored vehicles | Defense News May 2022 Global Security army industry | Defense Security global news industry army year 2022 | Archive News year (armyrecognition.com)",
-		null
-	],
-	[
-		"2022-06-24",
-		"Poland",
+		"pl",
 		"Infantry Fighting Vehicle",
-		"BWP-1",
-		"42",
-		"",
-		"https://twitter.com/UAWeapons/status/1549451122804391938",
-		"Polski BWP-1 na Ukrainie"
+		"BMP-1",
+		42,
+		"https://twitter.com/UAWeapons/status/1549451122804391938"
 	],
 	[
 		"2022-06-24",
-		"Bulgaria",
+		"bg",
 		"Warplane",
 		"Su-25",
-		"14",
-		"",
-		"It seems that Ukraine received Su-25 aircraft. In a very unusual way",
-		""
+		14,
+		"https://mezha.media/en/2022/05/26/it-seems-that-ukraine-received-su-25-aircraft-in-a-very-unusual-way/"
 	],
 	[
 		"2022-06-24",
-		"France",
+		"fr",
 		"Towed Artillery",
 		"TRF1 155mm",
-		"15",
-		"",
-		"https://www.lepoint.fr/monde/guerre-en-ukraine-macron-annonce-l-envoi-de-canons-caesar-12-10-2022-2493567_24.php",
-		"War in Ukraine: Macron announces the dispatch of Caesar guns"
+		15,
+		"https://www.lepoint.fr/monde/guerre-en-ukraine-macron-annonce-l-envoi-de-canons-caesar-12-10-2022-2493567_24.php"
 	],
 	[
 		"2022-06-24",
-		"Germany",
+		"de",
 		"Air Defense System",
 		"IRIS-T",
-		"3",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Germany provides support for Ukraine"
+		3,
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
 	],
 	[
 		"2022-06-28",
-		"France",
-		"Other Armored Vehicle",
-		"VAB",
-		"20",
-		"",
-		"https://edition.cnn.com/europe/live-news/russia-ukraine-war-news-06-28-22/h_7ea43ee9673957a79390ce311f31861b",
-		null
-	],
-	[
-		"2022-06-28",
-		"Germany",
+		"de",
 		"Self-Propelled Artillery",
 		"PzH2000 155mm",
-		"3",
-		"",
-		"https://www.dw.com/ru/vojna-ukraina-rossija-28-ijunja-2/a-62290260",
-		"Соединенные Штаты расширят военное присутствие в Европе"
+		3,
+		"https://www.dw.com/ru/vojna-ukraina-rossija-28-ijunja-2/a-62290260"
 	],
 	[
 		"2022-06-28",
-		"Netherlands",
+		"nl",
 		"Self-Propelled Artillery",
 		"PzH2000 155mm",
-		"3",
-		"",
-		null,
+		3,
 		null
 	],
 	[
 		"2022-06-30",
-		"UK",
+		"gb",
 		"Towed Artillery",
 		"L119 105mm",
-		"36",
-		"",
-		"https://www.gov.uk/government/news/uk-to-send-scores-of-artillery-guns-and-hundreds-of-drones-to-ukraine",
-		"A good addition to the M777: Ukrainian gunners will receive 105-mm British howitzers L119"
+		36,
+		"https://www.gov.uk/government/news/uk-to-send-scores-of-artillery-guns-and-hundreds-of-drones-to-ukraine"
 	],
 	[
 		"2022-06-30",
-		"Canada",
-		"other",
-		"L3 Wescam Drone",
-		"6",
-		"",
-		"https://www.canada.ca/en/department-national-defence/campaigns/canadian-military-support-to-ukraine.html",
-		"Canadian military support to Ukraine"
-	],
-	[
-		"2022-06-30",
-		"UK",
+		"gb",
 		"Multiple Launch Rocket System",
-		"M270 MARS 227mm",
-		"3",
-		"",
-		"https://www.bbc.com/news/world-europe-61482305",
-		"What weapons are being given to Ukraine by the UK?"
+		"M270",
+		3,
+		"https://www.bbc.com/news/world-europe-61482305"
 	],
 	[
 		"2022-06-30",
-		"Canada",
+		"ca",
 		"Infantry Fighting Vehicle",
-		"Armoured Combat Support Vehicles (ACSV) LAV 6.0",
-		"39",
-		"",
-		"https://www.canada.ca/en/department-national-defence/campaigns/canadian-military-support-to-ukraine.html",
-		"Canadian government internet page on military support to Ukraine"
-	],
-	[
-		"2022-06-30",
-		"UK",
-		"Other Armored Vehicle",
-		"mix of Mastiff, Wolfhound, Husky",
-		"80",
-		"",
-		"https://www.bbc.com/news/world-europe-61482307",
-		null
+		"LAV 6",
+		39,
+		"https://www.canada.ca/en/department-national-defence/campaigns/canadian-military-support-to-ukraine.html"
 	],
 	[
 		"2022-07-01",
-		"US",
-		"Artillery rounds",
-		"155mm",
-		"150000",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3081993/820-million-in-additional-security-assistance-for-ukraine/",
-		"$820 Million in Additional Security Assistance for Ukraine"
-	],
-	[
-		"2022-07-01",
-		"US",
+		"us",
 		"Air Defense System",
 		"NASAMS",
-		"16",
-		"USAI",
-		"https://www.defense.gov/News/Releases/Release/Article/3081993/820-million-in-additional-security-assistance-for-ukraine/",
-		"$820 Million in Additional Security Assistance for Ukraine"
+		16,
+		"https://www.defense.gov/News/Releases/Release/Article/3081993/820-million-in-additional-security-assistance-for-ukraine/"
 	],
 	[
 		"2022-07-03",
-		"Slovakia",
+		"sk",
 		"Tank",
-		"T-72-M",
-		"2",
-		"",
-		"https://ct24.ceskatelevize.cz/domaci/3512984-zive-hosty-otazek-vaclava-moravce-jsou-predsedove-vlad-ceska-a-slovenska",
-		null
-	],
-	[
-		"2022-07-04",
-		"Australia",
-		"Other Armored Vehicle",
-		"M113AS4s",
-		"14",
-		"",
-		"https://www.pm.gov.au/media/visit-kyiv-and-further-australian-support-ukraine",
-		"VISIT TO KYIV AND FURTHER AUSTRALIAN SUPPORT TO UKRAINE"
-	],
-	[
-		"2022-07-04",
-		"Australia",
-		"Other Armored Vehicle",
-		"Bushmaster",
-		"20",
-		"",
-		"https://www.minister.defence.gov.au/minister/rmarles/media-releases/australia-increases-support-ukraine",
-		"Australia increases support to Ukraine"
+		"T-72",
+		2,
+		"https://ct24.ceskatelevize.cz/domaci/3512984-zive-hosty-otazek-vaclava-moravce-jsou-predsedove-vlad-ceska-a-slovenska"
 	],
 	[
 		"2022-07-08",
-		"US",
-		"Artillery rounds",
-		"155mm",
-		"1000",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3087750/400-million-in-additional-security-assistance-for-ukraine/",
-		"$400 Million in Additional Security Assistance for Ukraine"
-	],
-	[
-		"2022-07-08",
-		"US",
+		"us",
 		"Multiple Launch Rocket System",
 		"M142 HIMARS",
-		"4",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3087750/400-million-in-additional-security-assistance-for-ukraine/",
-		"$400 Million in Additional Security Assistance for Ukraine"
-	],
-	[
-		"2022-07-12",
-		"Germany",
-		"Other Armored Vehicle",
-		"protected vehicles",
-		"30",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Germany provides support for Ukraine"
-	],
-	[
-		"2022-07-12",
-		"Germany",
-		"other",
-		"Strela",
-		"2700",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Germany provides support for Ukraine"
-	],
-	[
-		"2022-07-12",
-		"Germany",
-		"Artillery rounds",
-		"155 mm",
-		"10500",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Germany provides support for Ukraine"
-	],
-	[
-		"2022-07-12",
-		"Germany",
-		"other",
-		"transport vehicles, trucks",
-		"280",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Germany provides support for Ukraine"
-	],
-	[
-		"2022-07-12",
-		"Germany",
-		"Other Armored Vehicle",
-		"Bergepanzer 2",
-		"10",
-		"",
-		"https://www.bundesregierung.de/breg-de/themen/krieg-in-der-ukraine/lieferungen-ukraine-2054514",
-		"Germany provides support for Ukraine"
+		4,
+		"https://www.defense.gov/News/Releases/Release/Article/3087750/400-million-in-additional-security-assistance-for-ukraine/"
 	],
 	[
 		"2022-07-21",
-		"UK",
+		"gb",
 		"Air Defense System",
 		"Stormer",
-		"6",
-		"",
-		"https://www.gov.uk/government/news/uk-to-send-scores-of-artillery-guns-and-hundreds-of-drones-to-ukraine",
-		"UK to send scores of artillery guns and hundreds of drones to Ukraine"
+		6,
+		"https://www.gov.uk/government/news/uk-to-send-scores-of-artillery-guns-and-hundreds-of-drones-to-ukraine"
 	],
 	[
 		"2022-07-22",
-		"US",
+		"us",
 		"Multiple Launch Rocket System",
 		"M142 HIMARS",
-		"4",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3102984/270-million-in-additional-security-assistance-for-ukraine/",
-		"$270 Million in Additional Security Assistance for Ukraine"
-	],
-	[
-		"2022-07-22",
-		"US",
-		"other",
-		"Phoenix Ghost drone",
-		"580",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3102984/270-million-in-additional-security-assistance-for-ukraine/",
-		"$270 Million in Additional Security Assistance for Ukraine"
-	],
-	[
-		"2022-07-28",
-		"Lithuania",
-		"Other Armored Vehicle",
-		"M113",
-		"10",
-		"",
-		"https://www.baltictimes.com/lithuania_won_t_get_tired_supporting_ukraine___nauseda_in_kyiv/",
-		"Lithuania won't get tired supporting Ukraine – Nauseda in Kyiv"
+		4,
+		"https://www.defense.gov/News/Releases/Release/Article/3102984/270-million-in-additional-security-assistance-for-ukraine/"
 	],
 	[
 		"2022-07-29",
-		"North Macedonia",
+		"mk",
 		"Tank",
 		"T-72",
-		"8",
-		"",
-		"https://www.reuters.com/world/europe/nmacedonia-donates-tanks-ukraine-it-modernises-own-military-2022-07-29/",
-		"North Macedonia donates tanks to Ukraine as it modernises own military"
-	],
-	[
-		"2022-07-29",
-		"Norway",
-		"Other Armored Vehicle",
-		"Iveco LAV III",
-		"14",
-		"",
-		"https://norwaytoday.info/news/norway-has-donated-14-armored-patrol-vehicles-to-ukraine/",
-		"Norway has donated 14 armored patrol vehicles to Ukraine"
-	],
-	[
-		"2022-07-29",
-		"Germany",
-		"Other Armored Vehicle",
-		"BEAVER bridge layer tank",
-		"3",
-		"",
-		"https://www.theguardian.com/world/2022/jul/29/germany-bridge-layer-tanks-ukraine-forces-howitzer-sale-authorisation",
-		"Germany lends more support to Ukraine forces with tanks pledge"
-	],
-	[
-		"2022-08-02",
-		"Germany",
-		"Other Armored Vehicle",
-		"HMMWV",
-		"10",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Germany provides support for Ukraine"
+		8,
+		"https://www.reuters.com/world/europe/nmacedonia-donates-tanks-ukraine-it-modernises-own-military-2022-07-29/"
 	],
 	[
 		"2022-08-04",
-		"North Macedonia",
+		"mk",
 		"Warplane",
 		"Su-25",
-		"4",
-		"",
-		"https://mil.in.ua/en/news/ukraine-received-four-su-25-jet-aircraft-from-north-macedonia/",
-		"Ukraine received four Su-25 jet aircraft from North Macedonia"
-	],
-	[
-		"2022-08-05",
-		"Spain",
-		"Other Armored Vehicle",
-		"M113",
-		"20",
-		"",
-		"https://www.armyrecognition.com/defense_news_august_2022_global_security_army_industry/spain_starts_the_process_to_deliver_20_m113_apc_armored_vehicles_to_ukraine.html",
-		"Spain starts the process to deliver 20 M113 APC armored vehicles to Ukraine"
-	],
-	[
-		"2022-08-08",
-		"US",
-		"Other Armored Vehicle",
-		"armored medical treatment vehicles",
-		"50",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3120059/1-billion-in-additional-security-assistance-for-ukraine/",
-		"The United States will send more ammunition to Ukraine, including rockets for the HIMARS launchers"
+		4,
+		"https://mil.in.ua/en/news/ukraine-received-four-su-25-jet-aircraft-from-north-macedonia/"
 	],
 	[
 		"2022-08-10",
-		"Turkey",
-		"Other Armored Vehicle",
-		"Kirpi Armored Vehicle",
-		"200",
-		"",
-		"https://www.ukrinform.net/rubric-ato/3546708-armed-forces-receive-first-batch-of-50-kirpi-armored-vehicles-from-turkey.html",
-		"Armed Forces receive first batch of 50 Kirpi armored vehicles from Turkey"
-	],
-	[
-		"2022-08-10",
-		"UK",
+		"gb",
 		"Multiple Launch Rocket System",
-		"M270 MARS 227mm",
-		"3",
-		"",
-		"https://www.gov.uk/government/news/uk-to-give-more-multiple-launch-rocket-systems-and-guided-missiles-to-ukraine",
-		"UK to give more multiple launch rocket systems and guided missiles to Ukraine"
+		"M270",
+		3,
+		"https://www.gov.uk/government/news/uk-to-give-more-multiple-launch-rocket-systems-and-guided-missiles-to-ukraine"
 	],
 	[
 		"2022-08-13",
-		"Croatia",
+		"hr",
 		"Towed Artillery",
-		"M-46 130 mm",
-		"15",
-		"",
-		"https://www.shephardmedia.com/news/landwarfareintl/croatia-donates-m-46-field-guns-to-ukraine/",
-		"Croatia donates M-46 field guns to Ukraine"
+		"M-46 130mm",
+		15,
+		"https://www.shephardmedia.com/news/landwarfareintl/croatia-donates-m-46-field-guns-to-ukraine/"
 	],
 	[
 		"2022-08-15",
-		"Latvia",
+		"lv",
 		"Helicopter",
 		"Mi-17",
-		"2",
-		"",
-		"https://babel.ua/en/news/82974-latvia-transferred-mi-17-and-mi-2-helicopters-to-ukraine",
-		"Latvia transferred Mi-17 and Mi-2 helicopters to Ukraine"
+		2,
+		"https://babel.ua/en/news/82974-latvia-transferred-mi-17-and-mi-2-helicopters-to-ukraine"
 	],
 	[
 		"2022-08-15",
-		"Latvia",
+		"lv",
 		"Helicopter",
 		"Mi-2",
-		"2",
-		"",
-		"https://babel.ua/en/news/82974-latvia-transferred-mi-17-and-mi-2-helicopters-to-ukraine",
-		"Latvia transferred Mi-17 and Mi-2 helicopters to Ukraine"
+		2,
+		"https://babel.ua/en/news/82974-latvia-transferred-mi-17-and-mi-2-helicopters-to-ukraine"
 	],
 	[
 		"2022-08-16",
-		"Latvia",
+		"lv",
 		"Self-Propelled Artillery",
-		"M109A5Oe",
-		"6",
-		"",
-		"https://www.mod.gov.lv/lv/zinas/latvija-piegada-ukrainai-sesas-pasgajejhaubices-m109a5oe",
-		"Latvija piegādā Ukrainai sešas pašgājējhaubices “M109A5Oe”"
-	],
-	[
-		"2022-08-19",
-		"US",
-		"Other Armored Vehicle",
-		"HMMWV",
-		"50",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3134457/775-million-in-additional-security-assistance-for-ukraine/",
-		"$775 Million in Additional Security Assistance for Ukraine"
-	],
-	[
-		"2022-08-19",
-		"US",
-		"Other Armored Vehicle",
-		"MaxxPro MRAP",
-		"40",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3134457/775-million-in-additional-security-assistance-for-ukraine/",
-		"$775 Million in Additional Security Assistance for Ukraine"
+		"M109 155mm",
+		6,
+		"https://www.mod.gov.lv/lv/zinas/latvija-piegada-ukrainai-sesas-pasgajejhaubices-m109a5oe"
 	],
 	[
 		"2022-08-20",
-		"US",
+		"us",
 		"Towed Artillery",
-		"M119 105mm",
-		"16",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3134457/775-million-in-additional-security-assistance-for-ukraine/",
-		"$775 Million in Additional Security Assistance for Ukraine"
-	],
-	[
-		"2022-08-20",
-		"US",
-		"other",
-		"Sky Eagle drone",
-		"15",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3134457/775-million-in-additional-security-assistance-for-ukraine/",
-		"$775 Million in Additional Security Assistance for Ukraine"
+		"L119 105mm",
+		16,
+		"https://www.defense.gov/News/Releases/Release/Article/3134457/775-million-in-additional-security-assistance-for-ukraine/"
 	],
 	[
 		"2022-08-24",
-		"Slovakia",
+		"sk",
 		"Infantry Fighting Vehicle",
-		"BVP-1",
-		"30",
-		"",
-		"https://www.reuters.com/world/europe/slovakia-donate-30-infantry-fighting-vehicles-ukraine-minister-2022-08-23/",
-		"Slovakia to donate 30 infantry fighting vehicles to Ukraine -minister"
+		"BMP-1",
+		30,
+		"https://www.reuters.com/world/europe/slovakia-donate-30-infantry-fighting-vehicles-ukraine-minister-2022-08-23/"
 	],
 	[
 		"2022-09-05",
-		"Poland",
+		"pl",
 		"Tank",
 		"PT-91 Twardy",
-		"11",
-		"",
-		"https://www.globaldefensecorp.com/2022/09/05/ukraine-receives-pt-91-twardy-tanks-from-poland/",
-		"Ukraine receives PT-91 Twardy tanks from Poland"
-	],
-	[
-		"2022-09-06",
-		"Germany",
-		"other",
-		"COBRA counter-battery radar system",
-		"1",
-		"",
-		"https://www.bundesregierung.de/breg-de/themen/krieg-in-der-ukraine/lieferungen-ukraine-2054514",
-		"Militärische Unterstützungsleistungen für die Ukraine"
+		11,
+		"https://www.globaldefensecorp.com/2022/09/05/ukraine-receives-pt-91-twardy-tanks-from-poland/"
 	],
 	[
 		"2022-09-08",
-		"US",
-		"Other Armored Vehicle",
-		"armored medical treatment vehicles",
-		"50",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3152071/675-million-in-additional-security-assistance-for-ukraine/",
-		"$675 Million in Additional Security Assistance for Ukraine"
-	],
-	[
-		"2022-09-08",
-		"US",
-		"Other Armored Vehicle",
-		"HMMWV",
-		"100",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3152071/675-million-in-additional-security-assistance-for-ukraine/",
-		"$675 Million in Additional Security Assistance for Ukraine"
-	],
-	[
-		"2022-09-08",
-		"US",
+		"us",
 		"Towed Artillery",
-		"M119 105mm",
-		"4",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3152071/675-million-in-additional-security-assistance-for-ukraine/",
-		"$675 Million in Additional Security Assistance for Ukraine"
+		"L119 105mm",
+		4,
+		"https://www.defense.gov/News/Releases/Release/Article/3152071/675-million-in-additional-security-assistance-for-ukraine/"
 	],
 	[
 		"2022-09-15",
-		"Greece",
+		"gr",
 		"Infantry Fighting Vehicle",
 		"BMP-1",
-		"40",
-		"",
-		"https://www.msn.com/en-us/news/world/germany-to-send-rocket-launchers-and-armored-vehicles-to-ukraine/ar-AA11RuSZ",
-		"Greece will soon send 40 infantry fighting vehicles"
+		40,
+		"https://www.msn.com/en-us/news/world/germany-to-send-rocket-launchers-and-armored-vehicles-to-ukraine/ar-AA11RuSZ"
 	],
 	[
 		"2022-09-15",
-		"Germany",
+		"de",
 		"Multiple Launch Rocket System",
-		"M270 MARS II",
-		"2",
-		"",
-		"https://www.msn.com/en-us/news/world/germany-to-send-rocket-launchers-and-armored-vehicles-to-ukraine/ar-AA11RuSZ",
-		"Germany to send rocket launchers and armored vehicles to Ukraine"
-	],
-	[
-		"2022-09-15",
-		"US",
-		"other",
-		"anti-artillery radars",
-		"4",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3160503/600-million-in-additional-security-assistance-for-ukraine/",
-		"$600 Million in Additional Security Assistance for Ukraine"
-	],
-	[
-		"2022-09-15",
-		"Germany",
-		"Other Armored Vehicle",
-		"Dingo Armored Personnel Carriers",
-		"30",
-		"",
-		"https://www.msn.com/en-us/news/world/germany-to-send-rocket-launchers-and-armored-vehicles-to-ukraine/ar-AA11RuSZ",
-		"Germany to send rocket launchers and armored vehicles to Ukraine"
+		"M270",
+		2,
+		"https://www.msn.com/en-us/news/world/germany-to-send-rocket-launchers-and-armored-vehicles-to-ukraine/ar-AA11RuSZ"
 	],
 	[
 		"2022-09-19",
-		"Slovenia",
+		"si",
 		"Tank",
 		"M-55S",
-		"28",
-		"",
-		"https://www.gov.si/en/news/2022-09-19-prime-minister-robert-golob-in-a-telephone-conversation-with-german-chancellor-olaf-scholz-about-current-european-affairs/",
-		"Prime Minister Robert Golob in a telephone conversation with German Chancellor Olaf Scholz about current European affairs"
+		28,
+		"https://www.gov.si/en/news/2022-09-19-prime-minister-robert-golob-in-a-telephone-conversation-with-german-chancellor-olaf-scholz-about-current-european-affairs/"
 	],
 	[
 		"2022-09-19",
-		"Germany",
+		"de",
 		"Self-Propelled Artillery",
 		"PzH2000 155mm",
-		"4",
-		"",
-		"https://mil.in.ua/en/news/germany-will-supply-ukraine-with-an-additional-4-pzh-2000-self-propelled-guns/",
-		"Germany will supply Ukraine with an additional 4 PzH 2000 self-propelled guns"
-	],
-	[
-		"2022-09-27",
-		"Lithuania",
-		"Other Armored Vehicle",
-		"M113",
-		"20",
-		"",
-		"https://www.delfi.lt/ru/news/live/glava-minoborony-litva-postavila-ukraine-50-btr-m113.d?id=91326491",
-		"Minister: Lithuania transferred 50 M113 APCs to Ukraine"
-	],
-	[
-		"2022-09-28",
-		"US",
-		"Other Armored Vehicle",
-		"HMMWV",
-		"150",
-		"USAI",
-		"https://www.defense.gov/News/News-Stories/Article/Article/3173752/latest-us-support-for-ukraine-targets-long-term-security-investment/",
-		"Latest U.S. Support for Ukraine Targets Long-Term Security Investment"
-	],
-	[
-		"2022-09-28",
-		"US",
-		"other",
-		"Multi-mission-radars",
-		"20",
-		"USAI",
-		"https://www.defense.gov/News/News-Stories/Article/Article/3173752/latest-us-support-for-ukraine-targets-long-term-security-investment/",
-		"Latest U.S. Support for Ukraine Targets Long-Term Security Investment"
-	],
-	[
-		"2022-10-03",
-		"France",
-		"Other Armored Vehicle",
-		"ACMAT Bastion",
-		"20",
-		"",
-		"https://www.latribune.fr/entreprises-finance/industrie/aeronautique-defense/la-france-va-fournir-des-vehicules-blindes-bastion-arquus-a-l-ukraine-935022.html",
-		"La France va fournir des véhicules blindés Bastion (Arquus) à l'Ukraine"
+		4,
+		"https://mil.in.ua/en/news/germany-will-supply-ukraine-with-an-additional-4-pzh-2000-self-propelled-guns/"
 	],
 	[
 		"2022-10-04",
-		"US",
+		"us",
 		"Towed Artillery",
-		"M119 105mm",
-		"16",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3179323/625-million-in-additional-security-assistance-for-ukraine/",
-		"$625 Million in Additional Security Assistance for Ukraine"
+		"L119 105mm",
+		16,
+		"https://www.defense.gov/News/Releases/Release/Article/3179323/625-million-in-additional-security-assistance-for-ukraine/"
 	],
 	[
 		"2022-10-04",
-		"US",
+		"us",
 		"Multiple Launch Rocket System",
 		"M142 HIMARS",
-		"4",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3179323/625-million-in-additional-security-assistance-for-ukraine/",
-		"$625 Million in Additional Security Assistance for Ukraine"
+		4,
+		"https://www.defense.gov/News/Releases/Release/Article/3179323/625-million-in-additional-security-assistance-for-ukraine/"
 	],
 	[
 		"2022-10-04",
-		"US",
+		"us",
 		"Towed Artillery",
 		"M777 155mm",
-		"16",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3179323/625-million-in-additional-security-assistance-for-ukraine/",
-		"$625 Million in Additional Security Assistance for Ukraine"
-	],
-	[
-		"2022-10-04",
-		"US",
-		"Other Armored Vehicle",
-		"MaxxPro MRAP",
-		"200",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3179323/625-million-in-additional-security-assistance-for-ukraine/",
-		"$625 Million in Additional Security Assistance for Ukraine"
+		16,
+		"https://www.defense.gov/News/Releases/Release/Article/3179323/625-million-in-additional-security-assistance-for-ukraine/"
 	],
 	[
 		"2022-10-12",
-		"France",
+		"fr",
 		"Self-Propelled Artillery",
 		"CAESAR 155mm",
-		"6",
-		"",
-		"https://www.lepoint.fr/monde/guerre-en-ukraine-macron-annonce-l-envoi-de-canons-caesar-12-10-2022-2493567_24.php",
-		"War in Ukraine: Macron announces the dispatch of Caesar guns"
+		6,
+		"https://www.lepoint.fr/monde/guerre-en-ukraine-macron-annonce-l-envoi-de-canons-caesar-12-10-2022-2493567_24.php"
 	],
 	[
 		"2022-10-12",
-		"France",
+		"fr",
 		"Air Defense System",
 		"Crotale",
-		"2",
-		"",
-		"https://www.france24.com/en/europe/20221012-france-to-supply-air-defence-systems-to-ukraine-after-wave-of-russian-strikes",
-		"France to supply air defence systems to Ukraine after wave of Russian strikes"
+		2,
+		"https://www.france24.com/en/europe/20221012-france-to-supply-air-defence-systems-to-ukraine-after-wave-of-russian-strikes"
 	],
 	[
 		"2022-10-13",
-		"Portugal",
+		"pt",
 		"Helicopter",
-		"Kamov KA-32A11BC",
-		"6",
-		"",
-		"https://www.theportugalnews.com/news/2022-10-13/portugal-to-send-broken-helicopters-to-ukraine/71186",
-		"Portugal to send helicopters to Ukraine"
+		"Ka-32",
+		6,
+		"https://www.theportugalnews.com/news/2022-10-13/portugal-to-send-broken-helicopters-to-ukraine/71186"
 	],
 	[
 		"2022-10-13",
-		"Spain",
+		"es",
 		"Air Defense System",
 		"HAWK",
-		"4",
-		"",
-		"https://www.thelocal.es/20221014/spain-to-send-air-defence-systems-to-ukraine-nato-chief/",
-		"Spain to send air defence systems to Ukraine: Nato chief"
-	],
-	[
-		"2022-10-14",
-		"US",
-		"Other Armored Vehicle",
-		"HMMWV",
-		"200",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3189571/725-million-in-additional-security-assistance-for-ukraine/",
-		"$725 Million in Additional Security Assistance for Ukraine"
-	],
-	[
-		"2022-10-20",
-		"Germany",
-		"other",
-		"Hensoldt TRML-4D",
-		"1",
-		"",
-		"https://www.armyrecognition.com/defense_news_october_2022_global_security_army_industry/hensoldt_delivers_trml-4d_high-performance_air_defence_radars_for_ukraine.html",
-		"Hensoldt delivers TRML-4D high-performance air defence radars for Ukraine"
-	],
-	[
-		"2022-10-23",
-		"US",
-		"Other Armored Vehicle",
-		"MaxxPro MRAP",
-		"200",
-		"PDA",
-		"https://media.defense.gov/2022/Nov/23/2003120409/-1/-1/1/UKRAINE%20FACT%20SHEET%2020221123.PDF",
-		"Ukraine to receive 200 MaxxPro MRAP from the US"
+		4,
+		"https://www.thelocal.es/20221014/spain-to-send-air-defence-systems-to-ukraine-nato-chief/"
 	],
 	[
 		"2022-10-24",
-		"Denmark",
-		"other",
-		"Harpoon coastal defense system",
-		"1",
-		"",
-		"https://www.ceps.eu/ceps-publications/assessing-the-eus-military-assistance-to-ukraine/",
-		"CEPS - EU Military Assistance to Ukraine Report 2022"
-	],
-	[
-		"2022-10-24",
-		"Denmark",
-		"other",
-		"Skywatch drones",
-		"25",
-		"",
-		"https://www.ceps.eu/ceps-publications/assessing-the-eus-military-assistance-to-ukraine/",
-		"CEPS - EU Military Assistance to Ukraine Report 2022"
-	],
-	[
-		"2022-10-24",
-		"Norway",
+		"no",
 		"Self-Propelled Artillery",
 		"M109 155mm",
-		"1",
-		"",
-		"https://www.tv2.no/nyheter/innenriks/pakket-og-sendt-i-all-hemmelighet/15282815/",
-		"Norwegian aid to Ukraine: Packed and sent in secret"
-	],
-	[
-		"2022-10-26",
-		"Australia",
-		"Other Armored Vehicle",
-		"Bushmaster",
-		"30",
-		"",
-		"https://www.theguardian.com/australia-news/2022/oct/26/australian-defence-force-troops-to-train-ukrainian-soldiers-in-the-uk",
-		"Australian defence force troops to train Ukrainian soldiers in the UK"
-	],
-	[
-		"2022-10-28",
-		"US",
-		"Other Armored Vehicle",
-		"HMMWV",
-		"125",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3203509/275-million-in-additional-presidential-drawdown-security-assistance-for-ukraine/",
-		"$275 Million in Additional Presidential Drawdown Security Assistance for Ukraine"
+		1,
+		"https://www.tv2.no/nyheter/innenriks/pakket-og-sendt-i-all-hemmelighet/15282815/"
 	],
 	[
 		"2022-10-29",
-		"Italy",
+		"it",
 		"Multiple Launch Rocket System",
-		"M270 MRLS",
-		"2",
-		"",
-		"https://www.repubblica.it/esteri/2022/10/29/news/ucraina_kiev_armi_italia-372176795/",
-		"Cannoni e mezzi hi tech, ecco le armi date dall’Italia per l’offensiva ucraina"
+		"M270",
+		2,
+		"https://www.repubblica.it/esteri/2022/10/29/news/ucraina_kiev_armi_italia-372176795/"
 	],
 	[
 		"2022-10-29",
-		"Italy",
+		"it",
 		"Self-Propelled Artillery",
 		"PzH2000 155mm",
-		"6",
-		"",
-		"https://www.repubblica.it/esteri/2022/10/29/news/ucraina_kiev_armi_italia-372176795/",
-		"Cannoni e mezzi hi tech, ecco le armi date dall’Italia per l’offensiva ucraina"
+		6,
+		"https://www.repubblica.it/esteri/2022/10/29/news/ucraina_kiev_armi_italia-372176795/"
 	],
 	[
 		"2022-10-29",
-		"Italy",
+		"it",
 		"Self-Propelled Artillery",
-		"M109L155mm",
-		"20",
-		"",
-		"https://www.repubblica.it/esteri/2022/10/29/news/ucraina_kiev_armi_italia-372176795/",
-		"Cannoni e mezzi hi tech, ecco le armi date dall’Italia per l’offensiva ucraina"
-	],
-	[
-		"2022-10-29",
-		"Italy",
-		"Other Armored Vehicle",
-		"M113",
-		"12",
-		"",
-		"https://www.repubblica.it/esteri/2022/10/29/news/ucraina_kiev_armi_italia-372176795/",
-		"Cannoni e mezzi hi tech, ecco le armi date dall’Italia per l’offensiva ucraina"
+		"M109 155mm",
+		20,
+		"https://www.repubblica.it/esteri/2022/10/29/news/ucraina_kiev_armi_italia-372176795/"
 	],
 	[
 		"2022-10-30",
-		"France",
+		"fr",
 		"Air Defense System",
-		"SAMP-T (MAMBA)",
-		"4",
-		"",
-		"https://www.reddit.com/r/UkrainianConflict/comments/yher1x/italy_and_france_will_supply_ukraine_with_sampt/",
-		"Italy and France will supply Ukraine with SAMP-T Air Defense Systems"
-	],
-	[
-		"2022-10-31",
-		"UK",
-		"Other Armored Vehicle",
-		"Armtrac 400",
-		"1",
-		"",
-		"https://www.armyrecognition.com/ukraine_-_russia_conflict_war_2022/ukraine_receives_first_armtrac_400_mine_clearing_vehicle_from_uk.html",
-		"Ukraine receives first Armtrac 400 mine clearing vehicle from UK"
-	],
-	[
-		"2022-11-02",
-		"UK",
-		"Other Armored Vehicle",
-		"FV103 SpartanUK to send scores of artillery guns and hundreds of drones to Ukraine",
-		"50",
-		"",
-		"https://defence-blog.com/influencer-launches-crowdfunding-to-gift-50-armored-vehicles-to-ukraine/",
-		"Influencer launches crowdfunding to gift 50 armored vehicles to Ukraine"
-	],
-	[
-		"2022-11-04",
-		"US",
-		"other",
-		"Phoenix Ghost drone",
-		"1100",
-		"USAI",
-		"https://www.defense.gov/News/News-Stories/Article/Article/3210698/aid-package-to-ukraine-includes-t-72b-tanks/",
-		"Aid Package to Ukraine Includes T-72B Tanks"
+		"SAMP/T",
+		4,
+		"https://www.reddit.com/r/UkrainianConflict/comments/yher1x/italy_and_france_will_supply_ukraine_with_sampt/"
 	],
 	[
 		"2022-11-10",
-		"US",
+		"us",
 		"Air Defense System",
 		"Avenger",
-		"4",
-		"PDA",
-		"https://www.defense.gov/News/News-Stories/Article/Article/3216745/400-million-security-package-headed-to-ukraine/",
-		"$400 Million Security Package Headed to Ukraine"
+		4,
+		"https://www.defense.gov/News/News-Stories/Article/Article/3216745/400-million-security-package-headed-to-ukraine/"
 	],
 	[
 		"2022-11-10",
-		"Spain",
+		"es",
 		"Air Defense System",
 		"HAWK",
-		"2",
-		"",
-		"https://www.usnews.com/news/world/articles/2022-11-10/spain-to-send-two-more-hawk-air-defence-systems-to-ukraine",
-		"Spain to Send Two More HAWK Air Defence Systems to Ukraine"
-	],
-	[
-		"2022-11-10",
-		"US",
-		"Other Armored Vehicle",
-		"HMMWV",
-		"100",
-		"PDA",
-		"https://www.defense.gov/News/News-Stories/Article/Article/3216745/400-million-security-package-headed-to-ukraine/",
-		"$400 Million Security Package Headed to Ukraine"
+		2,
+		"https://www.usnews.com/news/world/articles/2022-11-10/spain-to-send-two-more-hawk-air-defence-systems-to-ukraine"
 	],
 	[
 		"2022-11-16",
-		"Croatia",
+		"hr",
 		"Helicopter",
 		"Mi-8",
-		"14",
-		"",
-		"https://gagadget.com/en/188218-media-croatia-will-hand-over-14-mi-8-helicopters-to-the-ukrainian-armed-forces-and-will-buy-an-additional-batch-of-black-/",
-		"Croatia will hand over 14 Mi-8 helicopters to the Ukrainian Armed Forces and will buy an additional batch of Black Hawks"
-	],
-	[
-		"2022-11-19",
-		"UK",
-		"other",
-		"anti-aircraft guns",
-		"120",
-		"",
-		"https://www.france24.com/en/europe/20221119-live-more-than-200-ukrainians-detained-or-disappeared-during-occupation-of-kherson-report-says",
-		"British PM Sunak visits Kyiv to confirm 'UK continued support' to Ukraine"
-	],
-	[
-		"2022-11-19",
-		"Romania",
-		"Other Armored Vehicle",
-		"TAB-71 APC",
-		"1",
-		"",
-		"https://www.armyrecognition.com/ukraine_-_russia_conflict_war_2022/ukraine_army_uses_romanian-made_tab-71m_8x8_armored_personnel_carrier.html",
-		"Ukraine army uses Romanian-made TAB-71M 8x8 armored personnel carrier"
+		14,
+		"https://gagadget.com/en/188218-media-croatia-will-hand-over-14-mi-8-helicopters-to-the-ukrainian-armed-forces-and-will-buy-an-additional-batch-of-black-/"
 	],
 	[
 		"2022-11-21",
-		"Turkey",
+		"tr",
 		"Multiple Launch Rocket System",
-		"TRGL-230 guided MRLs",
-		"8",
-		"",
-		"https://twitter.com/TpyxaNews/status/1595150005333299202",
-		"The Stalwart Ally: Türkiye’s Arms Deliveries To Ukraine"
-	],
-	[
-		"2022-11-21",
-		"Germany",
-		"other",
-		"M1070 Oshkosh tank transporter",
-		"10",
-		"",
-		"https://www.armyrecognition.com/defense_news_november_2022_global_security_army_industry/ukraine_army_to_receive_8_oshkosh_m1070_tank_transport_tractors_from_germany.html",
-		"Ukraine army to receive 8 Oshkosh M1070 tank transport tractors from Germany"
+		"TRLG-230",
+		8,
+		"https://twitter.com/TpyxaNews/status/1595150005333299202"
 	],
 	[
 		"2022-11-23",
-		"US",
-		"Other Armored Vehicle",
-		"HMMWV",
-		"150",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3227217/400-million-in-additional-assistance-for-ukraine/",
-		"$400 Million in Additional Assistance for Ukraine"
-	],
-	[
-		"2022-11-23",
-		"US",
-		"other",
-		"light tactical vehicles",
-		"100",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3227217/400-million-in-additional-assistance-for-ukraine/",
-		"$400 Million in Additional Assistance for Ukraine"
-	],
-	[
-		"2022-11-23",
-		"UK",
+		"gb",
 		"Helicopter",
-		"Sea King",
-		"3",
-		"",
-		"https://www.bbc.com/news/uk-63725431",
-		"Britain sending helicopters to Ukraine for first time - Ben Wallace"
+		"SH-3 Sea King",
+		3,
+		"https://www.bbc.com/news/uk-63725431"
 	],
 	[
 		"2022-11-29",
-		"France",
+		"fr",
 		"Multiple Launch Rocket System",
-		"LRU MLRS (improved M270)",
-		"2",
-		"",
-		"https://twitter.com/oleksiireznikov/status/1597554553398136832?s=20&t=6ckQn0EqM8c3rPH3BYd_PA",
-		"LRU from France, has arrived in Ukraine"
-	],
-	[
-		"2022-12-01",
-		"Germany",
-		"other",
-		"Border protection vehicle",
-		"53",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Germany provides support for Ukraine"
-	],
-	[
-		"2022-12-02",
-		"Germany",
-		"other",
-		"Unmanned Surface Vessels",
-		"8",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Germany provides support for Ukraine"
-	],
-	[
-		"2022-12-02",
-		"Germany",
-		"other",
-		"Border protection vehicle",
-		"12",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Germany provides support for Ukraine"
-	],
-	[
-		"2022-12-02",
-		"Germany",
-		"other",
-		"bridge system",
-		"17",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Germany provides support for Ukraine"
-	],
-	[
-		"2022-12-08",
-		"Germany",
-		"other",
-		"M1070 Oshkosh tank transporter",
-		"2",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Germany provides support for Ukraine"
-	],
-	[
-		"2022-12-08",
-		"Germany",
-		"Other Armored Vehicle",
-		"Dingo Armored Personnel Carriers",
-		"20",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Germany provides support for Ukraine"
-	],
-	[
-		"2022-12-15",
-		"Germany",
-		"Other Armored Vehicle",
-		"Bergepanzer 2",
-		"2",
-		"",
-		"https://www.bundesregierung.de/breg-de/themen/krieg-in-der-ukraine/lieferungen-ukraine-2054514",
-		"Germany provides support for Ukraine"
-	],
-	[
-		"2022-12-20",
-		"Germany",
-		"Other Armored Vehicle",
-		"Bergepanzer 2",
-		"1",
-		"",
-		"https://www.bundesregierung.de/breg-de/themen/krieg-in-der-ukraine/lieferungen-ukraine-2054514",
-		"Germany provides support for Ukraine"
-	],
-	[
-		"2022-12-20",
-		"Germany",
-		"other",
-		"Border protection vehicle",
-		"13",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Germany provides support for Ukraine"
+		"M270",
+		2,
+		"https://twitter.com/oleksiireznikov/status/1597554553398136832?s=20&t=6ckQn0EqM8c3rPH3BYd_PA"
 	],
 	[
 		"2022-12-21",
-		"US",
-		"Other Armored Vehicle",
-		"Armored utility trucks",
-		"6",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3252782/185-billion-in-additional-security-assistance-for-ukraine/",
-		"$1.85 Billion in Additional Security Assistance for Ukraine"
-	],
-	[
-		"2022-12-21",
-		"US",
-		"Other Armored Vehicle",
-		"Cougar MRAP",
-		"37",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3252782/185-billion-in-additional-security-assistance-for-ukraine/",
-		"$1.85 Billion in Additional Security Assistance for Ukraine"
-	],
-	[
-		"2022-12-21",
-		"US",
-		"Other Armored Vehicle",
-		"HMMWV",
-		"120",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3252782/185-billion-in-additional-security-assistance-for-ukraine/",
-		"$1.85 Billion in Additional Security Assistance for Ukraine"
-	],
-	[
-		"2022-12-21",
-		"US",
+		"us",
 		"Air Defense System",
 		"Patriot",
-		"4",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3252782/185-billion-in-additional-security-assistance-for-ukraine/",
-		"$1.85 Billion in Additional Security Assistance for Ukraine"
-	],
-	[
-		"2023-01-04",
-		"Norway",
-		"Artillery rounds",
-		"155mm",
-		"10000",
-		"",
-		"https://twitter.com/Forsvaret_no/status/1610703031997284363?s=20&t=Sgg0FmOv_EXyKOUMua_G6Q",
-		"Norwegian Armed Forces Twitter"
+		4,
+		"https://www.defense.gov/News/Releases/Release/Article/3252782/185-billion-in-additional-security-assistance-for-ukraine/"
 	],
 	[
 		"2023-01-06",
-		"US",
-		"Artillery rounds",
-		"105mm",
-		"95000",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3261263/more-than-3-billion-in-additional-security-assistance-for-ukraine/",
-		"More Than $3 Billion in Additional Security Assistance for Ukraine"
-	],
-	[
-		"2023-01-06",
-		"US",
-		"other",
-		"120mm mortar rounds",
-		"10000",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3261263/more-than-3-billion-in-additional-security-assistance-for-ukraine/",
-		"More Than $3 Billion in Additional Security Assistance for Ukraine"
-	],
-	[
-		"2023-01-06",
-		"US",
-		"Artillery rounds",
-		"155mm",
-		"70000",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3261263/more-than-3-billion-in-additional-security-assistance-for-ukraine/",
-		"More Than $3 Billion in Additional Security Assistance for Ukraine"
-	],
-	[
-		"2023-01-06",
-		"US",
-		"Artillery rounds",
-		"155mm precision guided",
-		"500",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3261263/more-than-3-billion-in-additional-security-assistance-for-ukraine/",
-		"More Than $3 Billion in Additional Security Assistance for Ukraine"
-	],
-	[
-		"2023-01-06",
-		"US",
-		"Artillery rounds",
-		"155mm RAAM",
-		"1200",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3261263/more-than-3-billion-in-additional-security-assistance-for-ukraine/",
-		"More Than $3 Billion in Additional Security Assistance for Ukraine"
-	],
-	[
-		"2023-01-06",
-		"US",
-		"other",
-		"anti-armor rockets",
-		"2000",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3261263/more-than-3-billion-in-additional-security-assistance-for-ukraine/",
-		"More Than $3 Billion in Additional Security Assistance for Ukraine"
-	],
-	[
-		"2023-01-06",
-		"US",
+		"us",
 		"Infantry Fighting Vehicle",
-		"Bradley",
-		"50",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3261263/more-than-3-billion-in-additional-security-assistance-for-ukraine/",
-		"More Than $3 Billion in Additional Security Assistance for Ukraine"
+		"M2 Bradley",
+		50,
+		"https://www.defense.gov/News/Releases/Release/Article/3261263/more-than-3-billion-in-additional-security-assistance-for-ukraine/"
 	],
 	[
 		"2023-01-06",
-		"US",
-		"Other Armored Vehicle",
-		"HMMWV",
-		"138",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3261263/more-than-3-billion-in-additional-security-assistance-for-ukraine/",
-		"More Than $3 Billion in Additional Security Assistance for Ukraine"
-	],
-	[
-		"2023-01-06",
-		"US",
+		"us",
 		"Self-Propelled Artillery",
 		"M109 155mm",
-		"18",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3261263/more-than-3-billion-in-additional-security-assistance-for-ukraine/",
-		"More Than $3 Billion in Additional Security Assistance for Ukraine"
+		18,
+		"https://www.defense.gov/News/Releases/Release/Article/3261263/more-than-3-billion-in-additional-security-assistance-for-ukraine/"
 	],
 	[
 		"2023-01-06",
-		"US",
-		"Other Armored Vehicle",
-		"M113",
-		"100",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3261263/more-than-3-billion-in-additional-security-assistance-for-ukraine/",
-		"More Than $3 Billion in Additional Security Assistance for Ukraine"
-	],
-	[
-		"2023-01-06",
-		"US",
+		"us",
 		"Towed Artillery",
-		"M119 105mm",
-		"36",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3261263/more-than-3-billion-in-additional-security-assistance-for-ukraine/",
-		"More Than $3 Billion in Additional Security Assistance for Ukraine"
-	],
-	[
-		"2023-01-06",
-		"US",
-		"Other Armored Vehicle",
-		"MRAP",
-		"55",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3261263/more-than-3-billion-in-additional-security-assistance-for-ukraine/",
-		"More Than $3 Billion in Additional Security Assistance for Ukraine"
-	],
-	[
-		"2023-01-06",
-		"US",
-		"other",
-		"Zuni rocket",
-		"4000",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3261263/more-than-3-billion-in-additional-security-assistance-for-ukraine/",
-		"More Than $3 Billion in Additional Security Assistance for Ukraine"
-	],
-	[
-		"2023-01-07",
-		"Germany",
-		"Other Armored Vehicle",
-		"Bergepanzer 2",
-		"2",
-		"",
-		"https://www.bundesregierung.de/breg-de/themen/krieg-in-der-ukraine/lieferungen-ukraine-2054514",
-		"Germany provides support for Ukraine"
-	],
-	[
-		"2023-01-07",
-		"Germany",
-		"other",
-		"rocket launchers 70mm on pick-up trucks",
-		"20",
-		"",
-		"https://www.bundesregierung.de/breg-de/themen/krieg-in-der-ukraine/lieferungen-ukraine-2054514",
-		"Germany provides support for Ukraine"
-	],
-	[
-		"2023-01-07",
-		"Germany",
-		"other",
-		"M1070 Oshkosh tank transporter",
-		"1",
-		"",
-		"https://www.bundesregierung.de/breg-de/themen/krieg-in-der-ukraine/lieferungen-ukraine-2054514",
-		"Germany provides support for Ukraine"
-	],
-	[
-		"2023-01-07",
-		"Germany",
-		"Other Armored Vehicle",
-		"THeMIS UGV",
-		"7",
-		"",
-		"https://www.bundesregierung.de/breg-de/themen/krieg-in-der-ukraine/lieferungen-ukraine-2054514",
-		"Germany provides support for Ukraine"
+		"L119 105mm",
+		36,
+		"https://www.defense.gov/News/Releases/Release/Article/3261263/more-than-3-billion-in-additional-security-assistance-for-ukraine/"
 	],
 	[
 		"2023-01-10",
-		"Sweden",
+		"se",
 		"Self-Propelled Artillery",
-		"Archer",
-		"12",
-		"",
-		"https://www.armyrecognition.com/defense_news_january_2023_global_security_army_industry/sweden_confirms_the_delivery_to_ukraine_of_archer_155mm_self-propelled_howitzers.html",
-		"Sweden confirms the delivery to Ukraine of ARCHER 155mm self-propelled howitzers"
-	],
-	[
-		"2023-01-14",
-		"Germany",
-		"other",
-		"Border protection vehicle",
-		"17",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Germany provides support for Ukraine"
-	],
-	[
-		"2023-01-14",
-		"Germany",
-		"Other Armored Vehicle",
-		"mine clearing tank",
-		"4",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Germany provides support for Ukraine"
+		"Archer 155mm",
+		12,
+		"https://www.armyrecognition.com/defense_news_january_2023_global_security_army_industry/sweden_confirms_the_delivery_to_ukraine_of_archer_155mm_self-propelled_howitzers.html"
 	],
 	[
 		"2023-01-15",
-		"UK",
+		"gb",
 		"Tank",
 		"Challenger 2",
-		"14",
-		"",
-		"https://www.bbc.com/news/uk-64274755",
-		"UK to send Challenger 2 tanks to Ukraine, Rishi Sunak confirms"
+		14,
+		"https://www.bbc.com/news/uk-64274755"
 	],
 	[
 		"2023-01-15",
-		"UK",
+		"gb",
 		"Self-Propelled Artillery",
-		"AS-90 Braveheart",
-		"8",
-		"",
-		"https://www.reuters.com/world/europe/uk-defence-minister-sets-out-further-military-aid-package-ukraine-2023-01-16/",
-		"UK defence minister sets out further military aid package to Ukraine"
-	],
-	[
-		"2023-01-16",
-		"UK",
-		"Artillery rounds",
-		"caliber not specified",
-		"10000",
-		"",
-		"https://www.reuters.com/world/europe/uk-defence-minister-sets-out-further-military-aid-package-ukraine-2023-01-16/",
-		"UK defence minister sets out further military aid package to Ukraine"
-	],
-	[
-		"2023-01-16",
-		"UK",
-		"Other Armored Vehicle",
-		"Bulldog",
-		"200",
-		"",
-		"https://www.reuters.com/world/europe/uk-defence-minister-sets-out-further-military-aid-package-ukraine-2023-01-16/",
-		"UK defence minister sets out further military aid package to Ukraine"
-	],
-	[
-		"2023-01-18",
-		"Canada",
-		"Other Armored Vehicle",
-		"Senator APC",
-		"200",
-		"",
-		"https://www.cbc.ca/news/politics/canada-ukaine-armoured-personnel-carriers-donation-1.6717597",
-		"Canada announces it will donate 200 armoured vehicles to Ukraine"
+		"AS-90 155mm",
+		8,
+		"https://www.reuters.com/world/europe/uk-defence-minister-sets-out-further-military-aid-package-ukraine-2023-01-16/"
 	],
 	[
 		"2023-01-19",
-		"Sweden",
+		"se",
 		"Infantry Fighting Vehicle",
 		"CV-90",
-		"51",
-		"",
-		"https://www.reuters.com/world/europe/sweden-send-infantry-fighting-vehicles-ukraine-2023-01-19/",
-		"Sweden to send infantry fighting vehicles to Ukraine"
+		51,
+		"https://www.reuters.com/world/europe/sweden-send-infantry-fighting-vehicles-ukraine-2023-01-19/"
 	],
 	[
 		"2023-01-19",
-		"Estonia",
+		"ee",
 		"Towed Artillery",
 		"FH-70 155mm",
-		"24",
-		"",
-		"https://www.kaitseministeerium.ee/en/news/estonian-minister-defence-allies-must-give-ukraine-heavy-weaponry",
-		"Estonian Minister of Defence: Allies must give Ukraine heavy weaponry"
+		24,
+		"https://www.kaitseministeerium.ee/en/news/estonian-minister-defence-allies-must-give-ukraine-heavy-weaponry"
 	],
 	[
 		"2023-01-19",
-		"Estonia",
+		"ee",
 		"Towed Artillery",
 		"D-30 122mm",
-		"27",
-		"",
-		"https://www.kaitseministeerium.ee/en/news/estonian-minister-defence-allies-must-give-ukraine-heavy-weaponry",
-		"Estonian Minister of Defence: Allies must give Ukraine heavy weaponry"
+		27,
+		"https://www.kaitseministeerium.ee/en/news/estonian-minister-defence-allies-must-give-ukraine-heavy-weaponry"
 	],
 	[
 		"2023-01-19",
-		"US",
-		"Artillery rounds",
-		"105mm",
-		"95000",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3272866/biden-administration-announces-additional-security-assistance-for-ukraine/",
-		"Biden Administration Announces Additional Security Assistance for Ukraine"
-	],
-	[
-		"2023-01-19",
-		"US",
-		"Artillery rounds",
-		"120mm mortar",
-		"11800",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3272866/biden-administration-announces-additional-security-assistance-for-ukraine/",
-		"Biden Administration Announces Additional Security Assistance for Ukraine"
-	],
-	[
-		"2023-01-19",
-		"US",
-		"Artillery rounds",
-		"155mm",
-		"20000",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3272866/biden-administration-announces-additional-security-assistance-for-ukraine/",
-		"Biden Administration Announces Additional Security Assistance for Ukraine"
-	],
-	[
-		"2023-01-19",
-		"US",
-		"Artillery rounds",
-		"155mm precision-guided",
-		"600",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3272866/biden-administration-announces-additional-security-assistance-for-ukraine/",
-		"Biden Administration Announces Additional Security Assistance for Ukraine"
-	],
-	[
-		"2023-01-19",
-		"US",
-		"other",
-		"ammunition support vehicles",
-		"12",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3272866/biden-administration-announces-additional-security-assistance-for-ukraine/",
-		"Biden Administration Announces Additional Security Assistance for Ukraine"
-	],
-	[
-		"2023-01-19",
-		"US",
+		"us",
 		"Air Defense System",
 		"Avenger",
-		"8",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3272866/biden-administration-announces-additional-security-assistance-for-ukraine/",
-		"Biden Administration Announces Additional Security Assistance for Ukraine"
+		8,
+		"https://www.defense.gov/News/Releases/Release/Article/3272866/biden-administration-announces-additional-security-assistance-for-ukraine/"
 	],
 	[
 		"2023-01-19",
-		"US",
+		"us",
 		"Infantry Fighting Vehicle",
-		"Bradley",
-		"59",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3272866/biden-administration-announces-additional-security-assistance-for-ukraine/",
-		"Biden Administration Announces Additional Security Assistance for Ukraine"
+		"M2 Bradley",
+		59,
+		"https://www.defense.gov/News/Releases/Release/Article/3272866/biden-administration-announces-additional-security-assistance-for-ukraine/"
 	],
 	[
 		"2023-01-19",
-		"US",
-		"other",
-		"command posts vehicles",
-		"6",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3272866/biden-administration-announces-additional-security-assistance-for-ukraine/",
-		"Biden Administration Announces Additional Security Assistance for Ukraine"
-	],
-	[
-		"2023-01-19",
-		"US",
-		"Other Armored Vehicle",
-		"HMMWV",
-		"350",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3272866/biden-administration-announces-additional-security-assistance-for-ukraine/",
-		"Biden Administration Announces Additional Security Assistance for Ukraine"
-	],
-	[
-		"2023-01-19",
-		"US",
-		"Other Armored Vehicle",
-		"MRAP",
-		"53",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3272866/biden-administration-announces-additional-security-assistance-for-ukraine/",
-		"Biden Administration Announces Additional Security Assistance for Ukraine"
-	],
-	[
-		"2023-01-19",
-		"US",
+		"us",
 		"Infantry Fighting Vehicle",
 		"Stryker",
-		"90",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3272866/biden-administration-announces-additional-security-assistance-for-ukraine/",
-		"Biden Administration Announces Additional Security Assistance for Ukraine"
+		90,
+		"https://www.defense.gov/News/Releases/Release/Article/3272866/biden-administration-announces-additional-security-assistance-for-ukraine/"
 	],
 	[
 		"2023-01-19",
-		"Denmark",
+		"dk",
 		"Self-Propelled Artillery",
 		"CAESAR 155mm",
-		"19",
-		"",
-		"https://defbrief.com/2023/01/19/denmark-donating-all-of-its-caesar-howitzers-to-ukraine/",
-		"Denmark donating all of its Caesar howitzers to Ukraine"
+		19,
+		"https://defbrief.com/2023/01/19/denmark-donating-all-of-its-caesar-howitzers-to-ukraine/"
 	],
 	[
 		"2023-01-19",
-		"UK",
-		"other",
-		"Brimstone rockets",
-		"600",
-		"",
-		"https://www.dw.com/en/ukraine-updates-european-countries-pledge-new-military-aid/a-64444929",
-		"Ukraine updates: European countries pledge new military aid"
-	],
-	[
-		"2023-01-19",
-		"US",
-		"other",
-		"tactical towing vehicles",
-		"22",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3272866/biden-administration-announces-additional-security-assistance-for-ukraine/",
-		"Biden Administration Announces Additional Security Assistance for Ukraine"
-	],
-	[
-		"2023-01-19",
-		"Lithuania",
+		"lt",
 		"Helicopter",
 		"Mi-8",
-		"2",
-		"",
-		"https://www.gov.uk/government/news/joint-statement-the-tallinn-pledge",
-		"Joint Statement – The Tallinn Pledge"
-	],
-	[
-		"2023-01-19",
-		"Germany",
-		"other",
-		"Border protection vehicle",
-		"12",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Germany provides support for Ukraine"
+		2,
+		"https://www.gov.uk/government/news/joint-statement-the-tallinn-pledge"
 	],
 	[
 		"2023-01-26",
-		"Canada",
+		"ca",
 		"Tank",
 		"Leopard 2",
-		"4",
-		"",
-		"https://www.cbc.ca/news/politics/anita-anand-ukraine-military-assistance-1.6726949",
-		"Canada to send 4 combat-ready Leopard 2 tanks to Ukraine in the coming weeks"
+		4,
+		"https://www.cbc.ca/news/politics/anita-anand-ukraine-military-assistance-1.6726949"
 	],
 	[
 		"2023-01-26",
-		"Portugal",
+		"pt",
 		"Tank",
-		"Leopard 2 A6",
-		"3",
-		"",
-		"https://www.reuters.com/world/europe/portugal-send-ukraine-three-leopard-2-tanks-2023-02-08/",
-		"Portugal to send Ukraine three Leopard 2 tanks"
+		"Leopard 2",
+		3,
+		"https://www.reuters.com/world/europe/portugal-send-ukraine-three-leopard-2-tanks-2023-02-08/"
 	],
 	[
 		"2023-01-27",
-		"Poland",
+		"pl",
 		"Tank",
 		"PT-91",
-		"30",
-		"",
-		"https://www.aa.com.tr/en/russia-ukraine-war/poland-to-send-60-more-tanks-to-ukraine-in-addition-to-14-leopard-2/2799176",
-		"Poland to send 60 more tanks to Ukraine in addition to 14 Leopard 2"
+		30,
+		"https://www.aa.com.tr/en/russia-ukraine-war/poland-to-send-60-more-tanks-to-ukraine-in-addition-to-14-leopard-2/2799176"
 	],
 	[
 		"2023-01-27",
-		"Poland",
+		"pl",
 		"Tank",
 		"T-72",
-		"30",
-		"",
-		"https://www.aa.com.tr/en/russia-ukraine-war/poland-to-send-60-more-tanks-to-ukraine-in-addition-to-14-leopard-2/2799176",
-		"Poland to send 60 more tanks to Ukraine in addition to 14 Leopard 2"
+		30,
+		"https://www.aa.com.tr/en/russia-ukraine-war/poland-to-send-60-more-tanks-to-ukraine-in-addition-to-14-leopard-2/2799176"
 	],
 	[
 		"2023-01-27",
-		"Poland",
+		"pl",
 		"Tank",
-		"Leopard 2 A4",
-		"14",
-		"",
-		"https://www.aa.com.tr/en/russia-ukraine-war/poland-to-send-60-more-tanks-to-ukraine-in-addition-to-14-leopard-2/2799176",
-		"Poland to send 60 more tanks to Ukraine in addition to 14 Leopard 2"
-	],
-	[
-		"2023-02-03",
-		"US",
-		"Other Armored Vehicle",
-		"MRAP",
-		"181",
-		"PDA",
-		"https://www.defense.gov/News/News-Stories/Article/Article/3288155/air-defense-systems-long-range-fires-capability-to-be-sent-to-ukraine/",
-		"Air Defense Systems, Long-Range Fires Capability to be Sent to Ukraine"
+		"Leopard 2",
+		14,
+		"https://www.aa.com.tr/en/russia-ukraine-war/poland-to-send-60-more-tanks-to-ukraine-in-addition-to-14-leopard-2/2799176"
 	],
 	[
 		"2023-02-08",
-		"Germany",
+		"de",
 		"Air Defense System",
 		"Gepard",
-		"2",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Germany provides support for Ukraine"
+		2,
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
 	],
 	[
 		"2023-02-11",
-		"Lithuania",
+		"lt",
 		"Air Defense System",
 		"L-70",
-		"36",
-		"",
-		"https://news.yahoo.com/first-batch-lithuanian-anti-aircraft-135235593.html",
-		"First batch of Lithuanian anti-aircraft guns L-70 arrives in Ukraine"
+		36,
+		"https://news.yahoo.com/first-batch-lithuanian-anti-aircraft-135235593.html"
 	],
 	[
 		"2023-02-14",
-		"Norway",
+		"no",
 		"Tank",
 		"Leopard 2",
-		"8",
-		"",
-		"https://www.regjeringen.no/en/aktuelt/norge-vil-sende-stridsvogner-til-ukraina/id2960681/",
-		"Norway will send tanks to Ukraine"
+		8,
+		"https://www.regjeringen.no/en/aktuelt/norge-vil-sende-stridsvogner-til-ukraina/id2960681/"
 	],
 	[
 		"2023-02-14",
-		"Germany",
+		"de",
 		"Tank",
-		"Leopard 2 A6",
-		"14",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Germany provides support for Ukraine"
-	],
-	[
-		"2023-02-16",
-		"Netherlands",
-		"other",
-		"120 mm tank shells",
-		"20000",
-		"",
-		"https://www.telegraaf.nl/nieuws/928278313/nederland-gaat-munitie-voor-leopard-2-tanks-aan-oekraine-leveren",
-		"The Netherlands will supply ammunition for Leopard 2 tanks to Ukraine"
+		"Leopard 2",
+		14,
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
 	],
 	[
 		"2023-02-17",
-		"France",
+		"fr",
 		"Tank",
 		"AMX-10RC",
-		"14",
-		"",
-		"https://twitter.com/visegrad24/status/1626513339210780674?s=20",
-		"France has sent the first 14 AMX-10 RC armored fighting vehicles to Ukraine."
+		14,
+		"https://twitter.com/visegrad24/status/1626513339210780674?s=20"
 	],
 	[
 		"2023-02-20",
-		"US",
+		"us",
 		"Infantry Fighting Vehicle",
-		"Bradley",
-		"4",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3302787/biden-administration-announces-additional-security-assistance-for-ukraine/",
-		"Biden Administration Announces Additional Security Assistance for Ukraine"
+		"M2 Bradley",
+		4,
+		"https://www.defense.gov/News/Releases/Release/Article/3302787/biden-administration-announces-additional-security-assistance-for-ukraine/"
 	],
 	[
 		"2023-02-23",
-		"Finland",
-		"Other Armored Vehicle",
-		"mine-clearing tank",
-		"3",
-		"",
-		"https://www.reuters.com/world/europe/finland-send-three-leopard-tanks-ukraine-2023-02-23/",
-		"Finland to send three Leopard tanks to UkraineFinland to send three Leopard tanks to Ukraine"
-	],
-	[
-		"2023-02-23",
-		"Spain",
-		"Tank",
-		"Leopard 2 A4",
-		"10",
-		"",
-		"https://elpais.com/internacional/2023-02-24/guerra-ucrania-rusia-ultimas-noticias-en-directo.html",
-		"Guerra Ucraina-Rusia ultimas noticia en directo"
-	],
-	[
-		"2023-02-24",
-		"Czechia",
-		"Tank",
-		"T-72B",
-		"45",
-		"",
-		"https://en.defence-ua.com/weapon_and_tech/the_czech_republic_to_update_90_t_72b_tanks_for_ukraine_worth_1_million_dollars_each_the_arrival_dates_of_vehles_are_named-4755.html",
-		"The Czech Republic to Update 90 T-72B Tanks For Ukraine Worth 1 Million Dollars Each: the Arrival Dates of Vehles Are Named"
-	],
-	[
-		"2023-02-24",
-		"Sweden",
-		"Tank",
-		"Leopard 2 A5 / Stridsvagn 122",
-		"10",
-		"",
-		"https://twitter.com/PlJonson/status/1629117599513550848?s=20",
-		"Pål Jonson Twitter @PlJonson Försvarsminister / Minister for Defence Sweden"
-	],
-	[
-		"2023-02-24",
-		"Germany",
-		"Other Armored Vehicle",
-		"BEAVER bridge layer tank",
-		"6",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Germany provides support for Ukraine"
-	],
-	[
-		"2023-02-24",
-		"Germany",
-		"other",
-		"Zetros truck",
-		"28",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Germany provides support for Ukraine"
-	],
-	[
-		"2023-02-24",
-		"Canada",
+		"es",
 		"Tank",
 		"Leopard 2",
-		"4",
-		"",
-		"https://www.ctvnews.ca/politics/canada-sending-four-more-battle-tanks-to-ukraine-1.6288251",
-		"Canada sending four more battle tanks, ammunition to Ukraine"
+		10,
+		"https://elpais.com/internacional/2023-02-24/guerra-ucrania-rusia-ultimas-noticias-en-directo.html"
 	],
 	[
 		"2023-02-24",
-		"Canada",
-		"Artillery rounds",
-		"155 mm",
-		"5000",
-		"",
-		"https://www.canada.ca/en/department-national-defence/campaigns/canadian-military-support-to-ukraine.html",
-		"Canadian donations and military support to Ukraine"
+		"cz",
+		"Tank",
+		"T-72",
+		45,
+		"https://en.defence-ua.com/weapon_and_tech/the_czech_republic_to_update_90_t_72b_tanks_for_ukraine_worth_1_million_dollars_each_the_arrival_dates_of_vehles_are_named-4755.html"
+	],
+	[
+		"2023-02-24",
+		"se",
+		"Tank",
+		"Stridsvagn 122",
+		10,
+		"https://twitter.com/PlJonson/status/1629117599513550848?s=20"
+	],
+	[
+		"2023-02-24",
+		"ca",
+		"Tank",
+		"Leopard 2",
+		4,
+		"https://www.ctvnews.ca/politics/canada-sending-four-more-battle-tanks-to-ukraine-1.6288251"
 	],
 	[
 		"2023-02-25",
-		"Croatia",
+		"hr",
 		"Helicopter",
-		"MI 8 MTV-1",
-		"12",
-		"",
-		"https://www.jutarnji.hr/vijesti/hrvatska/pocela-specijalna-operacija-slanja-14-nasih-helikoptera-ukrajini-s-njih-vec-skidaju-oznake-15309682",
-		"Croatia has launched an operation to send 14 transport helicopters to Ukraine"
+		"Mi-8",
+		12,
+		"https://www.jutarnji.hr/vijesti/hrvatska/pocela-specijalna-operacija-slanja-14-nasih-helikoptera-ukrajini-s-njih-vec-skidaju-oznake-15309682"
 	],
 	[
 		"2023-02-25",
-		"Croatia",
+		"hr",
 		"Helicopter",
-		"MI 8 T",
-		"2",
-		"",
-		"https://www.jutarnji.hr/vijesti/hrvatska/pocela-specijalna-operacija-slanja-14-nasih-helikoptera-ukrajini-s-njih-vec-skidaju-oznake-15309682",
-		"Croatia has launched an operation to send 14 transport helicopters to Ukraine"
+		"Mi-8",
+		2,
+		"https://www.jutarnji.hr/vijesti/hrvatska/pocela-specijalna-operacija-slanja-14-nasih-helikoptera-ukrajini-s-njih-vec-skidaju-oznake-15309682"
 	],
 	[
 		"2023-03-03",
-		"Germany",
+		"de",
 		"Tank",
-		"Leopard 2 A6",
-		"4",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Germany provides support for Ukraine"
+		"Leopard 2",
+		4,
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
 	],
 	[
 		"2023-03-07",
-		"Germany",
+		"de",
 		"Air Defense System",
 		"Gepard",
-		"2",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Germany provides support for Ukraine"
-	],
-	[
-		"2023-03-16",
-		"Canada",
-		"Artillery rounds",
-		"155 mm",
-		"8000",
-		"",
-		"https://www.siasat.com/canada-announces-additional-military-aid-to-ukraine-2548113/",
-		"Canada announces additional military aid to Ukraine"
+		2,
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
 	],
 	[
 		"2023-03-17",
-		"Poland",
+		"pl",
 		"Warplane",
 		"MiG-29",
-		"4",
-		"",
-		"https://www.bbc.com/news/world-europe-64975770",
-		"Poland to send four fighter jets to Ukraine 'in coming days'"
+		4,
+		"https://www.bbc.com/news/world-europe-64975770"
 	],
 	[
 		"2023-03-17",
-		"Slovakia",
+		"sk",
 		"Warplane",
 		"MiG-29",
-		"13",
-		"",
-		"https://www.mosr.sk/52628-en/minister-obrany-j-nad-podpisal-medzivladnu-dohodu-s-ukrajinou/",
-		"Defence Minister Jaroslav Naď signs intergovernmental agreement with Ukraine"
+		13,
+		"https://www.mosr.sk/52628-en/minister-obrany-j-nad-podpisal-medzivladnu-dohodu-s-ukrajinou/"
 	],
 	[
 		"2023-03-17",
-		"Germany",
-		"Artillery rounds",
-		"155 mm",
-		"5330",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Germany provides support for Ukraine"
-	],
-	[
-		"2023-03-17",
-		"Slovakia",
+		"sk",
 		"Air Defense System",
-		"2K12 Kub (SA-6 Gainful)",
-		"2",
-		"",
-		"https://www.mosr.sk/52628-en/minister-obrany-j-nad-podpisal-medzivladnu-dohodu-s-ukrajinou/",
-		"Defence Minister Jaroslav Naď signs intergovernmental agreement with Ukraine"
+		"2K12 Kub",
+		2,
+		"https://www.mosr.sk/52628-en/minister-obrany-j-nad-podpisal-medzivladnu-dohodu-s-ukrajinou/"
 	],
 	[
 		"2023-03-20",
-		"France",
+		"fr",
 		"Self-Propelled Artillery",
 		"CAESAR 155mm",
-		"6",
-		"",
-		"https://www.theguardian.com/world/live/2023/jan/31/russia-ukraine-war-live-biden-says-the-us-will-not-provide-f-16-fighter-jets-to-ukraine",
-		"France to send 12 additional Caesar howitzers to Ukraine"
+		6,
+		"https://www.theguardian.com/world/live/2023/jan/31/russia-ukraine-war-live-biden-says-the-us-will-not-provide-f-16-fighter-jets-to-ukraine"
 	],
 	[
 		"2023-03-20",
-		"UK",
+		"gb",
 		"Self-Propelled Artillery",
-		"AS-90 Braveheart",
-		"24",
-		"",
-		"https://www.19fortyfive.com/2023/03/here-comes-the-big-guns-britain-is-replacing-weapons-sent-to-ukraine/",
-		"Here Comes The ‘Big’ Guns: Britain Is Replacing Weapons Sent To Ukraine"
-	],
-	[
-		"2023-03-20",
-		"Canada",
-		"Other Armored Vehicle",
-		"Bergepanzer 3 arv",
-		"1",
-		"",
-		"https://www.armyrecognition.com/defense_news_march_2023_global_security_army_industry/canada_is_sending_leopard_2_arv_recovery_tanks_to_ukraine.html",
-		"Canada is sending Leopard 2 ARV recovery tanks to Ukraine"
-	],
-	[
-		"2023-03-24",
-		"Finland",
-		"Other Armored Vehicle",
-		"mine-clearing tank",
-		"3",
-		"",
-		"https://www.army-technology.com/news/finland-mine-clearing-leopard2-ukraine/",
-		"Finland to donate three mine-clearing Leopard 2 MBTs to Ukraine"
+		"AS-90 155mm",
+		24,
+		"https://www.19fortyfive.com/2023/03/here-comes-the-big-guns-britain-is-replacing-weapons-sent-to-ukraine/"
 	],
 	[
 		"2023-03-31",
-		"Germany",
+		"de",
 		"Infantry Fighting Vehicle",
 		"Marder",
-		"40",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-03-31",
-		"Germany",
-		"Other Armored Vehicle",
-		"Bergepanzer 3",
-		"2",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-03-31",
-		"Germany",
-		"Other Armored Vehicle",
-		"Wisent 1",
-		"2",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-04-03",
-		"Denmark",
-		"Artillery rounds",
-		"155 mm",
-		"8000",
-		"",
-		"https://en.interfax.com.ua/news/general/901644.html",
-		"Denmark, Norway sign agreement on transfer of 8,000 artillery shells to Ukraine"
+		40,
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
 	],
 	[
 		"2023-04-06",
-		"Poland",
+		"pl",
 		"Warplane",
 		"MiG-29",
-		"14",
-		"",
-		"https://www.rferl.org/a/ukraine-zelenskiy-poland-visit/32350100.html",
-		"Zelenskiy Tells Warsaw It Will Be Instrumental In Ukraine's Reconstruction Effort"
-	],
-	[
-		"2023-04-07",
-		"Germany",
-		"Other Armored Vehicle",
-		"Dachs",
-		"4",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
+		14,
+		"https://www.rferl.org/a/ukraine-zelenskiy-poland-visit/32350100.html"
 	],
 	[
 		"2023-04-13",
-		"Netherlands",
-		"Other Armored Vehicle",
-		"YPR-765",
-		"188",
-		"",
-		"https://english.defensie.nl/binaries/content/gallery/defence/content-afbeeldingen/latest/news/2023/04/14/0195-web_202250582_-infographic-leveringen-oekraine_13-april-2023-003_en1024_1.jpg?download",
-		"Netherlands Ministry of Defense, infographics on military supplies to Ukraine"
-	],
-	[
-		"2023-04-13",
-		"Netherlands",
+		"nl",
 		"Air Defense System",
 		"Patriot",
-		"2",
-		"",
-		"https://english.defensie.nl/latest/news/2023/04/13/defence-to-publish-more-information-about-deliveries-to-ukraine",
-		"Defence to publish more information about deliveries to Ukraine"
+		2,
+		"https://english.defensie.nl/latest/news/2023/04/13/defence-to-publish-more-information-about-deliveries-to-ukraine"
 	],
 	[
 		"2023-04-16",
-		"Italy",
+		"it",
 		"Self-Propelled Artillery",
-		"M109L155mm",
-		"20",
-		"",
-		"https://www.repubblica.it/esteri/2023/04/16/news/cosi_litalia_potenzia_lartiglieria_ucraina-396394860/",
-		"Così l'Italia potenzia l'artiglieria ucraina"
+		"M109 155mm",
+		20,
+		"https://www.repubblica.it/esteri/2023/04/16/news/cosi_litalia_potenzia_lartiglieria_ucraina-396394860/"
 	],
 	[
 		"2023-04-18",
-		"Germany",
+		"de",
 		"Air Defense System",
 		"Patriot",
-		"4",
-		"",
-		"https://www.dw.com/en/ukraine-updates-germany-says-patriots-delivered-to-kyiv/a-65367387",
-		"Ukraine updates: Germany says Patriots delivered to Kyiv"
-	],
-	[
-		"2023-04-22",
-		"Portugal",
-		"Other Armored Vehicle",
-		"APC",
-		"5",
-		"",
-		"https://english.nv.ua/nation/portugal-to-donate-five-armoured-rescue-and-personnel-carriers-to-ukraine-50319556.html",
-		"Portugal to donate five armoured rescue and personnel carriers to Ukraine"
+		4,
+		"https://www.dw.com/en/ukraine-updates-germany-says-patriots-delivered-to-kyiv/a-65367387"
 	],
 	[
 		"2023-04-23",
-		"Finland",
+		"fi",
 		"Towed Artillery",
-		"Giatsint 152k89 152mm",
-		"24",
-		"",
-		"https://en.defence-ua.com/news/the_finnish_giatsint_b_gun_was_spotted_in_the_hands_of_the_ukrainian_forces_video-6388.html",
-		"The Finnish Giatsint-B Gun Was Spotted in the Hands of the Ukrainian Forces (video)"
+		"2A36 Giatsint-B 152mm",
+		24,
+		"https://en.defence-ua.com/news/the_finnish_giatsint_b_gun_was_spotted_in_the_hands_of_the_ukrainian_forces_video-6388.html"
 	],
 	[
 		"2023-04-26",
-		"Slovenia",
-		"Other Armored Vehicle",
-		"Valuk",
-		"20",
-		"",
-		"https://www.24ur.com/novice/tujina/slovenski-valuki-na-ukrajinsko-fronto.html",
-		"Slovenski Valuki na ukrajinsko fronto"
-	],
-	[
-		"2023-04-26",
-		"Germany",
+		"de",
 		"Air Defense System",
 		"IRIS-T",
-		"3",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Germany provides support for Ukraine"
+		3,
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
 	],
 	[
 		"2023-05-03",
-		"US",
+		"us",
 		"Towed Artillery",
 		"M777 155mm",
-		"2",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3383288/biden-administration-announces-additional-security-assistance-for-ukraine/",
-		"Biden Administration Announces Additional Security Assistance for Ukraine"
+		2,
+		"https://www.defense.gov/News/Releases/Release/Article/3383288/biden-administration-announces-additional-security-assistance-for-ukraine/"
 	],
 	[
 		"2023-05-10",
-		"Czechia",
+		"cz",
 		"Air Defense System",
-		"2K12 Kub (SA-6 Gainful)",
-		"2",
-		"",
-		"https://news.yahoo.com/czech-republic-supplies-ukraine-two-160616614.html",
-		"Czech Republic supplies Ukraine with two Kub air defence systems – Czech President"
+		"2K12 Kub",
+		2,
+		"https://news.yahoo.com/czech-republic-supplies-ukraine-two-160616614.html"
 	],
 	[
 		"2023-05-20",
-		"Norway",
-		"other",
-		"ARTHUR",
-		"3",
-		"",
-		"https://www.regjeringen.no/no/aktuelt/statement-from-bjorn-arild-gram-meeting-ben-wallace-in-northwood/id2977724/",
-		"Statement from Bjørn Arild Gram meeting Ben Wallace in Northwood"
-	],
-	[
-		"2023-05-20",
-		"Norway",
+		"no",
 		"Multiple Launch Rocket System",
-		"M270B1",
-		"8",
-		"",
-		"https://www.regjeringen.no/no/aktuelt/statement-from-bjorn-arild-gram-meeting-ben-wallace-in-northwood/id2977724/",
-		"Statement from Bjørn Arild Gram meeting Ben Wallace in Northwood"
-	],
-	[
-		"2023-05-23",
-		"Germany",
-		"other",
-		"Border protection vehicle",
-		"23",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-05-23",
-		"Germany",
-		"other",
-		"Zetros truck",
-		"64",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
+		"M270",
+		8,
+		"https://www.regjeringen.no/no/aktuelt/statement-from-bjorn-arild-gram-meeting-ben-wallace-in-northwood/id2977724/"
 	],
 	[
 		"2023-05-31",
-		"US",
+		"us",
 		"Air Defense System",
 		"Avenger",
-		"8",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3402206/biden-administration-announces-additional-security-assistance-for-ukraine/",
-		"Biden Administration Announces Additional Security Assistance for Ukraine"
-	],
-	[
-		"2023-06-06",
-		"Germany",
-		"Other Armored Vehicle",
-		"Bandvagn 206 (BV206)",
-		"8",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-06-06",
-		"Germany",
-		"other",
-		"Border protection vehicle",
-		"16",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-06-09",
-		"US",
-		"Artillery rounds",
-		"203 mm",
-		"10000",
-		"USAI",
-		"https://media.defense.gov/2023/Jun/09/2003238573/-1/-1/0/UKRAINE-FACT-SHEET-JUNE-9.PDF",
-		"Fact Sheet on U.S. Security Assistance to Ukraine, June 9, 2023"
+		8,
+		"https://www.defense.gov/News/Releases/Release/Article/3402206/biden-administration-announces-additional-security-assistance-for-ukraine/"
 	],
 	[
 		"2023-06-13",
-		"US",
+		"us",
 		"Infantry Fighting Vehicle",
-		"Bradley",
-		"15",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3426389/biden-administration-announces-additional-security-assistance-for-ukraine/",
-		"Biden Administration Announces Additional Security Assistance for Ukraine"
+		"M2 Bradley",
+		15,
+		"https://www.defense.gov/News/Releases/Release/Article/3426389/biden-administration-announces-additional-security-assistance-for-ukraine/"
 	],
 	[
 		"2023-06-13",
-		"US",
+		"us",
 		"Infantry Fighting Vehicle",
 		"Stryker",
-		"10",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3426389/biden-administration-announces-additional-security-assistance-for-ukraine/",
-		"Biden Administration Announces Additional Security Assistance for Ukraine"
-	],
-	[
-		"2023-06-15",
-		"Germany",
-		"Other Armored Vehicle",
-		"Wisent 1",
-		"2",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-06-15",
-		"Germany",
-		"other",
-		"Zetros truck",
-		"16",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-06-15",
-		"Germany",
-		"other",
-		"HX-81",
-		"23",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
+		10,
+		"https://www.defense.gov/News/Releases/Release/Article/3426389/biden-administration-announces-additional-security-assistance-for-ukraine/"
 	],
 	[
 		"2023-06-16",
-		"Spain",
+		"es",
 		"Tank",
-		"Leopard 2 A4",
-		"2",
-		"",
-		"https://www.newsweek.com/ukraine-more-leopard-tanks-counteroffensive-spain-germany-russia-1807177",
-		"Ukraine To Get More Leopard 2 Tanks As Counteroffensive Heats Up"
-	],
-	[
-		"2023-06-16",
-		"Spain",
-		"Other Armored Vehicle",
-		"M113",
-		"20",
-		"",
-		"https://www.newsweek.com/ukraine-more-leopard-tanks-counteroffensive-spain-germany-russia-1807177",
-		"Ukraine To Get More Leopard 2 Tanks As Counteroffensive Heats Up"
-	],
-	[
-		"2023-06-16",
-		"Norway",
-		"Artillery rounds",
-		"155 mm ",
-		"9000",
-		"",
-		"https://www.regjeringen.no/en/aktuelt/noreg-og-danmark-samarbeider-om-ny-donasjon-til-ukraina/id2983852/",
-		"Norway and Denmark cooperate on new donations to Ukraine"
-	],
-	[
-		"2023-06-21",
-		"Germany",
-		"Artillery rounds",
-		"155 mm",
-		"1000",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-06-21",
-		"Germany",
-		"other",
-		"Border protection vehicle",
-		"6",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-06-21",
-		"Germany",
-		"other",
-		"HX-81",
-		"2",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-06-26",
-		"Australia",
-		"Other Armored Vehicle",
-		"M113",
-		"28",
-		"",
-		"https://www.reuters.com/world/europe/australia-provide-74-million-assistance-package-ukraine-2023-06-26/",
-		"Australia to provide more armoured vehicles to Ukraine"
-	],
-	[
-		"2023-06-26",
-		"Australia",
-		"Other Armored Vehicle",
-		"Special operation vehicles",
-		"14",
-		"",
-		"https://www.reuters.com/world/europe/australia-provide-74-million-assistance-package-ukraine-2023-06-26/",
-		"Australia to provide more armoured vehicles to Ukraine"
-	],
-	[
-		"2023-06-26",
-		"Australia",
-		"other",
-		"MAN 40M",
-		"28",
-		"",
-		"https://www.reuters.com/world/europe/australia-provide-74-million-assistance-package-ukraine-2023-06-26/",
-		"Australia to provide more armoured vehicles to Ukraine"
+		"Leopard 2",
+		2,
+		"https://www.newsweek.com/ukraine-more-leopard-tanks-counteroffensive-spain-germany-russia-1807177"
 	],
 	[
 		"2023-06-27",
-		"US",
-		"other",
-		"Anti-armor system and munition",
-		"10000",
-		"PDA",
-		"https://media.defense.gov/2023/Jun/27/2003248805/-1/-1/1/Ukraine-Fact-Sheet-27-June.PDF",
-		"Fact Sheet June 27th 2023"
-	],
-	[
-		"2023-06-27",
-		"US",
+		"us",
 		"Infantry Fighting Vehicle",
-		"Bradley",
-		"30",
-		"PDA",
-		"https://media.defense.gov/2023/Jun/27/2003248805/-1/-1/1/Ukraine-Fact-Sheet-27-June.PDF",
-		"Fact Sheet June 27th 2023"
+		"M2 Bradley",
+		30,
+		"https://media.defense.gov/2023/Jun/27/2003248805/-1/-1/1/Ukraine-Fact-Sheet-27-June.PDF"
 	],
 	[
 		"2023-06-27",
-		"US",
+		"us",
 		"Infantry Fighting Vehicle",
 		"Stryker",
-		"25",
-		"PDA",
-		"https://media.defense.gov/2023/Jun/27/2003248805/-1/-1/1/Ukraine-Fact-Sheet-27-June.PDF",
-		"Fact Sheet June 27th 2023"
+		25,
+		"https://media.defense.gov/2023/Jun/27/2003248805/-1/-1/1/Ukraine-Fact-Sheet-27-June.PDF"
 	],
 	[
 		"2023-06-28",
-		"Lithuania",
+		"lt",
 		"Air Defense System",
 		"NASAMS",
-		"2",
-		"",
-		"https://www.thedefensepost.com/2023/06/28/lithuania-nasams-ukraine/",
-		"Lithuania Buys Two NASAMS Air Defense Launchers for Ukraine"
-	],
-	[
-		"2023-06-28",
-		"Lithuania",
-		"Other Armored Vehicle",
-		"M113",
-		"10",
-		"",
-		"https://www.thedefensepost.com/2023/06/28/lithuania-nasams-ukraine/",
-		"Lithuania Buys Two NASAMS Air Defense Launchers for Ukraine"
-	],
-	[
-		"2023-06-29",
-		"Germany",
-		"other",
-		"Bridge for Bridgelayer tank",
-		"3",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-06-29",
-		"Germany",
-		"other",
-		"mine clearing system",
-		"1",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-06-29",
-		"Germany",
-		"other",
-		"Border protection vehicle",
-		"2",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-06-29",
-		"Germany",
-		"other",
-		"Zetros truck",
-		"16",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-06-29",
-		"Germany",
-		"other",
-		"Hensoldt TRML-4D",
-		"1",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
+		2,
+		"https://www.thedefensepost.com/2023/06/28/lithuania-nasams-ukraine/"
 	],
 	[
 		"2023-07-07",
-		"Slovakia",
-		"Self-Propelled Artillery",
-		"SpGH Zuzana 155mm",
-		"16",
-		"",
-		"https://en.interfax.com.ua/news/general/921535.html",
-		"Slovakia to supply Ukraine with 16 howitzers, establish their joint production with Ukraine – Čaputová"
-	],
-	[
-		"2023-07-07",
-		"US",
+		"us",
 		"Infantry Fighting Vehicle",
-		"Bradley",
-		"32",
-		"PDA",
-		"https://www.defense.gov/News/News-Stories/Article/Article/3451905/dod-announces-800m-security-assistance-package-for-ukraine/",
-		"DOD Announces $800M Security Assistance Package for Ukraine "
+		"M2 Bradley",
+		32,
+		"https://www.defense.gov/News/News-Stories/Article/Article/3451905/dod-announces-800m-security-assistance-package-for-ukraine/"
 	],
 	[
 		"2023-07-07",
-		"US",
+		"us",
 		"Towed Artillery",
 		"M777 155mm",
-		"36",
-		"PDA",
-		"https://www.defense.gov/News/News-Stories/Article/Article/3451905/dod-announces-800m-security-assistance-package-for-ukraine/",
-		"DOD Announces $800M Security Assistance Package for Ukraine "
+		36,
+		"https://www.defense.gov/News/News-Stories/Article/Article/3451905/dod-announces-800m-security-assistance-package-for-ukraine/"
 	],
 	[
 		"2023-07-07",
-		"US",
-		"other",
-		"Penguin UAS",
-		"1",
-		"PDA",
-		"https://www.defense.gov/News/News-Stories/Article/Article/3451905/dod-announces-800m-security-assistance-package-for-ukraine/",
-		"DOD Announces $800M Security Assistance Package for Ukraine "
-	],
-	[
-		"2023-07-07",
-		"US",
-		"other",
-		"Stinger",
-		"300",
-		"PDA",
-		"https://www.defense.gov/News/News-Stories/Article/Article/3451905/dod-announces-800m-security-assistance-package-for-ukraine/",
-		"DOD Announces $800M Security Assistance Package for Ukraine "
-	],
-	[
-		"2023-07-07",
-		"US",
+		"us",
 		"Infantry Fighting Vehicle",
 		"Stryker",
-		"32",
-		"PDA",
-		"https://www.defense.gov/News/News-Stories/Article/Article/3451905/dod-announces-800m-security-assistance-package-for-ukraine/",
-		"DOD Announces $800M Security Assistance Package for Ukraine "
-	],
-	[
-		"2023-07-07",
-		"US",
-		"Other Armored Vehicle",
-		"Tactical vehicle",
-		"17",
-		"PDA",
-		"https://www.defense.gov/News/News-Stories/Article/Article/3451905/dod-announces-800m-security-assistance-package-for-ukraine/",
-		"DOD Announces $800M Security Assistance Package for Ukraine "
-	],
-	[
-		"2023-07-07",
-		"Germany",
-		"Other Armored Vehicle",
-		"DACHS",
-		"1",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-07-07",
-		"Germany",
-		"other",
-		"Bridge for Bridgelayer tank",
-		"1",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-07-07",
-		"Germany",
-		"Other Armored Vehicle",
-		"BEAVER bridge layer tank",
-		"1",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-07-07",
-		"Germany",
-		"other",
-		"Radio Jammers",
-		"3",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-07-07",
-		"Germany",
-		"other",
-		"Anti-drone sensors and jammers",
-		"2",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-07-07",
-		"Germany",
-		"other",
-		"HX-81",
-		"6",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
+		32,
+		"https://www.defense.gov/News/News-Stories/Article/Article/3451905/dod-announces-800m-security-assistance-package-for-ukraine/"
 	],
 	[
 		"2023-07-12",
-		"Germany",
+		"de",
 		"Air Defense System",
 		"Gepard",
-		"7",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-07-12",
-		"Germany",
-		"Artillery rounds",
-		"155 mm",
-		"3230",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-07-12",
-		"Germany",
-		"Artillery rounds",
-		"155 mm smoke",
-		"1184",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-07-12",
-		"Germany",
-		"other",
-		"Border protection vehicle",
-		"5",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-07-12",
-		"Germany",
-		"other",
-		"IRIS-T SLM laser aiming equipment",
-		"10",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-07-12",
-		"Germany",
-		"other",
-		"HX-81",
-		"1",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-07-14",
-		"Bulgaria",
-		"Other Armored Vehicle",
-		"BTR-1",
-		"100",
-		"",
-		"https://www.euractiv.com/section/politics/news/bulgaria-sends-largest-military-aid-package-to-ukraine/",
-		"Bulgaria sends largest military aid package to Ukraine"
+		7,
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
 	],
 	[
 		"2023-07-20",
-		"Germany",
+		"de",
 		"Tank",
-		"Leopard 1 A5",
-		"10",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-07-20",
-		"Germany",
-		"Artillery rounds",
-		"155 mm",
-		"1305",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-07-20",
-		"Germany",
-		"Artillery rounds",
-		"155 mm smoke",
-		"2064",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-07-20",
-		"Germany",
-		"other",
-		"heavy bridge system",
-		"1",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-07-20",
-		"Germany",
-		"Other Armored Vehicle",
-		"border protection vehicle",
-		"4",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-07-20",
-		"Germany",
-		"other",
-		"ground survailance radar",
-		"10",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-07-20",
-		"Germany",
-		"other",
-		"Zetros truck",
-		"16",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-07-20",
-		"Germany",
-		"other",
-		"first aid kit",
-		"100000",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-07-20",
-		"Germany",
-		"other",
-		"recoinancence drone RQ-35 HEIDRUN",
-		"20",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
+		"Leopard 1",
+		10,
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
 	],
 	[
 		"2023-07-25",
-		"US",
+		"us",
 		"Infantry Fighting Vehicle",
 		"Stryker",
-		"32",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3470064/biden-administration-announces-additional-security-assistance-for-ukraine/",
-		"Biden Administration Announces Additional Security Assistance for Ukraine"
+		32,
+		"https://www.defense.gov/News/Releases/Release/Article/3470064/biden-administration-announces-additional-security-assistance-for-ukraine/"
 	],
 	[
 		"2023-07-27",
-		"UK",
+		"gb",
 		"Multiple Launch Rocket System",
 		"Wolfram",
-		"24",
-		"",
-		"https://www.thedefensepost.com/2023/07/27/uk-combat-vehicle-brimstone/",
-		"UK Sends Brimstone Mobile Missile Launchers to Ukraine"
+		24,
+		"https://www.thedefensepost.com/2023/07/27/uk-combat-vehicle-brimstone/"
 	],
 	[
 		"2023-07-28",
-		"Germany",
-		"other",
-		"Bandvagn 206 (BV206)",
-		"10",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-07-28",
-		"Germany",
+		"de",
 		"Air Defense System",
 		"Gepard",
-		"6",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-07-28",
-		"Germany",
-		"other",
-		"35 mm rounds for Gepard",
-		"15000",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-07-28",
-		"Germany",
-		"Artillery rounds",
-		"155 mm smoke",
-		"2688",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-07-28",
-		"Germany",
-		"other",
-		"reconnaissance drone VECTOR",
-		"13",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-07-28",
-		"Germany",
-		"other",
-		"ambulance",
-		"8",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine",
-		"Military support for Ukraine"
+		6,
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine"
 	],
 	[
 		"2023-08-04",
-		"Germany",
+		"de",
 		"Self-Propelled Artillery",
-		"Zuzana 2 155mm",
-		"2",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-08-04",
-		"Germany",
-		"other",
-		"mine-clearing tank Wisent 1",
-		"2",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-08-04",
-		"Germany",
-		"Other Armored Vehicle",
-		"mine plough for T-72",
-		"11",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-08-04",
-		"Germany",
-		"other",
-		"mobile reconnaissance systems SurveilSPIRE",
-		"5",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-08-04",
-		"Germany",
-		"Other Armored Vehicle",
-		"border protection vehicle",
-		"9",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-08-04",
-		"Germany",
-		"other",
-		"reconnaissance drones VECTOR",
-		"3",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-08-04",
-		"Germany",
-		"other",
-		"mobile antenna mast systems",
-		"5",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
+		"ShKH Zuzana 155mm",
+		2,
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
 	],
 	[
 		"2023-08-08",
-		"Belgium",
+		"be",
 		"Tank",
 		"Leopard 1",
-		"2",
-		"",
-		"https://www.brusselstimes.com/belgium/636119/first-belgian-leopard-1-tanks-on-their-way-to-ukraine",
-		"First 'Belgian' Leopard 1 tanks on their way to Ukraine"
+		2,
+		"https://www.brusselstimes.com/belgium/636119/first-belgian-leopard-1-tanks-on-their-way-to-ukraine"
 	],
 	[
 		"2023-08-09",
-		"Germany",
-		"other",
-		"Bandvagn 206",
-		"10",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-08-09",
-		"Germany",
+		"de",
 		"Air Defense System",
 		"Patriot",
-		"2",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-08-09",
-		"Germany",
-		"Artillery rounds",
-		"155 mm smoke",
-		"6525",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-08-09",
-		"Germany",
-		"Other Armored Vehicle",
-		"border protection vehicle",
-		"5",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-08-09",
-		"Germany",
-		"other",
-		"reconnaissance drones VECTOR",
-		"4",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-08-09",
-		"Germany",
-		"other",
-		"HX-81",
-		"6",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-08-09",
-		"Germany",
-		"other",
-		"load-handling trucks 8x6",
-		"2",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-08-09",
-		"Germany",
-		"other",
-		"first aid kit",
-		"40000",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
+		2,
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
 	],
 	[
 		"2023-08-17",
-		"Germany",
+		"de",
 		"Air Defense System",
-		"IRIS-T SLS",
-		"2",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
+		"IRIS-T",
+		2,
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
 	],
 	[
 		"2023-08-17",
-		"Germany",
-		"Artillery rounds",
-		"155 mm smoke",
-		"4539",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-08-17",
-		"Germany",
-		"other",
-		"ground surveillance radars GO12",
-		"10",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-08-17",
-		"Germany",
-		"other",
-		"HX-81",
-		"4",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-08-17",
-		"Czechia",
+		"cz",
 		"Helicopter",
-		"Mi-24/V35",
-		"10",
-		"",
-		"https://www.ceskenoviny.cz/zpravy/bitevniky-mi-24-mohou-najit-uplatneni-na-ukrajine-naznacila-cernochova/2402172",
-		"Mi-24 fighters may find application in Ukraine, Černochová indicated"
-	],
-	[
-		"2023-08-24",
-		"Turkey",
-		"other",
-		"Baykar TB2 UAV",
-		"1",
-		"",
-		"https://kyivindependent.com/bayraktar-manufacturer-donates-drone-to-ukraine-for-independence-day/",
-		"Bayraktar manufacturer donates drone to Ukraine on Independence Day"
-	],
-	[
-		"2023-08-24",
-		"Germany",
-		"other",
-		"drone detection system",
-		"10",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-08-24",
-		"Germany",
-		"other",
-		"reconnaissance drones RQ-35 HEIDRUN",
-		"40",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-08-24",
-		"Germany",
-		"other",
-		"Zetros truck",
-		"16",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
+		"Mi-24",
+		10,
+		"https://www.ceskenoviny.cz/zpravy/bitevniky-mi-24-mohou-najit-uplatneni-na-ukrajine-naznacila-cernochova/2402172"
 	],
 	[
 		"2023-08-25",
-		"Latvia",
+		"lv",
 		"Helicopter",
 		"Mi-17",
-		"1",
-		"",
-		"https://twitter.com/visegrad24/status/1695181632481747187?s=20",
-		"Latvia has donated another Mi-17 transport helicopter to the Ukrainian Army.\n"
+		1,
+		"https://twitter.com/visegrad24/status/1695181632481747187?s=20"
 	],
 	[
 		"2023-08-30",
-		"Germany",
+		"de",
 		"Tank",
-		"Leopard 1 A5",
-		"10",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-08-30",
-		"Germany",
-		"other",
-		"air surveillance radar TRML-4D",
-		"1",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-08-30",
-		"Germany",
-		"other",
-		"reconnaissance drones VECTOR",
-		"16",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-08-30",
-		"Germany",
-		"other",
-		"HX-81",
-		"4",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-08-30",
-		"Germany",
-		"other",
-		"field hospital",
-		"1",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-08-30",
-		"Switzerland",
-		"other",
-		"remote-controlled mine-clearing vehicle DIGGER D-250",
-		"1",
-		"",
-		"https://www.janes.com/defence-news/news-detail/ukraine-conflict-switzerland-to-provide-remote-controlled-mine-clearing-vehicle-to-kyiv",
-		"Ukraine conflict: Switzerland to provide remote-controlled mine-clearing vehicle to Kyiv"
+		"Leopard 1",
+		10,
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
 	],
 	[
 		"2023-09-13",
-		"Germany",
+		"de",
 		"Infantry Fighting Vehicle",
 		"Marder",
-		"20",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-09-14",
-		"Germany",
-		"Artillery rounds",
-		"155mm",
-		"3000",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-09-15",
-		"Germany",
-		"other",
-		"mine clearing tanks WISENT 1",
-		"2",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-09-16",
-		"Germany",
-		"other",
-		"Satcom surveillance system",
-		"1",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-09-16",
-		"Germany",
-		"other",
-		"reconnaissance drone RQ-35 HEIDRUN",
-		"20",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-09-16",
-		"Germany",
-		"other",
-		"mobile antenna mast system",
-		"2",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-09-16",
-		"Germany",
-		"other",
-		"drone detection system",
-		"10",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-09-16",
-		"Germany",
-		"other",
-		"load-handling truck 8x8",
-		"5",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-09-16",
-		"Germany",
-		"other",
-		"ambulance",
-		"3",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-09-16",
-		"Germany",
-		"other",
-		"HX-81",
-		"1",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-09-20",
-		"Albania",
-		"Other Armored Vehicle",
-		"MaxxPro",
-		"22",
-		"",
-		"https://closetheskyoverukraine.com/latest-news/albania-hands-over-22-maxx-pro-armored-vehicles-to-ukraine",
-		"Albania hands over 22 MaxxPro armored vehicles to Ukraine"
-	],
-	[
-		"2023-09-20",
-		"Germany",
-		"other",
-		"HX-81",
-		"4",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-09-20",
-		"Germany",
-		"other",
-		"Zetros truck",
-		"12",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
+		20,
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
 	],
 	[
 		"2023-09-22",
-		"US",
+		"us",
 		"Tank",
-		"Abrams M1A1",
-		"10",
-		"USAI",
-		"https://www.aljazeera.com/news/2023/9/22/what-we-know-about-us-abrams-tanks-arriving-in-ukraine-next-week",
-		"What we know about US Abrams tanks arriving in Ukraine ‘next week’"
-	],
-	[
-		"2023-09-23",
-		"Canada",
-		"Other Armored Vehicle",
-		"Senator",
-		"50",
-		"",
-		"https://x.com/JustinTrudeau/status/1705362591965479128?s=20",
-		null
-	],
-	[
-		"2023-10-02",
-		"Germany",
-		"other",
-		"Bandvagn 206",
-		"14",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-10-02",
-		"Germany",
-		"other",
-		"bridge-laying tank Biber",
-		"1",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-10-02",
-		"Germany",
-		"other",
-		"mine-clearing tank Wisent 1",
-		"2",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-10-02",
-		"Germany",
-		"other",
-		"border protection vehicle",
-		"21",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-10-02",
-		"Germany",
-		"other",
-		"HX-81",
-		"11",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-10-13",
-		"Germany",
-		"other",
-		"Bandvagn 206",
-		"4",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-10-13",
-		"Germany",
-		"other",
-		"Border protection vehicle",
-		"4",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-10-13",
-		"Germany",
-		"other",
-		"drone detection system",
-		"50",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-10-13",
-		"Germany",
-		"other",
-		"HX-81",
-		"2",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
+		"M1A1 Abrams",
+		10,
+		"https://www.aljazeera.com/news/2023/9/22/what-we-know-about-us-abrams-tanks-arriving-in-ukraine-next-week"
 	],
 	[
 		"2023-10-16",
-		"US",
+		"us",
 		"Tank",
-		"Abrams M1A1",
-		"21",
-		"USAI",
-		"https://www.voanews.com/a/all-31-abrams-tanks-in-ukraine-us-military-confirms-to-voa/7313918.html",
-		"All 31 Abrams Tanks in Ukraine, US Military Confirms to VOA"
+		"M1A1 Abrams",
+		21,
+		"https://www.voanews.com/a/all-31-abrams-tanks-in-ukraine-us-military-confirms-to-voa/7313918.html"
 	],
 	[
 		"2023-10-20",
-		"Germany",
+		"de",
 		"Air Defense System",
 		"Gepard",
-		"3",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-10-20",
-		"Germany",
-		"Artillery rounds",
-		"155mm smoke ammunition",
-		"3872",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-10-20",
-		"Germany",
-		"other",
-		"BEAVER bridge layer tank",
-		"1",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-10-20",
-		"Germany",
-		"other",
-		"RQ-35 HEIDRUN reconnaissance drones",
-		"20",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-10-20",
-		"Germany",
-		"other",
-		"VECTOR reconnaissance drone",
-		"20",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-10-20",
-		"Germany",
-		"Other Armored Vehicle",
-		"border protection vehicle",
-		"3",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-10-20",
-		"Germany",
-		"other",
-		"HX-81",
-		"3",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
+		3,
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
 	],
 	[
 		"2023-10-27",
-		"Germany",
-		"Other Armored Vehicle",
-		"APC",
-		"4",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-10-27",
-		"Germany",
+		"de",
 		"Air Defense System",
 		"IRIS-T",
-		"3",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-10-27",
-		"Germany",
-		"Other Armored Vehicle",
-		"reconnaissance drone VECTOR",
-		"8",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-10-27",
-		"Germany",
-		"Other Armored Vehicle",
-		"ground surveillance radars GO12",
-		"4",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-10-27",
-		"Germany",
-		"Other Armored Vehicle",
-		"unmanned surface vessels",
-		"5",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-10-27",
-		"Germany",
-		"Other Armored Vehicle",
-		"border protection vehicles",
-		"4",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-10-27",
-		"Germany",
-		"other",
-		"HX-81",
-		"4",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
+		3,
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
 	],
 	[
 		"2023-11-01",
-		"France",
+		"fr",
 		"Tank",
 		"AMX-10RC",
-		"26",
-		"",
-		"https://bulgarianmilitary.com/2023/11/01/part-of-the-french-amx-10rcs-to-kyiv-are-for-ukrainian-marines/",
-		"Part of the French AMX-10RCs to Kyiv are for Ukrainian marines"
-	],
-	[
-		"2023-11-01",
-		"Germany",
-		"Other Armored Vehicle",
-		"APC",
-		"12",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-11-01",
-		"Germany",
-		"other",
-		"air surveillance radar TRML-4D",
-		"2",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-11-01",
-		"Germany",
-		"other",
-		"reconnaissance drones Primoco ONE",
-		"7",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-11-01",
-		"Germany",
-		"other",
-		"AMPS self-protection systems for helicopters",
-		"2",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-11-01",
-		"Germany",
-		"other",
-		"unmanned surface vessels",
-		"5",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-11-01",
-		"Germany",
-		"other",
-		"SatCom terminals",
-		"3",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-11-01",
-		"Germany",
-		"other",
-		"PCB Printer",
-		"1",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-11-01",
-		"Germany",
-		"other",
-		"HX-81",
-		"4",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-11-01",
-		"Germany",
-		"other",
-		"MAN TGS trucks ",
-		"12",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-11-01",
-		"Germany",
-		"other",
-		"winter clothing sets",
-		"30000",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
+		26,
+		"https://bulgarianmilitary.com/2023/11/01/part-of-the-french-amx-10rcs-to-kyiv-are-for-ukrainian-marines/"
 	],
 	[
 		"2023-11-13",
-		"Germany",
+		"de",
 		"Tank",
-		"Leopard 1 A5",
-		"10",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-11-13",
-		"Germany",
-		"Other Armored Vehicle",
-		"Bandvagn 206 (BV206)",
-		"14",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-11-13",
-		"Germany",
-		"Other Armored Vehicle",
-		"Tracked Carrier Warthog Ambulance",
-		"5",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-11-13",
-		"Germany",
-		"Other Armored Vehicle",
-		"WISENT 1",
-		"1",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-11-13",
-		"Germany",
-		"other",
-		"reconnaissance drones VECTOR",
-		"10",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-11-13",
-		"Germany",
-		"other",
-		"ground surveillance radars GO12",
-		"14",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-11-13",
-		"Germany",
-		"Other Armored Vehicle",
-		"border protection vehicle",
-		"3",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-11-13",
-		"Germany",
-		"other",
-		"HX-81",
-		"4",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-11-13",
-		"Germany",
-		"other",
-		"Zetros truck",
-		"16",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-11-13",
-		"Germany",
-		"other",
-		"other vehicles (trucks, minibuses, all-terrain vehicles)",
-		"3",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-11-13",
-		"Germany",
-		"other",
-		"MAN TGS trucks ",
-		"13",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
+		"Leopard 1",
+		10,
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
 	],
 	[
 		"2023-11-20",
-		"US",
+		"us",
 		"Multiple Launch Rocket System",
 		"M142 HIMARS",
-		"1",
-		"PDA",
-		"https://www.defense.gov/News/Releases/Release/Article/3594318/biden-administration-announces-new-security-assistance-for-ukraine/",
-		"Biden Administration Announces New Security Assistance for Ukraine"
+		1,
+		"https://www.defense.gov/News/Releases/Release/Article/3594318/biden-administration-announces-new-security-assistance-for-ukraine/"
 	],
 	[
 		"2023-11-22",
-		"Germany",
+		"de",
 		"Infantry Fighting Vehicle",
 		"Marder",
-		"20",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-11-22",
-		"Germany",
-		"Artillery rounds",
-		"155mm",
-		"2380",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-11-22",
-		"Germany",
-		"Other Armored Vehicle",
-		"WISENT 1",
-		"1",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-11-22",
-		"Germany",
-		"other",
-		"HX-81",
-		"2",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-11-22",
-		"Germany",
-		"other",
-		"other vehicles (trucks, minibuses, all-terrain vehicles)",
-		"9",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-11-22",
-		"Germany",
-		"other",
-		"All Terrain Tracked Carrier Warthog Ambulance",
-		"5",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-11-22",
-		"Germany",
-		"other",
-		"ambulance",
-		"2",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-12-01",
-		"Germany",
-		"Artillery rounds",
-		"155mm",
-		"3840",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-12-01",
-		"Germany",
-		"Other Armored Vehicle",
-		"border protection vehicle",
-		"2",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-12-01",
-		"Germany",
-		"other",
-		"drone detection systems",
-		"5",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-12-01",
-		"Germany",
-		"other",
-		"Zetros truck",
-		"8",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-12-01",
-		"Germany",
-		"other",
-		"other vehicles (trucks, minibuses, all-terrain vehicles)",
-		"3",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-12-07",
-		"Germany",
-		"Artillery rounds",
-		"155mm",
-		"250",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-12-07",
-		"Germany",
-		"other",
-		"LUNA NG reconnaissance system",
-		"1",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-12-07",
-		"Germany",
-		"other",
-		"reconnaissance drones VECTOR",
-		"10",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-12-07",
-		"Germany",
-		"Other Armored Vehicle",
-		"border protection vehicles",
-		"6",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-12-07",
-		"Germany",
-		"other",
-		"Zetros truck",
-		"8",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
+		20,
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
 	],
 	[
 		"2023-12-14",
-		"Germany",
-		"Other Armored Vehicle",
-		"Bandvagn 206",
-		"9",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-12-14",
-		"Germany",
+		"de",
 		"Air Defense System",
 		"Patriot",
-		"4",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-12-14",
-		"Germany",
-		"Artillery rounds",
-		"155mm",
-		"7390",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-12-14",
-		"Germany",
-		"other",
-		"mobile, remote controlled and protected mine clearing systems",
-		"3",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-12-14",
-		"Germany",
-		"other",
-		"drone detection systems",
-		"14",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-12-14",
-		"Germany",
-		"other",
-		"Zetros truck",
-		"8",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-12-14",
-		"Germany",
-		"other",
-		"semi-trailers",
-		"4",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-12-14",
-		"Germany",
-		"other",
-		"vehicles (trucks, minibuses, all-terrain vehicles) ",
-		"4",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
-	],
-	[
-		"2023-12-14",
-		"Germany",
-		"other",
-		"40mm ammunition",
-		"47040",
-		"",
-		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992",
-		"Military support for Ukraine"
+		4,
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
 	]
 ]
