@@ -20,6 +20,9 @@ dependencies:
   '@iconify-json/map':
     specifier: ^1.1.8
     version: 1.1.8
+  '@iconify-json/material-symbols':
+    specifier: ^1.1.68
+    version: 1.1.68
   '@iconify-json/mdi':
     specifier: ^1.1.58
     version: 1.1.58
@@ -1075,6 +1078,12 @@ packages:
 
   /@iconify-json/map@1.1.8:
     resolution: {integrity: sha512-AHa7MhFKYo+lWzZlamUni9CNrSLdFm7s1mWTyGBO0QLYxGyCcvvpVxeyhglr+baUq8wjaMRgUZt/nEk31Z+f1Q==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: false
+
+  /@iconify-json/material-symbols@1.1.68:
+    resolution: {integrity: sha512-fFMMbdr3DJiQRvi6fKefJMLkrvKnW4x6a0lJwDKeRqgyVpxr1NGP3DCz4q7wWBXTpSTcBSPg4Mbfrdyg8J6R0Q==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: false

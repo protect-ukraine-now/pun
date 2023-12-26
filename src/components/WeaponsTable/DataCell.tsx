@@ -5,7 +5,7 @@ import style from './style.module.scss'
 import useClickOutside from 'src/tools/useClickOutside'
 import countries from 'src/data/countries.json'
 
-const DataCell = ({ className, value, delta, sources }) => {
+const DataCell = ({ className, value, delta, sources, ...rest }) => {
 	const [isSourcePopupShown, setIsSourcePopupShown] = useState(false)
 	const popupRef = useRef()
 	useClickOutside(popupRef, () => setIsSourcePopupShown(false))
@@ -39,7 +39,7 @@ const DataCell = ({ className, value, delta, sources }) => {
 	let emptyValue = <span className={style.emptyValue}>0</span >
 
 	return (
-		<div className={cn(className, style.cell)}>
+		<div className={cn(className, style.cell)} {...rest}>
 			<span className={style.count}>
 				{value || emptyValue}
 				{!!delta && (

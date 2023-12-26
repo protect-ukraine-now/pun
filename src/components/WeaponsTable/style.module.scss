@@ -186,6 +186,11 @@
 	font-weight: 700;
 	text-align: right;
 
+	&:first-child {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
 	> * {
 		flex: 1 0 50%;
 
