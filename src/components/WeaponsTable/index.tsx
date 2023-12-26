@@ -10,8 +10,11 @@ import { assocPath } from 'rambda'
 const WeaponsTable = ({ title, subtitle, head, data, description, Details }) => {
 	const [expanded, setExpanded] = useState([])
 	console.log('expanded', expanded)
-	const toggle = i => setExpanded(assocPath(i + '', !expanded[i], expanded))
-	const severalExpanded = expanded.reduce((a, b) => !!a + !!b, 0) > 1
+	const toggle = i => () => {
+		console.log('toggle', i)
+		setExpanded(assocPath(i + '', !expanded[i], expanded))
+	}
+	const severalExpanded = expanded.reduce((a, b) => a + (b ? 1 : 0), 0) > 1
 	const toggleAll = () => setExpanded(severalExpanded ? [] : data)
 	const left = data.slice(0, data.length / 2)
 	const right = data.slice(-data.length / 2)
@@ -22,33 +25,35 @@ const WeaponsTable = ({ title, subtitle, head, data, description, Details }) => 
 			onClick={toggleAll}
 		>
 			<div className={style.head}>
-				<span className={severalExpanded ? 'i-ion-chevron-collapse' : 'i-ion-chevron-expand'} />
+				{Details &&
+					<span className={severalExpanded ? 'i-ion-chevron-collapse' : 'i-ion-chevron-expand'} />
+				}
 			</div>
 			{head.map((x, i) => <div className={style.head} key={i}>{x}</div>)}
 		</div>
 	)
 
-	const rowsRenderer = (row, i) => {
+	const rowsRenderer = (row, ix) => {
 		let { category, values } = row
-		return <>
-			<div className={style.row} key={i}>
+		return (
+			<div className={style.row} key={ix}>
 				<IconCell
 					category={category}
-					onClick={() => toggle(i)}
+					onClick={toggle(ix)}
 				/>
 				{values.map((x, i) =>
 					<DataCell
 						className={style.valueCell}
 						{...x}
 						key={i}
-						onClick={() => toggle(i)}
+						onClick={toggle(ix)}
 					/>
 				)}
-				{Details && expanded[i] &&
+				{Details && expanded[ix] &&
 					<Details {...row} />
 				}
 			</div>
-		</>
+		)
 	}
 
 	const renderTableLayout = (data, ix) => (

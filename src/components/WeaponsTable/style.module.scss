@@ -105,6 +105,8 @@
 
 .head,
 .cell {
+	cursor: pointer;
+
 	@include make-responsive('padding-top',
 					(
 									mobile-min: 15px,

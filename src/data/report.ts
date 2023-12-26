@@ -39,7 +39,7 @@ let commitsByCategory = ({ report = latestReport, filter = null } = {}) => {
         o = modify([category, 'byModel', model, 'byCountry', country], add, o)
         return o
     }, {})
-    console.log(o)
+    // console.log(o)
     return o
 }
 
