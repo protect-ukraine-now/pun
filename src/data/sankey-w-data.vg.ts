@@ -63,7 +63,7 @@ export default
 					"color": "string"
 				}
 			},
-			"values": "name,category,stack,sort,labels,color,,,,,,\r\nMar '22,bill_mar_22,1,1,left,blue,\"USAA 2022, March 2022\",,,,,\r\nMay '22,bill_may_22,1,2,left,blue,\"+USAA 2022, May 2022\",,,,,\r\nSep '22,bill_sep_22,1,3,left,blue,\"USAA 2023, September 2022\",,,,,\r\nDec '22,bill_dec_22,1,4,left,blue,\"+USAA 2023, December 2022\",,,,,\r\nOther,bill_sep_23,1,5,left,blue,,,,,,\r\nTotal,total_budget,2,1,left,blue,,,,,,\r\nDirect aid to Ukraine,direct,3,1,left,green,,,,,,\r\nMiscellaneous,misc,3,2,left,grey,,,,,,\r\nMilitary Aid,military,4,1,left,green,,,,,,\r\nHumanitarian & Economic Aid,human,4,2,left,pink,,,,,,\r\nUS presence in Europe,other_us_mil_eu,4,3,left,grey,,,,,,\r\nOther,other,4,4,left,grey,,,,,,\r\nInstant aid (PDA),instant_total,5,1,left,green,,,,,,\r\nDelivered,instant_committed,6,1,right,green,Available,instant_available,6,2,right,green\r\nFY22-23 Carryover funds,instant_carryover,6,2,right,orange,Available.,deferred_available,6,5,right,#f2cf5b\r\nFY22-23 Expired funds,instant_expired,6,3,right,red,,,,,,\r\nDeferred aid (USAI & FMF),deferred_total,5,2,left,#f2cf5b,,,,,,\r\nCommitted.,deferred_committed,6,4,right,#f2cf5b,,,,,,"
+			"values": "name,category,stack,sort,labels,color\r\nMar '22,bill_mar_22,1,1,left,blue\r\nMay '22,bill_may_22,1,2,left,blue\r\nSep '22,bill_sep_22,1,3,left,blue\r\nDec '22,bill_dec_22,1,4,left,blue\r\nOther,bill_sep_23,1,5,left,blue\r\nTotal,total_budget,2,1,left,blue\r\nDirect aid to Ukraine,direct,3,1,left,green\r\nMiscellaneous,misc,3,2,left,grey\r\nMilitary Aid,military,4,1,left,green\r\nHumanitarian & Economic Aid,human,4,2,left,pink\r\nMilitary,other_military,4,3,left,grey\r\nGlobal food security & other,other_food,4,4,left,grey\r\nUkrainian refugees in US,other_ua_refugees,4,5,left,grey\r\nUS troops in Europe,other_us_mil_eu,5,3,left,grey\r\nMilitary aid to European allies (FMF),other_aid_eu_mil,5,4,left,grey\r\nOther DoD needs,other_dod,5,5,left,grey\r\nInstant aid (PDA),instant_total,5,1,left,green\r\nFY22-23 Expired funds,instant_expired,6,1,right,red\r\nDelivered,instant_committed,6,2,right,green\r\nFY22-23 Carryover funds,instant_carryover,6,3,right,orange\r\nDeferred aid (USAI & FMF),deferred_total,5,2,left,#f2cf5b\r\nObligated,deferred_obligated,6,4,right,#f2cf5b\r\nPending,deferred_pending,6,5,right,#f2cf5b"
 		},
 		{
 			"name": "connections",
@@ -75,7 +75,7 @@ export default
 					"value": "number"
 				}
 			},
-			"values": "source,value,destination,\r\nbill_mar_22,13.601,total_budget,\"USAA 2022, March 2022\"\r\nbill_may_22,40.143,total_budget,\"+USAA 2022, May 2022\"\r\nbill_sep_22,12.377,total_budget,\"USAA 2023, September 2022\"\r\nbill_dec_22,47.322,total_budget,\"+USAA 2023, December 2022\"\r\nbill_sep_23,0.900,total_budget,\r\ntotal_budget,80.889,direct,\r\ntotal_budget,33.453,misc,\r\ndirect,46.043,military,\r\ndirect,34.846,human,\r\nmisc,16.708,other_us_mil_eu,\r\nmisc,16.745,other,\r\nmilitary,25.500,instant_total,\r\ninstant_total,19.225,instant_committed,\r\ninstant_total,4.650,instant_carryover,\r\ninstant_total,1.625,instant_expired,\r\nmilitary,20.543,deferred_total,\r\ndeferred_total,20.543,deferred_committed,"
+			"values": "source,value,destination,\r\nbill_mar_22,13.601,total_budget,\"USAA 2022, March 2022\"\r\nbill_may_22,40.143,total_budget,\"+USAA 2022, May 2022\"\r\nbill_sep_22,12.377,total_budget,\"USAA 2023, September 2022\"\r\nbill_dec_22,47.322,total_budget,\"+USAA 2023, December 2022\"\r\nbill_sep_23,0.900,total_budget,\r\ntotal_budget,80.889,direct,\r\ntotal_budget,33.453,misc,\r\ndirect,46.043,military,\r\ndirect,34.846,human,\r\nmisc,21.835,other_military,\r\nother_military,16.708,other_us_mil_eu,\r\nother_military,3.007,other_aid_eu_mil,\r\nother_military,2.120,other_dod,\r\nmisc,9.218,other_food,\r\nmisc,2.400,other_ua_refugees,\r\nmilitary,25.500,instant_total,\r\ninstant_total,19.425,instant_committed,\r\ninstant_total,4.450,instant_carryover,\r\ninstant_total,1.625,instant_expired,\r\nmilitary,20.543,deferred_total,\r\ndeferred_total,10.500,deferred_obligated,\r\ndeferred_total,10.043,deferred_pending,"
 		},
 		{
 			"name": "preStacks",
@@ -529,11 +529,11 @@ export default
 						"value": "red"
 					},
 					"x": {
-						"signal": "datum.labels=='left'?scale('x', datum.stack) - 8 : scale('x', datum.stack) + (bandwidth('x')) + 8"
+						"signal": "datum.labels=='left'?scale('x', datum.stack) + 8 : scale('x', datum.stack) + (bandwidth('x')) - 8"
 					},
 					"yc": {
 						"scale": "y",
-						"signal": "datum.yc"
+						"signal": "datum.yc + datum.value/2 + 8"
 					},
 					"width": {
 						"signal": "0"
@@ -607,19 +607,19 @@ export default
 				"update": {
 					"x": {
 						"field": "bounds.x1",
-						"offset": -4
+						"offset": -2
 					},
 					"x2": {
 						"field": "bounds.x2",
-						"offset": 4
+						"offset": 2
 					},
 					"y": {
 						"field": "bounds.y1",
-						"offset": -4
+						"offset": -2
 					},
 					"y2": {
 						"field": "bounds.y2",
-						"offset": 4
+						"offset": 2
 					},
 					"fill": {
 						"value": "white"

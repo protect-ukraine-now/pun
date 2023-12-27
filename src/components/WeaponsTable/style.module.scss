@@ -41,6 +41,7 @@
 
 .splitter {
 	display: flex;
+	align-items: flex-start;
 
 	@include max-w(tablet-min) {
 		flex-flow: column;
@@ -104,6 +105,8 @@
 
 .head,
 .cell {
+	cursor: pointer;
+
 	@include make-responsive('padding-top',
 					(
 									mobile-min: 15px,
@@ -184,6 +187,11 @@
 	align-items: center;
 	font-weight: 700;
 	text-align: right;
+
+	&:first-child {
+		flex-direction: column;
+		align-items: flex-start;
+	}
 
 	> * {
 		flex: 1 0 50%;

@@ -2,8 +2,35 @@ import { useLanguage, useText } from 'src/tools/language'
 import { latestReport, inventoryReport } from 'src/data/report'
 import { formatDate } from 'src/tools/date'
 import WeaponsTable from '../WeaponsTable'
+import { Fragment } from 'react'
 
 let data = inventoryReport()
+
+function Details({ byModel }) {
+    console.log(byModel)
+    return <>
+        {byModel.map(({ model, possessed, committed }, i) =>
+            <Fragment key={i}>
+                <div className="py-1">
+                    <a
+                        className="decoration-none"
+                        href={`https://www.google.com/search?q=${model}`}
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        {model}
+                    </a>
+                </div>
+                <div className="text-center py-1">
+                    {possessed}
+                </div>
+                <div className="text-center py-1">
+                    {committed}
+                </div>
+            </Fragment>
+        )}
+    </>
+}
 
 export default function WeaponsInventory() {
     const text = useText()
@@ -14,5 +41,5 @@ export default function WeaponsInventory() {
     const subtitle = text('inventory.subtitle', { from, till })
     const head = [text('inventory.possessed'), text('inventory.pda')]
     const description = text('inventory.description')
-    return <WeaponsTable {...{ title, subtitle, head, data, description }} />
+    return <WeaponsTable {...{ title, subtitle, head, data, description, Details }} />
 }

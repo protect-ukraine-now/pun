@@ -1,50 +1,718 @@
 [
-	[
-		"Towed Artillery",
-		"12900",
-		"500",
-		"3400"
-	],
-	[
-		"Self-Propelled Artillery",
-		"7000",
-		"700",
-		"1500"
-	],
-	[
-		"Multiple Launch Rocket System",
-		"4300",
-		"360",
-		"1400"
-	],
-	[
-		"Air Defense System",
-		"2800",
-		"400",
-		"1600"
-	],
-	[
-		"Warplane",
-		"1200",
-		"110",
-		"3500"
-	],
-	[
-		"Helicopter",
-		"1400",
-		"120",
-		"5000"
-	],
-	[
-		"Tank",
-		"18000",
-		"2100",
-		"6100"
-	],
-	[
-		"Infantry Fighting Vehicle",
-		"19000",
-		"1500",
-		"11000"
-	]
+	{
+		"category": "Towed Artillery",
+		"ru": 12939,
+		"byModel": [
+			{
+				"model": "M777 155mm",
+				"us": 999
+			},
+			{
+				"model": "M119 105mm",
+				"us": 821
+			},
+			{
+				"model": "M101 105mm",
+				"us": 331
+			},
+			{
+				"model": "Msta-B 152mm",
+				"ru": 200,
+				"ua": 130
+			},
+			{
+				"model": "Giatsint-B 152mm",
+				"ru": 50,
+				"ua": 180
+			},
+			{
+				"model": "D-30 122mm",
+				"ru": 150,
+				"ua": 75
+			},
+			{
+				"model": "D-20 152mm",
+				"ua": 130
+			},
+			{
+				"model": "NONA-K 120mm",
+				"ru": 124,
+				"ua": 2
+			},
+			{
+				"model": "D-30 122mm (in store)",
+				"ru": 4400
+			},
+			{
+				"model": "M-30 122mm (in store)",
+				"ru": 3750
+			},
+			{
+				"model": "M198 155mm (in store)",
+				"us": 1292
+			},
+			{
+				"model": "Giatsint-B 152mm (in store)",
+				"ru": 1100
+			},
+			{
+				"model": "D-20 152mm (in store)",
+				"ru": 1075
+			},
+			{
+				"model": "D-1 152mm (in store)",
+				"ru": 700
+			},
+			{
+				"model": "M-46 130mm (in store)",
+				"ru": 650
+			},
+			{
+				"model": "Msta-B 152mm (in store)",
+				"ru": 600
+			},
+			{
+				"model": "M-1937 152mm (in store)",
+				"ru": 100
+			},
+			{
+				"model": "EFSS 120mm (in store)",
+				"us": 49
+			},
+			{
+				"model": "B-4M 203mm (in store)",
+				"ru": 40
+			}
+		],
+		"ua": 517,
+		"us": 3492
+	},
+	{
+		"category": "Self-Propelled Artillery",
+		"ru": 7281,
+		"byModel": [
+			{
+				"model": "Akatsiya 152mm",
+				"ru": 850,
+				"ua": 249
+			},
+			{
+				"model": "Msta-S 152mm",
+				"ru": 886,
+				"ua": 35
+			},
+			{
+				"model": "M109 155mm",
+				"us": 689
+			},
+			{
+				"model": "Gvozdika 122mm",
+				"ru": 245,
+				"ua": 292
+			},
+			{
+				"model": "NONA-S 120mm",
+				"ru": 322
+			},
+			{
+				"model": "Giatsint-S 152mm",
+				"ru": 100,
+				"ua": 18
+			},
+			{
+				"model": "Malka 203mm",
+				"ru": 60
+			},
+			{
+				"model": "Hosta 120mm",
+				"ru": 50
+			},
+			{
+				"model": "DANA 152mm",
+				"ua": 26
+			},
+			{
+				"model": "Pion 203mm",
+				"ua": 13
+			},
+			{
+				"model": "Koalitsiya-SV 152mm",
+				"ru": 8
+			},
+			{
+				"model": "Bohdana 155mm",
+				"ua": 1
+			},
+			{
+				"model": "Gvozdika 122mm (in store)",
+				"ru": 2000
+			},
+			{
+				"model": "Akatsiya 152mm (in store)",
+				"ru": 1000
+			},
+			{
+				"model": "Giatsint-S 152mm (in store)",
+				"ru": 850
+			},
+			{
+				"model": "M109 155mm (in store)",
+				"us": 850
+			},
+			{
+				"model": "NONA-S 120mm (in store)",
+				"ru": 500
+			},
+			{
+				"model": "Pion 203mm (in store)",
+				"ru": 260,
+				"ua": 82
+			},
+			{
+				"model": "Msta-S 152mm (in store)",
+				"ru": 150
+			}
+		],
+		"ua": 716,
+		"us": 1539
+	},
+	{
+		"category": "Multiple Launch Rocket System",
+		"ru": 4334,
+		"byModel": [
+			{
+				"model": "Grad",
+				"ru": 586,
+				"ua": 209
+			},
+			{
+				"model": "M142 HIMARS",
+				"us": 410
+			},
+			{
+				"model": "Uragan",
+				"ru": 224,
+				"ua": 70
+			},
+			{
+				"model": "M270",
+				"us": 225
+			},
+			{
+				"model": "Tornado",
+				"ru": 200
+			},
+			{
+				"model": "Smerch",
+				"ru": 104,
+				"ua": 81
+			},
+			{
+				"model": "Grad (in store)",
+				"ru": 2420
+			},
+			{
+				"model": "Katyusha (in store)",
+				"ru": 800
+			},
+			{
+				"model": "M270 (in store)",
+				"us": 766
+			}
+		],
+		"ua": 360,
+		"us": 1401
+	},
+	{
+		"category": "Air Defense System",
+		"ru": 2798,
+		"byModel": [
+			{
+				"model": "Patriot",
+				"us": 1106
+			},
+			{
+				"model": "S-300",
+				"ru": 516,
+				"ua": 250
+			},
+			{
+				"model": "Buk",
+				"ru": 430,
+				"ua": 72
+			},
+			{
+				"model": "Strela",
+				"ru": 480
+			},
+			{
+				"model": "Avenger",
+				"us": 453
+			},
+			{
+				"model": "S-400",
+				"ru": 448
+			},
+			{
+				"model": "Osa",
+				"ru": 420
+			},
+			{
+				"model": "Tunguska",
+				"ru": 250,
+				"ua": 75
+			},
+			{
+				"model": "Tor",
+				"ru": 132,
+				"ua": 6
+			},
+			{
+				"model": "Pantsir",
+				"ru": 116
+			},
+			{
+				"model": "THAAD",
+				"us": 42
+			},
+			{
+				"model": "Iron Dome",
+				"us": 12
+			},
+			{
+				"model": "NASAMS",
+				"us": 8
+			},
+			{
+				"model": "S-350",
+				"ru": 6
+			}
+		],
+		"ua": 403,
+		"us": 1621
+	},
+	{
+		"category": "Warplane",
+		"ru": 1214,
+		"byModel": [
+			{
+				"model": "F-16",
+				"us": 953
+			},
+			{
+				"model": "F/A-18",
+				"us": 778
+			},
+			{
+				"model": "F-35",
+				"us": 467
+			},
+			{
+				"model": "F-15",
+				"us": 453
+			},
+			{
+				"model": "A-10",
+				"us": 281
+			},
+			{
+				"model": "Su-25",
+				"ru": 199,
+				"ua": 31
+			},
+			{
+				"model": "F-22",
+				"us": 185
+			},
+			{
+				"model": "Su-27",
+				"ru": 119,
+				"ua": 34
+			},
+			{
+				"model": "MiG-29",
+				"ru": 109,
+				"ua": 36
+			},
+			{
+				"model": "Su-30",
+				"ru": 132
+			},
+			{
+				"model": "Su-24",
+				"ru": 111,
+				"ua": 14
+			},
+			{
+				"model": "Su-34",
+				"ru": 125
+			},
+			{
+				"model": "B-52",
+				"us": 122
+			},
+			{
+				"model": "MiG-31",
+				"ru": 117
+			},
+			{
+				"model": "P-8",
+				"us": 110
+			},
+			{
+				"model": "AV-8B",
+				"us": 108
+			},
+			{
+				"model": "Su-35",
+				"ru": 97
+			},
+			{
+				"model": "Tu-22",
+				"ru": 61
+			},
+			{
+				"model": "Tu-95",
+				"ru": 60
+			},
+			{
+				"model": "B-1",
+				"us": 45
+			},
+			{
+				"model": "B-2",
+				"us": 40
+			},
+			{
+				"model": "F-5",
+				"us": 31
+			},
+			{
+				"model": "Il-38",
+				"ru": 22
+			},
+			{
+				"model": "Tu-142",
+				"ru": 22
+			},
+			{
+				"model": "P-3",
+				"us": 21
+			},
+			{
+				"model": "Su-33",
+				"ru": 17
+			},
+			{
+				"model": "Tu-160",
+				"ru": 16
+			},
+			{
+				"model": "AC-130",
+				"us": 13
+			},
+			{
+				"model": "MiG-35",
+				"ru": 6
+			},
+			{
+				"model": "Su-57",
+				"ru": 1
+			}
+		],
+		"ua": 115,
+		"us": 3607
+	},
+	{
+		"category": "Helicopter",
+		"ru": 1455,
+		"byModel": [
+			{
+				"model": "UH-60 Black Hawk",
+				"us": 1870
+			},
+			{
+				"model": "AH-64 Apache",
+				"us": 740
+			},
+			{
+				"model": "Mi-8",
+				"ru": 559,
+				"ua": 74
+			},
+			{
+				"model": "MH-60 Seahawk",
+				"us": 529
+			},
+			{
+				"model": "CH-47 Chinook",
+				"us": 517
+			},
+			{
+				"model": "UH-72 Lakota",
+				"us": 462
+			},
+			{
+				"model": "HH-60 Black Hawk",
+				"us": 306
+			},
+			{
+				"model": "Ka-52",
+				"ru": 206
+			},
+			{
+				"model": "Mi-24",
+				"ru": 168,
+				"ua": 35
+			},
+			{
+				"model": "Mi-28",
+				"ru": 171
+			},
+			{
+				"model": "CH-53",
+				"us": 170
+			},
+			{
+				"model": "AH-1Z Viper",
+				"us": 131
+			},
+			{
+				"model": "UH-1Y Venom",
+				"us": 129
+			},
+			{
+				"model": "TH-57 Sea Ranger",
+				"us": 119
+			},
+			{
+				"model": "Mi-35",
+				"ru": 115
+			},
+			{
+				"model": "HH-60 Pave Hawk",
+				"us": 82
+			},
+			{
+				"model": "Ka-27",
+				"ru": 68,
+				"ua": 4
+			},
+			{
+				"model": "UH-1 Iroquois",
+				"us": 65
+			},
+			{
+				"model": "UH-1N Twin Huey",
+				"us": 64
+			},
+			{
+				"model": "Mi-26",
+				"ru": 63
+			},
+			{
+				"model": "MH-6 Little Bird",
+				"us": 51
+			},
+			{
+				"model": "Kazan Ansat",
+				"ru": 50
+			},
+			{
+				"model": "Ka-29",
+				"ru": 27
+			},
+			{
+				"model": "Ka-226",
+				"ru": 26
+			},
+			{
+				"model": "Mi-17",
+				"us": 20
+			},
+			{
+				"model": "VH-3D Sea King",
+				"us": 19
+			},
+			{
+				"model": "TH-73A",
+				"us": 15
+			},
+			{
+				"model": "H225M",
+				"ua": 4
+			},
+			{
+				"model": "VH-92 Patriot",
+				"us": 4
+			},
+			{
+				"model": "Mi-14",
+				"ua": 3
+			},
+			{
+				"model": "Mi-2",
+				"ua": 3
+			},
+			{
+				"model": "OH-58 Kiowa",
+				"us": 3
+			},
+			{
+				"model": "Ka-31",
+				"ru": 2
+			},
+			{
+				"model": "H125",
+				"ua": 2
+			},
+			{
+				"model": "Lev-1",
+				"ua": 1
+			}
+		],
+		"ua": 126,
+		"us": 5296
+	},
+	{
+		"category": "Tank",
+		"ru": 18117,
+		"byModel": [
+			{
+				"model": "M1 Abrams",
+				"us": 2645
+			},
+			{
+				"model": "T-72",
+				"ru": 2420,
+				"ua": 133
+			},
+			{
+				"model": "T-64",
+				"ua": 761
+			},
+			{
+				"model": "T-80",
+				"ru": 580,
+				"ua": 88
+			},
+			{
+				"model": "T-90",
+				"ru": 417
+			},
+			{
+				"model": "T-84",
+				"ua": 5
+			},
+			{
+				"model": "T-72 (in store)",
+				"ru": 7000,
+				"ua": 500
+			},
+			{
+				"model": "M1 Abrams (in store)",
+				"us": 3450
+			},
+			{
+				"model": "T-80 (in store)",
+				"ru": 3000,
+				"ua": 34
+			},
+			{
+				"model": "T-64 (in store)",
+				"ru": 2000,
+				"ua": 578
+			},
+			{
+				"model": "T-62 (in store)",
+				"ru": 2500
+			},
+			{
+				"model": "T-90 (in store)",
+				"ru": 200
+			}
+		],
+		"ua": 2099,
+		"us": 6095
+	},
+	{
+		"category": "Infantry Fighting Vehicle",
+		"ru": 19351,
+		"byModel": [
+			{
+				"model": "BMP-2",
+				"ru": 3450,
+				"ua": 891
+			},
+			{
+				"model": "Stryker",
+				"us": 4333
+			},
+			{
+				"model": "Bradley",
+				"us": 4034
+			},
+			{
+				"model": "BMP/BTR",
+				"ru": 2650
+			},
+			{
+				"model": "BTR-82A",
+				"ru": 2070
+			},
+			{
+				"model": "BMD-2",
+				"ru": 1000,
+				"ua": 60
+			},
+			{
+				"model": "BMP-3",
+				"ru": 760,
+				"ua": 4
+			},
+			{
+				"model": "BMP-1",
+				"ru": 470,
+				"ua": 213
+			},
+			{
+				"model": "LAV-25",
+				"us": 502
+			},
+			{
+				"model": "BMD-4",
+				"ru": 351
+			},
+			{
+				"model": "BTR-3",
+				"ua": 185
+			},
+			{
+				"model": "BTR-4",
+				"ua": 105
+			},
+			{
+				"model": "BTR-80A",
+				"ru": 100
+			},
+			{
+				"model": "BMD-1",
+				"ua": 45
+			},
+			{
+				"model": "BMP-1 (in store)",
+				"ru": 7000
+			},
+			{
+				"model": "Bradley (in store)",
+				"us": 2800
+			},
+			{
+				"model": "BMP-2 (in store)",
+				"ru": 1500
+			}
+		],
+		"ua": 1503,
+		"us": 11669
+	}
 ]

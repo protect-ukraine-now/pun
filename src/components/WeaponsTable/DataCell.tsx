@@ -3,8 +3,9 @@ import cn from 'clsx'
 
 import style from './style.module.scss'
 import useClickOutside from 'src/tools/useClickOutside'
+import countries from 'src/data/countries.json'
 
-const DataCell = ({ className, value, delta, sources }) => {
+const DataCell = ({ className, value, delta, sources, ...rest }) => {
 	const [isSourcePopupShown, setIsSourcePopupShown] = useState(false)
 	const popupRef = useRef()
 	useClickOutside(popupRef, () => setIsSourcePopupShown(false))
@@ -17,17 +18,18 @@ const DataCell = ({ className, value, delta, sources }) => {
 	const sourcesPopup = (
 		isSourcePopupShown ? (
 			<div className={style.popup} ref={popupRef}>
-				{Object.entries(sources).map(([link, title]) => {
+				{sources.map(({ country, model, qty, link }, i) => {
 					return (
 						<a
 							className={style.source}
 							href={link}
-							key={link}
+							title={countries[country]}
+							key={i}
 							target="_blank"
-							title={link}
 							rel="noreferrer"
 						>
-							{title || link}
+							<span className={`i-circle-flags-${country} text-xl align-text-bottom`}/>
+							{' '}<b className="font-bold">+{qty}</b> {model}
 						</a>
 					)
 				})}
@@ -38,7 +40,7 @@ const DataCell = ({ className, value, delta, sources }) => {
 	let emptyValue = <span className={style.emptyValue}>0</span >
 
 	return (
-		<div className={cn(className, style.cell)}>
+		<div className={cn(className, style.cell)} {...rest}>
 			<span className={style.count}>
 				{value || emptyValue}
 				{!!delta && (

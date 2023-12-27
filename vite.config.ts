@@ -5,6 +5,8 @@ import { presetUno, transformerDirectives } from 'unocss'
 import { presetDaisy } from 'unocss-preset-daisy'
 import { presetIcons } from '@unocss/preset-icons'
 
+import countries from './src/data/countries.json'
+
 const viteEnv = {}
 Object.entries(process.env).forEach(([key, val]) => {
 	if (key.startsWith(`VITE_`)) {
@@ -27,10 +29,12 @@ export default defineConfig({
 				presetIcons({
 					prefix: 'i-',
 					extraProperties: {
-						display: 'inline-block'
+						display: 'inline-block',
+						'vertical-align': 'text-bottom',
 					}
 				}),
 			],
+			safelist: Object.keys(countries).map(c => `i-circle-flags-${c}`),
 		}),
 		rakkas({
 			adapter: 'cloudflare-workers',
