@@ -27,7 +27,7 @@
 		"2022-04-08",
 		"sk",
 		"Air Defense System",
-		"S-300PMU",
+		"S-300",
 		2,
 		"https://newlinesinstitute.org/ukraine/what-heavy-weapons-the-west-has-and-hasnt-sent-ukraine/"
 	],
@@ -43,7 +43,7 @@
 		"2022-04-13",
 		"cz",
 		"Self-Propelled Artillery",
-		"ShKH vz. 77 DANA 152mm",
+		"DANA 152mm",
 		38,
 		"https://www.wsj.com/livecoverage/russia-ukraine-latest-news-2022-04-13/card/czech-republic-supplies-heavy-weapons-to-ukraine-wgT3jSDz1RwRr9JZhzeL"
 	],
@@ -51,7 +51,7 @@
 		"2022-04-13",
 		"cz",
 		"Multiple Launch Rocket System",
-		"BM-21 Grad",
+		"Grad",
 		33,
 		"https://www.wsj.com/livecoverage/russia-ukraine-latest-news-2022-04-13/card/czech-republic-supplies-heavy-weapons-to-ukraine-wgT3jSDz1RwRr9JZhzeL"
 	],
@@ -99,7 +99,7 @@
 		"2022-04-25",
 		"nl",
 		"Self-Propelled Artillery",
-		"PzH2000 155mm",
+		"PzH 2000 155mm",
 		5,
 		"https://www.oryxspioenkop.com/2022/04/beyond-call-dutch-arms-deliveries-to.html"
 	],
@@ -123,7 +123,7 @@
 		"2022-04-29",
 		"pl",
 		"Self-Propelled Artillery",
-		"2S1 Gvozdika 122mm",
+		"Gvozdika 122mm",
 		20,
 		"https://www.polskieradio.pl/395/7785/Artykul/2948382"
 	],
@@ -131,7 +131,7 @@
 		"2022-04-29",
 		"pl",
 		"Multiple Launch Rocket System",
-		"BM-21 Grad",
+		"Grad",
 		20,
 		"https://www.polskieradio.pl/395/7785/Artykul/2948382"
 	],
@@ -155,7 +155,7 @@
 		"2022-05-03",
 		"de",
 		"Self-Propelled Artillery",
-		"PzH2000 155mm",
+		"PzH 2000 155mm",
 		7,
 		"https://www.welt.de/politik/deutschland/article238522185/Waffenlieferungen-Bundesregierung-will-Panzerhaubitzen-2000-an-die-Ukraine-liefern.html"
 	],
@@ -211,7 +211,7 @@
 		"2022-05-30",
 		"sk",
 		"Self-Propelled Artillery",
-		"ShKH Zuzana 155mm",
+		"Zuzana 155mm",
 		8,
 		"https://www.reuters.com/world/europe/slovakia-deliver-eight-zuzana-2-howitzers-ukraine-says-ministry-2022-06-02/"
 	],
@@ -299,7 +299,7 @@
 		"2022-06-23",
 		"si",
 		"Infantry Fighting Vehicle",
-		"BVP M-80A",
+		"M-80",
 		35,
 		"https://www.himalayaustralia.com.au/2022/06/23/germany-reveals-full-list-of-military-aid-to-ukraine/"
 	],
@@ -339,7 +339,7 @@
 		"2022-06-28",
 		"de",
 		"Self-Propelled Artillery",
-		"PzH2000 155mm",
+		"PzH 2000 155mm",
 		3,
 		"https://www.dw.com/ru/vojna-ukraina-rossija-28-ijunja-2/a-62290260"
 	],
@@ -347,7 +347,7 @@
 		"2022-06-28",
 		"nl",
 		"Self-Propelled Artillery",
-		"PzH2000 155mm",
+		"PzH 2000 155mm",
 		3,
 		null
 	],
@@ -355,7 +355,7 @@
 		"2022-06-30",
 		"gb",
 		"Towed Artillery",
-		"L119 105mm",
+		"M119 105mm",
 		36,
 		"https://www.gov.uk/government/news/uk-to-send-scores-of-artillery-guns-and-hundreds-of-drones-to-ukraine"
 	],
@@ -475,7 +475,7 @@
 		"2022-08-20",
 		"us",
 		"Towed Artillery",
-		"L119 105mm",
+		"M119 105mm",
 		16,
 		"https://www.defense.gov/News/Releases/Release/Article/3134457/775-million-in-additional-security-assistance-for-ukraine/"
 	],
@@ -499,7 +499,7 @@
 		"2022-09-08",
 		"us",
 		"Towed Artillery",
-		"L119 105mm",
+		"M119 105mm",
 		4,
 		"https://www.defense.gov/News/Releases/Release/Article/3152071/675-million-in-additional-security-assistance-for-ukraine/"
 	],
@@ -531,7 +531,7 @@
 		"2022-09-19",
 		"de",
 		"Self-Propelled Artillery",
-		"PzH2000 155mm",
+		"PzH 2000 155mm",
 		4,
 		"https://mil.in.ua/en/news/germany-will-supply-ukraine-with-an-additional-4-pzh-2000-self-propelled-guns/"
 	],
@@ -539,7 +539,7 @@
 		"2022-10-04",
 		"us",
 		"Towed Artillery",
-		"L119 105mm",
+		"M119 105mm",
 		16,
 		"https://www.defense.gov/News/Releases/Release/Article/3179323/625-million-in-additional-security-assistance-for-ukraine/"
 	],
@@ -611,7 +611,7 @@
 		"2022-10-29",
 		"it",
 		"Self-Propelled Artillery",
-		"PzH2000 155mm",
+		"PzH 2000 155mm",
 		6,
 		"https://www.repubblica.it/esteri/2022/10/29/news/ucraina_kiev_armi_italia-372176795/"
 	],
@@ -691,7 +691,7 @@
 		"2023-01-06",
 		"us",
 		"Infantry Fighting Vehicle",
-		"M2 Bradley",
+		"Bradley",
 		50,
 		"https://www.defense.gov/News/Releases/Release/Article/3261263/more-than-3-billion-in-additional-security-assistance-for-ukraine/"
 	],
@@ -707,7 +707,7 @@
 		"2023-01-06",
 		"us",
 		"Towed Artillery",
-		"L119 105mm",
+		"M119 105mm",
 		36,
 		"https://www.defense.gov/News/Releases/Release/Article/3261263/more-than-3-billion-in-additional-security-assistance-for-ukraine/"
 	],
@@ -747,7 +747,7 @@
 		"2023-01-19",
 		"ee",
 		"Towed Artillery",
-		"FH-70 155mm",
+		"FH70 155mm",
 		24,
 		"https://www.kaitseministeerium.ee/en/news/estonian-minister-defence-allies-must-give-ukraine-heavy-weaponry"
 	],
@@ -771,7 +771,7 @@
 		"2023-01-19",
 		"us",
 		"Infantry Fighting Vehicle",
-		"M2 Bradley",
+		"Bradley",
 		59,
 		"https://www.defense.gov/News/Releases/Release/Article/3272866/biden-administration-announces-additional-security-assistance-for-ukraine/"
 	],
@@ -819,7 +819,7 @@
 		"2023-01-27",
 		"pl",
 		"Tank",
-		"PT-91",
+		"PT-91 Twardy",
 		30,
 		"https://www.aa.com.tr/en/russia-ukraine-war/poland-to-send-60-more-tanks-to-ukraine-in-addition-to-14-leopard-2/2799176"
 	],
@@ -875,7 +875,7 @@
 		"2023-02-17",
 		"fr",
 		"Tank",
-		"AMX-10RC",
+		"AMX-10 RC",
 		14,
 		"https://twitter.com/visegrad24/status/1626513339210780674?s=20"
 	],
@@ -883,7 +883,7 @@
 		"2023-02-20",
 		"us",
 		"Infantry Fighting Vehicle",
-		"M2 Bradley",
+		"Bradley",
 		4,
 		"https://www.defense.gov/News/Releases/Release/Article/3302787/biden-administration-announces-additional-security-assistance-for-ukraine/"
 	],
@@ -971,7 +971,7 @@
 		"2023-03-17",
 		"sk",
 		"Air Defense System",
-		"2K12 Kub",
+		"Kub",
 		2,
 		"https://www.mosr.sk/52628-en/minister-obrany-j-nad-podpisal-medzivladnu-dohodu-s-ukrajinou/"
 	],
@@ -1035,7 +1035,7 @@
 		"2023-04-23",
 		"fi",
 		"Towed Artillery",
-		"2A36 Giatsint-B 152mm",
+		"Giatsint-B 152mm",
 		24,
 		"https://en.defence-ua.com/news/the_finnish_giatsint_b_gun_was_spotted_in_the_hands_of_the_ukrainian_forces_video-6388.html"
 	],
@@ -1059,7 +1059,7 @@
 		"2023-05-10",
 		"cz",
 		"Air Defense System",
-		"2K12 Kub",
+		"Kub",
 		2,
 		"https://news.yahoo.com/czech-republic-supplies-ukraine-two-160616614.html"
 	],
@@ -1083,7 +1083,7 @@
 		"2023-06-13",
 		"us",
 		"Infantry Fighting Vehicle",
-		"M2 Bradley",
+		"Bradley",
 		15,
 		"https://www.defense.gov/News/Releases/Release/Article/3426389/biden-administration-announces-additional-security-assistance-for-ukraine/"
 	],
@@ -1107,7 +1107,7 @@
 		"2023-06-27",
 		"us",
 		"Infantry Fighting Vehicle",
-		"M2 Bradley",
+		"Bradley",
 		30,
 		"https://media.defense.gov/2023/Jun/27/2003248805/-1/-1/1/Ukraine-Fact-Sheet-27-June.PDF"
 	],
@@ -1131,7 +1131,7 @@
 		"2023-07-07",
 		"us",
 		"Infantry Fighting Vehicle",
-		"M2 Bradley",
+		"Bradley",
 		32,
 		"https://www.defense.gov/News/News-Stories/Article/Article/3451905/dod-announces-800m-security-assistance-package-for-ukraine/"
 	],
@@ -1195,7 +1195,7 @@
 		"2023-08-04",
 		"de",
 		"Self-Propelled Artillery",
-		"ShKH Zuzana 155mm",
+		"Zuzana 155mm",
 		2,
 		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
 	],
@@ -1259,7 +1259,7 @@
 		"2023-09-22",
 		"us",
 		"Tank",
-		"M1A1 Abrams",
+		"M1 Abrams",
 		10,
 		"https://www.aljazeera.com/news/2023/9/22/what-we-know-about-us-abrams-tanks-arriving-in-ukraine-next-week"
 	],
@@ -1267,7 +1267,7 @@
 		"2023-10-16",
 		"us",
 		"Tank",
-		"M1A1 Abrams",
+		"M1 Abrams",
 		21,
 		"https://www.voanews.com/a/all-31-abrams-tanks-in-ukraine-us-military-confirms-to-voa/7313918.html"
 	],
@@ -1291,7 +1291,7 @@
 		"2023-11-01",
 		"fr",
 		"Tank",
-		"AMX-10RC",
+		"AMX-10 RC",
 		26,
 		"https://bulgarianmilitary.com/2023/11/01/part-of-the-french-amx-10rcs-to-kyiv-are-for-ukrainian-marines/"
 	],

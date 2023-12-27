@@ -34,7 +34,7 @@ export default defineConfig({
 					}
 				}),
 			],
-			safelist: Object.values(countries).map(c => `i-circle-flags-${c}`),
+			safelist: Object.keys(countries).map(c => `i-circle-flags-${c}`),
 		}),
 		rakkas({
 			adapter: 'cloudflare-workers',

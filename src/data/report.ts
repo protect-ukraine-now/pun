@@ -17,16 +17,14 @@ export let Report = till => {
     let next = till < latest && isoDate(t + timespan)
     return { from, till, prev, next }
 }
-
 export let latestReport = Report(latest)!
 
 let modify = (p, fn, o) => assocPath(p, fn(path(p, o)), o)
-
 let commitsByCategory = ({ report = latestReport, filter = null } = {}) => {
     let o = commits.reduce((o, r) => {
         let [date, country, category, model, qty, link] = r
         if (date > report.till || (filter && !filter(r))) return o
-        let add = x => (x || 0) + (+qty || 0)
+        let add = x => (x || 0) + +qty
         let idx = country === 'us' ? 0 : 1
         let values = x => modify([idx, 'value'], add, x || [{}, {}])
         o = modify([category, 'values'], values, o)
@@ -41,13 +39,6 @@ let commitsByCategory = ({ report = latestReport, filter = null } = {}) => {
     }, {})
     // console.log(o)
     return o
-}
-
-export function balanceReport() {
-    return balance.map(([category, ru, ua]) => ({
-        category,
-        values: [{ value: ru }, { value: ua }],
-    }))
 }
 
 export function incomeReport(report) {
@@ -68,10 +59,27 @@ export function incomeReport(report) {
     })
 }
 
+export function balanceReport() {
+    return balance.map(({ category, ru, ua, byModel }) => ({
+        category,
+        values: [{ value: ru }, { value: ua }],
+        byModel: byModel.filter(x => (x.ru|0) + (x.ua|0)),
+    }))
+}
+
 let byCategory = commitsByCategory() // { filter: x => (x[5] || 'PDA') === 'PDA' }
 export function inventoryReport() {
-    return balance.map(([category, ru, ua, us]) => ({
-        category,
-        values: [{ value: us }, byCategory[category]?.values[0]],
-    }))
+    return balance.map(({ category, us, byModel }) => {
+        let cat = byCategory[category]
+        byModel = byModel.filter(x => +x.us).map(x => ({
+            ...x,
+            possessed: x.us,
+            committed: cat.byModel[x.model]?.byCountry.us,
+        }))
+        return {
+            category,
+            values: [{ value: us }, cat.values[0]],
+            byModel,
+        }
+    })
 }
