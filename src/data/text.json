@@ -103,7 +103,6 @@
 			"total_budget": "Total",
 			"direct": "Direct aid to Ukraine",
 			"misc": "Miscellaneous",
-			"other": "Other spendings",
 			"other_military": "Military spendings outside Ukraine",
 			"other_us_mil_eu": "US troops in Europe",
 			"other_aid_eu_mil": "Military aid to European allies (FMF)",
@@ -119,8 +118,8 @@
 			"instant_expired": "FY22 Expired funds",
 			"instant_carryover": "FY22-23 Carryover funds",
 			"deferred_committed": "Committed",
-			"deferred_obligated": "Obligated",
-			"deferred_pending": "Pending",
+			"deferred_obligated": "Contract awarded",
+			"deferred_pending": "Contract pending",
 			"deferred_available": "Available."
 		},
 		"pda": {
@@ -224,7 +223,6 @@
 			"total_budget": "Всього",
 			"direct": "Пряма допомога Україні",
 			"misc": "Різне",
-			"other": "Інші витрати",
 			"other_us_mil_eu": "Війська США в Європі",
 			"military": "Військова",
 			"human": "Гуманітарна та економічна",
@@ -235,6 +233,8 @@
 			"instant_expired": "Прострочено у 2022 ФР",
 			"instant_carryover": "Перенесенно з 2022-23 ФР",
 			"deferred_committed": "Обіцяно.",
+			"deferred_obligated": "Контракт укладено",
+			"deferred_pending": "Контракт не укладено",
 			"deferred_available": "Доступно."
 		},
 		"pda": {
