@@ -1276,7 +1276,7 @@
 		"de",
 		"Air Defense System",
 		"Gepard",
-		3,
+		2,
 		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
 	],
 	[
@@ -1325,6 +1325,14 @@
 		"Air Defense System",
 		"Patriot",
 		4,
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
+	],
+	[
+		"2023-12-22",
+		"de",
+		"Air Defense System",
+		"Gepard",
+		3,
 		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
 	]
 ]

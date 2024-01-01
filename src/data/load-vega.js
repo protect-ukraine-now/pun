@@ -18,8 +18,7 @@ function loadVega(specs) {
     })
 }
 
-// await Promise.all(...)
-// loadVega({
-//     sankey,
-//     pda: vl.compile(pda).spec,
-// })
+loadVega({
+    sankey,
+    pda: vl.compile(pda).spec,
+})
