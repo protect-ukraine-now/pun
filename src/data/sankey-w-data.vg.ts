@@ -63,7 +63,7 @@ export default
 					"color": "string"
 				}
 			},
-			"values": "name,category,stack,sort,labels,color\r\nMar '22,bill_mar_22,1,1,left,blue\r\nMay '22,bill_may_22,1,2,left,blue\r\nSep '22,bill_sep_22,1,3,left,blue\r\nDec '22,bill_dec_22,1,4,left,blue\r\nOther appropriations,bill_sep_23,1,5,left,blue\r\nTotal,total_budget,2,1,left,blue\r\nDirect aid to Ukraine,direct_total,3,1,left,green\r\nMiscellaneous,misc,3,2,left,grey\r\nMilitary Aid,direct_military,4,1,left,green\r\nHumanitarian & Economic Aid,human,4,2,left,pink\r\nMilitary,other_military,4,3,left,grey\r\nGlobal food security & other,other_food,4,5,left,grey\r\nUkrainian refugees in US,other_ua_refugees,4,4,left,grey\r\nUS troops in Europe,other_us_mil_eu,5,3,left,grey\r\nMilitary aid to European allies (FMF),other_aid_eu_mil,5,5,left,grey\r\nOther DoD needs,other_dod,5,4,left,grey\r\nInstant aid (PDA),instant_total,5,1,left,green\r\nDelivered,instant_committed,6,1,right,green\r\nFY22-23 Expired funds,instant_expired,6,2,right,red\r\nFY22-23 Carryover funds,instant_carryover,6,3,right,orange\r\nDeferred aid (USAI & FMF),deferred_total,5,2,left,#f2cf5b\r\nObligated,deferred_obligated,6,4,right,#f2cf5b\r\nPending,deferred_pending,6,5,right,#f2cf5b"
+			"values": "name,category,stack,sort,labels,color\r\nMar '22,bill_mar_22,1,1,left,blue\r\nMay '22,bill_may_22,1,2,left,blue\r\nSep '22,bill_sep_22,1,3,left,blue\r\nDec '22,bill_dec_22,1,4,left,blue\r\nOther appropriations,bill_sep_23,1,5,left,blue\r\nTotal,total_budget,2,1,left,blue\r\nDirect aid to Ukraine,direct_total,3,1,left,green\r\nMiscellaneous,misc,3,2,left,grey\r\nMilitary Aid,direct_military,4,1,left,green\r\nHumanitarian & Economic Aid,human,4,2,left,pink\r\nMilitary,other_military,4,3,left,grey\r\nGlobal food security & other,other_food,4,5,left,grey\r\nUkrainian refugees in US,other_ua_refugees,4,4,left,grey\r\nUS troops in Europe,other_us_mil_eu,5,3,left,grey\r\nMilitary aid to European allies (FMF),other_aid_eu_mil,5,5,right,grey\r\nOther DoD needs,other_dod,5,4,left,grey\r\nInstant aid (PDA),instant_total,5,1,left,green\r\nDelivered,instant_committed,6,1,right,green\r\nFY22-23 Expired funds,instant_expired,6,2,right,red\r\nFY22-23 Carryover funds,instant_carryover,6,3,right,orange\r\nDeferred aid (USAI & FMF),deferred_total,5,2,left,#f2cf5b\r\nObligated,deferred_obligated,6,4,right,#f2cf5b\r\nPending,deferred_pending,6,5,right,#f2cf5b"
 		},
 		{
 			"name": "connections",
@@ -529,11 +529,11 @@ export default
 						"value": "red"
 					},
 					"x": {
-						"signal": "datum.labels=='left'?scale('x', datum.stack) + 8 : scale('x', datum.stack) + (bandwidth('x')) - 8"
+						"signal": "datum.labels=='left'?scale('x', datum.stack) - 8 : scale('x', datum.stack) + (bandwidth('x')) + 8"
 					},
 					"yc": {
 						"scale": "y",
-						"signal": "datum.yc + datum.value/2 + 8"
+						"signal": "datum.yc"
 					},
 					"width": {
 						"signal": "0"
@@ -607,19 +607,19 @@ export default
 				"update": {
 					"x": {
 						"field": "bounds.x1",
-						"offset": -2
+						"offset": -4
 					},
 					"x2": {
 						"field": "bounds.x2",
-						"offset": 2
+						"offset": 4
 					},
 					"y": {
 						"field": "bounds.y1",
-						"offset": -2
+						"offset": -4
 					},
 					"y2": {
 						"field": "bounds.y2",
-						"offset": 2
+						"offset": 4
 					},
 					"fill": {
 						"value": "white"
