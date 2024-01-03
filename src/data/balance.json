@@ -181,7 +181,7 @@
 		"ru": 4334,
 		"byModel": [
 			{
-				"model": "Grad",
+				"model": "BM-21 Grad",
 				"ru": 586,
 				"ua": 209
 			},
@@ -190,7 +190,7 @@
 				"us": 410
 			},
 			{
-				"model": "Uragan",
+				"model": "BM-27 Uragan",
 				"ru": 224,
 				"ua": 70
 			},
@@ -199,20 +199,24 @@
 				"us": 225
 			},
 			{
-				"model": "Tornado",
-				"ru": 200
-			},
-			{
-				"model": "Smerch",
+				"model": "BM-30 Smerch",
 				"ru": 104,
 				"ua": 81
 			},
 			{
-				"model": "Grad (in store)",
+				"model": "9K51M Tornado-G",
+				"ru": 180
+			},
+			{
+				"model": "9K515 Tornado-S",
+				"ru": 20
+			},
+			{
+				"model": "BM-21 Grad (in store)",
 				"ru": 2420
 			},
 			{
-				"model": "Katyusha (in store)",
+				"model": "BM-13 Katyusha (in store)",
 				"ru": 800
 			},
 			{
@@ -228,7 +232,7 @@
 		"ru": 2798,
 		"byModel": [
 			{
-				"model": "Patriot",
+				"model": "MIM-104 Patriot",
 				"us": 1106
 			},
 			{
@@ -237,16 +241,12 @@
 				"ua": 250
 			},
 			{
-				"model": "Buk",
+				"model": "9K37 Buk",
 				"ru": 430,
 				"ua": 72
 			},
 			{
-				"model": "Strela",
-				"ru": 480
-			},
-			{
-				"model": "Avenger",
+				"model": "M1097 Avenger",
 				"us": 453
 			},
 			{
@@ -254,22 +254,30 @@
 				"ru": 448
 			},
 			{
-				"model": "Osa",
+				"model": "9K35 Strela-10",
+				"ru": 430
+			},
+			{
+				"model": "9K33 Osa",
 				"ru": 420
 			},
 			{
-				"model": "Tunguska",
+				"model": "2K22 Tunguska",
 				"ru": 250,
 				"ua": 75
 			},
 			{
-				"model": "Tor",
+				"model": "9K330 Tor",
 				"ru": 132,
 				"ua": 6
 			},
 			{
-				"model": "Pantsir",
+				"model": "96К6 Pantsir",
 				"ru": 116
+			},
+			{
+				"model": "9K31 Strela-1",
+				"ru": 50
 			},
 			{
 				"model": "THAAD",
