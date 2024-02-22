@@ -3,3 +3,4 @@ California-based NGO to help Ukraine in its struggle against Russia's unprovoked
 
 **Manual deployment**
 - 2024-01-28
+- 2024-01-22
