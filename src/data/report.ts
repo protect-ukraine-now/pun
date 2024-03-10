@@ -6,7 +6,7 @@ import categories from './categories.json'
 import { isoDate, DAY } from '../tools/date'
 
 const first = '2022-07-17'
-export const latest = '2024-02-25'
+export const latest = '2024-03-10'
 
 let timespan = 14 * DAY
 export let Report = till => {
