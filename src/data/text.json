@@ -94,12 +94,12 @@
 		"sankey24": {
 			"title": "US Aid: Ukraine Security Supplemental Appropriations Act, 2024",
 			"subtitle": "{{from}}",
-			"description": "- **Presidential Drawdown Authority (PDA)**: This is the fastest way to deliver military aid. The President can authorize transfers of existing US defense equipment directly from US stockpiles. It's ideal for immediate needs but limited by existing stock availability\n\n- **Ukraine Security Assistance Initiative (USAI)**: This program allows the US government to purchase new equipment directly from defense contractors.  Unlike PDA, USAI provides more flexibility to acquire the latest equipment Ukraine needs, but it takes longer to procure and deliver\n\n- **Foreign Military Financing (FMF)**:  This program offers grants or loans to eligible countries, including Ukraine, to purchase US defense articles and services.  Ukraine uses FMF funds to buy specific equipment and training through government-to-government agreements.  While offering flexibility in purchases, FMF requires negotiation and approval processes, leading to longer timelines compared to PDA\n\n- The difference between PDA Replenishment funds and PDA Cap is shown under 'Procurement'"
+			"description": "- The difference between PDA Replenishment funds and PDA Cap is shown under 'Procurement'"
 		},
 		"sankey-military": {
 			"title": "US Aid: Military",
 			"subtitle": "From {{from}} to {{till}}",
-			"description": "- According to our estimates, Ukraine has received approximately $3.3 billion worth of equipment procured through the USAI program"
+			"description": "- **Presidential Drawdown Authority (PDA)**: This is the fastest way to deliver military aid. The President can authorize transfers of existing US defense equipment directly from US stockpiles. It's ideal for immediate needs but limited by existing stock availability\r\n\r\n- **Ukraine Security Assistance Initiative (USAI)**: This program allows the US government to purchase new equipment directly from defense contractors.  Unlike PDA, USAI provides more flexibility to acquire the latest equipment Ukraine needs, but it takes longer to procure and deliver\r\n\r\n- **Foreign Military Financing (FMF)**:  This program offers grants or loans to eligible countries, including Ukraine, to purchase US defense articles and services.  Ukraine uses FMF funds to buy specific equipment and training through government-to-government agreements.  While offering flexibility in purchases, FMF requires negotiation and approval processes, leading to longer timelines compared to PDA\r\n\r\n- According to our estimates, Ukraine has received approximately $3.3 billion worth of equipment procured through the USAI program"
 		},
 		"sankey": {
 			"title": "US Aid: Ukraine Security Acts",
@@ -233,12 +233,12 @@
 		"sankey24": {
 			"title": "Допомога США: Закон про додаткові асигнування на безпеку України, 2024",
 			"subtitle": "{{from}}",
-			"description": "- **Presidential Drawdown Authority (PDA)**: це найшвидший спосіб доставки військової допомоги. Президент може дозволити передачу наявного оборонного обладнання США безпосередньо зі складів США. Він ідеально підходить для негайних потреб, але обмежений доступністю на складі\n\n- **Ініціатива сприяння безпеці в Україні (USAI)**: ця програма дозволяє уряду США купувати нове обладнання безпосередньо у оборонних підрядників. На відміну від PDA, USAI забезпечує більшу гнучкість для придбання найновішого обладнання, необхідного Україні, але закупівля та доставка займає більше часу\n\n- **Іноземне військове фінансування (FMF)**: ця програма пропонує гранти або позики відповідним країнам, включно з Україною, для придбання оборонних товарів і послуг США. Україна використовує кошти FMF для закупівлі спеціального обладнання та навчання через угоди між урядами. Пропонуючи гнучкість закупівель, FMF потребує процесів узгодження та затвердження, що веде до довших часових рамок порівняно з PDA\n\n- Різниця між коштами поповнення КПК і обмеженням КПК показано в розділі «Закупівлі»"
+			"description": "- Різниця між коштами поповнення КПК і обмеженням КПК показано в розділі «Закупівлі»"
 		},
 		"sankey-military": {
 			"title": "Допомога США: Військова",
 			"subtitle": "З {{from}} по {{till}}",
-			"description": "- За нашими оцінками, за програмою USAI Україна отримала обладнання вартістю близько 3,3 млрд доларів"
+			"description": "- **Presidential Drawdown Authority (PDA)**: це найшвидший спосіб доставки військової допомоги. Президент може дозволити передачу наявного оборонного обладнання США безпосередньо зі складів США. Він ідеально підходить для негайних потреб, але обмежений доступністю на складі\r\n\r\n- **Ініціатива сприяння безпеці в Україні (USAI)**: ця програма дозволяє уряду США купувати нове обладнання безпосередньо у оборонних підрядників. На відміну від PDA, USAI забезпечує більшу гнучкість для придбання найновішого обладнання, необхідного Україні, але закупівля та доставка займає більше часу\r\n\r\n- **Іноземне військове фінансування (FMF)**: ця програма пропонує гранти або позики відповідним країнам, включно з Україною, для придбання оборонних товарів і послуг США. Україна використовує кошти FMF для закупівлі спеціального обладнання та навчання через угоди між урядами. Пропонуючи гнучкість закупівель, FMF потребує процесів узгодження та затвердження, що веде до довших часових рамок порівняно з PDA\r\n\r\n- За нашими оцінками, за програмою USAI Україна отримала обладнання вартістю близько 3,3 млрд доларів"
 		},
 		"sankey": {
 			"title": "Допомога США: Закони про допомогу",
