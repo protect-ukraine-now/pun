@@ -1,4 +1,4 @@
-import { useCallback, useEffect } from 'react';
+import { useCallback, useEffect } from 'preact/hooks';
 
 export default (ref, callback) => {
 	const handleClickOutside = useCallback(

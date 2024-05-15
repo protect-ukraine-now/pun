@@ -1,0 +1,12 @@
+media:
+  input: src/assets
+  output: @assets
+content:
+  - name: pages
+    label: Pages
+    path: src/pages
+    type: collection
+  - name: notes
+    label: Notes
+    path: src/content/notes
+    type: collection

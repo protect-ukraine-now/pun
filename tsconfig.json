@@ -1,17 +1,24 @@
 {
+	"extends": "astro/tsconfigs/base",
 	"compilerOptions": {
-		"target": "es2021",
-		"module": "ESNext",
-		"esModuleInterop": true,
-		"forceConsistentCasingInFileNames": true,
-		"strict": true,
-		"skipLibCheck": true,
-		"moduleResolution": "Node",
-		"resolveJsonModule": true,
 		"jsx": "react-jsx",
-		"baseUrl": ".",
-		"types": ["vite/client"],
-
-		"noImplicitAny": false
+		"jsxImportSource": "preact",
+		"allowJs": true,
+		"moduleResolution": "bundler",
+		"allowImportingTsExtensions": true,
+		"target": "es2021",
+		"noImplicitAny": false,
+		"baseUrl": "src",
+		"paths": {
+			"@src/*": ["*"],
+			"@assets/*": ["assets/*"],
+			"@components/*": ["components/*"],
+			"@data/*": ["data/*"],
+			"@layouts/*": ["layouts/*"],
+			"@pages/*": ["pages/*"],
+			"@paraglide/*": ["paraglide/*"],
+			"@styles/*": ["styles/*"],
+			"@tools/*": ["tools/*"]
+		}
 	}
 }

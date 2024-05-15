@@ -1,16 +1,11 @@
-.wrangler
-.netlify
-netlify
-node_modules
-build
-dist
-*.log
-.idea
+dist/
+.astro/
+node_modules/
 
-.pnp.*
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/sdks
-!.yarn/versions
+*.log*
+
+.env
+.env.production
+
+.DS_Store
+.idea/

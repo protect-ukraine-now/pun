@@ -1,8 +1,8 @@
-import { useLanguage, useText } from 'src/tools/language'
-import { latestReport, inventoryReport } from 'src/data/report'
-import { formatDate } from 'src/tools/date'
+import { useLanguage, useText } from '@tools/language'
+import { latestReport, inventoryReport } from '@data/report'
+import { formatDate } from '@tools/date'
 import WeaponsTable from '../WeaponsTable'
-import { Fragment } from 'react'
+import { Fragment } from 'preact'
 
 let data = inventoryReport()
 
@@ -32,7 +32,7 @@ function Details({ byModel }) {
     </>
 }
 
-export default function WeaponsInventory() {
+export default function WeaponsInventory({ children }) {
     const text = useText()
     const formatter = formatDate(useLanguage())
     const from = formatter('2022-02-24')
@@ -41,5 +41,5 @@ export default function WeaponsInventory() {
     const subtitle = text('inventory.subtitle', { from, till })
     const head = [text('inventory.possessed'), text('inventory.pda')]
     const description = text('inventory.description')
-    return <WeaponsTable {...{ title, subtitle, head, data, description, Details }} />
+    return <WeaponsTable {...{ title, subtitle, head, data, description: children, Details }} />
 }

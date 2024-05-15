@@ -1,7 +1,7 @@
-import money from 'src/data/money.json'
-import { useLanguage, useText } from 'src/tools/language'
-import { latest } from 'src/data/report'
-import { formatDate } from 'src/tools/date'
+import money from '@data/money.json'
+import { useLanguage, useText } from '@tools/language'
+import { latest } from '@data/report'
+import { formatDate } from '@tools/date'
 import Section from '../Section'
 
 const population = 334565848

@@ -1,12 +1,12 @@
 import style from './style.module.scss'
 import Section from '../Section'
-import { useLanguage, useText } from 'src/tools/language'
-import { latestReport } from 'src/data/report'
-import { formatDate } from 'src/tools/date'
-import Vega from 'src/components/Vega'
-import spec from 'src/data/pda-w-data.vg'
+import { useLanguage, useText } from '@tools/language'
+import { latestReport } from '@data/report'
+import { formatDate } from '@tools/date'
+import Vega from '@components/Vega'
+import spec from '@data/pda-w-data.vg'
 
-export default function PdaChart() {
+export default function PdaChart({ children }) {
 	const formatter = formatDate(useLanguage())
 	const from = formatter('2022-02-24')
 	let till = latestReport.till
@@ -17,7 +17,7 @@ export default function PdaChart() {
 	const subtitle = text('pda.subtitle', { from, till })
 	const description = text('pda.description')
 	return (
-		<Section {...{ title, subtitle, description }} >
+		<Section {...{ title, subtitle, description: children }}>
 			<Vega spec={spec} className={style.chart} />
 		</Section>
 	)

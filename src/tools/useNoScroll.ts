@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef } from 'react'
+import { useEffect, useMemo, useRef } from 'preact/hooks'
 import useWindowSize from './useWindowSize'
 
 export default (trigger, callback?) => {

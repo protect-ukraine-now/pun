@@ -1,9 +1,9 @@
-import { useRef, useState } from 'react'
+import { useRef, useState } from 'preact/hooks'
 import cn from 'clsx'
 
 import style from './style.module.scss'
-import useClickOutside from 'src/tools/useClickOutside'
-import countries from 'src/data/countries.json'
+import useClickOutside from '@tools/useClickOutside'
+import countries from '@data/countries.json'
 
 const DataCell = ({ className, value, delta, sources, ...rest }) => {
 	const [isSourcePopupShown, setIsSourcePopupShown] = useState(false)

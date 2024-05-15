@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo } from 'react'
+import { useState, useEffect, useMemo } from 'preact/hooks'
 
 export default () => {
 	if (typeof window === 'undefined') return {} // prerendering

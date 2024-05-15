@@ -1,9 +1,8 @@
-import { useLocation } from 'rakkasjs'
+import { useLocation } from "./location"
 
 export function useApp() {
-    let { current: { href } } = useLocation()
-    href = href.toLocaleLowerCase()
-    const uat = href.includes('uat') || href.includes('ukraineaidtracker')
+    const { origin } = useLocation()
+    const uat = origin.includes('uat') || origin.includes('ukraineaidtracker')
     const app = import.meta.env.VITE_APP_NAME ?? (uat ? 'uat' : 'pun')
     // console.log(app)
     return app

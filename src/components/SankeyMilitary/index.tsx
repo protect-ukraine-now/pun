@@ -1,12 +1,12 @@
 import style from './style.module.scss'
 import Section from '../Section'
-import { useLanguage, useText, useSankey } from 'src/tools/language'
-import { latestReport } from 'src/data/report'
-import { formatDate } from 'src/tools/date'
-import Vega from 'src/components/Vega'
-import spec from 'src/data/sankeyMilitary-w-data.vg'
+import { useLanguage, useText, useSankey } from '@tools/language'
+import { latestReport } from '@data/report'
+import { formatDate } from '@tools/date'
+import Vega from '@components/Vega'
+import spec from '@data/sankeyMilitary-w-data.vg'
 
-export default function SankeyMilitary() {
+export default function SankeyMilitary({ children }) {
 	const formatter = formatDate(useLanguage())
 	const from = formatter('2022-02-24')
 	let till = latestReport.till
@@ -15,9 +15,8 @@ export default function SankeyMilitary() {
 	const text = useText()
 	const title = text('sankey-military.title')
 	const subtitle = text('sankey-military.subtitle', { from, till })
-	const description = text('sankey-military.description')
 	return (
-		<Section {...{ title, subtitle, description }} >
+		<Section {...{ title, subtitle, description: children }} >
 			<Vega spec={useSankey(spec)} className={style.chart} />
 		</Section>
 	)

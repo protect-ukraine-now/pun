@@ -1,0 +1,15 @@
+---
+import { useMd } from "@src/tools/astro"
+import Layout from '@layouts/Layout.astro'
+import Container from '@components/Container'
+import { useLocation } from "@src/tools/location"
+
+useLocation(Astro)
+
+const Page = await useMd('pages', Astro.params.page)
+---
+<Layout>
+	<Container>
+		<Page />
+	</Container>
+</Layout>

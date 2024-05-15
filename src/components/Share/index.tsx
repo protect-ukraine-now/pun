@@ -1,4 +1,4 @@
-import { useLocation } from 'rakkasjs'
+import { useLocation } from '@tools/location'
 
 import style from './share.module.scss'
 
@@ -40,11 +40,11 @@ function ShareButton({ type, url }) {
 }
 
 export default function Share() {
-	const { current } = useLocation()
+	const { href } = useLocation()
 	return (
 		<div className={style.block}>
 			{Object.keys(config).map(type =>
-				<ShareButton {...{ type, url: current.href }} key={type} />
+				<ShareButton {...{ type, url: href }} key={type} />
 			)}
 		</div>
 	)

@@ -1,5 +1,3 @@
-import { usePageContext, useServerSideQuery } from "rakkasjs"
-
 let map = {
 	"Kiev": "UA",
 	"Uzhgorod": "UA",
@@ -48,21 +46,24 @@ let map = {
 	return country
 }
 
-export function useCountry() {
-	let { data } = useServerSideQuery(({ request }) => request.headers.get('cf-ipcountry'))
+let Astro
+export function useCountry(astro = null) {
+	Astro = astro ?? Astro
+	return Astro?.request.headers.get('cf-ipcountry') || 'US'
+	// let { data } = useServerSideQuery(({ request }) => request.headers.get('cf-ipcountry'))
 
 	// override country with the query parameter for testing
-	let { url } = usePageContext()
-	if (url.search) {
-		let params = url.search.slice(1).split('&').map(x => x.split('='))
-		let { country } = Object.fromEntries(params)
-		if (country) {
-			console.log('country overrided', country)
-			return country
-		}
-	}
+	// let { url } = usePageContext()
+	// if (url.search) {
+	// 	let params = url.search.slice(1).split('&').map(x => x.split('='))
+	// 	let { country } = Object.fromEntries(params)
+	// 	if (country) {
+	// 		console.log('country overrided', country)
+	// 		return country
+	// 	}
+	// }
 
-	let country = data || detectCountry()
-	console.log('country', data, country)
-	return country
+	// let country = data || detectCountry()
+	// console.log('country', data, country)
+	// return country
 }

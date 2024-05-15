@@ -1,0 +1,76 @@
+---
+import 'virtual:uno.css'
+// import 'virtual:unocss-devtools'
+
+import '@styles/index.module.scss'
+import favicon from '@assets/favicon.ico'
+import { useLocation } from '@src/tools/location'
+import { useLanguage, useText } from '@tools/language'
+import PunLogo from '@components/logo/PunLogo'
+import UatLogo from '@components/logo/UatLogo'
+import Header from '@src/components/Header/Header.astro'
+import Footer from '@src/components/Footer/Footer'
+import { useApp } from '@tools/app'
+import { ViewTransitions } from 'astro:transitions'
+
+useLocation(Astro)
+
+const config = {
+	pun: {
+		header: {
+			Logo: PunLogo,
+			menu: ['news', 'report', 'call', 'letter', 'about'],
+			languages: { en: 'ENG', uk: 'УКР' },
+		},
+		footer: {
+			Logo: PunLogo,
+			email: 'contact@ProtectUkraineNOW.org',
+		},
+	},
+	uat: {
+		header: {
+			Logo: UatLogo,
+			menu: ['news', 'report', 'methodology'],
+		},
+		footer: {
+			Logo: UatLogo,
+			email: 'contact@UkraineAidTracker.org',
+		},
+	}
+}
+
+const lang = useLanguage()
+const text = useText()
+const { header, footer } = config[useApp()]
+---
+
+<!doctype html>
+<html lang={lang}>
+	<head>
+		<title>{text('seo.title')}</title>
+		<meta name="description" property="og:description" content={text('seo.description')} />
+		<meta property="og:title" content={text('seo.title')} />
+		<meta property="og:image" content={text('seo.image')} />
+		<meta name="twitter:card" content="summary_large_image" />
+		<link rel="icon" type="image/x-icon" href={favicon} />
+
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<meta name="mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" cross-origin="anonymous" />
+		<script>{`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TSJ66R2');`}</script>
+
+		<ViewTransitions />
+	</head>
+	<body>
+		<Header {...header} />
+		<slot />
+		<Footer {...footer} />
+	</body>
+</html>
+
+<style is:global>
+</style>

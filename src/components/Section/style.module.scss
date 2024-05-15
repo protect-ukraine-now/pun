@@ -1,5 +1,5 @@
-@import './src/style/variables';
-@import './src/style/mixins';
+@import './src/styles/variables';
+@import './src/styles/mixins';
 
 .title {
 	@include container-padding;
@@ -10,6 +10,7 @@
 		30px);
 	font-weight: 700;
 	text-transform: uppercase;
+	padding-top: 10px;
 }
 
 .subtitle {
@@ -40,4 +41,5 @@
 		15px);
 
 	margin-top: 1em;
+	padding-bottom: 10px;
 }

@@ -1,11 +1,11 @@
 import cn from 'clsx'
 
 import style from './style.module.scss'
-import { useLanguage, useText } from 'src/tools/language'
-import { balanceReport } from 'src/data/report'
-import { formatDate } from 'src/tools/date'
+import { useLanguage, useText } from '@tools/language'
+import { balanceReport } from '@data/report'
+import { formatDate } from '@tools/date'
 import WeaponsTable from '../WeaponsTable'
-import { Fragment } from 'react'
+import { Fragment } from 'preact'
 
 let data = balanceReport()
 
@@ -34,7 +34,7 @@ function Details({ byModel }) {
 	</>
 }
 
-export default function WeaponsCommitments() {
+export default function WeaponsCommitments({ children }) {
 	const language = useLanguage()
 	const text = useText()
 	const formatter = formatDate(language)
@@ -49,5 +49,5 @@ export default function WeaponsCommitments() {
 
 	let description = text('balance.description')
 
-	return <WeaponsTable {...{ title, subtitle, head, data, description, Details }} />
+	return <WeaponsTable {...{ title, subtitle, head, data, description: children, Details }} />
 }

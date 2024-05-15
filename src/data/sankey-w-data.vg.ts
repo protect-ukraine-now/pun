@@ -496,8 +496,8 @@ export default
 					"strokeOpacity": {
 						"value": 1
 					},
-					"tooltip": {
-						"signal": "format(datum.value, '$') + ' B'"
+					"_tooltip": {
+						"signal": "{'Source':datum.source,'Destination':datum.destination, 'Value':format(datum.value, '$') + ' B'}"
 					}
 				}
 			}

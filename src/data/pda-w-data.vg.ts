@@ -114,7 +114,7 @@ export default
 				},
 				{
 					"type": "formula",
-					"expr": "join(['$', format(datum.amount, '.2f'), 'B'], '')",
+					"expr": "format(datum.amount, '.3f')",
 					"as": "text_amount"
 				},
 				{

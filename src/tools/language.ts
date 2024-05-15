@@ -1,12 +1,12 @@
-import { useLocation } from 'rakkasjs'
 import { path } from 'rambda'
 
-import text from '../data/text.json'
+import { useLocation } from './location'
 import { useApp } from './app'
+import text from '../data/text.json'
 
 export function useLanguage() {
-	const { current } = useLocation()
-	return current.pathname.split('/')[1] || 'en'
+	const { pathname } = useLocation()
+	return pathname.split('/')[1] || 'en'
 }
 
 export function useText() {

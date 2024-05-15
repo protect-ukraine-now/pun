@@ -1,0 +1,38 @@
+---
+import style from './style.module.scss'
+import { useLanguage, useText } from '@tools/language'
+import Container from '../Container'
+import LanguageSelector from '../LanguageSelector'
+import Menu from '../Menu'
+import Hamburger from '../Hamburger'
+
+let { Logo, menu, languages } = Astro.props
+console.log({ Logo })
+const language = useLanguage()
+const text = useText()
+menu = menu.map(page => [text(`menu.${page}`), `/${language}/${page}`])
+---
+
+<header class={style.header}>
+	<Container className={style.container}>
+		<div class={style.logo}>
+			<Logo />
+		</div>
+		<Menu
+			className={style.menu}
+			theme="light"
+			items={menu}
+		/>
+		<LanguageSelector
+			className={style.menu}
+			theme="light"
+			items={languages}
+		/>
+		<Hamburger
+			client:load
+			className={style.hamburger}
+			menu={menu}
+			languages={languages}
+	/>
+	</Container>
+</header>

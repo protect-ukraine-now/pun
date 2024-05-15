@@ -1,8 +1,6 @@
-import Markdown from 'markdown-to-jsx'
-
 import style from './style.module.scss'
 import Container from '../Container'
-import Article from 'src/components/Article'
+import Article from '@components/Article'
 
 export default function Section({ title, subtitle, className, children, description }) {
 	return (
@@ -14,9 +12,7 @@ export default function Section({ title, subtitle, className, children, descript
 			{children}
 			{description &&
 				<Article className={style.description}>
-					<Markdown>
-						{description}
-					</Markdown>
+					{description}
 				</Article>
 			}
 		</Container>

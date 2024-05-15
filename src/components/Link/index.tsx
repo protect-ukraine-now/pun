@@ -1,9 +1,6 @@
-import { StyledLink, StyledLinkProps } from 'rakkasjs'
-
-export function Link(props: StyledLinkProps) {
+export function Link(props) {
 	return (
-		<StyledLink
-			// prefetch='idle'
+		<a
 			{...props}
 		/>
 	)

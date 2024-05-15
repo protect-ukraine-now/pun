@@ -1,12 +1,12 @@
 import cn from 'clsx'
-import { useLocation } from 'rakkasjs'
+import { useLocation } from '@tools/location'
 
 import { Link } from '../Link'
 
 import style from './style.module.scss'
 
 export default function Menu({ items, className, linkClassName, activeClassName, onClick, theme = 'dark' }) {
-	const { current: { pathname } } = useLocation()
+	const { pathname } = useLocation()
 	return (
 		<div className={cn(style.container, className, style[theme])}>
 			{items.map(([name, href]) =>

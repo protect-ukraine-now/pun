@@ -79,7 +79,7 @@
 			"as": "amount"
 		},
 		{
-			"calculate": "join(['$', format(datum.amount, '.2f'), 'B'], '')",
+			"calculate": "format(datum.amount, '.3f')",
 			"as": "text_amount"
 		},
 		{

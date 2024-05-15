@@ -1,0 +1,21 @@
+---
+import { useLocation } from '@tools/location'
+import { useApp } from '@tools/app'
+import { useCountry } from '@tools/country'
+
+useLocation(Astro)
+
+function defaults(app, country) {
+    if (app === 'uat') return '/en/report'
+    let page = {
+        US: '/en/call',
+        UA: '/uk/report',
+    }[country]
+    return page || '/en/report'
+}
+
+let app = useApp()
+let country = useCountry()
+console.log({ country })
+return Astro.redirect(defaults(app, country))
+---

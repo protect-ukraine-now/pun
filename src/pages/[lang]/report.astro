@@ -1,0 +1,60 @@
+---
+import Layout from '@layouts/Layout.astro'
+import { useLocation } from '@tools/location'
+import { useApp } from '@tools/app'
+import { useLanguage, useText } from '@tools/language'
+import { useCountry } from '@tools/country'
+import { useMd } from '@src/tools/astro'
+import { Link } from '@components/Link'
+import Container from '@components/Container'
+import WeaponsBalance from '@components/WeaponsBalance'
+import WeaponsIncome from '@components/WeaponsIncome/index.astro'
+import WeaponsInventory from '@components/WeaponsInventory'
+import Banner from '@components/Banner'
+import reportBannerImage from '@assets/banner-bg.webp'
+import Sankey from '@components/Sankey'
+import Sankey24 from '@components/Sankey24'
+import SankeyMilitary from '@components/SankeyMilitary'
+import PdaChart from '@components/PdaChart'
+
+useLocation(Astro)
+
+const lang = useLanguage()
+const text = useText()
+const country = useCountry()
+const app = useApp()
+
+const BalanceMd = await useMd('notes', 'WeaponsBalance')
+const InventoryMd = await useMd('notes', 'WeaponsInventory')
+const Sankey24Md = await useMd('notes', 'Sankey24')
+const SankeyMd = await useMd('notes', 'Sankey')
+const SankeyMilitaryMd = await useMd('notes', 'SankeyMilitary')
+const PdaChartMd = await useMd('notes', 'PdaChart')
+---
+
+<Layout>
+	<Container>
+		<WeaponsIncome />
+		<WeaponsBalance client:idle><BalanceMd /></WeaponsBalance>
+		<WeaponsInventory client:idle><InventoryMd /></WeaponsInventory>
+	</Container>
+
+	{app === 'pun' && country === 'US' &&
+		<Banner
+			class="banner"
+			title={text('report.banner_title')}
+			image={reportBannerImage}
+		>
+			<Link slot="action" href={`/${lang}/letter`}>
+				{text('report.banner_btn')}
+			</Link>
+		</Banner>
+	}
+
+	<Container>
+		<Sankey24 client:idle><Sankey24Md /></Sankey24>
+		<Sankey client:idle><SankeyMd /></Sankey24>
+		<SankeyMilitary client:idle><SankeyMilitaryMd /></Sankey24>
+		<PdaChart client:idle><PdaChartMd /></PdaChart>
+	</Container>
+</Layout>

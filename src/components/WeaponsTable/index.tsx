@@ -1,17 +1,17 @@
 import cn from 'clsx'
-import { useState } from 'react'
+import { useState } from 'preact/hooks'
+import { assocPath } from 'rambda'
 
 import style from './style.module.scss'
 import IconCell from './IconCell'
 import DataCell from './DataCell'
 import Section from '../Section'
-import { assocPath } from 'rambda'
 
 const WeaponsTable = ({ title, subtitle, head, data, description, Details }) => {
 	const [expanded, setExpanded] = useState([])
 	// console.log('expanded', expanded)
 	const toggle = i => () => {
-		console.log('toggle', i)
+		// console.log('toggle', i)
 		setExpanded(assocPath(i + '', !expanded[i], expanded))
 	}
 	const severalExpanded = expanded.reduce((a, b) => a + (b ? 1 : 0), 0) > 1
@@ -64,7 +64,7 @@ const WeaponsTable = ({ title, subtitle, head, data, description, Details }) => 
 	)
 
 	return (
-		<Section {...{ title, subtitle, description, className: style.container }}>
+		<Section {...{ title, subtitle, description }}>
 			<div className={style.splitter}>
 				{[left, right].map(renderTableLayout)}
 			</div>
