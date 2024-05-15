@@ -13,3 +13,6 @@ content:
     label: Notes
     path: src/content/notes
     type: collection
+    fields:
+      - name: body
+        type: rich-text
