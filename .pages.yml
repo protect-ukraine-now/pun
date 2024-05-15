@@ -1,12 +1,14 @@
 media:
   input: src/assets
-  output: "@assets"
+  output: ../../assets
 content:
   - name: pages
     label: Pages
     path: src/pages
     type: collection
     fields:
+      - name: layout
+        default: "@layouts/Layout.astro"
       - name: body
         type: rich-text
   - name: about
@@ -14,6 +16,8 @@ content:
     path: src/pages/en/about.mdx
     type: file
     fields:
+      - name: layout
+        default: @layouts/Layout.astro
       - name: body
         type: rich-text
   - name: notes
@@ -21,5 +25,6 @@ content:
     path: src/content/notes
     type: collection
     fields:
+      - name: slug
       - name: body
         type: rich-text
