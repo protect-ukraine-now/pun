@@ -16,8 +16,7 @@
     "start": "astro dev",
     "build": "pnpm load && paraglide-js compile --project ./project.inlang --outdir ./src\\paraglide && astro check && astro build",
     "preview": "astro preview",
-    "astro": "astro",
-    "postinstall": "paraglide-js compile --project ./project.inlang --outdir ./src\\paraglide"
+    "astro": "astro"
   },
   "dependencies": {
     "@astrojs/check": "^0.6.0",
@@ -30,9 +29,6 @@
     "@iconify-json/map": "^1.1.9",
     "@iconify-json/material-symbols": "^1.1.79",
     "@iconify-json/mdi": "^1.1.66",
-    "@inlang/paraglide-astro": "^0.1.13",
-    "@inlang/paraglide-js": "1.8.0",
-    "@nanostores/preact": "^0.5.1",
     "@preact/preset-vite": "^2.8.2",
     "@unocss/preset-icons": "^0.60.0",
     "@unocss/reset": "^0.60.0",
@@ -42,8 +38,6 @@
     "daisyui": "3",
     "date-fns": "^3.6.0",
     "dayjs": "^1.11.11",
-    "markdown-to-jsx": "^7.4.7",
-    "nanostores": "^0.10.3",
     "preact": "^10.21.0",
     "rambda": "^9.2.0",
     "sass": "^1.77.1",
