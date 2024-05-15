@@ -8,6 +8,7 @@ content:
     type: collection
     fields:
       - name: layout
+        type: string
         default: "@layouts/Layout.astro"
       - name: body
         type: rich-text
@@ -17,7 +18,8 @@ content:
     type: file
     fields:
       - name: layout
-        default: @layouts/Layout.astro
+        type: string
+        default: "@layouts/Layout.astro"
       - name: body
         type: rich-text
   - name: notes
