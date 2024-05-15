@@ -1,10 +1,10 @@
-import { useState } from 'react'
+import { useState } from 'preact/hooks'
 import cn from 'clsx'
 
 import style from './style.module.scss'
 import Menu from '../Menu'
 import LanguageSelector from '../LanguageSelector'
-import useNoScroll from 'src/tools/useNoScroll'
+import useNoScroll from '@tools/useNoScroll'
 
 const Hamburger = ({ menu, languages, className }) => {
 	const [isOpen, setIsOpen] = useState(false)
