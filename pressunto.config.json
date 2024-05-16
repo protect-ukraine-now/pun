@@ -5,6 +5,12 @@
       "name": "snippets",
       "route": "/src/content/notes",
       "template": ""
+    },
+    {
+      "id": "pages-en",
+      "name": "pages EN",
+      "route": "/src/pages/en",
+      "template": ""
     }
   ],
   "templates": []
