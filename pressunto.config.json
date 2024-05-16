@@ -2,8 +2,8 @@
   "collections": [
     {
       "id": "blog",
-      "name": "blog",
-      "route": "/src/content",
+      "name": "snippets",
+      "route": "/src/content/notes",
       "template": ""
     }
   ],
