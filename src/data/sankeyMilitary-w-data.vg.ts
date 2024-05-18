@@ -63,7 +63,7 @@ export default
 					"color": "string"
 				}
 			},
-			"values": "name,category,stack,sort,labels,color\r\nMilitary Aid,ukr_total,1,1,left,green\r\nMilitary Aid,ally_total,1,2,left,#f2cf5b\r\nInstant aid (PDA),ukr_pda_total,2,1,left,green\r\nDeferred aid (USAI & FMF),ukr_usai_total,2,2,left,green\r\nInstant aid (PDA),ally_pda_total,2,3,left,#f2cf5b\r\nDeferred aid (USAI & FMF),ally_fmf_total,2,4,left,#f2cf5b\r\nExpired in FY22,ukr_pda_expired,3,1,right,red\r\nDelivered,delivered,3,2,right,green\r\nAvailable,ukr_pda_available,3,3,right,orange\r\nObligated,ukr_usai_obligated,3,4,right,#a2d64b\r\nPending,ukr_usai_pending,3,5,right,#f2cf5b\r\nAvailable,ukr_usai_available,3,6,right,orange\r\n,ally_fmf_available,3,9,right,orange\r\n,ally_fmf_eu,3,8,right,grey"
+			"values": "name,category,stack,sort,labels,color\r\nMilitary Aid,ukr_total,1,1,left,green\r\nMilitary Aid,ally_total,1,2,left,#f2cf5b\r\nInstant aid (PDA),ukr_pda_total,2,1,left,green\r\nDeferred aid (USAI & FMF),ukr_usai_total,2,2,left,green\r\nInstant aid (PDA),ally_pda_total,2,3,left,#f2cf5b\r\nDeferred aid (USAI & FMF),ally_fmf_total,2,4,left,#f2cf5b\r\nExpired in FY22,ukr_pda_expired,3,1,right,red\r\nDelivered,delivered,3,2,right,green\r\nAvailable,ukr_pda_available,3,5,right,orange\r\nObligated,ukr_usai_obligated,3,3,right,#a2d64b\r\nPending,ukr_usai_pending,3,4,right,#f2cf5b\r\nAvailable,ukr_usai_available,3,6,right,orange\r\n,ally_fmf_available,3,7,right,orange\r\n,ally_fmf_eu,3,8,right,grey"
 		},
 		{
 			"name": "connections",
@@ -75,7 +75,7 @@ export default
 					"value": "number"
 				}
 			},
-			"values": "source,value,destination\r\nukr_total,25.500,ukr_pda_total\r\nukr_total,32.672,ukr_usai_total\r\nally_total,7.800,ally_pda_total\r\nally_total,6.245,ally_fmf_total\r\nukr_pda_total,21.375,delivered\r\nukr_pda_total,1.625,ukr_pda_expired\r\nukr_pda_total,2.500,ukr_pda_available\r\nukr_usai_total,3.321,delivered\r\nukr_usai_total,8.995,ukr_usai_obligated\r\nukr_usai_total,12.584,ukr_usai_pending\r\nukr_usai_total,7.77246,ukr_usai_available\r\nally_pda_total,7.8,ukr_pda_available\r\nally_fmf_total,1.64258,delivered\r\nally_fmf_total,3.00742,ally_fmf_eu\r\nally_fmf_total,1.595,ally_fmf_available"
+			"values": "source,value,destination\r\nukr_total,25.500,ukr_pda_total\r\nukr_total,32.672,ukr_usai_total\r\nally_total,7.800,ally_pda_total\r\nally_total,6.245,ally_fmf_total\r\nukr_pda_total,20.975,delivered\r\nukr_pda_total,1.625,ukr_pda_expired\r\nukr_pda_total,2.900,ukr_pda_available\r\nukr_usai_total,3.321,delivered\r\nukr_usai_total,8.995,ukr_usai_obligated\r\nukr_usai_total,12.584,ukr_usai_pending\r\nukr_usai_total,7.77246,ukr_usai_available\r\nally_pda_total,7.4,ukr_pda_available\r\nally_pda_total,0.4,delivered\r\nally_fmf_total,1.64258,delivered\r\nally_fmf_total,2,ukr_usai_pending\r\nally_fmf_total,2.47042,ally_fmf_eu\r\nally_fmf_total,0.132,ally_fmf_available"
 		},
 		{
 			"name": "preStacks",
@@ -496,8 +496,8 @@ export default
 					"strokeOpacity": {
 						"value": 1
 					},
-					"_tooltip": {
-						"signal": "{'Source':datum.source,'Destination':datum.destination, 'Value':format(datum.value, '$') + ' B'}"
+					"tooltip": {
+						"signal": "format(datum.value, '$') + ' B'"
 					}
 				}
 			}

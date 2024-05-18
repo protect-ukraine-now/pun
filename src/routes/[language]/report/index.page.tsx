@@ -15,7 +15,6 @@ import Sankey from 'src/components/Sankey'
 import Sankey24 from 'src/components/Sankey24'
 import SankeyMilitary from 'src/components/SankeyMilitary'
 import PdaChart from 'src/components/PdaChart'
-import Summary from 'src/components/Summary'
 
 export default function Report() {
 	const language = useLanguage()
@@ -25,7 +24,6 @@ export default function Report() {
 	return (
 		<>
 			<Container className={style.container}>
-				<Summary />
 				<WeaponsIncome />
 				<WeaponsBalance />
 				<WeaponsInventory />
