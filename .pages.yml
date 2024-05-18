@@ -1,20 +1,20 @@
 media:
   input: src
-  output: ../../
+  output: ../..
   path: src/assets
 content:
   - name: notes
     label: Notes
-    path: src/content/notes
     type: collection
+    path: src/content/notes
     fields:
-      - name: slug
       - name: body
         type: rich-text
   - name: blog
     label: Blog
-    path: src/content/pages
     type: collection
+    path: src/content/pages
+    extension: mdoc
     fields:
       - name: body
         type: rich-text
