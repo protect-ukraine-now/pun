@@ -22,7 +22,7 @@ content:
           image:
             input: src
             output: ../../
-            path: src/content/pages/{slug}
+            path: src/content/pages
   - name: pages
     label: Pages
     path: src/pages
