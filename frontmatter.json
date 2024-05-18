@@ -5,19 +5,15 @@
   "frontMatter.content.publicFolder": "public",
   "frontMatter.content.pageFolders": [
     {
-      "title": "blog",
-      "path": "[[workspace]]/src/content/blog"
-    },
-    {
-      "title": "notes",
+      "title": "Notes",
       "path": "[[workspace]]/src/content/notes"
     },
     {
-      "title": "pages",
+      "title": "Pages",
       "path": "[[workspace]]/src/content/pages"
     },
     {
-      "title": "en",
+      "title": "Pages EN",
       "path": "[[workspace]]/src/pages/en"
     }
   ],
