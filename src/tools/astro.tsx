@@ -9,5 +9,5 @@ export async function useMd(collection, slug, lang = null) {
 	md ??= await getEntry(collection, `${slug}-en`)
 	console.log({ collection, slug, lang, md: !!md })
 	md = await md?.render()
-	return md?.Content ?? (_ => '')
+	return md?.Content
 }

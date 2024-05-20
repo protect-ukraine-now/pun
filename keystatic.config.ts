@@ -1,11 +1,45 @@
-import { config, fields, collection } from '@keystatic/core';
-import Layout from '@src/layouts/Layout.astro';
+import { config, fields, collection } from '@keystatic/core'
+import { block } from '@keystatic/core/content-components'
+
+const components = {
+	WeaponsIncome: block({
+		label: 'Weapons Income',
+		schema: {},
+	})
+}
 
 export default config({
 	storage: {
 		kind: 'local',
+		// kind: 'github',
+		// repo: 'protect-ukraine-now/pun'
 	},
 	collections: {
+		pages: collection({
+			label: 'Pages',
+			slugField: 'title',
+			path: 'src/content/pages/*',
+			format: { contentField: 'content' },
+			schema: {
+				title: fields.slug({ name: { label: 'Title' } }),
+				content: fields.markdoc({
+					label: 'Content',
+					components,
+					options: {
+						image: {
+							// directory: 'src/content/pages',
+							// publicPath: './images/',
+							schema: {
+								title: fields.text({
+									label: 'Caption',
+									description: 'The text to display under the image in a caption',
+								}),
+							},
+						},
+					},
+				}),
+			},
+		}),
 		notes: collection({
 			label: 'Notes',
 			path: 'src/content/notes/*',
@@ -19,38 +53,18 @@ export default config({
 				}),
 			},
 		}),
-		pages: collection({
-			label: 'Pages',
+		blog: collection({
+			label: 'Blog',
 			slugField: 'title',
-			path: 'src/content/pages/*',
+			path: 'src/content/blog/*',
 			format: { contentField: 'content' },
 			schema: {
 				title: fields.slug({ name: { label: 'Title' } }),
 				content: fields.markdoc({
 					label: 'Content',
-				}),
-			},
-		}),
-		pagesEn: collection({
-			label: 'Pages EN',
-			slugField: 'title',
-			path: 'src/pages/en/*',
-			format: { contentField: 'content' },
-			schema: {
-				title: fields.slug({ name: { label: 'Title' } }),
-				layout: fields.text({
-					label: 'Layout',
-					default: '@layouts/Layout.astro',
-				}),
-				content: fields.markdoc({
-					label: 'Content',
-					extension: 'mdx',
-					image: {
-						directory: 'src/assets',
-						publicPath: '@assets'
-					},
+					components,
 				}),
 			},
 		}),
 	},
-});
+})

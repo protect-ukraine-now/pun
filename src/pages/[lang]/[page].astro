@@ -6,10 +6,12 @@ import { useLocation } from "@src/tools/location"
 
 useLocation(Astro)
 
-const Page = await useMd('pages', Astro.params.page)
+const Md = await useMd('pages', Astro.params.page)
+if (!Md) Astro.redirect('/')
 ---
+
 <Layout>
 	<Container>
-		<Page />
+		<Md />
 	</Container>
 </Layout>
