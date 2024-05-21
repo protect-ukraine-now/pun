@@ -14,7 +14,7 @@
     "load:sheets": "node src/data/load-sheets.js",
     "load:vega": "node src/data/load-vega.js",
     "start": "astro dev",
-    "build": "pnpm load && paraglide-js compile --project ./project.inlang --outdir ./src\\paraglide && astro check && astro build",
+    "build": "pnpm load && astro build",
     "preview": "astro preview",
     "astro": "astro"
   },

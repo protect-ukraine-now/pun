@@ -27,8 +27,8 @@ export default config({
 					components,
 					options: {
 						image: {
-							// directory: 'src/content/pages',
-							// publicPath: './images/',
+							directory: 'src/content/pages',
+							publicPath: '.',
 							schema: {
 								title: fields.text({
 									label: 'Caption',
@@ -63,6 +63,18 @@ export default config({
 				content: fields.markdoc({
 					label: 'Content',
 					components,
+					options: {
+						image: {
+							directory: 'src/content/blog',
+							publicPath: '.',
+							schema: {
+								title: fields.text({
+									label: 'Caption',
+									description: 'The text to display under the image in a caption',
+								}),
+							},
+						},
+					},
 				}),
 			},
 		}),

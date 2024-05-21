@@ -3,15 +3,8 @@ media:
   output: ../..
   path: src/assets
 content:
-  - name: notes
-    label: Notes
-    type: collection
-    path: src/content/notes
-    fields:
-      - name: body
-        type: rich-text
-  - name: blog
-    label: Blog
+  - name: pages
+    label: Pages
     type: collection
     path: src/content/pages
     extension: mdoc
@@ -20,16 +13,25 @@ content:
         type: rich-text
         options:
           image:
-            input: src
-            output: ../../
             path: src/content/pages
-  - name: pages
-    label: Pages
-    path: src/pages
+  - name: notes
+    label: Notes
     type: collection
+    path: src/content/notes
     fields:
-      - name: layout
-        type: string
-        default: @layouts/Layout.astro
       - name: body
         type: rich-text
+        options:
+          image:
+            path: src/content/notes
+  - name: blog
+    label: Blog
+    type: collection
+    path: src/content/blog
+    extension: mdoc
+    fields:
+      - name: body
+        type: rich-text
+        options:
+          image:
+            path: src/content/blog
