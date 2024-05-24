@@ -18,11 +18,10 @@ import PdaChart from '@components/PdaChart.astro'
 import Markdown from '@components/Markdown.astro'
 
 useLocation(Astro)
-
+const country = useCountry(Astro)
 const lang = useLanguage()
-const text = useText()
-const country = useCountry()
 const app = useApp()
+const t = useText()
 ---
 
 <Layout>
@@ -41,11 +40,11 @@ const app = useApp()
 	{app === 'pun' && country === 'US' &&
 		<Banner
 			className="banner"
-			title={text('report.banner_title')}
+			title={t('report.banner_title')}
 			image={reportBannerImage}
 		>
 			<Link slot="action" href={`/${lang}/letter`}>
-				{text('report.banner_btn')}
+				{t('report.banner_btn')}
 			</Link>
 		</Banner>
 	}
