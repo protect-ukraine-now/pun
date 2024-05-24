@@ -5,7 +5,7 @@ import { assocPath } from 'rambda'
 import style from './style.module.scss'
 import IconCell from './IconCell'
 import DataCell from './DataCell'
-import Section from '../Section'
+import Section from '../Section/Section'
 
 const WeaponsTable = ({ title, subtitle, head, data, description, Details }) => {
 	const [expanded, setExpanded] = useState([])

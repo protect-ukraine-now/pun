@@ -3,7 +3,28 @@ import { defineMarkdocConfig, component } from '@astrojs/markdoc/config'
 export const config = {
 	tags: {
 		WeaponsIncome: {
-			render: component('@src/components/WeaponsIncome/index.astro'),
+			render: component('@components/WeaponsIncome/index.astro'),
+		},
+		WeaponsBalance: {
+			render: component('@components/WeaponsBalance/index.astro'),
+		},
+		WeaponsInventory: {
+			render: component('@components/WeaponsInventory/index.astro'),
+		},
+		Sankey24: {
+			render: component('@components/Sankey24.astro'),
+		},
+		Sankey: {
+			render: component('@components/Sankey.astro'),
+		},
+		SankeyMilitary: {
+			render: component('@components/SankeyMilitary.astro'),
+		},
+		Letter: {
+			render: component('@components/Letter.astro'),
+		},
+		RepresentativesByAddress: {
+			render: component('@components/RepresentativesByAddress.astro'),
 		},
 	},
 }

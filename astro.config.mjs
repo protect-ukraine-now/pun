@@ -4,9 +4,11 @@ import preact from '@astrojs/preact'
 import react from '@astrojs/react'
 import cloudflare from '@astrojs/cloudflare'
 import unocss from 'unocss/astro'
-import { presetUno, transformerDirectives } from 'unocss'
-import { presetDaisy } from 'unocss-preset-daisy'
+import { presetUno, presetTypography, transformerDirectives } from 'unocss'
 import { presetIcons } from '@unocss/preset-icons'
+import presetTagify from '@unocss/preset-tagify'
+import { presetFluid } from 'unocss-preset-fluid'
+import { presetDaisy } from 'unocss-preset-daisy'
 import mdx from "@astrojs/mdx"
 import markdoc from "@astrojs/markdoc"
 import keystatic from '@keystatic/astro'
@@ -23,6 +25,10 @@ Object.entries(process.env).forEach(([key, val]) => {
 
 export default defineConfig({
 	output: "server",
+	experimental: {
+		actions: true,
+		rewriting: true,
+	},
 	adapter: cloudflare(),
 	vite: {
 		define: viteEnv,
@@ -44,7 +50,18 @@ export default defineConfig({
 			transformers: [transformerDirectives()],
 			presets: [
 				presetUno(),
+				presetTypography(),
+				presetTagify(),
 				presetDaisy({ themes: ["light"] }),
+				// presetFluid({
+				// 	maxWidth: 1440,
+				// 	minWidth: 375,
+				// 	extendMaxWidth: 1980,
+				// 	extendMinWidth: null,
+				// 	remBase: 16,
+				// 	useRemByDefault: true,
+				// 	commentHelpers: process.env.NODE_ENV !== 'production',
+				// }),
 				presetIcons({
 					prefix: 'i-',
 					extraProperties: {

@@ -1,54 +1,35 @@
-# Astro Starter Kit: Basics
+---
+{}
+---
+# ProtectUkraineNow
 
-```sh
-npm create astro@latest -- --template basics
-```
+California-based NGO to help Ukraine in its struggle against Russia's unprovoked aggression.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## Content Editing
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+1. [Keystatic CMS](protectukrainenow.org/keystatic)
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+1. [Pages CMS](cms.protectukrainenow.org)
 
-## 🚀 Project Structure
+   - Point it to `protect-ukraine-now/pun` repo
 
-Inside of your Astro project, you'll see the following folders and files:
+   - Drag-n-drop images to upload
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+   - Add components like this:
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+     - `{% WeaponsIncome /%}`
+     - `{% WeaponsBalance /%}`
+     - `{% WeaponsInventory /%}`
+     - `{% Sankey24 /%}`
+     - `{% Sankey /%}`
+     - `{% SankeyMilitary /%}`
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+1. Edit markdoc right on [GitHub](https://github.com/protect-ukraine-now/pun/tree/master/src/content)
 
-Any static assets, like images, can be placed in the `public/` directory.
+1. Use your favorite IDE to edit `/src/content/*` (ex. VSCode has built-in markdown support and a number of markdown/markdoc extentions)
 
-## 🧞 Commands
+## Manual deployment
 
-All commands are run from the root of the project, from a terminal:
+Just edit this file to trigger
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- 2024-05-19 15:32

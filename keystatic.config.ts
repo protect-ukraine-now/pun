@@ -1,18 +1,60 @@
-import { config, fields, collection } from '@keystatic/core'
-import { block } from '@keystatic/core/content-components'
+import { config, fields, collection, singleton } from '@keystatic/core'
+import { wrapper, block } from '@keystatic/core/content-components'
 
 const components = {
-	WeaponsIncome: block({
+	WeaponsIncome: wrapper({
 		label: 'Weapons Income',
 		schema: {},
-	})
+	}),
+	WeaponsBalance: wrapper({
+		label: 'Weapons Balance',
+		schema: {},
+	}),
+	WeaponsInventory: wrapper({
+		label: 'Weapons Inventory',
+		schema: {},
+	}),
+	Sankey24: wrapper({
+		label: 'Sankey`24',
+		schema: {},
+	}),
+	Sankey: wrapper({
+		label: 'Sankey',
+		schema: {},
+	}),
+	SankeyMilitary: wrapper({
+		label: 'Sankey Military',
+		schema: {},
+	}),
+	Letter: block({
+		label: 'Letter',
+		schema: {},
+	}),
+	RepresentativesByAddress: block({
+		label: 'Representatives by Address',
+		schema: {},
+	}),
 }
 
 export default config({
-	storage: {
-		kind: 'local',
-		// kind: 'github',
-		// repo: 'protect-ukraine-now/pun'
+	storage: process.env.NODE_ENV === 'production' ? {
+		kind: 'github',
+		repo: 'protect-ukraine-now/pun',
+	} : {
+		kind: 'local'
+	},
+	singletons: {
+		readme: singleton({
+			label: 'README',
+			path: 'README',
+			format: { contentField: 'content' },
+			schema: {
+				content: fields.markdoc({
+					label: 'Content',
+					extension: 'md',
+				}),
+			},
+		}),
 	},
 	collections: {
 		pages: collection({
@@ -43,10 +85,10 @@ export default config({
 		notes: collection({
 			label: 'Notes',
 			path: 'src/content/notes/*',
-			slugField: 'title',
+			slugField: 'slug',
 			format: { contentField: 'content' },
 			schema: {
-				title: fields.slug({ name: { label: 'Title' } }),
+				slug: fields.slug({ name: { label: 'Slug' } }),
 				content: fields.markdoc({
 					label: 'Content',
 					extension: 'md',
@@ -60,6 +102,7 @@ export default config({
 			format: { contentField: 'content' },
 			schema: {
 				title: fields.slug({ name: { label: 'Title' } }),
+				date: fields.date({ label: 'Date' }),
 				content: fields.markdoc({
 					label: 'Content',
 					components,
@@ -78,5 +121,11 @@ export default config({
 				}),
 			},
 		}),
+	},
+	ui: {
+		navigation: {
+			'Info': ['readme'],
+			'Content': ['pages', 'notes', 'blog'],
+		},
 	},
 })

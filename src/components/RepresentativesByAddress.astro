@@ -1,0 +1,109 @@
+---
+import { actions, getActionProps } from "astro:actions"
+
+import { extractFormData } from '@tools/formData'
+import { useText } from "@tools/language"
+
+const links = {
+	gov: "i-map-local-government",
+	wiki: "i-mdi-wikipedia",
+	facebook: "i-mdi-facebook",
+	twitter: "i-mdi-twitter",
+}
+
+const text = useText()
+const form = await extractFormData(Astro.request)
+let { data, error } = Astro.getActionResult(actions.representatives.byAddress) ?? {}
+error ??= data?.error
+error && console.log('error', error)
+
+// function onAddressChange(e) {
+// 	let id = 'form-' + e.target.name
+// 	let el = document.getElementById(id)
+// 	if (!el) return
+// 	el.value = e.target.value
+// }
+---
+
+<form
+	class="flex flex-col lg:flex-row flex-wrap gap-sm"
+	method="POST"
+>
+	<input {...getActionProps(actions.representatives.byAddress)} />
+	<input
+		class="input input-bordered"
+		type="text"
+		name="street"
+		placeholder="Street Address"
+		auto-complete="street-address"
+		value={form?.street}
+	/>
+	<input
+		class="input input-bordered"
+		type="text"
+		name="city"
+		placeholder="City"
+		auto-complete="address-level2"
+		value={form?.city}
+	/>
+	<input
+		class="input input-bordered"
+		type="text"
+		name="zip_code"
+		placeholder="Zip/Postal Code"
+		auto-complete="postal-code"
+		value={form?.zip_code}
+	/>
+	<button class="btn btn-neutral" type="submit">
+		<span class="i-mdi-search text-xl"></span>
+		{text("call.search")}
+	</button>
+</form>
+{error && <p style={{ color: "red" }}>{error.message}</p>}
+<ul>
+	{data?.length && data.map((o) => (
+		<li class="pt-8 flex gap-4 line-height-relaxed">
+			<div class="w-20 sm:w-30 lg:w-40 xl:w-50 shrink-0">
+				{o.photoUrl ? (
+					<img class="w-full" src={o.photoUrl} />
+				) : (
+					<div class="i-healthicons-person-negative text-20 sm:text-30 lg:text-40 xl:text-50" />
+				)}
+			</div>
+			<div>
+				<div class="text-lg font-bold">{o.name}</div>
+				<div>{o.office}</div>
+				<div>{o.division}</div>
+				<div>{o.party}</div>
+				{o.committees?.map((name, i) => (
+					<div
+						class={
+							name === "Committee on Appropriations"
+								? "font-bold"
+								: ""
+						}
+					>
+						{name}
+					</div>
+				))}
+				{o.phones?.map((p, i) => (
+					<a class="text-lg block" href={"tel:" + p}>
+						{p}
+					</a>
+				))}
+				{Object.entries(links).map(([type, icon]) => {
+					const href = o.links[type]
+					if (!href) return null
+					return (
+						<a
+							class={`${icon} text-2xl m-1 mt-2`}
+							href={href}
+							target="_blank"
+							rel="noreferrer"
+						/>
+					)
+				})}
+			</div>
+		</li>
+	))}
+</ul>

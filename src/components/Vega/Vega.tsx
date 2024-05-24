@@ -1,10 +1,7 @@
 import { useEffect, useRef } from 'preact/hooks'
-import { clsx } from 'clsx'
 import { View, parse } from 'vega'
 
-import style from './style.module.scss'
-
-export default function Vega({ spec, className }) {
+export default function Vega({ spec }) {
 	const ref = useRef()
 	useEffect(() => {
 		const view = new View(parse(spec), {
@@ -14,9 +11,7 @@ export default function Vega({ spec, className }) {
 		view.runAsync()
 	}, [spec])
 	return (
-		<div className={clsx(style.container, className)}>
-			<div className={style.chart} ref={ref} />
-		</div>
+		<div className="w-full h-full" ref={ref} />
 	)
 }
 

@@ -3,7 +3,7 @@ import cn from 'clsx'
 import style from './style.module.scss'
 import Container from '../Container'
 
-const Banner = ({ className, image, title, action }) => {
+const Banner = ({ className = '', image, title = '', action = '' }) => {
 	return (
 		<div className={cn(className, style.container)} style={{ backgroundImage: `url("${image.src}")` }}>
 			<Container className={style.wrapper}>

@@ -34,7 +34,7 @@ function Details({ byModel }) {
 	</>
 }
 
-export default function WeaponsCommitments({ children }) {
+export default function WeaponsBalance({ children }) {
 	const language = useLanguage()
 	const text = useText()
 	const formatter = formatDate(language)
@@ -46,8 +46,6 @@ export default function WeaponsCommitments({ children }) {
 		<span className={cn(style.countryFlag, 'i-circle-flags-ru')} title={text('country.ru')} key="ru" />,
 		<span className={cn(style.countryFlag, 'i-circle-flags-ua')} title={text('country.ua')} key="ua" />,
 	]
-
-	let description = text('balance.description')
 
 	return <WeaponsTable {...{ title, subtitle, head, data, description: children, Details }} />
 }

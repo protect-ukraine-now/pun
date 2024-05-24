@@ -1,21 +1,21 @@
 ---
-import Layout from '@layouts/Layout.astro'
 import { useLocation } from '@tools/location'
 import { useApp } from '@tools/app'
 import { useLanguage, useText } from '@tools/language'
 import { useCountry } from '@tools/country'
-import { useMd } from '@src/tools/astro'
+import Layout from '@layouts/Basic.astro'
 import { Link } from '@components/Link'
 import Container from '@components/Container'
-import WeaponsBalance from '@components/WeaponsBalance'
+import WeaponsBalance from '@components/WeaponsBalance/index.astro'
 import WeaponsIncome from '@components/WeaponsIncome/index.astro'
-import WeaponsInventory from '@components/WeaponsInventory'
+import WeaponsInventory from '@components/WeaponsInventory/index.astro'
 import Banner from '@components/Banner'
 import reportBannerImage from '@assets/banner-bg.webp'
-import Sankey from '@components/Sankey'
-import Sankey24 from '@components/Sankey24'
-import SankeyMilitary from '@components/SankeyMilitary'
-import PdaChart from '@components/PdaChart'
+import Sankey from '@components/Sankey.astro'
+import Sankey24 from '@components/Sankey24.astro'
+import SankeyMilitary from '@components/SankeyMilitary.astro'
+import PdaChart from '@components/PdaChart.astro'
+import Markdown from '@components/Markdown.astro'
 
 useLocation(Astro)
 
@@ -23,25 +23,24 @@ const lang = useLanguage()
 const text = useText()
 const country = useCountry()
 const app = useApp()
-
-const BalanceMd = await useMd('notes', 'WeaponsBalance')
-const InventoryMd = await useMd('notes', 'WeaponsInventory')
-const Sankey24Md = await useMd('notes', 'Sankey24')
-const SankeyMd = await useMd('notes', 'Sankey')
-const SankeyMilitaryMd = await useMd('notes', 'SankeyMilitary')
-const PdaChartMd = await useMd('notes', 'PdaChart')
 ---
 
 <Layout>
 	<Container>
-		<WeaponsIncome />
-		<WeaponsBalance client:idle><BalanceMd /></WeaponsBalance>
-		<WeaponsInventory client:idle><InventoryMd /></WeaponsInventory>
+		<WeaponsIncome>
+			<Markdown collection="notes" slug="WeaponsIncome" />
+		</WeaponsIncome>
+		<WeaponsBalance>
+			<Markdown collection="notes" slug="WeaponsBalance" />
+		</WeaponsBalance>
+		<WeaponsInventory>
+			<Markdown collection="notes" slug="WeaponsInventory" />
+		</WeaponsInventory>
 	</Container>
 
 	{app === 'pun' && country === 'US' &&
 		<Banner
-			class="banner"
+			className="banner"
 			title={text('report.banner_title')}
 			image={reportBannerImage}
 		>
@@ -52,9 +51,17 @@ const PdaChartMd = await useMd('notes', 'PdaChart')
 	}
 
 	<Container>
-		<Sankey24 client:idle><Sankey24Md /></Sankey24>
-		<Sankey client:idle><SankeyMd /></Sankey24>
-		<SankeyMilitary client:idle><SankeyMilitaryMd /></Sankey24>
-		<PdaChart client:idle><PdaChartMd /></PdaChart>
+		<Sankey24>
+			<Markdown collection="notes" slug="Sankey24" />
+		</Sankey24>
+		<Sankey>
+			<Markdown collection="notes" slug="Sankey" />
+		</Sankey24>
+		<SankeyMilitary>
+			<Markdown collection="notes" slug="SankeyMilitary" />
+		</Sankey24>
+		<PdaChart>
+			<Markdown collection="notes" slug="PdaChart" />
+		</PdaChart>
 	</Container>
 </Layout>

@@ -1,0 +1,24 @@
+---
+import Section from './Section/Section'
+import { useLanguage, useText, useSankey } from '@tools/language'
+import { latestReport } from '@data/report'
+import { formatDate } from '@tools/date'
+import Vega from '@components/Vega/Vega'
+import spec from '@data/sankeyMilitary-w-data.vg'
+
+const t = useText()
+const format = formatDate(useLanguage())
+const from = format('2022-02-24')
+let till = latestReport.till
+if (till === '2023-07-02') till = '2023-07-09'
+till = format(till)
+const title = t('sankey-military.title')
+const subtitle = t('sankey-military.subtitle', { from, till })
+---
+
+<Section {...{ title, subtitle }}>
+	<div class="aspect-2.5">
+		<Vega client:idle spec={useSankey(spec)} />
+	</div>
+	<slot slot="description" />
+</Section>

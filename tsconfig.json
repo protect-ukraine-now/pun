@@ -10,7 +10,6 @@
 		"noImplicitAny": false,
 		"baseUrl": "src",
 		"paths": {
-			"@src/*": ["*"],
 			"@assets/*": ["assets/*"],
 			"@components/*": ["components/*"],
 			"@data/*": ["data/*"],

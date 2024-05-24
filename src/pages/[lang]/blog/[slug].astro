@@ -1,0 +1,12 @@
+---
+import { useLocation } from '@tools/location'
+import Layout from '@layouts/Article.astro'
+import Markdown from '@components/Markdown.astro'
+
+useLocation(Astro)
+const { slug } = Astro.params
+---
+
+<Layout>
+	<Markdown collection="blog" slug={slug} />
+</Layout>

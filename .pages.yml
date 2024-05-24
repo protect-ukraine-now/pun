@@ -3,6 +3,13 @@ media:
   output: ../..
   path: src/assets
 content:
+  - name: readme
+    label: README
+    type: file
+    path: README.md
+    fields:
+      - name: body
+        type: rich-text
   - name: pages
     label: Pages
     type: collection
@@ -30,8 +37,21 @@ content:
     path: src/content/blog
     extension: mdoc
     fields:
+      - name: date
+        label: Date
+        type: date
+      - name: title
+        label: Title
+        type: string
       - name: body
         type: rich-text
         options:
           image:
             path: src/content/blog
+    view:
+      fields: [date, title]
+      primary: title
+      sort: [date, title]
+      default:
+        sort: date
+        order: desc

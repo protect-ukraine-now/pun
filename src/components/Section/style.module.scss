@@ -2,15 +2,15 @@
 @import './src/styles/mixins';
 
 .title {
-	@include container-padding;
+	// @include container-padding;
 	@include make-responsive('font-size',
-		(tablet: 22px,
-			desktop: 30px,
+		(tablet: 20px,
+			desktop: 28px,
 		),
-		30px);
+		28px);
 	font-weight: 700;
 	text-transform: uppercase;
-	padding-top: 10px;
+	padding-top: 2rem;
 }
 
 .subtitle {
@@ -41,5 +41,5 @@
 		15px);
 
 	margin-top: 1em;
-	padding-bottom: 10px;
+	padding-bottom: 2rem;
 }

@@ -1,6 +1,5 @@
 import style from './style.module.scss'
 import Container from '../Container'
-import Article from '@components/Article'
 
 export default function Section({ title, subtitle, className, children, description }) {
 	return (
@@ -10,11 +9,7 @@ export default function Section({ title, subtitle, className, children, descript
 				<div className={style.subtitle}>{subtitle}</div>
 			</h2>
 			{children}
-			{description &&
-				<Article className={style.description}>
-					{description}
-				</Article>
-			}
+			{description}
 		</Container>
 	)
 }

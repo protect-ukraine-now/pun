@@ -80,7 +80,7 @@ month	category	country	had	lost	captured	provided
 2022-05	Infantry Fighting Vehicle	ru		-171	9	
 2022-05	Infantry Fighting Vehicle	ua		-25	30	
 2022-06	Towed Artillery	ru		-7	0	
-2022-06	Towed Artillery	ua		-5	0	69
+2022-06	Towed Artillery	ua		-5	0	60
 2022-06	Self-Propelled Artillery	ru		-11	0	
 2022-06	Self-Propelled Artillery	ua		-5	0	53
 2022-06	Multiple Launch Rocket System	ru		-16	0	
@@ -172,7 +172,7 @@ month	category	country	had	lost	captured	provided
 2022-11	Helicopter	ru		-14	0	
 2022-11	Helicopter	ua		-1	0	17
 2022-11	Tank	ru		-94	2	
-2022-11	Tank	ua		-35	33	
+2022-11	Tank	ua		-35	21	
 2022-11	Infantry Fighting Vehicle	ru		-154	1	
 2022-11	Infantry Fighting Vehicle	ua		-18	49	
 2022-12	Towed Artillery	ru		-9	4	
@@ -188,7 +188,7 @@ month	category	country	had	lost	captured	provided
 2022-12	Helicopter	ru		-3	0	
 2022-12	Helicopter	ua		-5	0	
 2022-12	Tank	ru		-77	0	
-2022-12	Tank	ua		-65	5	
+2022-12	Tank	ua		-65	0	
 2022-12	Infantry Fighting Vehicle	ru		-85	12	
 2022-12	Infantry Fighting Vehicle	ua		-69	9	
 2023-01	Towed Artillery	ru		-10	0	
@@ -204,7 +204,7 @@ month	category	country	had	lost	captured	provided
 2023-01	Helicopter	ru		-1	0	
 2023-01	Helicopter	ua		-1	0	2
 2023-01	Tank	ru		-64	0	
-2023-01	Tank	ua		-14	8	95
+2023-01	Tank	ua		-14	0	95
 2023-01	Infantry Fighting Vehicle	ru		-119	11	
 2023-01	Infantry Fighting Vehicle	ua		-37	21	250
 2023-02	Towed Artillery	ru		-16	1	
@@ -256,7 +256,7 @@ month	category	country	had	lost	captured	provided
 2023-04	Infantry Fighting Vehicle	ru		-33	0	
 2023-04	Infantry Fighting Vehicle	ua		-3	0	
 2023-05	Towed Artillery	ru		-25	0	
-2023-05	Towed Artillery	ua		-4	1	2
+2023-05	Towed Artillery	ua		-4	0	2
 2023-05	Self-Propelled Artillery	ru		-19	0	
 2023-05	Self-Propelled Artillery	ua		-23	1	
 2023-05	Multiple Launch Rocket System	ru		-11	0	
@@ -320,7 +320,7 @@ month	category	country	had	lost	captured	provided
 2023-08	Infantry Fighting Vehicle	ru		-119	0	
 2023-08	Infantry Fighting Vehicle	ua		-57	3	
 2023-09	Towed Artillery	ru		-19	0	
-2023-09	Towed Artillery	ua		-3	1	
+2023-09	Towed Artillery	ua		-3	0	
 2023-09	Self-Propelled Artillery	ru		-29	0	
 2023-09	Self-Propelled Artillery	ua		-11	0	
 2023-09	Multiple Launch Rocket System	ru		-21	0	
@@ -336,7 +336,7 @@ month	category	country	had	lost	captured	provided
 2023-09	Infantry Fighting Vehicle	ru		-103	0	
 2023-09	Infantry Fighting Vehicle	ua		-37	4	20
 2023-10	Towed Artillery	ru		-19	0	
-2023-10	Towed Artillery	ua		-6	2	
+2023-10	Towed Artillery	ua		-6	0	
 2023-10	Self-Propelled Artillery	ru		-47	0	
 2023-10	Self-Propelled Artillery	ua		-16	0	
 2023-10	Multiple Launch Rocket System	ru		-23	0	
@@ -350,7 +350,7 @@ month	category	country	had	lost	captured	provided
 2023-10	Tank	ru		-110	0	
 2023-10	Tank	ua		-32	0	21
 2023-10	Infantry Fighting Vehicle	ru		-160	0	
-2023-10	Infantry Fighting Vehicle	ua		-15	4	
+2023-10	Infantry Fighting Vehicle	ua		-15	1	
 2023-11	Towed Artillery	ru		-2	0	
 2023-11	Towed Artillery	ua		-4	0	
 2023-11	Self-Propelled Artillery	ru		-23	0	
@@ -364,7 +364,7 @@ month	category	country	had	lost	captured	provided
 2023-11	Helicopter	ru		0	0	
 2023-11	Helicopter	ua		0	0	
 2023-11	Tank	ru		-71	0	
-2023-11	Tank	ua		-5	0	36
+2023-11	Tank	ua		-5	0	34
 2023-11	Infantry Fighting Vehicle	ru		-91	0	
 2023-11	Infantry Fighting Vehicle	ua		-6	0	20
 2023-12	Towed Artillery	ru		-5	0	
@@ -388,9 +388,9 @@ month	category	country	had	lost	captured	provided
 2024-01	Self-Propelled Artillery	ru		-22	0	
 2024-01	Self-Propelled Artillery	ua		-14	0	
 2024-01	Multiple Launch Rocket System	ru		-18	0	
-2024-01	Multiple Launch Rocket System	ua		0	1	
+2024-01	Multiple Launch Rocket System	ua		0	1	2
 2024-01	Air Defense System	ru		-11	0	
-2024-01	Air Defense System	ua		-6	0	
+2024-01	Air Defense System	ua		-6	0	1
 2024-01	Warplane	ru		-3	0	
 2024-01	Warplane	ua		-2	0	
 2024-01	Helicopter	ru		-1	0	
@@ -398,9 +398,9 @@ month	category	country	had	lost	captured	provided
 2024-01	Tank	ru		-70	0	
 2024-01	Tank	ua		-14	0	
 2024-01	Infantry Fighting Vehicle	ru		-132	0	
-2024-01	Infantry Fighting Vehicle	ua		-21	3	
+2024-01	Infantry Fighting Vehicle	ua		-21	0	10
 2024-02	Towed Artillery	ru		-7	0	
-2024-02	Towed Artillery	ua		-3	1	
+2024-02	Towed Artillery	ua		-3	0	
 2024-02	Self-Propelled Artillery	ru		-19	1	
 2024-02	Self-Propelled Artillery	ua		-15	0	
 2024-02	Multiple Launch Rocket System	ru		-7	0	
@@ -415,3 +415,35 @@ month	category	country	had	lost	captured	provided
 2024-02	Tank	ua		-13	0	
 2024-02	Infantry Fighting Vehicle	ru		-170	4	
 2024-02	Infantry Fighting Vehicle	ua		-31	0	
+2024-03	Towed Artillery	ru		-9	0	
+2024-03	Towed Artillery	ua		-4	0	
+2024-03	Self-Propelled Artillery	ru		-27	0	
+2024-03	Self-Propelled Artillery	ua		-17	1	
+2024-03	Multiple Launch Rocket System	ru		-10	1	
+2024-03	Multiple Launch Rocket System	ua		-6	0	
+2024-03	Air Defense System	ru		-4	0	
+2024-03	Air Defense System	ua		-6	0	
+2024-03	Warplane	ru		-2	0	
+2024-03	Warplane	ua		-2	0	
+2024-03	Helicopter	ru		0	0	
+2024-03	Helicopter	ua		-4	0	2
+2024-03	Tank	ru		-109	0	
+2024-03	Tank	ua		-33	0	
+2024-03	Infantry Fighting Vehicle	ru		-186	2	
+2024-03	Infantry Fighting Vehicle	ua		-16	0	
+2024-04	Towed Artillery	ru		-4	0	
+2024-04	Towed Artillery	ua		-10	0	
+2024-04	Self-Propelled Artillery	ru		-16	0	
+2024-04	Self-Propelled Artillery	ua		-15	0	
+2024-04	Multiple Launch Rocket System	ru		-6	0	
+2024-04	Multiple Launch Rocket System	ua		0	0	
+2024-04	Air Defense System	ru		-13	0	
+2024-04	Air Defense System	ua		-10	0	1
+2024-04	Warplane	ru		-2	0	
+2024-04	Warplane	ua		-4	0	
+2024-04	Helicopter	ru		-1	0	
+2024-04	Helicopter	ua		-2	0	
+2024-04	Tank	ru		-63	0	
+2024-04	Tank	ua		-15	0	
+2024-04	Infantry Fighting Vehicle	ru		-187	2	
+2024-04	Infantry Fighting Vehicle	ua		-13	0	25

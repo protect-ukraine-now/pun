@@ -2,7 +2,7 @@ import money from '@data/money.json'
 import { useLanguage, useText } from '@tools/language'
 import { latest } from '@data/report'
 import { formatDate } from '@tools/date'
-import Section from '../Section'
+import Section from '../Section/Section'
 
 const population = 334565848
 

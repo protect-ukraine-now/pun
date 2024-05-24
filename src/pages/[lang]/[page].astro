@@ -1,17 +1,29 @@
 ---
-import { useMd } from "@src/tools/astro"
-import Layout from '@layouts/Layout.astro'
-import Container from '@components/Container'
-import { useLocation } from "@src/tools/location"
+import { useLocation } from '@tools/location'
+import Layout from '@layouts/Article.astro'
+import Markdown from '@components/Markdown.astro'
 
 useLocation(Astro)
-
-const Md = await useMd('pages', Astro.params.page)
-if (!Md) Astro.redirect('/')
+const { page } = Astro.params
 ---
 
 <Layout>
-	<Container>
-		<Md />
-	</Container>
+	<Markdown collection="pages" slug={page} />
 </Layout>
+
+<style is:global>
+	h1 {
+		position: relative;
+		text-align: center;
+
+		&:after {
+			content: '';
+			position: absolute;
+			top: 100%;
+			left: 0;
+			right: 0;
+			height: 4px;
+			background: linear-gradient(to right, #5E9AED 0%, #5E9AED 50%, #FEF300 50%, #FEF300 100%);
+		}
+	}
+</style>

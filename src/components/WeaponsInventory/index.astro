@@ -1,8 +1,7 @@
 ---
-import { useMd } from "@src/tools/astro";
-import WeaponsIncome from "./WeaponsIncome"
-
-const Md = await useMd('notes', 'WeaponsIncome')
+import WeaponsInventory from "./WeaponsInventory"
 ---
 
-<WeaponsIncome client:load><Md /></WeaponsIncome>
+<WeaponsInventory client:load>
+	<slot />
+</WeaponsInventory>

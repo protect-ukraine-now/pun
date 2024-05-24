@@ -42,6 +42,7 @@
 .splitter {
 	display: flex;
 	align-items: flex-start;
+	gap: 2rem;
 
 	@include max-w(tablet-min) {
 		flex-flow: column;
@@ -49,21 +50,21 @@
 }
 
 .table {
-		@include make-responsive('padding-right',
-					(
-									mobile: 13px,
-									desktop: 55px,
-					),
-					15px
-	);
+	// 	@include make-responsive('padding-right',
+	// 				(
+	// 								mobile: 13px,
+	// 								desktop: 55px,
+	// 				),
+	// 				15px
+	// );
 
-	@include make-responsive('padding-left',
-					(
-									mobile: 5px,
-									desktop: 55px,
-					),
-					15px
-	);
+	// @include make-responsive('padding-left',
+	// 				(
+	// 								mobile: 5px,
+	// 								desktop: 55px,
+	// 				),
+	// 				15px
+	// );
 
 	flex: 1 1 50%;
 	display: grid;

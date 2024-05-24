@@ -1,17 +1,17 @@
 ---
+import { ViewTransitions } from 'astro:transitions'
 import 'virtual:uno.css'
 // import 'virtual:unocss-devtools'
 
 import '@styles/index.module.scss'
 import favicon from '@assets/favicon.ico'
-import { useLocation } from '@src/tools/location'
+import { useLocation } from '@tools/location'
 import { useLanguage, useText } from '@tools/language'
 import PunLogo from '@components/logo/PunLogo'
 import UatLogo from '@components/logo/UatLogo'
-import Header from '@src/components/Header/Header.astro'
-import Footer from '@src/components/Footer/Footer'
+import Header from '@components/Header/Header.astro'
+import Footer from '@components/Footer/Footer'
 import { useApp } from '@tools/app'
-import { ViewTransitions } from 'astro:transitions'
 
 useLocation(Astro)
 
