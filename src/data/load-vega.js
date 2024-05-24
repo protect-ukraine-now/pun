@@ -1,7 +1,7 @@
 import fs from 'fs'
 import vl from 'vega-lite'
 
-import pda from './pda.vl.json' assert { type: "json" }
+import pda from './pda.vl.json' with { type: "json" }
 
 export const config = {
     sankey24: {
