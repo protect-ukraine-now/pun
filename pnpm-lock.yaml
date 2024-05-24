@@ -62,12 +62,12 @@ importers:
       '@unocss/preset-icons':
         specifier: ^0.60.3
         version: 0.60.3
+      '@unocss/preset-tagify':
+        specifier: ^0.60.3
+        version: 0.60.3
       '@unocss/reset':
         specifier: ^0.60.3
         version: 0.60.3
-      '@unscatty/unocss-preset-daisy':
-        specifier: ^1.0.0
-        version: 1.0.0(unocss@0.60.3(postcss@8.4.38)(rollup@4.17.2)(vite@5.2.11(@types/node@20.12.11)(sass@1.77.2)))
       astro:
         specifier: ^4.9.0
         version: 4.9.0(@types/node@20.12.11)(sass@1.77.2)(typescript@5.4.5)
@@ -125,10 +125,6 @@ importers:
       vite-tsconfig-paths:
         specifier: ^4.3.2
         version: 4.3.2(typescript@5.4.5)(vite@5.2.11(@types/node@20.12.11)(sass@1.77.2))
-    devDependencies:
-      '@unocss/preset-tagify':
-        specifier: ^0.60.3
-        version: 0.60.3
 
 packages:
 
@@ -1975,11 +1971,6 @@ packages:
   '@swc/helpers@0.5.11':
     resolution: {integrity: sha512-YNlnKRWF2sVojTpIyzwou9XoTNbzbzONwRhOoniEioF1AtaitTvVZblaQRrAzChWQ1bLYyYSWzM18y4WwgzJ+A==}
 
-  '@tailwindcss/nesting@0.0.0-insiders.565cd3e':
-    resolution: {integrity: sha512-WhHoFBx19TnH/c+xLwT/sxei6+4RpdfiyG3MYXfmLaMsADmVqBkF7B6lDalgZD9YdM459MF7DtxVbWkOrV7IaQ==}
-    peerDependencies:
-      postcss: ^8.2.15
-
   '@toeverything/y-indexeddb@0.10.0-canary.9':
     resolution: {integrity: sha512-3hzktNuOaXut/RgRjKNeqQura1zeYF+tSLSlWDc0rDBOrEpwD/1EOpKVCbgtl8ke7f4oinLfgBNk4HcwqaQUYQ==}
     peerDependencies:
@@ -2100,9 +2091,6 @@ packages:
     resolution: {integrity: sha512-3RGD7h3bS4qZA/Khcqhn1EgLgyPc85FSz5rubdywHRdHlpY9sdmuGEJahvqSLMN4MmdYQDmqEIEAJjENrdgZeQ==}
     engines: {node: '>=14'}
 
-  '@unocss/core@0.57.7':
-    resolution: {integrity: sha512-1d36M0CV3yC80J0pqOa5rH1BX6g2iZdtKmIb3oSBN4AWnMCSrrJEPBrUikyMq2TEQTrYWJIVDzv5A9hBUat3TA==}
-
   '@unocss/core@0.60.3':
     resolution: {integrity: sha512-4bBX1pavDl2DSCozEII7bxYGT0IkyO7kKlUuCtooTePWyLjf2F7essdzHkJ00EpNR64kkebR9V0lqBMBo07VPw==}
 
@@ -2145,10 +2133,6 @@ packages:
   '@unocss/reset@0.60.3':
     resolution: {integrity: sha512-EuC8gkh8L8WvPOcjS/KqprEJXIKcpBPm+ou5G9D6WgDmJ+TgQrri5oR+QUmOmEnueQkVL7bnkFkIKeg71SJLFA==}
 
-  '@unocss/rule-utils@0.57.7':
-    resolution: {integrity: sha512-gLqbKTIetvRynLkhonu1znr+bmWnw+Cl3dFVNgZPGjiqGHd78PGS0gXQKvzuyN0iO2ADub1A7GlCWs826iEHjA==}
-    engines: {node: '>=14'}
-
   '@unocss/rule-utils@0.60.3':
     resolution: {integrity: sha512-I47/DcKQ2z12W80+Ffth0K6LzNvqcQPYRWk7KwVemVoEiGYamMV8/s+SbB26Fk9KUFjh+Ns/pGAo4iJZo0ueUQ==}
     engines: {node: '>=14'}
@@ -2175,11 +2159,6 @@ packages:
     resolution: {integrity: sha512-I3EOR3g245IGDp3DS17AQAMwNQrh6L6kIlXG3+wt5IZ1zu1ahZmKA8/xxh6oo2TNdu4rI6nQbcLIRn+8eSyfQw==}
     peerDependencies:
       vite: ^2.9.0 || ^3.0.0-0 || ^4.0.0 || ^5.0.0-0
-
-  '@unscatty/unocss-preset-daisy@1.0.0':
-    resolution: {integrity: sha512-YKPuMyqvyUJ+t7sA44V8URHdwBEsRHna1SnpLUHkqZEAv4pI0ZthMvo/zn6WNf4AKVe1XqQlY3Ty3ktLbbErxw==}
-    peerDependencies:
-      unocss: ^0.56.4
 
   '@urql/core@4.3.0':
     resolution: {integrity: sha512-wT+FeL8DG4x5o6RfHEnONNFVDM3616ouzATMYUClB6CB+iIu2mwfBKd7xSUxYOZmwtxna5/hDRQdMl3nbQZlnw==}
@@ -2655,9 +2634,6 @@ packages:
   d3-timer@3.0.1:
     resolution: {integrity: sha512-ndfJ/JxxMd3nw31uyKoY2naivF+r29V+Lc0svZxe1JvvIRmi8hUsrMvdOwgS1o6uBHmiz91geQ0ylPP0aj1VUA==}
     engines: {node: '>=12'}
-
-  daisy-untailwind@3.9.4:
-    resolution: {integrity: sha512-SKXfLoq71d2IQ7Mb+mrre2by9vBV1k2GibHvR8LHNkRRtvDmqUVP+h1r5fjH+VgqXwAhHqHmTkCbmYdjPZs/4w==}
 
   daisyui@3.9.4:
     resolution: {integrity: sha512-fvi2RGH4YV617/6DntOVGcOugOPym9jTGWW2XySb5ZpvdWO4L7bEG77VHirrnbRUEWvIEVXkBpxUz2KFj0rVnA==}
@@ -3793,12 +3769,6 @@ packages:
         optional: true
       ts-node:
         optional: true
-
-  postcss-nested@5.0.6:
-    resolution: {integrity: sha512-rKqm2Fk0KbA8Vt3AdGN0FB9OBOMDVajMG6ZCf/GoHgdxUJ4sBFp0A/uMIRm+MJUdo33YXEtjqIz8u7DAp8B7DA==}
-    engines: {node: '>=12.0'}
-    peerDependencies:
-      postcss: ^8.2.14
 
   postcss-nested@6.0.1:
     resolution: {integrity: sha512-mEp4xPMi5bSWiMbsgoPfcP74lsWLHkQbZc3sY+jWYd65CUwXrUaTp0fmNpa01ZcETKlIgUdFN/MpS2xZtqL9dQ==}
@@ -7087,11 +7057,6 @@ snapshots:
     dependencies:
       tslib: 2.6.2
 
-  '@tailwindcss/nesting@0.0.0-insiders.565cd3e(postcss@8.4.38)':
-    dependencies:
-      postcss: 8.4.38
-      postcss-nested: 5.0.6(postcss@8.4.38)
-
   '@toeverything/y-indexeddb@0.10.0-canary.9(yjs@13.6.15)':
     dependencies:
       idb: 7.1.1
@@ -7242,8 +7207,6 @@ snapshots:
       '@unocss/core': 0.60.3
       unconfig: 0.3.13
 
-  '@unocss/core@0.57.7': {}
-
   '@unocss/core@0.60.3': {}
 
   '@unocss/extractor-arbitrary-variants@0.60.3':
@@ -7314,11 +7277,6 @@ snapshots:
 
   '@unocss/reset@0.60.3': {}
 
-  '@unocss/rule-utils@0.57.7':
-    dependencies:
-      '@unocss/core': 0.57.7
-      magic-string: 0.30.10
-
   '@unocss/rule-utils@0.60.3':
     dependencies:
       '@unocss/core': 0.60.3
@@ -7368,17 +7326,6 @@ snapshots:
       vite: 5.2.11(@types/node@20.12.11)(sass@1.77.2)
     transitivePeerDependencies:
       - rollup
-
-  '@unscatty/unocss-preset-daisy@1.0.0(unocss@0.60.3(postcss@8.4.38)(rollup@4.17.2)(vite@5.2.11(@types/node@20.12.11)(sass@1.77.2)))':
-    dependencies:
-      '@tailwindcss/nesting': 0.0.0-insiders.565cd3e(postcss@8.4.38)
-      '@unocss/rule-utils': 0.57.7
-      camelcase: 8.0.0
-      daisy-untailwind: 3.9.4
-      parsel-js: 1.1.2
-      postcss: 8.4.38
-      postcss-js: 4.0.1(postcss@8.4.38)
-      unocss: 0.60.3(postcss@8.4.38)(rollup@4.17.2)(vite@5.2.11(@types/node@20.12.11)(sass@1.77.2))
 
   '@urql/core@4.3.0(graphql@16.8.1)':
     dependencies:
@@ -7963,10 +7910,6 @@ snapshots:
       d3-array: 3.2.4
 
   d3-timer@3.0.1: {}
-
-  daisy-untailwind@3.9.4:
-    dependencies:
-      colord: 2.9.3
 
   daisyui@3.9.4:
     dependencies:
@@ -9462,11 +9405,6 @@ snapshots:
       yaml: 2.4.2
     optionalDependencies:
       postcss: 8.4.38
-
-  postcss-nested@5.0.6(postcss@8.4.38):
-    dependencies:
-      postcss: 8.4.38
-      postcss-selector-parser: 6.1.0
 
   postcss-nested@6.0.1(postcss@8.4.38):
     dependencies:
