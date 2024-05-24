@@ -49,7 +49,9 @@ let map = {
 let Astro
 export function useCountry(astro = null) {
 	Astro = astro ?? Astro
-	return Astro?.request.headers.get('cf-ipcountry') || 'US'
+	const country = Astro?.request.headers.get('cf-ipcountry')
+	console.log('cf-ipcountry', country)
+	return country || 'US'
 	// let { data } = useServerSideQuery(({ request }) => request.headers.get('cf-ipcountry'))
 
 	// override country with the query parameter for testing

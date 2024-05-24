@@ -3,7 +3,9 @@ import { useLanguage, useText } from '@tools/language'
 import { formatDate } from '@tools/date'
 import { prepareNews } from '@data/news'
 import Layout from '@layouts/Article.astro'
+import { useLocation } from '@tools/location'
 
+useLocation(Astro)
 const lang = useLanguage()
 const text = useText()
 const sourceLabel = text('news.source')
