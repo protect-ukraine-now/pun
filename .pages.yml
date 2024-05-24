@@ -55,7 +55,7 @@ content:
           image:
             path: src/content/blog
     view:
-      fields: [date, title]
+      fields: [slug, date, title]
       primary: title
       sort: [date, title]
       default:
