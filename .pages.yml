@@ -16,6 +16,9 @@ content:
     path: src/content/pages
     extension: mdoc
     fields:
+      - name: title
+        label: Title
+        type: string
       - name: body
         type: rich-text
         options:
@@ -26,6 +29,9 @@ content:
     type: collection
     path: src/content/notes
     fields:
+      - name: title
+        label: Title
+        type: string
       - name: body
         type: rich-text
         options:
