@@ -29,10 +29,18 @@ export default defineConfig({
 		actions: true,
 		rewriting: true,
 	},
-	adapter: cloudflare(),
+	adapter: cloudflare({
+		platformProxy: {
+			enabled: true,
+			configPath: "wrangler.toml",
+		},
+	}),
 	vite: {
 		define: viteEnv,
 		plugins: [tsconfigPaths()],
+		ssr: {
+    		external: ["node:async_hooks"],
+  		},
 	},
 	integrations: [
 		preact({
