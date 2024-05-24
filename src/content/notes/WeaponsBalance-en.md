@@ -1,3 +1,6 @@
+---
+title: Weapons Balance EN
+---
 - Includes equipment in store
 - Air Defense: number of launchers is shown
 - Tanks: includes T-62 and above

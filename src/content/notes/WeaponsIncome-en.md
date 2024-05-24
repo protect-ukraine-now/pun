@@ -1,3 +1,6 @@
+---
+title: Weapons Income EN
+---
 - Includes delivered and promised in the near future
 - Air Defense: number of launchers is shown
 - IFVs: includes all Bradley and Stryker variants
