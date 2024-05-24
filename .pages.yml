@@ -24,6 +24,9 @@ content:
         options:
           image:
             path: src/content/pages
+    view:
+      default:
+        order: asc
   - name: notes
     label: Notes
     type: collection
@@ -37,6 +40,9 @@ content:
         options:
           image:
             path: src/content/notes
+    view:
+      default:
+        order: asc
   - name: blog
     label: Blog
     type: collection
