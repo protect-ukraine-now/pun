@@ -1,28 +1,37 @@
 import fs from 'fs'
 import vl from 'vega-lite'
 
-import sankey from './sankey.vg.json' assert { type: "json" }
-import sankey24 from './sankey24.vg.json' assert { type: "json" }
-import sankeyMilitary from './sankeyMilitary.vg.json' assert { type: "json" }
 import pda from './pda.vl.json' assert { type: "json" }
 
-function loadVega(specs) {
-    return Object.entries(specs).map(async ([key, spec]) => {
-        if (!Array.isArray(spec.data)) spec.data = [spec.data]
-        await Promise.all(spec.data.map(async ({ url }, i) => {
-            if (!url) return
+export const config = {
+    sankey24: {
+        entries: 'https://docs.google.com/spreadsheets/d/1Q9aLVoSZ9vTKH0VLnMpFRiY6h0kV6Rcb16R4lP0rUFs/export?format=csv&id=1Q9aLVoSZ9vTKH0VLnMpFRiY6h0kV6Rcb16R4lP0rUFs&gid=238011614',
+        connections: 'https://docs.google.com/spreadsheets/d/1Q9aLVoSZ9vTKH0VLnMpFRiY6h0kV6Rcb16R4lP0rUFs/export?format=csv&id=1Q9aLVoSZ9vTKH0VLnMpFRiY6h0kV6Rcb16R4lP0rUFs&gid=1826636675',
+    },
+    sankey: {
+        entries: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vT7ok1ZDyU1Lz37NIZAMrSv7u_xL4SjWQcXIj5RWj4qzsgbIiU-wqmEK8kwtsMeVt_qTuEVIPgRiLiE/pub?gid=1885277555&single=true&output=csv',
+        connections: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vT7ok1ZDyU1Lz37NIZAMrSv7u_xL4SjWQcXIj5RWj4qzsgbIiU-wqmEK8kwtsMeVt_qTuEVIPgRiLiE/pub?gid=1480746214&single=true&output=csv',
+    },
+    sankeyMilitary: {
+        entries: 'https://docs.google.com/spreadsheets/d/1Q9aLVoSZ9vTKH0VLnMpFRiY6h0kV6Rcb16R4lP0rUFs/export?format=csv&id=1Q9aLVoSZ9vTKH0VLnMpFRiY6h0kV6Rcb16R4lP0rUFs&gid=1809221022',
+        connections: 'https://docs.google.com/spreadsheets/d/1Q9aLVoSZ9vTKH0VLnMpFRiY6h0kV6Rcb16R4lP0rUFs/export?format=csv&id=1Q9aLVoSZ9vTKH0VLnMpFRiY6h0kV6Rcb16R4lP0rUFs&gid=977981274',
+    },
+}
+
+function loadVega(what = config) {
+    return Object.entries(what).map(async ([file, sources]) => {
+        await Promise.all(Object.entries(sources).map(async ([src, url]) => {
             let csv = await (await fetch(url)).text()
-            delete spec.data[i].url
-            spec.data[i].values = csv
+            sources[src] = csv
         }))
-        let json = 'export default\n' + JSON.stringify(spec, null, '\t')
-        fs.writeFileSync(`src/data/${key}-w-data.vg.ts`, json)
+        let json = /*'export default\n' +*/ JSON.stringify(sources, null, '\t')
+        fs.writeFileSync(`src/data/${file}.json`, json)
     })
 }
 
-loadVega({
-    sankey,
-    sankey24,
-    sankeyMilitary,
-    pda: vl.compile(pda).spec,
-})
+loadVega()
+
+pda.data.values = await (await fetch(pda.data.url)).text()
+delete pda.data.url
+const json = JSON.stringify(vl.compile(pda).spec, null, '\t')
+fs.writeFileSync(`src/data/pda-w-data.vg.json`, json)

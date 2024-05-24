@@ -8,7 +8,7 @@
 	],
 	"data": {
 		"name": "PDA",
-    	"url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vT7ok1ZDyU1Lz37NIZAMrSv7u_xL4SjWQcXIj5RWj4qzsgbIiU-wqmEK8kwtsMeVt_qTuEVIPgRiLiE/pub?gid=1730063955&single=true&output=csv&range=A:Z",
+    	"url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vT7ok1ZDyU1Lz37NIZAMrSv7u_xL4SjWQcXIj5RWj4qzsgbIiU-wqmEK8kwtsMeVt_qTuEVIPgRiLiE/pub?gid=1730063955&single=true&output=csv&range=PDA",
 		"format": {
 			"type": "csv",
 			"parse": {

@@ -1,10 +1,10 @@
 ---
-import Section from './Section/Section'
 import { useLanguage, useText } from '@tools/language'
-import { latestReport } from '@data/report'
 import { formatDate } from '@tools/date'
+import Section from './Section/Section'
 import Vega from '@components/Vega/Vega'
-import spec from '@data/pda-w-data.vg'
+import { latestReport } from '@data/report'
+import spec from '@data/pda-w-data.vg.json'
 
 const t = useText()
 const format = formatDate(useLanguage())
