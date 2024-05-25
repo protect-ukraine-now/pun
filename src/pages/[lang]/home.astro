@@ -1,0 +1,26 @@
+---
+import { useLocation } from "@tools/location"
+import Layout from "@layouts/Basic.astro"
+import About from "@components/tiles/About.astro"
+import Report from "@components/tiles/Report.astro"
+import Blog from "@components/tiles/Blog.astro"
+import Congress from "@components/tiles/Congress.astro"
+import News from "@components/tiles/News.astro"
+import Faq from "@components/tiles/Faq.astro"
+import Vlog from "@components/tiles/Vlog.astro"
+
+useLocation(Astro)
+
+// xl:col-start-2 xl:row-start-1 xl:row-end-3
+---
+<Layout>
+	<div class="h-full grid auto-rows-fr place-items-stretch lg:gap-2 lg:grid-cols-2 xl:grid-cols-3 grid-flow-row">
+		<About />
+		<Report />
+		<Congress />
+		<Vlog />
+		<Blog />
+		<News />
+		<Faq />
+	</div>
+</Layout>

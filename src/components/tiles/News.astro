@@ -1,0 +1,19 @@
+---
+import Card from "@components/Card.astro"
+import { useText } from "@tools/language"
+import bg from '@assets/banner-bg.webp'
+
+const t = useText()
+---
+
+<Card title="News" href="/news" bg={bg.src} class="bg">
+	Recent intelligence suggests that China and Russia are cooperating on military equipment destined for use in the Ukrainian conflict, with lethal aid expected to be supplied by China to Russia, as stated by Grant Shapps, the U.K. Defense Secretary.
+</Card>
+
+<style>
+	.bg {
+		background-position: center;
+		background-size: cover;
+	}
+</style>
+

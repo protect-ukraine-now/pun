@@ -1,0 +1,18 @@
+---
+import Card from "@components/Card.astro"
+import { useText } from "@tools/language"
+import bg from '@assets/weapon-categories/infantry-fighting-vehicle.svg'
+
+const t = useText()
+---
+
+<Card title="Blog" href="/blog" bg={bg.src} fog={true} class="bg">
+	EDA stands for Excess Defense Articles, military equipment that the US Department of Defense (DoD) no longer needs
+</Card>
+
+<style>
+	.bg {
+		/* background-position: right top; */
+		background-size: 60%
+	}
+</style>

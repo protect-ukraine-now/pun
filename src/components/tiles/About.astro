@@ -1,0 +1,19 @@
+---
+import Card from "@components/Card.astro"
+import { useText } from "@tools/language"
+import bg from '@assets/logo/pun-logo-horizontal.svg'
+
+const t = useText()
+---
+
+<Card title="About" href="/about" bg={bg.src} class="bg">
+	ProtectUkraineNOW.org is a non-profit organization that provides information and resources to Ukrainians and other people affected by the war
+</Card>
+
+<style>
+	.bg {
+		/* background-position: right top; */
+		background-size: 70%;
+	}
+</style>
+

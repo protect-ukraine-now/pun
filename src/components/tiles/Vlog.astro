@@ -1,0 +1,12 @@
+---
+import Card from "@components/Card.astro"
+import { useText } from "@tools/language"
+import LiteYouTubeEmbed from 'react-lite-youtube-embed'
+import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css'
+
+const t = useText()
+---
+
+<Card title="Vlog" href="/vlog" fog={0} bg="https://i.ytimg.com/vi/Lrg0CEj8VuY/mqdefault.jpg">
+	<!-- <LiteYouTubeEmbed id="Lrg0CEj8VuY" /> -->
+</Card>

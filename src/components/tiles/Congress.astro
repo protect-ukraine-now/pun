@@ -1,0 +1,17 @@
+---
+import Card from "@components/Card.astro"
+import { useText } from "@tools/language"
+import bg from '@assets/header-bg.webp'
+
+const t = useText()
+---
+
+<Card title="Contact Congress" href="/call" bg="/support.webp" fog={0} class="bg">
+</Card>
+
+<style>
+	.bg {
+		/* background-position: right top; */
+		background-size: 100%;
+	}
+</style>

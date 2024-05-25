@@ -30,10 +30,10 @@ export default defineConfig({
 		rewriting: true,
 	},
 	adapter: cloudflare({
-		platformProxy: {
-			enabled: true,
-			configPath: "wrangler.toml",
-		},
+		// platformProxy: {
+		// 	enabled: true,
+		// 	configPath: "wrangler.toml",
+		// },
 	}),
 	vite: {
 		define: viteEnv,

@@ -50,6 +50,7 @@
     "rambda": "^9.2.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-lite-youtube-embed": "^2.4.0",
     "sass": "^1.77.2",
     "typescript": "^5.4.5",
     "unocss": "^0.60.3",

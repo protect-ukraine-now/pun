@@ -67,7 +67,18 @@ const { header, footer } = config[useApp()]
 	</head>
 	<body>
 		<Header {...header} />
-		<slot />
+		<div>
+			<slot />
+		</div>
 		<Footer {...footer} />
 	</body>
 </html>
+
+<style is:global>
+	body {
+		min-height: 100vh;
+		margin: 0;
+		display: grid;
+		grid-template-rows: auto 1fr auto;
+	}
+</style>

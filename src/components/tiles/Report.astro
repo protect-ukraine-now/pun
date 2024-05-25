@@ -1,0 +1,17 @@
+---
+import Card from "@components/Card.astro"
+import { useText } from "@tools/language"
+import bg from '@assets/header-bg.webp'
+
+const t = useText()
+---
+
+<Card title="Analytics" href="/report" bg="/sankey_2023-07-09.webp" fog={true} class="bg">
+	Ukraine has received approximately $26 billion worth of military equipment from US
+</Card>
+
+<style>
+	.bg {
+		/* background-position: right center; */
+	}
+</style>
