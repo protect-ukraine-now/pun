@@ -19,7 +19,7 @@ const viteEnv = {}
 Object.entries(process.env).forEach(([key, val]) => {
 	if (key.startsWith(`VITE_`) || key.includes(`KEYSTATIC_`)) {
 		console.log(key, val)
-		viteEnv[`import.meta.env.${key}`] = `'${val}'`
+		viteEnv[`process.env.${key}`] = `'${val}'`
 	}
 })
 

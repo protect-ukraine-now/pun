@@ -15,9 +15,9 @@ import { useApp } from '@tools/app'
 
 useLocation(Astro)
 
-console.log('process.env', Object.keys(process.env).length)
-console.log('import.meta.env', Object.keys(import.meta.env).length)
-console.log('Astro.locals.runtime?.env', Object.keys(Astro.locals.runtime?.env).length)
+console.log('process.env', process.env)
+console.log('import.meta.env', import.meta.env)
+console.log('Astro.locals.runtime?.env', Astro.locals.runtime?.env)
 console.log('process.env.KEYSTATIC_GITHUB_CLIENT_ID', process.env.KEYSTATIC_GITHUB_CLIENT_ID)
 console.log('import.meta.env.KEYSTATIC_GITHUB_CLIENT_ID', import.meta.env.KEYSTATIC_GITHUB_CLIENT_ID)
 console.log('Astro.locals.runtime?.env.KEYSTATIC_GITHUB_CLIENT_ID', Astro.locals.runtime?.env.KEYSTATIC_GITHUB_CLIENT_ID)
