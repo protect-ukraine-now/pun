@@ -15,10 +15,18 @@ import { useApp } from '@tools/app'
 
 useLocation(Astro)
 
-console.log('process?.env', process?.env)
-console.log('process?.env.KEYSTATIC_GITHUB_CLIENT_ID', process?.env.KEYSTATIC_GITHUB_CLIENT_ID)
-console.log('import.meta.env', import.meta.env)
+console.log('process.env', Object.keys(process.env).length)
+console.log('import.meta.env', Object.keys(import.meta.env).length)
+console.log('Astro.locals.runtime?.env', Object.keys(Astro.locals.runtime?.env).length)
+console.log('process.env.KEYSTATIC_GITHUB_CLIENT_ID', process.env.KEYSTATIC_GITHUB_CLIENT_ID)
 console.log('import.meta.env.KEYSTATIC_GITHUB_CLIENT_ID', import.meta.env.KEYSTATIC_GITHUB_CLIENT_ID)
+console.log('Astro.locals.runtime?.env.KEYSTATIC_GITHUB_CLIENT_ID', Astro.locals.runtime?.env.KEYSTATIC_GITHUB_CLIENT_ID)
+console.log('process.env.KEYSTATIC_SECRET', process.env.KEYSTATIC_SECRET)
+console.log('import.meta.env.KEYSTATIC_SECRET', import.meta.env.KEYSTATIC_SECRET)
+console.log('Astro.locals.runtime?.env.KEYSTATIC_SECRET', Astro.locals.runtime?.env.KEYSTATIC_SECRET)
+console.log('process.env.PUBLIC_KEYSTATIC_GITHUB_APP_SLUG', process.env.PUBLIC_KEYSTATIC_GITHUB_APP_SLUG)
+console.log('import.meta.env.PUBLIC_KEYSTATIC_GITHUB_APP_SLUG', import.meta.env.PUBLIC_KEYSTATIC_GITHUB_APP_SLUG)
+console.log('Astro.locals.runtime?.env.PUBLIC_KEYSTATIC_GITHUB_APP_SLUG', Astro.locals.runtime?.env.PUBLIC_KEYSTATIC_GITHUB_APP_SLUG)
 
 const config = {
 	pun: {

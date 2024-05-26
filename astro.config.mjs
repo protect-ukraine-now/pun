@@ -17,7 +17,7 @@ import countries from './src/data/countries.json'
 
 const viteEnv = {}
 Object.entries(process.env).forEach(([key, val]) => {
-	if (key.startsWith(`VITE_`)) {
+	if (key.startsWith(`VITE_`) || key.includes(`KEYSTATIC_`)) {
 		console.log(key, val)
 		viteEnv[`import.meta.env.${key}`] = `'${val}'`
 	}
