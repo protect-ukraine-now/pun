@@ -22,8 +22,8 @@
 	"background": null,
 	"transform": [
 		{
-      			"filter": "datum.Date > datetime(2022, 1, 1)"
-    		},
+      		"filter": "datum.Date > datetime(2022, 1, 1)"
+    	},
 		{
 	 		"calculate": "datum.PDA_adjusted / 1000",
 	 		"as": "PDA_adjusted"

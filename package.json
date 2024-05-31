@@ -40,6 +40,7 @@
     "@unocss/preset-tagify": "^0.60.3",
     "@unocss/reset": "^0.60.3",
     "astro": "^4.9.1",
+    "astro-vtbot": "^1.7.22",
     "clsx": "^2.1.1",
     "cross-env": "^7.0.3",
     "daisyui": "3",

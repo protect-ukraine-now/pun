@@ -1,0 +1,339 @@
+{
+	"$schema": "https://vega.github.io/schema/vega/v5.json",
+	"autosize": {
+		"type": "fit",
+		"contains": "padding"
+	},
+	"background": null,
+	"padding": 5,
+	"style": "cell",
+	"data": [
+		{
+			"name": "source_0",
+			"values": "\"month\",\"RUS\",\"UKR\",\"ratio\"\n\"2022-02\",\"120\",\"51\",\"2.4\"\n\"2022-03\",\"830\",\"210\",\"4.0\"\n\"2022-04\",\"651\",\"126\",\"5.2\"\n\"2022-05\",\"362\",\"97\",\"3.7\"\n\"2022-06\",\"205\",\"42\",\"4.9\"\n\"2022-07\",\"216\",\"86\",\"2.5\"\n\"2022-08\",\"198\",\"73\",\"2.7\"\n\"2022-09\",\"630\",\"88\",\"7.2\"\n\"2022-10\",\"598\",\"208\",\"2.9\"\n\"2022-11\",\"329\",\"92\",\"3.6\"\n\"2022-12\",\"200\",\"171\",\"1.2\"\n\"2023-01\",\"231\",\"99\",\"2.3\"\n\"2023-02\",\"323\",\"63\",\"5.1\"\n\"2023-03\",\"314\",\"78\",\"4.0\"\n\"2023-04\",\"70\",\"27\",\"2.6\"\n\"2023-05\",\"240\",\"89\",\"2.7\"\n\"2023-06\",\"250\",\"118\",\"2.1\"\n\"2023-07\",\"353\",\"151\",\"2.3\"\n\"2023-08\",\"293\",\"146\",\"2.0\"\n\"2023-09\",\"250\",\"81\",\"3.1\"\n\"2023-10\",\"393\",\"74\",\"5.3\"\n\"2023-11\",\"214\",\"30\",\"7.1\"\n\"2023-12\",\"306\",\"83\",\"3.7\"\n\"2024-01\",\"261\",\"64\",\"4.1\"\n\"2024-02\",\"299\",\"72\",\"4.2\"\n\"2024-03\",\"347\",\"88\",\"3.9\"\n\"2024-04\",\"292\",\"69\",\"4.2\"\n\"2024-05\",\"386\",\"107\",\"3.6\"",
+			"format": {
+				"type": "csv"
+			}
+		},
+		{
+			"name": "data_0",
+			"source": "source_0",
+			"transform": [
+				{
+					"type": "formula",
+					"expr": "toDate(datum[\"month\"])",
+					"as": "month"
+				},
+				{
+					"field": "month",
+					"type": "timeunit",
+					"units": [
+						"year",
+						"month"
+					],
+					"as": [
+						"yearmonth_month",
+						"yearmonth_month_end"
+					]
+				},
+				{
+					"type": "aggregate",
+					"groupby": [
+						"yearmonth_month"
+					],
+					"ops": [
+						"sum",
+						"sum"
+					],
+					"fields": [
+						"RUS",
+						"UKR"
+					],
+					"as": [
+						"sum_RUS",
+						"sum_UKR"
+					]
+				}
+			]
+		}
+	],
+	"signals": [
+		{
+			"name": "width",
+			"init": "isFinite(containerSize()[0]) ? containerSize()[0] : 200",
+			"on": [
+				{
+					"update": "isFinite(containerSize()[0]) ? containerSize()[0] : 200",
+					"events": "window:resize"
+				}
+			]
+		},
+		{
+			"name": "height",
+			"init": "isFinite(containerSize()[1]) ? containerSize()[1] : 200",
+			"on": [
+				{
+					"update": "isFinite(containerSize()[1]) ? containerSize()[1] : 200",
+					"events": "window:resize"
+				}
+			]
+		},
+		{
+			"name": "fontSize",
+			"update": "width/70"
+		}
+	],
+	"marks": [
+		{
+			"name": "child__layer_RUS_marks",
+			"type": "rect",
+			"style": [
+				"bar"
+			],
+			"from": {
+				"data": "data_0"
+			},
+			"encode": {
+				"update": {
+					"fill": {
+						"scale": "color",
+						"value": "RUS"
+					},
+					"ariaRoleDescription": {
+						"value": "bar"
+					},
+					"description": {
+						"signal": "\"month (year-month): \" + (timeFormat(datum[\"yearmonth_month\"], '%b`%y')) + \"; Sum of RUS: \" + (format(datum[\"sum_RUS\"], \"\"))"
+					},
+					"x": {
+						"scale": "x",
+						"field": "yearmonth_month",
+						"offset": {
+							"scale": "xOffset",
+							"value": "RUS"
+						}
+					},
+					"width": {
+						"signal": "max(0.25, bandwidth('xOffset'))"
+					},
+					"y": [
+						{
+							"test": "!isValid(datum[\"sum_RUS\"]) || !isFinite(+datum[\"sum_RUS\"])",
+							"field": {
+								"group": "height"
+							}
+						},
+						{
+							"scale": "y",
+							"field": "sum_RUS"
+						}
+					],
+					"y2": {
+						"scale": "y",
+						"value": 0
+					}
+				}
+			}
+		},
+		{
+			"name": "child__layer_UKR_marks",
+			"type": "rect",
+			"style": [
+				"bar"
+			],
+			"from": {
+				"data": "data_0"
+			},
+			"encode": {
+				"update": {
+					"fill": {
+						"scale": "color",
+						"value": "UKR"
+					},
+					"ariaRoleDescription": {
+						"value": "bar"
+					},
+					"description": {
+						"signal": "\"month (year-month): \" + (timeFormat(datum[\"yearmonth_month\"], '%b`%y')) + \"; Sum of UKR: \" + (format(datum[\"sum_UKR\"], \"\"))"
+					},
+					"x": {
+						"scale": "x",
+						"field": "yearmonth_month",
+						"offset": {
+							"scale": "xOffset",
+							"value": "UKR"
+						}
+					},
+					"width": {
+						"signal": "max(0.25, bandwidth('xOffset'))"
+					},
+					"y": [
+						{
+							"test": "!isValid(datum[\"sum_UKR\"]) || !isFinite(+datum[\"sum_UKR\"])",
+							"field": {
+								"group": "height"
+							}
+						},
+						{
+							"scale": "y",
+							"field": "sum_UKR"
+						}
+					],
+					"y2": {
+						"scale": "y",
+						"value": 0
+					}
+				}
+			}
+		}
+	],
+	"scales": [
+		{
+			"name": "x",
+			"type": "band",
+			"domain": {
+				"data": "data_0",
+				"field": "yearmonth_month",
+				"sort": true
+			},
+			"range": [
+				0,
+				{
+					"signal": "width"
+				}
+			],
+			"paddingInner": 0.2,
+			"paddingOuter": 0.2
+		},
+		{
+			"name": "y",
+			"type": "linear",
+			"domain": {
+				"data": "data_0",
+				"fields": [
+					"sum_RUS",
+					"sum_UKR"
+				]
+			},
+			"range": [
+				{
+					"signal": "height"
+				},
+				0
+			],
+			"nice": true,
+			"zero": true
+		},
+		{
+			"name": "xOffset",
+			"type": "band",
+			"domain": {
+				"fields": [
+					[
+						"RUS"
+					],
+					[
+						"UKR"
+					]
+				]
+			},
+			"range": [
+				0,
+				{
+					"signal": "bandwidth('x')"
+				}
+			]
+		},
+		{
+			"name": "color",
+			"type": "ordinal",
+			"domain": {
+				"fields": [
+					[
+						"RUS"
+					],
+					[
+						"UKR"
+					]
+				]
+			},
+			"range": "category"
+		}
+	],
+	"axes": [
+		{
+			"scale": "y",
+			"orient": "left",
+			"gridScale": "x",
+			"grid": true,
+			"tickCount": {
+				"signal": "ceil(height/40)"
+			},
+			"domain": false,
+			"labels": false,
+			"aria": false,
+			"maxExtent": 0,
+			"minExtent": 0,
+			"ticks": false,
+			"zindex": 0
+		},
+		{
+			"scale": "x",
+			"orient": "bottom",
+			"grid": false,
+			"format": "%b`%y",
+			"labelAngle": 315,
+			"labelOverlap": false,
+			"formatType": "time",
+			"labelAlign": "right",
+			"labelBaseline": "top",
+			"tickMinStep": {
+				"signal": "datetime(2001, 1, 1, 0, 0, 0, 0) - datetime(2001, 0, 1, 0, 0, 0, 0)"
+			},
+			"encode": {
+				"labels": {
+					"update": {
+						"fontSize": {
+							"signal": "fontSize"
+						}
+					}
+				}
+			},
+			"zindex": 0
+		},
+		{
+			"scale": "y",
+			"orient": "left",
+			"grid": false,
+			"labelOverlap": true,
+			"tickCount": {
+				"signal": "ceil(height/40)"
+			},
+			"encode": {
+				"labels": {
+					"update": {
+						"fontSize": {
+							"signal": "fontSize"
+						}
+					}
+				}
+			},
+			"zindex": 0
+		}
+	],
+	"legends": [
+		{
+			"fill": "color",
+			"direction": "horizontal",
+			"symbolType": "square"
+		}
+	],
+	"config": {
+		"legend": {
+			"orient": "top",
+			"labelFontSize": {
+				"signal": "fontSize"
+			}
+		}
+	}
+}

@@ -1,0 +1,22 @@
+---
+import { useLanguage, useText } from '@tools/language'
+import { formatDate } from '@tools/date'
+import Section from './Section/Section'
+import Vega from '@components/Vega/Vega'
+import { latestReport } from '@data/report'
+import spec from '@data/loses-w-data.vg.json'
+
+const t = useText()
+const format = formatDate(useLanguage())
+const from = format('2022-02-24')
+const till = format(latestReport.till)
+const title = t('loses.title')
+// const subtitle = t('loses.subtitle', { from, till })
+---
+
+<Section {...{ title }}>
+	<div class="aspect-2.5">
+		<Vega client:idle spec={spec} />
+	</div>
+	<slot slot="description" />
+</Section>

@@ -71,6 +71,9 @@ importers:
       astro:
         specifier: ^4.9.1
         version: 4.9.1(@types/node@20.12.11)(sass@1.77.2)(typescript@5.4.5)
+      astro-vtbot:
+        specifier: ^1.7.22
+        version: 1.7.22
       clsx:
         specifier: ^2.1.1
         version: 2.1.1
@@ -2315,6 +2318,9 @@ packages:
   astring@1.8.6:
     resolution: {integrity: sha512-ISvCdHdlTDlH5IpxQJIex7BWBywFWgjJSVdwst+/iQCoEYnyOaQ95+X1JGshuBjGp6nxKUy1jMgE3zPqN7fQdg==}
     hasBin: true
+
+  astro-vtbot@1.7.22:
+    resolution: {integrity: sha512-6SOLybGLT8PV490YMXCNOVO36qV7amdkeWbZ/whkaSsjNfXMDGnUxghidVxAM1rUIdsWl5iXDXEAyqfoR6pCbg==}
 
   astro@4.9.1:
     resolution: {integrity: sha512-9TsoAu0WBPiqyAIj9H0JW7R+tIjPjFsPKo70Nja6WL3imTTuUJQmnCre4ZVmoNV3oicTTlb+N4zjRYANW0Ty9A==}
@@ -7541,6 +7547,8 @@ snapshots:
       printable-characters: 1.0.42
 
   astring@1.8.6: {}
+
+  astro-vtbot@1.7.22: {}
 
   astro@4.9.1(@types/node@20.12.11)(sass@1.77.2)(typescript@5.4.5):
     dependencies:

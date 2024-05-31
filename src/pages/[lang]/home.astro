@@ -10,11 +10,10 @@ import Faq from "@components/tiles/Faq.astro"
 import Vlog from "@components/tiles/Vlog.astro"
 
 useLocation(Astro)
-
-// xl:col-start-2 xl:row-start-1 xl:row-end-3
 ---
+
 <Layout>
-	<div class="h-full grid auto-rows-fr place-items-stretch lg:gap-2 lg:grid-cols-2 xl:grid-cols-3 grid-flow-row">
+	<div class="h-full grid auto-rows-fr place-items-stretch p-2 lg:gap-2 lg:grid-cols-2 xl:grid-cols-3 grid-flow-row">
 		<About />
 		<Report />
 		<Congress />

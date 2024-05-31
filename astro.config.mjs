@@ -12,9 +12,8 @@ import { presetDaisy } from 'unocss-preset-daisy'
 import mdx from "@astrojs/mdx"
 import markdoc from "@astrojs/markdoc"
 import keystatic from '@keystatic/astro'
-
 import countries from './src/data/countries.json'
-
+import vtbot from "astro-vtbot"
 const viteEnv = {}
 Object.entries(process.env).forEach(([key, val]) => {
 	if (key.startsWith(`VITE_`) || key.includes(`KEYSTATIC_`)) {
@@ -23,11 +22,12 @@ Object.entries(process.env).forEach(([key, val]) => {
 	}
 })
 
+// https://astro.build/config
 export default defineConfig({
 	output: "server",
 	experimental: {
 		actions: true,
-		rewriting: true,
+		rewriting: true
 	},
 	adapter: cloudflare({
 		// platformProxy: {
@@ -39,16 +39,16 @@ export default defineConfig({
 		define: viteEnv,
 		plugins: [tsconfigPaths()],
 		ssr: {
-    		external: ["node:async_hooks"],
-  		},
+			external: ["node:async_hooks"]
+		}
 	},
 	integrations: [
 		preact({
 			devtools: true,
-			exclude: ["**/keystatic/*"],
+			exclude: ["**/keystatic/*"]
 		}),
 		react({
-			include: ["**/keystatic/*"],
+			include: ["**/keystatic/*"]
 		}),
 		mdx(),
 		markdoc(),
@@ -60,7 +60,9 @@ export default defineConfig({
 				presetUno(),
 				presetTypography(),
 				presetTagify(),
-				presetDaisy({ themes: ["light"] }),
+				presetDaisy({
+					themes: ["light"]
+				}),
 				// presetFluid({
 				// 	maxWidth: 1440,
 				// 	minWidth: 375,
@@ -79,6 +81,6 @@ export default defineConfig({
 				})
 			],
 			safelist: Object.keys(countries).map(c => `i-circle-flags-${c}`)
-		}),
+		})
 	]
 })

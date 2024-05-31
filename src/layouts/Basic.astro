@@ -1,5 +1,6 @@
 ---
 import { ViewTransitions } from 'astro:transitions'
+import LoadingIndicator from 'astro-vtbot/components/LoadingIndicator.astro'
 import 'virtual:uno.css'
 // import 'virtual:unocss-devtools'
 
@@ -14,19 +15,6 @@ import Footer from '@components/Footer/Footer'
 import { useApp } from '@tools/app'
 
 useLocation(Astro)
-
-console.log('process.env', process.env)
-console.log('import.meta.env', import.meta.env)
-console.log('Astro.locals.runtime?.env', Astro.locals.runtime?.env)
-console.log('process.env.KEYSTATIC_GITHUB_CLIENT_ID', process.env.KEYSTATIC_GITHUB_CLIENT_ID)
-console.log('import.meta.env.KEYSTATIC_GITHUB_CLIENT_ID', import.meta.env.KEYSTATIC_GITHUB_CLIENT_ID)
-console.log('Astro.locals.runtime?.env.KEYSTATIC_GITHUB_CLIENT_ID', Astro.locals.runtime?.env.KEYSTATIC_GITHUB_CLIENT_ID)
-console.log('process.env.KEYSTATIC_SECRET', process.env.KEYSTATIC_SECRET)
-console.log('import.meta.env.KEYSTATIC_SECRET', import.meta.env.KEYSTATIC_SECRET)
-console.log('Astro.locals.runtime?.env.KEYSTATIC_SECRET', Astro.locals.runtime?.env.KEYSTATIC_SECRET)
-console.log('process.env.PUBLIC_KEYSTATIC_GITHUB_APP_SLUG', process.env.PUBLIC_KEYSTATIC_GITHUB_APP_SLUG)
-console.log('import.meta.env.PUBLIC_KEYSTATIC_GITHUB_APP_SLUG', import.meta.env.PUBLIC_KEYSTATIC_GITHUB_APP_SLUG)
-console.log('Astro.locals.runtime?.env.PUBLIC_KEYSTATIC_GITHUB_APP_SLUG', Astro.locals.runtime?.env.PUBLIC_KEYSTATIC_GITHUB_APP_SLUG)
 
 const config = {
 	pun: {
@@ -77,6 +65,8 @@ const { header, footer } = config[useApp()]
 		<script>{`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TSJ66R2');`}</script>
 
 		<ViewTransitions />
+		<LoadingIndicator />
+		<slot name="head" />
 	</head>
 	<body>
 		<Header {...header} />
@@ -93,5 +83,9 @@ const { header, footer } = config[useApp()]
 		margin: 0;
 		display: grid;
 		grid-template-rows: auto 1fr auto;
+	}
+	#vtbot-loading-indicator {
+		top: unset !important;
+		bottom: 3vh !important;
 	}
 </style>

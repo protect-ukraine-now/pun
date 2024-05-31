@@ -47,7 +47,7 @@ const today = dayjs().format('YYYY-MM-DD')
 for (;;) {
 	date = dayjs(date).add(1, 'M').endOf('M').format('YYYY-MM-DD')
 	console.log(date)
-	if (date >= today) break
+	if (date > today) break
 	const current = structuredClone(empty)
 	for (const country in urls) {
 		let url = urls[date < '2022-04-20' ? 'ru' : country]

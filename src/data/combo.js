@@ -60,7 +60,7 @@ Object.values(oryx).forEach(x => {
 let combo = Object.entries(oryx).flatMap(([month, x]) =>
 	Object.entries(x).flatMap(([category, y]) =>
 		Object.entries(y).map(([country, z]) =>
-			[month, category, country, , -z.lost2, z.captured2, z.provided]
+			[month, category, country, , z.lost2, z.captured2, z.provided]
 		)
 	)
 )

@@ -5,7 +5,7 @@ import Menu from '../Menu'
 
 export default function LanguageSelector({ items, ...props }) {
 	const { pathname } = useLocation()
-	if (!items) return null
+	if (!items) return ' '
 	items = Object.entries(items).map(([key, text]) =>
 		[text, replaceLanguageInUrl(pathname, key)]
 	)

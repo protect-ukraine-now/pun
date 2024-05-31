@@ -4,7 +4,25 @@ import Article_ from "@components/Article/Article"
 ---
 
 <Layout>
+	<slot name="head" slot="head" />
 	<Article_>
 		<slot />
 	</Article_>
 </Layout>
+
+<style is:global>
+	h1 {
+		position: relative;
+		text-align: center;
+
+		&:after {
+			content: '';
+			position: absolute;
+			top: 100%;
+			left: 0;
+			right: 0;
+			height: 4px;
+			background: linear-gradient(to right, #5E9AED 0%, #5E9AED 50%, #FEF300 50%, #FEF300 100%);
+		}
+	}
+</style>

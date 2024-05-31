@@ -1,0 +1,53 @@
+{
+	"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+	"width": "container",
+	"height": "container",
+	"background": null,
+	"params": [
+		{ "name": "fontSize", "expr": "width/70" }
+	],
+	"data": {
+		"format": {	"type": "csv" },
+		"url": "https://docs.google.com/spreadsheets/d/1Q9aLVoSZ9vTKH0VLnMpFRiY6h0kV6Rcb16R4lP0rUFs/gviz/tq?sheet=summary&tqx=out:csv&headers=3&tq=select+L,M,N,O+where+L+is+not+null+label+L+'month',M+'RUS',N+'UKR'"
+	},
+	"repeat": {"layer": ["RUS", "UKR"]},
+	"spec": {
+	"mark": "bar",
+	"encoding": {
+		"x": {
+			"title": null,
+			"timeUnit": "yearmonth",
+			"field": "month",
+			"type": "ordinal",
+			"axis": {
+				"format": "%b `%y",
+				"labelAngle": -45,
+				"labelOverlap": false,
+   			"labelFontSize": { "expr": "fontSize" }
+			}
+		},
+		"y": {
+			"title": null,
+			"aggregate": "sum",
+			"field": {"repeat": "layer"},
+			"type": "quantitative",
+      "axis": {
+   			"labelFontSize": { "expr": "fontSize" }
+      }
+		},
+		"color": {
+			"datum": {"repeat": "layer"}
+		},
+		"xOffset": {
+			"datum": {"repeat": "layer"}
+		}
+	}
+	},
+	"config": {
+		"mark": {"invalid": null},
+		"legend": {
+      "orient": "top",
+   		"labelFontSize": { "expr": "fontSize" }
+    }
+	}
+}

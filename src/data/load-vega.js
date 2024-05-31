@@ -2,6 +2,7 @@ import fs from 'fs'
 import vl from 'vega-lite'
 
 import pda from './pda.vl.json' with { type: "json" }
+import loses from './loses.vl.json' with { type: "json" }
 
 export const config = {
     sankey24: {
@@ -33,5 +34,10 @@ loadVega()
 
 pda.data.values = await (await fetch(pda.data.url)).text()
 delete pda.data.url
-const json = JSON.stringify(vl.compile(pda).spec, null, '\t')
+let json = JSON.stringify(vl.compile(pda).spec, null, '\t')
 fs.writeFileSync(`src/data/pda-w-data.vg.json`, json)
+
+loses.data.values = await (await fetch(loses.data.url)).text()
+delete loses.data.url
+json = JSON.stringify(vl.compile(loses).spec, null, '\t')
+fs.writeFileSync(`src/data/loses-w-data.vg.json`, json)

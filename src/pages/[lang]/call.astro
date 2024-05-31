@@ -1,12 +1,14 @@
 ---
+import NoScroll from 'astro-vtbot/components/NoScroll.astro'
+
 import { useLocation } from '@tools/location'
 import Layout from '@layouts/Article.astro'
 import Markdown from '@components/Markdown.astro'
 
 useLocation(Astro)
-const { page } = Astro.params
 ---
 
 <Layout>
-	<Markdown collection="pages" slug={page} />
+	<NoScroll slot="head" />
+	<Markdown collection="pages" slug="call" />
 </Layout>
