@@ -276,8 +276,8 @@
           "stroke": {"field": "color"}
         },
         "hover": {
-          "_tooltip": {
-            "signal": "{'Name':datum.name, 'Value':format(datum.value, '$') + ' B'}"
+          "tooltip": {
+            "signal": "format(datum.value, '$') + ' B'"
           },
           "fillOpacity": {"value": 1}
         }
@@ -297,8 +297,8 @@
         },
         "hover": {
           "strokeOpacity": {"value": 1},
-          "_tooltip": {
-            "signal": "{'Source':datum.source,'Destination':datum.destination, 'Value':format(datum.value, '$') + ' B'}"
+          "tooltip": {
+            "signal": "format(datum.value, '$') + ' B'"
           }
         }
       }
