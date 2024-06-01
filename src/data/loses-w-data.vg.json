@@ -35,23 +35,49 @@
 						"yearmonth_month",
 						"yearmonth_month_end"
 					]
-				},
+				}
+			]
+		},
+		{
+			"name": "data_1",
+			"source": "data_0",
+			"transform": [
 				{
 					"type": "aggregate",
 					"groupby": [
-						"yearmonth_month"
+						"yearmonth_month",
+						"UKR"
 					],
 					"ops": [
-						"sum",
 						"sum"
 					],
 					"fields": [
-						"RUS",
 						"UKR"
 					],
 					"as": [
-						"sum_RUS",
 						"sum_UKR"
+					]
+				}
+			]
+		},
+		{
+			"name": "data_2",
+			"source": "data_0",
+			"transform": [
+				{
+					"type": "aggregate",
+					"groupby": [
+						"yearmonth_month",
+						"RUS"
+					],
+					"ops": [
+						"sum"
+					],
+					"fields": [
+						"RUS"
+					],
+					"as": [
+						"sum_RUS"
 					]
 				}
 			]
@@ -91,7 +117,7 @@
 				"bar"
 			],
 			"from": {
-				"data": "data_0"
+				"data": "data_2"
 			},
 			"encode": {
 				"update": {
@@ -99,11 +125,14 @@
 						"scale": "color",
 						"value": "RUS"
 					},
+					"tooltip": {
+						"signal": "format(datum[\"RUS\"], \"\")"
+					},
 					"ariaRoleDescription": {
 						"value": "bar"
 					},
 					"description": {
-						"signal": "\"month (year-month): \" + (timeFormat(datum[\"yearmonth_month\"], '%b`%y')) + \"; Sum of RUS: \" + (format(datum[\"sum_RUS\"], \"\"))"
+						"signal": "\"month (year-month): \" + (timeFormat(datum[\"yearmonth_month\"], '%b `%y')) + \"; Sum of RUS: \" + (format(datum[\"sum_RUS\"], \"\")) + \"; RUS: \" + (format(datum[\"RUS\"], \"\"))"
 					},
 					"x": {
 						"scale": "x",
@@ -142,7 +171,7 @@
 				"bar"
 			],
 			"from": {
-				"data": "data_0"
+				"data": "data_1"
 			},
 			"encode": {
 				"update": {
@@ -150,11 +179,14 @@
 						"scale": "color",
 						"value": "UKR"
 					},
+					"tooltip": {
+						"signal": "format(datum[\"UKR\"], \"\")"
+					},
 					"ariaRoleDescription": {
 						"value": "bar"
 					},
 					"description": {
-						"signal": "\"month (year-month): \" + (timeFormat(datum[\"yearmonth_month\"], '%b`%y')) + \"; Sum of UKR: \" + (format(datum[\"sum_UKR\"], \"\"))"
+						"signal": "\"month (year-month): \" + (timeFormat(datum[\"yearmonth_month\"], '%b `%y')) + \"; Sum of UKR: \" + (format(datum[\"sum_UKR\"], \"\")) + \"; UKR: \" + (format(datum[\"UKR\"], \"\"))"
 					},
 					"x": {
 						"scale": "x",
@@ -192,8 +224,16 @@
 			"name": "x",
 			"type": "band",
 			"domain": {
-				"data": "data_0",
-				"field": "yearmonth_month",
+				"fields": [
+					{
+						"data": "data_2",
+						"field": "yearmonth_month"
+					},
+					{
+						"data": "data_1",
+						"field": "yearmonth_month"
+					}
+				],
 				"sort": true
 			},
 			"range": [
@@ -209,10 +249,15 @@
 			"name": "y",
 			"type": "linear",
 			"domain": {
-				"data": "data_0",
 				"fields": [
-					"sum_RUS",
-					"sum_UKR"
+					{
+						"data": "data_2",
+						"field": "sum_RUS"
+					},
+					{
+						"data": "data_1",
+						"field": "sum_UKR"
+					}
 				]
 			},
 			"range": [
@@ -281,7 +326,7 @@
 			"scale": "x",
 			"orient": "bottom",
 			"grid": false,
-			"format": "%b`%y",
+			"format": "%b `%y",
 			"labelAngle": 315,
 			"labelOverlap": false,
 			"formatType": "time",

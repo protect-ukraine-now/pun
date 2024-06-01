@@ -48,7 +48,7 @@
 		}
 	},
 	"config": {
-		"mark": {"invalid": null},
+		"mark": { "invalid": null },
 		"legend": {
 			"orient": "top",
 			"labelFontSize": { "expr": "fontSize" }
