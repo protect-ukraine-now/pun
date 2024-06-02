@@ -32,4 +32,4 @@ California-based NGO to help Ukraine in its struggle against Russia's unprovoked
 
 Just edit this file to trigger
 
-- 2024-05-26
+- 2024-06-02
