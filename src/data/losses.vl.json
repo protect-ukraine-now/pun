@@ -1,0 +1,117 @@
+{
+	"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+	"width": "container",
+	"height": "container",
+	"background": null,
+	"params": [
+		{ "name": "fontSize", "expr": "width/70" }
+	],
+	"data": {
+		"format": {	"type": "csv" },
+		"url": "https://docs.google.com/spreadsheets/d/1Q9aLVoSZ9vTKH0VLnMpFRiY6h0kV6Rcb16R4lP0rUFs/gviz/tq?sheet=summary&tqx=out:csv&headers=3&tq=select+L,M,N+where+L+is+not+null+label+L+'month',M+'ru',N+'ua'"
+	},
+	"transform": [
+		{ "calculate": "format(datum.ru/datum.ua, '.1f')", "as": "ratio"	},
+		{ "calculate": "'RUS'", "as": "-RUS-"	},
+		{ "calculate": "'UKR'", "as": "-UKR-"	},
+		{ "calculate": "'ratio'", "as": "-RAT-"	}
+	],
+	"encoding": {
+		"x": {
+			"title": null,
+			"timeUnit": "yearmonth",
+			"field": "month",
+			"type": "ordinal",
+			"axis": {
+				"format": "%b `%y",
+				"labelAngle": -45,
+				"labelOverlap": false,
+				"labelFontSize": { "expr": "fontSize" }
+			}
+		}
+	},
+	"layer": [
+		{
+			"layer": [
+				{
+					"mark": "bar",
+					"encoding": {
+						"y": {
+							"field": "ru",
+							"aggregate": "sum",
+							"title": null,
+							"scale": {
+								"domain": [0, 800]
+							},
+							"axis": {
+								"labelFontSize": { "expr": "fontSize" }
+							}
+						},
+						"tooltip": { "field": "ru" },
+						"color": {
+          					"scale": {
+								"range": ["#0000ffbb", "#ff0000bb"]
+							},
+          					"field": "-RUS-",
+          					"legend": { "title": "" }
+        				},
+						"xOffset": { "field": "-RUS-" }
+					}
+				},
+				{
+					"mark": "bar",
+					"encoding": {
+						"y": {
+							"field": "ua",
+							"aggregate": "sum"
+						},
+						"tooltip": { "field": "ua" },
+						"color": { "field": "-UKR-" },
+						"xOffset": { "field": "-UKR-" }
+					}
+				}
+			]
+		},
+		{
+			"mark": {
+				"type": "line",
+				"point": {
+					"fill": "white"
+				}
+			},
+			"encoding": {
+				"y": {
+					"field": "ratio",
+					"aggregate": "sum",
+					"title": null,
+					"scale": {
+						"domain": [0, 8]
+					},
+					"axis": {
+						"labelFontSize": { "expr": "fontSize" }
+					}
+				},
+				"tooltip": {
+					"field": "ratio"
+				},
+				"stroke": {
+					"title": null,
+					"scale": {
+						"range": ["orange"]
+					},
+					"field": "-RAT-"
+				}
+			}
+		}
+	],
+	"resolve": {
+		"scale": { "y": "independent" }
+	},
+	"config": {
+		"mark": { "invalid": null },
+		"legend": {
+			"orient": "top",
+			"labelFontSize": { "expr": "fontSize" }
+		}
+	}
+}

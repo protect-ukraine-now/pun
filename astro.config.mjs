@@ -12,8 +12,10 @@ import { presetDaisy } from 'unocss-preset-daisy'
 import mdx from "@astrojs/mdx"
 import markdoc from "@astrojs/markdoc"
 import keystatic from '@keystatic/astro'
+import { visualizer } from "rollup-plugin-visualizer"
+
 import countries from './src/data/countries.json'
-import vtbot from "astro-vtbot"
+
 const viteEnv = {}
 Object.entries(process.env).forEach(([key, val]) => {
 	if (key.startsWith(`VITE_`) || key.includes(`KEYSTATIC_`)) {
@@ -37,7 +39,10 @@ export default defineConfig({
 	}),
 	vite: {
 		define: viteEnv,
-		plugins: [tsconfigPaths()],
+		plugins: [
+			tsconfigPaths(),
+			visualizer(),
+		],
 		ssr: {
 			external: ["node:async_hooks"]
 		}
@@ -47,12 +52,12 @@ export default defineConfig({
 			devtools: true,
 			exclude: ["**/keystatic/*"]
 		}),
-		react({
-			include: ["**/keystatic/*"]
-		}),
+		// react({
+		// 	include: ["**/keystatic/*"]
+		// }),
 		mdx(),
 		markdoc(),
-		keystatic(),
+		// keystatic(),
 		unocss({
 			// injectReset: true,
 			transformers: [transformerDirectives()],

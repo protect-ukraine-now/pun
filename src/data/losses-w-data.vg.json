@@ -1,0 +1,620 @@
+{
+	"$schema": "https://vega.github.io/schema/vega/v5.json",
+	"autosize": {
+		"type": "fit",
+		"contains": "padding"
+	},
+	"background": null,
+	"padding": 5,
+	"style": "cell",
+	"data": [
+		{
+			"name": "source_0",
+			"values": "\"month\",\"ru\",\"ua\"\n\"2022-02\",\"120\",\"51\"\n\"2022-03\",\"830\",\"210\"\n\"2022-04\",\"651\",\"126\"\n\"2022-05\",\"362\",\"97\"\n\"2022-06\",\"205\",\"42\"\n\"2022-07\",\"216\",\"86\"\n\"2022-08\",\"198\",\"73\"\n\"2022-09\",\"630\",\"88\"\n\"2022-10\",\"598\",\"208\"\n\"2022-11\",\"329\",\"92\"\n\"2022-12\",\"200\",\"171\"\n\"2023-01\",\"231\",\"99\"\n\"2023-02\",\"323\",\"63\"\n\"2023-03\",\"314\",\"78\"\n\"2023-04\",\"70\",\"27\"\n\"2023-05\",\"240\",\"89\"\n\"2023-06\",\"250\",\"118\"\n\"2023-07\",\"353\",\"151\"\n\"2023-08\",\"293\",\"146\"\n\"2023-09\",\"250\",\"81\"\n\"2023-10\",\"393\",\"74\"\n\"2023-11\",\"214\",\"30\"\n\"2023-12\",\"306\",\"83\"\n\"2024-01\",\"261\",\"64\"\n\"2024-02\",\"299\",\"72\"\n\"2024-03\",\"347\",\"88\"\n\"2024-04\",\"292\",\"69\"\n\"2024-05\",\"386\",\"107\"",
+			"format": {
+				"type": "csv"
+			}
+		},
+		{
+			"name": "data_0",
+			"source": "source_0",
+			"transform": [
+				{
+					"type": "formula",
+					"expr": "toDate(datum[\"month\"])",
+					"as": "month"
+				},
+				{
+					"type": "formula",
+					"expr": "format(datum.ru/datum.ua, '.1f')",
+					"as": "ratio"
+				},
+				{
+					"type": "formula",
+					"expr": "'RUS'",
+					"as": "-RUS-"
+				},
+				{
+					"type": "formula",
+					"expr": "'UKR'",
+					"as": "-UKR-"
+				},
+				{
+					"type": "formula",
+					"expr": "'ratio'",
+					"as": "-RAT-"
+				},
+				{
+					"field": "month",
+					"type": "timeunit",
+					"units": [
+						"year",
+						"month"
+					],
+					"as": [
+						"yearmonth_month",
+						"yearmonth_month_end"
+					]
+				}
+			]
+		},
+		{
+			"name": "data_1",
+			"source": "data_0",
+			"transform": [
+				{
+					"type": "aggregate",
+					"groupby": [
+						"yearmonth_month",
+						"-RAT-",
+						"ratio"
+					],
+					"ops": [
+						"sum"
+					],
+					"fields": [
+						"ratio"
+					],
+					"as": [
+						"sum_ratio"
+					]
+				}
+			]
+		},
+		{
+			"name": "data_2",
+			"source": "data_0",
+			"transform": [
+				{
+					"type": "aggregate",
+					"groupby": [
+						"yearmonth_month",
+						"-RUS-",
+						"ru"
+					],
+					"ops": [
+						"sum"
+					],
+					"fields": [
+						"ru"
+					],
+					"as": [
+						"sum_ru"
+					]
+				}
+			]
+		},
+		{
+			"name": "data_3",
+			"source": "data_0",
+			"transform": [
+				{
+					"type": "aggregate",
+					"groupby": [
+						"yearmonth_month",
+						"-UKR-",
+						"ua"
+					],
+					"ops": [
+						"sum"
+					],
+					"fields": [
+						"ua"
+					],
+					"as": [
+						"sum_ua"
+					]
+				}
+			]
+		}
+	],
+	"signals": [
+		{
+			"name": "width",
+			"init": "isFinite(containerSize()[0]) ? containerSize()[0] : 200",
+			"on": [
+				{
+					"update": "isFinite(containerSize()[0]) ? containerSize()[0] : 200",
+					"events": "window:resize"
+				}
+			]
+		},
+		{
+			"name": "height",
+			"init": "isFinite(containerSize()[1]) ? containerSize()[1] : 200",
+			"on": [
+				{
+					"update": "isFinite(containerSize()[1]) ? containerSize()[1] : 200",
+					"events": "window:resize"
+				}
+			]
+		},
+		{
+			"name": "fontSize",
+			"update": "width/70"
+		}
+	],
+	"marks": [
+		{
+			"name": "layer_0_layer_0_marks",
+			"type": "rect",
+			"style": [
+				"bar"
+			],
+			"from": {
+				"data": "data_2"
+			},
+			"encode": {
+				"update": {
+					"fill": {
+						"scale": "color",
+						"field": "-RUS-"
+					},
+					"tooltip": {
+						"signal": "isValid(datum[\"ru\"]) ? datum[\"ru\"] : \"\"+datum[\"ru\"]"
+					},
+					"ariaRoleDescription": {
+						"value": "bar"
+					},
+					"description": {
+						"signal": "\"month (year-month): \" + (timeFormat(datum[\"yearmonth_month\"], '%b `%y')) + \"; Sum of ru: \" + (format(datum[\"sum_ru\"], \"\")) + \"; -RUS-: \" + (isValid(datum[\"-RUS-\"]) ? datum[\"-RUS-\"] : \"\"+datum[\"-RUS-\"]) + \"; ru: \" + (isValid(datum[\"ru\"]) ? datum[\"ru\"] : \"\"+datum[\"ru\"])"
+					},
+					"x": {
+						"scale": "x",
+						"field": "yearmonth_month",
+						"offset": {
+							"scale": "xOffset",
+							"field": "-RUS-"
+						}
+					},
+					"width": {
+						"signal": "max(0.25, bandwidth('xOffset'))"
+					},
+					"y": [
+						{
+							"test": "!isValid(datum[\"sum_ru\"]) || !isFinite(+datum[\"sum_ru\"])",
+							"field": {
+								"group": "height"
+							}
+						},
+						{
+							"scale": "layer_0_y",
+							"field": "sum_ru"
+						}
+					],
+					"y2": {
+						"scale": "layer_0_y",
+						"value": 0
+					}
+				}
+			}
+		},
+		{
+			"name": "layer_0_layer_1_marks",
+			"type": "rect",
+			"style": [
+				"bar"
+			],
+			"from": {
+				"data": "data_3"
+			},
+			"encode": {
+				"update": {
+					"fill": {
+						"scale": "color",
+						"field": "-UKR-"
+					},
+					"tooltip": {
+						"signal": "isValid(datum[\"ua\"]) ? datum[\"ua\"] : \"\"+datum[\"ua\"]"
+					},
+					"ariaRoleDescription": {
+						"value": "bar"
+					},
+					"description": {
+						"signal": "\"month (year-month): \" + (timeFormat(datum[\"yearmonth_month\"], '%b `%y')) + \"; Sum of ua: \" + (format(datum[\"sum_ua\"], \"\")) + \"; -UKR-: \" + (isValid(datum[\"-UKR-\"]) ? datum[\"-UKR-\"] : \"\"+datum[\"-UKR-\"]) + \"; ua: \" + (isValid(datum[\"ua\"]) ? datum[\"ua\"] : \"\"+datum[\"ua\"])"
+					},
+					"x": {
+						"scale": "x",
+						"field": "yearmonth_month",
+						"offset": {
+							"scale": "xOffset",
+							"field": "-UKR-"
+						}
+					},
+					"width": {
+						"signal": "max(0.25, bandwidth('xOffset'))"
+					},
+					"y": [
+						{
+							"test": "!isValid(datum[\"sum_ua\"]) || !isFinite(+datum[\"sum_ua\"])",
+							"field": {
+								"group": "height"
+							}
+						},
+						{
+							"scale": "layer_0_y",
+							"field": "sum_ua"
+						}
+					],
+					"y2": {
+						"scale": "layer_0_y",
+						"value": 0
+					}
+				}
+			}
+		},
+		{
+			"name": "layer_1_layer_0_pathgroup",
+			"type": "group",
+			"from": {
+				"facet": {
+					"name": "faceted_path_layer_1_layer_0_main",
+					"data": "data_1",
+					"groupby": [
+						"-RAT-"
+					]
+				}
+			},
+			"encode": {
+				"update": {
+					"width": {
+						"field": {
+							"group": "width"
+						}
+					},
+					"height": {
+						"field": {
+							"group": "height"
+						}
+					}
+				}
+			},
+			"marks": [
+				{
+					"name": "layer_1_layer_0_marks",
+					"type": "line",
+					"style": [
+						"line"
+					],
+					"sort": {
+						"field": "datum[\"yearmonth_month\"]"
+					},
+					"from": {
+						"data": "faceted_path_layer_1_layer_0_main"
+					},
+					"encode": {
+						"update": {
+							"stroke": {
+								"scale": "stroke",
+								"field": "-RAT-"
+							},
+							"tooltip": {
+								"signal": "isValid(datum[\"ratio\"]) ? datum[\"ratio\"] : \"\"+datum[\"ratio\"]"
+							},
+							"description": {
+								"signal": "\"month (year-month): \" + (timeFormat(datum[\"yearmonth_month\"], '%b `%y')) + \"; Sum of ratio: \" + (format(datum[\"sum_ratio\"], \"\")) + \"; -RAT-: \" + (isValid(datum[\"-RAT-\"]) ? datum[\"-RAT-\"] : \"\"+datum[\"-RAT-\"]) + \"; ratio: \" + (isValid(datum[\"ratio\"]) ? datum[\"ratio\"] : \"\"+datum[\"ratio\"])"
+							},
+							"x": {
+								"scale": "x",
+								"field": "yearmonth_month",
+								"band": 0.5
+							},
+							"y": [
+								{
+									"test": "!isValid(datum[\"sum_ratio\"]) || !isFinite(+datum[\"sum_ratio\"])",
+									"field": {
+										"group": "height"
+									}
+								},
+								{
+									"scale": "layer_1_y",
+									"field": "sum_ratio"
+								}
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "layer_1_layer_1_marks",
+			"type": "symbol",
+			"style": [
+				"point"
+			],
+			"from": {
+				"data": "data_1"
+			},
+			"encode": {
+				"update": {
+					"opacity": {
+						"value": 1
+					},
+					"fill": {
+						"value": "white"
+					},
+					"stroke": {
+						"scale": "stroke",
+						"field": "-RAT-"
+					},
+					"tooltip": {
+						"signal": "isValid(datum[\"ratio\"]) ? datum[\"ratio\"] : \"\"+datum[\"ratio\"]"
+					},
+					"ariaRoleDescription": {
+						"value": "point"
+					},
+					"description": {
+						"signal": "\"month (year-month): \" + (timeFormat(datum[\"yearmonth_month\"], '%b `%y')) + \"; Sum of ratio: \" + (format(datum[\"sum_ratio\"], \"\")) + \"; -RAT-: \" + (isValid(datum[\"-RAT-\"]) ? datum[\"-RAT-\"] : \"\"+datum[\"-RAT-\"]) + \"; ratio: \" + (isValid(datum[\"ratio\"]) ? datum[\"ratio\"] : \"\"+datum[\"ratio\"])"
+					},
+					"x": {
+						"scale": "x",
+						"field": "yearmonth_month",
+						"band": 0.5
+					},
+					"y": [
+						{
+							"test": "!isValid(datum[\"sum_ratio\"]) || !isFinite(+datum[\"sum_ratio\"])",
+							"field": {
+								"group": "height"
+							}
+						},
+						{
+							"scale": "layer_1_y",
+							"field": "sum_ratio"
+						}
+					]
+				}
+			}
+		}
+	],
+	"scales": [
+		{
+			"name": "x",
+			"type": "band",
+			"domain": {
+				"fields": [
+					{
+						"data": "data_2",
+						"field": "yearmonth_month"
+					},
+					{
+						"data": "data_3",
+						"field": "yearmonth_month"
+					},
+					{
+						"data": "data_1",
+						"field": "yearmonth_month"
+					}
+				],
+				"sort": true
+			},
+			"range": [
+				0,
+				{
+					"signal": "width"
+				}
+			],
+			"paddingInner": 0.2,
+			"paddingOuter": 0.2
+		},
+		{
+			"name": "xOffset",
+			"type": "band",
+			"domain": {
+				"fields": [
+					{
+						"data": "data_2",
+						"field": "-RUS-"
+					},
+					{
+						"data": "data_3",
+						"field": "-UKR-"
+					}
+				],
+				"sort": true
+			},
+			"range": [
+				0,
+				{
+					"signal": "bandwidth('x')"
+				}
+			]
+		},
+		{
+			"name": "color",
+			"type": "ordinal",
+			"domain": {
+				"fields": [
+					{
+						"data": "data_2",
+						"field": "-RUS-"
+					},
+					{
+						"data": "data_3",
+						"field": "-UKR-"
+					}
+				],
+				"sort": true
+			},
+			"range": [
+				"#0000ffbb",
+				"#ff0000bb"
+			]
+		},
+		{
+			"name": "stroke",
+			"type": "ordinal",
+			"domain": {
+				"data": "data_1",
+				"field": "-RAT-",
+				"sort": true
+			},
+			"range": [
+				"orange"
+			]
+		},
+		{
+			"name": "layer_0_y",
+			"type": "linear",
+			"domain": [
+				0,
+				800
+			],
+			"range": [
+				{
+					"signal": "height"
+				},
+				0
+			],
+			"nice": true,
+			"zero": true
+		},
+		{
+			"name": "layer_1_y",
+			"type": "linear",
+			"domain": [
+				0,
+				8
+			],
+			"range": [
+				{
+					"signal": "height"
+				},
+				0
+			],
+			"zero": true
+		}
+	],
+	"axes": [
+		{
+			"scale": "layer_0_y",
+			"orient": "left",
+			"gridScale": "x",
+			"grid": true,
+			"tickCount": {
+				"signal": "ceil(height/40)"
+			},
+			"domain": false,
+			"labels": false,
+			"aria": false,
+			"maxExtent": 0,
+			"minExtent": 0,
+			"ticks": false,
+			"zindex": 0
+		},
+		{
+			"scale": "x",
+			"orient": "bottom",
+			"grid": false,
+			"format": "%b `%y",
+			"labelAngle": 315,
+			"labelOverlap": false,
+			"formatType": "time",
+			"labelAlign": "right",
+			"labelBaseline": "top",
+			"tickMinStep": {
+				"signal": "datetime(2001, 1, 1, 0, 0, 0, 0) - datetime(2001, 0, 1, 0, 0, 0, 0)"
+			},
+			"encode": {
+				"labels": {
+					"update": {
+						"fontSize": {
+							"signal": "fontSize"
+						}
+					}
+				}
+			},
+			"zindex": 0
+		},
+		{
+			"scale": "layer_0_y",
+			"orient": "left",
+			"grid": false,
+			"labelOverlap": true,
+			"tickCount": {
+				"signal": "ceil(height/40)"
+			},
+			"encode": {
+				"labels": {
+					"update": {
+						"fontSize": {
+							"signal": "fontSize"
+						}
+					}
+				}
+			},
+			"zindex": 0
+		},
+		{
+			"scale": "layer_1_y",
+			"orient": "right",
+			"grid": false,
+			"labelOverlap": true,
+			"tickCount": {
+				"signal": "ceil(height/40)"
+			},
+			"encode": {
+				"labels": {
+					"update": {
+						"fontSize": {
+							"signal": "fontSize"
+						}
+					}
+				}
+			},
+			"zindex": 0
+		}
+	],
+	"legends": [
+		{
+			"fill": "color",
+			"direction": "horizontal",
+			"symbolType": "square"
+		},
+		{
+			"stroke": "stroke",
+			"direction": "horizontal",
+			"symbolType": "circle",
+			"encode": {
+				"symbols": {
+					"update": {
+						"fill": {
+							"value": "white"
+						},
+						"opacity": {
+							"value": 1
+						}
+					}
+				}
+			}
+		}
+	],
+	"config": {
+		"legend": {
+			"orient": "top",
+			"labelFontSize": {
+				"signal": "fontSize"
+			}
+		}
+	}
+}

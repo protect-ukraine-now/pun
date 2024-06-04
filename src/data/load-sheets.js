@@ -88,18 +88,27 @@ const spreadsheets = {
         id: '1Q9aLVoSZ9vTKH0VLnMpFRiY6h0kV6Rcb16R4lP0rUFs',
         range: "'REF'",
         transform: transformCountries,
-    }
+    },
+    // losses: {
+    //     id: '1Q9aLVoSZ9vTKH0VLnMpFRiY6h0kV6Rcb16R4lP0rUFs',
+    //     range: "Losses",
+    // },
 }
 
 async function loadSheets() {
     let tasks = Object.entries(spreadsheets).map(async ([what, { id, range, transform }]) => {
         const url = `https://sheets.googleapis.com/v4/spreadsheets/${id}/values/${range}?key=${API_KEY}`
-        let raw = (await (await fetch(url)).json()).values.slice(1)
-        let data = transform ? transform(raw) : raw
-        console.log(what, raw.length, data.length)
-        let file = `src/data/${what}.json`
-        fs.writeFileSync(file, JSON.stringify(data, null, '\t'))
-        return [what, data]
+        let raw = await (await fetch(url)).json()
+        try {
+            raw = raw.values.slice(1)
+            let data = transform ? transform(raw) : raw
+            console.log(what, raw.length, data.length)
+            let file = `src/data/${what}.json`
+            fs.writeFileSync(file, JSON.stringify(data, null, '\t'))
+            return [what, data]
+        } catch (e) {
+            console.error(what, e, raw)
+        }
     })
     let data = Object.fromEntries(await Promise.all(tasks))
     return data

@@ -6,6 +6,7 @@ export default function Vega({ spec }) {
 	useEffect(() => {
 		const view = new View(parse(spec), {
 			container: ref.current,
+			renderer: 'svg',
 			hover: true,
 		})
 		view.runAsync()
