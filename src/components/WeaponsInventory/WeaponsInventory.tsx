@@ -1,6 +1,6 @@
 import { useLanguage, useText } from '@tools/language'
 import { latestReport, inventoryReport } from '@data/report'
-import { formatDate } from '@tools/date'
+import { dateFormatter } from '@tools/date'
 import WeaponsTable from '../WeaponsTable'
 import { Fragment } from 'preact'
 
@@ -34,7 +34,7 @@ function Details({ byModel }) {
 
 export default function WeaponsInventory({ children }) {
     const text = useText()
-    const formatter = formatDate(useLanguage())
+    const formatter = dateFormatter(useLanguage())
     const from = formatter('2022-02-24')
     const till = formatter(latestReport.till)
     const title = text('inventory.title')

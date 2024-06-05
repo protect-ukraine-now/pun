@@ -1,6 +1,6 @@
 ---
 import { useLanguage, useText } from '@tools/language'
-import { formatDate } from '@tools/date'
+import { dateFormatter } from '@tools/date'
 import { prepareNews } from '@data/news'
 import Layout from '@layouts/Article.astro'
 import { useLocation } from '@tools/location'
@@ -14,7 +14,7 @@ const news = prepareNews(lang)
 
 <Layout>
 	{Object.entries(news).map(([date, news]) =>
-		<h4>{formatDate(lang)(date)}</h4>
+		<h4>{dateFormatter(lang)(date)}</h4>
 		<ul>
 			{news.map(({ text, source }, i) =>
 				<li>

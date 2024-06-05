@@ -9,7 +9,6 @@ import { presetIcons } from '@unocss/preset-icons'
 import presetTagify from '@unocss/preset-tagify'
 import { presetFluid } from 'unocss-preset-fluid'
 import { presetDaisy } from 'unocss-preset-daisy'
-import mdx from "@astrojs/mdx"
 import markdoc from "@astrojs/markdoc"
 import keystatic from '@keystatic/astro'
 import { visualizer } from "rollup-plugin-visualizer"
@@ -24,19 +23,13 @@ Object.entries(process.env).forEach(([key, val]) => {
 	}
 })
 
-// https://astro.build/config
 export default defineConfig({
 	output: "server",
 	experimental: {
 		actions: true,
 		rewriting: true
 	},
-	adapter: cloudflare({
-		// platformProxy: {
-		// 	enabled: true,
-		// 	configPath: "wrangler.toml",
-		// },
-	}),
+	adapter: cloudflare(),
 	vite: {
 		define: viteEnv,
 		plugins: [
@@ -52,12 +45,11 @@ export default defineConfig({
 			devtools: true,
 			exclude: ["**/keystatic/*"]
 		}),
-		// react({
-		// 	include: ["**/keystatic/*"]
-		// }),
-		mdx(),
 		markdoc(),
-		// keystatic(),
+		react({
+			include: ["**/keystatic/*"]
+		}),
+		keystatic(),
 		unocss({
 			// injectReset: true,
 			transformers: [transformerDirectives()],

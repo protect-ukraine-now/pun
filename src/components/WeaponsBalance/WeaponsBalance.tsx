@@ -3,7 +3,7 @@ import cn from 'clsx'
 import style from './style.module.scss'
 import { useLanguage, useText } from '@tools/language'
 import { balanceReport } from '@data/report'
-import { formatDate } from '@tools/date'
+import { dateFormatter } from '@tools/date'
 import WeaponsTable from '../WeaponsTable'
 import { Fragment } from 'preact'
 
@@ -37,7 +37,7 @@ function Details({ byModel }) {
 export default function WeaponsBalance({ children }) {
 	const language = useLanguage()
 	const text = useText()
-	const formatter = formatDate(language)
+	const formatter = dateFormatter(language)
 	let till = formatter('2022-02-24')
 	let title = text('balance.title', { till })
 	let subtitle = text('balance.subtitle', { till })

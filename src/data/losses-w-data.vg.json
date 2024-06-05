@@ -457,8 +457,8 @@
 				"sort": true
 			},
 			"range": [
-				"#0000ffbb",
-				"#ff0000bb"
+				"#0000ffaa",
+				"#ff0000aa"
 			]
 		},
 		{

@@ -124,7 +124,7 @@
 				},
 				{
 					"type": "formula",
-					"expr": "format(datum.amount, '.3f')",
+					"expr": "format(datum.amount, '.1f')",
 					"as": "text_amount"
 				},
 				{

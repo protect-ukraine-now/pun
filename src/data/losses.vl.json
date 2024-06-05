@@ -50,7 +50,7 @@
 						"tooltip": { "field": "ru" },
 						"color": {
           					"scale": {
-								"range": ["#0000ffbb", "#ff0000bb"]
+								"range": ["#0000ffaa", "#ff0000aa"]
 							},
           					"field": "-RUS-",
           					"legend": { "title": "" }
