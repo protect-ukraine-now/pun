@@ -1,7 +1,8 @@
 ---
+import { setup } from "@tools/astro"
 import Layout from "./Base.astro"
 
-Astro.response.headers.set('Cache-Control', 'public, max-age=60')
+setup(Astro)
 ---
 
 <Layout>

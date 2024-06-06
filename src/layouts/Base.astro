@@ -5,8 +5,8 @@ import 'virtual:uno.css'
 // import 'virtual:unocss-devtools'
 
 import '@styles/index.module.scss'
+import { setup } from '@tools/astro'
 import favicon from '@assets/favicon.ico'
-import { useLocation } from '@tools/location'
 import { useLanguage, useText } from '@tools/language'
 import PunLogo from '@components/logo/PunLogo'
 import UatLogo from '@components/logo/UatLogo'
@@ -14,8 +14,7 @@ import Header from '@components/Header/Header.astro'
 import Footer from '@components/Footer/Footer'
 import { useApp } from '@tools/app'
 
-useLocation(Astro)
-Astro.response.headers.set('Cache-Control', 'public, max-age=60')
+setup(Astro)
 
 const config = {
 	pun: {
@@ -54,12 +53,12 @@ const { header, footer } = config[useApp()]
 		<meta property="og:title" content={text('seo.title')} />
 		<meta property="og:image" content={text('seo.image')} />
 		<meta name="twitter:card" content="summary_large_image" />
-		<link rel="icon" type="image/x-icon" href={favicon} />
 
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width,initial-scale=1" />
 		<meta name="mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<link rel="icon" type="image/x-icon" href={favicon} />
 
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" cross-origin="anonymous" />
