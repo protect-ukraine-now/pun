@@ -25,11 +25,6 @@ Object.entries(process.env).forEach(([key, val]) => {
 
 export default defineConfig({
 	output: "server",
-	server: {
-		headers: {
-			'Cache-Control': 'public, max-age=60',
-		}
-	},
 	adapter: cloudflare(),
 	experimental: {
 		actions: true,
