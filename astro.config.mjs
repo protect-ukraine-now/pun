@@ -25,11 +25,16 @@ Object.entries(process.env).forEach(([key, val]) => {
 
 export default defineConfig({
 	output: "server",
+	server: {
+		headers: {
+			'Cache-Control': 'public, max-age=60',
+		}
+	},
+	adapter: cloudflare(),
 	experimental: {
 		actions: true,
 		rewriting: true
 	},
-	adapter: cloudflare(),
 	vite: {
 		define: viteEnv,
 		plugins: [
@@ -41,11 +46,11 @@ export default defineConfig({
 		}
 	},
 	integrations: [
+		markdoc(),
 		preact({
 			devtools: true,
 			exclude: ["**/keystatic/*"]
 		}),
-		markdoc(),
 		react({
 			include: ["**/keystatic/*"]
 		}),
