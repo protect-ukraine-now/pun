@@ -1,8 +1,8 @@
 import { useLanguage } from '@tools/language'
 import text from '@data/text.json'
 
-export function useVega(slug, spec, data) {
-	const lang = useLanguage()
+export function useVega(slug, spec, data, lang = null) {
+	lang ??= useLanguage()
 	if (!Array.isArray(spec.data)) spec.data = [spec.data]
 	spec = structuredClone(spec)
 	spec.data.forEach(x => {

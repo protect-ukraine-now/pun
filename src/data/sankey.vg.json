@@ -7,42 +7,31 @@
   "signals": [
     {
       "name": "width",
-      "init": "isFinite(containerSize()[0]) ? containerSize()[0] : 800",
-      "on": [
-        {
-          "update": "isFinite(containerSize()[0]) ? containerSize()[0] : 800",
-          "events": "window:resize"
-        }
-      ]
+      "init": "containerSize()[0]||1200",
+      "on": [{
+        "update": "containerSize()[0]",
+        "events": "window:resize"
+      }]
     },
     {
       "name": "height",
-      "init": "isFinite(containerSize()[1]) ? containerSize()[1] : 400",
-      "on": [
-        {
-          "update": "isFinite(containerSize()[1]) ? containerSize()[1] : 400",
-          "events": "window:resize"
-        }
-      ]
+      "init": "containerSize()[1]||627",
+      "on": [{
+        "update": "containerSize()[1]",
+        "events": "window:resize"
+      }]
     },
     {
       "name": "fontSize",
-      "init": "containerSize()[0]/70",
-      "on": [{"events": "window:resize", "update": "containerSize()[0]/70"}]
+      "init": "containerSize()[0]/70||9",
+      "on": [{
+        "update": "containerSize()[0]/70",
+        "events": "window:resize"
+      }]
     },
-    {
-      "name": "standardGap",
-      "value": 14,
-      "description": "Gap as a percentage of full domain"
-    },
-    {
-      "name": "maxValue",
-      "init": "data('maxValue')[0].value"
-    },
-    {
-      "name": "spacer",
-      "init": "maxValue/(100 * 1.)*standardGap"
-    }
+    { "name": "standardGap", "value": 14 },
+    { "name": "maxValue", "init": "data('maxValue')[0].value" },
+    { "name": "spacer", "init": "maxValue/(100 * 1.)*standardGap" }
   ],
   "data": [
     {
