@@ -6,7 +6,7 @@ import style from './style.module.scss'
 import countries from '@data/countries.json'
 import { latestReport, incomeReport, Report } from '@data/report'
 import { useLanguage, useText } from '@tools/language'
-import { formatDate } from '@tools/date'
+import { dateFormatter } from '@tools/date'
 import WeaponsTable from '../WeaponsTable'
 
 function Details({ byModel }) {
@@ -46,7 +46,7 @@ export default function WeaponsIncome({ children }) {
 	}
 	let data = incomeReport(report)
 	let { till, prev, next } = report
-	const formatter = formatDate(language)
+	const formatter = dateFormatter(language)
 	const from = formatter('2022-02-24')
 	till = formatter(till)
 

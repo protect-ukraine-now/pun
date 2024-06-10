@@ -23,15 +23,9 @@
 			"about": "About Us",
 			"methodology": "Methodology"
 		},
-		"summary": {
-			"title": "US Military Aid to Ukraine",
-			"subtitle": "From {{from}} to {{till}}",
-			"content": "- ${{short}} billion in short-term military aid (~${{shortPer}} per US resident per month)\n- ${{long}} billion in long-term military aid (~${{longPer}} per US resident per month)"
-		},
 		"balance": {
 			"title": "Weapons possessed",
-			"subtitle": "as of {{till}}",
-			"description": "- Includes equipment in store\n- Air Defense: number of launchers is shown\n- Tanks: includes T-62 and above\n- IFVs: includes BMD, BTR-80A and above, BTR-3 and above\n- Sources: iiss.org, armedforces.eu, globalsecurity.org, wikipedia.org"
+			"subtitle": "as of {{till}}"
 		},
 		"income": {
 			"title": "Weapons committed to Ukraine",
@@ -39,15 +33,13 @@
 			"timespan": "2 weeks",
 			"prev": "Previous Report",
 			"next": "Next Report",
-			"rest": "Other countries",
-			"description": "- Includes delivered and promised in the near future\n- Air Defense: number of launchers is shown\n- IFVs: includes all Bradley and Stryker variants\n- [Dataset](https://docs.google.com/spreadsheets/d/1Q9aLVoSZ9vTKH0VLnMpFRiY6h0kV6Rcb16R4lP0rUFs)"
+			"rest": "Other countries"
 		},
 		"inventory": {
 			"title": "USA: Weapons possessed vs weapons provided",
 			"subtitle": "From {{from}} to {{till}}",
 			"possessed": "Possessed",
-			"pda": "Provided",
-			"description": "- Includes equipment in store\n- Air Defense: number of launchers is shown\n- IFVs: includes all Bradley and Stryker variants\n- Sources: iiss.org, armedforces.eu, globalsecurity.org, wikipedia.org, defense.gov"
+			"pda": "Provided"
 		},
 		"report": {
 			"banner_title": "Protect Ukraine now before it's too late!",
@@ -66,36 +58,20 @@
 			"Helicopter": "Helicopter",
 			"Warplane": "War Plane"
 		},
-		"letter": {
-			"header": "Ukraine needs Public Support!",
-			"description": "At the moment the **top priority** is enabling the Ukraine military to **hit Russian assets with the US made weapons on the territory of the Russian Federation and stopping glide bumps that devastate Ukrainian frontlines.** \nThis is vital for the Ukrainian and other communities to show their support behind Ukraine and ask Members of the Congress to exert pressure on the Biden Administration to reverse their decision on the use of US made weapons against all legit targets on the territory of the Russian Federation.\n\nThe Biden Administration must also urgently provide the Patriot Air Defense systems and all other munitions necessary. \n\nPlease take the time to reach out to your elected officials through this letter form and by the phone every few days, until Ukraines receives the required munitions. \n\nAlso please share this page with your family and friends over your social networks, email and other means. Let us assure you, this will take only a few minutes of your time but will make a world of difference. Thank you!\n\n \n```\n\"If not me, then who? If not now, then when?\" - Hillel the Elder\n```"
-		},
 		"call": {
-			"header": "Ukraine needs Public Support!",
-			"motivation": "Dear Ukraine Supporters,\nUkraine's survival and victory depends on military aid from the US and the timely delivery of it. \n\nAt the moment the top priority is demanding a change in the policy to allow Ukraine **hit military targets on the Russian territory** with the US weapons and **stopping the glide bomb attacks** that devastate Ukrainian frontlines. This is vital the Ukrainian and other communities show their support behind Ukraine and exert pressure on the Biden Administration via Members of the Congress to provide the Patriot Air Defense systems and lift any restrictions on pursuing legit Russian military targets including those located on the Russian territory. \n\nThere are also other important priorities we are going to cover here. Please take the time to reach out to your elected officials by phone **every few days** with one of the sample messages below. The shared experience of many Advocacy organizations for Ukraine is that the phone calls to your Members of Congress are very effective measures and we ask you to consider this kind of action in support of Ukraine very seriously. \n\nPlease share this page with your family and friends over your social networks, email and other means. Let us assure you, this will take only a few minutes of your time but will make a world of difference. Thank you!\n\n \n### Please enter your address in the form below to find your Representatives\n\n",
-			"search": "Search",
-			"explanation": "a **Call** is allways better, however you can also [Write](/en/letter) to your Representative and Senators.\n\n\n### I have never called my Representative before. What should I say?\n\nPlease feel free to use your own words or paraphrase the suggested messages. They are examples of what you can say on current pressing issues. We suggest you talk about **one issue at a time** and alternate through them in different phone calls.\n\n**Start with introducing yourself and telling your zip code. You can say your name but you don’t have to.**\n\n>Hello, I would like to leave a message for Senator/Representative Doe, I am his/her constituent from zip code 00000.\n>\n>Thank you for your continued support for Ukraine and special gratitude for the recent passage of the supplemental bill for Ukraine.\n\n**1. Use of the US weapons to strike within the territory of the RF**\n\n>The restriction by the administration on Ukraine military use of US made weapons against Russian assets on their own territory is unreasonable and harmful. The Russian forces accumulate their assets near the border and launch devastating attacks against Ukrainian civilians and the military.  At the moment cities like Kharkiv are simply wiped off the face of the earth. For a reference Kharkiv is a home to over a million people. \nThe US long range weapons can and should be used to take out Russian legit military targets and I am very disturbed this is currently prohibited by the White House.\n> \n>I implore Senator / Representative Doe to request the Biden administration to reverse this decision and produce a Statement of Policy acknowledging the right of Ukraine to use US made weapons against all legit targets on the territory of the Russian Federation.    \n\n**2. Glide Bombs Issue**\n\n>Russian forces are pummeling Ukrainian positions with hundreds a day of inexpensive, precision glide bombs over a thousand pounds each.  These attacks are causing horrific casualties, destroying fortified positions and forcing Ukrainian troops to crawl backwards. If left unchecked, the Ukrainian frontlines could collapse.\nPatriot air defense systems could be a game-changer by giving Ukraine the ability to intercept these bombers before they unleash their deadly payloads.  I implore you to reach out to the administration and urge them to immediately send ten Patriot air defense systems and sufficient quantity missiles to Ukraine. Our old Patriot PAC-2 batteries are sufficient for this job.\n\n    \n\n**3. Excess Defense Articles (EDA)**\n\n>A very large number of weapons Ukraine desperately requires today is available through the US Excess Defense Articles program for military equipment that the US Department of Defense no longer needs. Military equipment can become obsolete due to its age, changes in strategy, or budgetary constraints. At the moment this channel of assisting Ukraine is underutilized and Ukraine is not getting enough weapons it needs. \n>\n>I would like to ask Senator/Representative Doe to request the Biden administration to take full advantages of the EDA program and provide Ukraine with all retired and unused US equipment. This can be a game changer for Ukraine and I appreciate the Senator / Representative Doe advocating for this line of assistance\n\n**Finish the conversation / leaving message**\n\n>The human cost of this war is devastating.  I stand with you in supporting Ukraine's fight for freedom and believe this action is essential for our national security interests as well.\n>\n>In addition to all the above, please let me know if there are other ways I can contribute to supporting Ukraine during this difficult time.\n>\n>Thank you for representing my voice and for your continued efforts.\n\n\n### I am ready for advanced phone calls and advocacy. How can get more involved in advocacy for Ukraine?\nWe always look for people ready to do more, advocating for Ukraine! Please email us at **contact@ProtectUkraineNOW.org** and thank you!\n### How to spread this message?\n\nAsk Your **colleagues, friends** and **relatives** directly over the phone for the highest chance to convert into a phone call to Congresspeople.\n\nAsk your **social media** followers to engage in [#Call4Ukraine](https://twitter.com/search?q=%23Call4Ukraine) challenge.\n\nIf you are an Organization, consider using **mailing lists** to reach out to your **members** and **subscribers** with the message.\n\n### How is that going to affect my 501(c)3 org?\nA 501(c)(3) organization may engage in advocacy, but advocacy can not become the main activity, otherwise the organization  risks loss of tax-exempt status. [Read more](https://www.irs.gov/charities-non-profits/lobbying). Please talk to an attorney for professional advice."
-		},
-		"pun/about": {
-			"content": "  \n### The Goals of the Project\n\nThe Protect Ukraine Now Project is an initiative of individuals who deeply care of Ukrainians and Ukraine and have a strong will and desire to help Ukraine withstand unprovoked aggression by the Russian Federation, win the war and save as many Ukrainian lives as possible.\n\nThe project participants believe this conflict has no diplomatic resolution, and in order to ensure long-term peace in Ukraine, the Russian Federation must suffer a complete military defeat in the war they have started.The main objective of the project is as follows:\n\n**Prevent the evolution of the assault on Ukraine into a Protracted War and aid to military defeat of the Russian Federation in Ukraine in the most immediate future.**\n\nThe Protect Ukraine Now project participants, through data review and analytics, have arrived at the conclusion, the current strategy, used by the collective West, needs a significant revision. Should it remain unchanged, the current strategy will inevitably lead to a multi-year conflict with an astonishing death toll and destruction. The Project is resisting this outcome by the following means:\n\n1. Provides unbiased and complete informing to the general public about the real situation with military aid to Ukraine. This is necessary to resist misleading and inaccurate data that exists in abundance in the information space.\n2. Communicates to the general public the importance of the constant contact with their elected officials regarding support for Ukraine, as this is the most efficient way of making a difference in the current political process.\n3. Facilitating a way for the United States residents to reach out to their congressmen via an online form available on our website. The Project provides the site visitors with a template, which they can use as a letter of support for Ukraine to their congressmen or they can write their own letter of support.\n4. Increased public awareness about the Project through promoting its content via social media and other means of communication.\n\n### The Fundamental Principles of the Project\n\nThe ProtectUkraineNow.org Project is a Non-Governmental Organization (NGO). The participants of the project are volunteers from various countries around the world.\n\nThe project participants are united by a common goal, therefore all project participants treat each other and the activities of each participant in the project with respect, regardless of age, experience, previous merits, nationality, religion, political views, etc.\n\nThe project participants agree that the objectivity and accuracy of providing information and the protection of the people of Ukraine is of greater importance than their own political, religious, national or other personal preferences.\n\n### How Can You Help?\n\n1. The effectiveness of our project is directly related to the number of people we can reach. Please help us with the distribution of information about the Protect Ukraine Now Project among your acquaintances, friends, colleagues, relatives in the USA and around the world. Please follow us on Facebook, like and share our publications.\n2. The US residents can use our website to submit a letter of support for Ukraine to your representatives in Congress. Writing to Congress is the most efficient way to make your voice heard and make a difference. This way of participation in the political process is one of the fundamental principles of democracy and should be taken with the appropriate seriousness.\n3. If you would like to join the project and you have skills in the following areas: marketing, SMM, programming, illustration, website development, translation (Ukrainian, English, other European languages), please contact us with your offer to help and a description of your specialization at [ProtectUkraineNOW@gmail.com](mailto:ProtectUkraineNOW@gmail.com)\n\n### The Data and the Analytics\n\nThe goals stated above are achieved by the means of creating and refreshing a digest with the key news; providing the information about military aid supplied to Ukraine by allies.\n\nThe Protect Ukraine Now Project is only using publicly available data sources and all the appropriate references are cited on the project website.\n\n### How Can Protect Ukraine Now Help?\n\n**We are totally open to mutual cooperation with any organizations whose goal is to ensure the earliest possible victory for Ukraine.**"
-		},
-		"uat/methodology": {
-			"content": "  \n### Methodology and the sources used in Military Aid data set\n\n__Disclaimer__: information in this data set provided as it is to the best knowledge of Ukraine Aid Tracker. It may not be excessive and exhaustive. We use only open sources and prioritize governmental official sources over any other.\n\n1. __Scope of the project__: to provide accurate publicly available information on supply of certain military items to Ukraine during Russian-Ukrainian war.\n    - __Countries__: we are interested in the efforts which the United States and its allies (Canada, Australia, Counties of the European Continent and NATO members) are making to supply Ukraine with arms.\n    - __Categories of weapons__: we provide information on 8 key military equipment: towed artillery, self-propelled artillery, rocket artillery, air defense systems, warplanes, helicopters, tanks and infantry fighting vehicles.\n    - __Funding__: we track fundings which are provided by the United States only to finance military supplies to Ukraine. A financing from other countries is important but we do not track it.\n    - __Source of funding__: data presented in our table do not distinguish between military purchases of Ukraine for its own money and any external financing for these supplies.\n\n2. __Consistency of data__.\n    - __What we count__: the tracker represents weapons which are 1) committed on a governmental level; and 2) will be delivered soon or are already delivered to Ukraine. This means that some of the weapons which are promised to be delivered and have contracts on their production but will not be delivered in the next months are not included in this tracker.\n    - __Time limits__: usually we do not put any weapons in our table which would come to Ukraine in more than 3 months time from the announcement, or which delivery date is not clear.\n    - __Quantities__: if the quantity of supplied weapons is not known from the official sources, we take the lowest known number from all available sources. If there is no such information, the data is not included in the data set.\n\n3. __Military equipment__.\n    - __Towed artillery__. We count all artillery systems of Western and Soviet types, with no limitations on caliber size.\n    - __Self-propelled artillery__. We count all artillery systems of Western and Soviet types, with no limitations on caliber size.\n    - __Rocket artillery__. We count all rocket artillery systems together, although all rocket artillery provided by the US is GMLRS, US allies provide both GMLRS and MLRS, while Russian systems are almost exclusively non-guided MLRS.\n    - __Air defense systems__. Number of launchers presented, as one battery may include multiple launchers.\n    - __Warplanes__. Only warplanes are counted. Transport planes, intelligence and communication planes are not included in our report.\n    - __Helicopters__. Both transport and attack helicopters are counted equally, because transport helicopter can be easily modified into an attack one.\n    - __Tanks__. Both Soviet and Western tanks are counted equally. Tanks which belong to brige-laying, demining or recovery armored vehicles are not counted in this category. AMX-10RC are counted as tanks, not as IFVs.\n    - __Infantry Fighting Vehicles__. The category includes all types of Bradley and Stryker vehicles, includes all types of Soviet or Russian armored vehicles (BTR-80A and above, BTR-3 and above).\n    - __Other__. Some military items like armored vehicles, artillery rounds, etc. may be included in our tracker, but this information may be not exhaustive and not complete. We advise not to use our data tracker as the only source of data on these items.\n\n4. __Sources__: All information resources, including news articles, publications, videos and audio recordings which are publicly available. We do not use any secret data in our tracker.\n\n5. __Changes__. Sometimes information on military supplies may change for different reasons. If it happens we come back to this data and revise it, making a link to newly available sources.\n\n6. __Updates__. The tracker is updated once in 2 weeks since the beginning of the project\n  \n7. __Copyright and reference__. The data is free to use. However, if you use it in your materials you should make a reference to [UkraineAidTracker.org](http://ukraineaidtracker.org/) project.\r\n\n  "
+			"search": "Search"
 		},
 		"sankey24": {
 			"title": "US Aid: Ukraine Security Supplemental Appropriations Act, 2024",
-			"subtitle": "{{from}}",
-			"description": "- The difference between PDA Replenishment funds and PDA Cap is shown under 'Procurement'"
+			"subtitle": "{{from}}"
 		},
 		"sankey-military": {
 			"title": "US Aid: Military",
-			"subtitle": "From {{from}} to {{till}}",
-			"description": "- **Presidential Drawdown Authority (PDA)**: This is the fastest way to deliver military aid. The President can authorize transfers of existing US defense equipment directly from US stockpiles. It's ideal for immediate needs but limited by existing stock availability\n\n- **Ukraine Security Assistance Initiative (USAI)**: This program allows the US government to purchase new equipment directly from defense contractors.  Unlike PDA, USAI provides more flexibility to acquire the latest equipment Ukraine needs, but it takes longer to procure and deliver\n\n- **Foreign Military Financing (FMF)**:  This program offers grants or loans to eligible countries, including Ukraine, to purchase US defense articles and services.  Ukraine uses FMF funds to buy specific equipment and training through government-to-government agreements.  While offering flexibility in purchases, FMF requires negotiation and approval processes, leading to longer timelines compared to PDA\n\n- According to our estimates, Ukraine has received approximately $3.6 billion worth of equipment procured through the USAI program"
+			"subtitle": "From {{from}} to {{till}}"
 		},
 		"sankey": {
 			"title": "US Aid: Ukraine Security Acts",
 			"subtitle": "From {{from}} to {{till}}",
-			"description": "- The difference between PDA Replenishment funds and PDA Cap is shown under 'Procurement'",
 			"bill_mar_22": "Mar '22",
 			"bill_may_22": "May '22",
 			"bill_sep_22": "Sep '22",
@@ -134,14 +110,10 @@
 		},
 		"pda": {
 			"title": "US Instant Military Aid (PDA) distribution over time",
-			"subtitle": "From {{from}} to {{till}}",
-			"description": "- Adjusted for accounting errors for $6.2B"
+			"subtitle": "From {{from}} to {{till}}"
 		},
 		"loses": {
-			"title": "Heavy Weapons Lost"
-		},
-		"test": {
-			"test_1": "\"a **Call** is allways better, however you can also [Write](/en/letter) to your Representative and Senators.\n\n\n### I have never called my Representative before. What should I say?\n\n>Senator/Representative Doe,\n>\n>Thank you for your continued support for Ukraine, especially with the recent passage of the supplemental bill.\n>\n>The situation on the frontlines is critical.  Russian forces are pummeling Ukrainian positions with up to 150/day of inexpensive, precision glide bombs up to 6000 pounds each.  These attacks are causing significant casualties, destroying fortified positions  and forcing Ukrainian troops to crawl backwards.  If left unchecked, the Ukrainian frontlines could collapse.\n>\n>Patriot air defense systems could be a game-changer by giving Ukraine the ability to intercept these bombers before they unleash their deadly payloads.  I urge you to reach out to the administration and implore them to immediately send Patriot air defense systems and missiles to Ukraine in sufficient quantities.\n>\n>The human cost of this war is devastating.  I stand with you in supporting Ukraine's fight for freedom and believe this action is essential for our national security interests as well.\n>\n>In addition to advocating for these systems, please let me know if there are other ways I can  contribute to supporting Ukraine during this difficult time.\n>\n>Thank you for representing my voice and for your continued efforts.\n\n### I am ready for advanced phone calls and advocacy. How can get more involved in advocacy for Ukraine?\nWe always look for people ready to do more, advocating for Ukraine! Please email us at **contact@ProtectUkraineNOW.org** and thank you!\n### How to spread this message?\n\nAsk Your **colleagues, friends** and **relatives** directly over the phone for the highest chance to convert into a phone call to Congresspeople.\n\nAsk your **social media** followers to engage in [#Call4Ukraine](https://twitter.com/search?q=%23Call4Ukraine) challenge.\n\nIf you are an Organization, consider using **mailing lists** to reach out to your **members** and **subscribers** with the message.\n\n### How is that going to affect my 501(c)3 org?\nA 501(c)(3) organization may engage in some lobbying, but too much lobbying activity risks loss of tax-exempt status. [Read more](https://www.irs.gov/charities-non-profits/lobbying). Please talk to an attorney for professional advice.\""
+			"title": "Losses of Heavy Weapons"
 		}
 	},
 	"uk": {
@@ -163,15 +135,9 @@
 			"call": "Дзвінок до Конгресу",
 			"about": "Про нас"
 		},
-		"summary": {
-			"title": "Військова допомога США Україні",
-			"subtitle": "З {{from}} по {{till}}",
-			"content": "- ${{short}} мільярдів короткострокової військової допомоги (~${{shortPer}} на резидента США на місяць)\n- ${{long}} мільярдів довгострокової військової допомоги (~${{longPer}} на резидента США на місяць)"
-		},
 		"balance": {
 			"title": "Наявна зброя",
-			"subtitle": "на {{till}}",
-			"description": "- Включає техніку на зберіганні\n- ППО: показано кількість пускових установок\n- Танки: включає Т-62 і вище\n- БМП: включає БМД, БТР-80А i вище, БТР-3 і вище\n- Джерела: iiss.org, Armedforces.eu, globalsecurity.org, wikipedia.org"
+			"subtitle": "на {{till}}"
 		},
 		"income": {
 			"title": "Зброя, що передана Україні",
@@ -179,15 +145,13 @@
 			"timespan": "2 тижні",
 			"prev": "Попередній звіт",
 			"next": "Наступний звіт",
-			"rest": "Інші країни",
-			"description": "- Включає доставлене та обіцяне найближчим часом\n- ППО: показано кількість пускових установок\n- БМП: включає всі варіанти Bradley і Stryker\n- [Набір даних](https://docs.google.com/spreadsheets/d/1Q9aLVoSZ9vTKH0VLnMpFRiY6h0kV6Rcb16R4lP0rUFs)"
+			"rest": "Інші країни"
 		},
 		"inventory": {
 			"title": "США: Наявна зброя та поставки",
 			"subtitle": "З {{from}} по {{till}}",
 			"possessed": "Наявна",
-			"pda": "Поставлена",
-			"description": "- Включає техніку на зберіганні\n- ППО: показано кількість пускових установок\n- БМП: включає всі варіанти Bradley і Stryker\n- Джерела: iiss.org, Armedforces.eu, globalsecurity.org, wikipedia.org, defense.gov"
+			"pda": "Поставлена"
 		},
 		"report": {
 			"banner_title": "Захистить Україну зараз, поки не пізно!",
@@ -206,32 +170,20 @@
 			"Helicopter": "Гелiкоптер",
 			"Warplane": "Бойовий літак"
 		},
-		"letter": {
-			"header": "Україні потрібна громадська підтримка!",
-			"description": "Наразі найголовнішим пріоритетом є зупинення авіаударів, які спустошують український фронт.\r\n\r\nЦе життєво важливо, щоб українська та інші громади продемонстрували свою підтримку Україні та чинили тиск на членів Конгресу, щоб вони надали системи протиповітряної оборони Patriot.\r\n\r\nБудь ласка, знайдіть час, щоб зв’язатися зі своїми обраними посадовими особами за допомогою цієї форми листа та по телефону кожні кілька днів, доки Україна не отримає необхідні боєприпаси.\r\n\r\nТакож, будь ласка, поділіться цією сторінкою зі своєю родиною та друзями через соціальні мережі, електронну пошту та іншими способами. Запевняємо вас, це займе лише кілька хвилин вашого часу, але змінить світ. Дякую!\r\n\r\n```\r\n\"Якщо не я, то хто? Якщо не зараз, то коли?\" - Гіллель Старший\r\n```"
-		},
 		"call": {
-			"header": "Україні потрібна громадська підтримка!",
 			"search": "Шукати"
 		},
-		"pun/about": {
-			"content": "  \n### Цілі проекту\n\nПроект «Захистимо Україну зараз» – це ініціатива людей, які глибоко вболівають за українців та Україну та мають сильну волю та бажання допомогти Україні протистояти неспровокованій агресії з боку Російської Федерації, перемогти у війні та врятувати якомога більше українських життів.\n\nУчасники проекту вважають, що цей конфлікт не має дипломатичного вирішення, і для забезпечення довгострокового миру в Україні Російська Федерація повинна зазнати повної військової поразки в розпочатій ними війні. Основна мета проекту полягає в наступному:\n\n**Не допустити переростання наступу на Україну в тривалу війну та сприяти військовому розгрому Російської Федерації в Україні**\n\nУчасники проекту Protect Ukraine Now шляхом аналізу даних та аналітики дійшли висновку, що нинішня стратегія, яку використовує колективний Захід, потребує суттєвого перегляду. Якщо вона залишиться незмінною, нинішня стратегія неминуче призведе до багаторічного конфлікту з вражаючими жертвами та руйнуваннями. Проект протистоїть цьому результату такими засобами:\n\n1. Забезпечує неупереджене та повне інформування широкої громадськості про реальний стан військової допомоги Україні. Це необхідно для того, щоб протистояти оманливим і неточним даним, яких у надлишку існують в інформаційному просторі.\n2. Доносить до широкої громадськості важливість постійного контакту з обраними посадовими особами щодо підтримки України, оскільки це є найефективніший спосіб внести зміни в поточний політичний процес.\n3. Полегшення способу для жителів Сполучених Штатів зв’язатися зі своїми конгресменами через онлайн-форму, доступну на нашому веб-сайті. Проект надає відвідувачам сайту шаблон, який вони можуть використати як лист підтримки України своїм конгресменам або написати власний лист підтримки.\n4. Підвищення обізнаності громадськості про Проект шляхом популяризації його змісту через соціальні мережі та інші засоби комунікації.\n\n### Основні принципи проекту\n\nПроект ProtectUkraineNow.org є неурядовою організацією. Учасники проекту – волонтери з різних країн світу.\n\nУчасників проекту об’єднує спільна мета, тому всі учасники проекту з повагою ставляться один до одного та до діяльності кожного учасника проекту, незалежно від віку, досвіду, попередніх заслуг, національності, віросповідання, політичних поглядів тощо.\n\nУчасники проекту погоджуються, що об’єктивність і точність надання інформації та захист народу України є важливішими за їхні власні політичні, релігійні, національні чи інші особисті уподобання.\n\n### Як ви можете допомогти?\n\n1. Ефективність нашого проекту безпосередньо залежить від кількості людей, яких ми можемо охопити. Будь ласка, допоможіть нам із поширенням інформації про проект Protect Ukraine Now серед ваших знайомих, друзів, колег, родичів у США та по всьому світу. Слідкуйте за нами у Facebook, ставте лайки та діліться нашими публікаціями.\n2. Жителі США можуть використовувати наш веб-сайт, щоб надіслати листа підтримки України своїм представникам у Конгресі. Письмо до Конгресу – це найефективніший спосіб зробити так, щоб ваш голос був почутий і вплинути на зміни. Такий спосіб участі в політичному процесі є одним із основоположних принципів демократії і до нього слід ставитися з належною серйозністю.\n3. Якщо ви бажаєте приєднатися до проекту та маєте навички в таких сферах: маркетинг, SMM, програмування, ілюстрація, розробка сайтів, переклад (українська, англійська, інші європейські мови), будь ласка, зв’яжіться з нами з пропозицією допомогти та опис вашої спеціалізації на [ProtectUkraineNOW@gmail.com](mailto:ProtectUkraineNOW@gmail.com)\n\n### Дані та аналітика\n\nЗазначені вище цілі досягаються шляхом створення та оновлення дайджесту з ключовими новинами; надання інформації про військову допомогу, яку надають Україні союзники.\n\nПроект «Захистимо Україну зараз» використовує лише загальнодоступні джерела даних, а всі відповідні посилання наведено на сайті проекту.\n\n### «Захистимо Україну зараз» може допомогти?\n\n**Ми повністю відкриті до взаємної співпраці з будь-якими організаціями, метою яких є забезпечення якнайшвидшої перемоги України.**"
-		},
-		"uat/methodology": {},
 		"sankey24": {
 			"title": "Допомога США: Закон про додаткові асигнування на безпеку України, 2024",
-			"subtitle": "{{from}}",
-			"description": "- Різниця між коштами поповнення PDA і стелею PDA показано в розділі «Закупівлі»"
+			"subtitle": "{{from}}"
 		},
 		"sankey-military": {
 			"title": "Допомога США: Військова",
-			"subtitle": "З {{from}} по {{till}}",
-			"description": "- **Presidential Drawdown Authority (PDA)**: це найшвидший спосіб доставки військової допомоги. Президент може дозволити передачу наявного оборонного обладнання США безпосередньо зі складів США. Він ідеально підходить для негайних потреб, але обмежений доступністю на складі\n\n- **Ініціатива сприяння безпеці в Україні (USAI)**: ця програма дозволяє уряду США купувати нове обладнання безпосередньо у оборонних підрядників. На відміну від PDA, USAI забезпечує більшу гнучкість для придбання найновішого обладнання, необхідного Україні, але закупівля та доставка займає більше часу\n\n- **Іноземне військове фінансування (FMF)**: ця програма пропонує гранти або позики відповідним країнам, включно з Україною, для придбання оборонних товарів і послуг США. Україна використовує кошти FMF для закупівлі спеціального обладнання та навчання через угоди між урядами. Пропонуючи гнучкість закупівель, FMF потребує процесів узгодження та затвердження, що веде до довших часових рамок порівняно з PDA\n\n- За нашими оцінками, за програмою USAI Україна отримала обладнання вартістю близько 3,6 млрд доларів"
+			"subtitle": "З {{from}} по {{till}}"
 		},
 		"sankey": {
 			"title": "Допомога США: Закони про допомогу",
 			"subtitle": "З {{from}} по {{till}}",
-			"description": "- Різниця між коштами поповнення PDA та лімітом PDA відображається в розділі \"Закупівлі\"",
 			"bill_mar_22": "15.03.22",
 			"bill_may_22": "21.05.22",
 			"bill_sep_22": "30.09.22",
@@ -270,12 +222,10 @@
 		},
 		"pda": {
 			"title": "Розподіл миттєвої військової допомоги США (PDA) у часі",
-			"subtitle": "З {{from}} по {{till}}",
-			"description": "- З поправками на бухгалтерські помилки на суму 6,2 мільярда доларів США"
+			"subtitle": "З {{from}} по {{till}}"
 		},
 		"loses": {
 			"title": "Втрачена важка зброя"
-		},
-		"test": {}
+		}
 	}
 }

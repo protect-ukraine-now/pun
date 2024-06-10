@@ -1,13 +1,15 @@
 ---
-import Layout from "./Basic.astro"
-import Article_ from "@components/Article/Article"
+import { setup } from "@tools/astro"
+import Layout from "./Base.astro"
+
+setup(Astro)
 ---
 
 <Layout>
 	<slot name="head" slot="head" />
-	<Article_>
+	<article class="max-w-96ch mx-auto">
 		<slot />
-	</Article_>
+	</article>
 </Layout>
 
 <style is:global>

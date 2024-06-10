@@ -79,7 +79,7 @@
 			"as": "amount"
 		},
 		{
-			"calculate": "format(datum.amount, '.3f')",
+			"calculate": "format(datum.amount, '.1f')",
 			"as": "text_amount"
 		},
 		{

@@ -20,8 +20,8 @@ export const config = {
 		SankeyMilitary: {
 			render: component('@components/SankeyMilitary.astro'),
 		},
-		Loses: {
-			render: component('@components/LosesChart.astro'),
+		Losses: {
+			render: component('@components/LossesChart.astro'),
 		},
 		Letter: {
 			render: component('@components/Letter.astro'),

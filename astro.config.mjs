@@ -9,11 +9,12 @@ import { presetIcons } from '@unocss/preset-icons'
 import presetTagify from '@unocss/preset-tagify'
 import { presetFluid } from 'unocss-preset-fluid'
 import { presetDaisy } from 'unocss-preset-daisy'
-import mdx from "@astrojs/mdx"
 import markdoc from "@astrojs/markdoc"
 import keystatic from '@keystatic/astro'
+import { visualizer } from "rollup-plugin-visualizer"
+
 import countries from './src/data/countries.json'
-import vtbot from "astro-vtbot"
+
 const viteEnv = {}
 Object.entries(process.env).forEach(([key, val]) => {
 	if (key.startsWith(`VITE_`) || key.includes(`KEYSTATIC_`)) {
@@ -22,27 +23,25 @@ Object.entries(process.env).forEach(([key, val]) => {
 	}
 })
 
-// https://astro.build/config
 export default defineConfig({
 	output: "server",
+	adapter: cloudflare(),
 	experimental: {
 		actions: true,
 		rewriting: true
 	},
-	adapter: cloudflare({
-		// platformProxy: {
-		// 	enabled: true,
-		// 	configPath: "wrangler.toml",
-		// },
-	}),
 	vite: {
 		define: viteEnv,
-		plugins: [tsconfigPaths()],
+		plugins: [
+			tsconfigPaths(),
+			visualizer(),
+		],
 		ssr: {
 			external: ["node:async_hooks"]
 		}
 	},
 	integrations: [
+		markdoc(),
 		preact({
 			devtools: true,
 			exclude: ["**/keystatic/*"]
@@ -50,8 +49,6 @@ export default defineConfig({
 		react({
 			include: ["**/keystatic/*"]
 		}),
-		mdx(),
-		markdoc(),
 		keystatic(),
 		unocss({
 			// injectReset: true,

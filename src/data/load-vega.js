@@ -41,4 +41,3 @@ losses.data.values = await (await fetch(losses.data.url)).text()
 delete losses.data.url
 json = JSON.stringify(vl.compile(losses).spec, null, '\t')
 fs.writeFileSync(`src/data/losses-w-data.vg.json`, json)
-

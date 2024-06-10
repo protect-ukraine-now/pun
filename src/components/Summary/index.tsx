@@ -1,7 +1,7 @@
 import money from '@data/money.json'
 import { useLanguage, useText } from '@tools/language'
 import { latest } from '@data/report'
-import { formatDate } from '@tools/date'
+import { dateFormatter } from '@tools/date'
 import Section from '../Section/Section'
 
 const population = 334565848
@@ -22,8 +22,8 @@ export default function Summary() {
 	)
 	sum.short -= 6200
 	const dates = {
-		from: formatDate(language)(from),
-		till: formatDate(language)(till),
+		from: dateFormatter(language)(from),
+		till: dateFormatter(language)(till),
 	}
 	const data = {
 		short: (sum.short / 1e3).toFixed(1),

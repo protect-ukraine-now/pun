@@ -8,7 +8,7 @@ export function useVega(slug, spec, data, lang = null) {
 	spec.data.forEach(x => {
 		let values = data[x.name]
 		if (values) {
-			Object.entries(text[lang][slug]).slice(3).forEach(([key, val]) => {
+			Object.entries(text[lang][slug]).slice(2).forEach(([key, val]) => {
 				values = values.replaceAll(key, `"${val}"`)
 			})
 			x.values = values
