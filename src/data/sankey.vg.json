@@ -23,7 +23,7 @@
     },
     {
       "name": "fontSize",
-      "init": "containerSize()[0]/70||9",
+      "init": "containerSize()[0]/70||16",
       "on": [{
         "update": "containerSize()[0]/70",
         "events": "window:resize"
