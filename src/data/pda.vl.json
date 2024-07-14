@@ -103,6 +103,8 @@
 			"axis": {
 				"title": null,
 				"format": "%b`%y",
+				"labelAngle": -45,
+				"labelOverlap": false,
 				"labelFontSize": {
 					"expr": "fontSize"
 				},
@@ -110,7 +112,6 @@
 					"interval": "month",
 					"step": 1
 				},
-				"labelAngle": 0,
 				"grid": false
 			}
 		},

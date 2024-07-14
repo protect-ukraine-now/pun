@@ -7,4 +7,4 @@ title: Sankey Military EN
 
 - **Foreign Military Financing (FMF)**:  This program offers grants or loans to eligible countries, including Ukraine, to purchase US defense articles and services.  Ukraine uses FMF funds to buy specific equipment and training through government-to-government agreements.  While offering flexibility in purchases, FMF requires negotiation and approval processes, leading to longer timelines compared to PDA
 
-- According to our estimates, Ukraine has received approximately $3.6 billion worth of equipment procured through the USAI program
+- According to our estimates, Ukraine has received approximately $3.9 billion worth of equipment procured through the USAI program

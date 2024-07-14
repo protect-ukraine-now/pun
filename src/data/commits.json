@@ -1406,5 +1406,53 @@
 		"Leopard 1",
 		10,
 		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
+	],
+	[
+		"2024-06-14",
+		"de",
+		"Infantry Fighting Vehicle",
+		"Marder",
+		20,
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
+	],
+	[
+		"2024-06-14",
+		"de",
+		"Tank",
+		"Leopard 1",
+		10,
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
+	],
+	[
+		"2024-06-14",
+		"de",
+		"Air Defense System",
+		"IRIS-T",
+		2,
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
+	],
+	[
+		"2024-06-14",
+		"de",
+		"Air Defense System",
+		"IRIS-T",
+		3,
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
+	],
+	[
+		"2024-06-14",
+		"de",
+		"Multiple Launch Rocket System",
+		"M142 HIMARS",
+		3,
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
+	],
+	[
+		"2024-07-12",
+		"us",
+		"Air Defense System",
+		"MIM-104 Patriot",
+		4,
+		"https://www.defense.gov/News/News-Stories/Article/Article/3837709/us-announces-latest-security-package-for-ukraine/"
 	]
 ]
