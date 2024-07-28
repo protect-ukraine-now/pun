@@ -1096,14 +1096,6 @@
 		"https://www.defense.gov/News/Releases/Release/Article/3426389/biden-administration-announces-additional-security-assistance-for-ukraine/"
 	],
 	[
-		"2023-06-16",
-		"es",
-		"Tank",
-		"Leopard 2",
-		2,
-		"https://www.newsweek.com/ukraine-more-leopard-tanks-counteroffensive-spain-germany-russia-1807177"
-	],
-	[
 		"2023-06-27",
 		"us",
 		"Infantry Fighting Vehicle",
@@ -1462,5 +1454,13 @@
 		"MIM-104 Patriot",
 		4,
 		"https://www.defense.gov/News/News-Stories/Article/Article/3837709/us-announces-latest-security-package-for-ukraine/"
+	],
+	[
+		"2024-07-15",
+		"es",
+		"Tank",
+		"Leopard 2",
+		10,
+		"https://www.defensa.gob.es/gabinete/notasPrensa/2024/07/DGC-240715-envio-leopards.html"
 	]
 ]
