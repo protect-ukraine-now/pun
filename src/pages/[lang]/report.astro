@@ -15,7 +15,7 @@ import Sankey from '@components/Sankey.astro'
 import Sankey24 from '@components/Sankey24.astro'
 import SankeyMilitary from '@components/SankeyMilitary.astro'
 import PdaChart from '@components/PdaChart.astro'
-import LosesChart from '@components/LossesChart.astro'
+import LosesChart from '@components/LossesChart/index.astro'
 import Markdown from '@components/Markdown.astro'
 
 useLocation(Astro)
@@ -33,7 +33,7 @@ const t = useText()
 		<WeaponsBalance>
 			<Markdown collection="notes" slug="WeaponsBalance" />
 		</WeaponsBalance>
-		<LosesChart client:idle>
+		<LosesChart>
 			<Markdown collection="notes" slug="LosesChart" />
 		</LosesChart>
 		<WeaponsInventory>
@@ -54,16 +54,16 @@ const t = useText()
 	}
 
 	<Container>
-		<Sankey24 client:idle>
+		<Sankey24>
 			<Markdown collection="notes" slug="Sankey24" />
 		</Sankey24>
-		<Sankey client:idle>
+		<Sankey>
 			<Markdown collection="notes" slug="Sankey" />
 		</Sankey24>
-		<SankeyMilitary client:idle>
+		<SankeyMilitary>
 			<Markdown collection="notes" slug="SankeyMilitary" />
 		</Sankey24>
-		<PdaChart client:idle>
+		<PdaChart>
 			<Markdown collection="notes" slug="PdaChart" />
 		</PdaChart>
 	</Container>

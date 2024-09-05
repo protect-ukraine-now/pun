@@ -1,0 +1,15 @@
+---
+import { useText } from '@tools/language'
+import Section from '../Section/Section'
+import { LossesChart } from './LossesChart'
+
+const t = useText()
+const title = t('loses.title')
+---
+
+<Section {...{ title }}>
+	<div class="aspect-2.5">
+		<LossesChart client:idle />
+	</div>
+	<slot slot="description" />
+</Section>

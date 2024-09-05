@@ -21,7 +21,7 @@ export const config = {
 			render: component('@components/SankeyMilitary.astro'),
 		},
 		Losses: {
-			render: component('@components/LossesChart.astro'),
+			render: component('@components/LossesChart/index.astro'),
 		},
 		Letter: {
 			render: component('@components/Letter.astro'),
