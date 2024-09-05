@@ -19,7 +19,7 @@
 	"encoding": {
 		"x": {
 			"title": null,
-			"timeUnit": "yearmonth",
+			"timeUnit": { "unit": "yearmonth", "utc": true },
 			"field": "month",
 			"type": "ordinal",
 			"axis": {
