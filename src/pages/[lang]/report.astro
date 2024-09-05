@@ -33,7 +33,7 @@ const t = useText()
 		<WeaponsBalance>
 			<Markdown collection="notes" slug="WeaponsBalance" />
 		</WeaponsBalance>
-		<LosesChart>
+		<LosesChart client:idle>
 			<Markdown collection="notes" slug="LosesChart" />
 		</LosesChart>
 		<WeaponsInventory>
@@ -54,16 +54,16 @@ const t = useText()
 	}
 
 	<Container>
-		<Sankey24>
+		<Sankey24 client:idle>
 			<Markdown collection="notes" slug="Sankey24" />
 		</Sankey24>
-		<Sankey>
+		<Sankey client:idle>
 			<Markdown collection="notes" slug="Sankey" />
 		</Sankey24>
-		<SankeyMilitary>
+		<SankeyMilitary client:idle>
 			<Markdown collection="notes" slug="SankeyMilitary" />
 		</Sankey24>
-		<PdaChart>
+		<PdaChart client:idle>
 			<Markdown collection="notes" slug="PdaChart" />
 		</PdaChart>
 	</Container>
