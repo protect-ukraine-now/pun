@@ -24,7 +24,7 @@
 			"methodology": "Methodology"
 		},
 		"balance": {
-			"title": "Weapons possessed",
+			"title": "Weapons stockpile",
 			"subtitle": "as of {{till}}"
 		},
 		"income": {
@@ -36,9 +36,9 @@
 			"rest": "Other countries"
 		},
 		"inventory": {
-			"title": "USA: Weapons possessed vs weapons provided",
+			"title": "USA: Weapons stockpile vs weapons provided",
 			"subtitle": "From {{from}} to {{till}}",
-			"possessed": "Possessed",
+			"stockpile": "Stockpile",
 			"pda": "Provided"
 		},
 		"report": {
@@ -150,7 +150,7 @@
 		"inventory": {
 			"title": "США: Наявна зброя та поставки",
 			"subtitle": "З {{from}} по {{till}}",
-			"possessed": "Наявна",
+			"stockpile": "Наявна",
 			"pda": "Поставлена"
 		},
 		"report": {

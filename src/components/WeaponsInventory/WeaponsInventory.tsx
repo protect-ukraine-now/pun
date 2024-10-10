@@ -39,6 +39,6 @@ export default function WeaponsInventory({ children }) {
     const till = formatter(latestReport.till)
     const title = text('inventory.title')
     const subtitle = text('inventory.subtitle', { from, till })
-    const head = [text('inventory.possessed'), text('inventory.pda')]
+    const head = [text('inventory.stockpile'), text('inventory.pda')]
     return <WeaponsTable {...{ title, subtitle, head, data, description: children, Details }} />
 }
