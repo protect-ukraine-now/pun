@@ -577,14 +577,6 @@
 	],
 	[
 		"2022-10-13",
-		"pt",
-		"Helicopter",
-		"Ka-32",
-		6,
-		"https://www.theportugalnews.com/news/2022-10-13/portugal-to-send-broken-helicopters-to-ukraine/71186"
-	],
-	[
-		"2022-10-13",
 		"es",
 		"Air Defense System",
 		"MIM-23 HAWK",
@@ -1494,5 +1486,61 @@
 		"IRIS-T",
 		3,
 		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
+	],
+	[
+		"2024-09-01",
+		"bg",
+		"Self-Propelled Artillery",
+		"Gvozdika 122mm",
+		4,
+		null
+	],
+	[
+		"2024-09-06",
+		"us",
+		"Infantry Fighting Vehicle",
+		"Bradley",
+		2,
+		"https://www.defense.gov/News/Releases/Release/Article/3896787/biden-administration-announces-additional-security-assistance-for-ukraine/"
+	],
+	[
+		"2024-09-07",
+		"es",
+		"Air Defense System",
+		"MIM-23 HAWK",
+		6,
+		"https://bulgarianmilitary.com/2024/09/07/madrid-immediately-sends-a-full-battery-mim-23-hawk-to-kyiv/"
+	],
+	[
+		"2024-09-08",
+		"pt",
+		"Helicopter",
+		"Ka-32",
+		6,
+		"https://mil.in.ua/en/news/portugal-shipped-the-promised-ka-32-helicopters-to-ukraine/"
+	],
+	[
+		"2024-09-19",
+		"de",
+		"Tank",
+		"Leopard 1",
+		22,
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
+	],
+	[
+		"2024-09-19",
+		"de",
+		"Air Defense System",
+		"Gepard",
+		3,
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
+	],
+	[
+		"2024-09-26",
+		"gb",
+		"Self-Propelled Artillery",
+		"AS90",
+		10,
+		"https://www.gov.uk/government/news/uk-to-speed-up-military-kit-deliveries-to-support-ukraines-fight"
 	]
 ]

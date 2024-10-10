@@ -51,9 +51,10 @@
 						"year",
 						"month"
 					],
+					"timezone": "utc",
 					"as": [
-						"yearmonth_month",
-						"yearmonth_month_end"
+						"utcyearmonth_month",
+						"utcyearmonth_month_end"
 					]
 				}
 			]
@@ -65,7 +66,7 @@
 				{
 					"type": "aggregate",
 					"groupby": [
-						"yearmonth_month",
+						"utcyearmonth_month",
 						"-RAT-",
 						"ratio"
 					],
@@ -88,7 +89,7 @@
 				{
 					"type": "aggregate",
 					"groupby": [
-						"yearmonth_month",
+						"utcyearmonth_month",
 						"-RUS-",
 						"ru"
 					],
@@ -111,7 +112,7 @@
 				{
 					"type": "aggregate",
 					"groupby": [
-						"yearmonth_month",
+						"utcyearmonth_month",
 						"-UKR-",
 						"ua"
 					],
@@ -177,11 +178,11 @@
 						"value": "bar"
 					},
 					"description": {
-						"signal": "\"month (year-month): \" + (timeFormat(datum[\"yearmonth_month\"], '%b `%y')) + \"; Sum of ru: \" + (format(datum[\"sum_ru\"], \"\")) + \"; -RUS-: \" + (isValid(datum[\"-RUS-\"]) ? datum[\"-RUS-\"] : \"\"+datum[\"-RUS-\"]) + \"; ru: \" + (isValid(datum[\"ru\"]) ? datum[\"ru\"] : \"\"+datum[\"ru\"])"
+						"signal": "\"month (year-month): \" + (timeFormat(datum[\"utcyearmonth_month\"], '%b `%y')) + \"; Sum of ru: \" + (format(datum[\"sum_ru\"], \"\")) + \"; -RUS-: \" + (isValid(datum[\"-RUS-\"]) ? datum[\"-RUS-\"] : \"\"+datum[\"-RUS-\"]) + \"; ru: \" + (isValid(datum[\"ru\"]) ? datum[\"ru\"] : \"\"+datum[\"ru\"])"
 					},
 					"x": {
 						"scale": "x",
-						"field": "yearmonth_month",
+						"field": "utcyearmonth_month",
 						"offset": {
 							"scale": "xOffset",
 							"field": "-RUS-"
@@ -231,11 +232,11 @@
 						"value": "bar"
 					},
 					"description": {
-						"signal": "\"month (year-month): \" + (timeFormat(datum[\"yearmonth_month\"], '%b `%y')) + \"; Sum of ua: \" + (format(datum[\"sum_ua\"], \"\")) + \"; -UKR-: \" + (isValid(datum[\"-UKR-\"]) ? datum[\"-UKR-\"] : \"\"+datum[\"-UKR-\"]) + \"; ua: \" + (isValid(datum[\"ua\"]) ? datum[\"ua\"] : \"\"+datum[\"ua\"])"
+						"signal": "\"month (year-month): \" + (timeFormat(datum[\"utcyearmonth_month\"], '%b `%y')) + \"; Sum of ua: \" + (format(datum[\"sum_ua\"], \"\")) + \"; -UKR-: \" + (isValid(datum[\"-UKR-\"]) ? datum[\"-UKR-\"] : \"\"+datum[\"-UKR-\"]) + \"; ua: \" + (isValid(datum[\"ua\"]) ? datum[\"ua\"] : \"\"+datum[\"ua\"])"
 					},
 					"x": {
 						"scale": "x",
-						"field": "yearmonth_month",
+						"field": "utcyearmonth_month",
 						"offset": {
 							"scale": "xOffset",
 							"field": "-UKR-"
@@ -297,7 +298,7 @@
 						"line"
 					],
 					"sort": {
-						"field": "datum[\"yearmonth_month\"]"
+						"field": "datum[\"utcyearmonth_month\"]"
 					},
 					"from": {
 						"data": "faceted_path_layer_1_layer_0_main"
@@ -312,11 +313,11 @@
 								"signal": "isValid(datum[\"ratio\"]) ? datum[\"ratio\"] : \"\"+datum[\"ratio\"]"
 							},
 							"description": {
-								"signal": "\"month (year-month): \" + (timeFormat(datum[\"yearmonth_month\"], '%b `%y')) + \"; Sum of ratio: \" + (format(datum[\"sum_ratio\"], \"\")) + \"; -RAT-: \" + (isValid(datum[\"-RAT-\"]) ? datum[\"-RAT-\"] : \"\"+datum[\"-RAT-\"]) + \"; ratio: \" + (isValid(datum[\"ratio\"]) ? datum[\"ratio\"] : \"\"+datum[\"ratio\"])"
+								"signal": "\"month (year-month): \" + (timeFormat(datum[\"utcyearmonth_month\"], '%b `%y')) + \"; Sum of ratio: \" + (format(datum[\"sum_ratio\"], \"\")) + \"; -RAT-: \" + (isValid(datum[\"-RAT-\"]) ? datum[\"-RAT-\"] : \"\"+datum[\"-RAT-\"]) + \"; ratio: \" + (isValid(datum[\"ratio\"]) ? datum[\"ratio\"] : \"\"+datum[\"ratio\"])"
 							},
 							"x": {
 								"scale": "x",
-								"field": "yearmonth_month",
+								"field": "utcyearmonth_month",
 								"band": 0.5
 							},
 							"y": [
@@ -364,11 +365,11 @@
 						"value": "point"
 					},
 					"description": {
-						"signal": "\"month (year-month): \" + (timeFormat(datum[\"yearmonth_month\"], '%b `%y')) + \"; Sum of ratio: \" + (format(datum[\"sum_ratio\"], \"\")) + \"; -RAT-: \" + (isValid(datum[\"-RAT-\"]) ? datum[\"-RAT-\"] : \"\"+datum[\"-RAT-\"]) + \"; ratio: \" + (isValid(datum[\"ratio\"]) ? datum[\"ratio\"] : \"\"+datum[\"ratio\"])"
+						"signal": "\"month (year-month): \" + (timeFormat(datum[\"utcyearmonth_month\"], '%b `%y')) + \"; Sum of ratio: \" + (format(datum[\"sum_ratio\"], \"\")) + \"; -RAT-: \" + (isValid(datum[\"-RAT-\"]) ? datum[\"-RAT-\"] : \"\"+datum[\"-RAT-\"]) + \"; ratio: \" + (isValid(datum[\"ratio\"]) ? datum[\"ratio\"] : \"\"+datum[\"ratio\"])"
 					},
 					"x": {
 						"scale": "x",
-						"field": "yearmonth_month",
+						"field": "utcyearmonth_month",
 						"band": 0.5
 					},
 					"y": [
@@ -395,15 +396,15 @@
 				"fields": [
 					{
 						"data": "data_2",
-						"field": "yearmonth_month"
+						"field": "utcyearmonth_month"
 					},
 					{
 						"data": "data_3",
-						"field": "yearmonth_month"
+						"field": "utcyearmonth_month"
 					},
 					{
 						"data": "data_1",
-						"field": "yearmonth_month"
+						"field": "utcyearmonth_month"
 					}
 				],
 				"sort": true
@@ -529,7 +530,7 @@
 			"format": "%b `%y",
 			"labelAngle": 315,
 			"labelOverlap": false,
-			"formatType": "time",
+			"formatType": "utc",
 			"labelAlign": "right",
 			"labelBaseline": "top",
 			"tickMinStep": {
