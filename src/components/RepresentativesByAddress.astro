@@ -28,8 +28,8 @@ error && console.log('error', error)
 <form
 	class="flex flex-col lg:flex-row flex-wrap gap-sm"
 	method="POST"
+	action={actions.representatives.byAddress}
 >
-	<input {...getActionProps(actions.representatives.byAddress)} />
 	<input
 		class="input input-bordered"
 		type="text"

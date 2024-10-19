@@ -1,5 +1,6 @@
 import { indexBy, groupBy } from 'rambda'
-import { defineAction, z } from "astro:actions"
+import { defineAction } from "astro:actions"
+import { z } from 'astro:schema'
 
 import members from '@data/members.json'
 

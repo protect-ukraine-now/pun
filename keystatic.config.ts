@@ -95,6 +95,32 @@ export default config({
 				}),
 			},
 		}),
+		publications: collection({
+			label: 'Publications',
+			slugField: 'title',
+			path: 'src/content/publications/*',
+			format: { contentField: 'content' },
+			schema: {
+				title: fields.slug({ name: { label: 'Title' } }),
+				date: fields.date({ label: 'Date' }),
+				content: fields.markdoc({
+					label: 'Content',
+					components,
+					options: {
+						image: {
+							directory: 'src/content/publications',
+							publicPath: '.',
+							schema: {
+								title: fields.text({
+									label: 'Caption',
+									description: 'The text to display under the image in a caption',
+								}),
+							},
+						},
+					},
+				}),
+			},
+		}),
 		blog: collection({
 			label: 'Blog',
 			slugField: 'title',
@@ -125,7 +151,7 @@ export default config({
 	ui: {
 		navigation: {
 			'Info': ['readme'],
-			'Content': ['pages', 'notes', 'blog'],
+			'Content': ['pages', 'notes', 'publications', 'blog'],
 		},
 	},
 })

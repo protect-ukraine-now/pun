@@ -8,6 +8,10 @@ const notes = defineCollection({
 	type: 'content',
 })
 
+const publications = defineCollection({
+	type: 'content',
+})
+
 const blog = defineCollection({
 	type: 'content',
 })
@@ -15,5 +19,6 @@ const blog = defineCollection({
 export const collections = {
 	pages,
 	notes,
+	publications,
 	blog,
 }

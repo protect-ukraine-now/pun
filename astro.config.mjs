@@ -27,8 +27,6 @@ export default defineConfig({
 	output: "server",
 	adapter: cloudflare(),
 	experimental: {
-		actions: true,
-		rewriting: true
 	},
 	vite: {
 		define: viteEnv,
