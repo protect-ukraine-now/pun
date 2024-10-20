@@ -8,6 +8,7 @@ lang ??= useLanguage()
 slug = slug.toLowerCase()
 let md = await getEntry(collection, `${slug}-${lang}`)
 md ??= await getEntry(collection, `${slug}-en`)
+md ??= await getEntry(collection, slug)
 // console.log({ collection, slug, lang, md: !!md })
 const { Content } = await md?.render() ?? {}
 ---

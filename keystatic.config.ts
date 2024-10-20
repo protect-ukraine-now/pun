@@ -103,6 +103,15 @@ export default config({
 			schema: {
 				title: fields.slug({ name: { label: 'Title' } }),
 				date: fields.date({ label: 'Date' }),
+				doc: fields.file({
+					label: 'Document',
+					// description: '',
+					// directory: 'public/files/resumes',
+					// publicPath: '/files/resumes/'
+				}),
+				image: fields.image({
+					label: 'Image',
+				}),
 				content: fields.markdoc({
 					label: 'Content',
 					components,

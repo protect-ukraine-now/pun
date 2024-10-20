@@ -55,6 +55,20 @@ content:
       - name: title
         label: Title
         type: string
+      - name: image
+        label: Image
+        type: image
+        list: true
+        options:
+#          path: src/content/publications
+          categories: [image]
+      - name: doc
+        label: Document
+        type: image
+        list: true
+        options:
+#          path: src/content/publications
+          categories: [document, video, audio, compressed]
       - name: body
         type: rich-text
         options:

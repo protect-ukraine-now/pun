@@ -1,0 +1,22 @@
+---
+import { getCollection } from 'astro:content'
+
+import { useLocation } from '@tools/location'
+import Layout from '@layouts/Article.astro'
+import Markdown from '@components/Markdown.astro'
+
+useLocation(Astro)
+const docs = await getCollection('publications')
+---
+
+<Layout>
+	{docs.map(doc =>
+		<div class="flex flex-col">
+			<img src={doc.data.image} />
+			<div>
+				<h3>{doc.data.title}</h3>
+				<Markdown collection="publications" slug={doc.slug} />
+			</div>
+		</div>
+	)}
+</Layout>
