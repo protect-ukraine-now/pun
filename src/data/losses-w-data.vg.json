@@ -194,9 +194,8 @@
 					"y": [
 						{
 							"test": "!isValid(datum[\"sum_ru\"]) || !isFinite(+datum[\"sum_ru\"])",
-							"field": {
-								"group": "height"
-							}
+							"scale": "layer_0_y",
+							"value": 0
 						},
 						{
 							"scale": "layer_0_y",
@@ -248,9 +247,8 @@
 					"y": [
 						{
 							"test": "!isValid(datum[\"sum_ua\"]) || !isFinite(+datum[\"sum_ua\"])",
-							"field": {
-								"group": "height"
-							}
+							"scale": "layer_0_y",
+							"value": 0
 						},
 						{
 							"scale": "layer_0_y",
@@ -298,7 +296,7 @@
 						"line"
 					],
 					"sort": {
-						"field": "datum[\"utcyearmonth_month\"]"
+						"field": "x"
 					},
 					"from": {
 						"data": "faceted_path_layer_1_layer_0_main"
@@ -323,9 +321,8 @@
 							"y": [
 								{
 									"test": "!isValid(datum[\"sum_ratio\"]) || !isFinite(+datum[\"sum_ratio\"])",
-									"field": {
-										"group": "height"
-									}
+									"scale": "layer_1_y",
+									"value": 0
 								},
 								{
 									"scale": "layer_1_y",
@@ -375,9 +372,8 @@
 					"y": [
 						{
 							"test": "!isValid(datum[\"sum_ratio\"]) || !isFinite(+datum[\"sum_ratio\"])",
-							"field": {
-								"group": "height"
-							}
+							"scale": "layer_1_y",
+							"value": 0
 						},
 						{
 							"scale": "layer_1_y",

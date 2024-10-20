@@ -1542,5 +1542,53 @@
 		"AS90",
 		10,
 		"https://www.gov.uk/government/news/uk-to-speed-up-military-kit-deliveries-to-support-ukraines-fight"
+	],
+	[
+		"2024-10-16",
+		"us",
+		"Air Defense System",
+		"Patriot",
+		1,
+		"https://media.defense.gov/2024/Oct/16/2003565637/-1/-1/1/20241015-UKRAINE-FACT-SHEET-PDA-67-FINAL.PDF"
+	],
+	[
+		"2024-10-17",
+		"de",
+		"Tank",
+		"Leopard 1 A5",
+		8,
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
+	],
+	[
+		"2024-10-17",
+		"de",
+		"Infantry Fighting Vehicle",
+		"Marder",
+		20,
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
+	],
+	[
+		"2024-10-17",
+		"de",
+		"Air Defense System",
+		"IRIS-T SLM",
+		3,
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
+	],
+	[
+		"2024-10-17",
+		"de",
+		"Air Defense System",
+		"IRIS-T SLS",
+		3,
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
+	],
+	[
+		"2024-10-17",
+		"de",
+		"Self-Propelled Artillery",
+		"Panzerhaubitze 2000",
+		6,
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
 	]
 ]
