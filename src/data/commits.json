@@ -1496,6 +1496,14 @@
 		null
 	],
 	[
+		"2024-09-05",
+		"ro",
+		"Air Defense System",
+		"MIM-104 Patriot",
+		4,
+		"https://cepa.org/article/romanian-patriot-missiles-for-ukraine-a-great-day-in-our-lives/"
+	],
+	[
 		"2024-09-06",
 		"us",
 		"Infantry Fighting Vehicle",
@@ -1544,18 +1552,26 @@
 		"https://www.gov.uk/government/news/uk-to-speed-up-military-kit-deliveries-to-support-ukraines-fight"
 	],
 	[
+		"2024-10-02",
+		"be",
+		"Self-Propelled Artillery",
+		"CAESAR 155mm",
+		3,
+		"https://www.rtbf.be/article/guerre-en-ukraine-la-belgique-s-apprete-a-faire-don-de-trois-canons-caesar-a-kiev-11442955"
+	],
+	[
 		"2024-10-16",
 		"us",
 		"Air Defense System",
-		"Patriot",
-		1,
+		"MIM-104 Patriot",
+		4,
 		"https://media.defense.gov/2024/Oct/16/2003565637/-1/-1/1/20241015-UKRAINE-FACT-SHEET-PDA-67-FINAL.PDF"
 	],
 	[
 		"2024-10-17",
 		"de",
 		"Tank",
-		"Leopard 1 A5",
+		"Leopard 1",
 		8,
 		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
 	],
@@ -1571,7 +1587,7 @@
 		"2024-10-17",
 		"de",
 		"Air Defense System",
-		"IRIS-T SLM",
+		"IRIS-T",
 		3,
 		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
 	],
@@ -1579,7 +1595,7 @@
 		"2024-10-17",
 		"de",
 		"Air Defense System",
-		"IRIS-T SLS",
+		"IRIS-T",
 		3,
 		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
 	],
