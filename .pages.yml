@@ -75,6 +75,7 @@ content:
           image:
             input: public/publications
             output: /publications
+    view:
       fields: [slug, date, title]
       primary: title
       sort: [date, title]
