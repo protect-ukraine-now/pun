@@ -59,20 +59,22 @@ content:
         label: Image
         type: image
         options:
-          path: src/content/publications
+          input: public/publications
+          output: /publications
           categories: [image]
       - name: doc
         label: Document
         type: image
         options:
-          path: src/content/publications
+          input: public/publications
+          output: /publications
           extensions: [pdf]
       - name: body
         type: rich-text
         options:
           image:
-            path: src/content/publications
-    view:
+            input: public/publications
+            output: /publications
       fields: [slug, date, title]
       primary: title
       sort: [date, title]

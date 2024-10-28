@@ -105,20 +105,21 @@ export default config({
 				date: fields.date({ label: 'Date' }),
 				doc: fields.file({
 					label: 'Document',
-					// description: '',
-					// directory: 'public/files/resumes',
-					// publicPath: '/files/resumes/'
+					directory: 'public/publications',
+					publicPath: '/publications',
 				}),
 				image: fields.image({
 					label: 'Image',
+					directory: 'public/publications',
+					publicPath: '/publications',
 				}),
 				content: fields.markdoc({
 					label: 'Content',
 					components,
 					options: {
 						image: {
-							directory: 'src/content/publications',
-							publicPath: '.',
+							directory: 'public/publications',
+							publicPath: '/publications',
 							schema: {
 								title: fields.text({
 									label: 'Caption',
