@@ -101,18 +101,9 @@ export default config({
 			path: 'src/content/publications/*',
 			format: { contentField: 'content' },
 			schema: {
-				title: fields.slug({ name: { label: 'Title' } }),
 				date: fields.date({ label: 'Date' }),
-				image: fields.image({
-					label: 'Image',
-					directory: 'public/publications',
-					publicPath: '/publications',
-				}),
-				doc: fields.file({
-					label: 'Document',
-					directory: 'public/publications',
-					publicPath: '/publications',
-				}),
+				title: fields.slug({ name: { label: 'Title' } }),
+				url: fields.url({ label: 'PDF URL' }),
 				content: fields.markdoc({
 					label: 'Content',
 					components,

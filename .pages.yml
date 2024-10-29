@@ -47,18 +47,9 @@ content:
       - name: title
         label: Title
         type: string
-      - name: image
-        label: Image
-        type: image
-        options:
-          path: public/publications
-          categories: [image]
-      - name: doc
-        label: Document
-        type: image
-        options:
-          path: public/publications
-          extensions: [pdf]
+      - name: url
+        label: PDF URL
+        type: string
       - name: body
         type: rich-text
         options:
