@@ -1,5 +1,4 @@
 media:
-  input: .
   output: ..
 content:
   - name: readme
