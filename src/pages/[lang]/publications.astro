@@ -6,13 +6,13 @@ import Layout from '@layouts/Article.astro'
 
 useLocation(Astro)
 const docs = await getCollection('publications')
-docs.sort((a, b) => a.data.date > b.data.date ? 1 : -1)
+// docs.sort((a, b) => a.data.date > b.data.date ? 1 : -1)
 ---
 
 <Layout>
 	{docs.map(doc =>
 		<a href={doc.data.url}>
-			<img src={`https://api.apiflash.com/v1/urltoimage?access_key=8d5e7518c12a4ef9bcbb3004b53071e3&url=${encodeURIComponent(doc.data.url)}&format=webp&height=1920&crop=560,80,800,1000`} />
-		</div>
+			<img src={`https://api.apiflash.com/v1/urltoimage?url=${encodeURIComponent(doc.data.url)}&format=webp&height=1080&crop=560,80,800,1000&access_key=8d5e7518c12a4ef9bcbb3004b53071e3`} />
+		</a>
 	)}
 </Layout>
