@@ -3,16 +3,36 @@ import { getCollection } from 'astro:content'
 
 import { useLocation } from '@tools/location'
 import Layout from '@layouts/Article.astro'
+import { isoDate } from '@tools/date'
+import docs1 from '@data/publications.json'
 
 useLocation(Astro)
-const docs = await getCollection('publications')
-// docs.sort((a, b) => a.data.date > b.data.date ? 1 : -1)
+const docs2 = await getCollection('publications')
+const docs = [...docs1, ...docs2.map(x => x.data)]
+docs.sort((a, b) => a.date > b.date ? -1 : 1)
 ---
 
 <Layout>
-	{docs.map(doc =>
-		<a href={doc.data.url}>
-			<img src={`https://api.apiflash.com/v1/urltoimage?url=${encodeURIComponent(doc.data.url)}&format=webp&height=1080&crop=560,80,800,1000&access_key=8d5e7518c12a4ef9bcbb3004b53071e3`} />
-		</a>
-	)}
+	{docs.map(doc => {
+		const img = `https://api.apiflash.com/v1/urltoimage?url=${encodeURIComponent(doc.url)}&format=webp&quality=95&height=1200&crop=560,80,800,1000&access_key=8d5e7518c12a4ef9bcbb3004b53071e3`
+		return (
+			<a
+				href={doc.url}
+				class="block relative w-200 h-100 m-5"
+			>
+				<img
+					src={img}
+					alt={doc.title}
+					class="w-full h-full object-cover object-top"
+				/>
+				<div
+					class="absolute right-0 bottom-0 left-0 h-20"
+					style="background-image: linear-gradient(to top, rgba(199,199,199,1), rgba(199,199,199,0));"
+				/>
+				<span class="absolute right-0 bottom-0 text-white bg-blue-950 p-1">
+					{isoDate(doc.date)}
+				</span>
+			</a>
+		)
+	})}
 </Layout>

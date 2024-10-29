@@ -49,7 +49,7 @@ export default defineConfig({
 		}),
 		keystatic(),
 		unocss({
-			// injectReset: true,
+			injectReset: true,
 			transformers: [transformerDirectives()],
 			presets: [
 				presetUno(),
