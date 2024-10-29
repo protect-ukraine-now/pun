@@ -103,13 +103,13 @@ export default config({
 			schema: {
 				title: fields.slug({ name: { label: 'Title' } }),
 				date: fields.date({ label: 'Date' }),
-				doc: fields.file({
-					label: 'Document',
+				image: fields.image({
+					label: 'Image',
 					directory: 'public/publications',
 					publicPath: '/publications',
 				}),
-				image: fields.image({
-					label: 'Image',
+				doc: fields.file({
+					label: 'Document',
 					directory: 'public/publications',
 					publicPath: '/publications',
 				}),

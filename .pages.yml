@@ -20,9 +20,6 @@ content:
         type: string
       - name: body
         type: rich-text
-        options:
-          image:
-            path: src/content/pages
     view:
       default:
         order: asc
@@ -36,9 +33,6 @@ content:
         type: string
       - name: body
         type: rich-text
-        options:
-          image:
-            path: src/content/notes
     view:
       default:
         order: asc
@@ -46,7 +40,6 @@ content:
     label: Publications
     type: collection
     path: src/content/publications
-    extension: mdoc
     fields:
       - name: date
         label: Date
@@ -58,22 +51,19 @@ content:
         label: Image
         type: image
         options:
-          input: public/publications
-          output: /publications
+          path: public/publications
           categories: [image]
       - name: doc
         label: Document
         type: image
         options:
-          input: public/publications
-          output: /publications
+          path: public/publications
           extensions: [pdf]
       - name: body
         type: rich-text
         options:
           image:
-            input: public/publications
-            output: /publications
+            path: public/publications
     view:
       fields: [slug, date, title]
       primary: title
