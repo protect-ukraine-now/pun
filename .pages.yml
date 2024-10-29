@@ -1,6 +1,7 @@
 media:
   input: src/..
   output: ..
+  path: public
 content:
   - name: readme
     label: README
