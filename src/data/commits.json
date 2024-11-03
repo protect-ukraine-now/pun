@@ -1547,7 +1547,7 @@
 		"2024-09-26",
 		"gb",
 		"Self-Propelled Artillery",
-		"AS90",
+		"AS-90 155mm",
 		10,
 		"https://www.gov.uk/government/news/uk-to-speed-up-military-kit-deliveries-to-support-ukraines-fight"
 	],
@@ -1595,8 +1595,16 @@
 		"2024-10-17",
 		"de",
 		"Self-Propelled Artillery",
-		"Panzerhaubitze 2000",
+		"PzH 2000 155mm",
 		6,
 		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
+	],
+	[
+		"2024-11-01",
+		"us",
+		"Infantry Fighting Vehicle",
+		"Stryker",
+		212,
+		"https://media.defense.gov/2024/Nov/01/2003576673/-1/-1/1/UKRAINE-FACT-SHEET-1-NOVEMBER.PDF"
 	]
 ]
