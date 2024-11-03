@@ -518,7 +518,7 @@ month	category	country	had	lost	captured	provided
 2024-09	Multiple Launch Rocket System	ru		12	0	
 2024-09	Multiple Launch Rocket System	ua		0	0	
 2024-09	Air Defense System	ru		7	2	
-2024-09	Air Defense System	ua		7	0	9
+2024-09	Air Defense System	ua		7	0	13
 2024-09	Warplane	ru		1	0	
 2024-09	Warplane	ua		1	0	
 2024-09	Helicopter	ru		1	0	
@@ -527,3 +527,19 @@ month	category	country	had	lost	captured	provided
 2024-09	Tank	ua		37	3	22
 2024-09	Infantry Fighting Vehicle	ru		161	4	
 2024-09	Infantry Fighting Vehicle	ua		31	3	2
+2024-10	Towed Artillery	ru		0	0	
+2024-10	Towed Artillery	ua		0	0	
+2024-10	Self-Propelled Artillery	ru		3	0	
+2024-10	Self-Propelled Artillery	ua		6	0	9
+2024-10	Multiple Launch Rocket System	ru		4	0	
+2024-10	Multiple Launch Rocket System	ua		0	0	
+2024-10	Air Defense System	ru		4	0	
+2024-10	Air Defense System	ua		1	0	6
+2024-10	Warplane	ru		1	0	
+2024-10	Warplane	ua		0	0	
+2024-10	Helicopter	ru		0	0	
+2024-10	Helicopter	ua		0	0	
+2024-10	Tank	ru		22	1	
+2024-10	Tank	ua		7	0	8
+2024-10	Infantry Fighting Vehicle	ru		64	0	
+2024-10	Infantry Fighting Vehicle	ua		10	1	20

@@ -23,6 +23,9 @@ let balance2 = balance.flatMap(b => Object.keys(vs).map(country => {
 
 commits.forEach(([date, country, category, model, qty]) => {
 	const month = date.substr(0, 7)
+	if (!oryx[month]) {
+		return
+	}
 	oryx[month][category].ua.provided = (oryx[month][category].ua.provided || 0) + qty
 })
 
