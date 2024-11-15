@@ -1,0 +1,34 @@
+---
+import { getCollection } from 'astro:content'
+
+import { isoDate } from '@tools/date'
+import docs1 from '@data/publications.json'
+
+const docs2 = await getCollection('publications')
+const docs = [...docs1, ...docs2.map(x => x.data)]
+docs.sort((a, b) => a.date > b.date ? -1 : 1)
+---
+
+{docs.map(doc => {
+	const img = `/shot?url=${encodeURIComponent(doc.url)}`
+	return (
+		<a
+			href={doc.url}
+			class="block relative w-200 h-100 m-5"
+			target="_blank"
+		>
+			<img
+				src={img}
+				alt={doc.title}
+				class="w-full h-full object-cover object-top"
+			/>
+			<div
+				class="absolute right-0 bottom-0 left-0 h-20"
+				style="background-image: linear-gradient(to top, rgba(199,199,199,1), rgba(199,199,199,0));"
+			/>
+			<span class="absolute right-0 bottom-0 text-white bg-blue-950 p-1">
+				{isoDate(doc.date)}
+			</span>
+		</a>
+	)
+})}

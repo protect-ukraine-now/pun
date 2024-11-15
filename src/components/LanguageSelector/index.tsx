@@ -7,7 +7,7 @@ export default function LanguageSelector({ items, ...props }) {
 	const { pathname } = useLocation()
 	if (!items) return ' '
 	items = Object.entries(items).map(([key, text]) =>
-		[text, replaceLanguageInUrl(pathname, key)]
+		({ name: text, href: replaceLanguageInUrl(pathname, key) })
 	)
 	return <Menu items={items} {...props} />
 }

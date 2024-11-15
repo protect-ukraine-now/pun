@@ -8,7 +8,7 @@
 		"uat/seo": {
 			"title": "Ukraine Aid Tracker",
 			"description": "Analytics of the military assistance to Ukraine",
-			"image": "https://protectukrainenow.org/report_2023-07-11.webp"
+			"image": "https://protectukrainenow.org/shot/en/report"
 		},
 		"country": {
 			"ua": "Ukraine",
@@ -21,7 +21,9 @@
 			"letter": "Letter to Congress",
 			"call": "Call to Congress",
 			"about": "About Us",
-			"methodology": "Methodology"
+			"methodology": "Methodology",
+			"congress": "Congress",
+			"publications": "Publications"
 		},
 		"balance": {
 			"title": "Weapons stockpile",
@@ -133,7 +135,9 @@
 			"report": "Військова допомога",
 			"letter": "Лист до Конгресу",
 			"call": "Дзвінок до Конгресу",
-			"about": "Про нас"
+			"about": "Про нас",
+			"congress": "Конгрес",
+			"publications": "Публікації"
 		},
 		"balance": {
 			"title": "Наявна зброя",

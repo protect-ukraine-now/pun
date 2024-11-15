@@ -125,11 +125,11 @@
   position: relative;
   text-decoration: none;
   transition: all 0.25s ease;
-  cursor: not-allowed;
-  color: $grey-text;
+  cursor: default;
+  // color: $grey-text;
 
-  &[href] {
-    color: $font-color;
+  // &[href] {
+    // color: $font-color;
     cursor: pointer;
     &:hover {
       //color: $dark-text;
@@ -138,7 +138,7 @@
         transform: scaleX(1);
       }
     }
-  }
+  // }
   &:after {
     transition: transform 0.25s ease;
     content: '';

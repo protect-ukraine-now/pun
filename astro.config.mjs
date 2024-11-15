@@ -4,9 +4,8 @@ import preact from '@astrojs/preact'
 import react from '@astrojs/react'
 import cloudflare from '@astrojs/cloudflare'
 import unocss from 'unocss/astro'
-import { presetUno, presetTypography, transformerDirectives } from 'unocss'
+import { presetUno, presetTypography, transformerVariantGroup } from 'unocss'
 import { presetIcons } from '@unocss/preset-icons'
-import presetTagify from '@unocss/preset-tagify'
 import { presetFluid } from 'unocss-preset-fluid'
 import { presetDaisy } from 'unocss-preset-daisy'
 import markdoc from "@astrojs/markdoc"
@@ -49,24 +48,23 @@ export default defineConfig({
 		}),
 		keystatic(),
 		unocss({
-			injectReset: true,
-			transformers: [transformerDirectives()],
+			// injectReset: true,
+			transformers: [transformerVariantGroup()],
 			presets: [
 				presetUno(),
 				presetTypography(),
-				presetTagify(),
 				presetDaisy({
 					themes: ["light"]
 				}),
-				// presetFluid({
-				// 	maxWidth: 1440,
-				// 	minWidth: 375,
-				// 	extendMaxWidth: 1980,
-				// 	extendMinWidth: null,
-				// 	remBase: 16,
-				// 	useRemByDefault: true,
-				// 	commentHelpers: process.env.NODE_ENV !== 'production',
-				// }),
+				presetFluid({
+					// maxWidth: 1440,
+					// minWidth: 375,
+					// extendMaxWidth: 1980,
+					// extendMinWidth: null,
+					// remBase: 16,
+					// useRemByDefault: true,
+					commentHelpers: process.env.NODE_ENV !== 'production',
+				}),
 				presetIcons({
 					prefix: 'i-',
 					extraProperties: {

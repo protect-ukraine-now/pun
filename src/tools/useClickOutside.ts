@@ -4,14 +4,14 @@ export default (ref, callback) => {
 	const handleClickOutside = useCallback(
 		(event) => {
 			if (ref.current && !ref.current.contains(event.target) && callback) {
-				callback();
+				callback(event);
 			}
 		},
 		[ref, callback],
 	);
 
 	useEffect(() => {
-		document?.addEventListener('mousedown', handleClickOutside);
+		document?.addEventListener('mousedown', handleClickOutside, true);
 		return () => {
 			document?.removeEventListener('mousedown', handleClickOutside);
 		};

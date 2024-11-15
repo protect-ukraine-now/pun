@@ -1,42 +1,66 @@
+.menu :where(li > details > summary):after, .menu :where(li > .menu-dropdown-toggle):after {
+    justify-self: end;
+    display: block;
+    margin-top: -0.5rem;
+    height: 0.5rem;
+    width: 0.5rem;
+    transform: rotate(45deg);
+    transition-property: transform, margin-top;
+    transition-duration: 0.3s;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    content: "";
+    transform-origin: 75% 75%;
+    box-shadow: 2px 2px;
+    pointer-events: none;
+}
+
 @import 'src/styles/variables';
 @import 'src/styles/mixins';
 
 .container {
   display: flex;
-  //align-self: center;
+  padding: 0;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
 
-  &.light {
-    .link {
-      color: $light-text;
-      opacity: 0.7;
+  .item {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-      &.active, &:hover {
-        opacity: 1;
+    * {
+      white-space: nowrap;
+      height: 100%;
+      padding: 5px 15px;
+      // display: table-cell;
+      vertical-align: middle;
+    }
+
+    a, span {
+      display: inline-flex;
+      align-items: center;
+    }
+
+    details {
+      height: 100%;
+      summary {
+        height: 100%;
+        align-content: center;
       }
     }
   }
-}
 
-.link {
-  @include url-hover($color-accent-secondary, 4px);
+  * > ul.submenu {
+    top: var(--header-height);
+    margin-top: 0;
+    border-radius: 0;
+    padding: 0;
+    background: black;
 
-  text-transform: uppercase;
-  position: relative;
-  display: flex;
-  font-size: 15px;
-  font-weight: 700;
-  padding: 5px 15px;
-  color: $dark-text;
-  text-decoration: none;
-  align-items: center;
-
-  &.active {
-    cursor: default;
-
-    // after is set in the mixin `url-hover`
-    &:after {
-      transform: scaleX(1);
-      background: $color-accent-secondary;
+    li {
+      padding: 1rem;
     }
   }
 }

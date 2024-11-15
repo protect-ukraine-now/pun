@@ -12,7 +12,7 @@ const Hamburger = ({ menu, languages, className }) => {
 	useNoScroll(isOpen)
 
 	return (
-		<div className={cn(className, style.container, {[style.isOpen]: isOpen})}>
+		<div className={cn('text-black', className, style.container, {[style.isOpen]: isOpen})}>
 			<button type="button" className={style.trigger} onClick={() => setIsOpen(prev => !prev)}><span/></button>
 			<div className={cn(style.menus)}>
 				<Menu

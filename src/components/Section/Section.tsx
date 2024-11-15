@@ -9,7 +9,10 @@ export default function Section({ title, subtitle, className, children, descript
 		<Container className={className}>
 			<div id={slug} class="relative top--13" />
 			<h2 className={style.title}>
-				<a href={`#${slug}`}>
+				<a
+					href={`#${slug}`}
+					className="decoration-none text-inherit"
+				>
 					{title}
 				</a>
 				<div className={style.subtitle}>{subtitle}</div>

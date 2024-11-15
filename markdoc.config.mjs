@@ -2,6 +2,9 @@ import { defineMarkdocConfig, component } from '@astrojs/markdoc/config'
 
 export const config = {
 	tags: {
+		Publications: {
+			render: component('@components/Publications.astro'),
+		},
 		WeaponsIncome: {
 			render: component('@components/WeaponsIncome/index.astro'),
 		},

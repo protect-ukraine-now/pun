@@ -1,4 +1,6 @@
 ---
+import cn from 'clsx'
+
 import style from './style.module.scss'
 import { useLanguage, useText } from '@tools/language'
 import Container from '../Container'
@@ -10,22 +12,33 @@ let { Logo, menu, languages } = Astro.props
 // console.log({ Logo })
 const language = useLanguage()
 const text = useText()
-menu = menu.map(page => [text(`menu.${page}`), `/${language}/${page}`])
+
+function prepareMenu(items) {
+	return items?.map(item => {
+		if (typeof item === 'string') {
+			item = { name: item }
+		}
+		item.href = `/${language}/${item.name}`
+		item.name = text(`menu.${item.name}`)
+		item.items = prepareMenu(item.items)
+		return item
+	})
+}
+menu = prepareMenu(menu)
 ---
 
 <header class={style.header}>
-	<Container className={style.container}>
+	<Container className={cn('text-white', style.container)}>
 		<div class={style.logo}>
 			<Logo />
 		</div>
 		<Menu
+			client:load
 			className={style.menu}
-			theme="light"
 			items={menu}
 		/>
 		<LanguageSelector
 			className={style.menu}
-			theme="light"
 			items={languages}
 		/>
 		<Hamburger
@@ -33,6 +46,6 @@ menu = menu.map(page => [text(`menu.${page}`), `/${language}/${page}`])
 			className={style.hamburger}
 			menu={menu}
 			languages={languages}
-	/>
+		/>
 	</Container>
 </header>

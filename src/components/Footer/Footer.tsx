@@ -1,6 +1,7 @@
 import style from './style.module.scss'
 import Container from '../Container'
 import Share from '../Share'
+import { Link } from '@components/Link'
 
 const Footer = ({ Logo, email }) => {
 	return <>
@@ -11,9 +12,9 @@ const Footer = ({ Logo, email }) => {
 			<Container className={style.container}>
 				<Logo theme="dark" />
 				{/* <Menu className={style.nav} linkClassName={style.link} activeClassName={style.active} items={PAGES_MENU}/> */}
-				<a href={`mailto:${email}`} className={style.email} target="_blank" rel="noreferrer">
+				<Link href={`mailto:${email}`} target="_blank" rel="noreferrer">
 					{email}
-				</a>
+				</Link>
 			</Container>
 		</footer>
 	</>
