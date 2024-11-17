@@ -1,7 +1,7 @@
 import { useLocation } from '@tools/location'
 
 import { replaceLanguageInUrl } from '@tools/language'
-import Menu from '../Menu'
+import * as Menu from '../Menu/Menu'
 
 export default function LanguageSelector({ items, ...props }) {
 	const { pathname } = useLocation()
@@ -9,5 +9,15 @@ export default function LanguageSelector({ items, ...props }) {
 	items = Object.entries(items).map(([key, text]) =>
 		({ name: text, href: replaceLanguageInUrl(pathname, key) })
 	)
-	return <Menu items={items} {...props} />
+	return (
+		<Menu.Root {...props}>
+			{items.map(item =>
+				<Menu.Item key={item.href}>
+					<Menu.Link href={item.href}>
+						{item.name}
+					</Menu.Link>
+				</Menu.Item>
+			)}
+		</Menu.Root>
+	)
 }

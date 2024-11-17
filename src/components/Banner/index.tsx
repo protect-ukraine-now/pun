@@ -1,7 +1,7 @@
 import cn from 'clsx'
 
 import style from './style.module.scss'
-import Container from '../Container'
+import Container from '../Container/Container'
 
 const Banner = ({ className = '', image, title = '', action = '' }) => {
 	return (

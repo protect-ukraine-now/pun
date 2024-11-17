@@ -1,5 +1,5 @@
 import style from './style.module.scss'
-import Container from '../Container'
+import Container from '../Container/Container'
 import Share from '../Share'
 import { Link } from '@components/Link'
 

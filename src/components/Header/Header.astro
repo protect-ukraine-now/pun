@@ -3,10 +3,10 @@ import cn from 'clsx'
 
 import style from './style.module.scss'
 import { useLanguage, useText } from '@tools/language'
-import Container from '../Container'
-import LanguageSelector from '../LanguageSelector'
-import Menu from '../Menu'
-import Hamburger from '../Hamburger'
+import Container from '../Container/Container'
+import LanguageSelector from '../LanguageSelector/LanguageSelector'
+import MenuBar from '../MenuBar/MenuBar'
+import Hamburger from '../Hamburger/Hamburger'
 
 let { Logo, menu, languages } = Astro.props
 // console.log({ Logo })
@@ -32,7 +32,7 @@ menu = prepareMenu(menu)
 		<div class={style.logo}>
 			<Logo />
 		</div>
-		<Menu
+		<MenuBar
 			client:load
 			className={style.menu}
 			items={menu}

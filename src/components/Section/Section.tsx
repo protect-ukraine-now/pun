@@ -1,7 +1,7 @@
 import slugify from 'slugify'
 
 import style from './style.module.scss'
-import Container from '../Container'
+import Container from '../Container/Container'
 
 export default function Section({ title, subtitle, className, children, description }) {
 	const slug = slugify(title)
