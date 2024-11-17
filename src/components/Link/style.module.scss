@@ -25,5 +25,5 @@
   @include url-hover($color-accent-secondary, 4px);
   text-transform: uppercase;
   white-space: nowrap;
-  align-content: center;
+  align-content: center !important;
 }
