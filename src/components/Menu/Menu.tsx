@@ -48,7 +48,7 @@ export function Sub(props) {
 export function Trigger({ items = undefined, href = '', className = '', ...rest }) {
 	let { pathname } = useLocation()
 	let active = items?.some(item => item.href === pathname)
-	console.log(active, items)
+	// console.log(active, items)
 	return (
 		<span className={cn('menu-dropdown-toggle h-full p0 flex mr-4 !text-inherit !bg-inherit !outline-inherit', className)}>
 			<Link

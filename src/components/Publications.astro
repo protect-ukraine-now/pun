@@ -2,11 +2,12 @@
 import { getCollection } from 'astro:content'
 
 import { isoDate } from '@tools/date'
-import docs1 from '@data/publications.json'
 
-const docs2 = await getCollection('publications')
-const docs = [...docs1, ...docs2.map(x => x.data)]
+let docs = await getCollection('publications')
+docs = docs.map(x => x.data)
+console.log(docs)
 docs.sort((a, b) => a.date > b.date ? -1 : 1)
+console.log(docs)
 ---
 
 {docs.map(doc => {
