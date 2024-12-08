@@ -29,7 +29,7 @@
 	 		"as": "PDA_adjusted"
 	 	},
 		{
-			"timeUnit": "yearmonth",
+			"timeUnit": { "unit": "yearmonth", "utc": true },
 			"field": "Date",
 			"as": "label"
 		},
