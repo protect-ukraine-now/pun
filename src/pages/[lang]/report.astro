@@ -4,7 +4,6 @@ import { useApp } from '@tools/app'
 import { useLanguage, useText } from '@tools/language'
 import { useCountry } from '@tools/country'
 import Layout from '@layouts/Base.astro'
-import { Link } from '@components/Link'
 import Container from '@components/Container/Container'
 import WeaponsBalance from '@components/WeaponsBalance/index.astro'
 import WeaponsIncome from '@components/WeaponsIncome/index.astro'
@@ -47,9 +46,9 @@ const t = useText()
 			title={t('report.banner_title')}
 			image={reportBannerImage}
 		>
-			<Link slot="action" href={`/${lang}/letter`}>
+			<a slot="action" href={`/${lang}/letter`}>
 				{t('report.banner_btn')}
-			</Link>
+			</a>
 		</Banner>
 	}
 

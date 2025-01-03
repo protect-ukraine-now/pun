@@ -315,7 +315,7 @@
 		"2022-06-24",
 		"de",
 		"Air Defense System",
-		"IRIS-T",
+		"IRIS-T SLM",
 		3,
 		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
 	],
@@ -1035,7 +1035,7 @@
 		"2023-04-26",
 		"de",
 		"Air Defense System",
-		"IRIS-T",
+		"IRIS-T SLM",
 		3,
 		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
 	],
@@ -1203,7 +1203,7 @@
 		"2023-08-17",
 		"de",
 		"Air Defense System",
-		"IRIS-T",
+		"IRIS-T SLS",
 		2,
 		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
 	],
@@ -1267,7 +1267,7 @@
 		"2023-10-27",
 		"de",
 		"Air Defense System",
-		"IRIS-T",
+		"IRIS-T SLM",
 		3,
 		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
 	],
@@ -1419,7 +1419,7 @@
 		"2024-06-14",
 		"de",
 		"Air Defense System",
-		"IRIS-T",
+		"IRIS-T SLS",
 		2,
 		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
 	],
@@ -1427,7 +1427,7 @@
 		"2024-06-14",
 		"de",
 		"Air Defense System",
-		"IRIS-T",
+		"IRIS-T SLM",
 		3,
 		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
 	],
@@ -1483,8 +1483,8 @@
 		"2024-08-19",
 		"de",
 		"Air Defense System",
-		"IRIS-T",
-		3,
+		"IRIS-T SLS",
+		2,
 		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
 	],
 	[
@@ -1547,7 +1547,7 @@
 		"2024-09-19",
 		"de",
 		"Air Defense System",
-		"Gepard",
+		"Flakpanzer Gepard",
 		3,
 		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
 	],
@@ -1587,7 +1587,7 @@
 		"2024-10-17",
 		"de",
 		"Air Defense System",
-		"IRIS-T",
+		"IRIS-T SLM",
 		3,
 		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
 	],
@@ -1595,8 +1595,8 @@
 		"2024-10-17",
 		"de",
 		"Air Defense System",
-		"IRIS-T",
-		3,
+		"IRIS-T SLS",
+		2,
 		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
 	],
 	[
@@ -1627,7 +1627,7 @@
 		"2024-11-20",
 		"de",
 		"Self-Propelled Artillery",
-		"Panzerhaubitze 2000",
+		"PzH 2000 155mm",
 		4,
 		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
 	],
@@ -1643,8 +1643,72 @@
 		"2024-11-28",
 		"nl",
 		"Air Defense System",
-		"Patriot",
+		"",
 		3,
 		"https://x.com/DefensieMin/status/1862052642538565821"
+	],
+	[
+		"2024-12-07",
+		"dk",
+		"Warplane",
+		"F-16",
+		6,
+		"https://www.radiosvoboda.org/a/news-zelensky-druha-partiia-f-16-daniia/33230264.html"
+	],
+	[
+		"2024-12-23",
+		"de",
+		"Tank",
+		"Leopard 1",
+		15,
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
+	],
+	[
+		"2024-12-23",
+		"de",
+		"Air Defense System",
+		"IRIS-T SLM",
+		3,
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
+	],
+	[
+		"2024-12-23",
+		"de",
+		"Air Defense System",
+		"IRIS-T SLS",
+		2,
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
+	],
+	[
+		"2024-12-23",
+		"de",
+		"Air Defense System",
+		"Diehl Kinetic Defence Vehicle",
+		12,
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
+	],
+	[
+		"2024-12-23",
+		"de",
+		"Air Defense System",
+		"MIM-104 Patriot",
+		2,
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
+	],
+	[
+		"2024-12-23",
+		"de",
+		"Air Defense System",
+		"Flakpanzer Gepard",
+		2,
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
+	],
+	[
+		"2024-12-23",
+		"de",
+		"Self-Propelled Artillery",
+		"PzH 2000 155mm",
+		1,
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
 	]
 ]
