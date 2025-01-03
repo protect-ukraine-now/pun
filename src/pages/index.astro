@@ -6,7 +6,7 @@ import { useCountry } from '@tools/country'
 function defaults(app, country) {
     if (app === 'uat') return '/en/report'
     let page = {
-        US: '/en/call',
+        US: '/en/home',
         UA: '/uk/report',
     }[country]
     return page || '/en/report'

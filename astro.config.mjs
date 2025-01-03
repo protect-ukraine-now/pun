@@ -54,7 +54,7 @@ export default defineConfig({
 				presetUno(),
 				presetTypography(),
 				presetDaisy({
-					themes: ["light"]
+					themes: ["emerald"]
 				}),
 				presetFluid({
 					// maxWidth: 1440,

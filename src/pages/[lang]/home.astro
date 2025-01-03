@@ -1,25 +1,45 @@
 ---
-import { useLocation } from "@tools/location"
-import Layout from "@layouts/Base.astro"
-import About from "@components/tiles/About.astro"
-import Report from "@components/tiles/Report.astro"
-import Blog from "@components/tiles/Blog.astro"
-import Congress from "@components/tiles/Congress.astro"
-import News from "@components/tiles/News.astro"
-import Faq from "@components/tiles/Faq.astro"
-import Vlog from "@components/tiles/Vlog.astro"
+import { useLocation } from '@tools/location'
+import Layout from '@layouts/Article.astro'
 
 useLocation(Astro)
 ---
-
 <Layout>
-	<div class="h-full grid auto-rows-fr place-items-stretch p-2 lg:gap-2 lg:grid-cols-2 xl:grid-cols-3 grid-flow-row">
-		<About />
-		<Report />
-		<Congress />
-		<Vlog />
-		<Blog />
-		<News />
-		<Faq />
-	</div>
+	<!-- <h1>Ukraine needs Your Support!</h1> -->
+	<main class="p-3 md:p-6 lg:p-8 bg-gray-100">
+		<div class="mx-auto">
+			<div class="flex justify-center">
+				<a
+					class="w-full max-w-66"
+					style="aspect-ratio: 125/127"
+					href="https://campaign.protectukrainenow.org"
+				>
+					<img
+						class="w-full max-w-66"
+						style="aspect-ratio: 125/127"
+						src="https://campaign.protectukrainenow.org/images/pda.png"
+					/>
+				</a>
+			</div>
+			<div class="p-3 text-lg font-bold">
+				Urgent Action: The Biden Admin Must Transfer the Remaining $6.3 Billion in PDA Authority to Ukraine
+			</div>
+			<div class="border-solid border-2 p-4 border-gray-400 rounded-lg text-lg break-words">
+				<p class="mt-0">
+					The White House must urgently transfer $6.3 billion in weapons to Ukraine under the remaining Presidential Drawdown Authority (PDA) before President Biden’s term ends on January 20, 2025. Delaying this critical aid will put Ukrainian defenders and civilians at even greater risk, jeopardizing the frontlines and the potential loss of more territory to the invaders.
+				</p>
+				<div class="flex justify-center">
+					<a
+						href="https://campaign.protectukrainenow.org"
+						class="btn btn-secondary"
+					>
+						CLICK HERE
+					</a>
+				</div>
+				<p class="py-1">
+					Despite President Biden's commitment to utilize all remaining PDA authority to deliver weapons before the end of his term, the pace of shipments remains largely unchanged. According to the Pentagon announcements, in November only $700 million (8% of the remaining authority) in military aid was sent to Ukraine. Accelerating the delivery of critical munitions to Ukraine is essential for all of the remaining PDA to be transferred to Ukraine and requires urgent action. We must hold the White House accountable to its commitment.
+				</p>
+			</div>
+		</div>
+	</main>
 </Layout>
