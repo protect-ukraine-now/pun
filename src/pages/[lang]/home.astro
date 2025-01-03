@@ -1,12 +1,12 @@
 ---
 import { useLocation } from '@tools/location'
-import Layout from '@layouts/Article.astro'
+import Layout from '@layouts/Base.astro'
 
 useLocation(Astro)
 ---
 <Layout>
 	<!-- <h1>Ukraine needs Your Support!</h1> -->
-	<main class="p-3 md:p-6 lg:p-8 bg-gray-100">
+	<main class="p-3 md:p-6 lg:p-8">
 		<div class="mx-auto">
 			<div class="flex justify-center">
 				<a
@@ -31,7 +31,7 @@ useLocation(Astro)
 				<div class="flex justify-center">
 					<a
 						href="https://campaign.protectukrainenow.org"
-						class="btn btn-secondary"
+						class="btn btn-accent btn-wide"
 					>
 						CLICK HERE
 					</a>
