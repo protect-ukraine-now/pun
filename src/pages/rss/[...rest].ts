@@ -14,7 +14,6 @@ export async function GET({ request }) {
 		let items = feed.rss.channel.item.map(({ title, link, source }) => ({
 			title: title._text,
 			link: link._text,
-			source: source._text
 		}))
 		return new Response(JSON.stringify(items, null, '	'))
 	} catch(e) {
