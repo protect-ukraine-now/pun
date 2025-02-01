@@ -15,7 +15,7 @@ export async function GET({ request }) {
 		console.log(JSON.stringify(items, null, 4))
 		items = items.map(i => ({
 			title: i.children[0].title.content,
-			link: i.children[1].link.content,
+			url: i.children[1].link.content,
 		}))
 		return new Response(JSON.stringify(items, null, '	'))
 	} catch(e) {
