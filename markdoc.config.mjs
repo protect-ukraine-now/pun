@@ -32,6 +32,9 @@ export const config = {
 		RepresentativesByAddress: {
 			render: component('@components/RepresentativesByAddress.astro'),
 		},
+		Campaign: {
+			render: component('@components/Campaign.astro'),
+		},
 	},
 }
 
