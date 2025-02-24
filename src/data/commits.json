@@ -1643,7 +1643,7 @@
 		"2024-11-28",
 		"nl",
 		"Air Defense System",
-		"",
+		"PATRIOT",
 		3,
 		"https://x.com/DefensieMin/status/1862052642538565821"
 	],
@@ -1726,5 +1726,21 @@
 		"Mirage 2000-5",
 		6,
 		"https://thedefensepost.com/2025/02/06/france-first-mirage-2000-ukraine/"
+	],
+	[
+		"2025-02-14",
+		"gb",
+		"Air Defense System",
+		"Gravehawk ",
+		2,
+		"https://www.newsweek.com/gravehawk-shipping-container-air-defense-uk-ukraine-2031396"
+	],
+	[
+		"2025-02-17",
+		"de",
+		"Self-Propelled Artillery",
+		"Zuzana 2",
+		4,
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
 	]
 ]
