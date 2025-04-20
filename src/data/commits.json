@@ -1715,7 +1715,7 @@
 		"2025-01-14",
 		"de",
 		"Infantry Fighting Vehicle",
-		"MARDER",
+		"Marder",
 		5,
 		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
 	],
@@ -1723,7 +1723,7 @@
 		"2025-02-06",
 		"fr",
 		"Warplane",
-		"Mirage 2000-5",
+		"Mirage 2000",
 		6,
 		"https://thedefensepost.com/2025/02/06/france-first-mirage-2000-ukraine/"
 	],
@@ -1731,7 +1731,7 @@
 		"2025-02-14",
 		"gb",
 		"Air Defense System",
-		"Gravehawk ",
+		"Gravehawk",
 		2,
 		"https://www.newsweek.com/gravehawk-shipping-container-air-defense-uk-ukraine-2031396"
 	],
@@ -1750,5 +1750,13 @@
 		"LAV III",
 		25,
 		"https://defence-blog.com/canada-sends-f-16-simulators-25-lavs-to-ukraine/"
+	],
+	[
+		"2025-03-17",
+		"de",
+		"Air Defense System",
+		"Flakpanzer Gepard",
+		3,
+		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
 	]
 ]
