@@ -1763,7 +1763,7 @@
 		"2025-04-17",
 		"de",
 		"Self-Propelled Artillery",
-		"Zuzana 2 155mm",
+		"Zuzana 155mm",
 		3,
 		"https://www.bundesregierung.de/breg-en/news/military-support-ukraine-2054992"
 	],
@@ -1774,5 +1774,45 @@
 		"F-16",
 		6,
 		"https://euromaidanpress.com/2025/05/25/ukraine-to-get-last-pledged-dutch-f-16-fighter-jets-tomorrow/"
+	],
+	[
+		"2025-07-19",
+		"au",
+		"Tank",
+		"Abrams M1A1",
+		49,
+		"https://www.newsweek.com/ukraine-gets-major-abrams-tank-boost-australia-2101127"
+	],
+	[
+		"2025-07-30",
+		"pt",
+		"Helicopter",
+		"SA 330 Puma",
+		8,
+		"https://euromaidanpress.com/2025/07/30/portugal-ukraine-military-aid-drones-4-billion/"
+	],
+	[
+		"2025-07-16",
+		"pl",
+		"Self-Propelled Artillery",
+		"AHS Krab 155mm",
+		18,
+		"https://defence24.com/industry/piorun-manpads-for-moldova-and-other-exports-of-polish-arms-in-2024-report"
+	],
+	[
+		"2025-07-16",
+		"pl",
+		"Self-Propelled Artillery",
+		"Gvozdika 122mm",
+		78,
+		"https://defence24.com/industry/piorun-manpads-for-moldova-and-other-exports-of-polish-arms-in-2024-report"
+	],
+	[
+		"2025-09-11",
+		"se",
+		"Self-Propelled Artillery",
+		"Archer 155mm",
+		18,
+		"https://www.government.se/press-releases/2025/09/new-military-support-package-to-ukraine-worth-over-sek-9-billion/"
 	]
 ]

@@ -7,7 +7,7 @@ import oryx from './oryx.json' with { type: 'json' }
 const what = {
 	'Towed Artillery': 'Towed Artillery',
 	'Self-Propelled Artillery': 'Self-Propelled Artillery',
-	'Multiple Rocket Launchers': 'Multiple Launch Rocket System',
+	'Rocket and Missile Artillery': 'Multiple Launch Rocket System',
 	'Self-Propelled Anti-Aircraft Guns': 'Air Defense System',
 	'Surface-To-Air Missile Systems': 'Air Defense System',
 	'Aircraft': 'Warplane',
