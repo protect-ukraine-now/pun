@@ -3606,5 +3606,87 @@
 				"captured": 167
 			}
 		}
+	},
+	"2025-10": {
+		"Towed Artillery": {
+			"ru": {
+				"lost": 536,
+				"captured": 98
+			},
+			"ua": {
+				"lost": 246,
+				"captured": 22
+			}
+		},
+		"Self-Propelled Artillery": {
+			"ru": {
+				"lost": 987,
+				"captured": 109
+			},
+			"ua": {
+				"lost": 687,
+				"captured": 26
+			}
+		},
+		"Multiple Launch Rocket System": {
+			"ru": {
+				"lost": 533,
+				"captured": 54
+			},
+			"ua": {
+				"lost": 93,
+				"captured": 9
+			}
+		},
+		"Air Defense System": {
+			"ru": {
+				"lost": 379,
+				"captured": 31
+			},
+			"ua": {
+				"lost": 220,
+				"captured": 10
+			}
+		},
+		"Warplane": {
+			"ru": {
+				"lost": 168,
+				"captured": 0
+			},
+			"ua": {
+				"lost": 111,
+				"captured": 1
+			}
+		},
+		"Helicopter": {
+			"ru": {
+				"lost": 166,
+				"captured": 2
+			},
+			"ua": {
+				"lost": 52,
+				"captured": 3
+			}
+		},
+		"Tank": {
+			"ru": {
+				"lost": 4211,
+				"captured": 537
+			},
+			"ua": {
+				"lost": 1316,
+				"captured": 148
+			}
+		},
+		"Infantry Fighting Vehicle": {
+			"ru": {
+				"lost": 6255,
+				"captured": 631
+			},
+			"ua": {
+				"lost": 1473,
+				"captured": 166
+			}
+		}
 	}
 }
