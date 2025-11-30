@@ -105,7 +105,7 @@
 			"ukr_usai_total": "USAI*",
 			"delivered": "Delivered",
 			"ukr_pda_available": "PDA Available",
-			"ukr_pda_expired": "FY22 Expired",
+			"ukr_pda_expired": "Expired",
 			"ukr_usai_obligated": "Under a contract",
 			"ukr_usai_pending": "Pending a contract",
 			"ukr_usai_available": "USAI Available"
@@ -219,7 +219,7 @@
 			"ukr_usai_total": "USAI*",
 			"delivered": "Передано",
 			"ukr_pda_available": "Доступно по PDA",
-			"ukr_pda_expired": "Прострочено у 2022 ФР",
+			"ukr_pda_expired": "Прострочено",
 			"ukr_usai_obligated": "Контракт укладено",
 			"ukr_usai_pending": "Контракт не укладено",
 			"ukr_usai_available": "Доступно по USAI"
