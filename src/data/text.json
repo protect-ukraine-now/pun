@@ -23,7 +23,8 @@
 			"about": "About Us",
 			"methodology": "Methodology",
 			"congress": "Congress",
-			"publications": "Publications"
+			"publications": "Publications",
+			"support": "Support"
 		},
 		"balance": {
 			"title": "Weapons stockpile",
@@ -137,7 +138,8 @@
 			"call": "Дзвінок до Конгресу",
 			"about": "Про нас",
 			"congress": "Конгрес",
-			"publications": "Публікації"
+			"publications": "Публікації",
+			"support": "Підтримка"
 		},
 		"balance": {
 			"title": "Наявна зброя",
