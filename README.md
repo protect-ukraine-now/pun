@@ -34,3 +34,4 @@ Just edit this file to trigger
 
 - 2024-06-03
 - 2026-02-15
+- 2026-08-23
